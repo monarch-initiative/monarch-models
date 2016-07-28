@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7d744e45-017d-459b-be64-28d61231a448>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0060224.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0060224>
+
+    Annotations: 
+        rdfs:label "ATRIAL FIBRILLATION"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005110>
+
+    Annotations: 
+        rdfs:label "Atrial fibrillation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/4038bfde-2f0b-40ef-93f6-b6ac09c6ac5f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:atrial fibrillation"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005110>
+    
+    
+Individual: <http://model.geneontology.org/51886df5-4f42-4270-9ad8-58a8412d2b2d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0060224>
+    
+    
+Individual: <http://model.geneontology.org/d907fb50-5e2c-455b-a649-ccfb5e9bc1e1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0060224>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4038bfde-2f0b-40ef-93f6-b6ac09c6ac5f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/51886df5-4f42-4270-9ad8-58a8412d2b2d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4038bfde-2f0b-40ef-93f6-b6ac09c6ac5f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4038bfde-2f0b-40ef-93f6-b6ac09c6ac5f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4038bfde-2f0b-40ef-93f6-b6ac09c6ac5f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0060224>
+
+    Annotations: 
+        rdfs:label "ATRIAL FIBRILLATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

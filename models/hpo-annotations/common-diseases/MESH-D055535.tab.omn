@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6cf30514-8b12-4454-9b0f-91de629c3a15>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D055535.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D055535>
+
+    Annotations: 
+        rdfs:label "Morgellons Disease"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000746>
+
+    Annotations: 
+        rdfs:label "Delusions"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/22eac890-8f00-49e8-af6b-16e469be926f>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/21933231;PMID:19878403;PMID:22250620;PMID:22458994;PMID:20149149>
+    
+    
+Individual: <http://model.geneontology.org/308d714a-83f7-47a5-a2a4-81d8f4d5607d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 84.48464348655128/11)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000746>
+    
+    
+Individual: <http://model.geneontology.org/d086bbf2-4523-4b11-9545-643b4ecb487b>
+
+    Types: 
+        <MESH:D055535>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/308d714a-83f7-47a5-a2a4-81d8f4d5607d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/22eac890-8f00-49e8-af6b-16e469be926f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/308d714a-83f7-47a5-a2a4-81d8f4d5607d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/308d714a-83f7-47a5-a2a4-81d8f4d5607d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/308d714a-83f7-47a5-a2a4-81d8f4d5607d>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/21933231;PMID:19878403;PMID:22250620;PMID:22458994;PMID:20149149>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

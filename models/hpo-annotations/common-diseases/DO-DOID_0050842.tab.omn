@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/deb0d4b3-6a30-469c-b565-eef7b6b61362>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0050842.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0050842>
+
+    Annotations: 
+        rdfs:label "OCULOGYRIC CRISIS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010553>
+
+    Annotations: 
+        rdfs:label "Oculogyric crisis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/116bd4de-a539-41be-92d5-2508cbc28e3f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:oculogyric crisis"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010553>
+    
+    
+Individual: <http://model.geneontology.org/316313ec-ccce-419f-bb5b-0f58b10c392c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0050842>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/116bd4de-a539-41be-92d5-2508cbc28e3f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ae9f91b4-73dd-403c-81a1-59f60ad55400>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/116bd4de-a539-41be-92d5-2508cbc28e3f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/116bd4de-a539-41be-92d5-2508cbc28e3f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/116bd4de-a539-41be-92d5-2508cbc28e3f>
+    
+    
+Individual: <http://model.geneontology.org/ae9f91b4-73dd-403c-81a1-59f60ad55400>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0050842>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0050842>
+
+    Annotations: 
+        rdfs:label "OCULOGYRIC CRISIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e7c3a22b-b2b0-41b5-af31-c0d336e03c44>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D063371.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D063371>
+
+    Annotations: 
+        rdfs:label "Myringosclerosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009797>
+
+    Annotations: 
+        rdfs:label "Cholesteatoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/39a42021-fff7-4295-9cac-290b9a0bba94>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/22365389>
+    
+    
+Individual: <http://model.geneontology.org/ab4ac68a-7484-4d69-b80c-06cf65ae2211>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 6.954512331170584/1)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009797>
+    
+    
+Individual: <http://model.geneontology.org/d4ba9f69-4cc7-4410-aeb3-f3e407967815>
+
+    Types: 
+        <MESH:D063371>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab4ac68a-7484-4d69-b80c-06cf65ae2211>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/39a42021-fff7-4295-9cac-290b9a0bba94>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab4ac68a-7484-4d69-b80c-06cf65ae2211>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab4ac68a-7484-4d69-b80c-06cf65ae2211>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab4ac68a-7484-4d69-b80c-06cf65ae2211>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/22365389>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

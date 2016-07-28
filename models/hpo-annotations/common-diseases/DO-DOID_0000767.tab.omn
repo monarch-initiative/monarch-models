@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/92077adc-a951-47ef-8cf5-61d5cd36c805>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0000767.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0000767>
+
+    Annotations: 
+        rdfs:label "MUSCULAR ATROPHY"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003202>
+
+    Annotations: 
+        rdfs:label "Skeletal muscle atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/48c14bdb-ed8b-4d35-8a48-af1de9115121>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:Muscle wasting"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003202>
+    
+    
+Individual: <http://model.geneontology.org/bc9b500a-55d6-4fe5-8828-6731f054b165>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0000767>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48c14bdb-ed8b-4d35-8a48-af1de9115121>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ecb59d8a-bedf-423a-b2a3-e3fa8d7dbfba>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48c14bdb-ed8b-4d35-8a48-af1de9115121>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48c14bdb-ed8b-4d35-8a48-af1de9115121>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48c14bdb-ed8b-4d35-8a48-af1de9115121>
+    
+    
+Individual: <http://model.geneontology.org/ecb59d8a-bedf-423a-b2a3-e3fa8d7dbfba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0000767>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0000767>
+
+    Annotations: 
+        rdfs:label "MUSCULAR ATROPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

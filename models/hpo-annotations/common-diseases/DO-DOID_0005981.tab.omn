@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d37a9c28-e183-4ba5-a4ac-580a0558fc2e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0005981.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0005981>
+
+    Annotations: 
+        rdfs:label "HAMARTOMA OF HYPOTHALAMUS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002444>
+
+    Annotations: 
+        rdfs:label "Hypothalamic hamartoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/184ede6d-ae7f-459e-a963-8aa7544e77ac>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:Hypothalamic hamartoma"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002444>
+    
+    
+Individual: <http://model.geneontology.org/994190c6-552a-4db1-a079-587def071799>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0005981>
+    
+    
+Individual: <http://model.geneontology.org/cd3643a9-098f-458e-826e-466b7674ce5b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0005981>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/184ede6d-ae7f-459e-a963-8aa7544e77ac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/994190c6-552a-4db1-a079-587def071799>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/184ede6d-ae7f-459e-a963-8aa7544e77ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/184ede6d-ae7f-459e-a963-8aa7544e77ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/184ede6d-ae7f-459e-a963-8aa7544e77ac>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0005981>
+
+    Annotations: 
+        rdfs:label "HAMARTOMA OF HYPOTHALAMUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

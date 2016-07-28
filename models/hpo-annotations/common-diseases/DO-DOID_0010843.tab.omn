@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0b9a25f0-04ad-4d5a-87b4-94e7950d79ed>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0010843.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0010843>
+
+    Annotations: 
+        rdfs:label "Encephalomyelitis, Western Equine"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002383>
+
+    Annotations: 
+        rdfs:label "Encephalitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4447df03-8bbd-49e2-bc09-e1237af79a43>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/19407138;PMID:17499379;PMID:23031498;PMID:19428608;PMID:18801549>
+    
+    
+Individual: <http://model.geneontology.org/756f435f-032e-460a-aa87-4ccf71d3c081>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 88.17451169332415/17). MESHID: D020241"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002383>
+    
+    
+Individual: <http://model.geneontology.org/cd696134-6541-49e6-b11c-b20a9f9e18fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0010843>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/756f435f-032e-460a-aa87-4ccf71d3c081>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4447df03-8bbd-49e2-bc09-e1237af79a43>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/756f435f-032e-460a-aa87-4ccf71d3c081>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/756f435f-032e-460a-aa87-4ccf71d3c081>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/756f435f-032e-460a-aa87-4ccf71d3c081>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/19407138;PMID:17499379;PMID:23031498;PMID:19428608;PMID:18801549>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

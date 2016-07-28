@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6780b399-ec67-4b32-900d-a6e5094086bd>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D045827.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D045827>
+
+    Annotations: 
+        rdfs:label "Cytophagaceae Infections"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008066>
+
+    Annotations: 
+        rdfs:label "Abnormal blistering of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/12fd4959-ad76-4e2e-a976-031df7f4e0b2>
+
+    Types: 
+        <MESH:D045827>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ed8e7eb1-0750-42a2-a07f-743383b435cb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a76ff7de-14ff-4a39-b26b-25876de01cb7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ed8e7eb1-0750-42a2-a07f-743383b435cb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ed8e7eb1-0750-42a2-a07f-743383b435cb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ed8e7eb1-0750-42a2-a07f-743383b435cb>
+    
+    
+Individual: <http://model.geneontology.org/a76ff7de-14ff-4a39-b26b-25876de01cb7>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/21848120>
+    
+    
+Individual: <http://model.geneontology.org/ed8e7eb1-0750-42a2-a07f-743383b435cb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 6.620198977437063/1)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008066>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/21848120>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

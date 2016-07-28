@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a063b1c1-0806-4e30-aece-42b5ed323ca6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0004188.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0004188>
+
+    Annotations: 
+        rdfs:label "ECHOLALIA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010529>
+
+    Annotations: 
+        rdfs:label "Echolalia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/8b13236b-3ff8-4c85-8087-6cb85167681e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:echolalia"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010529>
+    
+    
+Individual: <http://model.geneontology.org/8d1d424a-c320-40ea-8c78-f49ebc808553>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0004188>
+    
+    
+Individual: <http://model.geneontology.org/cb9f60fa-1b29-4717-98ca-81a1564ef6f0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0004188>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b13236b-3ff8-4c85-8087-6cb85167681e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8d1d424a-c320-40ea-8c78-f49ebc808553>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b13236b-3ff8-4c85-8087-6cb85167681e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b13236b-3ff8-4c85-8087-6cb85167681e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b13236b-3ff8-4c85-8087-6cb85167681e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0004188>
+
+    Annotations: 
+        rdfs:label "ECHOLALIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

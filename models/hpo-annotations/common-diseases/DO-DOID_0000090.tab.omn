@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/16c0ab01-db5d-45b5-9c4d-3e37131168dc>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0000090.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0000090>
+
+    Annotations: 
+        rdfs:label "DEGENERATIVE DISC DISEASE"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008419>
+
+    Annotations: 
+        rdfs:label "Intervertebral disc degeneration"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/14617041-c207-4ae3-91ac-a6f3bfcb4790>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:intervertebral disc degeneration"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008419>
+    
+    
+Individual: <http://model.geneontology.org/1fb8f7d3-6ae7-4cf4-9d2f-8ba7262bacf3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0000090>
+    
+    
+Individual: <http://model.geneontology.org/b6549b4a-850b-4990-994e-879e2d3b1667>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0000090>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14617041-c207-4ae3-91ac-a6f3bfcb4790>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1fb8f7d3-6ae7-4cf4-9d2f-8ba7262bacf3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14617041-c207-4ae3-91ac-a6f3bfcb4790>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14617041-c207-4ae3-91ac-a6f3bfcb4790>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14617041-c207-4ae3-91ac-a6f3bfcb4790>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0000090>
+
+    Annotations: 
+        rdfs:label "DEGENERATIVE DISC DISEASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

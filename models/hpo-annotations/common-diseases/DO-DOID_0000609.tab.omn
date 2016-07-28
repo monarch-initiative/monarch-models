@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6d9ba6b2-869e-43d3-94c1-80b1391bc1a0>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0000609.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0000609>
+
+    Annotations: 
+        rdfs:label "SKIN ABNORMALITY"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000951>
+
+    Annotations: 
+        rdfs:label "Abnormality of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/011858ea-0d10-48eb-b6cc-aed5b7dae2cb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:skin abnormality"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000951>
+    
+    
+Individual: <http://model.geneontology.org/0d11ebaa-e8a2-41eb-8bf5-65775e1bf5a3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0000609>
+    
+    
+Individual: <http://model.geneontology.org/c1f446b5-a004-4a37-a346-504c4f539ebd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0000609>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011858ea-0d10-48eb-b6cc-aed5b7dae2cb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0d11ebaa-e8a2-41eb-8bf5-65775e1bf5a3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011858ea-0d10-48eb-b6cc-aed5b7dae2cb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011858ea-0d10-48eb-b6cc-aed5b7dae2cb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011858ea-0d10-48eb-b6cc-aed5b7dae2cb>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0000609>
+
+    Annotations: 
+        rdfs:label "SKIN ABNORMALITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

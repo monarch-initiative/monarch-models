@@ -1,0 +1,193 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a931af00-091a-431e-9e52-8af802d32c1f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D058923.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D058923>
+
+    Annotations: 
+        rdfs:label "Medial Tibial Stress Syndrome"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003326>
+
+    Annotations: 
+        rdfs:label "Myalgia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009027>
+
+    Annotations: 
+        rdfs:label "Foot dorsiflexor weakness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100537>
+
+    Annotations: 
+        rdfs:label "Fasciitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1e1d6eab-198b-48ab-94c4-edb67b33ea21>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 6.592263395543644/1)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100537>
+    
+    
+Individual: <http://model.geneontology.org/3362ecc7-8186-41d7-aab6-7a965b7dd45b>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/20561280>
+    
+    
+Individual: <http://model.geneontology.org/5dfe0079-822a-4ad2-9e43-da1e4ab025b3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 8.846612974310439/1)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009027>
+    
+    
+Individual: <http://model.geneontology.org/6e1dbc38-1c34-4869-b020-67e9217abd9d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 6.374073873095552/1)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003326>
+    
+    
+Individual: <http://model.geneontology.org/7a5c7d84-375f-4e66-946a-e4bb10796537>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/22827721>
+    
+    
+Individual: <http://model.geneontology.org/bd3e2bc5-7326-491a-9c62-794ab6d769ec>
+
+    Types: 
+        <MESH:D058923>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1e1d6eab-198b-48ab-94c4-edb67b33ea21>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7a5c7d84-375f-4e66-946a-e4bb10796537>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1e1d6eab-198b-48ab-94c4-edb67b33ea21>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1e1d6eab-198b-48ab-94c4-edb67b33ea21>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1e1d6eab-198b-48ab-94c4-edb67b33ea21>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5dfe0079-822a-4ad2-9e43-da1e4ab025b3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3362ecc7-8186-41d7-aab6-7a965b7dd45b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5dfe0079-822a-4ad2-9e43-da1e4ab025b3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5dfe0079-822a-4ad2-9e43-da1e4ab025b3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5dfe0079-822a-4ad2-9e43-da1e4ab025b3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e1dbc38-1c34-4869-b020-67e9217abd9d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d4b6692f-9404-42af-bf9e-0107bf4fcd32>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e1dbc38-1c34-4869-b020-67e9217abd9d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e1dbc38-1c34-4869-b020-67e9217abd9d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e1dbc38-1c34-4869-b020-67e9217abd9d>
+    
+    
+Individual: <http://model.geneontology.org/d4b6692f-9404-42af-bf9e-0107bf4fcd32>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/21667913>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/20561280>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/21667913>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/22827721>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

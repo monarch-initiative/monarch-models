@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5093242f-93e2-43d2-aa4a-8143916eb257>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0000574.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0000574>
+
+    Annotations: 
+        rdfs:label "PERIPHERAL NERVOUS SYSTEM DISEASE"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000759>
+
+    Annotations: 
+        rdfs:label "Abnormal peripheral nervous system morphology"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009830>
+
+    Annotations: 
+        rdfs:label "Peripheral neuropathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/0deba602-238b-41fa-8fb5-426ff5bb4a00>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:peripheral neuropathy"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009830>
+    
+    
+Individual: <http://model.geneontology.org/9d6e6b49-b6da-44fd-90da-9fbb114bfba3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0000574>
+    
+    
+Individual: <http://model.geneontology.org/b88c01aa-94b9-42c2-bc50-707b2d167897>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:peripheral nervous system disease"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000759>
+    
+    
+Individual: <http://model.geneontology.org/dc825227-944e-4fde-8229-8cfa74c65142>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0000574>
+    
+    
+Individual: <http://model.geneontology.org/f8a4cb3a-433a-499f-a626-e629e348aa74>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0000574>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88c01aa-94b9-42c2-bc50-707b2d167897>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dc825227-944e-4fde-8229-8cfa74c65142>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88c01aa-94b9-42c2-bc50-707b2d167897>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88c01aa-94b9-42c2-bc50-707b2d167897>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88c01aa-94b9-42c2-bc50-707b2d167897>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0deba602-238b-41fa-8fb5-426ff5bb4a00>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9d6e6b49-b6da-44fd-90da-9fbb114bfba3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0deba602-238b-41fa-8fb5-426ff5bb4a00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0deba602-238b-41fa-8fb5-426ff5bb4a00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0deba602-238b-41fa-8fb5-426ff5bb4a00>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0000574>
+
+    Annotations: 
+        rdfs:label "PERIPHERAL NERVOUS SYSTEM DISEASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

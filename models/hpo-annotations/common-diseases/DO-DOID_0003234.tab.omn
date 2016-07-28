@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/db5dcc0d-0ae1-47f3-bd85-669e21f4287b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0003234.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0003234>
+
+    Annotations: 
+        rdfs:label "CENTRAL NERVOUS SYSTEM LYMPHOMA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0030069>
+
+    Annotations: 
+        rdfs:label "Primary central nervous system lymphoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/3ed7ad8a-4805-4390-b940-f60ad250682c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:primary CNS lymphoma"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0030069>
+    
+    
+Individual: <http://model.geneontology.org/6b0795e5-45cc-4e97-94cf-b37c01a77483>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0003234>
+    
+    
+Individual: <http://model.geneontology.org/aa7902a3-af40-4280-9d1c-3ee00f820d6a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0003234>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed7ad8a-4805-4390-b940-f60ad250682c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6b0795e5-45cc-4e97-94cf-b37c01a77483>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed7ad8a-4805-4390-b940-f60ad250682c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed7ad8a-4805-4390-b940-f60ad250682c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed7ad8a-4805-4390-b940-f60ad250682c>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0003234>
+
+    Annotations: 
+        rdfs:label "CENTRAL NERVOUS SYSTEM LYMPHOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

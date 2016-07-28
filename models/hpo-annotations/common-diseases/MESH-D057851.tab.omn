@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4e05cbbc-e130-46f0-ba3b-8e5257b068bb>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D057851.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D057851>
+
+    Annotations: 
+        rdfs:label "Posterior Capsular Rupture, Ocular"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000518>
+
+    Annotations: 
+        rdfs:label "Cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001115>
+
+    Annotations: 
+        rdfs:label "Posterior polar cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/40aea198-1e7a-4f6c-be4b-3bca9a3e056c>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/20572822;PMID:21853943;PMID:22920002>
+    
+    
+Individual: <http://model.geneontology.org/754e7e43-d29c-48c8-84b7-2c912bc92492>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 68.38258561560181/12)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000518>
+    
+    
+Individual: <http://model.geneontology.org/a05afcfe-3a07-4b41-b9fa-a44a2da1903b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 36.94925003798848/3)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001115>
+    
+    
+Individual: <http://model.geneontology.org/c74b3201-7183-461d-90c6-1fd1b600c906>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/21546922;PMID:22301099;PMID:21940142;PMID:23332256;PMID:22956638>
+    
+    
+Individual: <http://model.geneontology.org/dc7831c5-e9a0-4023-83ab-df5cd672600e>
+
+    Types: 
+        <MESH:D057851>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a05afcfe-3a07-4b41-b9fa-a44a2da1903b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/40aea198-1e7a-4f6c-be4b-3bca9a3e056c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a05afcfe-3a07-4b41-b9fa-a44a2da1903b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a05afcfe-3a07-4b41-b9fa-a44a2da1903b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a05afcfe-3a07-4b41-b9fa-a44a2da1903b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/754e7e43-d29c-48c8-84b7-2c912bc92492>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c74b3201-7183-461d-90c6-1fd1b600c906>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/754e7e43-d29c-48c8-84b7-2c912bc92492>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/754e7e43-d29c-48c8-84b7-2c912bc92492>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/754e7e43-d29c-48c8-84b7-2c912bc92492>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/20572822;PMID:21853943;PMID:22920002>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/21546922;PMID:22301099;PMID:21940142;PMID:23332256;PMID:22956638>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

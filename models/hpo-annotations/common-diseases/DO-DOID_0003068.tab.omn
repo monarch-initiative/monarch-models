@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/05541e36-08b8-4a64-a1d8-fe208817f071>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0003068.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0003068>
+
+    Annotations: 
+        rdfs:label "GLIOBLASTOMA MULTIFORME"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012174>
+
+    Annotations: 
+        rdfs:label "Glioblastoma multiforme"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/661c690e-25d3-4a48-b00d-a6ce493fec5e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:glioblastoma multiforme"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012174>
+    
+    
+Individual: <http://model.geneontology.org/8b6ec2ee-e567-4029-a676-556c2bda7bb3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0003068>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/661c690e-25d3-4a48-b00d-a6ce493fec5e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9477f92b-6fe6-45e3-a334-2e50482ccd85>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/661c690e-25d3-4a48-b00d-a6ce493fec5e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/661c690e-25d3-4a48-b00d-a6ce493fec5e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/661c690e-25d3-4a48-b00d-a6ce493fec5e>
+    
+    
+Individual: <http://model.geneontology.org/9477f92b-6fe6-45e3-a334-2e50482ccd85>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0003068>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0003068>
+
+    Annotations: 
+        rdfs:label "GLIOBLASTOMA MULTIFORME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

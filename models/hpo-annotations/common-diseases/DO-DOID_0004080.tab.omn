@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/08afa323-182e-4f10-acb0-874b95cb058f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0004080.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0004080>
+
+    Annotations: 
+        rdfs:label "TRICUSPID VALVE INSUFFICIENCY"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005180>
+
+    Annotations: 
+        rdfs:label "Tricuspid regurgitation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/25074f2f-00f9-4015-bc11-6c80f916d59e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0004080>
+    
+    
+Individual: <http://model.geneontology.org/3fc3ad41-3408-4b7b-8f64-774920262b00>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:Tricuspid regurgitation"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005180>
+    
+    
+Individual: <http://model.geneontology.org/eb70bf93-e94a-4d08-9986-1ecbf9ae87e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0004080>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fc3ad41-3408-4b7b-8f64-774920262b00>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/25074f2f-00f9-4015-bc11-6c80f916d59e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fc3ad41-3408-4b7b-8f64-774920262b00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fc3ad41-3408-4b7b-8f64-774920262b00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fc3ad41-3408-4b7b-8f64-774920262b00>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0004080>
+
+    Annotations: 
+        rdfs:label "TRICUSPID VALVE INSUFFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

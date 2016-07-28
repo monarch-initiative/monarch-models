@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/062287af-c2b3-47bc-b506-9908ee537ba4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0011175.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0011175>
+
+    Annotations: 
+        rdfs:label "ENOPHTHALMOS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000490>
+
+    Annotations: 
+        rdfs:label "Deeply set eye"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/5e18cbf1-ea45-4bb0-93c6-0f812dd82010>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:enophthalmos"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000490>
+    
+    
+Individual: <http://model.geneontology.org/69447ce3-8549-4499-82dc-d1ba7f21009b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0011175>
+    
+    
+Individual: <http://model.geneontology.org/9595fbdf-1c6f-4351-b0e3-051dcab10ee3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0011175>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e18cbf1-ea45-4bb0-93c6-0f812dd82010>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/69447ce3-8549-4499-82dc-d1ba7f21009b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e18cbf1-ea45-4bb0-93c6-0f812dd82010>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e18cbf1-ea45-4bb0-93c6-0f812dd82010>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e18cbf1-ea45-4bb0-93c6-0f812dd82010>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0011175>
+
+    Annotations: 
+        rdfs:label "ENOPHTHALMOS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
