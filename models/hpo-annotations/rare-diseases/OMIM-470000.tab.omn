@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6887ad57-8e5c-492e-aced-f0c03c02639e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-470000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001450>
+
+    Annotations: 
+        rdfs:label "Y-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_470000>
+
+    Annotations: 
+        rdfs:label "RIBOSOMAL PROTEIN S4, Y-LINKED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/22d6c186-300e-43b3-b643-010a329f9b42>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001450>
+    
+    
+Individual: <http://model.geneontology.org/25079bba-7fb9-4a11-a765-a618f3cd61f1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_470000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22d6c186-300e-43b3-b643-010a329f9b42>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d4e97af1-eb98-4584-8d73-9485dcb7e984>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22d6c186-300e-43b3-b643-010a329f9b42>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22d6c186-300e-43b3-b643-010a329f9b42>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22d6c186-300e-43b3-b643-010a329f9b42>
+    
+    
+Individual: <http://model.geneontology.org/d4e97af1-eb98-4584-8d73-9485dcb7e984>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_470000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_470000>
+
+    Annotations: 
+        rdfs:label "RIBOSOMAL PROTEIN S4, Y-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/56bed7eb-16b7-4c68-b214-9132a798b0be>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-154570.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004356>
+
+    Annotations: 
+        rdfs:label "Abnormality of lysosomal metabolism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_154570>
+
+    Annotations: 
+        rdfs:label "MANNOSE 6-PHOSPHATE RECEPTOR RECOGNITION DEFECT, LEBANESE TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/00552c26-ffda-4d68-8274-2f96e831e43f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_154570>
+    
+    
+Individual: <http://model.geneontology.org/2b443e9e-cc70-49ad-8aad-48a51a7fda39>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/653534ab-7f8f-4069-8d98-f62b6660d00c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_154570>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6f823e5-6881-4dd7-ae41-c327fd8940b9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/00552c26-ffda-4d68-8274-2f96e831e43f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6f823e5-6881-4dd7-ae41-c327fd8940b9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6f823e5-6881-4dd7-ae41-c327fd8940b9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-23"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6f823e5-6881-4dd7-ae41-c327fd8940b9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b443e9e-cc70-49ad-8aad-48a51a7fda39>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a9e694e3-491b-48ad-90e5-cac6d7d1d843>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b443e9e-cc70-49ad-8aad-48a51a7fda39>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b443e9e-cc70-49ad-8aad-48a51a7fda39>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b443e9e-cc70-49ad-8aad-48a51a7fda39>
+    
+    
+Individual: <http://model.geneontology.org/a9e694e3-491b-48ad-90e5-cac6d7d1d843>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_154570>
+    
+    
+Individual: <http://model.geneontology.org/f6f823e5-6881-4dd7-ae41-c327fd8940b9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004356>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_154570>
+
+    Annotations: 
+        rdfs:label "MANNOSE 6-PHOSPHATE RECEPTOR RECOGNITION DEFECT, LEBANESE TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

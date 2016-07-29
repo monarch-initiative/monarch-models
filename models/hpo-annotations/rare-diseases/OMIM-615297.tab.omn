@@ -1,0 +1,500 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9f5107f1-664b-47c4-8ba0-23d9e3999ce8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615297.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000965>
+
+    Annotations: 
+        rdfs:label "Cutis marmorata"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001537>
+
+    Annotations: 
+        rdfs:label "Umbilical hernia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001629>
+
+    Annotations: 
+        rdfs:label "Ventricular septal defect"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001631>
+
+    Annotations: 
+        rdfs:label "Defect in the atrial septum"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001643>
+
+    Annotations: 
+        rdfs:label "Patent ductus arteriosus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001800>
+
+    Annotations: 
+        rdfs:label "Hypoplastic toenails"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001831>
+
+    Annotations: 
+        rdfs:label "Short toe"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003812>
+
+    Annotations: 
+        rdfs:label "Phenotypic variability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100797>
+
+    Annotations: 
+        rdfs:label "Toenail dysplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615297>
+
+    Annotations: 
+        rdfs:label "#615297 ADAMS-OLIVER SYNDROME 4; AOS4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/017138d7-b4da-414d-a7bf-c6bd29904006>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/058eff97-502e-43f7-9627-627a0143bd08>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_EXTERNAL FEATURES > UMBILICAL HERNIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001537>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/cb75f53b-7670-42f9-80d0-55506647a12c>
+    
+    
+Individual: <http://model.geneontology.org/0648d9dd-6f87-45c5-bd49-656c18cea54a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/08cd31f6-8b96-4d38-b248-48644686c20e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > HYPOPLASTIC TOENAILS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001800>
+    
+    
+Individual: <http://model.geneontology.org/09d5ea1f-4375-4464-8cd4-522069860102>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_VASCULAR > PATENT DUCTUS ARTERIOSUS (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001643>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/017138d7-b4da-414d-a7bf-c6bd29904006>
+    
+    
+Individual: <http://model.geneontology.org/0d8754ed-f8e8-41d0-bcf4-329d115521ca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/23ab05fa-0da3-4319-af83-7e8bf62ccbda>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/309893bc-34b3-4460-8a79-1273e9823460>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b7017455-4717-439e-a2c4-2d509b9282ad>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fb91f041-cfea-468f-b7dd-6c8d9666dd58>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b7017455-4717-439e-a2c4-2d509b9282ad>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b7017455-4717-439e-a2c4-2d509b9282ad>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b7017455-4717-439e-a2c4-2d509b9282ad>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2f8bfc-d3a7-4587-a4f0-543efdf957f5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4d4bfaab-ad4a-4738-8a7f-8abc36e9a0ea>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2f8bfc-d3a7-4587-a4f0-543efdf957f5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2f8bfc-d3a7-4587-a4f0-543efdf957f5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2f8bfc-d3a7-4587-a4f0-543efdf957f5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf893ae3-83de-415d-aaec-d8d399a7823f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cea10455-fdd7-4d52-9ff5-11e454c0690d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf893ae3-83de-415d-aaec-d8d399a7823f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf893ae3-83de-415d-aaec-d8d399a7823f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf893ae3-83de-415d-aaec-d8d399a7823f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/058eff97-502e-43f7-9627-627a0143bd08>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e07c9178-0488-433c-9092-fd8c67eece42>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/058eff97-502e-43f7-9627-627a0143bd08>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/058eff97-502e-43f7-9627-627a0143bd08>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/058eff97-502e-43f7-9627-627a0143bd08>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08cd31f6-8b96-4d38-b248-48644686c20e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/894bc142-a0eb-4ec4-bc6c-8270fbe40dbe>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08cd31f6-8b96-4d38-b248-48644686c20e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08cd31f6-8b96-4d38-b248-48644686c20e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08cd31f6-8b96-4d38-b248-48644686c20e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09d5ea1f-4375-4464-8cd4-522069860102>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/acdf4a1d-49d0-437c-ac2f-9d097127c567>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09d5ea1f-4375-4464-8cd4-522069860102>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09d5ea1f-4375-4464-8cd4-522069860102>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09d5ea1f-4375-4464-8cd4-522069860102>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4df02aff-da9f-4dd1-a3b5-7eecb054b6e5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0d8754ed-f8e8-41d0-bcf4-329d115521ca>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4df02aff-da9f-4dd1-a3b5-7eecb054b6e5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4df02aff-da9f-4dd1-a3b5-7eecb054b6e5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4df02aff-da9f-4dd1-a3b5-7eecb054b6e5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a513258-cb74-433f-8245-a3840f2a7553>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3646b8c1-6cd7-4bd0-b84a-2dc793aa43bb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a513258-cb74-433f-8245-a3840f2a7553>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a513258-cb74-433f-8245-a3840f2a7553>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a513258-cb74-433f-8245-a3840f2a7553>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bc9914f-6ccd-46d2-bb36-ef362c4ae111>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0648d9dd-6f87-45c5-bd49-656c18cea54a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bc9914f-6ccd-46d2-bb36-ef362c4ae111>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bc9914f-6ccd-46d2-bb36-ef362c4ae111>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bc9914f-6ccd-46d2-bb36-ef362c4ae111>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d11ae3a-d467-4bba-8a48-cb979af3c0fd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/370097c8-4c28-4e01-b012-ab0065531a5b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d11ae3a-d467-4bba-8a48-cb979af3c0fd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d11ae3a-d467-4bba-8a48-cb979af3c0fd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d11ae3a-d467-4bba-8a48-cb979af3c0fd>
+    
+    
+Individual: <http://model.geneontology.org/3646b8c1-6cd7-4bd0-b84a-2dc793aa43bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/370097c8-4c28-4e01-b012-ab0065531a5b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/4d4bfaab-ad4a-4738-8a7f-8abc36e9a0ea>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/4df02aff-da9f-4dd1-a3b5-7eecb054b6e5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > DYSPLASTIC TOENAILS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100797>
+    
+    
+Individual: <http://model.geneontology.org/4f3a1d04-3ffe-4bee-a00e-37ce1e224b40>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6a513258-cb74-433f-8245-a3840f2a7553>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > VENTRICULAR SEPTAL DEFECT (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001629>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/4f3a1d04-3ffe-4bee-a00e-37ce1e224b40>
+    
+    
+Individual: <http://model.geneontology.org/894bc142-a0eb-4ec4-bc6c-8270fbe40dbe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/9a06a9d4-680d-4364-b196-c7380343c1f3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/9bc9914f-6ccd-46d2-bb36-ef362c4ae111>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > ATRIAL SEPTAL DEFECT (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001631>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/9a06a9d4-680d-4364-b196-c7380343c1f3>
+    
+    
+Individual: <http://model.geneontology.org/9d11ae3a-d467-4bba-8a48-cb979af3c0fd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > CUTIS MARMORATA (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000965>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/23ab05fa-0da3-4319-af83-7e8bf62ccbda>
+    
+    
+Individual: <http://model.geneontology.org/acdf4a1d-49d0-437c-ac2f-9d097127c567>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/b7017455-4717-439e-a2c4-2d509b9282ad>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/c507389f-9e25-4662-bb43-5e30c27dcc75>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/cb75f53b-7670-42f9-80d0-55506647a12c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/cc2f8bfc-d3a7-4587-a4f0-543efdf957f5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_FEET > HYPOPLASTIC TOES (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001831>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/c507389f-9e25-4662-bb43-5e30c27dcc75>
+    
+    
+Individual: <http://model.geneontology.org/cea10455-fdd7-4d52-9ff5-11e454c0690d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/cf893ae3-83de-415d-aaec-d8d399a7823f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MISCELLANEOUS > VARIABLE PHENOTYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003812>
+    
+    
+Individual: <http://model.geneontology.org/e07c9178-0488-433c-9092-fd8c67eece42>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://model.geneontology.org/fb91f041-cfea-468f-b7dd-6c8d9666dd58>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615297>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615297>
+
+    Annotations: 
+        rdfs:label "#615297 ADAMS-OLIVER SYNDROME 4; AOS4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

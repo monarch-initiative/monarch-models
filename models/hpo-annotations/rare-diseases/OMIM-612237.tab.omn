@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1a637530-bf39-434a-9ae1-bcd274f08078>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612237.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006765>
+
+    Annotations: 
+        rdfs:label "Chondrosarcoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612237>
+
+    Annotations: 
+        rdfs:label "#612237 CHONDROSARCOMA, EXTRASKELETAL MYXOID;;EMC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/34489d66-aae3-4688-adcb-8e6cd3f8e42e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006765>
+    
+    
+Individual: <http://model.geneontology.org/66c5ba4c-fc44-4376-96e1-71e200b9047a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612237>
+    
+    
+Individual: <http://model.geneontology.org/81c51f34-83fe-4449-a309-379a7d38d231>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612237>
+    
+    
+Individual: <http://model.geneontology.org/827e6c4e-97f5-4ade-8c61-1eee48144c65>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/ba42e57e-c053-4a1c-8345-dd4e94c78269>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612237>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34489d66-aae3-4688-adcb-8e6cd3f8e42e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/66c5ba4c-fc44-4376-96e1-71e200b9047a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34489d66-aae3-4688-adcb-8e6cd3f8e42e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34489d66-aae3-4688-adcb-8e6cd3f8e42e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-02"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34489d66-aae3-4688-adcb-8e6cd3f8e42e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/827e6c4e-97f5-4ade-8c61-1eee48144c65>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/81c51f34-83fe-4449-a309-379a7d38d231>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/827e6c4e-97f5-4ade-8c61-1eee48144c65>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/827e6c4e-97f5-4ade-8c61-1eee48144c65>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-02"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/827e6c4e-97f5-4ade-8c61-1eee48144c65>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612237>
+
+    Annotations: 
+        rdfs:label "#612237 CHONDROSARCOMA, EXTRASKELETAL MYXOID;;EMC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

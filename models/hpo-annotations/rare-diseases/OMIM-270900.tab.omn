@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/674f8050-725c-46d9-9c1c-b45e9fa10f8f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-270900.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000707>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nervous system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_270900>
+
+    Annotations: 
+        rdfs:label "SPASTIC PSEUDOSCLEROSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/39adf034-45e5-4540-b20d-fd278ee59ebf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_270900>
+    
+    
+Individual: <http://model.geneontology.org/60ae66a9-ab0b-4508-9057-323e7b8c5eb8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/67d16744-30d9-4087-a46d-d95d33fe60a6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_270900>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f4bb12b-d18e-4bae-815f-0efeaec8a1ba>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/39adf034-45e5-4540-b20d-fd278ee59ebf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f4bb12b-d18e-4bae-815f-0efeaec8a1ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f4bb12b-d18e-4bae-815f-0efeaec8a1ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f4bb12b-d18e-4bae-815f-0efeaec8a1ba>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60ae66a9-ab0b-4508-9057-323e7b8c5eb8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/79ad338d-20b9-4368-bbba-d74edeb71d98>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60ae66a9-ab0b-4508-9057-323e7b8c5eb8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60ae66a9-ab0b-4508-9057-323e7b8c5eb8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60ae66a9-ab0b-4508-9057-323e7b8c5eb8>
+    
+    
+Individual: <http://model.geneontology.org/6f4bb12b-d18e-4bae-815f-0efeaec8a1ba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000707>
+    
+    
+Individual: <http://model.geneontology.org/79ad338d-20b9-4368-bbba-d74edeb71d98>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_270900>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_270900>
+
+    Annotations: 
+        rdfs:label "SPASTIC PSEUDOSCLEROSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

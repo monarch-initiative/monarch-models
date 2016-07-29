@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5791214f-0772-41db-9020-6c408c98a768>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-309630.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001419>
+
+    Annotations: 
+        rdfs:label "X-linked recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005867>
+
+    Annotations: 
+        rdfs:label "Fused fourth and fifth metacarpals"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_309630>
+
+    Annotations: 
+        rdfs:label "#309630 METACARPAL 4-5 FUSION; MF4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/34a3b29c-5350-47d2-81cd-3a5828343cc8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_309630>
+    
+    
+Individual: <http://model.geneontology.org/46437dbe-6a6f-46b2-8ea8-82071f8e5055>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_309630>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a87443fe-aa6e-4d7a-988f-54558b5ae176>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/34a3b29c-5350-47d2-81cd-3a5828343cc8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a87443fe-aa6e-4d7a-988f-54558b5ae176>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a87443fe-aa6e-4d7a-988f-54558b5ae176>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a87443fe-aa6e-4d7a-988f-54558b5ae176>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77abd613-3b22-4105-a924-6c7d7cd5a194>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b5522999-469a-4954-a2ea-ee9ea1b9048f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77abd613-3b22-4105-a924-6c7d7cd5a194>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77abd613-3b22-4105-a924-6c7d7cd5a194>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77abd613-3b22-4105-a924-6c7d7cd5a194>
+    
+    
+Individual: <http://model.geneontology.org/77abd613-3b22-4105-a924-6c7d7cd5a194>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005867>
+    
+    
+Individual: <http://model.geneontology.org/a87443fe-aa6e-4d7a-988f-54558b5ae176>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001419>
+    
+    
+Individual: <http://model.geneontology.org/b5522999-469a-4954-a2ea-ee9ea1b9048f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_309630>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_309630>
+
+    Annotations: 
+        rdfs:label "#309630 METACARPAL 4-5 FUSION; MF4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

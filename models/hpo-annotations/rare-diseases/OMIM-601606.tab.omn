@@ -1,0 +1,187 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f0425485-64be-4811-9ab7-9d918b86117e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601606.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002671>
+
+    Annotations: 
+        rdfs:label "Basal cell carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003581>
+
+    Annotations: 
+        rdfs:label "Adult onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601606>
+
+    Annotations: 
+        rdfs:label "TRICHOEPITHELIOMA, MULTIPLE FAMILIAL, 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/06308524-a0ae-49f6-b691-40b5f13d14e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601606>
+    
+    
+Individual: <http://model.geneontology.org/08d4bb96-1a87-4433-8f69-0bfc96a9fa87>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/0b9e2afc-e13d-49a8-b092-7056c91a4c40>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002671>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/cd3f3eb0-463a-4f6f-b851-46feed314241>
+    
+    
+Individual: <http://model.geneontology.org/44d441eb-bcb3-4c6c-9752-bcd43ad2cd65>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601606>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ace8b2c6-c668-4fc1-b832-09617fd38930>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/97ba9a86-6755-4232-a664-b97761b1a6e2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ace8b2c6-c668-4fc1-b832-09617fd38930>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ace8b2c6-c668-4fc1-b832-09617fd38930>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ace8b2c6-c668-4fc1-b832-09617fd38930>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b9e2afc-e13d-49a8-b092-7056c91a4c40>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8d571ba7-5f35-4f0f-87c0-e6a1acd428ef>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b9e2afc-e13d-49a8-b092-7056c91a4c40>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b9e2afc-e13d-49a8-b092-7056c91a4c40>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b9e2afc-e13d-49a8-b092-7056c91a4c40>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08d4bb96-1a87-4433-8f69-0bfc96a9fa87>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/06308524-a0ae-49f6-b691-40b5f13d14e0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08d4bb96-1a87-4433-8f69-0bfc96a9fa87>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08d4bb96-1a87-4433-8f69-0bfc96a9fa87>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08d4bb96-1a87-4433-8f69-0bfc96a9fa87>
+    
+    
+Individual: <http://model.geneontology.org/8d571ba7-5f35-4f0f-87c0-e6a1acd428ef>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601606>
+    
+    
+Individual: <http://model.geneontology.org/97ba9a86-6755-4232-a664-b97761b1a6e2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601606>
+    
+    
+Individual: <http://model.geneontology.org/ace8b2c6-c668-4fc1-b832-09617fd38930>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003581>
+    
+    
+Individual: <http://model.geneontology.org/cd3f3eb0-463a-4f6f-b851-46feed314241>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601606>
+
+    Annotations: 
+        rdfs:label "TRICHOEPITHELIOMA, MULTIPLE FAMILIAL, 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

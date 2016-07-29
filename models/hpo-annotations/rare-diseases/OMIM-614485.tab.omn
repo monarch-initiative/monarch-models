@@ -1,0 +1,279 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a578e660-fedc-4c85-bb0c-e9a4d63ff3a6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614485.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000243>
+
+    Annotations: 
+        rdfs:label "Trigonocephaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000252>
+
+    Annotations: 
+        rdfs:label "Microcephaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000316>
+
+    Annotations: 
+        rdfs:label "Hypertelorism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011330>
+
+    Annotations: 
+        rdfs:label "Metopic synostosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614485>
+
+    Annotations: 
+        rdfs:label "#614485 TRIGONOCEPHALY 2; TRIGNO2;;CRANIOSYNOSTOSIS, METOPIC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2b5a88c4-8316-4322-aa73-99f3d777fc4e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_HEAD > MICROCEPHALY (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000252>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/d7410070-7bca-4d3c-84b8-35a98f0e9cc9>
+    
+    
+Individual: <http://model.geneontology.org/501f1f59-85cb-43e1-a1f8-11079306cac5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614485>
+    
+    
+Individual: <http://model.geneontology.org/59410ce2-2e33-4e52-ac39-a8b682ab08a3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > HYPERTELORISM (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000316>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/9924be54-ef7c-45b6-b50f-7283034094a5>
+    
+    
+Individual: <http://model.geneontology.org/9924be54-ef7c-45b6-b50f-7283034094a5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/9ba2c9b3-b4b5-411c-96d8-2b163ad45646>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614485>
+    
+    
+Individual: <http://model.geneontology.org/9cc615c7-2541-4bd5-bea2-881eb60dc2dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614485>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a4f9a85e-eb46-4d20-982d-c7342d933508>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/501f1f59-85cb-43e1-a1f8-11079306cac5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a4f9a85e-eb46-4d20-982d-c7342d933508>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a4f9a85e-eb46-4d20-982d-c7342d933508>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a4f9a85e-eb46-4d20-982d-c7342d933508>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abdeb3b8-0ddc-41cf-aa10-35982cc528ed>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d5ec07ea-ddae-4ea8-9032-30ef2a747a5d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abdeb3b8-0ddc-41cf-aa10-35982cc528ed>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abdeb3b8-0ddc-41cf-aa10-35982cc528ed>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abdeb3b8-0ddc-41cf-aa10-35982cc528ed>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e398e28a-0401-43d0-a9c4-46922e1f994b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bf4f97be-847f-43b4-ad4c-52e783208414>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e398e28a-0401-43d0-a9c4-46922e1f994b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e398e28a-0401-43d0-a9c4-46922e1f994b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e398e28a-0401-43d0-a9c4-46922e1f994b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b5a88c4-8316-4322-aa73-99f3d777fc4e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aeaaffe8-116f-4159-91f5-813ec25fcea7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b5a88c4-8316-4322-aa73-99f3d777fc4e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b5a88c4-8316-4322-aa73-99f3d777fc4e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2b5a88c4-8316-4322-aa73-99f3d777fc4e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59410ce2-2e33-4e52-ac39-a8b682ab08a3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9ba2c9b3-b4b5-411c-96d8-2b163ad45646>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59410ce2-2e33-4e52-ac39-a8b682ab08a3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59410ce2-2e33-4e52-ac39-a8b682ab08a3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59410ce2-2e33-4e52-ac39-a8b682ab08a3>
+    
+    
+Individual: <http://model.geneontology.org/a4f9a85e-eb46-4d20-982d-c7342d933508>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/abdeb3b8-0ddc-41cf-aa10-35982cc528ed>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_SKULL > METOPIC CRANIOSYNOSTOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011330>
+    
+    
+Individual: <http://model.geneontology.org/aeaaffe8-116f-4159-91f5-813ec25fcea7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614485>
+    
+    
+Individual: <http://model.geneontology.org/bf4f97be-847f-43b4-ad4c-52e783208414>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614485>
+    
+    
+Individual: <http://model.geneontology.org/d5ec07ea-ddae-4ea8-9032-30ef2a747a5d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614485>
+    
+    
+Individual: <http://model.geneontology.org/d7410070-7bca-4d3c-84b8-35a98f0e9cc9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/e398e28a-0401-43d0-a9c4-46922e1f994b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_HEAD > TRIGONOCEPHALY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000243>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614485>
+
+    Annotations: 
+        rdfs:label "#614485 TRIGONOCEPHALY 2; TRIGNO2;;CRANIOSYNOSTOSIS, METOPIC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

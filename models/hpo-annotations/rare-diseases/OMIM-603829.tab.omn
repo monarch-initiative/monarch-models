@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c54a3c24-b4f8-4fed-b985-1feec3664de6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-603829.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001663>
+
+    Annotations: 
+        rdfs:label "Ventricular fibrillation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_603829>
+
+    Annotations: 
+        rdfs:label "#603829 VENTRICULAR FIBRILLATION DURING MYOCARDIAL INFARCTION, SUSCEPTIBILITYTO;;VENTRICULAR FIBRILLATION, PAROXYSMAL FAMILIAL, 1; VF1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/85a16742-de8f-48ad-bd2f-2e8a86ee2dca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_603829>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e026f6d-65ca-4dff-aad0-361a457a9937>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b53bdbc5-855a-428b-af36-29bf34dca232>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e026f6d-65ca-4dff-aad0-361a457a9937>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e026f6d-65ca-4dff-aad0-361a457a9937>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e026f6d-65ca-4dff-aad0-361a457a9937>
+    
+    
+Individual: <http://model.geneontology.org/9e026f6d-65ca-4dff-aad0-361a457a9937>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001663>
+    
+    
+Individual: <http://model.geneontology.org/b53bdbc5-855a-428b-af36-29bf34dca232>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603829>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_603829>
+
+    Annotations: 
+        rdfs:label "#603829 VENTRICULAR FIBRILLATION DURING MYOCARDIAL INFARCTION, SUSCEPTIBILITYTO;;VENTRICULAR FIBRILLATION, PAROXYSMAL FAMILIAL, 1; VF1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

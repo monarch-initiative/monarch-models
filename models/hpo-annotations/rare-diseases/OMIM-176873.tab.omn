@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b05379a6-e4ef-444f-855c-18f7ace80a93>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-176873.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002664>
+
+    Annotations: 
+        rdfs:label "Neoplasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_176873>
+
+    Annotations: 
+        rdfs:label "CELL DIVISION CYCLE 2-LIKE 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/468b8e10-3b04-4b96-8e24-78825ad9d18e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002664>
+    
+    
+Individual: <http://model.geneontology.org/942ba263-c31d-4572-9937-1ef3f9f8d5d6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176873>
+    
+    
+Individual: <http://model.geneontology.org/a71033d3-b311-41e3-a2ad-173eda55b3ce>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_176873>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ee8476e5-ed7b-4a78-99a9-4787e4a7ea06>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aab8052c-9067-45d2-b17d-dff5c9806972>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ee8476e5-ed7b-4a78-99a9-4787e4a7ea06>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ee8476e5-ed7b-4a78-99a9-4787e4a7ea06>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ee8476e5-ed7b-4a78-99a9-4787e4a7ea06>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/468b8e10-3b04-4b96-8e24-78825ad9d18e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/942ba263-c31d-4572-9937-1ef3f9f8d5d6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/468b8e10-3b04-4b96-8e24-78825ad9d18e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/468b8e10-3b04-4b96-8e24-78825ad9d18e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/468b8e10-3b04-4b96-8e24-78825ad9d18e>
+    
+    
+Individual: <http://model.geneontology.org/aab8052c-9067-45d2-b17d-dff5c9806972>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176873>
+    
+    
+Individual: <http://model.geneontology.org/ee8476e5-ed7b-4a78-99a9-4787e4a7ea06>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_176873>
+
+    Annotations: 
+        rdfs:label "CELL DIVISION CYCLE 2-LIKE 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6192ce4b-c90f-425e-89cc-f74cdace9ce2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612004.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001873>
+
+    Annotations: 
+        rdfs:label "Thrombocytopenia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612004>
+
+    Annotations: 
+        rdfs:label "#612004 THROMBOCYTOPENIA 4; THC4;;THROMBOCYTOPENIA, AUTOSOMAL DOMINANT, 4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/25314bb6-97a1-4d71-b3d8-a0e29a8176c2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/3b66e8d1-5320-4d44-a153-3ef87f1717ac>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612004>
+    
+    
+Individual: <http://model.geneontology.org/47eb1408-a772-4f02-a745-e4f00ff18707>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612004>
+    
+    
+Individual: <http://model.geneontology.org/6ee0554e-1ac8-40b2-b3d4-aabe2dd71d88>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612004>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25314bb6-97a1-4d71-b3d8-a0e29a8176c2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3b66e8d1-5320-4d44-a153-3ef87f1717ac>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25314bb6-97a1-4d71-b3d8-a0e29a8176c2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25314bb6-97a1-4d71-b3d8-a0e29a8176c2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25314bb6-97a1-4d71-b3d8-a0e29a8176c2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b2d2433-ee6d-40de-a79c-39d4829c2e26>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/47eb1408-a772-4f02-a745-e4f00ff18707>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b2d2433-ee6d-40de-a79c-39d4829c2e26>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b2d2433-ee6d-40de-a79c-39d4829c2e26>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b2d2433-ee6d-40de-a79c-39d4829c2e26>
+    
+    
+Individual: <http://model.geneontology.org/9b2d2433-ee6d-40de-a79c-39d4829c2e26>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001873>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612004>
+
+    Annotations: 
+        rdfs:label "#612004 THROMBOCYTOPENIA 4; THC4;;THROMBOCYTOPENIA, AUTOSOMAL DOMINANT, 4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

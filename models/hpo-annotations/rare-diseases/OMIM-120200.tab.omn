@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/00903640-7473-49e4-bcc5-8828b116bd91>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-120200.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007748>
+
+    Annotations: 
+        rdfs:label "Irido-fundal coloboma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_120200>
+
+    Annotations: 
+        rdfs:label "COLOBOMA, OCULAR"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/368d29a3-8680-450a-b5a9-7fbe2ccd6bb0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/3e28716d-2280-406f-a45d-105f31283b4d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_120200>
+    
+    
+Individual: <http://model.geneontology.org/4525f9c3-35ed-4c41-b68a-5557afdd5062>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007748>
+    
+    
+Individual: <http://model.geneontology.org/5a985fe7-5ded-47c8-a366-d9d29a2c8399>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_120200>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368d29a3-8680-450a-b5a9-7fbe2ccd6bb0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3e28716d-2280-406f-a45d-105f31283b4d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368d29a3-8680-450a-b5a9-7fbe2ccd6bb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368d29a3-8680-450a-b5a9-7fbe2ccd6bb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368d29a3-8680-450a-b5a9-7fbe2ccd6bb0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4525f9c3-35ed-4c41-b68a-5557afdd5062>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7155a24a-0027-4b7a-b9bb-2813e1cf5788>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4525f9c3-35ed-4c41-b68a-5557afdd5062>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4525f9c3-35ed-4c41-b68a-5557afdd5062>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4525f9c3-35ed-4c41-b68a-5557afdd5062>
+    
+    
+Individual: <http://model.geneontology.org/7155a24a-0027-4b7a-b9bb-2813e1cf5788>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_120200>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_120200>
+
+    Annotations: 
+        rdfs:label "COLOBOMA, OCULAR"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2adf6f55-ae99-4a90-8864-e8a11b2f01bc>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-105800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002170>
+
+    Annotations: 
+        rdfs:label "Intracranial hemorrhage"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004944>
+
+    Annotations: 
+        rdfs:label "Cerebral aneurysm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_105800>
+
+    Annotations: 
+        rdfs:label "ANEURYSM, INTRACRANIAL BERRY, 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0b9fc8dd-0ade-4004-8e1a-e61b6030b497>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_105800>
+    
+    
+Individual: <http://model.geneontology.org/2a30c2c5-eaa4-4c30-a172-95cf593754e4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/392f5c66-232a-4f8e-b537-3aabfa4ba730>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002170>
+    
+    
+Individual: <http://model.geneontology.org/4eec0f83-58ba-4d8b-8a88-50710bb7c66c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_105800>
+    
+    
+Individual: <http://model.geneontology.org/6cc9c690-c9bb-42c2-9819-cea6895a60ad>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004944>
+    
+    
+Individual: <http://model.geneontology.org/bf53ad47-5096-4208-a679-cdc9f591d557>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_105800>
+    
+    
+Individual: <http://model.geneontology.org/e5aef515-0a66-4773-b529-5565d43858c8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_105800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2a30c2c5-eaa4-4c30-a172-95cf593754e4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bf53ad47-5096-4208-a679-cdc9f591d557>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2a30c2c5-eaa4-4c30-a172-95cf593754e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2a30c2c5-eaa4-4c30-a172-95cf593754e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2a30c2c5-eaa4-4c30-a172-95cf593754e4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/392f5c66-232a-4f8e-b537-3aabfa4ba730>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0b9fc8dd-0ade-4004-8e1a-e61b6030b497>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/392f5c66-232a-4f8e-b537-3aabfa4ba730>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/392f5c66-232a-4f8e-b537-3aabfa4ba730>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/392f5c66-232a-4f8e-b537-3aabfa4ba730>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cc9c690-c9bb-42c2-9819-cea6895a60ad>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4eec0f83-58ba-4d8b-8a88-50710bb7c66c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cc9c690-c9bb-42c2-9819-cea6895a60ad>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cc9c690-c9bb-42c2-9819-cea6895a60ad>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cc9c690-c9bb-42c2-9819-cea6895a60ad>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_105800>
+
+    Annotations: 
+        rdfs:label "ANEURYSM, INTRACRANIAL BERRY, 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

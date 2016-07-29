@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c05590d6-6e23-4217-910c-de5b927ebdf6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-208158.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002804>
+
+    Annotations: 
+        rdfs:label "Arthrogryposis multiplex congenita"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_208158>
+
+    Annotations: 
+        rdfs:label "ARTHROGRYPOSIS - HYPERKERATOSIS, LETHAL FORM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/62edb272-631e-4352-95a0-56124bd29dd9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_208158>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731f1e39-641e-4a67-bb05-0c5cbdb7c1e4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cb413db1-c16d-4cff-b69a-1257d6f4b909>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731f1e39-641e-4a67-bb05-0c5cbdb7c1e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731f1e39-641e-4a67-bb05-0c5cbdb7c1e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731f1e39-641e-4a67-bb05-0c5cbdb7c1e4>
+    
+    
+Individual: <http://model.geneontology.org/731f1e39-641e-4a67-bb05-0c5cbdb7c1e4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:arthrogryposis - hyperke"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002804>
+    
+    
+Individual: <http://model.geneontology.org/cb413db1-c16d-4cff-b69a-1257d6f4b909>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_208158>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_208158>
+
+    Annotations: 
+        rdfs:label "ARTHROGRYPOSIS - HYPERKERATOSIS, LETHAL FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

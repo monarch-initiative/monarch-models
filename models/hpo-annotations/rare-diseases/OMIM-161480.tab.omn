@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/fa0b70e0-6d8b-4bb3-8c3f-4da66a3ba5d8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-161480.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000271>
+
+    Annotations: 
+        rdfs:label "Abnormality of the face"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_161480>
+
+    Annotations: 
+        rdfs:label "NASAL BONES, ABSENCE OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2da992c0-ce60-47ef-8718-36a27048cb30>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_161480>
+    
+    
+Individual: <http://model.geneontology.org/40d6706b-62c3-467b-9383-cd2c625daf7f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_161480>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d994f395-1107-4835-ac91-ba7972627ab6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2da992c0-ce60-47ef-8718-36a27048cb30>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d994f395-1107-4835-ac91-ba7972627ab6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d994f395-1107-4835-ac91-ba7972627ab6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d994f395-1107-4835-ac91-ba7972627ab6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f99d5892-3e3d-42de-8e3f-1209c6540aa6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a2ecc609-880f-43b8-a4e6-f530ed445949>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f99d5892-3e3d-42de-8e3f-1209c6540aa6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f99d5892-3e3d-42de-8e3f-1209c6540aa6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f99d5892-3e3d-42de-8e3f-1209c6540aa6>
+    
+    
+Individual: <http://model.geneontology.org/a2ecc609-880f-43b8-a4e6-f530ed445949>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_161480>
+    
+    
+Individual: <http://model.geneontology.org/d994f395-1107-4835-ac91-ba7972627ab6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000271>
+    
+    
+Individual: <http://model.geneontology.org/f99d5892-3e3d-42de-8e3f-1209c6540aa6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_161480>
+
+    Annotations: 
+        rdfs:label "NASAL BONES, ABSENCE OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

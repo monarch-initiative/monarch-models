@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e0e130e1-33a6-403b-89fd-1d47283e421b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0060040.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0060040>
+
+    Annotations: 
+        rdfs:label "PERVASIVE DEVELOPMENTAL DISORDER"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000729>
+
+    Annotations: 
+        rdfs:label "Autistic behavior"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/62bc7a02-a620-419e-be1e-f2405d25a5cf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0060040>
+    
+    
+Individual: <http://model.geneontology.org/861f32a0-9793-4ced-bcff-77c5f4a2186e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:pervasive developmental disorder"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000729>
+    
+    
+Individual: <http://model.geneontology.org/fda69aeb-c5df-4111-9477-78dafd0cecd4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0060040>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/861f32a0-9793-4ced-bcff-77c5f4a2186e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/62bc7a02-a620-419e-be1e-f2405d25a5cf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/861f32a0-9793-4ced-bcff-77c5f4a2186e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/861f32a0-9793-4ced-bcff-77c5f4a2186e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/861f32a0-9793-4ced-bcff-77c5f4a2186e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0060040>
+
+    Annotations: 
+        rdfs:label "PERVASIVE DEVELOPMENTAL DISORDER"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

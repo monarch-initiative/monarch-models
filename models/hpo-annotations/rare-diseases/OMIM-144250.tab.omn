@@ -1,0 +1,227 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/afe320be-25f7-401f-8446-ecc86fefb0c9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-144250.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001114>
+
+    Annotations: 
+        rdfs:label "Xanthelasma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001658>
+
+    Annotations: 
+        rdfs:label "Myocardial infarction"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008356>
+
+    Annotations: 
+        rdfs:label "Combined hyperlipidemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_144250>
+
+    Annotations: 
+        rdfs:label "HYPERLIPIDEMIA, FAMILIAL COMBINED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1006f1cd-58bf-4da7-a911-5e71ac5d90fe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144250>
+    
+    
+Individual: <http://model.geneontology.org/36c55a45-35e7-487a-a891-e7da1f01533d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144250>
+    
+    
+Individual: <http://model.geneontology.org/3f18ae89-41d0-47c6-914b-9c9e799714cb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_144250>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf3f49ef-7365-4919-b9cc-9c5c3d122b78>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1006f1cd-58bf-4da7-a911-5e71ac5d90fe>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf3f49ef-7365-4919-b9cc-9c5c3d122b78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf3f49ef-7365-4919-b9cc-9c5c3d122b78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf3f49ef-7365-4919-b9cc-9c5c3d122b78>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d00f9c36-7674-431e-ac34-5c2c4d7572ac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/94c41a67-adde-4dc8-b7a1-75c52d613e8a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d00f9c36-7674-431e-ac34-5c2c4d7572ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d00f9c36-7674-431e-ac34-5c2c4d7572ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d00f9c36-7674-431e-ac34-5c2c4d7572ac>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4a60c37-2913-48c2-83b6-240f62d7501e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/896d5c39-38a6-438d-8e51-902d22e6d7c1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4a60c37-2913-48c2-83b6-240f62d7501e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4a60c37-2913-48c2-83b6-240f62d7501e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4a60c37-2913-48c2-83b6-240f62d7501e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7eb8dace-f3a3-4399-ac1e-52fc01324221>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/36c55a45-35e7-487a-a891-e7da1f01533d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7eb8dace-f3a3-4399-ac1e-52fc01324221>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7eb8dace-f3a3-4399-ac1e-52fc01324221>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7eb8dace-f3a3-4399-ac1e-52fc01324221>
+    
+    
+Individual: <http://model.geneontology.org/42f8b503-7fdb-421e-8c3c-b18db9692596>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/7eb8dace-f3a3-4399-ac1e-52fc01324221>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001114>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/42f8b503-7fdb-421e-8c3c-b18db9692596>
+    
+    
+Individual: <http://model.geneontology.org/896d5c39-38a6-438d-8e51-902d22e6d7c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144250>
+    
+    
+Individual: <http://model.geneontology.org/94c41a67-adde-4dc8-b7a1-75c52d613e8a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144250>
+    
+    
+Individual: <http://model.geneontology.org/cf3f49ef-7365-4919-b9cc-9c5c3d122b78>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008356>
+    
+    
+Individual: <http://model.geneontology.org/d00f9c36-7674-431e-ac34-5c2c4d7572ac>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/d4a60c37-2913-48c2-83b6-240f62d7501e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001658>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_144250>
+
+    Annotations: 
+        rdfs:label "HYPERLIPIDEMIA, FAMILIAL COMBINED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

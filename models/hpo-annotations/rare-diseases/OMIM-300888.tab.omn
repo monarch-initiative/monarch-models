@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a39fc38e-54d7-459d-ab50-6fcf8196282b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300888.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000821>
+
+    Annotations: 
+        rdfs:label "Hypothyroidism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001419>
+
+    Annotations: 
+        rdfs:label "X-linked recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300888>
+
+    Annotations: 
+        rdfs:label "#300888 HYPOTHYROIDISM, CENTRAL, AND TESTICULAR ENLARGEMENT; CHTE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/afcdce8a-11d7-47d9-825c-a631e9f2473e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300888>
+    
+    
+Individual: <http://model.geneontology.org/b54899f1-e3ec-4633-9f84-2b60304d08ed>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001419>
+    
+    
+Individual: <http://model.geneontology.org/bcbd6211-7fe7-446f-bd48-2e2368cae740>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300888>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b54899f1-e3ec-4633-9f84-2b60304d08ed>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/afcdce8a-11d7-47d9-825c-a631e9f2473e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b54899f1-e3ec-4633-9f84-2b60304d08ed>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b54899f1-e3ec-4633-9f84-2b60304d08ed>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b54899f1-e3ec-4633-9f84-2b60304d08ed>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/db540c44-d1b3-4373-8900-7c63726898ba>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bdb7875b-dfae-46db-8288-5836ea581897>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/db540c44-d1b3-4373-8900-7c63726898ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/db540c44-d1b3-4373-8900-7c63726898ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/db540c44-d1b3-4373-8900-7c63726898ba>
+    
+    
+Individual: <http://model.geneontology.org/bdb7875b-dfae-46db-8288-5836ea581897>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300888>
+    
+    
+Individual: <http://model.geneontology.org/db540c44-d1b3-4373-8900-7c63726898ba>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#300888 hypothyroidism, central, and testi"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000821>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300888>
+
+    Annotations: 
+        rdfs:label "#300888 HYPOTHYROIDISM, CENTRAL, AND TESTICULAR ENLARGEMENT; CHTE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

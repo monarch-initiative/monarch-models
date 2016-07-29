@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4554a3ba-d662-4054-b59b-a4020280106d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-215500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000533>
+
+    Annotations: 
+        rdfs:label "Chorioretinal atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0030491>
+
+    Annotations: 
+        rdfs:label "Choriocapillaris atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_215500>
+
+    Annotations: 
+        rdfs:label "%215500 CHOROIDAL DYSTROPHY, CENTRAL AREOLAR, 1; CACD1;;CHOROIDAL DYSTROPHY, CENTRAL AREOLAR; CACD;;CHOROIDAL SCLEROSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/30303279-fd5b-4e72-9e8d-6b161327ae26>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_215500>
+    
+    
+Individual: <http://model.geneontology.org/32ac7d3d-f79d-4aa5-8b77-9019e45c21e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/7c9b1c75-f081-4fb4-ac0c-23d5766fcee9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:EYES > CHORIOCAPILLARIS ATROPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0030491>
+    
+    
+Individual: <http://model.geneontology.org/a2de4e17-10ad-43b9-a35c-f9e7dd7dbcb1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_215500>
+    
+    
+Individual: <http://model.geneontology.org/aa889193-a449-4d4d-aee4-301522cc4009>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000533>
+    
+    
+Individual: <http://model.geneontology.org/cf9df948-60cc-4325-9078-01829e334806>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_215500>
+    
+    
+Individual: <http://model.geneontology.org/fb7d05ba-4c92-406b-9454-ad560e5d54f7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_215500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa889193-a449-4d4d-aee4-301522cc4009>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/30303279-fd5b-4e72-9e8d-6b161327ae26>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa889193-a449-4d4d-aee4-301522cc4009>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa889193-a449-4d4d-aee4-301522cc4009>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa889193-a449-4d4d-aee4-301522cc4009>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32ac7d3d-f79d-4aa5-8b77-9019e45c21e3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cf9df948-60cc-4325-9078-01829e334806>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32ac7d3d-f79d-4aa5-8b77-9019e45c21e3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32ac7d3d-f79d-4aa5-8b77-9019e45c21e3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32ac7d3d-f79d-4aa5-8b77-9019e45c21e3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c9b1c75-f081-4fb4-ac0c-23d5766fcee9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a2de4e17-10ad-43b9-a35c-f9e7dd7dbcb1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c9b1c75-f081-4fb4-ac0c-23d5766fcee9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c9b1c75-f081-4fb4-ac0c-23d5766fcee9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-07-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c9b1c75-f081-4fb4-ac0c-23d5766fcee9>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_215500>
+
+    Annotations: 
+        rdfs:label "%215500 CHOROIDAL DYSTROPHY, CENTRAL AREOLAR, 1; CACD1;;CHOROIDAL DYSTROPHY, CENTRAL AREOLAR; CACD;;CHOROIDAL SCLEROSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

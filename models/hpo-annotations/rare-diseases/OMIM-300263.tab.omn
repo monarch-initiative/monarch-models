@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/17dfb659-e8f2-4fec-beec-89b7de2d4b57>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300263.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300263>
+
+    Annotations: 
+        rdfs:label "X-LINKED INTELLECTUAL DISABILITY, SIDERIUS TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/10556fc7-ed05-4c7e-9c54-6b15c2ead8e5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300263>
+    
+    
+Individual: <http://model.geneontology.org/46f6dfe2-3bba-49c1-8f22-d952870094d4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:x-linked intellectual disability, siderius typehttp:"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://model.geneontology.org/c29ac963-748b-4b79-a69f-5035ad9dcbed>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300263>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46f6dfe2-3bba-49c1-8f22-d952870094d4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/10556fc7-ed05-4c7e-9c54-6b15c2ead8e5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46f6dfe2-3bba-49c1-8f22-d952870094d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46f6dfe2-3bba-49c1-8f22-d952870094d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46f6dfe2-3bba-49c1-8f22-d952870094d4>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300263>
+
+    Annotations: 
+        rdfs:label "X-LINKED INTELLECTUAL DISABILITY, SIDERIUS TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

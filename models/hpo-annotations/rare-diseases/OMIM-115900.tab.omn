@@ -1,0 +1,236 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3e2b991c-faf0-457c-b866-149df706fb06>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-115900.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000501>
+
+    Annotations: 
+        rdfs:label "Glaucoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000519>
+
+    Annotations: 
+        rdfs:label "Congenital cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000545>
+
+    Annotations: 
+        rdfs:label "Myopia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_115900>
+
+    Annotations: 
+        rdfs:label "CATARACT, FLORIFORM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0ece5c8d-c2c8-40df-a8e1-25182573678f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_115900>
+    
+    
+Individual: <http://model.geneontology.org/1ef0779f-1ff3-46e6-b7dd-fdd3ebf7acc7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_115900>
+    
+    
+Individual: <http://model.geneontology.org/2ba3c877-1b12-45bc-bad6-77b42acbb7fd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > GLAUCOMA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000501>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/c4f3988d-6abd-4b5c-81b7-debcee495682>
+    
+    
+Individual: <http://model.geneontology.org/9e0a0a25-25fd-40e9-8eba-292c3c871dd8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_115900>
+    
+    
+Individual: <http://model.geneontology.org/9e576906-cc55-47ce-a5ee-69902d8b7bd8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_115900>
+    
+    
+Individual: <http://model.geneontology.org/b88798b3-4dcc-4581-9ad4-db12635717f3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000519>
+    
+    
+Individual: <http://model.geneontology.org/bebae863-374a-4268-89cc-4443486b53d3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/c4f3988d-6abd-4b5c-81b7-debcee495682>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/da7332d4-8ad9-4349-8968-eaa65f5c77c4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_115900>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88798b3-4dcc-4581-9ad4-db12635717f3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0ece5c8d-c2c8-40df-a8e1-25182573678f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88798b3-4dcc-4581-9ad4-db12635717f3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88798b3-4dcc-4581-9ad4-db12635717f3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b88798b3-4dcc-4581-9ad4-db12635717f3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bebae863-374a-4268-89cc-4443486b53d3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9e0a0a25-25fd-40e9-8eba-292c3c871dd8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bebae863-374a-4268-89cc-4443486b53d3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bebae863-374a-4268-89cc-4443486b53d3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bebae863-374a-4268-89cc-4443486b53d3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e52e685b-9564-4e8a-a5ef-3e5c7d5edf29>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9e576906-cc55-47ce-a5ee-69902d8b7bd8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e52e685b-9564-4e8a-a5ef-3e5c7d5edf29>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e52e685b-9564-4e8a-a5ef-3e5c7d5edf29>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e52e685b-9564-4e8a-a5ef-3e5c7d5edf29>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ba3c877-1b12-45bc-bad6-77b42acbb7fd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1ef0779f-1ff3-46e6-b7dd-fdd3ebf7acc7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ba3c877-1b12-45bc-bad6-77b42acbb7fd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ba3c877-1b12-45bc-bad6-77b42acbb7fd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ba3c877-1b12-45bc-bad6-77b42acbb7fd>
+    
+    
+Individual: <http://model.geneontology.org/e52e685b-9564-4e8a-a5ef-3e5c7d5edf29>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > MYOPIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000545>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/f9f6fd81-bfda-4e86-adf2-6496b3366e7c>
+    
+    
+Individual: <http://model.geneontology.org/f9f6fd81-bfda-4e86-adf2-6496b3366e7c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_115900>
+
+    Annotations: 
+        rdfs:label "CATARACT, FLORIFORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

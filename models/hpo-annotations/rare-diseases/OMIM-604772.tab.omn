@@ -1,0 +1,307 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/09479fd8-3456-47cc-8cc5-23cd36ce9c05>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-604772.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001250>
+
+    Annotations: 
+        rdfs:label "Seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001279>
+
+    Annotations: 
+        rdfs:label "Syncope"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001699>
+
+    Annotations: 
+        rdfs:label "Sudden death"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004756>
+
+    Annotations: 
+        rdfs:label "Ventricular tachycardia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005110>
+
+    Annotations: 
+        rdfs:label "Atrial fibrillation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_604772>
+
+    Annotations: 
+        rdfs:label "#604772 VENTRICULAR TACHYCARDIA, CATECHOLAMINERGIC POLYMORPHIC, 1, WITH ORWITHOUT ATRIAL DYSFUNCTION AND/OR DILATED CARDIOMYOPATHY; CPVT1;;VENTRICULAR TACHYCARDIA, STRESS-INDUCED POLYMORPHIC; VTSIP"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/00799b26-efe5-48a5-905e-84245295ac55>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > SYNCOPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001279>
+    
+    
+Individual: <http://model.geneontology.org/1c4be9e3-06c3-45be-874e-be30df37c2d4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#604772 ventricular tachycardia, catechol"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004756>
+    
+    
+Individual: <http://model.geneontology.org/25b60afe-5ab2-4cb3-8fca-267abdd502db>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > SUDDEN DEATH"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001699>
+    
+    
+Individual: <http://model.geneontology.org/3f3887fd-773c-4481-ae0c-55c5446b404b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604772>
+    
+    
+Individual: <http://model.geneontology.org/71033a40-d7a7-4500-99ef-4c5f7dfe08ea>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604772>
+    
+    
+Individual: <http://model.geneontology.org/788eeb9a-c713-4d0a-91c2-f50f853094fd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > ATRIAL FIBRILLATION (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005110>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/86224fae-3f1b-43c4-88e5-e7ab99056aa3>
+    
+    
+Individual: <http://model.geneontology.org/7b595bc3-6037-4fa3-bafb-dbbbfbd0567d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_604772>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc5a4c2b-19e1-4bcc-a835-7e7aa07c3d22>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8eac17b4-2c0a-4560-b909-24a723e047b1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc5a4c2b-19e1-4bcc-a835-7e7aa07c3d22>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc5a4c2b-19e1-4bcc-a835-7e7aa07c3d22>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc5a4c2b-19e1-4bcc-a835-7e7aa07c3d22>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00799b26-efe5-48a5-905e-84245295ac55>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aa45ce4b-5e81-445d-bdc9-ce0273303181>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00799b26-efe5-48a5-905e-84245295ac55>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00799b26-efe5-48a5-905e-84245295ac55>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00799b26-efe5-48a5-905e-84245295ac55>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c4be9e3-06c3-45be-874e-be30df37c2d4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3f3887fd-773c-4481-ae0c-55c5446b404b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c4be9e3-06c3-45be-874e-be30df37c2d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c4be9e3-06c3-45be-874e-be30df37c2d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c4be9e3-06c3-45be-874e-be30df37c2d4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25b60afe-5ab2-4cb3-8fca-267abdd502db>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/71033a40-d7a7-4500-99ef-4c5f7dfe08ea>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25b60afe-5ab2-4cb3-8fca-267abdd502db>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25b60afe-5ab2-4cb3-8fca-267abdd502db>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25b60afe-5ab2-4cb3-8fca-267abdd502db>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/788eeb9a-c713-4d0a-91c2-f50f853094fd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ccae980d-7b02-4f81-a174-8b26b46d3202>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/788eeb9a-c713-4d0a-91c2-f50f853094fd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/788eeb9a-c713-4d0a-91c2-f50f853094fd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/788eeb9a-c713-4d0a-91c2-f50f853094fd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8e6342-fb47-4b72-9791-e4f1773e5ecd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cedabacd-08ed-453a-80a6-18221c6f6e57>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8e6342-fb47-4b72-9791-e4f1773e5ecd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8e6342-fb47-4b72-9791-e4f1773e5ecd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8e6342-fb47-4b72-9791-e4f1773e5ecd>
+    
+    
+Individual: <http://model.geneontology.org/86224fae-3f1b-43c4-88e5-e7ab99056aa3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/8d8e6342-fb47-4b72-9791-e4f1773e5ecd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/8eac17b4-2c0a-4560-b909-24a723e047b1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604772>
+    
+    
+Individual: <http://model.geneontology.org/aa45ce4b-5e81-445d-bdc9-ce0273303181>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604772>
+    
+    
+Individual: <http://model.geneontology.org/cc5a4c2b-19e1-4bcc-a835-7e7aa07c3d22>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > SEIZURES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001250>
+    
+    
+Individual: <http://model.geneontology.org/ccae980d-7b02-4f81-a174-8b26b46d3202>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604772>
+    
+    
+Individual: <http://model.geneontology.org/cedabacd-08ed-453a-80a6-18221c6f6e57>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604772>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_604772>
+
+    Annotations: 
+        rdfs:label "#604772 VENTRICULAR TACHYCARDIA, CATECHOLAMINERGIC POLYMORPHIC, 1, WITH ORWITHOUT ATRIAL DYSFUNCTION AND/OR DILATED CARDIOMYOPATHY; CPVT1;;VENTRICULAR TACHYCARDIA, STRESS-INDUCED POLYMORPHIC; VTSIP"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

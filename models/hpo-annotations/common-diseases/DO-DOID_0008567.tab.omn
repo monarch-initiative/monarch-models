@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1a76befe-b921-47bc-97cc-c4f11f849019>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0008567.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0008567>
+
+    Annotations: 
+        rdfs:label "HODGKIN'S LYMPHOMA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012189>
+
+    Annotations: 
+        rdfs:label "Hodgkin lymphoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/6e4a9e1e-2e6c-4f4b-b98d-8275fa8922d0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:Hodgkin disease"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012189>
+    
+    
+Individual: <http://model.geneontology.org/90f0468e-dad0-4a8c-b5e7-d3d49f2eeabe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0008567>
+    
+    
+Individual: <http://model.geneontology.org/e81d201e-f964-494a-8a8d-715fe8a80bed>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0008567>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4a9e1e-2e6c-4f4b-b98d-8275fa8922d0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/90f0468e-dad0-4a8c-b5e7-d3d49f2eeabe>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4a9e1e-2e6c-4f4b-b98d-8275fa8922d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4a9e1e-2e6c-4f4b-b98d-8275fa8922d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4a9e1e-2e6c-4f4b-b98d-8275fa8922d0>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0008567>
+
+    Annotations: 
+        rdfs:label "HODGKIN'S LYMPHOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

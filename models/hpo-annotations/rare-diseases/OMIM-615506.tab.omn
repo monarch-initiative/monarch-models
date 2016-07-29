@@ -1,0 +1,279 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4141a16d-d039-48ba-92bf-406f88049310>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615506.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001009>
+
+    Annotations: 
+        rdfs:label "Telangiectasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001409>
+
+    Annotations: 
+        rdfs:label "Portal hypertension"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002910>
+
+    Annotations: 
+        rdfs:label "Elevated hepatic transaminases"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004406>
+
+    Annotations: 
+        rdfs:label "Spontaneous, recurrent epistaxis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615506>
+
+    Annotations: 
+        rdfs:label "#615506 TELANGIECTASIA, HEREDITARY HEMORRHAGIC, TYPE 5; HHT5"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1f19741f-dfee-43e9-9c6b-7d1beef529a4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_NOSE > SPONTANEOUS, RECURRENT EPISTAXIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004406>
+    
+    
+Individual: <http://model.geneontology.org/37c15019-636e-42a4-9e0b-78634b38f54c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/5c1fe143-e968-4beb-89be-fb66f271ebc9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > PORTAL HYPERTENSION (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001409>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/ba04b19b-d11e-43aa-89cb-a457ede8655e>
+    
+    
+Individual: <http://model.geneontology.org/5ffc04a1-1386-4ce2-b72c-76bb7a12d86f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/63d1113c-19c0-40cd-a976-cff4795598af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615506>
+    
+    
+Individual: <http://model.geneontology.org/71ea4a93-327f-44be-99ff-4a5f0e9c4e2c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615506>
+    
+    
+Individual: <http://model.geneontology.org/75f7d930-8e33-47d8-8528-c755e52d6c11>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615506>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e29878ac-7011-4635-99cf-a46e60a1a613>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/71ea4a93-327f-44be-99ff-4a5f0e9c4e2c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e29878ac-7011-4635-99cf-a46e60a1a613>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e29878ac-7011-4635-99cf-a46e60a1a613>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e29878ac-7011-4635-99cf-a46e60a1a613>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fac5718d-26b8-4e53-aff3-b9a7cc386720>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/980852ed-c9b4-4ccf-ac10-1cb0a6ab201f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fac5718d-26b8-4e53-aff3-b9a7cc386720>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fac5718d-26b8-4e53-aff3-b9a7cc386720>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fac5718d-26b8-4e53-aff3-b9a7cc386720>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f19741f-dfee-43e9-9c6b-7d1beef529a4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8771b325-de54-41e4-8588-70fbccbb0f5e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f19741f-dfee-43e9-9c6b-7d1beef529a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f19741f-dfee-43e9-9c6b-7d1beef529a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f19741f-dfee-43e9-9c6b-7d1beef529a4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37c15019-636e-42a4-9e0b-78634b38f54c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9567665f-7f45-474f-bb55-18dc8855f989>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37c15019-636e-42a4-9e0b-78634b38f54c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37c15019-636e-42a4-9e0b-78634b38f54c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37c15019-636e-42a4-9e0b-78634b38f54c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1fe143-e968-4beb-89be-fb66f271ebc9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63d1113c-19c0-40cd-a976-cff4795598af>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1fe143-e968-4beb-89be-fb66f271ebc9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1fe143-e968-4beb-89be-fb66f271ebc9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1fe143-e968-4beb-89be-fb66f271ebc9>
+    
+    
+Individual: <http://model.geneontology.org/8771b325-de54-41e4-8588-70fbccbb0f5e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615506>
+    
+    
+Individual: <http://model.geneontology.org/9567665f-7f45-474f-bb55-18dc8855f989>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615506>
+    
+    
+Individual: <http://model.geneontology.org/980852ed-c9b4-4ccf-ac10-1cb0a6ab201f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615506>
+    
+    
+Individual: <http://model.geneontology.org/ba04b19b-d11e-43aa-89cb-a457ede8655e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/e29878ac-7011-4635-99cf-a46e60a1a613>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > TELANGIECTASES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001009>
+    
+    
+Individual: <http://model.geneontology.org/fac5718d-26b8-4e53-aff3-b9a7cc386720>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > ABNORMAL LIVER ENZYMES (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002910>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/5ffc04a1-1386-4ce2-b72c-76bb7a12d86f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615506>
+
+    Annotations: 
+        rdfs:label "#615506 TELANGIECTASIA, HEREDITARY HEMORRHAGIC, TYPE 5; HHT5"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

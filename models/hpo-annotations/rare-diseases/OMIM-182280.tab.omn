@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a5b12347-ccbd-4349-a868-a1e938342311>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-182280.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100526>
+
+    Annotations: 
+        rdfs:label "Neoplasm of the lung"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_182280>
+
+    Annotations: 
+        rdfs:label "SMALL CELL CANCER OF THE LUNG"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/32665830-b9c7-4fc4-8db5-cf0b2861d80a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100526>
+    
+    
+Individual: <http://model.geneontology.org/4412f86b-5c6d-4c62-b52b-8bb99cbdf51d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_182280>
+    
+    
+Individual: <http://model.geneontology.org/96e95fe5-48a1-4a37-9213-edc1e091af10>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/c2f6d78d-ed50-4eae-8b1d-8f642e07eceb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_182280>
+    
+    
+Individual: <http://model.geneontology.org/ccfa576e-39b5-4b2b-8173-1fec32b85eaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_182280>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32665830-b9c7-4fc4-8db5-cf0b2861d80a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4412f86b-5c6d-4c62-b52b-8bb99cbdf51d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32665830-b9c7-4fc4-8db5-cf0b2861d80a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32665830-b9c7-4fc4-8db5-cf0b2861d80a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/32665830-b9c7-4fc4-8db5-cf0b2861d80a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96e95fe5-48a1-4a37-9213-edc1e091af10>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c2f6d78d-ed50-4eae-8b1d-8f642e07eceb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96e95fe5-48a1-4a37-9213-edc1e091af10>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96e95fe5-48a1-4a37-9213-edc1e091af10>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96e95fe5-48a1-4a37-9213-edc1e091af10>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_182280>
+
+    Annotations: 
+        rdfs:label "SMALL CELL CANCER OF THE LUNG"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

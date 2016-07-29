@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/560b195c-e733-4565-b02b-bc80f6c898dc>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-124400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000598>
+
+    Annotations: 
+        rdfs:label "Abnormality of the ear"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_124400>
+
+    Annotations: 
+        rdfs:label "DARWINIAN TUBERCLE OF PINNA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6d1e43a3-0895-4d3f-87d0-d5976d60ea31>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7cb7afed-cccc-4544-bacc-c68577a215f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_124400>
+    
+    
+Individual: <http://model.geneontology.org/b27e3b7c-70d4-4fcc-ad19-6f9e24c350d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_124400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b31e3f6d-4907-4006-8011-847664900cf3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c73828ef-5488-4689-a628-3ff7d4575f09>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b31e3f6d-4907-4006-8011-847664900cf3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b31e3f6d-4907-4006-8011-847664900cf3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b31e3f6d-4907-4006-8011-847664900cf3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d1e43a3-0895-4d3f-87d0-d5976d60ea31>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7cb7afed-cccc-4544-bacc-c68577a215f8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d1e43a3-0895-4d3f-87d0-d5976d60ea31>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d1e43a3-0895-4d3f-87d0-d5976d60ea31>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d1e43a3-0895-4d3f-87d0-d5976d60ea31>
+    
+    
+Individual: <http://model.geneontology.org/b31e3f6d-4907-4006-8011-847664900cf3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000598>
+    
+    
+Individual: <http://model.geneontology.org/c73828ef-5488-4689-a628-3ff7d4575f09>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_124400>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_124400>
+
+    Annotations: 
+        rdfs:label "DARWINIAN TUBERCLE OF PINNA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,356 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7f5ac48a-0874-40ee-a17c-312532d538c6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-607261.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000175>
+
+    Annotations: 
+        rdfs:label "Cleft palate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000238>
+
+    Annotations: 
+        rdfs:label "Hydrocephalus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001162>
+
+    Annotations: 
+        rdfs:label "Postaxial hand polydactyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001305>
+
+    Annotations: 
+        rdfs:label "Dandy-Walker malformation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001395>
+
+    Annotations: 
+        rdfs:label "Hepatic fibrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001408>
+
+    Annotations: 
+        rdfs:label "Bile duct proliferation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_607261>
+
+    Annotations: 
+        rdfs:label "*607261 EVC2 GENE; EVC2;;LIMBIN; LBN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0fab0a95-f469-43ab-9c7c-f91a62327404>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_HANDS > POLYDACTYLY, POSTAXIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001162>
+    
+    
+Individual: <http://model.geneontology.org/10459688-333c-4b35-bf5a-f3e40aa838ed>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    
+Individual: <http://model.geneontology.org/33f4d246-8577-40ee-9177-78f46d617561>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > DANDY-WALKER MALFORMATION (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001305>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/7292c61b-d370-45b3-8fa1-e01dcc8c71c1>
+    
+    
+Individual: <http://model.geneontology.org/3a09ba8b-f94f-40a9-a93c-13fd9175d593>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    
+Individual: <http://model.geneontology.org/534cdcf6-be31-4d0e-b80e-633cc065671f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    
+Individual: <http://model.geneontology.org/547a3e5a-559c-4c46-96d5-1bbfbeecbf42>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_MOUTH > CLEFT PALATE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000175>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/ece16e0e-874a-43c7-a74b-e441fae52035>
+    
+    
+Individual: <http://model.geneontology.org/60aee766-75f1-47f8-8cb1-54f6bd796012>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > BILE DUCT PROLIFERATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001408>
+    
+    
+Individual: <http://model.geneontology.org/620b01d5-fcb1-4c07-8939-5e2430ce2e36>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > HYDROCEPHALUS (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000238>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/b60a0c0f-bf09-479a-830d-a46b00a918d6>
+    
+    
+Individual: <http://model.geneontology.org/64e6b07d-8720-4149-b4c3-6150e83f6894>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    
+Individual: <http://model.geneontology.org/7292c61b-d370-45b3-8fa1-e01dcc8c71c1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/791f782f-c457-49bd-8d9e-03a807721321>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    
+Individual: <http://model.geneontology.org/80a79ecc-8f86-4fc0-a08a-4402488eb450>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    
+Individual: <http://model.geneontology.org/a9a7666c-9ca5-46ac-baee-fd19390a4b94>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b391b5bd-ad8d-4c68-8c04-2c08300a8d4b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/791f782f-c457-49bd-8d9e-03a807721321>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b391b5bd-ad8d-4c68-8c04-2c08300a8d4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b391b5bd-ad8d-4c68-8c04-2c08300a8d4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b391b5bd-ad8d-4c68-8c04-2c08300a8d4b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9bc674b-6f94-414a-8738-659444ac721c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/10459688-333c-4b35-bf5a-f3e40aa838ed>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9bc674b-6f94-414a-8738-659444ac721c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9bc674b-6f94-414a-8738-659444ac721c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9bc674b-6f94-414a-8738-659444ac721c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fab0a95-f469-43ab-9c7c-f91a62327404>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/534cdcf6-be31-4d0e-b80e-633cc065671f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fab0a95-f469-43ab-9c7c-f91a62327404>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fab0a95-f469-43ab-9c7c-f91a62327404>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fab0a95-f469-43ab-9c7c-f91a62327404>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/33f4d246-8577-40ee-9177-78f46d617561>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/64e6b07d-8720-4149-b4c3-6150e83f6894>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/33f4d246-8577-40ee-9177-78f46d617561>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/33f4d246-8577-40ee-9177-78f46d617561>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/33f4d246-8577-40ee-9177-78f46d617561>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/547a3e5a-559c-4c46-96d5-1bbfbeecbf42>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3a09ba8b-f94f-40a9-a93c-13fd9175d593>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/547a3e5a-559c-4c46-96d5-1bbfbeecbf42>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/547a3e5a-559c-4c46-96d5-1bbfbeecbf42>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/547a3e5a-559c-4c46-96d5-1bbfbeecbf42>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60aee766-75f1-47f8-8cb1-54f6bd796012>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/acfc8f73-591f-493e-9995-3eefb77b423d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60aee766-75f1-47f8-8cb1-54f6bd796012>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60aee766-75f1-47f8-8cb1-54f6bd796012>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60aee766-75f1-47f8-8cb1-54f6bd796012>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/620b01d5-fcb1-4c07-8939-5e2430ce2e36>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/80a79ecc-8f86-4fc0-a08a-4402488eb450>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/620b01d5-fcb1-4c07-8939-5e2430ce2e36>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/620b01d5-fcb1-4c07-8939-5e2430ce2e36>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/620b01d5-fcb1-4c07-8939-5e2430ce2e36>
+    
+    
+Individual: <http://model.geneontology.org/acfc8f73-591f-493e-9995-3eefb77b423d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607261>
+    
+    
+Individual: <http://model.geneontology.org/b391b5bd-ad8d-4c68-8c04-2c08300a8d4b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_FEET > POLYDACTYLY, POSTAXIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001162>
+    
+    
+Individual: <http://model.geneontology.org/b60a0c0f-bf09-479a-830d-a46b00a918d6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/d9bc674b-6f94-414a-8738-659444ac721c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > HEPATIC FIBROSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001395>
+    
+    
+Individual: <http://model.geneontology.org/ece16e0e-874a-43c7-a74b-e441fae52035>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_607261>
+
+    Annotations: 
+        rdfs:label "*607261 EVC2 GENE; EVC2;;LIMBIN; LBN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

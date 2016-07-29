@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5f806e10-0fd6-4fb2-a3ab-6f37ed4cb466>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-152420.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007302>
+
+    Annotations: 
+        rdfs:label "Bipolar affective disorder"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_152420>
+
+    Annotations: 
+        rdfs:label "LITHIUM TRANSPORT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4579b5f9-8f1f-49ef-ac85-2730f77ca778>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_152420>
+    
+    
+Individual: <http://model.geneontology.org/4eb6329e-b112-417e-bbab-c0d61961bf6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/85eee24f-5a3e-4fc1-977b-2805ad8bdfff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_152420>
+    
+    
+Individual: <http://model.geneontology.org/b29e4042-f8c6-42af-b8d7-c5815e21b33d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007302>
+    
+    
+Individual: <http://model.geneontology.org/ca66932e-f252-4215-918b-5a99e4443af8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_152420>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b29e4042-f8c6-42af-b8d7-c5815e21b33d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/85eee24f-5a3e-4fc1-977b-2805ad8bdfff>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b29e4042-f8c6-42af-b8d7-c5815e21b33d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b29e4042-f8c6-42af-b8d7-c5815e21b33d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b29e4042-f8c6-42af-b8d7-c5815e21b33d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4eb6329e-b112-417e-bbab-c0d61961bf6e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4579b5f9-8f1f-49ef-ac85-2730f77ca778>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4eb6329e-b112-417e-bbab-c0d61961bf6e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4eb6329e-b112-417e-bbab-c0d61961bf6e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4eb6329e-b112-417e-bbab-c0d61961bf6e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_152420>
+
+    Annotations: 
+        rdfs:label "LITHIUM TRANSPORT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

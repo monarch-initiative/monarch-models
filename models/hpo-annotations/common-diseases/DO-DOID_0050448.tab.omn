@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/564e2d73-0401-4674-a356-14c71ad434ac>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0050448.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0050448>
+
+    Annotations: 
+        rdfs:label "Leukokeratosis, Hereditary Mucosal"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003764>
+
+    Annotations: 
+        rdfs:label "Nevus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2eae6455-a28b-49ee-877a-4fac4e9b8ee1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 65.20623269036184/10). MESHID: D053529"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003764>
+    
+    
+Individual: <http://model.geneontology.org/ad703aaa-c9a7-4d8a-8f09-bc262abb859e>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/22750590;PMID:22211089;PMID:18091717;PMID:19602060;PMID:22068767>
+    
+    
+Individual: <http://model.geneontology.org/e72bf3d7-9c42-41d5-a94c-3bf29b746e4e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0050448>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2eae6455-a28b-49ee-877a-4fac4e9b8ee1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ad703aaa-c9a7-4d8a-8f09-bc262abb859e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2eae6455-a28b-49ee-877a-4fac4e9b8ee1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2eae6455-a28b-49ee-877a-4fac4e9b8ee1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2eae6455-a28b-49ee-877a-4fac4e9b8ee1>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/22750590;PMID:22211089;PMID:18091717;PMID:19602060;PMID:22068767>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

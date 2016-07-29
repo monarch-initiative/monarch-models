@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/27aa065b-3d42-440e-b099-7a91549887ff>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614430.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010445>
+
+    Annotations: 
+        rdfs:label "Primum atrial septal defect"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614430>
+
+    Annotations: 
+        rdfs:label "#614430 ATRIOVENTRICULAR SEPTAL DEFECT 4; AVSD4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/19c08586-f5e2-4656-b4b0-1ef03ecde3d5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > ATRIAL SEPTAL DEFECT, PRIMUM TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010445>
+    
+    
+Individual: <http://model.geneontology.org/51a811d6-3e57-4435-a7ea-b9ef10b379d3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614430>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b854ca8c-69d8-45e1-9754-76a64d44928d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cf3c1615-9efd-41bf-8710-2ddb7f3cb679>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b854ca8c-69d8-45e1-9754-76a64d44928d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b854ca8c-69d8-45e1-9754-76a64d44928d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b854ca8c-69d8-45e1-9754-76a64d44928d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19c08586-f5e2-4656-b4b0-1ef03ecde3d5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d85118ef-3c16-4d8c-ae9e-d37e709abb88>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19c08586-f5e2-4656-b4b0-1ef03ecde3d5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19c08586-f5e2-4656-b4b0-1ef03ecde3d5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19c08586-f5e2-4656-b4b0-1ef03ecde3d5>
+    
+    
+Individual: <http://model.geneontology.org/b854ca8c-69d8-45e1-9754-76a64d44928d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/cf3c1615-9efd-41bf-8710-2ddb7f3cb679>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614430>
+    
+    
+Individual: <http://model.geneontology.org/d85118ef-3c16-4d8c-ae9e-d37e709abb88>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614430>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614430>
+
+    Annotations: 
+        rdfs:label "#614430 ATRIOVENTRICULAR SEPTAL DEFECT 4; AVSD4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

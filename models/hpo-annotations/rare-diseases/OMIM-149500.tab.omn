@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f7d3690a-5024-4800-8354-636d103962c1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-149500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000951>
+
+    Annotations: 
+        rdfs:label "Abnormality of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007787>
+
+    Annotations: 
+        rdfs:label "Posterior subcapsular cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_149500>
+
+    Annotations: 
+        rdfs:label "KYRLE DISEASE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1337e7a7-e76d-4270-82c0-89d096e1c8e7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000951>
+    
+    
+Individual: <http://model.geneontology.org/138f83f1-5044-4792-86fa-05141808cc24>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007787>
+    
+    
+Individual: <http://model.geneontology.org/2db79bde-b18a-4146-8d53-84ea7e191842>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/9edb10b3-7a67-4995-bb79-d6499d176ee6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_149500>
+    
+    
+Individual: <http://model.geneontology.org/c3245180-cc9d-407f-9aed-6cb5158d2e29>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_149500>
+    
+    
+Individual: <http://model.geneontology.org/c7e44217-e286-41b2-b0ac-834f290a4d10>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_149500>
+    
+    
+Individual: <http://model.geneontology.org/f39eeb04-d1a8-4cef-855d-ba04d3fa4d10>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_149500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1337e7a7-e76d-4270-82c0-89d096e1c8e7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c3245180-cc9d-407f-9aed-6cb5158d2e29>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1337e7a7-e76d-4270-82c0-89d096e1c8e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1337e7a7-e76d-4270-82c0-89d096e1c8e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1337e7a7-e76d-4270-82c0-89d096e1c8e7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/138f83f1-5044-4792-86fa-05141808cc24>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c7e44217-e286-41b2-b0ac-834f290a4d10>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/138f83f1-5044-4792-86fa-05141808cc24>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/138f83f1-5044-4792-86fa-05141808cc24>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/138f83f1-5044-4792-86fa-05141808cc24>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2db79bde-b18a-4146-8d53-84ea7e191842>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9edb10b3-7a67-4995-bb79-d6499d176ee6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2db79bde-b18a-4146-8d53-84ea7e191842>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2db79bde-b18a-4146-8d53-84ea7e191842>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2db79bde-b18a-4146-8d53-84ea7e191842>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_149500>
+
+    Annotations: 
+        rdfs:label "KYRLE DISEASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

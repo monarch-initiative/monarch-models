@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f802130d-56b1-4e54-9678-3dabaaf49c52>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-312000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000839>
+
+    Annotations: 
+        rdfs:label "Pituitary dwarfism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000871>
+
+    Annotations: 
+        rdfs:label "Panhypopituitarism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_312000>
+
+    Annotations: 
+        rdfs:label "PANHYPOPITUITARISM, X-LINKED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1397ece8-de31-4611-91fc-a2fd29433393>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/3cdab0bf-9d78-4ba0-9995-0995372eced5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_312000>
+    
+    
+Individual: <http://model.geneontology.org/570f7f39-8c2e-4b6f-ba31-eba81a265934>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_312000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1f6de0-30d4-4bc2-b0f5-1b6713b33ea0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3cdab0bf-9d78-4ba0-9995-0995372eced5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1f6de0-30d4-4bc2-b0f5-1b6713b33ea0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1f6de0-30d4-4bc2-b0f5-1b6713b33ea0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1f6de0-30d4-4bc2-b0f5-1b6713b33ea0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc520aab-c967-4dd4-aeee-1ab604e0f02f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b309df28-fd79-444a-a3c3-662b75788aa3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc520aab-c967-4dd4-aeee-1ab604e0f02f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc520aab-c967-4dd4-aeee-1ab604e0f02f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc520aab-c967-4dd4-aeee-1ab604e0f02f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1397ece8-de31-4611-91fc-a2fd29433393>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7f66d28a-a758-45b6-a165-557b0fba4b81>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1397ece8-de31-4611-91fc-a2fd29433393>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1397ece8-de31-4611-91fc-a2fd29433393>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1397ece8-de31-4611-91fc-a2fd29433393>
+    
+    
+Individual: <http://model.geneontology.org/7f66d28a-a758-45b6-a165-557b0fba4b81>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_312000>
+    
+    
+Individual: <http://model.geneontology.org/af1f6de0-30d4-4bc2-b0f5-1b6713b33ea0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000839>
+    
+    
+Individual: <http://model.geneontology.org/b309df28-fd79-444a-a3c3-662b75788aa3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_312000>
+    
+    
+Individual: <http://model.geneontology.org/cc520aab-c967-4dd4-aeee-1ab604e0f02f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000871>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_312000>
+
+    Annotations: 
+        rdfs:label "PANHYPOPITUITARISM, X-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

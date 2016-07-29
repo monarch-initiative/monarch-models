@@ -1,0 +1,310 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f1e467c5-3f3a-4544-bc78-e6f426ace1a5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-137215.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000175>
+
+    Annotations: 
+        rdfs:label "Cleft palate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000204>
+
+    Annotations: 
+        rdfs:label "Cleft upper lip"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002582>
+
+    Annotations: 
+        rdfs:label "Chronic atrophic gastritis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002664>
+
+    Annotations: 
+        rdfs:label "Neoplasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012126>
+
+    Annotations: 
+        rdfs:label "Stomach cancer"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_137215>
+
+    Annotations: 
+        rdfs:label "#137215 GASTRIC CANCER, HEREDITARY DIFFUSE; HDGC;;GASTRIC CANCER, FAMILIAL DIFFUSEGASTRIC CANCER, FAMILIAL DIFFUSE, AND CLEFT LIP WITH OR WITHOUT CLEFTPALATE, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/417ee498-f391-44b2-bdb9-fda8cc031ac3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_MOUTH > CLEFT LIP (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000204>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/baaf31c8-4695-4f79-8ccb-ddf36de11878>
+    
+    
+Individual: <http://model.geneontology.org/52992e8c-ba9e-4bbb-b1d2-5c61372acadf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002664>
+    
+    
+Individual: <http://model.geneontology.org/5f04eec7-22ac-4c09-904f-548e0399afe1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137215>
+    
+    
+Individual: <http://model.geneontology.org/70e7fa9e-6a7c-4265-adaf-65f6b9ec29dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002582>
+    
+    
+Individual: <http://model.geneontology.org/7faf5637-46d6-496d-b6d3-5efa14569de9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_MOUTH > CLEFT PALATE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000175>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/9cde62c8-067d-41a4-ac32-ccbb576a8603>
+    
+    
+Individual: <http://model.geneontology.org/82cc03fc-28aa-41e3-8236-dfded3af228b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/9cde62c8-067d-41a4-ac32-ccbb576a8603>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b6eee0c8-0c39-42bb-baec-5894d2014b4c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137215>
+    
+    
+Individual: <http://model.geneontology.org/ba6f03c5-87e4-43f2-915a-33f44b3dd189>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#137215 gastric cancer, hereditary diffuse"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012126>
+    
+    
+Individual: <http://model.geneontology.org/baaf31c8-4695-4f79-8ccb-ddf36de11878>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/ec758091-2deb-4b79-a4b5-6acd45a49b5c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137215>
+    
+    
+Individual: <http://model.geneontology.org/f232d09d-266d-4c91-91e8-33117dec3251>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137215>
+    
+    
+Individual: <http://model.geneontology.org/f44cf14b-0724-452b-ab1c-62a94981d38b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137215>
+    
+    
+Individual: <http://model.geneontology.org/fc005714-2865-4822-a9e0-fcaffee8795b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_137215>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba6f03c5-87e4-43f2-915a-33f44b3dd189>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f232d09d-266d-4c91-91e8-33117dec3251>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba6f03c5-87e4-43f2-915a-33f44b3dd189>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba6f03c5-87e4-43f2-915a-33f44b3dd189>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba6f03c5-87e4-43f2-915a-33f44b3dd189>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/417ee498-f391-44b2-bdb9-fda8cc031ac3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f44cf14b-0724-452b-ab1c-62a94981d38b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/417ee498-f391-44b2-bdb9-fda8cc031ac3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/417ee498-f391-44b2-bdb9-fda8cc031ac3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/417ee498-f391-44b2-bdb9-fda8cc031ac3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52992e8c-ba9e-4bbb-b1d2-5c61372acadf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ec758091-2deb-4b79-a4b5-6acd45a49b5c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52992e8c-ba9e-4bbb-b1d2-5c61372acadf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52992e8c-ba9e-4bbb-b1d2-5c61372acadf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52992e8c-ba9e-4bbb-b1d2-5c61372acadf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7faf5637-46d6-496d-b6d3-5efa14569de9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5f04eec7-22ac-4c09-904f-548e0399afe1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7faf5637-46d6-496d-b6d3-5efa14569de9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7faf5637-46d6-496d-b6d3-5efa14569de9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7faf5637-46d6-496d-b6d3-5efa14569de9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70e7fa9e-6a7c-4265-adaf-65f6b9ec29dd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b6eee0c8-0c39-42bb-baec-5894d2014b4c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70e7fa9e-6a7c-4265-adaf-65f6b9ec29dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70e7fa9e-6a7c-4265-adaf-65f6b9ec29dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70e7fa9e-6a7c-4265-adaf-65f6b9ec29dd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82cc03fc-28aa-41e3-8236-dfded3af228b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe4635ed-6e58-45ad-a81d-e5c3d91a65cf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82cc03fc-28aa-41e3-8236-dfded3af228b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82cc03fc-28aa-41e3-8236-dfded3af228b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82cc03fc-28aa-41e3-8236-dfded3af228b>
+    
+    
+Individual: <http://model.geneontology.org/fe4635ed-6e58-45ad-a81d-e5c3d91a65cf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137215>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_137215>
+
+    Annotations: 
+        rdfs:label "#137215 GASTRIC CANCER, HEREDITARY DIFFUSE; HDGC;;GASTRIC CANCER, FAMILIAL DIFFUSEGASTRIC CANCER, FAMILIAL DIFFUSE, AND CLEFT LIP WITH OR WITHOUT CLEFTPALATE, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

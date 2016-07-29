@@ -1,0 +1,233 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/77f828c1-bdce-400f-b3b5-3ddf47d8748b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614674.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001945>
+
+    Annotations: 
+        rdfs:label "Fever"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002076>
+
+    Annotations: 
+        rdfs:label "Migraine"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200067>
+
+    Annotations: 
+        rdfs:label "Recurrent spontaneous abortion"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614674>
+
+    Annotations: 
+        rdfs:label "#614674 PERIODIC FEVER, MENSTRUAL CYCLE-DEPENDENT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1d3669b1-e646-4d3a-a375-8f0bea57348f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614674>
+    
+    
+Individual: <http://model.geneontology.org/1f22ba4a-1576-4f43-b37a-aca6ee5cb1eb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, FEMALE > SPONTANEOUS ABORTION, RECURRENT (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200067>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/ae06459a-0792-4d8a-a1da-5afe50712da0>
+    
+    
+Individual: <http://model.geneontology.org/2363eec3-9219-464a-9b8f-c45c9bfa7b1f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#614674 periodic fever, menstrual cycle-de"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001945>
+    
+    
+Individual: <http://model.geneontology.org/3d4411fb-6feb-4d66-a02b-0c93f28d479c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614674>
+    
+    
+Individual: <http://model.geneontology.org/526e8b96-b53c-44ec-b9cf-54a207e87dd6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614674>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc767493-07b1-4258-8825-cf320aa989e8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/53674251-a36d-46af-8049-fe1148d3d6e3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc767493-07b1-4258-8825-cf320aa989e8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc767493-07b1-4258-8825-cf320aa989e8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc767493-07b1-4258-8825-cf320aa989e8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5b3b080-93b6-445f-8794-4804383415d2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1d3669b1-e646-4d3a-a375-8f0bea57348f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5b3b080-93b6-445f-8794-4804383415d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5b3b080-93b6-445f-8794-4804383415d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5b3b080-93b6-445f-8794-4804383415d2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f22ba4a-1576-4f43-b37a-aca6ee5cb1eb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cb8b2e29-74c2-41e6-a77e-66810cfd063a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f22ba4a-1576-4f43-b37a-aca6ee5cb1eb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f22ba4a-1576-4f43-b37a-aca6ee5cb1eb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-31"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f22ba4a-1576-4f43-b37a-aca6ee5cb1eb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2363eec3-9219-464a-9b8f-c45c9bfa7b1f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3d4411fb-6feb-4d66-a02b-0c93f28d479c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2363eec3-9219-464a-9b8f-c45c9bfa7b1f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2363eec3-9219-464a-9b8f-c45c9bfa7b1f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2363eec3-9219-464a-9b8f-c45c9bfa7b1f>
+    
+    
+Individual: <http://model.geneontology.org/53674251-a36d-46af-8049-fe1148d3d6e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/ae06459a-0792-4d8a-a1da-5afe50712da0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/cb8b2e29-74c2-41e6-a77e-66810cfd063a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614674>
+    
+    
+Individual: <http://model.geneontology.org/cc767493-07b1-4258-8825-cf320aa989e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002076>
+    
+    
+Individual: <http://model.geneontology.org/d5b3b080-93b6-445f-8794-4804383415d2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614674>
+
+    Annotations: 
+        rdfs:label "#614674 PERIODIC FEVER, MENSTRUAL CYCLE-DEPENDENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

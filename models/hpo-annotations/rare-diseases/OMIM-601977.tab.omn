@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d74ddd83-aa33-4b2a-9063-5e10576164a8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601977.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001894>
+
+    Annotations: 
+        rdfs:label "Thrombocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601977>
+
+    Annotations: 
+        rdfs:label "THROMBOCYTOSIS, BENIGN FAMILIAL MICROCYTIC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/29584db2-1448-465a-9afc-d2611bccd5d0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001894>
+    
+    
+Individual: <http://model.geneontology.org/2c472276-a339-4364-a1e1-4e034c4b5601>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601977>
+    
+    
+Individual: <http://model.geneontology.org/42157d6e-cb61-4741-ac28-3878194cf1bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/67962109-2a25-4e98-b644-da5a28ec48dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601977>
+    
+    
+Individual: <http://model.geneontology.org/6d9c57af-4846-47de-9ede-a5b195fd7a19>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601977>
+    
+    
+Individual: <http://model.geneontology.org/6e06c935-1e26-4f25-a97f-0bd4d43f22e9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > SOMATIC MUTATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/b7c940a3-d247-4421-a1d5-7bc8cee91ccd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601977>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29584db2-1448-465a-9afc-d2611bccd5d0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2c472276-a339-4364-a1e1-4e034c4b5601>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29584db2-1448-465a-9afc-d2611bccd5d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29584db2-1448-465a-9afc-d2611bccd5d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29584db2-1448-465a-9afc-d2611bccd5d0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42157d6e-cb61-4741-ac28-3878194cf1bf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/67962109-2a25-4e98-b644-da5a28ec48dd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42157d6e-cb61-4741-ac28-3878194cf1bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42157d6e-cb61-4741-ac28-3878194cf1bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42157d6e-cb61-4741-ac28-3878194cf1bf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e06c935-1e26-4f25-a97f-0bd4d43f22e9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6d9c57af-4846-47de-9ede-a5b195fd7a19>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e06c935-1e26-4f25-a97f-0bd4d43f22e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e06c935-1e26-4f25-a97f-0bd4d43f22e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e06c935-1e26-4f25-a97f-0bd4d43f22e9>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601977>
+
+    Annotations: 
+        rdfs:label "THROMBOCYTOSIS, BENIGN FAMILIAL MICROCYTIC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

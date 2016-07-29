@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3c21e0be-8a1a-4f14-b933-9e2bd93545c8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-187000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000164>
+
+    Annotations: 
+        rdfs:label "Abnormality of the teeth"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_187000>
+
+    Annotations: 
+        rdfs:label "TEETH, ODD SHAPES OFLOBODONTIA, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0ae516a6-1277-4278-8845-dc99b9bd5bba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_187000>
+    
+    
+Individual: <http://model.geneontology.org/3e250662-df3d-478a-8d2d-31095109196d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/62f9f102-8917-462b-bd50-da484a4a696d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_187000>
+    
+    
+Individual: <http://model.geneontology.org/931c2435-1f9e-4484-b5ff-0215e4f965dc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000164>
+    
+    
+Individual: <http://model.geneontology.org/f4845757-5c17-459f-8d85-7f195676b60e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_187000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e250662-df3d-478a-8d2d-31095109196d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0ae516a6-1277-4278-8845-dc99b9bd5bba>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e250662-df3d-478a-8d2d-31095109196d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e250662-df3d-478a-8d2d-31095109196d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e250662-df3d-478a-8d2d-31095109196d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931c2435-1f9e-4484-b5ff-0215e4f965dc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/62f9f102-8917-462b-bd50-da484a4a696d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931c2435-1f9e-4484-b5ff-0215e4f965dc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931c2435-1f9e-4484-b5ff-0215e4f965dc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931c2435-1f9e-4484-b5ff-0215e4f965dc>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_187000>
+
+    Annotations: 
+        rdfs:label "TEETH, ODD SHAPES OFLOBODONTIA, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

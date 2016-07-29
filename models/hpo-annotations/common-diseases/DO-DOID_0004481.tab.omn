@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/444158fe-4b25-4039-a00e-ad97c2ddeab8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0004481.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0004481>
+
+    Annotations: 
+        rdfs:label "ALLERGIC RHINITIS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003193>
+
+    Annotations: 
+        rdfs:label "Allergic rhinitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/c9be79cd-f23a-4ca9-bce7-2bc9de503ae0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:allergic rhinitis"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003193>
+    
+    
+Individual: <http://model.geneontology.org/e8f533bb-167e-4cac-9758-b3789e8159e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0004481>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9be79cd-f23a-4ca9-bce7-2bc9de503ae0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f605bc80-4389-47dd-a9f7-61414c039b8c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9be79cd-f23a-4ca9-bce7-2bc9de503ae0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9be79cd-f23a-4ca9-bce7-2bc9de503ae0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9be79cd-f23a-4ca9-bce7-2bc9de503ae0>
+    
+    
+Individual: <http://model.geneontology.org/f605bc80-4389-47dd-a9f7-61414c039b8c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0004481>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0004481>
+
+    Annotations: 
+        rdfs:label "ALLERGIC RHINITIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

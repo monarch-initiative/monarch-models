@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c63fd662-1b11-44f8-ae42-a1e323103003>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0001681.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0001681>
+
+    Annotations: 
+        rdfs:label "HEART SEPTAL DEFECT"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001671>
+
+    Annotations: 
+        rdfs:label "Abnormality of the cardiac septa"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/2cfed4f3-7b4e-4b6e-8f97-414014c821e6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:heart septal defect"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001671>
+    
+    
+Individual: <http://model.geneontology.org/4bc056bd-80bf-4ecb-8d94-083ea0f4ae0a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0001681>
+    
+    
+Individual: <http://model.geneontology.org/adaea3ef-b46b-4948-958b-0d876be3c331>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0001681>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cfed4f3-7b4e-4b6e-8f97-414014c821e6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4bc056bd-80bf-4ecb-8d94-083ea0f4ae0a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cfed4f3-7b4e-4b6e-8f97-414014c821e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cfed4f3-7b4e-4b6e-8f97-414014c821e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cfed4f3-7b4e-4b6e-8f97-414014c821e6>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0001681>
+
+    Annotations: 
+        rdfs:label "HEART SEPTAL DEFECT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

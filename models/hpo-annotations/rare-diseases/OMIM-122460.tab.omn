@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d7e4088e-0d65-430f-92d9-d3e512447e52>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-122460.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005396>
+
+    Annotations: 
+        rdfs:label "Susceptibility to coronavirus 229e"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_122460>
+
+    Annotations: 
+        rdfs:label "CORONAVIRUS 229E SUSCEPTIBILITY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1c218e9f-0e8e-4784-974d-e0a700ddc837>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005396>
+    
+    
+Individual: <http://model.geneontology.org/77d10c39-0dbf-4ff5-8cec-66f9dd0a86b5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/8bf9ed0b-42ca-4eb6-8fd1-e025b05653f7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_122460>
+    
+    
+Individual: <http://model.geneontology.org/b4a5ce30-cf2b-4137-8e8c-454167e3f371>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_122460>
+    
+    
+Individual: <http://model.geneontology.org/d8edbf53-3127-42fc-809a-2ab484a28460>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_122460>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c218e9f-0e8e-4784-974d-e0a700ddc837>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b4a5ce30-cf2b-4137-8e8c-454167e3f371>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c218e9f-0e8e-4784-974d-e0a700ddc837>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c218e9f-0e8e-4784-974d-e0a700ddc837>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c218e9f-0e8e-4784-974d-e0a700ddc837>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77d10c39-0dbf-4ff5-8cec-66f9dd0a86b5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8bf9ed0b-42ca-4eb6-8fd1-e025b05653f7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77d10c39-0dbf-4ff5-8cec-66f9dd0a86b5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77d10c39-0dbf-4ff5-8cec-66f9dd0a86b5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77d10c39-0dbf-4ff5-8cec-66f9dd0a86b5>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_122460>
+
+    Annotations: 
+        rdfs:label "CORONAVIRUS 229E SUSCEPTIBILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

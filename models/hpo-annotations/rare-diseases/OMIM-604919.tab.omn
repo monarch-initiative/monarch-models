@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0bd6462c-3539-4f3a-98c4-343b8a5d2b48>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-604919.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003764>
+
+    Annotations: 
+        rdfs:label "Nevus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_604919>
+
+    Annotations: 
+        rdfs:label "BECKER NEVUS SYNDROME"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5f70f3e9-97d1-42ba-b72c-07ddce5b5283>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604919>
+    
+    
+Individual: <http://model.geneontology.org/85379119-aeb5-400b-be0d-d04f2444978d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_604919>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae88808-1396-4a3f-9ef6-c6428d2674c8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5f70f3e9-97d1-42ba-b72c-07ddce5b5283>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae88808-1396-4a3f-9ef6-c6428d2674c8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae88808-1396-4a3f-9ef6-c6428d2674c8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae88808-1396-4a3f-9ef6-c6428d2674c8>
+    
+    
+Individual: <http://model.geneontology.org/aae88808-1396-4a3f-9ef6-c6428d2674c8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:becker nevus syndrome"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003764>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_604919>
+
+    Annotations: 
+        rdfs:label "BECKER NEVUS SYNDROME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1f272f15-f7b4-4081-aca9-5b0c7d0f305b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-606579.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001045>
+
+    Annotations: 
+        rdfs:label "Vitiligo"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010982>
+
+    Annotations: 
+        rdfs:label "Polygenic inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_606579>
+
+    Annotations: 
+        rdfs:label "#606579 VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 1;VAMAS1;;VITILIGO; VTLG;;SYSTEMIC LUPUS ERYTHEMATOSUS, VITILIGO-RELATED; SLEV1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/11594141-7d43-48a0-bef2-c37cd8b4597e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606579>
+    
+    
+Individual: <http://model.geneontology.org/3bd363b4-d827-454f-b99b-fea9289219a6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001045>
+    
+    
+Individual: <http://model.geneontology.org/83e9eeb4-4d72-4029-8146-24236993a9f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_606579>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4b49d9d-1205-4361-883b-bf2932ccaf44>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/11594141-7d43-48a0-bef2-c37cd8b4597e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4b49d9d-1205-4361-883b-bf2932ccaf44>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4b49d9d-1205-4361-883b-bf2932ccaf44>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-25"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4b49d9d-1205-4361-883b-bf2932ccaf44>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3bd363b4-d827-454f-b99b-fea9289219a6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dcfad71b-fcf7-4970-bafe-40af95132709>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3bd363b4-d827-454f-b99b-fea9289219a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3bd363b4-d827-454f-b99b-fea9289219a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3bd363b4-d827-454f-b99b-fea9289219a6>
+    
+    
+Individual: <http://model.geneontology.org/d4b49d9d-1205-4361-883b-bf2932ccaf44>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010982>
+    
+    
+Individual: <http://model.geneontology.org/dcfad71b-fcf7-4970-bafe-40af95132709>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606579>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_606579>
+
+    Annotations: 
+        rdfs:label "#606579 VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 1;VAMAS1;;VITILIGO; VTLG;;SYSTEMIC LUPUS ERYTHEMATOSUS, VITILIGO-RELATED; SLEV1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

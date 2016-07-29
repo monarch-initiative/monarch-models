@@ -1,0 +1,261 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b396ed9b-b781-4aad-8e07-89cc2205ef00>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-307150.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001007>
+
+    Annotations: 
+        rdfs:label "Hirsutism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001423>
+
+    Annotations: 
+        rdfs:label "X-linked dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002650>
+
+    Annotations: 
+        rdfs:label "Scoliosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004540>
+
+    Annotations: 
+        rdfs:label "Congenital, generalized hypertrichosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_307150>
+
+    Annotations: 
+        rdfs:label "#307150 HYPERTRICHOSIS, CONGENITAL GENERALIZED; HTC2;;CHROMOSOME Xq27.1 INTERCHROMOSOMAL INSERTION SYNDROME;;CGH;;HCG"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0f73f9e3-9e88-415b-9e17-7d513d7de509>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/225a7207-11f5-4cf7-be89-1f9646aed950>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001423>
+    
+    
+Individual: <http://model.geneontology.org/2da19287-a319-419d-bf1f-98a7867c9c48>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001007>
+    
+    
+Individual: <http://model.geneontology.org/368bdc74-a6c1-46ea-8009-56b05bce2276>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/538b2d09-f6a8-4129-a798-eca639a52016>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004540>
+    
+    
+Individual: <http://model.geneontology.org/7b234f42-3d51-40f1-a03e-dc2185620df7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_307150>
+    
+    
+Individual: <http://model.geneontology.org/7e860253-15c9-4292-af19-8bca684076c8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_307150>
+    
+    
+Individual: <http://model.geneontology.org/8875496d-bc79-4f97-8b96-dd3307dc954d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_307150>
+    
+    
+Individual: <http://model.geneontology.org/99df8bdb-d391-407d-aef2-5d2cb64fdbfb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_SPINE > SCOLIOSIS (IN SOME MALE PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002650>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/0f73f9e3-9e88-415b-9e17-7d513d7de509>
+    
+    
+Individual: <http://model.geneontology.org/a9899bcc-2404-4d19-8c65-cada0156133c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_307150>
+    
+    
+Individual: <http://model.geneontology.org/b6d53185-0b2b-4935-9e17-d40ddccc5057>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_307150>
+    
+    
+Individual: <http://model.geneontology.org/c11818ec-7272-486d-bf11-9831549d4625>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_307150>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2da19287-a319-419d-bf1f-98a7867c9c48>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a9899bcc-2404-4d19-8c65-cada0156133c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2da19287-a319-419d-bf1f-98a7867c9c48>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2da19287-a319-419d-bf1f-98a7867c9c48>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2da19287-a319-419d-bf1f-98a7867c9c48>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/225a7207-11f5-4cf7-be89-1f9646aed950>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7b234f42-3d51-40f1-a03e-dc2185620df7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/225a7207-11f5-4cf7-be89-1f9646aed950>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/225a7207-11f5-4cf7-be89-1f9646aed950>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/225a7207-11f5-4cf7-be89-1f9646aed950>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368bdc74-a6c1-46ea-8009-56b05bce2276>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7e860253-15c9-4292-af19-8bca684076c8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368bdc74-a6c1-46ea-8009-56b05bce2276>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368bdc74-a6c1-46ea-8009-56b05bce2276>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/368bdc74-a6c1-46ea-8009-56b05bce2276>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538b2d09-f6a8-4129-a798-eca639a52016>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8875496d-bc79-4f97-8b96-dd3307dc954d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538b2d09-f6a8-4129-a798-eca639a52016>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538b2d09-f6a8-4129-a798-eca639a52016>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538b2d09-f6a8-4129-a798-eca639a52016>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99df8bdb-d391-407d-aef2-5d2cb64fdbfb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b6d53185-0b2b-4935-9e17-d40ddccc5057>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99df8bdb-d391-407d-aef2-5d2cb64fdbfb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99df8bdb-d391-407d-aef2-5d2cb64fdbfb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99df8bdb-d391-407d-aef2-5d2cb64fdbfb>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_307150>
+
+    Annotations: 
+        rdfs:label "#307150 HYPERTRICHOSIS, CONGENITAL GENERALIZED; HTC2;;CHROMOSOME Xq27.1 INTERCHROMOSOMAL INSERTION SYNDROME;;CGH;;HCG"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

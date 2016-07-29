@@ -1,0 +1,326 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e945e35b-00c8-4ba5-96ba-1599df336168>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616649.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000952>
+
+    Annotations: 
+        rdfs:label "Jaundice"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001744>
+
+    Annotations: 
+        rdfs:label "Splenomegaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001878>
+
+    Annotations: 
+        rdfs:label "Hemolytic anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001923>
+
+    Annotations: 
+        rdfs:label "Reticulocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002904>
+
+    Annotations: 
+        rdfs:label "Hyperbilirubinemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004444>
+
+    Annotations: 
+        rdfs:label "Spherocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616649>
+
+    Annotations: 
+        rdfs:label "#616649 SPHEROCYTOSIS, TYPE 2; SPH2;;SPHEROCYTOSIS, HEREDITARY, 2; HS2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07026c22-a8e0-48a2-a3ea-5d929a84705f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > HYPERBILIRUBINEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002904>
+    
+    
+Individual: <http://model.geneontology.org/0ff112e3-51ba-4358-abb2-d8aeadcd5d95>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > RETICULOCYTOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001923>
+    
+    
+Individual: <http://model.geneontology.org/159ec2e6-ff16-483c-a3db-6de608c15196>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    
+Individual: <http://model.geneontology.org/2ec5e952-0216-4b14-a141-108f182b2813>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    
+Individual: <http://model.geneontology.org/3292f25a-bbfd-4d7d-a10f-c1ca8b4aaa7b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    
+Individual: <http://model.geneontology.org/4ef349e5-b1a8-44a9-9ae3-1563bf69ec1c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_SPLEEN > SPLENOMEGALY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001744>
+    
+    
+Individual: <http://model.geneontology.org/691e7a48-2f1c-492b-80ad-aaaf2f38898b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > JAUNDICE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000952>
+    
+    
+Individual: <http://model.geneontology.org/6cbf2655-b371-4c1f-8a82-32cd5274d08d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/becd2cc9-563e-454c-b974-24bb55dbd7b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c2aef5b3-2d57-484c-8842-08c572884d2a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/becd2cc9-563e-454c-b974-24bb55dbd7b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/becd2cc9-563e-454c-b974-24bb55dbd7b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/becd2cc9-563e-454c-b974-24bb55dbd7b4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e067ed55-edf5-4620-80f8-c4003228a237>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c13206d3-f0ab-4635-b800-ffc4e735d9c3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e067ed55-edf5-4620-80f8-c4003228a237>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e067ed55-edf5-4620-80f8-c4003228a237>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e067ed55-edf5-4620-80f8-c4003228a237>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f38ea169-f21b-429d-bb98-2c3959ab8e4b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3292f25a-bbfd-4d7d-a10f-c1ca8b4aaa7b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f38ea169-f21b-429d-bb98-2c3959ab8e4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f38ea169-f21b-429d-bb98-2c3959ab8e4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f38ea169-f21b-429d-bb98-2c3959ab8e4b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0ff112e3-51ba-4358-abb2-d8aeadcd5d95>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/159ec2e6-ff16-483c-a3db-6de608c15196>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0ff112e3-51ba-4358-abb2-d8aeadcd5d95>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0ff112e3-51ba-4358-abb2-d8aeadcd5d95>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0ff112e3-51ba-4358-abb2-d8aeadcd5d95>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07026c22-a8e0-48a2-a3ea-5d929a84705f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d4fb55a8-01b4-4227-96bc-c724b87d9f44>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07026c22-a8e0-48a2-a3ea-5d929a84705f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07026c22-a8e0-48a2-a3ea-5d929a84705f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07026c22-a8e0-48a2-a3ea-5d929a84705f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ef349e5-b1a8-44a9-9ae3-1563bf69ec1c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c9016890-98f0-4374-95f2-57cbfaa520bb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ef349e5-b1a8-44a9-9ae3-1563bf69ec1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ef349e5-b1a8-44a9-9ae3-1563bf69ec1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ef349e5-b1a8-44a9-9ae3-1563bf69ec1c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/691e7a48-2f1c-492b-80ad-aaaf2f38898b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2ec5e952-0216-4b14-a141-108f182b2813>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/691e7a48-2f1c-492b-80ad-aaaf2f38898b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/691e7a48-2f1c-492b-80ad-aaaf2f38898b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/691e7a48-2f1c-492b-80ad-aaaf2f38898b>
+    
+    
+Individual: <http://model.geneontology.org/becd2cc9-563e-454c-b974-24bb55dbd7b4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > INCREASED RETICULOCYTE COUNT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001923>
+    
+    
+Individual: <http://model.geneontology.org/c13206d3-f0ab-4635-b800-ffc4e735d9c3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    
+Individual: <http://model.geneontology.org/c2aef5b3-2d57-484c-8842-08c572884d2a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    
+Individual: <http://model.geneontology.org/c9016890-98f0-4374-95f2-57cbfaa520bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    
+Individual: <http://model.geneontology.org/d4fb55a8-01b4-4227-96bc-c724b87d9f44>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616649>
+    
+    
+Individual: <http://model.geneontology.org/e067ed55-edf5-4620-80f8-c4003228a237>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > HEMOLYTIC ANEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001878>
+    
+    
+Individual: <http://model.geneontology.org/f38ea169-f21b-429d-bb98-2c3959ab8e4b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > SPHEROCYTOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004444>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616649>
+
+    Annotations: 
+        rdfs:label "#616649 SPHEROCYTOSIS, TYPE 2; SPH2;;SPHEROCYTOSIS, HEREDITARY, 2; HS2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

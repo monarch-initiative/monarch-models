@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/174e336f-e082-4d8d-bc5a-4c886be0d33d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-175020.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004394>
+
+    Annotations: 
+        rdfs:label "Multiple gastric polyps"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_175020>
+
+    Annotations: 
+        rdfs:label "POLYPOSIS, GASTRIC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6696fdf2-3a94-4483-a1ca-cdbee55e9615>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004394>
+    
+    
+Individual: <http://model.geneontology.org/80f932ae-561d-45bb-9eea-3a4811bbf85a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_175020>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6696fdf2-3a94-4483-a1ca-cdbee55e9615>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f49412a5-3e96-4dc9-bc7b-edd813562003>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6696fdf2-3a94-4483-a1ca-cdbee55e9615>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6696fdf2-3a94-4483-a1ca-cdbee55e9615>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6696fdf2-3a94-4483-a1ca-cdbee55e9615>
+    
+    
+Individual: <http://model.geneontology.org/f49412a5-3e96-4dc9-bc7b-edd813562003>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175020>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_175020>
+
+    Annotations: 
+        rdfs:label "POLYPOSIS, GASTRIC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,267 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/65a6dce6-719d-42c5-b7f1-2cab1dc13ad3>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612703.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000252>
+
+    Annotations: 
+        rdfs:label "Microcephaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000340>
+
+    Annotations: 
+        rdfs:label "Sloping forehead"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009879>
+
+    Annotations: 
+        rdfs:label "Cortical gyral simplification"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612703>
+
+    Annotations: 
+        rdfs:label "#612703 MICROCEPHALY 7, PRIMARY, AUTOSOMAL RECESSIVE; MCPH7"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/06e10270-405b-47bb-98ef-8de06651f2b7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://model.geneontology.org/2fb7f0d9-0a0b-40ca-85d0-b3fb00d1b103>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3019facf-b877-4768-9d30-d4db1b942b9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612703>
+    
+    
+Individual: <http://model.geneontology.org/5128759a-5899-48f7-9674-876236b8ed6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000252>
+    
+    
+Individual: <http://model.geneontology.org/55c3db0a-2143-4a2c-8bdc-9d232bc0eddc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612703>
+    
+    
+Individual: <http://model.geneontology.org/5870dfb2-5cde-4716-929b-6ad76a9e29f0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > SIMPLIFIED GYRAL PATTERN (1 FAMILY)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009879>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/2fb7f0d9-0a0b-40ca-85d0-b3fb00d1b103>
+    
+    
+Individual: <http://model.geneontology.org/5af2202c-ce20-4dfc-92c5-bf639783bc69>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/5ee4eeda-4bc2-45f8-bdb3-dda27fe13ede>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_HEAD > SLOPING FOREHEAD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000340>
+    
+    
+Individual: <http://model.geneontology.org/6b214fd3-7ddd-4c3e-8145-55a8eef47f99>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612703>
+    
+    
+Individual: <http://model.geneontology.org/6b4410bc-dab4-4fd8-b85a-c5a8c2b256dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612703>
+    
+    
+Individual: <http://model.geneontology.org/8718d19b-21f3-4d16-8def-da7e997bf052>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612703>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06e10270-405b-47bb-98ef-8de06651f2b7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3019facf-b877-4768-9d30-d4db1b942b9a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06e10270-405b-47bb-98ef-8de06651f2b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06e10270-405b-47bb-98ef-8de06651f2b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06e10270-405b-47bb-98ef-8de06651f2b7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5af2202c-ce20-4dfc-92c5-bf639783bc69>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6b4410bc-dab4-4fd8-b85a-c5a8c2b256dd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5af2202c-ce20-4dfc-92c5-bf639783bc69>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5af2202c-ce20-4dfc-92c5-bf639783bc69>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5af2202c-ce20-4dfc-92c5-bf639783bc69>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5ee4eeda-4bc2-45f8-bdb3-dda27fe13ede>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6b214fd3-7ddd-4c3e-8145-55a8eef47f99>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5ee4eeda-4bc2-45f8-bdb3-dda27fe13ede>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5ee4eeda-4bc2-45f8-bdb3-dda27fe13ede>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5ee4eeda-4bc2-45f8-bdb3-dda27fe13ede>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5128759a-5899-48f7-9674-876236b8ed6e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d433256a-fee8-443c-bc30-5c82f503285b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5128759a-5899-48f7-9674-876236b8ed6e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5128759a-5899-48f7-9674-876236b8ed6e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5128759a-5899-48f7-9674-876236b8ed6e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5870dfb2-5cde-4716-929b-6ad76a9e29f0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/55c3db0a-2143-4a2c-8bdc-9d232bc0eddc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5870dfb2-5cde-4716-929b-6ad76a9e29f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5870dfb2-5cde-4716-929b-6ad76a9e29f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5870dfb2-5cde-4716-929b-6ad76a9e29f0>
+    
+    
+Individual: <http://model.geneontology.org/d433256a-fee8-443c-bc30-5c82f503285b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612703>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612703>
+
+    Annotations: 
+        rdfs:label "#612703 MICROCEPHALY 7, PRIMARY, AUTOSOMAL RECESSIVE; MCPH7"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

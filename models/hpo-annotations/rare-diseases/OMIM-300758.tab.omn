@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/bf6ea47f-2bc5-450f-9d29-41887c081702>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300758.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000808>
+
+    Annotations: 
+        rdfs:label "Penoscrotal hypospadias"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001419>
+
+    Annotations: 
+        rdfs:label "X-linked recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300758>
+
+    Annotations: 
+        rdfs:label "#300758 HYPOSPADIAS 2, X-LINKED; HYSP2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0043a829-21d7-401a-b29c-061bea07488f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001419>
+    
+    
+Individual: <http://model.geneontology.org/2196fcc2-bc08-4f93-815c-34f11c10e5ab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300758>
+    
+    
+Individual: <http://model.geneontology.org/6a6b54a2-d8aa-4fb1-8b02-d2c2f2e66e0d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_EXTERNAL GENITALIA, MALE > HYPOSPADIAS, PENOSCROTAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000808>
+    
+    
+Individual: <http://model.geneontology.org/79cda8a1-9e71-427b-8447-73ab41c33d1e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300758>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0043a829-21d7-401a-b29c-061bea07488f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe4f898b-3916-4ac4-a39c-d63570baf70c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0043a829-21d7-401a-b29c-061bea07488f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0043a829-21d7-401a-b29c-061bea07488f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0043a829-21d7-401a-b29c-061bea07488f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a6b54a2-d8aa-4fb1-8b02-d2c2f2e66e0d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2196fcc2-bc08-4f93-815c-34f11c10e5ab>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a6b54a2-d8aa-4fb1-8b02-d2c2f2e66e0d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a6b54a2-d8aa-4fb1-8b02-d2c2f2e66e0d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a6b54a2-d8aa-4fb1-8b02-d2c2f2e66e0d>
+    
+    
+Individual: <http://model.geneontology.org/fe4f898b-3916-4ac4-a39c-d63570baf70c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300758>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300758>
+
+    Annotations: 
+        rdfs:label "#300758 HYPOSPADIAS 2, X-LINKED; HYSP2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

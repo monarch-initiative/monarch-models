@@ -1,0 +1,190 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/856d669c-9802-4d88-b9f6-7a552672d70c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-175900.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008404>
+
+    Annotations: 
+        rdfs:label "Nail dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200044>
+
+    Annotations: 
+        rdfs:label "Porokeratosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_175900>
+
+    Annotations: 
+        rdfs:label "POROKERATOSIS, DISSEMINATED SUPERFICIAL ACTINIC, 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/63c14bd2-f34c-4e38-ba3f-973ed9f893f0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175900>
+    
+    
+Individual: <http://model.geneontology.org/66ac2c0a-3d0a-4712-b5f5-1a44a29651ed>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175900>
+    
+    
+Individual: <http://model.geneontology.org/7d11ef47-dabb-4fa7-ad5e-a856a3066a0e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/85c848fb-a5c1-4c9c-a249-7bc51a271ae5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/a6e1ad29-b2bf-4520-857a-b6c91f1348c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175900>
+    
+    
+Individual: <http://model.geneontology.org/a70167d9-3ecf-40b6-999c-6df77307ee78>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200044>
+    
+    
+Individual: <http://model.geneontology.org/d46296fa-8dba-4b7a-aa0a-70203db81eb7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > NAIL DYSTROPHY (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008404>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/85c848fb-a5c1-4c9c-a249-7bc51a271ae5>
+    
+    
+Individual: <http://model.geneontology.org/df26da9e-d61e-419c-a32c-598061067361>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_175900>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a70167d9-3ecf-40b6-999c-6df77307ee78>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a6e1ad29-b2bf-4520-857a-b6c91f1348c5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a70167d9-3ecf-40b6-999c-6df77307ee78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a70167d9-3ecf-40b6-999c-6df77307ee78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a70167d9-3ecf-40b6-999c-6df77307ee78>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d46296fa-8dba-4b7a-aa0a-70203db81eb7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/66ac2c0a-3d0a-4712-b5f5-1a44a29651ed>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d46296fa-8dba-4b7a-aa0a-70203db81eb7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d46296fa-8dba-4b7a-aa0a-70203db81eb7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d46296fa-8dba-4b7a-aa0a-70203db81eb7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7d11ef47-dabb-4fa7-ad5e-a856a3066a0e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63c14bd2-f34c-4e38-ba3f-973ed9f893f0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7d11ef47-dabb-4fa7-ad5e-a856a3066a0e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7d11ef47-dabb-4fa7-ad5e-a856a3066a0e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7d11ef47-dabb-4fa7-ad5e-a856a3066a0e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_175900>
+
+    Annotations: 
+        rdfs:label "POROKERATOSIS, DISSEMINATED SUPERFICIAL ACTINIC, 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

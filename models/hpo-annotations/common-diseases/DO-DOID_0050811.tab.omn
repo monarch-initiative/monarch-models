@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1aa07014-a6c1-4fa4-b972-97df233fa94e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0050811.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0050811>
+
+    Annotations: 
+        rdfs:label "CONGENITAL ADRENAL HYPERPLASIA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008258>
+
+    Annotations: 
+        rdfs:label "Congenital adrenal hyperplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/8df46151-5e08-4c18-9917-5c15a30001ab>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:congenital adrenal hyperplasia"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008258>
+    
+    
+Individual: <http://model.geneontology.org/9fd7c1fe-0865-4bb1-a360-07b939e539d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0050811>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8df46151-5e08-4c18-9917-5c15a30001ab>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e296efd7-814f-459a-b093-49ad2a49a284>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8df46151-5e08-4c18-9917-5c15a30001ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8df46151-5e08-4c18-9917-5c15a30001ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8df46151-5e08-4c18-9917-5c15a30001ab>
+    
+    
+Individual: <http://model.geneontology.org/e296efd7-814f-459a-b093-49ad2a49a284>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0050811>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0050811>
+
+    Annotations: 
+        rdfs:label "CONGENITAL ADRENAL HYPERPLASIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6acf478f-81c5-4246-b423-07a2ea03b5a9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-150300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005945>
+
+    Annotations: 
+        rdfs:label "Laryngeal obstruction"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005950>
+
+    Annotations: 
+        rdfs:label "Partial laryngeal atresia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_150300>
+
+    Annotations: 
+        rdfs:label "LARYNX, CONGENITAL PARTIAL ATRESIA OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/08e5c29b-4602-4c84-bf57-cc90e63ed40d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150300>
+    
+    
+Individual: <http://model.geneontology.org/0cfc66ca-d3db-457c-8a46-b731032dda53>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/2021a877-62c4-453b-9f29-af782c6037dc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150300>
+    
+    
+Individual: <http://model.geneontology.org/29294f5d-5d4b-4a42-ad5f-5f0704022ccc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005945>
+    
+    
+Individual: <http://model.geneontology.org/879d1a28-99d0-49bd-a13f-0ee27201f3a0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005950>
+    
+    
+Individual: <http://model.geneontology.org/88d2d7e5-d2ef-4992-ba3f-4f3e0aea3208>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_150300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cfc66ca-d3db-457c-8a46-b731032dda53>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/08e5c29b-4602-4c84-bf57-cc90e63ed40d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cfc66ca-d3db-457c-8a46-b731032dda53>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cfc66ca-d3db-457c-8a46-b731032dda53>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cfc66ca-d3db-457c-8a46-b731032dda53>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29294f5d-5d4b-4a42-ad5f-5f0704022ccc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2021a877-62c4-453b-9f29-af782c6037dc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29294f5d-5d4b-4a42-ad5f-5f0704022ccc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29294f5d-5d4b-4a42-ad5f-5f0704022ccc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29294f5d-5d4b-4a42-ad5f-5f0704022ccc>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/879d1a28-99d0-49bd-a13f-0ee27201f3a0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e7c6ff0d-c8b9-4b6c-9e3f-2275fae48b57>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/879d1a28-99d0-49bd-a13f-0ee27201f3a0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/879d1a28-99d0-49bd-a13f-0ee27201f3a0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/879d1a28-99d0-49bd-a13f-0ee27201f3a0>
+    
+    
+Individual: <http://model.geneontology.org/e7c6ff0d-c8b9-4b6c-9e3f-2275fae48b57>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150300>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_150300>
+
+    Annotations: 
+        rdfs:label "LARYNX, CONGENITAL PARTIAL ATRESIA OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

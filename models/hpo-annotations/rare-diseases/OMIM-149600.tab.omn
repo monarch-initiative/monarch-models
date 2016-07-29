@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/02041a33-4c2b-4188-a3c7-6ac82905d45e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-149600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000119>
+
+    Annotations: 
+        rdfs:label "Abnormality of the genitourinary system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_149600>
+
+    Annotations: 
+        rdfs:label "LABIA MINORA, INCOMPLETE ADHESION OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2511c940-8c87-424f-bca9-ca26031ad87b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/69eeffe6-e36e-46d4-bf22-8c41ecdd772f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000119>
+    
+    
+Individual: <http://model.geneontology.org/839c55a9-b0b8-47d7-b204-e199797e9bd0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_149600>
+    
+    
+Individual: <http://model.geneontology.org/af1f6533-c94f-4224-aa11-1b26882ce6f4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_149600>
+    
+    
+Individual: <http://model.geneontology.org/c6e5bbda-68ae-40a7-ba07-6d1a29d0018f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_149600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2511c940-8c87-424f-bca9-ca26031ad87b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/af1f6533-c94f-4224-aa11-1b26882ce6f4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2511c940-8c87-424f-bca9-ca26031ad87b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2511c940-8c87-424f-bca9-ca26031ad87b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2511c940-8c87-424f-bca9-ca26031ad87b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69eeffe6-e36e-46d4-bf22-8c41ecdd772f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/839c55a9-b0b8-47d7-b204-e199797e9bd0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69eeffe6-e36e-46d4-bf22-8c41ecdd772f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69eeffe6-e36e-46d4-bf22-8c41ecdd772f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69eeffe6-e36e-46d4-bf22-8c41ecdd772f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_149600>
+
+    Annotations: 
+        rdfs:label "LABIA MINORA, INCOMPLETE ADHESION OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

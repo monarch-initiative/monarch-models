@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7bf7a342-bf00-482e-98db-ba1c2d8c4ea6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614025.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001013>
+
+    Annotations: 
+        rdfs:label "Eruptive xanthomas"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001681>
+
+    Annotations: 
+        rdfs:label "Angina pectoris"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614025>
+
+    Annotations: 
+        rdfs:label "#614025 HEPATIC LIPASE DEFICIENCY;;LIPC DEFICIENCY;;HL DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/22a20544-9bf0-46eb-9670-9b80f6a423e9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/2c669ec7-8af6-433b-972d-20511e124883>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR > ERUPTIVE XANTHOMAS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001013>
+    
+    
+Individual: <http://model.geneontology.org/55002203-3016-4bd2-97b7-c0439cd8f297>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > ANGINA PECTORIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001681>
+    
+    
+Individual: <http://model.geneontology.org/9955c010-a7fc-4128-ae0b-368936709da6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614025>
+    
+    
+Individual: <http://model.geneontology.org/9e530ee2-4bf7-4756-be5d-d3b16d669d62>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614025>
+    
+    
+Individual: <http://model.geneontology.org/dcb561ce-0928-4016-a72f-7227dbf86abd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614025>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c669ec7-8af6-433b-972d-20511e124883>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9e530ee2-4bf7-4756-be5d-d3b16d669d62>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c669ec7-8af6-433b-972d-20511e124883>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c669ec7-8af6-433b-972d-20511e124883>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c669ec7-8af6-433b-972d-20511e124883>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22a20544-9bf0-46eb-9670-9b80f6a423e9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9955c010-a7fc-4128-ae0b-368936709da6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22a20544-9bf0-46eb-9670-9b80f6a423e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22a20544-9bf0-46eb-9670-9b80f6a423e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22a20544-9bf0-46eb-9670-9b80f6a423e9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55002203-3016-4bd2-97b7-c0439cd8f297>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fa20d356-d3ea-45c2-a1cc-9333838df3d8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55002203-3016-4bd2-97b7-c0439cd8f297>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55002203-3016-4bd2-97b7-c0439cd8f297>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55002203-3016-4bd2-97b7-c0439cd8f297>
+    
+    
+Individual: <http://model.geneontology.org/fa20d356-d3ea-45c2-a1cc-9333838df3d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614025>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614025>
+
+    Annotations: 
+        rdfs:label "#614025 HEPATIC LIPASE DEFICIENCY;;LIPC DEFICIENCY;;HL DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

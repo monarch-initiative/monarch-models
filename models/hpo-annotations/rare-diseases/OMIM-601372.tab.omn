@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/cc92a620-0cce-41fd-8975-e609b9b5adcf>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601372.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000518>
+
+    Annotations: 
+        rdfs:label "Cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002072>
+
+    Annotations: 
+        rdfs:label "Chorea"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007747>
+
+    Annotations: 
+        rdfs:label "Monocular horizontal nystagmus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601372>
+
+    Annotations: 
+        rdfs:label "CHOREA, REMITTING, WITH NYSTAGMUS AND CATARACT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/11090fdb-d4e3-44b3-b0fb-3dcf80a87269>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Mild"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002072>
+    
+    
+Individual: <http://model.geneontology.org/149ed3d4-9d23-4fb6-ae36-efa9f29fbe8f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601372>
+    
+    
+Individual: <http://model.geneontology.org/7180d57c-89e0-421f-9d5f-bccfb0bdfc74>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007747>
+    
+    
+Individual: <http://model.geneontology.org/91e73a25-ec9a-4ccd-91d0-4dff28630544>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601372>
+    
+    
+Individual: <http://model.geneontology.org/c5f3b51a-4827-43cc-9147-cfb28cd23e0b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000518>
+    
+    
+Individual: <http://model.geneontology.org/dd046c36-69a4-41a7-9222-dabd79ac54bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601372>
+    
+    
+Individual: <http://model.geneontology.org/fb30de69-5f34-42e9-befd-791925eef59a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601372>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5f3b51a-4827-43cc-9147-cfb28cd23e0b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/149ed3d4-9d23-4fb6-ae36-efa9f29fbe8f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5f3b51a-4827-43cc-9147-cfb28cd23e0b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5f3b51a-4827-43cc-9147-cfb28cd23e0b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5f3b51a-4827-43cc-9147-cfb28cd23e0b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11090fdb-d4e3-44b3-b0fb-3dcf80a87269>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/91e73a25-ec9a-4ccd-91d0-4dff28630544>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11090fdb-d4e3-44b3-b0fb-3dcf80a87269>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11090fdb-d4e3-44b3-b0fb-3dcf80a87269>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11090fdb-d4e3-44b3-b0fb-3dcf80a87269>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7180d57c-89e0-421f-9d5f-bccfb0bdfc74>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dd046c36-69a4-41a7-9222-dabd79ac54bb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7180d57c-89e0-421f-9d5f-bccfb0bdfc74>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7180d57c-89e0-421f-9d5f-bccfb0bdfc74>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7180d57c-89e0-421f-9d5f-bccfb0bdfc74>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601372>
+
+    Annotations: 
+        rdfs:label "CHOREA, REMITTING, WITH NYSTAGMUS AND CATARACT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

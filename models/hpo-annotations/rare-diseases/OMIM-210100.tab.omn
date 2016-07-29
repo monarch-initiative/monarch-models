@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b29d0d5d-b8c4-4691-870c-e0c1884e266d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-210100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003355>
+
+    Annotations: 
+        rdfs:label "Aminoaciduria"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_210100>
+
+    Annotations: 
+        rdfs:label "BETA-AMINOISOBUTYRIC ACID, URINARY EXCRETION OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/427c1166-836c-44d7-adb0-748c8dddac83>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/46b85320-8d42-43f1-9cbd-317bb4ee977c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_210100>
+    
+    
+Individual: <http://model.geneontology.org/5ec1e561-adc3-4071-8dc8-fa9042adce5f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_210100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427c1166-836c-44d7-adb0-748c8dddac83>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/46b85320-8d42-43f1-9cbd-317bb4ee977c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427c1166-836c-44d7-adb0-748c8dddac83>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427c1166-836c-44d7-adb0-748c8dddac83>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427c1166-836c-44d7-adb0-748c8dddac83>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/864d77d0-3872-4a23-b9de-55e3783e68a1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/85e0f2fd-a8ea-4561-a555-76c37a9a6619>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/864d77d0-3872-4a23-b9de-55e3783e68a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/864d77d0-3872-4a23-b9de-55e3783e68a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/864d77d0-3872-4a23-b9de-55e3783e68a1>
+    
+    
+Individual: <http://model.geneontology.org/85e0f2fd-a8ea-4561-a555-76c37a9a6619>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_210100>
+    
+    
+Individual: <http://model.geneontology.org/864d77d0-3872-4a23-b9de-55e3783e68a1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003355>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_210100>
+
+    Annotations: 
+        rdfs:label "BETA-AMINOISOBUTYRIC ACID, URINARY EXCRETION OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

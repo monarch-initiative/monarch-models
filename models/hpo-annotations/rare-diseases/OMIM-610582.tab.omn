@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/454a7721-4bb1-46a8-8cc8-c4b046878e77>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-610582.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008255>
+
+    Annotations: 
+        rdfs:label "Transient neonatal diabetes mellitus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_610582>
+
+    Annotations: 
+        rdfs:label "#610582 DIABETES MELLITUS, TRANSIENT NEONATAL, 3;;TNDM3DIABETES MELLITUS, TYPE II, AUTOSOMAL DOMINANT, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0ba05335-d8e9-4ab0-85d6-143fe0014461>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_610582>
+    
+    
+Individual: <http://model.geneontology.org/1411b136-95f9-443e-9032-591040882240>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_610582>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eea65de0-f90b-4301-a689-8353de475bd0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0ba05335-d8e9-4ab0-85d6-143fe0014461>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eea65de0-f90b-4301-a689-8353de475bd0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eea65de0-f90b-4301-a689-8353de475bd0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eea65de0-f90b-4301-a689-8353de475bd0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ebc0357-069c-4192-859a-324413b25f23>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b7281116-5cb3-49bc-899d-30637569b336>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ebc0357-069c-4192-859a-324413b25f23>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ebc0357-069c-4192-859a-324413b25f23>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ebc0357-069c-4192-859a-324413b25f23>
+    
+    
+Individual: <http://model.geneontology.org/9ebc0357-069c-4192-859a-324413b25f23>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008255>
+    
+    
+Individual: <http://model.geneontology.org/b7281116-5cb3-49bc-899d-30637569b336>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_610582>
+    
+    
+Individual: <http://model.geneontology.org/eea65de0-f90b-4301-a689-8353de475bd0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_610582>
+
+    Annotations: 
+        rdfs:label "#610582 DIABETES MELLITUS, TRANSIENT NEONATAL, 3;;TNDM3DIABETES MELLITUS, TYPE II, AUTOSOMAL DOMINANT, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

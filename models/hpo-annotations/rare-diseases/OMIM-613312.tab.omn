@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a95ffacc-7e8d-43ab-8346-c3e1d50ed0d5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613312.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004912>
+
+    Annotations: 
+        rdfs:label "Hypophosphatemic rickets"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613312>
+
+    Annotations: 
+        rdfs:label "#613312 HYPOPHOSPHATEMIC RICKETS, AUTOSOMAL RECESSIVE, 2; ARHR2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/19f63636-d8e7-4f44-9db7-51d3bec39c02>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/213abeec-2340-4f9b-81ca-a14bae302d6a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004912>
+    
+    
+Individual: <http://model.geneontology.org/25dd42be-874c-42e7-9d32-6a79a9e19bfe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613312>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19f63636-d8e7-4f44-9db7-51d3bec39c02>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4f6bab3e-86f2-4d7b-85ff-bf9b26483e6b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19f63636-d8e7-4f44-9db7-51d3bec39c02>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19f63636-d8e7-4f44-9db7-51d3bec39c02>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19f63636-d8e7-4f44-9db7-51d3bec39c02>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/213abeec-2340-4f9b-81ca-a14bae302d6a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b02d4d4a-7e59-40f0-a800-21b22d6f67aa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/213abeec-2340-4f9b-81ca-a14bae302d6a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/213abeec-2340-4f9b-81ca-a14bae302d6a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/213abeec-2340-4f9b-81ca-a14bae302d6a>
+    
+    
+Individual: <http://model.geneontology.org/4f6bab3e-86f2-4d7b-85ff-bf9b26483e6b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613312>
+    
+    
+Individual: <http://model.geneontology.org/b02d4d4a-7e59-40f0-a800-21b22d6f67aa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613312>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613312>
+
+    Annotations: 
+        rdfs:label "#613312 HYPOPHOSPHATEMIC RICKETS, AUTOSOMAL RECESSIVE, 2; ARHR2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

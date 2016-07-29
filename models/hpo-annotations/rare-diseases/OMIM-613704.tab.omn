@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/130d8add-8510-4f13-8400-42c7ce3df7a7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613704.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000568>
+
+    Annotations: 
+        rdfs:label "Microphthalmos"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613704>
+
+    Annotations: 
+        rdfs:label "#613704 MICROPHTHALMIA, ISOLATED 7; MCOP7"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/49fd846a-77d9-4219-bc0b-81564084ce05>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000568>
+    
+    
+Individual: <http://model.geneontology.org/4ad518ff-8e5e-46e5-b31d-31416a006cc6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613704>
+    
+    
+Individual: <http://model.geneontology.org/d73f7a77-022b-4dd5-85b0-213e8b14adc4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613704>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49fd846a-77d9-4219-bc0b-81564084ce05>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4ad518ff-8e5e-46e5-b31d-31416a006cc6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49fd846a-77d9-4219-bc0b-81564084ce05>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49fd846a-77d9-4219-bc0b-81564084ce05>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49fd846a-77d9-4219-bc0b-81564084ce05>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613704>
+
+    Annotations: 
+        rdfs:label "#613704 MICROPHTHALMIA, ISOLATED 7; MCOP7"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

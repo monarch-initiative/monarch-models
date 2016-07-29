@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0a8b04ff-288a-40a2-8855-e6c1918c4409>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0005151.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0005151>
+
+    Annotations: 
+        rdfs:label "PLEXIFORM NEUROFIBROMA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009732>
+
+    Annotations: 
+        rdfs:label "Plexiform neurofibroma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/175587d0-873d-40df-9c42-b4d0cb31812a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:plexiform neurofibroma"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009732>
+    
+    
+Individual: <http://model.geneontology.org/53da56e4-5211-43dd-9bcd-5cc1158281ee>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0005151>
+    
+    
+Individual: <http://model.geneontology.org/fbf9a3b3-d122-45b4-af6e-33f73e0ea949>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0005151>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/175587d0-873d-40df-9c42-b4d0cb31812a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/53da56e4-5211-43dd-9bcd-5cc1158281ee>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/175587d0-873d-40df-9c42-b4d0cb31812a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/175587d0-873d-40df-9c42-b4d0cb31812a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/175587d0-873d-40df-9c42-b4d0cb31812a>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0005151>
+
+    Annotations: 
+        rdfs:label "PLEXIFORM NEUROFIBROMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

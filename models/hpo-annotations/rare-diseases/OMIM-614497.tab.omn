@@ -1,0 +1,196 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f497a51f-c853-4bb8-a580-6ea359e5b438>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614497.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000568>
+
+    Annotations: 
+        rdfs:label "Microphthalmos"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000589>
+
+    Annotations: 
+        rdfs:label "Coloboma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614497>
+
+    Annotations: 
+        rdfs:label "#614497 MICROPHTHALMIA, ISOLATED, WITH COLOBOMA 7; MCOPCB7"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3b596139-22cc-48e7-b5ce-a8c4acfb868a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614497>
+    
+    
+Individual: <http://model.geneontology.org/3daae2f2-c49a-45e6-a280-6366ba0e530e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > MICROPHTHALMIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000568>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/bce0bcac-e92a-4ea8-8e19-4f79e4fe87bd>
+    
+    
+Individual: <http://model.geneontology.org/4813478d-58e9-468f-b931-490684353431>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/5eab3d5d-a756-49ed-9e41-236ace9ab450>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614497>
+    
+    
+Individual: <http://model.geneontology.org/7ac7b7bd-c140-47d5-a15b-e34802040fe0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614497>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abcbbd26-8501-4372-b089-afdd476f2c23>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3b596139-22cc-48e7-b5ce-a8c4acfb868a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abcbbd26-8501-4372-b089-afdd476f2c23>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abcbbd26-8501-4372-b089-afdd476f2c23>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/abcbbd26-8501-4372-b089-afdd476f2c23>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3daae2f2-c49a-45e6-a280-6366ba0e530e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c4237aa5-497b-42cd-a9ad-b1f74b152807>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3daae2f2-c49a-45e6-a280-6366ba0e530e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3daae2f2-c49a-45e6-a280-6366ba0e530e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3daae2f2-c49a-45e6-a280-6366ba0e530e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4813478d-58e9-468f-b931-490684353431>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5eab3d5d-a756-49ed-9e41-236ace9ab450>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4813478d-58e9-468f-b931-490684353431>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4813478d-58e9-468f-b931-490684353431>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4813478d-58e9-468f-b931-490684353431>
+    
+    
+Individual: <http://model.geneontology.org/abcbbd26-8501-4372-b089-afdd476f2c23>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:mia, isolated, with coloboma 7; mcopcb7"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000589>
+    
+    
+Individual: <http://model.geneontology.org/bce0bcac-e92a-4ea8-8e19-4f79e4fe87bd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/c4237aa5-497b-42cd-a9ad-b1f74b152807>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614497>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614497>
+
+    Annotations: 
+        rdfs:label "#614497 MICROPHTHALMIA, ISOLATED, WITH COLOBOMA 7; MCOPCB7"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

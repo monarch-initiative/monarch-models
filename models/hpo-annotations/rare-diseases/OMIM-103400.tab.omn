@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6b6e1fba-bd56-4997-a624-d63c91a68b7e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-103400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009775>
+
+    Annotations: 
+        rdfs:label "Amniotic constriction ring"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_103400>
+
+    Annotations: 
+        rdfs:label "AINHUM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/51735daa-52ab-4971-acb5-40f059baffc5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009775>
+    
+    
+Individual: <http://model.geneontology.org/688184e5-13eb-457e-b100-b50455f4fdd3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/c0311ad6-580b-405b-9ff3-2105e441475d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_103400>
+    
+    
+Individual: <http://model.geneontology.org/d34eaaca-2148-40dc-a8e5-97bec5e6fe0e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_103400>
+    
+    
+Individual: <http://model.geneontology.org/edef9f55-87a9-42f2-8fc1-4e9c76365eaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_103400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51735daa-52ab-4971-acb5-40f059baffc5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c0311ad6-580b-405b-9ff3-2105e441475d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51735daa-52ab-4971-acb5-40f059baffc5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51735daa-52ab-4971-acb5-40f059baffc5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51735daa-52ab-4971-acb5-40f059baffc5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/688184e5-13eb-457e-b100-b50455f4fdd3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d34eaaca-2148-40dc-a8e5-97bec5e6fe0e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/688184e5-13eb-457e-b100-b50455f4fdd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/688184e5-13eb-457e-b100-b50455f4fdd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/688184e5-13eb-457e-b100-b50455f4fdd3>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_103400>
+
+    Annotations: 
+        rdfs:label "AINHUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

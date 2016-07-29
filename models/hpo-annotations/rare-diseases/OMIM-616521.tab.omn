@@ -1,0 +1,270 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/08564847-86e4-4daf-8538-ee2a6ee24548>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616521.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000718>
+
+    Annotations: 
+        rdfs:label "Aggressive behavior"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000750>
+
+    Annotations: 
+        rdfs:label "Delayed speech and language development"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001263>
+
+    Annotations: 
+        rdfs:label "Global developmental delay"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001513>
+
+    Annotations: 
+        rdfs:label "Obesity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616521>
+
+    Annotations: 
+        rdfs:label "#616521 MENTAL RETARDATION, AUTOSOMAL DOMINANT 39; MRD39CHROMOSOME 2p25.3 DELETION SYNDROME, INCLUDED;;CHROMOSOME 2p25.3 DUPLICATION SYNDROME, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/10e49798-20a6-4bb4-b504-b44c7d81926d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_WEIGHT > OBESITY (IN MOST PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001513>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/d5f273c6-5d1d-42e1-9abb-39e475f6c474>
+    
+    
+Individual: <http://model.geneontology.org/13e3ff19-56b1-433a-9ec0-7fc66439b548>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > SPEECH DELAY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000750>
+    
+    
+Individual: <http://model.geneontology.org/41491d83-6736-49b8-b079-6e72bd2bb5d1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616521>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac242929-aa1e-4cee-bf9b-4a97d79fcb7b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ed2b8fad-37c3-4fb1-9b94-142adcfbeb68>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac242929-aa1e-4cee-bf9b-4a97d79fcb7b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac242929-aa1e-4cee-bf9b-4a97d79fcb7b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac242929-aa1e-4cee-bf9b-4a97d79fcb7b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10e49798-20a6-4bb4-b504-b44c7d81926d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9a34b25d-b272-40ae-89d1-e10534f8ad63>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10e49798-20a6-4bb4-b504-b44c7d81926d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10e49798-20a6-4bb4-b504-b44c7d81926d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10e49798-20a6-4bb4-b504-b44c7d81926d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13e3ff19-56b1-433a-9ec0-7fc66439b548>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6c45d9e3-e419-4b95-b6ab-3f1a84255390>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13e3ff19-56b1-433a-9ec0-7fc66439b548>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13e3ff19-56b1-433a-9ec0-7fc66439b548>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13e3ff19-56b1-433a-9ec0-7fc66439b548>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53ac9b64-19f3-456e-b773-776f0b370a54>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/829530c0-f0a1-45a3-bce7-7f86aaab7fc5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53ac9b64-19f3-456e-b773-776f0b370a54>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53ac9b64-19f3-456e-b773-776f0b370a54>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53ac9b64-19f3-456e-b773-776f0b370a54>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dc637dc-78b9-4f33-aae1-db29c3ec80b7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b063b741-091a-40cd-8c0f-b81c9915db70>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dc637dc-78b9-4f33-aae1-db29c3ec80b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dc637dc-78b9-4f33-aae1-db29c3ec80b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dc637dc-78b9-4f33-aae1-db29c3ec80b7>
+    
+    
+Individual: <http://model.geneontology.org/53ac9b64-19f3-456e-b773-776f0b370a54>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > DELAYED DEVELOPMENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001263>
+    
+    
+Individual: <http://model.geneontology.org/6c45d9e3-e419-4b95-b6ab-3f1a84255390>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616521>
+    
+    
+Individual: <http://model.geneontology.org/7dc637dc-78b9-4f33-aae1-db29c3ec80b7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_BEHAVIORAL/PSYCHIATRIC MANIFESTATIONS > AGGRESSION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000718>
+    
+    
+Individual: <http://model.geneontology.org/829530c0-f0a1-45a3-bce7-7f86aaab7fc5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616521>
+    
+    
+Individual: <http://model.geneontology.org/9a34b25d-b272-40ae-89d1-e10534f8ad63>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616521>
+    
+    
+Individual: <http://model.geneontology.org/ac242929-aa1e-4cee-bf9b-4a97d79fcb7b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > INTELLECTUAL DISABILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://model.geneontology.org/b063b741-091a-40cd-8c0f-b81c9915db70>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616521>
+    
+    
+Individual: <http://model.geneontology.org/d5f273c6-5d1d-42e1-9abb-39e475f6c474>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "hallmark"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/ed2b8fad-37c3-4fb1-9b94-142adcfbeb68>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616521>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616521>
+
+    Annotations: 
+        rdfs:label "#616521 MENTAL RETARDATION, AUTOSOMAL DOMINANT 39; MRD39CHROMOSOME 2p25.3 DELETION SYNDROME, INCLUDED;;CHROMOSOME 2p25.3 DUPLICATION SYNDROME, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

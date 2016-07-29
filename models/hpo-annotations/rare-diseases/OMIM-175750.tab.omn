@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9f47a6fe-acb8-40f3-a277-9d973e16c044>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-175750.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001451>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant with reduced penetrance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002815>
+
+    Annotations: 
+        rdfs:label "Abnormality of the knees"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_175750>
+
+    Annotations: 
+        rdfs:label "POPLITEAL CYST"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/14a41d5b-1f69-4e28-8027-a2dbca0c6a10>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175750>
+    
+    
+Individual: <http://model.geneontology.org/6422d797-0e7c-41de-ba73-463852126bfb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001451>
+    
+    
+Individual: <http://model.geneontology.org/76a1c4da-7f5a-44cb-8786-095ff8a29df5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175750>
+    
+    
+Individual: <http://model.geneontology.org/c244086d-00f4-4859-a356-234992c2ea0f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002815>
+    
+    
+Individual: <http://model.geneontology.org/d3dcead3-ee3e-4f44-8598-5204aee6205e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_175750>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c244086d-00f4-4859-a356-234992c2ea0f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/76a1c4da-7f5a-44cb-8786-095ff8a29df5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c244086d-00f4-4859-a356-234992c2ea0f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c244086d-00f4-4859-a356-234992c2ea0f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c244086d-00f4-4859-a356-234992c2ea0f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6422d797-0e7c-41de-ba73-463852126bfb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/14a41d5b-1f69-4e28-8027-a2dbca0c6a10>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6422d797-0e7c-41de-ba73-463852126bfb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6422d797-0e7c-41de-ba73-463852126bfb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6422d797-0e7c-41de-ba73-463852126bfb>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_175750>
+
+    Annotations: 
+        rdfs:label "POPLITEAL CYST"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

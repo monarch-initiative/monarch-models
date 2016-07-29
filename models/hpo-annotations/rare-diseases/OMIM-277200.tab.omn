@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/34e02432-d347-4b03-bc72-81a86402a1f9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-277200.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004762>
+
+    Annotations: 
+        rdfs:label "Hypoplasia of right ventricle"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_277200>
+
+    Annotations: 
+        rdfs:label "RIGHT VENTRICULAR HYPOPLASIA, ISOLATED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1c8a8533-e6ff-4be4-842b-0f70cb8ea5a5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_277200>
+    
+    
+Individual: <http://model.geneontology.org/3dce69c0-6302-45ed-b68b-2f539fc6c3ba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004762>
+    
+    
+Individual: <http://model.geneontology.org/437e6ace-4105-4cf9-be0f-0d9b09d1a3a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/967e92ae-551b-46bb-9aef-c2fd117485f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_277200>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3dce69c0-6302-45ed-b68b-2f539fc6c3ba>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/99515ff7-1681-4459-892e-2183d6d5e3e8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3dce69c0-6302-45ed-b68b-2f539fc6c3ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3dce69c0-6302-45ed-b68b-2f539fc6c3ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3dce69c0-6302-45ed-b68b-2f539fc6c3ba>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/437e6ace-4105-4cf9-be0f-0d9b09d1a3a4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1c8a8533-e6ff-4be4-842b-0f70cb8ea5a5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/437e6ace-4105-4cf9-be0f-0d9b09d1a3a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/437e6ace-4105-4cf9-be0f-0d9b09d1a3a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/437e6ace-4105-4cf9-be0f-0d9b09d1a3a4>
+    
+    
+Individual: <http://model.geneontology.org/99515ff7-1681-4459-892e-2183d6d5e3e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_277200>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_277200>
+
+    Annotations: 
+        rdfs:label "RIGHT VENTRICULAR HYPOPLASIA, ISOLATED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

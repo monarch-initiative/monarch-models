@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7822d256-0b3a-4e81-a57c-37468f9eb802>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614486.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002625>
+
+    Annotations: 
+        rdfs:label "Deep venous thrombosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100724>
+
+    Annotations: 
+        rdfs:label "Hypercoagulability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614486>
+
+    Annotations: 
+        rdfs:label "#614486 THROMBOPHILIA DUE TO THROMBOMODULIN DEFECT; THPH12"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/180c7d10-a0ae-4c51-80b0-12cc3aa906c3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614486>
+    
+    
+Individual: <http://model.geneontology.org/49796f16-7cba-4394-b96e-7dd21d871b5d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614486>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dde0889e-904f-4ebb-b7ed-951e37da6fcd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/180c7d10-a0ae-4c51-80b0-12cc3aa906c3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dde0889e-904f-4ebb-b7ed-951e37da6fcd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dde0889e-904f-4ebb-b7ed-951e37da6fcd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dde0889e-904f-4ebb-b7ed-951e37da6fcd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8c9981-05f4-4eee-9fdb-d95d66923767>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b0b0b78c-b365-4bf6-bf43-4bcfc3cb5eb0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8c9981-05f4-4eee-9fdb-d95d66923767>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8c9981-05f4-4eee-9fdb-d95d66923767>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d8c9981-05f4-4eee-9fdb-d95d66923767>
+    
+    
+Individual: <http://model.geneontology.org/8d8c9981-05f4-4eee-9fdb-d95d66923767>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100724>
+    
+    
+Individual: <http://model.geneontology.org/b0b0b78c-b365-4bf6-bf43-4bcfc3cb5eb0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614486>
+    
+    
+Individual: <http://model.geneontology.org/dde0889e-904f-4ebb-b7ed-951e37da6fcd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002625>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614486>
+
+    Annotations: 
+        rdfs:label "#614486 THROMBOPHILIA DUE TO THROMBOMODULIN DEFECT; THPH12"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

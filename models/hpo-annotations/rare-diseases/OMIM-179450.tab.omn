@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ef0a03dd-52c8-4b12-84d6-93509c6ea913>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-179450.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002715>
+
+    Annotations: 
+        rdfs:label "Abnormality of the immune system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_179450>
+
+    Annotations: 
+        rdfs:label "RAGWEED SENSITIVITY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/20c29e1b-efd2-4362-a7aa-ba192ddb2d15>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179450>
+    
+    
+Individual: <http://model.geneontology.org/44fba78e-7c58-454d-b257-2b3c87479a3e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002715>
+    
+    
+Individual: <http://model.geneontology.org/82e7ad2c-3751-43fa-86d0-8bbb5d980e7c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/b1524fe4-2062-4c19-ab54-875d085a3d74>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179450>
+    
+    
+Individual: <http://model.geneontology.org/ee614d5d-a8d9-4494-ba54-ee3e3edd7c1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_179450>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44fba78e-7c58-454d-b257-2b3c87479a3e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b1524fe4-2062-4c19-ab54-875d085a3d74>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44fba78e-7c58-454d-b257-2b3c87479a3e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44fba78e-7c58-454d-b257-2b3c87479a3e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44fba78e-7c58-454d-b257-2b3c87479a3e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82e7ad2c-3751-43fa-86d0-8bbb5d980e7c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/20c29e1b-efd2-4362-a7aa-ba192ddb2d15>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82e7ad2c-3751-43fa-86d0-8bbb5d980e7c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82e7ad2c-3751-43fa-86d0-8bbb5d980e7c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82e7ad2c-3751-43fa-86d0-8bbb5d980e7c>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_179450>
+
+    Annotations: 
+        rdfs:label "RAGWEED SENSITIVITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

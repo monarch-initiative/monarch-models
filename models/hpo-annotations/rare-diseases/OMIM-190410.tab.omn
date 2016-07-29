@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9208f412-7cba-4163-abe1-9a69b9c4714a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-190410.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001172>
+
+    Annotations: 
+        rdfs:label "Abnormality of the thumb"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_190410>
+
+    Annotations: 
+        rdfs:label "TRIGGER THUMB"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/34a8bbc3-b938-4398-8c00-24c5409bcd8b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/5fc180ee-d485-424c-b0d8-024f6249cc24>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001172>
+    
+    
+Individual: <http://model.geneontology.org/69076885-ed86-4dd8-8fd8-0a21236fa6c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190410>
+    
+    
+Individual: <http://model.geneontology.org/851d66b0-a96c-4944-ba05-e6c20f7a0bad>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190410>
+    
+    
+Individual: <http://model.geneontology.org/cc1259c0-9320-43f6-9a95-cc04b3f9e6a8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_190410>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34a8bbc3-b938-4398-8c00-24c5409bcd8b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/69076885-ed86-4dd8-8fd8-0a21236fa6c5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34a8bbc3-b938-4398-8c00-24c5409bcd8b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34a8bbc3-b938-4398-8c00-24c5409bcd8b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-04-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34a8bbc3-b938-4398-8c00-24c5409bcd8b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc180ee-d485-424c-b0d8-024f6249cc24>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/851d66b0-a96c-4944-ba05-e6c20f7a0bad>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc180ee-d485-424c-b0d8-024f6249cc24>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc180ee-d485-424c-b0d8-024f6249cc24>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc180ee-d485-424c-b0d8-024f6249cc24>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_190410>
+
+    Annotations: 
+        rdfs:label "TRIGGER THUMB"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

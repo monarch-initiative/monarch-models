@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4075ad76-886f-4925-8e48-774be1c30667>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D054243.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D054243>
+
+    Annotations: 
+        rdfs:label "Vesicular Stomatitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010280>
+
+    Annotations: 
+        rdfs:label "Stomatitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/09be1160-1978-4bdf-87c8-d7dd863371dc>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/19960709;PMID:21438000;PMID:22806964;PMID:23261799;PMID:19596990>
+    
+    
+Individual: <http://model.geneontology.org/1b43b44a-fb2b-4c4d-9627-bb280839fca1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 433.40166094633173/72)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010280>
+    
+    
+Individual: <http://model.geneontology.org/b2cc574d-0dcb-483c-88a8-05f4ac90e82f>
+
+    Types: 
+        <MESH:D054243>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b43b44a-fb2b-4c4d-9627-bb280839fca1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/09be1160-1978-4bdf-87c8-d7dd863371dc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b43b44a-fb2b-4c4d-9627-bb280839fca1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b43b44a-fb2b-4c4d-9627-bb280839fca1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b43b44a-fb2b-4c4d-9627-bb280839fca1>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/19960709;PMID:21438000;PMID:22806964;PMID:23261799;PMID:19596990>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

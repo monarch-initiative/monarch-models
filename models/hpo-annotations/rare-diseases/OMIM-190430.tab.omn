@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b294e6a9-a812-4422-9545-dcb23d62ae72>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-190430.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001513>
+
+    Annotations: 
+        rdfs:label "Obesity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_190430>
+
+    Annotations: 
+        rdfs:label "TRIGLYCERIDE STORAGE DISEASE, TYPE II"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/011c3809-dce5-4782-ac3a-21600fa266a5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001513>
+    
+    
+Individual: <http://model.geneontology.org/25a4fd52-8a63-4513-94ab-47562903ff14>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190430>
+    
+    
+Individual: <http://model.geneontology.org/4b8fd391-0e56-4d39-9628-4af12ae15b03>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_190430>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d2a5e816-6955-4db2-ade4-7ae4d8e42bff>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ac66f4a4-ad8a-4f93-8e70-3b0f62510ad3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d2a5e816-6955-4db2-ade4-7ae4d8e42bff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d2a5e816-6955-4db2-ade4-7ae4d8e42bff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-25"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d2a5e816-6955-4db2-ade4-7ae4d8e42bff>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011c3809-dce5-4782-ac3a-21600fa266a5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/25a4fd52-8a63-4513-94ab-47562903ff14>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011c3809-dce5-4782-ac3a-21600fa266a5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011c3809-dce5-4782-ac3a-21600fa266a5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/011c3809-dce5-4782-ac3a-21600fa266a5>
+    
+    
+Individual: <http://model.geneontology.org/ac66f4a4-ad8a-4f93-8e70-3b0f62510ad3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190430>
+    
+    
+Individual: <http://model.geneontology.org/d2a5e816-6955-4db2-ade4-7ae4d8e42bff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_190430>
+
+    Annotations: 
+        rdfs:label "TRIGLYCERIDE STORAGE DISEASE, TYPE II"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

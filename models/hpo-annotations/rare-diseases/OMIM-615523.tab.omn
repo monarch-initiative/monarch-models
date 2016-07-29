@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1b5223b1-e05e-4926-8659-b4b0de31aabd>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615523.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001131>
+
+    Annotations: 
+        rdfs:label "Corneal dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615523>
+
+    Annotations: 
+        rdfs:label "#615523 CORNEAL DYSTROPHY, FUCHS ENDOTHELIAL, 8; FECD8"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3d5eae71-f3cd-46d3-b390-aca1122ec0f0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615523>
+    
+    
+Individual: <http://model.geneontology.org/4ce6f6f9-8014-4e2b-9d1d-24166c3dd053>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615523>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/595d7709-1035-4ffb-a79c-f49bcd2c148e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3d5eae71-f3cd-46d3-b390-aca1122ec0f0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/595d7709-1035-4ffb-a79c-f49bcd2c148e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/595d7709-1035-4ffb-a79c-f49bcd2c148e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/595d7709-1035-4ffb-a79c-f49bcd2c148e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a21c258-e70c-4ddd-b011-0e58af06e52a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6f01ca73-7c28-4c51-a4a3-b51a65644d4c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a21c258-e70c-4ddd-b011-0e58af06e52a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a21c258-e70c-4ddd-b011-0e58af06e52a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a21c258-e70c-4ddd-b011-0e58af06e52a>
+    
+    
+Individual: <http://model.geneontology.org/595d7709-1035-4ffb-a79c-f49bcd2c148e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#615523 corneal dystrophy, fuchs en"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001131>
+    
+    
+Individual: <http://model.geneontology.org/6a21c258-e70c-4ddd-b011-0e58af06e52a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/6f01ca73-7c28-4c51-a4a3-b51a65644d4c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615523>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615523>
+
+    Annotations: 
+        rdfs:label "#615523 CORNEAL DYSTROPHY, FUCHS ENDOTHELIAL, 8; FECD8"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

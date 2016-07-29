@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e48427d5-6a7b-47b5-840c-f9e6958fbd65>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-123740.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000365>
+
+    Annotations: 
+        rdfs:label "Hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_123740>
+
+    Annotations: 
+        rdfs:label "CRYSTALLIN, MU; CRYM"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/079fe548-7eef-4c56-8dd4-bc1488358bde>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:12471561>
+    
+    
+Individual: <http://model.geneontology.org/2f467ceb-c869-4cb2-9ad1-cb723ae0f980>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/849c6363-0fdc-4020-bee3-a5f2fbe60da3>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:12471561>
+    
+    
+Individual: <http://model.geneontology.org/95dd04e1-c320-4b60-9ce6-ac4dded57a12>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_123740>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8d22cba-711c-457a-905f-3890bee58dad>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/079fe548-7eef-4c56-8dd4-bc1488358bde>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8d22cba-711c-457a-905f-3890bee58dad>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8d22cba-711c-457a-905f-3890bee58dad>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-12"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8d22cba-711c-457a-905f-3890bee58dad>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f467ceb-c869-4cb2-9ad1-cb723ae0f980>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/849c6363-0fdc-4020-bee3-a5f2fbe60da3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f467ceb-c869-4cb2-9ad1-cb723ae0f980>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f467ceb-c869-4cb2-9ad1-cb723ae0f980>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-12"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f467ceb-c869-4cb2-9ad1-cb723ae0f980>
+    
+    
+Individual: <http://model.geneontology.org/f8d22cba-711c-457a-905f-3890bee58dad>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000365>
+    
+    
+Individual: <pmid:12471561>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

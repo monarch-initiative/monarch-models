@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0d6ed247-c844-46e1-8d55-abaa222a9a36>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-163000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001052>
+
+    Annotations: 
+        rdfs:label "Nevus flammeus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_163000>
+
+    Annotations: 
+        rdfs:label "NEVI FLAMMEI, FAMILIAL MULTIPLE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/42996200-2833-47bb-aa2c-80faeb886d2b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_163000>
+    
+    
+Individual: <http://model.geneontology.org/931e6aa1-35c8-4158-af7b-569eac792675>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001052>
+    
+    
+Individual: <http://model.geneontology.org/a6189bac-1fce-4e03-9623-3215fe4d09f1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_163000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7dd0ce6-09f5-41a7-80b4-fd36ed673b82>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42996200-2833-47bb-aa2c-80faeb886d2b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7dd0ce6-09f5-41a7-80b4-fd36ed673b82>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7dd0ce6-09f5-41a7-80b4-fd36ed673b82>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7dd0ce6-09f5-41a7-80b4-fd36ed673b82>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931e6aa1-35c8-4158-af7b-569eac792675>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ea512ce4-1b21-4872-a0fb-1d22a36c8cb6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931e6aa1-35c8-4158-af7b-569eac792675>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931e6aa1-35c8-4158-af7b-569eac792675>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/931e6aa1-35c8-4158-af7b-569eac792675>
+    
+    
+Individual: <http://model.geneontology.org/d7dd0ce6-09f5-41a7-80b4-fd36ed673b82>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/ea512ce4-1b21-4872-a0fb-1d22a36c8cb6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_163000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_163000>
+
+    Annotations: 
+        rdfs:label "NEVI FLAMMEI, FAMILIAL MULTIPLE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

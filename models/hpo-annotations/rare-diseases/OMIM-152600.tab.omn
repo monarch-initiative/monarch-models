@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/238367a9-8774-4fb0-a04e-7d9f32c54efb>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-152600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001597>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nail"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_152600>
+
+    Annotations: 
+        rdfs:label "LUNULAE OF FINGERNAILS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/40d8c415-ce84-46f2-a7e0-7ac28768471c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/66dd5a34-c9b9-487f-8a16-079cdb0fba3d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_152600>
+    
+    
+Individual: <http://model.geneontology.org/bdc95cb2-e02c-44fa-805a-4af55857f89a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001597>
+    
+    
+Individual: <http://model.geneontology.org/ce1f8557-9e80-4096-bcf7-67ea118f4086>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_152600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdc95cb2-e02c-44fa-805a-4af55857f89a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/66dd5a34-c9b9-487f-8a16-079cdb0fba3d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdc95cb2-e02c-44fa-805a-4af55857f89a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdc95cb2-e02c-44fa-805a-4af55857f89a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdc95cb2-e02c-44fa-805a-4af55857f89a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40d8c415-ce84-46f2-a7e0-7ac28768471c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ed8d18fc-44be-4224-b69a-9129ea2b47d5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40d8c415-ce84-46f2-a7e0-7ac28768471c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40d8c415-ce84-46f2-a7e0-7ac28768471c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40d8c415-ce84-46f2-a7e0-7ac28768471c>
+    
+    
+Individual: <http://model.geneontology.org/ed8d18fc-44be-4224-b69a-9129ea2b47d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_152600>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_152600>
+
+    Annotations: 
+        rdfs:label "LUNULAE OF FINGERNAILS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

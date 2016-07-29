@@ -1,0 +1,206 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/fd99f301-f3b0-4d3a-a853-3352f2de93e9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-162270.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001425>
+
+    Annotations: 
+        rdfs:label "Heterogeneous"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007524>
+
+    Annotations: 
+        rdfs:label "Atypical neurofibromatosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009737>
+
+    Annotations: 
+        rdfs:label "Lisch nodules"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_162270>
+
+    Annotations: 
+        rdfs:label "NEUROFIBROMATOSIS, TYPE IV, OF RICCARDI"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3fa81fa0-448d-4a2c-8078-85478e15920b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_162270>
+    
+    
+Individual: <http://model.geneontology.org/4fa6a331-9b42-4ce1-8386-34b4ceadf312>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001425>
+    
+    
+Individual: <http://model.geneontology.org/5e26c027-0448-413f-bb91-eb2c1d4afe98>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007524>
+    
+    
+Individual: <http://model.geneontology.org/79377a58-be9a-486e-8048-a4d63fc267ac>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_162270>
+    
+    
+Individual: <http://model.geneontology.org/a157064b-e516-46ba-bf5b-8e4721b2efa1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009737>
+    
+    
+Individual: <http://model.geneontology.org/afef5c23-d432-4659-a6ce-39905aee3ab4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/b796bc70-c9c5-4d7f-917a-d1c3bbe42082>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_162270>
+    
+    
+Individual: <http://model.geneontology.org/bb7857d3-a059-48bb-9077-3301fc6a8e51>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_162270>
+    
+    
+Individual: <http://model.geneontology.org/d2b344b5-be51-4503-88cc-f57f5b9bfcae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_162270>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a157064b-e516-46ba-bf5b-8e4721b2efa1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3fa81fa0-448d-4a2c-8078-85478e15920b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a157064b-e516-46ba-bf5b-8e4721b2efa1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a157064b-e516-46ba-bf5b-8e4721b2efa1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a157064b-e516-46ba-bf5b-8e4721b2efa1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/afef5c23-d432-4659-a6ce-39905aee3ab4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b796bc70-c9c5-4d7f-917a-d1c3bbe42082>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/afef5c23-d432-4659-a6ce-39905aee3ab4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/afef5c23-d432-4659-a6ce-39905aee3ab4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/afef5c23-d432-4659-a6ce-39905aee3ab4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4fa6a331-9b42-4ce1-8386-34b4ceadf312>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/79377a58-be9a-486e-8048-a4d63fc267ac>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4fa6a331-9b42-4ce1-8386-34b4ceadf312>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4fa6a331-9b42-4ce1-8386-34b4ceadf312>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4fa6a331-9b42-4ce1-8386-34b4ceadf312>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e26c027-0448-413f-bb91-eb2c1d4afe98>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb7857d3-a059-48bb-9077-3301fc6a8e51>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e26c027-0448-413f-bb91-eb2c1d4afe98>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e26c027-0448-413f-bb91-eb2c1d4afe98>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5e26c027-0448-413f-bb91-eb2c1d4afe98>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_162270>
+
+    Annotations: 
+        rdfs:label "NEUROFIBROMATOSIS, TYPE IV, OF RICCARDI"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

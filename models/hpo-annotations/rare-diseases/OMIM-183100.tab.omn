@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3bdbad77-449a-4f23-be4c-d5a49e046ee9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-183100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007263>
+
+    Annotations: 
+        rdfs:label "Spinocerebellar atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_183100>
+
+    Annotations: 
+        rdfs:label "SPINOCEREBELLAR ATROPHY WITH PUPILLARY PARALYSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0ac35dde-8861-41e2-8627-0528930d6cb2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_183100>
+    
+    
+Individual: <http://model.geneontology.org/2e35d92a-9ef2-4ad3-9d9e-bddb2e703a6c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/4bc5c732-6b6c-464b-8700-7d7dfbfa4a35>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_183100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c81adb0b-19b2-431c-ada2-cf862b8baf6c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9aa4001a-e26b-4374-a85c-019b16284216>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c81adb0b-19b2-431c-ada2-cf862b8baf6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c81adb0b-19b2-431c-ada2-cf862b8baf6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c81adb0b-19b2-431c-ada2-cf862b8baf6c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e35d92a-9ef2-4ad3-9d9e-bddb2e703a6c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0ac35dde-8861-41e2-8627-0528930d6cb2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e35d92a-9ef2-4ad3-9d9e-bddb2e703a6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e35d92a-9ef2-4ad3-9d9e-bddb2e703a6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e35d92a-9ef2-4ad3-9d9e-bddb2e703a6c>
+    
+    
+Individual: <http://model.geneontology.org/9aa4001a-e26b-4374-a85c-019b16284216>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_183100>
+    
+    
+Individual: <http://model.geneontology.org/c81adb0b-19b2-431c-ada2-cf862b8baf6c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007263>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_183100>
+
+    Annotations: 
+        rdfs:label "SPINOCEREBELLAR ATROPHY WITH PUPILLARY PARALYSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c52d72bb-4f97-4f63-a68c-804498ef3d83>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-276800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003231>
+
+    Annotations: 
+        rdfs:label "Hypertyrosinemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_276800>
+
+    Annotations: 
+        rdfs:label "TYROSINOSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0d7e25b0-6f04-423e-875e-2a4c90a6d5b7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/1c5a8d29-53c7-4bf6-9335-39b72fa0ac36>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003231>
+    
+    
+Individual: <http://model.geneontology.org/1dd55f0a-803d-482d-a340-e1a331c55cd1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_276800>
+    
+    
+Individual: <http://model.geneontology.org/456b9dce-0faf-4aaf-ac21-ad359c637804>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_276800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d7e25b0-6f04-423e-875e-2a4c90a6d5b7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1dd55f0a-803d-482d-a340-e1a331c55cd1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d7e25b0-6f04-423e-875e-2a4c90a6d5b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d7e25b0-6f04-423e-875e-2a4c90a6d5b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d7e25b0-6f04-423e-875e-2a4c90a6d5b7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c5a8d29-53c7-4bf6-9335-39b72fa0ac36>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9cacd379-2732-4c3f-8aa4-9fc3cb783489>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c5a8d29-53c7-4bf6-9335-39b72fa0ac36>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c5a8d29-53c7-4bf6-9335-39b72fa0ac36>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c5a8d29-53c7-4bf6-9335-39b72fa0ac36>
+    
+    
+Individual: <http://model.geneontology.org/9cacd379-2732-4c3f-8aa4-9fc3cb783489>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_276800>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_276800>
+
+    Annotations: 
+        rdfs:label "TYROSINOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

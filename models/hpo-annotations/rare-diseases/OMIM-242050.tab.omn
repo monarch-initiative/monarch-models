@@ -1,0 +1,206 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d1b107a1-7f5e-4264-8260-541af0267908>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-242050.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000924>
+
+    Annotations: 
+        rdfs:label "Abnormality of the musculoskeletal system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002150>
+
+    Annotations: 
+        rdfs:label "Hypercalciuria"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003537>
+
+    Annotations: 
+        rdfs:label "Hypouricemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_242050>
+
+    Annotations: 
+        rdfs:label "HYPOURICEMIA, HYPERCALCINURIA, AND DECREASED BONE DENSITY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/291516d7-5eab-4ddd-8fbb-a86c08b4675e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_242050>
+    
+    
+Individual: <http://model.geneontology.org/37a38b4a-9e66-4fef-a747-929ceb396e4a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_242050>
+    
+    
+Individual: <http://model.geneontology.org/62583bbc-1955-491e-9d2e-4a014d5a7ecf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002150>
+    
+    
+Individual: <http://model.geneontology.org/ae71538d-975c-4f95-a465-72b96fdb593c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_242050>
+    
+    
+Individual: <http://model.geneontology.org/bca8b9a3-8efd-4ec6-9508-1cf11232fded>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/c790b185-5ec9-4431-accb-597b48438707>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000924>
+    
+    
+Individual: <http://model.geneontology.org/d4eff0b6-5de6-497c-a04b-3b831c4f82d0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003537>
+    
+    
+Individual: <http://model.geneontology.org/dda059f2-4ca7-4620-a2a5-b9b16fc456c3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_242050>
+    
+    
+Individual: <http://model.geneontology.org/fd264751-d358-4dff-b50b-bc60cc92cd23>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_242050>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bca8b9a3-8efd-4ec6-9508-1cf11232fded>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ae71538d-975c-4f95-a465-72b96fdb593c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bca8b9a3-8efd-4ec6-9508-1cf11232fded>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bca8b9a3-8efd-4ec6-9508-1cf11232fded>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bca8b9a3-8efd-4ec6-9508-1cf11232fded>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c790b185-5ec9-4431-accb-597b48438707>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dda059f2-4ca7-4620-a2a5-b9b16fc456c3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c790b185-5ec9-4431-accb-597b48438707>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c790b185-5ec9-4431-accb-597b48438707>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c790b185-5ec9-4431-accb-597b48438707>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4eff0b6-5de6-497c-a04b-3b831c4f82d0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/37a38b4a-9e66-4fef-a747-929ceb396e4a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4eff0b6-5de6-497c-a04b-3b831c4f82d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4eff0b6-5de6-497c-a04b-3b831c4f82d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4eff0b6-5de6-497c-a04b-3b831c4f82d0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62583bbc-1955-491e-9d2e-4a014d5a7ecf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/291516d7-5eab-4ddd-8fbb-a86c08b4675e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62583bbc-1955-491e-9d2e-4a014d5a7ecf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62583bbc-1955-491e-9d2e-4a014d5a7ecf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62583bbc-1955-491e-9d2e-4a014d5a7ecf>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_242050>
+
+    Annotations: 
+        rdfs:label "HYPOURICEMIA, HYPERCALCINURIA, AND DECREASED BONE DENSITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

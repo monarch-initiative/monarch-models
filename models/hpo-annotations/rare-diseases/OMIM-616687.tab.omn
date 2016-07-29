@@ -1,0 +1,233 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ac503bb1-c812-4db8-89c9-8b630a6c16fe>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616687.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001761>
+
+    Annotations: 
+        rdfs:label "Pes cavus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001765>
+
+    Annotations: 
+        rdfs:label "Hammertoe"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002936>
+
+    Annotations: 
+        rdfs:label "Distal sensory impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003236>
+
+    Annotations: 
+        rdfs:label "Elevated serum creatine phosphokinase"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616687>
+
+    Annotations: 
+        rdfs:label "#616687 CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2Y; CMT2Y;;CHARCOT-MARIE-TOOTH DISEASE, AXONAL, AUTOSOMAL DOMINANT, TYPE 2Y;;CHARCOT-MARIE-TOOTH NEUROPATHY, TYPE 2Y"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/02e1ab20-9cc0-46a6-9661-fd130dcb31b7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616687>
+    
+    
+Individual: <http://model.geneontology.org/216e5a48-f3a5-4cca-ac00-f5d3dd225738>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALIITIES > INCREASED SERUM CREATINE KINASE (1 PATIENT)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003236>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/9283cc59-21b9-4329-8906-b05846f80a79>
+    
+    
+Individual: <http://model.geneontology.org/3862ed1d-d96d-4b44-8c35-984e2737ec6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616687>
+    
+    
+Individual: <http://model.geneontology.org/4b584698-f71d-4133-a632-2e4743f4aeda>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_FEET > PES CAVUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001761>
+    
+    
+Individual: <http://model.geneontology.org/9283cc59-21b9-4329-8906-b05846f80a79>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/d5bab226-79d4-4890-82bf-c9cbbabc9c02>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_FEET > HAMMERTOES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001765>
+    
+    
+Individual: <http://model.geneontology.org/da12520a-cc06-45a8-850d-6c0df6a3bcb8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_PERIPHERAL NERVOUS SYSTEM > DISTAL SENSORY IMPAIRMENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002936>
+    
+    
+Individual: <http://model.geneontology.org/e28ea577-67f9-4929-b5e8-750015d4aff7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616687>
+    
+    
+Individual: <http://model.geneontology.org/f94231c2-5e40-4e00-9916-9369962cea15>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616687>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5bab226-79d4-4890-82bf-c9cbbabc9c02>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e28ea577-67f9-4929-b5e8-750015d4aff7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5bab226-79d4-4890-82bf-c9cbbabc9c02>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5bab226-79d4-4890-82bf-c9cbbabc9c02>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d5bab226-79d4-4890-82bf-c9cbbabc9c02>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da12520a-cc06-45a8-850d-6c0df6a3bcb8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fde58f13-9da3-43bf-8d07-4dba0a866281>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da12520a-cc06-45a8-850d-6c0df6a3bcb8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da12520a-cc06-45a8-850d-6c0df6a3bcb8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da12520a-cc06-45a8-850d-6c0df6a3bcb8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/216e5a48-f3a5-4cca-ac00-f5d3dd225738>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/02e1ab20-9cc0-46a6-9661-fd130dcb31b7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/216e5a48-f3a5-4cca-ac00-f5d3dd225738>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/216e5a48-f3a5-4cca-ac00-f5d3dd225738>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/216e5a48-f3a5-4cca-ac00-f5d3dd225738>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b584698-f71d-4133-a632-2e4743f4aeda>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3862ed1d-d96d-4b44-8c35-984e2737ec6e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b584698-f71d-4133-a632-2e4743f4aeda>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b584698-f71d-4133-a632-2e4743f4aeda>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b584698-f71d-4133-a632-2e4743f4aeda>
+    
+    
+Individual: <http://model.geneontology.org/fde58f13-9da3-43bf-8d07-4dba0a866281>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616687>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616687>
+
+    Annotations: 
+        rdfs:label "#616687 CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2Y; CMT2Y;;CHARCOT-MARIE-TOOTH DISEASE, AXONAL, AUTOSOMAL DOMINANT, TYPE 2Y;;CHARCOT-MARIE-TOOTH NEUROPATHY, TYPE 2Y"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

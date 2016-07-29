@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/14cf9081-e84f-4709-a8b5-b76d0b558002>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-226350.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0045029>
+
+    Annotations: 
+        rdfs:label "Eosinophilic fasciitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_226350>
+
+    Annotations: 
+        rdfs:label "EOSINOPHILIC FASCIITIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2348825d-9007-4eb9-a0f6-1eca1d5f7da0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/6e6b52ce-b4ca-4a87-adcc-c9f1ac0a01ab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_226350>
+    
+    
+Individual: <http://model.geneontology.org/bc6981cc-c935-4db4-9466-82d7154605c7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:fuse fasciitis with eosinophilia|shulman syndrome|ht"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0045029>
+    
+    
+Individual: <http://model.geneontology.org/cd3a132c-7cd5-479a-99fa-b0e0f9e7d73b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_226350>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc6981cc-c935-4db4-9466-82d7154605c7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6e6b52ce-b4ca-4a87-adcc-c9f1ac0a01ab>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc6981cc-c935-4db4-9466-82d7154605c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc6981cc-c935-4db4-9466-82d7154605c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc6981cc-c935-4db4-9466-82d7154605c7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2348825d-9007-4eb9-a0f6-1eca1d5f7da0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e2caba5c-c0e4-4cfb-8919-db565b6af73a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2348825d-9007-4eb9-a0f6-1eca1d5f7da0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2348825d-9007-4eb9-a0f6-1eca1d5f7da0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2348825d-9007-4eb9-a0f6-1eca1d5f7da0>
+    
+    
+Individual: <http://model.geneontology.org/e2caba5c-c0e4-4cfb-8919-db565b6af73a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_226350>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_226350>
+
+    Annotations: 
+        rdfs:label "EOSINOPHILIC FASCIITIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

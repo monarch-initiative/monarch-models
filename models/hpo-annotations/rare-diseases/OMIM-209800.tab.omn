@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/18cb2fde-4d29-4149-abdc-a86e337c8d68>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-209800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000717>
+
+    Annotations: 
+        rdfs:label "Autism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_209800>
+
+    Annotations: 
+        rdfs:label "AUSTRALIA ANTIGEN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/088bca9b-1d44-4510-a9e6-c7c6b3eef8bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000717>
+    
+    
+Individual: <http://model.geneontology.org/09a30c38-d4db-459d-baaf-b4bf01818224>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_209800>
+    
+    
+Individual: <http://model.geneontology.org/54ef5997-53bf-46b9-9286-afd5315becb6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_209800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/088bca9b-1d44-4510-a9e6-c7c6b3eef8bf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/09a30c38-d4db-459d-baaf-b4bf01818224>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/088bca9b-1d44-4510-a9e6-c7c6b3eef8bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/088bca9b-1d44-4510-a9e6-c7c6b3eef8bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/088bca9b-1d44-4510-a9e6-c7c6b3eef8bf>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_209800>
+
+    Annotations: 
+        rdfs:label "AUSTRALIA ANTIGEN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

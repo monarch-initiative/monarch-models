@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0d0e924d-4db2-4a8e-82cb-a3a71bdf282d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615134.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002861>
+
+    Annotations: 
+        rdfs:label "Melanoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615134>
+
+    Annotations: 
+        rdfs:label "MELANOMA, CUTANEOUS MALIGNANT, SUSCEPTIBILITY TO, 9; CMM9"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/25bc7784-06a1-489a-b35c-174a8d13e655>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002861>
+    
+    
+Individual: <http://model.geneontology.org/74a8ba68-6d7f-4df4-8507-bb41644dc3ff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/76a0d802-bc3c-40f1-85db-e0fbaf7d0f15>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/23348503>
+    
+    
+Individual: <http://model.geneontology.org/7849df13-a8d4-4ff9-abf2-c884becddf1f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615134>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25bc7784-06a1-489a-b35c-174a8d13e655>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b5201d23-0618-4a14-bb32-c9aaacf03071>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25bc7784-06a1-489a-b35c-174a8d13e655>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25bc7784-06a1-489a-b35c-174a8d13e655>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25bc7784-06a1-489a-b35c-174a8d13e655>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74a8ba68-6d7f-4df4-8507-bb41644dc3ff>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/76a0d802-bc3c-40f1-85db-e0fbaf7d0f15>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74a8ba68-6d7f-4df4-8507-bb41644dc3ff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74a8ba68-6d7f-4df4-8507-bb41644dc3ff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74a8ba68-6d7f-4df4-8507-bb41644dc3ff>
+    
+    
+Individual: <http://model.geneontology.org/b5201d23-0618-4a14-bb32-c9aaacf03071>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/23348503>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/23348503>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/125c0a4e-73cf-4591-944f-692abc1f808e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-400045.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001450>
+
+    Annotations: 
+        rdfs:label "Y-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010459>
+
+    Annotations: 
+        rdfs:label "True hermaphroditism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012245>
+
+    Annotations: 
+        rdfs:label "Sex reversal"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_400045>
+
+    Annotations: 
+        rdfs:label "46,XX SEX REVERSAL 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01129590-5748-46b3-bc4f-50aed51c1466>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010459>
+    
+    
+Individual: <http://model.geneontology.org/752516c4-3584-43cc-8bc6-e06da75faabb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_400045>
+    
+    
+Individual: <http://model.geneontology.org/9878bf45-daeb-4a93-ad6a-6d0b2d7f913d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012245>
+    
+    
+Individual: <http://model.geneontology.org/9f27fbb1-6c48-453b-9171-03be974100fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001450>
+    
+    
+Individual: <http://model.geneontology.org/de98df3c-cdc5-4455-844a-b3497a3d4db0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_400045>
+    
+    
+Individual: <http://model.geneontology.org/eed77eca-863a-423b-98e1-66569306be7d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_400045>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01129590-5748-46b3-bc4f-50aed51c1466>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/752516c4-3584-43cc-8bc6-e06da75faabb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01129590-5748-46b3-bc4f-50aed51c1466>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01129590-5748-46b3-bc4f-50aed51c1466>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01129590-5748-46b3-bc4f-50aed51c1466>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f27fbb1-6c48-453b-9171-03be974100fc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/de98df3c-cdc5-4455-844a-b3497a3d4db0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f27fbb1-6c48-453b-9171-03be974100fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f27fbb1-6c48-453b-9171-03be974100fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f27fbb1-6c48-453b-9171-03be974100fc>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9878bf45-daeb-4a93-ad6a-6d0b2d7f913d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f78f4328-7aca-44a0-ab06-3b2b88c626a9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9878bf45-daeb-4a93-ad6a-6d0b2d7f913d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9878bf45-daeb-4a93-ad6a-6d0b2d7f913d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9878bf45-daeb-4a93-ad6a-6d0b2d7f913d>
+    
+    
+Individual: <http://model.geneontology.org/f78f4328-7aca-44a0-ab06-3b2b88c626a9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_400045>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_400045>
+
+    Annotations: 
+        rdfs:label "46,XX SEX REVERSAL 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e3cc161b-7bfa-404a-b32b-d69bd442b372>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-246300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002715>
+
+    Annotations: 
+        rdfs:label "Abnormality of the immune system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_246300>
+
+    Annotations: 
+        rdfs:label "#246300 LEPROSY, SUSCEPTIBILITY TO, 3; LPRS3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0b1ff62d-924d-449b-8029-4ab674e355b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_246300>
+    
+    
+Individual: <http://model.geneontology.org/0cf00a91-bf38-45fb-b569-96825faa12ae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002715>
+    
+    
+Individual: <http://model.geneontology.org/2a1492e9-42bb-4ff1-a74f-3c63aeceda9e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_246300>
+    
+    
+Individual: <http://model.geneontology.org/5c69492f-1788-41fd-a3b0-c3393f740fe2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_246300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f04e730f-606c-4d25-bf44-58b7533e6045>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0b1ff62d-924d-449b-8029-4ab674e355b4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f04e730f-606c-4d25-bf44-58b7533e6045>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f04e730f-606c-4d25-bf44-58b7533e6045>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f04e730f-606c-4d25-bf44-58b7533e6045>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf00a91-bf38-45fb-b569-96825faa12ae>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2a1492e9-42bb-4ff1-a74f-3c63aeceda9e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf00a91-bf38-45fb-b569-96825faa12ae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf00a91-bf38-45fb-b569-96825faa12ae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf00a91-bf38-45fb-b569-96825faa12ae>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d61ad95-d6b7-487f-b913-44bdb09fddc2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/689db57c-42ee-4d42-81a0-8a0e19ac1133>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d61ad95-d6b7-487f-b913-44bdb09fddc2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d61ad95-d6b7-487f-b913-44bdb09fddc2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6d61ad95-d6b7-487f-b913-44bdb09fddc2>
+    
+    
+Individual: <http://model.geneontology.org/689db57c-42ee-4d42-81a0-8a0e19ac1133>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_246300>
+    
+    
+Individual: <http://model.geneontology.org/6d61ad95-d6b7-487f-b913-44bdb09fddc2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f04e730f-606c-4d25-bf44-58b7533e6045>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_246300>
+
+    Annotations: 
+        rdfs:label "#246300 LEPROSY, SUSCEPTIBILITY TO, 3; LPRS3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

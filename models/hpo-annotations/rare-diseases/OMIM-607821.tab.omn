@@ -1,0 +1,316 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/15ce9234-0d2a-4d6b-8c90-11efc987e5af>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-607821.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000407>
+
+    Annotations: 
+        rdfs:label "Sensorineural hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000510>
+
+    Annotations: 
+        rdfs:label "Rod-cone dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001751>
+
+    Annotations: 
+        rdfs:label "Vestibular dysfunction"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007642>
+
+    Annotations: 
+        rdfs:label "Congenital stationary night blindness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008619>
+
+    Annotations: 
+        rdfs:label "Bilateral sensorineural hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_607821>
+
+    Annotations: 
+        rdfs:label "#607821 DEAFNESS, AUTOSOMAL RECESSIVE 37; DFNB37"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/06ea67e1-cc3a-405e-bda3-65872d57e0d5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > CONGENITAL STATIONARY NIGHT BLINDNESS (IN 1 PATIENT)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007642>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/e86f5013-4a0f-48df-9130-c8e8710cfaec>
+    
+    
+Individual: <http://model.geneontology.org/2a421803-25fb-4bdc-8343-d3ebcf2a2c2a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607821>
+    
+    
+Individual: <http://model.geneontology.org/2e5db905-19fe-4da9-85fc-d8558197292f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_607821>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dcba5105-461e-4657-87e2-7d3b3569e396>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a95951f0-f4af-45b0-9447-bbc8141d4e25>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dcba5105-461e-4657-87e2-7d3b3569e396>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dcba5105-461e-4657-87e2-7d3b3569e396>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dcba5105-461e-4657-87e2-7d3b3569e396>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ec598e-24ad-4387-a16d-65ce33158eb0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2a421803-25fb-4bdc-8343-d3ebcf2a2c2a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ec598e-24ad-4387-a16d-65ce33158eb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ec598e-24ad-4387-a16d-65ce33158eb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ec598e-24ad-4387-a16d-65ce33158eb0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06ea67e1-cc3a-405e-bda3-65872d57e0d5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/49b35c0e-b2bc-42de-9610-dc8b764cd74b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06ea67e1-cc3a-405e-bda3-65872d57e0d5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06ea67e1-cc3a-405e-bda3-65872d57e0d5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-09-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06ea67e1-cc3a-405e-bda3-65872d57e0d5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ab96e8f-a966-44fb-b176-f4423b68d99f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dc678562-cda0-4988-a116-024ba968a7e4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ab96e8f-a966-44fb-b176-f4423b68d99f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ab96e8f-a966-44fb-b176-f4423b68d99f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-09-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ab96e8f-a966-44fb-b176-f4423b68d99f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6663351d-24d9-4714-aa52-566723c75ed9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bc3bf5b7-f0b4-479d-91c1-93b8374d17d1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6663351d-24d9-4714-aa52-566723c75ed9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6663351d-24d9-4714-aa52-566723c75ed9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6663351d-24d9-4714-aa52-566723c75ed9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84b70402-15b1-4d5b-b048-52ca74493937>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/873ff465-d06d-4384-a9e1-b2364f3787fe>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84b70402-15b1-4d5b-b048-52ca74493937>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84b70402-15b1-4d5b-b048-52ca74493937>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84b70402-15b1-4d5b-b048-52ca74493937>
+    
+    
+Individual: <http://model.geneontology.org/39d1c80a-4d32-4ccb-9dcd-8c9d6f8e6578>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4246e16c-c9d2-4348-84e8-d9896896148a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "1/6"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/49b35c0e-b2bc-42de-9610-dc8b764cd74b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607821>
+    
+    
+Individual: <http://model.geneontology.org/4ab96e8f-a966-44fb-b176-f4423b68d99f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > RETINITIS PIGMENTOSA (IN 1 PATIENT)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000510>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/39d1c80a-4d32-4ccb-9dcd-8c9d6f8e6578>
+    
+    
+Individual: <http://model.geneontology.org/6663351d-24d9-4714-aa52-566723c75ed9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000407>
+    
+    
+Individual: <http://model.geneontology.org/84b70402-15b1-4d5b-b048-52ca74493937>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/873ff465-d06d-4384-a9e1-b2364f3787fe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607821>
+    
+    
+Individual: <http://model.geneontology.org/a95951f0-f4af-45b0-9447-bbc8141d4e25>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/bc3bf5b7-f0b4-479d-91c1-93b8374d17d1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607821>
+    
+    
+Individual: <http://model.geneontology.org/dc678562-cda0-4988-a116-024ba968a7e4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607821>
+    
+    
+Individual: <http://model.geneontology.org/dcba5105-461e-4657-87e2-7d3b3569e396>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008619>
+    
+    
+Individual: <http://model.geneontology.org/e86f5013-4a0f-48df-9130-c8e8710cfaec>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/f7ec598e-24ad-4387-a16d-65ce33158eb0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001751>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/4246e16c-c9d2-4348-84e8-d9896896148a>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_607821>
+
+    Annotations: 
+        rdfs:label "#607821 DEAFNESS, AUTOSOMAL RECESSIVE 37; DFNB37"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

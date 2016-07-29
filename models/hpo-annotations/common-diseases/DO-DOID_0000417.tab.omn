@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/05379e6b-0d55-45cf-b6e0-0c4e288fffc7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0000417.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0000417>
+
+    Annotations: 
+        rdfs:label "HYPERSENSITIVITY REACTION TYPE II DISEASE"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002960>
+
+    Annotations: 
+        rdfs:label "Autoimmunity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/3b7f9a89-b584-4c8f-93d2-612e49e338ca>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:autoimmune disease"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002960>
+    
+    
+Individual: <http://model.geneontology.org/91ae6dee-2727-4ee8-8179-f80ca330e4d2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0000417>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b7f9a89-b584-4c8f-93d2-612e49e338ca>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ff4fb0e5-1d84-4e7e-b39e-15b1a762626e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b7f9a89-b584-4c8f-93d2-612e49e338ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b7f9a89-b584-4c8f-93d2-612e49e338ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b7f9a89-b584-4c8f-93d2-612e49e338ca>
+    
+    
+Individual: <http://model.geneontology.org/ff4fb0e5-1d84-4e7e-b39e-15b1a762626e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0000417>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0000417>
+
+    Annotations: 
+        rdfs:label "HYPERSENSITIVITY REACTION TYPE II DISEASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

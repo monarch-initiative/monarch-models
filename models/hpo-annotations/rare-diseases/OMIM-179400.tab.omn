@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a7976188-3751-489f-91e8-5363af6db2b4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-179400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000175>
+
+    Annotations: 
+        rdfs:label "Cleft palate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000204>
+
+    Annotations: 
+        rdfs:label "Cleft upper lip"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003974>
+
+    Annotations: 
+        rdfs:label "Absent radius"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_179400>
+
+    Annotations: 
+        rdfs:label "RADIUS, APLASIA OF, WITH CLEFT LIP/PALATE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4382aa3a-e878-4a7c-8f1e-9e6a83d16347>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000204>
+    
+    
+Individual: <http://model.geneontology.org/461a422c-9494-4ef3-a648-d4d17bcda4fe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000175>
+    
+    
+Individual: <http://model.geneontology.org/8feb33b9-41d3-4cc1-a3ac-4d2371df109e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179400>
+    
+    
+Individual: <http://model.geneontology.org/92fa888f-136b-4c64-a789-68a75a4d4df7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179400>
+    
+    
+Individual: <http://model.geneontology.org/bbe4e8ff-c16e-4cd9-aedd-6b3e84560237>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003974>
+    
+    
+Individual: <http://model.geneontology.org/bc978bf9-50a8-4bd4-bc8a-2b9392be2e03>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179400>
+    
+    
+Individual: <http://model.geneontology.org/c4652b77-0f83-483e-b741-c563d3a465d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_179400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbe4e8ff-c16e-4cd9-aedd-6b3e84560237>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bc978bf9-50a8-4bd4-bc8a-2b9392be2e03>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbe4e8ff-c16e-4cd9-aedd-6b3e84560237>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbe4e8ff-c16e-4cd9-aedd-6b3e84560237>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbe4e8ff-c16e-4cd9-aedd-6b3e84560237>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4382aa3a-e878-4a7c-8f1e-9e6a83d16347>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8feb33b9-41d3-4cc1-a3ac-4d2371df109e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4382aa3a-e878-4a7c-8f1e-9e6a83d16347>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4382aa3a-e878-4a7c-8f1e-9e6a83d16347>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4382aa3a-e878-4a7c-8f1e-9e6a83d16347>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/461a422c-9494-4ef3-a648-d4d17bcda4fe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/92fa888f-136b-4c64-a789-68a75a4d4df7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/461a422c-9494-4ef3-a648-d4d17bcda4fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/461a422c-9494-4ef3-a648-d4d17bcda4fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/461a422c-9494-4ef3-a648-d4d17bcda4fe>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_179400>
+
+    Annotations: 
+        rdfs:label "RADIUS, APLASIA OF, WITH CLEFT LIP/PALATE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

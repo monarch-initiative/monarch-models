@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f7d68757-c851-4eaf-bc98-47c5bd6150c9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300488.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000818>
+
+    Annotations: 
+        rdfs:label "Abnormality of the endocrine system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001423>
+
+    Annotations: 
+        rdfs:label "X-linked dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300488>
+
+    Annotations: 
+        rdfs:label "MENOPAUSE, NATURAL, AGE AT, QUANTITATIVE TRAIT LOCUS 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/05485f14-fc5a-4b99-aaec-a47fa887c3a5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300488>
+    
+    
+Individual: <http://model.geneontology.org/2abe9cef-eac5-4fd5-bf99-70a313d70116>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000818>
+    
+    
+Individual: <http://model.geneontology.org/40713049-133b-4326-baec-49173c0ba0d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300488>
+    
+    
+Individual: <http://model.geneontology.org/684209db-6d85-4f1d-b232-bd2a143cd666>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001423>
+    
+    
+Individual: <http://model.geneontology.org/8a84aea6-75eb-44d1-9668-fbc876d2a448>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300488>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2abe9cef-eac5-4fd5-bf99-70a313d70116>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/05485f14-fc5a-4b99-aaec-a47fa887c3a5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2abe9cef-eac5-4fd5-bf99-70a313d70116>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2abe9cef-eac5-4fd5-bf99-70a313d70116>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2abe9cef-eac5-4fd5-bf99-70a313d70116>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/684209db-6d85-4f1d-b232-bd2a143cd666>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/40713049-133b-4326-baec-49173c0ba0d5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/684209db-6d85-4f1d-b232-bd2a143cd666>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/684209db-6d85-4f1d-b232-bd2a143cd666>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/684209db-6d85-4f1d-b232-bd2a143cd666>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300488>
+
+    Annotations: 
+        rdfs:label "MENOPAUSE, NATURAL, AGE AT, QUANTITATIVE TRAIT LOCUS 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

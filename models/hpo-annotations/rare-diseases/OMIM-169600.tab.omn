@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f9e52446-7b53-4826-ae1a-6a593c0e509d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-169600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010783>
+
+    Annotations: 
+        rdfs:label "Erythema"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_169600>
+
+    Annotations: 
+        rdfs:label "BENIGN CHRONIC PEMPHIGUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2cd24837-7b48-4459-89cb-e75fadf544e9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169600>
+    
+    
+Individual: <http://model.geneontology.org/9a8d27fb-541d-47c4-aa0b-caa87a6b2126>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010783>
+    
+    
+Individual: <http://model.geneontology.org/b28c4421-eccc-44c1-a42d-897dcce2a2b7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_169600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6429a23-3c8c-45a4-a633-0ad03ddc5a19>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2cd24837-7b48-4459-89cb-e75fadf544e9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6429a23-3c8c-45a4-a633-0ad03ddc5a19>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6429a23-3c8c-45a4-a633-0ad03ddc5a19>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6429a23-3c8c-45a4-a633-0ad03ddc5a19>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a8d27fb-541d-47c4-aa0b-caa87a6b2126>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e0edd458-07f1-417d-b236-70979f05afc7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a8d27fb-541d-47c4-aa0b-caa87a6b2126>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a8d27fb-541d-47c4-aa0b-caa87a6b2126>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a8d27fb-541d-47c4-aa0b-caa87a6b2126>
+    
+    
+Individual: <http://model.geneontology.org/e0edd458-07f1-417d-b236-70979f05afc7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169600>
+    
+    
+Individual: <http://model.geneontology.org/f6429a23-3c8c-45a4-a633-0ad03ddc5a19>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_169600>
+
+    Annotations: 
+        rdfs:label "BENIGN CHRONIC PEMPHIGUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

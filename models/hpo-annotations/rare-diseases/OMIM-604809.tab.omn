@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ce9bb253-1134-4a8f-8391-2ce278817724>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-604809.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002110>
+
+    Annotations: 
+        rdfs:label "Bronchiectasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003676>
+
+    Annotations: 
+        rdfs:label "Progressive disorder"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012418>
+
+    Annotations: 
+        rdfs:label "Hypoxemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012735>
+
+    Annotations: 
+        rdfs:label "Cough"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_604809>
+
+    Annotations: 
+        rdfs:label "%604809 PANBRONCHIOLITIS, DIFFUSE;;DPB;;PBLT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0b720bb5-58c0-4136-816c-789eb10ff9ad>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604809>
+    
+    
+Individual: <http://model.geneontology.org/0ebb87eb-a256-40f9-8961-7cabcb0dd294>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604809>
+    
+    
+Individual: <http://model.geneontology.org/135c284d-4ad4-4e2b-bb30-70250a4cd878>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MISCELLANEOUS > PROGRESSIVE DISORDER"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003676>
+    
+    
+Individual: <http://model.geneontology.org/1b94fe9d-a467-480b-b5b8-ecb39d1d5262>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:RESPIRATORY_LUNGS > BRONCHIECTASIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002110>
+    
+    
+Individual: <http://model.geneontology.org/24906de0-9874-4422-9af7-2f2c4b670f2c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:RESPIRATORY > COUGH"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012735>
+    
+    
+Individual: <http://model.geneontology.org/2c4f0557-41d2-4a8a-8fd3-83f2350ecaff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604809>
+    
+    
+Individual: <http://model.geneontology.org/c1181672-02e9-4e08-b908-017a210acb96>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > HYPOXEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012418>
+    
+    
+Individual: <http://model.geneontology.org/cf83a294-2a78-4e74-a2bc-d7fc3025bfe2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_604809>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1181672-02e9-4e08-b908-017a210acb96>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dc0c2535-9c09-40c6-bc17-f64827e4e73d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1181672-02e9-4e08-b908-017a210acb96>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1181672-02e9-4e08-b908-017a210acb96>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1181672-02e9-4e08-b908-017a210acb96>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b94fe9d-a467-480b-b5b8-ecb39d1d5262>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0b720bb5-58c0-4136-816c-789eb10ff9ad>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b94fe9d-a467-480b-b5b8-ecb39d1d5262>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b94fe9d-a467-480b-b5b8-ecb39d1d5262>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b94fe9d-a467-480b-b5b8-ecb39d1d5262>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/135c284d-4ad4-4e2b-bb30-70250a4cd878>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0ebb87eb-a256-40f9-8961-7cabcb0dd294>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/135c284d-4ad4-4e2b-bb30-70250a4cd878>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/135c284d-4ad4-4e2b-bb30-70250a4cd878>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/135c284d-4ad4-4e2b-bb30-70250a4cd878>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24906de0-9874-4422-9af7-2f2c4b670f2c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2c4f0557-41d2-4a8a-8fd3-83f2350ecaff>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24906de0-9874-4422-9af7-2f2c4b670f2c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24906de0-9874-4422-9af7-2f2c4b670f2c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-03-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24906de0-9874-4422-9af7-2f2c4b670f2c>
+    
+    
+Individual: <http://model.geneontology.org/dc0c2535-9c09-40c6-bc17-f64827e4e73d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604809>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_604809>
+
+    Annotations: 
+        rdfs:label "%604809 PANBRONCHIOLITIS, DIFFUSE;;DPB;;PBLT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

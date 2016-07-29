@@ -1,0 +1,252 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/51ff2325-a6d8-48ba-8045-1f8368c53123>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-241120.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000966>
+
+    Annotations: 
+        rdfs:label "Hypohidrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001945>
+
+    Annotations: 
+        rdfs:label "Fever"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007500>
+
+    Annotations: 
+        rdfs:label "Decreased number of sweat glands"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007608>
+
+    Annotations: 
+        rdfs:label "Abnormal palmar dermal ridges"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_241120>
+
+    Annotations: 
+        rdfs:label "HYPOHIDROSIS WITH ABNORMAL PALMAR DERMAL RIDGES"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/00f33dad-f7b7-4c15-a6dc-3c47edd101c7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_241120>
+    
+    
+Individual: <http://model.geneontology.org/2e3d59e4-79ae-4cee-b060-3fa8eb60dcfd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/499a5ba9-8e6b-422a-90b3-e1a93ed13ac0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_241120>
+    
+    
+Individual: <http://model.geneontology.org/637dc63a-5e07-41ad-b07c-6e663bf61d74>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007500>
+    
+    
+Individual: <http://model.geneontology.org/63bf7b81-24fe-45d5-841c-65ea6e5c770a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Upon exertion"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001945>
+    
+    
+Individual: <http://model.geneontology.org/6a60bced-816a-4953-af15-23754661893c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_241120>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cedcbd8a-e031-43fe-8042-a74a6280c934>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/499a5ba9-8e6b-422a-90b3-e1a93ed13ac0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cedcbd8a-e031-43fe-8042-a74a6280c934>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cedcbd8a-e031-43fe-8042-a74a6280c934>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cedcbd8a-e031-43fe-8042-a74a6280c934>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8fffab9-f0ed-4b21-939a-ec17ba6813d0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/81e0691f-2ac6-4990-afd9-8f791a0a6b5a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8fffab9-f0ed-4b21-939a-ec17ba6813d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8fffab9-f0ed-4b21-939a-ec17ba6813d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8fffab9-f0ed-4b21-939a-ec17ba6813d0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3d59e4-79ae-4cee-b060-3fa8eb60dcfd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/00f33dad-f7b7-4c15-a6dc-3c47edd101c7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3d59e4-79ae-4cee-b060-3fa8eb60dcfd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3d59e4-79ae-4cee-b060-3fa8eb60dcfd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3d59e4-79ae-4cee-b060-3fa8eb60dcfd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63bf7b81-24fe-45d5-841c-65ea6e5c770a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f24f1890-6bd8-4ce9-9c1e-29733fd2a416>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63bf7b81-24fe-45d5-841c-65ea6e5c770a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63bf7b81-24fe-45d5-841c-65ea6e5c770a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63bf7b81-24fe-45d5-841c-65ea6e5c770a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/637dc63a-5e07-41ad-b07c-6e663bf61d74>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a42e6baa-3a65-4320-acce-cd279c94a829>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/637dc63a-5e07-41ad-b07c-6e663bf61d74>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/637dc63a-5e07-41ad-b07c-6e663bf61d74>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/637dc63a-5e07-41ad-b07c-6e663bf61d74>
+    
+    
+Individual: <http://model.geneontology.org/81e0691f-2ac6-4990-afd9-8f791a0a6b5a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_241120>
+    
+    
+Individual: <http://model.geneontology.org/a42e6baa-3a65-4320-acce-cd279c94a829>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_241120>
+    
+    
+Individual: <http://model.geneontology.org/cedcbd8a-e031-43fe-8042-a74a6280c934>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007608>
+    
+    
+Individual: <http://model.geneontology.org/e8fffab9-f0ed-4b21-939a-ec17ba6813d0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000966>
+    
+    
+Individual: <http://model.geneontology.org/f24f1890-6bd8-4ce9-9c1e-29733fd2a416>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_241120>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_241120>
+
+    Annotations: 
+        rdfs:label "HYPOHIDROSIS WITH ABNORMAL PALMAR DERMAL RIDGES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

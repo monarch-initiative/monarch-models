@@ -1,0 +1,106 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8787a4b4-901b-4aa8-95af-a813170334c4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601341.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000951>
+
+    Annotations: 
+        rdfs:label "Abnormality of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007401>
+
+    Annotations: 
+        rdfs:label "Primary noninflammatory macular atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601341>
+
+    Annotations: 
+        rdfs:label "ATROPHIA MACULOSA VARIOLIFORMIS CUTIS, FAMILIAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/66a50f62-4b44-4136-851c-d24b52da8a43>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000951>
+    
+    
+Individual: <http://model.geneontology.org/ab15b616-4d0c-40dc-9d86-d29b09462d16>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007401>
+    
+    
+Individual: <http://model.geneontology.org/c701cbcc-aeb7-4096-8428-5ce9303e6d5e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601341>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab15b616-4d0c-40dc-9d86-d29b09462d16>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f7e6e902-3648-42e0-b3bd-52c84a4ac76e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab15b616-4d0c-40dc-9d86-d29b09462d16>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab15b616-4d0c-40dc-9d86-d29b09462d16>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/66a50f62-4b44-4136-851c-d24b52da8a43>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/df40a6ea-9836-43be-ac06-57c16e3fb616>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/66a50f62-4b44-4136-851c-d24b52da8a43>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/66a50f62-4b44-4136-851c-d24b52da8a43>
+    
+    
+Individual: <http://model.geneontology.org/df40a6ea-9836-43be-ac06-57c16e3fb616>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    
+Individual: <http://model.geneontology.org/f7e6e902-3648-42e0-b3bd-52c84a4ac76e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    

@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/208c4b8f-f472-4546-a4a1-bae6730e25be>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D055538.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D055538>
+
+    Annotations: 
+        rdfs:label "delta-Thalassemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005560>
+
+    Annotations: 
+        rdfs:label "Imbalanced hemoglobin synthesis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/72b18b72-cc54-4635-ad71-efec48aa12ab>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 91.16628657079595/15)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005560>
+    
+    
+Individual: <http://model.geneontology.org/8a609d53-843a-442f-896f-7a788264f462>
+
+    Types: 
+        <MESH:D055538>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72b18b72-cc54-4635-ad71-efec48aa12ab>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e14d7090-57cc-4eb4-9d5e-8f123a7349a0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72b18b72-cc54-4635-ad71-efec48aa12ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72b18b72-cc54-4635-ad71-efec48aa12ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72b18b72-cc54-4635-ad71-efec48aa12ab>
+    
+    
+Individual: <http://model.geneontology.org/e14d7090-57cc-4eb4-9d5e-8f123a7349a0>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/23089702;PMID:22194178;PMID:22014901;PMID:18939939;PMID:22042275>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/23089702;PMID:22194178;PMID:22014901;PMID:18939939;PMID:22042275>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/fe72e25e-58ea-46c4-8bc1-35639b088c82>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614390.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200067>
+
+    Annotations: 
+        rdfs:label "Recurrent spontaneous abortion"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614390>
+
+    Annotations: 
+        rdfs:label "#614390 PREGNANCY LOSS, RECURRENT, SUSCEPTIBILITY TO, 2; RPRGL2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0213e477-5519-4324-a009-b16976949a35>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, FEMALE > SPONTANEOUS ABORTION, RECURRENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200067>
+    
+    
+Individual: <http://model.geneontology.org/64a42edf-432f-4bb7-86d1-9501deffcf9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614390>
+    
+    
+Individual: <http://model.geneontology.org/8dea40d2-a316-4362-b0e5-930a86bf66e1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614390>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ef632eb3-cc13-4e9d-8cbf-d3f001806fb4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c330373c-e3e6-47fe-a00a-be9b642642ca>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ef632eb3-cc13-4e9d-8cbf-d3f001806fb4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ef632eb3-cc13-4e9d-8cbf-d3f001806fb4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ef632eb3-cc13-4e9d-8cbf-d3f001806fb4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0213e477-5519-4324-a009-b16976949a35>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/64a42edf-432f-4bb7-86d1-9501deffcf9a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0213e477-5519-4324-a009-b16976949a35>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0213e477-5519-4324-a009-b16976949a35>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-31"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0213e477-5519-4324-a009-b16976949a35>
+    
+    
+Individual: <http://model.geneontology.org/c330373c-e3e6-47fe-a00a-be9b642642ca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614390>
+    
+    
+Individual: <http://model.geneontology.org/ef632eb3-cc13-4e9d-8cbf-d3f001806fb4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614390>
+
+    Annotations: 
+        rdfs:label "#614390 PREGNANCY LOSS, RECURRENT, SUSCEPTIBILITY TO, 2; RPRGL2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3cf85c9b-ee22-4bd8-83a1-ddfb77d28f4d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613780.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002647>
+
+    Annotations: 
+        rdfs:label "Aortic dissection"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004942>
+
+    Annotations: 
+        rdfs:label "Aortic aneurysm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613780>
+
+    Annotations: 
+        rdfs:label "#613780 AORTIC ANEURYSM, FAMILIAL THORACIC 7; AAT7;;AORTIC DISSECTION, FAMILIAL, WITH OR WITHOUT AORTIC ANEURYSM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0c4f8356-1468-4c15-860e-3517f9987e49>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613780>
+    
+    
+Individual: <http://model.geneontology.org/138e6f28-8eee-42a0-81f1-20f54da9f0e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613780>
+    
+    
+Individual: <http://model.geneontology.org/28d637ac-13b5-40ff-95be-d67aba7355ca>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_VASCULAR > AORTIC ANEURYSM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004942>
+    
+    
+Individual: <http://model.geneontology.org/7b37d153-098b-45d4-b28f-4f97150f592d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/bb8b4f6a-6c81-4325-96d8-0eb7fe2d7344>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613780>
+    
+    
+Individual: <http://model.geneontology.org/bd99a9c3-6990-4a6e-8766-189a3aa34dd4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_VASCULAR > AORTIC DISSECTION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002647>
+    
+    
+Individual: <http://model.geneontology.org/f6c276f3-b148-4673-a847-31ec51828c77>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613780>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd99a9c3-6990-4a6e-8766-189a3aa34dd4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0c4f8356-1468-4c15-860e-3517f9987e49>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd99a9c3-6990-4a6e-8766-189a3aa34dd4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd99a9c3-6990-4a6e-8766-189a3aa34dd4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd99a9c3-6990-4a6e-8766-189a3aa34dd4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/28d637ac-13b5-40ff-95be-d67aba7355ca>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/138e6f28-8eee-42a0-81f1-20f54da9f0e6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/28d637ac-13b5-40ff-95be-d67aba7355ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/28d637ac-13b5-40ff-95be-d67aba7355ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/28d637ac-13b5-40ff-95be-d67aba7355ca>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b37d153-098b-45d4-b28f-4f97150f592d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb8b4f6a-6c81-4325-96d8-0eb7fe2d7344>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b37d153-098b-45d4-b28f-4f97150f592d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b37d153-098b-45d4-b28f-4f97150f592d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b37d153-098b-45d4-b28f-4f97150f592d>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613780>
+
+    Annotations: 
+        rdfs:label "#613780 AORTIC ANEURYSM, FAMILIAL THORACIC 7; AAT7;;AORTIC DISSECTION, FAMILIAL, WITH OR WITHOUT AORTIC ANEURYSM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

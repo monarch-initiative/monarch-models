@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b4ea9b63-234c-4df6-a58d-3ca0bcf89994>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-600231.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007435>
+
+    Annotations: 
+        rdfs:label "Diffuse palmoplantar keratoderma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_600231>
+
+    Annotations: 
+        rdfs:label "PALMOPLANTAR KERATODERMA, BOTHNIAN TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4931adf1-5db6-4f73-9e6d-d25a58c5233f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007435>
+    
+    
+Individual: <http://model.geneontology.org/63967e0d-8bcb-4787-9455-2dba3ef49249>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600231>
+    
+    
+Individual: <http://model.geneontology.org/9a823d25-da8a-474e-9212-ac5a134a6c4a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600231>
+    
+    
+Individual: <http://model.geneontology.org/a58b9874-35af-4f30-84f1-cdbaca92332f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_600231>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b07eb88d-9e3f-45d7-9c64-9735bbb7ca9b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63967e0d-8bcb-4787-9455-2dba3ef49249>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b07eb88d-9e3f-45d7-9c64-9735bbb7ca9b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b07eb88d-9e3f-45d7-9c64-9735bbb7ca9b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b07eb88d-9e3f-45d7-9c64-9735bbb7ca9b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4931adf1-5db6-4f73-9e6d-d25a58c5233f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9a823d25-da8a-474e-9212-ac5a134a6c4a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4931adf1-5db6-4f73-9e6d-d25a58c5233f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4931adf1-5db6-4f73-9e6d-d25a58c5233f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4931adf1-5db6-4f73-9e6d-d25a58c5233f>
+    
+    
+Individual: <http://model.geneontology.org/b07eb88d-9e3f-45d7-9c64-9735bbb7ca9b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_600231>
+
+    Annotations: 
+        rdfs:label "PALMOPLANTAR KERATODERMA, BOTHNIAN TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

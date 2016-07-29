@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1e807413-21d4-4905-8449-9e36e10929aa>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612671.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001997>
+
+    Annotations: 
+        rdfs:label "Gout"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002149>
+
+    Annotations: 
+        rdfs:label "Hyperuricemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612671>
+
+    Annotations: 
+        rdfs:label "#612671 URIC ACID CONCENTRATION, SERUM, QUANTITATIVE TRAIT LOCUS 4; UAQTL4;;GOUT SUSCEPTIBILITY 4; GOUT4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/108d728c-9363-442f-ad23-aea1f3366097>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL > GOUT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001997>
+    
+    
+Individual: <http://model.geneontology.org/4c4e1056-23fa-4595-9250-6e53140e1d57>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612671>
+    
+    
+Individual: <http://model.geneontology.org/75e48164-6e4a-4a12-8c54-4e45b00d2d07>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612671>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6f78ac2-106e-40d2-9d70-3eab238e7dbd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a0bfa59d-855e-4b6a-a55c-37814462bc40>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6f78ac2-106e-40d2-9d70-3eab238e7dbd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6f78ac2-106e-40d2-9d70-3eab238e7dbd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6f78ac2-106e-40d2-9d70-3eab238e7dbd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f14e2ffd-178c-4e7c-accf-50aef812de6d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4c4e1056-23fa-4595-9250-6e53140e1d57>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f14e2ffd-178c-4e7c-accf-50aef812de6d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f14e2ffd-178c-4e7c-accf-50aef812de6d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f14e2ffd-178c-4e7c-accf-50aef812de6d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/108d728c-9363-442f-ad23-aea1f3366097>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/91a2e686-89e8-4aba-9707-1a87a96ae560>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/108d728c-9363-442f-ad23-aea1f3366097>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/108d728c-9363-442f-ad23-aea1f3366097>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/108d728c-9363-442f-ad23-aea1f3366097>
+    
+    
+Individual: <http://model.geneontology.org/91a2e686-89e8-4aba-9707-1a87a96ae560>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612671>
+    
+    
+Individual: <http://model.geneontology.org/a0bfa59d-855e-4b6a-a55c-37814462bc40>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612671>
+    
+    
+Individual: <http://model.geneontology.org/a6f78ac2-106e-40d2-9d70-3eab238e7dbd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f14e2ffd-178c-4e7c-accf-50aef812de6d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > HYPERURICEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002149>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612671>
+
+    Annotations: 
+        rdfs:label "#612671 URIC ACID CONCENTRATION, SERUM, QUANTITATIVE TRAIT LOCUS 4; UAQTL4;;GOUT SUSCEPTIBILITY 4; GOUT4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f2e36049-33a4-44a4-adca-2a222bb8d934>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-600634.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006767>
+
+    Annotations: 
+        rdfs:label "Prolactin-secreting pituitary adenoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_600634>
+
+    Annotations: 
+        rdfs:label "PITUITARY ADENOMA, PROLACTIN-SECRETING"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/02374ce4-a7f6-4739-b1c8-5d8bba1ff913>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_600634>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb9ac744-a9be-4063-bc8a-417928e25d61>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/254a4a4a-3e85-4bf0-ac98-005c2a0b0ddd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb9ac744-a9be-4063-bc8a-417928e25d61>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb9ac744-a9be-4063-bc8a-417928e25d61>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb9ac744-a9be-4063-bc8a-417928e25d61>
+    
+    
+Individual: <http://model.geneontology.org/254a4a4a-3e85-4bf0-ac98-005c2a0b0ddd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600634>
+    
+    
+Individual: <http://model.geneontology.org/bb9ac744-a9be-4063-bc8a-417928e25d61>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006767>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_600634>
+
+    Annotations: 
+        rdfs:label "PITUITARY ADENOMA, PROLACTIN-SECRETING"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,190 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4a43ec2a-4fbe-4290-8db5-7259e8ccee98>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614456.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005584>
+
+    Annotations: 
+        rdfs:label "Renal cell carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012056>
+
+    Annotations: 
+        rdfs:label "Cutaneous melanoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614456>
+
+    Annotations: 
+        rdfs:label "#614456 MELANOMA, CUTANEOUS MALIGNANT, SUSCEPTIBILITY TO, 8; CMM8;;MELANOMA AND RENAL CELL CARCINOMA, SUSCEPTIBILITY TO"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1fcde284-f996-45ac-8b4c-9a69050e446c>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:22080950>
+    
+    
+Individual: <http://model.geneontology.org/731371ff-7d2c-4144-855c-3b4129c99b8f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614456>
+    
+    
+Individual: <http://model.geneontology.org/8d34e423-b8b8-4a2c-a22b-d3a8f2e5ba87>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/8fac5e11-a70a-4003-b8c2-ebb9da7eb8ce>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012056>
+    
+    
+Individual: <http://model.geneontology.org/b676f954-82db-46a9-8675-ec4afe68a1fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614456>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdee12ae-7dbf-4ab5-be66-9846a24c2d9e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/731371ff-7d2c-4144-855c-3b4129c99b8f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdee12ae-7dbf-4ab5-be66-9846a24c2d9e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdee12ae-7dbf-4ab5-be66-9846a24c2d9e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bdee12ae-7dbf-4ab5-be66-9846a24c2d9e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d34e423-b8b8-4a2c-a22b-d3a8f2e5ba87>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ee71e8bd-9557-4718-965f-57531a3d0942>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d34e423-b8b8-4a2c-a22b-d3a8f2e5ba87>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d34e423-b8b8-4a2c-a22b-d3a8f2e5ba87>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d34e423-b8b8-4a2c-a22b-d3a8f2e5ba87>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8fac5e11-a70a-4003-b8c2-ebb9da7eb8ce>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1fcde284-f996-45ac-8b4c-9a69050e446c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8fac5e11-a70a-4003-b8c2-ebb9da7eb8ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8fac5e11-a70a-4003-b8c2-ebb9da7eb8ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8fac5e11-a70a-4003-b8c2-ebb9da7eb8ce>
+    
+    
+Individual: <http://model.geneontology.org/bdee12ae-7dbf-4ab5-be66-9846a24c2d9e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained: cmm8;;melanoma and renal cell carcinoma"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005584>
+    
+    
+Individual: <http://model.geneontology.org/ee71e8bd-9557-4718-965f-57531a3d0942>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:22080950>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614456>
+
+    Annotations: 
+        rdfs:label "#614456 MELANOMA, CUTANEOUS MALIGNANT, SUSCEPTIBILITY TO, 8; CMM8;;MELANOMA AND RENAL CELL CARCINOMA, SUSCEPTIBILITY TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <pmid:22080950>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

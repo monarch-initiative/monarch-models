@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3e574c31-1fcf-42c6-927b-6ef883789a7e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-603529.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004447>
+
+    Annotations: 
+        rdfs:label "Poikilocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010972>
+
+    Annotations: 
+        rdfs:label "Anemia of inadequate production"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011273>
+
+    Annotations: 
+        rdfs:label "Anisocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_603529>
+
+    Annotations: 
+        rdfs:label "603529 DYSERYTHROPOIESIS, CONGENITAL, WITH ULTRASTRUCTURALLY NORMAL ERYTHROBLASTHETEROCHROMATIN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0bfe3d3d-d2dd-4af5-9646-f16004ee4568>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/25ddf048-9869-4dde-9478-b610cd95cafc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > INEFFECTIVE ERYTHROPOIESIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010972>
+    
+    
+Individual: <http://model.geneontology.org/49592c2c-1fb5-44fa-b5a1-5fb57ca5e037>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603529>
+    
+    
+Individual: <http://model.geneontology.org/719ed19d-0ce7-46d2-8bd2-684cf46ea533>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_603529>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2d1f6e8-ce92-4438-92a7-a2124e7b28e9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d3b16a80-6add-4cc6-864e-00df4b9cfe94>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2d1f6e8-ce92-4438-92a7-a2124e7b28e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2d1f6e8-ce92-4438-92a7-a2124e7b28e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-03-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2d1f6e8-ce92-4438-92a7-a2124e7b28e9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bfe3d3d-d2dd-4af5-9646-f16004ee4568>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e5e04c68-974a-4572-964b-64004fc094aa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bfe3d3d-d2dd-4af5-9646-f16004ee4568>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bfe3d3d-d2dd-4af5-9646-f16004ee4568>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-03-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bfe3d3d-d2dd-4af5-9646-f16004ee4568>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25ddf048-9869-4dde-9478-b610cd95cafc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/77b01710-ff90-4d45-a43f-9e46d5953fc7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25ddf048-9869-4dde-9478-b610cd95cafc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25ddf048-9869-4dde-9478-b610cd95cafc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-03-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25ddf048-9869-4dde-9478-b610cd95cafc>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74c331fa-4879-40dc-b5fb-4ebaf6afd2ce>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/49592c2c-1fb5-44fa-b5a1-5fb57ca5e037>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74c331fa-4879-40dc-b5fb-4ebaf6afd2ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74c331fa-4879-40dc-b5fb-4ebaf6afd2ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-03-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/74c331fa-4879-40dc-b5fb-4ebaf6afd2ce>
+    
+    
+Individual: <http://model.geneontology.org/74c331fa-4879-40dc-b5fb-4ebaf6afd2ce>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > POIKILOCYTOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004447>
+    
+    
+Individual: <http://model.geneontology.org/77b01710-ff90-4d45-a43f-9e46d5953fc7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603529>
+    
+    
+Individual: <http://model.geneontology.org/d3b16a80-6add-4cc6-864e-00df4b9cfe94>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603529>
+    
+    
+Individual: <http://model.geneontology.org/e5e04c68-974a-4572-964b-64004fc094aa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603529>
+    
+    
+Individual: <http://model.geneontology.org/f2d1f6e8-ce92-4438-92a7-a2124e7b28e9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > ANISOCYTOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011273>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_603529>
+
+    Annotations: 
+        rdfs:label "603529 DYSERYTHROPOIESIS, CONGENITAL, WITH ULTRASTRUCTURALLY NORMAL ERYTHROBLASTHETEROCHROMATIN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

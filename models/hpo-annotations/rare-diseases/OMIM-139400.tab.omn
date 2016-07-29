@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7c443534-a889-4ad7-8fe9-99dcca92bb93>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-139400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001595>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hair"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_139400>
+
+    Annotations: 
+        rdfs:label "HAIR WHORL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07c39aac-8d3a-45b9-a6cc-02f7f1305e95>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_139400>
+    
+    
+Individual: <http://model.geneontology.org/625d120c-992c-4f31-aceb-9b5644c2816e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7050d8c9-8d77-4e1d-a237-2755cea5b7a1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_139400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/625d120c-992c-4f31-aceb-9b5644c2816e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d46918d8-de1c-41be-bf1c-c9b5ab0b84c5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/625d120c-992c-4f31-aceb-9b5644c2816e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/625d120c-992c-4f31-aceb-9b5644c2816e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/625d120c-992c-4f31-aceb-9b5644c2816e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79b82f4b-57ac-4155-9bbf-1a983b4f329d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/07c39aac-8d3a-45b9-a6cc-02f7f1305e95>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79b82f4b-57ac-4155-9bbf-1a983b4f329d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79b82f4b-57ac-4155-9bbf-1a983b4f329d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79b82f4b-57ac-4155-9bbf-1a983b4f329d>
+    
+    
+Individual: <http://model.geneontology.org/79b82f4b-57ac-4155-9bbf-1a983b4f329d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001595>
+    
+    
+Individual: <http://model.geneontology.org/d46918d8-de1c-41be-bf1c-c9b5ab0b84c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_139400>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_139400>
+
+    Annotations: 
+        rdfs:label "HAIR WHORL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

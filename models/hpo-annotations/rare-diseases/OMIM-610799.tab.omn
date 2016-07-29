@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2c79747d-ec5f-44ec-a1ee-7918f94db738>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-610799.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005366>
+
+    Annotations: 
+        rdfs:label "Recurrent streptococcus pneumoniae infections"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_610799>
+
+    Annotations: 
+        rdfs:label "#610799 INVASIVE PNEUMOCOCCAL DISEASE, RECURRENT ISOLATED, 1; IPD1INVASIVE PNEUMOCOCCAL DISEASE, PROTECTION AGAINST, INCLUDED"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/15b35998-a932-417a-8d21-fe71a0e14391>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:16950813>
+    
+    
+Individual: <http://model.geneontology.org/68974dc8-f82f-4fab-aa31-7620de171604>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/717e2ed5-49d2-43e2-a36b-ed3ff8a0f33a>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:16950813>
+    
+    
+Individual: <http://model.geneontology.org/85eefb14-7ca3-4a11-9625-e135b4531cd5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005366>
+    
+    
+Individual: <http://model.geneontology.org/8b1b9a48-eacc-4707-bff2-f58ff4f2d714>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_610799>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68974dc8-f82f-4fab-aa31-7620de171604>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/717e2ed5-49d2-43e2-a36b-ed3ff8a0f33a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68974dc8-f82f-4fab-aa31-7620de171604>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68974dc8-f82f-4fab-aa31-7620de171604>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68974dc8-f82f-4fab-aa31-7620de171604>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/85eefb14-7ca3-4a11-9625-e135b4531cd5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/15b35998-a932-417a-8d21-fe71a0e14391>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/85eefb14-7ca3-4a11-9625-e135b4531cd5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/85eefb14-7ca3-4a11-9625-e135b4531cd5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/85eefb14-7ca3-4a11-9625-e135b4531cd5>
+    
+    
+Individual: <pmid:16950813>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

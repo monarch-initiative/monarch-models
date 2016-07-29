@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1e6c4447-0aa8-4d0e-a986-b9fe9327d233>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616089.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004445>
+
+    Annotations: 
+        rdfs:label "Elliptocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010970>
+
+    Annotations: 
+        rdfs:label "Blood group antigen abnormality"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616089>
+
+    Annotations: 
+        rdfs:label "#616089 BLOOD GROUP, GERBICH SYSTEM; GE ;;GERBICH BLOOD GROUP SYSTEM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1970fe05-5ed6-426c-b726-f7bddc6533a9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX: '-melanesian type of elliptocytosisresides in the band'"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004445>
+    
+    
+Individual: <http://model.geneontology.org/5fcdccb3-6694-404f-9d36-1671679f96bb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010970>
+    
+    
+Individual: <http://model.geneontology.org/d2704940-5d57-4590-8466-b979eb82a70c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616089>
+    
+    
+Individual: <http://model.geneontology.org/d68bd6f1-c9d8-4c97-87cd-468050ce9723>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616089>
+    
+    
+Individual: <http://model.geneontology.org/fe96771b-ca55-4f3f-a294-557894ffc1af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616089>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1970fe05-5ed6-426c-b726-f7bddc6533a9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d68bd6f1-c9d8-4c97-87cd-468050ce9723>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1970fe05-5ed6-426c-b726-f7bddc6533a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1970fe05-5ed6-426c-b726-f7bddc6533a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-23"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1970fe05-5ed6-426c-b726-f7bddc6533a9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fcdccb3-6694-404f-9d36-1671679f96bb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d2704940-5d57-4590-8466-b979eb82a70c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fcdccb3-6694-404f-9d36-1671679f96bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fcdccb3-6694-404f-9d36-1671679f96bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-23"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fcdccb3-6694-404f-9d36-1671679f96bb>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616089>
+
+    Annotations: 
+        rdfs:label "#616089 BLOOD GROUP, GERBICH SYSTEM; GE ;;GERBICH BLOOD GROUP SYSTEM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

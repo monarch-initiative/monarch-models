@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4887dfd2-511f-4991-b9b3-70537c0c94f9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615709.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003468>
+
+    Annotations: 
+        rdfs:label "Abnormality of the vertebrae"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003577>
+
+    Annotations: 
+        rdfs:label "Congenital onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615709>
+
+    Annotations: 
+        rdfs:label "#615709 SACRAL AGENESIS WITH VERTEBRAL ANOMALIES; SAVA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/238ddbc3-9f64-4a11-8b9b-561d84d1875e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MISCELLANEOUS > ONSET IN UTERO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003577>
+    
+    
+Individual: <http://model.geneontology.org/389ef37a-e108-40a1-b6cd-1ef70fc954d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615709>
+    
+    
+Individual: <http://model.geneontology.org/62ecb095-b4ce-4b4a-b15c-87b858d5a90d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/aa5e274b-a2aa-4c43-8c9e-8a0598e53586>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615709>
+    
+    
+Individual: <http://model.geneontology.org/c6934acb-3e42-4bbf-b128-602fa0c65bc7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615709>
+    
+    
+Individual: <http://model.geneontology.org/d45015b6-eb8e-4c63-8a35-d46c67655713>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:esis with vertebral anomalies; sava"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003468>
+    
+    
+Individual: <http://model.geneontology.org/e9268eb8-2671-4c34-adeb-e8ef23eb3b17>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615709>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d45015b6-eb8e-4c63-8a35-d46c67655713>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/389ef37a-e108-40a1-b6cd-1ef70fc954d5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d45015b6-eb8e-4c63-8a35-d46c67655713>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d45015b6-eb8e-4c63-8a35-d46c67655713>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d45015b6-eb8e-4c63-8a35-d46c67655713>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/238ddbc3-9f64-4a11-8b9b-561d84d1875e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c6934acb-3e42-4bbf-b128-602fa0c65bc7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/238ddbc3-9f64-4a11-8b9b-561d84d1875e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/238ddbc3-9f64-4a11-8b9b-561d84d1875e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-05-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/238ddbc3-9f64-4a11-8b9b-561d84d1875e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62ecb095-b4ce-4b4a-b15c-87b858d5a90d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aa5e274b-a2aa-4c43-8c9e-8a0598e53586>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62ecb095-b4ce-4b4a-b15c-87b858d5a90d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62ecb095-b4ce-4b4a-b15c-87b858d5a90d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-05-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62ecb095-b4ce-4b4a-b15c-87b858d5a90d>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615709>
+
+    Annotations: 
+        rdfs:label "#615709 SACRAL AGENESIS WITH VERTEBRAL ANOMALIES; SAVA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

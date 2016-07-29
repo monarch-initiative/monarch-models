@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d41ea240-ff7c-4e0d-963f-9f1473fedee5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-151380.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001444>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant somatic cell mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004845>
+
+    Annotations: 
+        rdfs:label "Acute monocytic leukemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_151380>
+
+    Annotations: 
+        rdfs:label "LEUKEMIA, ACUTE MONOCYTIC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/03e713c1-5187-4ce2-9f10-84c7a153c9ab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_151380>
+    
+    
+Individual: <http://model.geneontology.org/5461d3fb-634a-46df-806a-a08d0baafc2f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001444>
+    
+    
+Individual: <http://model.geneontology.org/af3cc5f9-8c6b-4134-bebf-6f11d915fe51>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_151380>
+    
+    
+Individual: <http://model.geneontology.org/e32f2287-3eff-4777-bb21-dc3eeb31958b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_151380>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff01a2f6-612b-4dd6-801e-f7eee0cf2736>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/03e713c1-5187-4ce2-9f10-84c7a153c9ab>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff01a2f6-612b-4dd6-801e-f7eee0cf2736>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff01a2f6-612b-4dd6-801e-f7eee0cf2736>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff01a2f6-612b-4dd6-801e-f7eee0cf2736>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5461d3fb-634a-46df-806a-a08d0baafc2f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/af3cc5f9-8c6b-4134-bebf-6f11d915fe51>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5461d3fb-634a-46df-806a-a08d0baafc2f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5461d3fb-634a-46df-806a-a08d0baafc2f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5461d3fb-634a-46df-806a-a08d0baafc2f>
+    
+    
+Individual: <http://model.geneontology.org/ff01a2f6-612b-4dd6-801e-f7eee0cf2736>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004845>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_151380>
+
+    Annotations: 
+        rdfs:label "LEUKEMIA, ACUTE MONOCYTIC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

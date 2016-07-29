@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/72a4d113-9e60-42a2-b8fe-5b8bc9729e68>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-209600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004752>
+
+    Annotations: 
+        rdfs:label "Congenital atrioventricular dissociation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_209600>
+
+    Annotations: 
+        rdfs:label "ATRIOVENTRICULAR DISSOCIATION"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/347c83be-3232-451f-bcbc-b4c8183b37e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_209600>
+    
+    
+Individual: <http://model.geneontology.org/ace8d4a2-05f3-43d6-999a-d9a583baa9e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_209600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb26d7b9-ae96-40c4-b7f4-0a3ab7da15a0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/347c83be-3232-451f-bcbc-b4c8183b37e8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb26d7b9-ae96-40c4-b7f4-0a3ab7da15a0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb26d7b9-ae96-40c4-b7f4-0a3ab7da15a0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb26d7b9-ae96-40c4-b7f4-0a3ab7da15a0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf75912f-3c55-425c-bd01-59b284f969e2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fc22bebd-8609-4eb0-a8c4-9f4c2cfc1ef6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf75912f-3c55-425c-bd01-59b284f969e2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf75912f-3c55-425c-bd01-59b284f969e2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf75912f-3c55-425c-bd01-59b284f969e2>
+    
+    
+Individual: <http://model.geneontology.org/bb26d7b9-ae96-40c4-b7f4-0a3ab7da15a0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004752>
+    
+    
+Individual: <http://model.geneontology.org/bf75912f-3c55-425c-bd01-59b284f969e2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/fc22bebd-8609-4eb0-a8c4-9f4c2cfc1ef6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_209600>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_209600>
+
+    Annotations: 
+        rdfs:label "ATRIOVENTRICULAR DISSOCIATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

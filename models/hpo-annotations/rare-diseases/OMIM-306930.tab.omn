@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8067c8cf-a1b1-40b8-a389-3ecc117b5450>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-306930.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001871>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hematopoietic system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_306930>
+
+    Annotations: 
+        rdfs:label "HEMOPOIETIC PROLIFERATION"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/46b5bfb7-28f2-42d2-9110-83ec77e7fe61>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/4a641de5-81b5-49a4-9b88-8deb0a38102f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_306930>
+    
+    
+Individual: <http://model.geneontology.org/6a61c32f-9ccf-4c0e-a9c8-074fe79b794d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_306930>
+    
+    
+Individual: <http://model.geneontology.org/713a39ef-424a-45fc-a70c-ad1dca3214dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_306930>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5ce78f4-28e2-490e-afff-ad5707d36ee0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6a61c32f-9ccf-4c0e-a9c8-074fe79b794d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5ce78f4-28e2-490e-afff-ad5707d36ee0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5ce78f4-28e2-490e-afff-ad5707d36ee0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5ce78f4-28e2-490e-afff-ad5707d36ee0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46b5bfb7-28f2-42d2-9110-83ec77e7fe61>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4a641de5-81b5-49a4-9b88-8deb0a38102f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46b5bfb7-28f2-42d2-9110-83ec77e7fe61>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46b5bfb7-28f2-42d2-9110-83ec77e7fe61>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46b5bfb7-28f2-42d2-9110-83ec77e7fe61>
+    
+    
+Individual: <http://model.geneontology.org/b5ce78f4-28e2-490e-afff-ad5707d36ee0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001871>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_306930>
+
+    Annotations: 
+        rdfs:label "HEMOPOIETIC PROLIFERATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

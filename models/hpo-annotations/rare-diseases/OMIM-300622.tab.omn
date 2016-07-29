@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/885657c7-c530-432f-adad-f48f46618ae9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300622.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001877>
+
+    Annotations: 
+        rdfs:label "Abnormality of erythrocytes"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002960>
+
+    Annotations: 
+        rdfs:label "Autoimmunity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300622>
+
+    Annotations: 
+        rdfs:label "#300622 TN POLYAGGLUTINATION SYNDROME; TNPS;;GALACTOSYLTRANSFERASE DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/218d00de-23ff-4583-9b6d-b8fb4f58c960>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300622>
+    
+    
+Individual: <http://model.geneontology.org/6f888f9c-47ef-4dd2-8314-9f50d333a23e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300622>
+    
+    
+Individual: <http://model.geneontology.org/aae721d4-607e-4b80-90ba-aacf58298617>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002960>
+    
+    
+Individual: <http://model.geneontology.org/c042a8a2-4ff4-4873-938d-c03136a01ee3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001877>
+    
+    
+Individual: <http://model.geneontology.org/fc9af2a8-ede4-4205-adff-56e68bf22e33>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300622>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae721d4-607e-4b80-90ba-aacf58298617>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6f888f9c-47ef-4dd2-8314-9f50d333a23e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae721d4-607e-4b80-90ba-aacf58298617>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae721d4-607e-4b80-90ba-aacf58298617>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aae721d4-607e-4b80-90ba-aacf58298617>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c042a8a2-4ff4-4873-938d-c03136a01ee3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/218d00de-23ff-4583-9b6d-b8fb4f58c960>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c042a8a2-4ff4-4873-938d-c03136a01ee3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c042a8a2-4ff4-4873-938d-c03136a01ee3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c042a8a2-4ff4-4873-938d-c03136a01ee3>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300622>
+
+    Annotations: 
+        rdfs:label "#300622 TN POLYAGGLUTINATION SYNDROME; TNPS;;GALACTOSYLTRANSFERASE DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,212 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/35b0156f-1679-47e3-bb2c-1f99b3c75925>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-604348.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002488>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000716>
+
+    Annotations: 
+        rdfs:label "Depression"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003621>
+
+    Annotations: 
+        rdfs:label "Juvenile onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006979>
+
+    Annotations: 
+        rdfs:label "Sleep-wake cycle disturbance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_604348>
+
+    Annotations: 
+        rdfs:label "ADVANCED SLEEP PHASE SYNDROME, FAMILIAL, 1; FASPS1"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/016abd13-18c1-4703-ab1d-76d4fbfbcd6b>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604348>
+    
+    
+Individual: <http://model.geneontology.org/227f31fc-28cb-42f6-a99b-03b8902c38a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_604348>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/beabe54c-75a4-48ac-be63-98a10de54533>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f2019869-f615-4a7c-bbeb-7be91840c563>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/beabe54c-75a4-48ac-be63-98a10de54533>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/beabe54c-75a4-48ac-be63-98a10de54533>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-04-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/beabe54c-75a4-48ac-be63-98a10de54533>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a632f84-94f5-4fe3-a975-d2ce59edcee1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eda4fe37-c04f-44c1-ad4e-f081ad7ad521>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a632f84-94f5-4fe3-a975-d2ce59edcee1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a632f84-94f5-4fe3-a975-d2ce59edcee1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a632f84-94f5-4fe3-a975-d2ce59edcee1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73f04189-d275-49d3-8957-4d247e6e6956>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/016abd13-18c1-4703-ab1d-76d4fbfbcd6b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73f04189-d275-49d3-8957-4d247e6e6956>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73f04189-d275-49d3-8957-4d247e6e6956>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-04-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73f04189-d275-49d3-8957-4d247e6e6956>
+    
+    
+Individual: <http://model.geneontology.org/5939327f-9c01-4f66-95a6-85f08e703568>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "hallmark"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5a632f84-94f5-4fe3-a975-d2ce59edcee1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000716>
+    
+    
+Individual: <http://model.geneontology.org/73f04189-d275-49d3-8957-4d247e6e6956>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/b0a1dfb7-051e-464a-ad06-1b39d8c8647a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003621>
+    
+    
+Individual: <http://model.geneontology.org/beabe54c-75a4-48ac-be63-98a10de54533>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006979>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/5939327f-9c01-4f66-95a6-85f08e703568>,
+     <http://purl.obolibrary.org/obo/RO_0002488>  <http://model.geneontology.org/b0a1dfb7-051e-464a-ad06-1b39d8c8647a>
+    
+    
+Individual: <http://model.geneontology.org/eda4fe37-c04f-44c1-ad4e-f081ad7ad521>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/f2019869-f615-4a7c-bbeb-7be91840c563>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/10470086>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_604348>
+
+    Annotations: 
+        rdfs:label "ADVANCED SLEEP PHASE SYNDROME, FAMILIAL, 1; FASPS1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/10470086>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3f0d032e-1ecf-40a3-8913-d8416a22797b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614284.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000541>
+
+    Annotations: 
+        rdfs:label "Retinal detachment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000655>
+
+    Annotations: 
+        rdfs:label "Vitreoretinal degeneration"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011003>
+
+    Annotations: 
+        rdfs:label "Severe Myopia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614284>
+
+    Annotations: 
+        rdfs:label "#614284 STICKLER SYNDROME, TYPE V; STL5"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/23f0a643-e692-4549-8c9a-be5756d90051>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > HIGH MYOPIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011003>
+    
+    
+Individual: <http://model.geneontology.org/30250ae1-ecaa-46be-9c0e-3c0bbc3c3936>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > RETINAL DETACHMENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000541>
+    
+    
+Individual: <http://model.geneontology.org/42173df7-2f83-4be2-a2be-17e007b425f5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614284>
+    
+    
+Individual: <http://model.geneontology.org/4ce03155-3f28-4d0c-bf35-33dfb6e8e62d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614284>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a3696ce0-685c-47ad-883d-fdd4788d02c7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7c2a8d13-4b7f-4147-a606-55095a41edb8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a3696ce0-685c-47ad-883d-fdd4788d02c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a3696ce0-685c-47ad-883d-fdd4788d02c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a3696ce0-685c-47ad-883d-fdd4788d02c7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23f0a643-e692-4549-8c9a-be5756d90051>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a38edb2e-6039-416c-a048-1a37d50e875c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23f0a643-e692-4549-8c9a-be5756d90051>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23f0a643-e692-4549-8c9a-be5756d90051>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23f0a643-e692-4549-8c9a-be5756d90051>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30250ae1-ecaa-46be-9c0e-3c0bbc3c3936>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e703e03b-67fd-423c-b67e-6673abbff3c1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30250ae1-ecaa-46be-9c0e-3c0bbc3c3936>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30250ae1-ecaa-46be-9c0e-3c0bbc3c3936>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30250ae1-ecaa-46be-9c0e-3c0bbc3c3936>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/813f22ca-f47a-48e2-98d1-4baad80149b5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42173df7-2f83-4be2-a2be-17e007b425f5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/813f22ca-f47a-48e2-98d1-4baad80149b5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/813f22ca-f47a-48e2-98d1-4baad80149b5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/813f22ca-f47a-48e2-98d1-4baad80149b5>
+    
+    
+Individual: <http://model.geneontology.org/7c2a8d13-4b7f-4147-a606-55095a41edb8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614284>
+    
+    
+Individual: <http://model.geneontology.org/813f22ca-f47a-48e2-98d1-4baad80149b5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > VITREORETINAL DEGENERATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000655>
+    
+    
+Individual: <http://model.geneontology.org/a3696ce0-685c-47ad-883d-fdd4788d02c7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/a38edb2e-6039-416c-a048-1a37d50e875c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614284>
+    
+    
+Individual: <http://model.geneontology.org/e703e03b-67fd-423c-b67e-6673abbff3c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614284>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614284>
+
+    Annotations: 
+        rdfs:label "#614284 STICKLER SYNDROME, TYPE V; STL5"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

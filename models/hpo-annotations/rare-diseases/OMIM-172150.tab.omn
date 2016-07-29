@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/22fbbae2-177a-4d87-9dd4-fd3340fd5a73>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-172150.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001878>
+
+    Annotations: 
+        rdfs:label "Hemolytic anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_172150>
+
+    Annotations: 
+        rdfs:label "6-@PHOSPHOGLUCONOLACTONASE DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2d3093d5-99ed-4e93-8380-0f5435416873>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/42a8451d-aa07-4af8-895a-ce13decf35b3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_172150>
+    
+    
+Individual: <http://model.geneontology.org/4c8cd147-2a11-4b13-8bdd-c5cd324c0abc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_172150>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dba3276f-0097-4d61-8943-804dc32b9247>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7e7c1c75-492f-47d0-9a2f-9f0ee2e97dd4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dba3276f-0097-4d61-8943-804dc32b9247>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dba3276f-0097-4d61-8943-804dc32b9247>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dba3276f-0097-4d61-8943-804dc32b9247>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d3093d5-99ed-4e93-8380-0f5435416873>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42a8451d-aa07-4af8-895a-ce13decf35b3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d3093d5-99ed-4e93-8380-0f5435416873>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d3093d5-99ed-4e93-8380-0f5435416873>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d3093d5-99ed-4e93-8380-0f5435416873>
+    
+    
+Individual: <http://model.geneontology.org/7e7c1c75-492f-47d0-9a2f-9f0ee2e97dd4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_172150>
+    
+    
+Individual: <http://model.geneontology.org/dba3276f-0097-4d61-8943-804dc32b9247>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001878>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_172150>
+
+    Annotations: 
+        rdfs:label "6-@PHOSPHOGLUCONOLACTONASE DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

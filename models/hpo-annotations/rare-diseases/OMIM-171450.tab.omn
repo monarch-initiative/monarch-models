@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d54ac244-5508-4e27-a64e-76682f1aa95e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-171450.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000159>
+
+    Annotations: 
+        rdfs:label "Abnormality of the lip"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_171450>
+
+    Annotations: 
+        rdfs:label "PHLEBECTASIA OF LIPS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/038970ba-3aa8-443f-a24b-a6af5af8aa2c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_171450>
+    
+    
+Individual: <http://model.geneontology.org/06d239c2-75a8-4cba-aa28-d9fa20209e71>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000159>
+    
+    
+Individual: <http://model.geneontology.org/1c1440e9-7e96-4e85-bada-bb6db5fa056b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/2016f94d-bda6-41e5-9901-3057f24b81fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_171450>
+    
+    
+Individual: <http://model.geneontology.org/63d8b1b6-1f0c-4781-9967-71ec201cc4d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_171450>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d239c2-75a8-4cba-aa28-d9fa20209e71>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/038970ba-3aa8-443f-a24b-a6af5af8aa2c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d239c2-75a8-4cba-aa28-d9fa20209e71>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d239c2-75a8-4cba-aa28-d9fa20209e71>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-07-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d239c2-75a8-4cba-aa28-d9fa20209e71>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1440e9-7e96-4e85-bada-bb6db5fa056b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2016f94d-bda6-41e5-9901-3057f24b81fb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1440e9-7e96-4e85-bada-bb6db5fa056b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1440e9-7e96-4e85-bada-bb6db5fa056b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1440e9-7e96-4e85-bada-bb6db5fa056b>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_171450>
+
+    Annotations: 
+        rdfs:label "PHLEBECTASIA OF LIPS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,301 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/acb3a0f9-9f8b-4a41-93e8-37619eba0a0d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613217.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001369>
+
+    Annotations: 
+        rdfs:label "Arthritis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001508>
+
+    Annotations: 
+        rdfs:label "Failure to thrive"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001518>
+
+    Annotations: 
+        rdfs:label "Small for gestational age"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002041>
+
+    Annotations: 
+        rdfs:label "Intractable diarrhea"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011473>
+
+    Annotations: 
+        rdfs:label "Villous atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613217>
+
+    Annotations: 
+        rdfs:label "DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL; DIAR5"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/02001141-fdf6-43ce-a0e0-3ea4ddb77732>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002041>
+    
+    
+Individual: <http://model.geneontology.org/22a975e8-33c2-407a-813c-cbc06a4a1cb7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613217>
+    
+    
+Individual: <http://model.geneontology.org/33d2db67-bc10-4281-9198-adf7636bc908>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613217>
+    
+    
+Individual: <http://model.geneontology.org/37fde087-11f6-408d-822d-6ccf1da85a72>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/487ea599-dd6b-4f77-a1c0-94f55ec8ec5d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4c5d3cd8-bbee-462e-bdb8-49cc6b12e76e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613217>
+    
+    
+Individual: <http://model.geneontology.org/6a76f549-ecee-461a-a6f2-4e0a4129c5ff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001369>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/37fde087-11f6-408d-822d-6ccf1da85a72>
+    
+    
+Individual: <http://model.geneontology.org/70ff71a9-522f-4356-abdd-4c8aaf187c9f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613217>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af145f3d-2049-431f-bc96-c6f3cf7a7e9c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/22a975e8-33c2-407a-813c-cbc06a4a1cb7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af145f3d-2049-431f-bc96-c6f3cf7a7e9c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af145f3d-2049-431f-bc96-c6f3cf7a7e9c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af145f3d-2049-431f-bc96-c6f3cf7a7e9c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1060602-9982-4fd7-8298-ab87fe77d5ae>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f66e5f92-e50c-4b52-9081-122e5da98438>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1060602-9982-4fd7-8298-ab87fe77d5ae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1060602-9982-4fd7-8298-ab87fe77d5ae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1060602-9982-4fd7-8298-ab87fe77d5ae>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2640bd-e30f-4d26-b220-5e6cb742076a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8dfb29fd-d29c-4350-a578-06b3e7a8aa40>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2640bd-e30f-4d26-b220-5e6cb742076a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2640bd-e30f-4d26-b220-5e6cb742076a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc2640bd-e30f-4d26-b220-5e6cb742076a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02001141-fdf6-43ce-a0e0-3ea4ddb77732>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b6a5ce6d-21ce-4d33-828d-aa66618dd8a9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02001141-fdf6-43ce-a0e0-3ea4ddb77732>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02001141-fdf6-43ce-a0e0-3ea4ddb77732>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02001141-fdf6-43ce-a0e0-3ea4ddb77732>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a76f549-ecee-461a-a6f2-4e0a4129c5ff>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/33d2db67-bc10-4281-9198-adf7636bc908>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a76f549-ecee-461a-a6f2-4e0a4129c5ff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a76f549-ecee-461a-a6f2-4e0a4129c5ff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a76f549-ecee-461a-a6f2-4e0a4129c5ff>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9be09a3b-b6fd-460f-b653-555b5bb71b79>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4c5d3cd8-bbee-462e-bdb8-49cc6b12e76e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9be09a3b-b6fd-460f-b653-555b5bb71b79>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9be09a3b-b6fd-460f-b653-555b5bb71b79>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9be09a3b-b6fd-460f-b653-555b5bb71b79>
+    
+    
+Individual: <http://model.geneontology.org/8dfb29fd-d29c-4350-a578-06b3e7a8aa40>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613217>
+    
+    
+Individual: <http://model.geneontology.org/9be09a3b-b6fd-460f-b653-555b5bb71b79>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_GASTROINTESTINAL > VILLOUS ATROPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011473>
+    
+    
+Individual: <http://model.geneontology.org/af145f3d-2049-431f-bc96-c6f3cf7a7e9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/b6a5ce6d-21ce-4d33-828d-aa66618dd8a9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613217>
+    
+    
+Individual: <http://model.geneontology.org/c1060602-9982-4fd7-8298-ab87fe77d5ae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001518>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/487ea599-dd6b-4f77-a1c0-94f55ec8ec5d>
+    
+    
+Individual: <http://model.geneontology.org/cc2640bd-e30f-4d26-b220-5e6cb742076a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001508>
+    
+    
+Individual: <http://model.geneontology.org/f66e5f92-e50c-4b52-9081-122e5da98438>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613217>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613217>
+
+    Annotations: 
+        rdfs:label "DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL; DIAR5"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1f72ce8d-3d0e-4630-9567-fe0bea28d412>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615527.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000158>
+
+    Annotations: 
+        rdfs:label "Macroglossia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000498>
+
+    Annotations: 
+        rdfs:label "Blepharitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012203>
+
+    Annotations: 
+        rdfs:label "Onychomycosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615527>
+
+    Annotations: 
+        rdfs:label "#615527 CANDIDIASIS, FAMILIAL, 8; CANDF8;;CANDIDIASIS, FAMILIAL CHRONIC MUCOCUTANEOUS, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2c7a49de-dd05-4523-a409-4f67a8e416ca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615527>
+    
+    
+Individual: <http://model.geneontology.org/354df4a4-070e-4efe-95a2-34cc95500699>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > BLEPHARITIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000498>
+    
+    
+Individual: <http://model.geneontology.org/3fa0a135-df5d-425b-aacd-b74febf2a3da>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_MOUTH > MACROGLOSSIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000158>
+    
+    
+Individual: <http://model.geneontology.org/4495547c-1e95-46d6-bf0d-c9ea7079c3e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615527>
+    
+    
+Individual: <http://model.geneontology.org/4f9081d5-1ede-41e8-974d-2cb34ffe316e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > ONYCHOMYCOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012203>
+    
+    
+Individual: <http://model.geneontology.org/5f373051-ec50-44e6-9182-cca3c6f91092>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/624ded6a-3091-4f88-9faa-f931da18f854>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615527>
+    
+    
+Individual: <http://model.geneontology.org/82a403cb-400a-426a-a664-abde375e8ca8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615527>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fa0a135-df5d-425b-aacd-b74febf2a3da>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b5cd1743-7adf-4eb3-a3d0-2f6854fcf810>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fa0a135-df5d-425b-aacd-b74febf2a3da>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fa0a135-df5d-425b-aacd-b74febf2a3da>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fa0a135-df5d-425b-aacd-b74febf2a3da>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/354df4a4-070e-4efe-95a2-34cc95500699>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2c7a49de-dd05-4523-a409-4f67a8e416ca>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/354df4a4-070e-4efe-95a2-34cc95500699>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/354df4a4-070e-4efe-95a2-34cc95500699>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/354df4a4-070e-4efe-95a2-34cc95500699>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f9081d5-1ede-41e8-974d-2cb34ffe316e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/624ded6a-3091-4f88-9faa-f931da18f854>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f9081d5-1ede-41e8-974d-2cb34ffe316e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f9081d5-1ede-41e8-974d-2cb34ffe316e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f9081d5-1ede-41e8-974d-2cb34ffe316e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f373051-ec50-44e6-9182-cca3c6f91092>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4495547c-1e95-46d6-bf0d-c9ea7079c3e3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f373051-ec50-44e6-9182-cca3c6f91092>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f373051-ec50-44e6-9182-cca3c6f91092>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f373051-ec50-44e6-9182-cca3c6f91092>
+    
+    
+Individual: <http://model.geneontology.org/b5cd1743-7adf-4eb3-a3d0-2f6854fcf810>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615527>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615527>
+
+    Annotations: 
+        rdfs:label "#615527 CANDIDIASIS, FAMILIAL, 8; CANDF8;;CANDIDIASIS, FAMILIAL CHRONIC MUCOCUTANEOUS, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

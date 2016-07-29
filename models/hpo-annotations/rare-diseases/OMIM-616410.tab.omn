@@ -1,0 +1,246 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/098fb406-2730-4a02-8b29-94cfcc1e133f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616410.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001272>
+
+    Annotations: 
+        rdfs:label "Cerebellar atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002317>
+
+    Annotations: 
+        rdfs:label "Unsteady gait"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003581>
+
+    Annotations: 
+        rdfs:label "Adult onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003676>
+
+    Annotations: 
+        rdfs:label "Progressive"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616410>
+
+    Annotations: 
+        rdfs:label "#616410 SPINOCEREBELLAR ATAXIA 41; SCA41"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2aa47443-2d6b-48ae-b6b7-840cc022c47b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > GAIT INSTABILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002317>
+    
+    
+Individual: <http://model.geneontology.org/4cc18ab0-fa64-43d3-bd1e-8d5be16f9a7d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/57b59611-9b91-4d1b-8fe4-6dc8ed29f6fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616410>
+    
+    
+Individual: <http://model.geneontology.org/59b8291a-acdf-45ff-9ce4-2eeb775af698>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/6a83a05f-6b7f-491e-9b12-e04489438830>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > CEREBELLAR ATROPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001272>
+    
+    
+Individual: <http://model.geneontology.org/6bb57725-9f39-4adb-a05f-b46ac46d44e7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/91263c7f-54a7-43a8-80ac-bbbf02b6508e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616410>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2aa47443-2d6b-48ae-b6b7-840cc022c47b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/57b59611-9b91-4d1b-8fe4-6dc8ed29f6fb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2aa47443-2d6b-48ae-b6b7-840cc022c47b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2aa47443-2d6b-48ae-b6b7-840cc022c47b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2aa47443-2d6b-48ae-b6b7-840cc022c47b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a83a05f-6b7f-491e-9b12-e04489438830>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9c9f0da2-a264-4fb1-889c-e91b84c611fc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a83a05f-6b7f-491e-9b12-e04489438830>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a83a05f-6b7f-491e-9b12-e04489438830>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a83a05f-6b7f-491e-9b12-e04489438830>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6bb57725-9f39-4adb-a05f-b46ac46d44e7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe071d4d-0a3b-4fe5-b495-a3754a2f899a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6bb57725-9f39-4adb-a05f-b46ac46d44e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6bb57725-9f39-4adb-a05f-b46ac46d44e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6bb57725-9f39-4adb-a05f-b46ac46d44e7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c63557a-8001-425d-9586-49deaf66129c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4cc18ab0-fa64-43d3-bd1e-8d5be16f9a7d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c63557a-8001-425d-9586-49deaf66129c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c63557a-8001-425d-9586-49deaf66129c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c63557a-8001-425d-9586-49deaf66129c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/91374e13-961f-4688-a7b3-efb91bd9556c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/59b8291a-acdf-45ff-9ce4-2eeb775af698>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/91374e13-961f-4688-a7b3-efb91bd9556c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/91374e13-961f-4688-a7b3-efb91bd9556c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/91374e13-961f-4688-a7b3-efb91bd9556c>
+    
+    
+Individual: <http://model.geneontology.org/91374e13-961f-4688-a7b3-efb91bd9556c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003676>
+    
+    
+Individual: <http://model.geneontology.org/9c63557a-8001-425d-9586-49deaf66129c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003581>
+    
+    
+Individual: <http://model.geneontology.org/9c9f0da2-a264-4fb1-889c-e91b84c611fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616410>
+    
+    
+Individual: <http://model.geneontology.org/fe071d4d-0a3b-4fe5-b495-a3754a2f899a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616410>
+
+    Annotations: 
+        rdfs:label "#616410 SPINOCEREBELLAR ATAXIA 41; SCA41"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

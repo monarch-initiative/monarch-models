@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3d8bf778-89a8-41e6-b4cc-b8c2403c4b6f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-103780.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000707>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nervous system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_103780>
+
+    Annotations: 
+        rdfs:label "ALCOHOL DEPENDENCE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/71fc1024-8404-42c9-8af4-67ddb8b05979>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000707>
+    
+    
+Individual: <http://model.geneontology.org/b50c801b-0c11-4def-851f-5cf0e40f1075>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_103780>
+    
+    
+Individual: <http://model.geneontology.org/ffc12a5d-9fe4-41ff-993a-f6684a5bd0e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_103780>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/71fc1024-8404-42c9-8af4-67ddb8b05979>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b50c801b-0c11-4def-851f-5cf0e40f1075>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/71fc1024-8404-42c9-8af4-67ddb8b05979>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/71fc1024-8404-42c9-8af4-67ddb8b05979>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/71fc1024-8404-42c9-8af4-67ddb8b05979>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_103780>
+
+    Annotations: 
+        rdfs:label "ALCOHOL DEPENDENCE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

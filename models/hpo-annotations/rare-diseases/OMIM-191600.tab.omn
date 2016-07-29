@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ea4b27f1-594b-451a-bcbb-f5912908576c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-191600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100516>
+
+    Annotations: 
+        rdfs:label "Neoplasm of the ureter"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_191600>
+
+    Annotations: 
+        rdfs:label "URETER, CANCER OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0218db4a-cca6-46b4-853e-cab0912d57c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191600>
+    
+    
+Individual: <http://model.geneontology.org/0b5b91d7-006d-48e8-aa40-5b244436e25c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191600>
+    
+    
+Individual: <http://model.geneontology.org/18d8a589-ff0f-45ca-9b4b-0983f125e84b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f5f9c256-a21b-4711-98d8-8c95d119ce6c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:ureter, cancer of"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100516>
+    
+    
+Individual: <http://model.geneontology.org/fdca1c9a-57fc-4eb8-be79-71b8fb7692ff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_191600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f5f9c256-a21b-4711-98d8-8c95d119ce6c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0b5b91d7-006d-48e8-aa40-5b244436e25c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f5f9c256-a21b-4711-98d8-8c95d119ce6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f5f9c256-a21b-4711-98d8-8c95d119ce6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f5f9c256-a21b-4711-98d8-8c95d119ce6c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18d8a589-ff0f-45ca-9b4b-0983f125e84b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0218db4a-cca6-46b4-853e-cab0912d57c5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18d8a589-ff0f-45ca-9b4b-0983f125e84b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18d8a589-ff0f-45ca-9b4b-0983f125e84b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18d8a589-ff0f-45ca-9b4b-0983f125e84b>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_191600>
+
+    Annotations: 
+        rdfs:label "URETER, CANCER OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

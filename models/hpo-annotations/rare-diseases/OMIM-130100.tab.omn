@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/66b421bb-d167-4bea-95f3-9203b05b6691>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-130100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003764>
+
+    Annotations: 
+        rdfs:label "Nevus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_130100>
+
+    Annotations: 
+        rdfs:label "ELASTOSIS PERFORANS SERPIGINOSA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/19fe319d-1fd4-4dd0-b9ef-822fbb64f43a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_130100>
+    
+    
+Individual: <http://model.geneontology.org/202d42cf-f758-43a5-8cfd-4eb3e2f064f9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003764>
+    
+    
+Individual: <http://model.geneontology.org/30eda207-54c9-41e7-b0a0-79446108660a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_130100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/202d42cf-f758-43a5-8cfd-4eb3e2f064f9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/19fe319d-1fd4-4dd0-b9ef-822fbb64f43a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/202d42cf-f758-43a5-8cfd-4eb3e2f064f9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/202d42cf-f758-43a5-8cfd-4eb3e2f064f9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/202d42cf-f758-43a5-8cfd-4eb3e2f064f9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63a3a802-d453-43fe-abc5-fcc693623ccc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/630926a7-aed7-4eb6-82bb-c7296fbf815b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63a3a802-d453-43fe-abc5-fcc693623ccc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63a3a802-d453-43fe-abc5-fcc693623ccc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/63a3a802-d453-43fe-abc5-fcc693623ccc>
+    
+    
+Individual: <http://model.geneontology.org/630926a7-aed7-4eb6-82bb-c7296fbf815b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_130100>
+    
+    
+Individual: <http://model.geneontology.org/63a3a802-d453-43fe-abc5-fcc693623ccc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_130100>
+
+    Annotations: 
+        rdfs:label "ELASTOSIS PERFORANS SERPIGINOSA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

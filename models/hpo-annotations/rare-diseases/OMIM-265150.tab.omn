@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1b520b17-05e7-4be1-b46b-24040dafa941>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-265150.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004935>
+
+    Annotations: 
+        rdfs:label "Pulmonary artery atresia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010954>
+
+    Annotations: 
+        rdfs:label "Hypoplastic right heart"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_265150>
+
+    Annotations: 
+        rdfs:label "265150 PULMONARY ATRESIA WITH INTACT VENTRICULAR SEPTUM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/057513b0-fb30-4b69-a00c-37ee25bef328>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_265150>
+    
+    
+Individual: <http://model.geneontology.org/43fb2eb0-9d63-4df4-8867-c58993b5e781>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIAC > HYPOPLASTIC RIGHT HEART"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010954>
+    
+    
+Individual: <http://model.geneontology.org/9e31c7af-787e-47c1-b078-f8da349e199f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004935>
+    
+    
+Individual: <http://model.geneontology.org/a1b1548c-0783-4341-8cd3-e4601ce13c26>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_265150>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43fb2eb0-9d63-4df4-8867-c58993b5e781>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c46320bc-9a68-4b4e-83a7-03c3201075a5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43fb2eb0-9d63-4df4-8867-c58993b5e781>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43fb2eb0-9d63-4df4-8867-c58993b5e781>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43fb2eb0-9d63-4df4-8867-c58993b5e781>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e31c7af-787e-47c1-b078-f8da349e199f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/057513b0-fb30-4b69-a00c-37ee25bef328>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e31c7af-787e-47c1-b078-f8da349e199f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e31c7af-787e-47c1-b078-f8da349e199f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e31c7af-787e-47c1-b078-f8da349e199f>
+    
+    
+Individual: <http://model.geneontology.org/c46320bc-9a68-4b4e-83a7-03c3201075a5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_265150>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_265150>
+
+    Annotations: 
+        rdfs:label "265150 PULMONARY ATRESIA WITH INTACT VENTRICULAR SEPTUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

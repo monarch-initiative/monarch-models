@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8669d804-bc70-4415-80bc-a1487711dfde>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-301410.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002323>
+
+    Annotations: 
+        rdfs:label "Anencephaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002414>
+
+    Annotations: 
+        rdfs:label "Spina bifida"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_301410>
+
+    Annotations: 
+        rdfs:label "301410 NEURAL TUBE DEFECTS, X-LINKEDSPINA BIFIDA, X-LINKED, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/126ec7a0-16ae-4e42-8a5f-522966f9d782>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_301410>
+    
+    
+Individual: <http://model.geneontology.org/17c5db4a-1677-45ba-aad7-827511271920>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002414>
+    
+    
+Individual: <http://model.geneontology.org/5b99da2e-0c76-40a1-b582-c8651be2b400>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_301410>
+    
+    
+Individual: <http://model.geneontology.org/6b1c3a24-36e1-46cc-ab1e-a25dbfea8370>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_301410>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eeb108d7-9c23-4c1a-9896-960df89246c6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/126ec7a0-16ae-4e42-8a5f-522966f9d782>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eeb108d7-9c23-4c1a-9896-960df89246c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eeb108d7-9c23-4c1a-9896-960df89246c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eeb108d7-9c23-4c1a-9896-960df89246c6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/17c5db4a-1677-45ba-aad7-827511271920>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5b99da2e-0c76-40a1-b582-c8651be2b400>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/17c5db4a-1677-45ba-aad7-827511271920>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/17c5db4a-1677-45ba-aad7-827511271920>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/17c5db4a-1677-45ba-aad7-827511271920>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96c54300-1c9c-4c34-8f46-62a96517e09a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6f2419de-db02-4107-9109-a0b5aae9d31f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96c54300-1c9c-4c34-8f46-62a96517e09a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96c54300-1c9c-4c34-8f46-62a96517e09a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/96c54300-1c9c-4c34-8f46-62a96517e09a>
+    
+    
+Individual: <http://model.geneontology.org/6f2419de-db02-4107-9109-a0b5aae9d31f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_301410>
+    
+    
+Individual: <http://model.geneontology.org/96c54300-1c9c-4c34-8f46-62a96517e09a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002323>
+    
+    
+Individual: <http://model.geneontology.org/eeb108d7-9c23-4c1a-9896-960df89246c6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_301410>
+
+    Annotations: 
+        rdfs:label "301410 NEURAL TUBE DEFECTS, X-LINKEDSPINA BIFIDA, X-LINKED, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

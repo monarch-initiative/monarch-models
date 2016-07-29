@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/027f083c-13fe-4b3e-a9b6-afe53849b683>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-115700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000519>
+
+    Annotations: 
+        rdfs:label "Congenital cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_115700>
+
+    Annotations: 
+        rdfs:label "CATARACT, CRYSTALLINE ACULEIFORM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01ca2f98-a6b4-4c45-8da6-9f3b579873ab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000519>
+    
+    
+Individual: <http://model.geneontology.org/02b1e1db-22f1-47e6-8ada-0a592b4005dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_115700>
+    
+    
+Individual: <http://model.geneontology.org/43b4af6c-570c-4cc9-8680-555dcc0ebac3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_115700>
+    
+    
+Individual: <http://model.geneontology.org/82368415-b4d0-4cc7-a1fe-a7a6987f6e8f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/c1b57054-b559-4529-8d0b-a8b82db0676e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_115700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01ca2f98-a6b4-4c45-8da6-9f3b579873ab>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/02b1e1db-22f1-47e6-8ada-0a592b4005dd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01ca2f98-a6b4-4c45-8da6-9f3b579873ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01ca2f98-a6b4-4c45-8da6-9f3b579873ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01ca2f98-a6b4-4c45-8da6-9f3b579873ab>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82368415-b4d0-4cc7-a1fe-a7a6987f6e8f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/43b4af6c-570c-4cc9-8680-555dcc0ebac3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82368415-b4d0-4cc7-a1fe-a7a6987f6e8f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82368415-b4d0-4cc7-a1fe-a7a6987f6e8f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82368415-b4d0-4cc7-a1fe-a7a6987f6e8f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_115700>
+
+    Annotations: 
+        rdfs:label "CATARACT, CRYSTALLINE ACULEIFORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5c1650f6-cdd4-4668-be13-bbd47473194a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601005.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001159>
+
+    Annotations: 
+        rdfs:label "Syndactyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001657>
+
+    Annotations: 
+        rdfs:label "Prolonged QT interval on EKG"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001699>
+
+    Annotations: 
+        rdfs:label "Sudden death"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601005>
+
+    Annotations: 
+        rdfs:label "TIMOTHY SYNDROME"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3de92b9f-b06c-465f-a689-7e4c6b49188f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601005>
+    
+    
+Individual: <http://model.geneontology.org/497d6088-3fa0-43c2-9c48-04d8be4e09d6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601005>
+    
+    
+Individual: <http://model.geneontology.org/53355e09-e7b1-4231-89bd-d3e63e50948f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001159>
+    
+    
+Individual: <http://model.geneontology.org/67784704-c98f-4cf6-9068-d9f6d791dc14>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001699>
+    
+    
+Individual: <http://model.geneontology.org/796fad76-541d-405b-8e4d-601e98de8ad5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601005>
+    
+    
+Individual: <http://model.geneontology.org/a0047478-c2fb-4b0c-997d-7e8da3148a9f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001657>
+    
+    
+Individual: <http://model.geneontology.org/ba4d6c37-7927-4c5b-b2f3-cbaf9e21088f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601005>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0047478-c2fb-4b0c-997d-7e8da3148a9f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/497d6088-3fa0-43c2-9c48-04d8be4e09d6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0047478-c2fb-4b0c-997d-7e8da3148a9f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0047478-c2fb-4b0c-997d-7e8da3148a9f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0047478-c2fb-4b0c-997d-7e8da3148a9f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53355e09-e7b1-4231-89bd-d3e63e50948f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/796fad76-541d-405b-8e4d-601e98de8ad5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53355e09-e7b1-4231-89bd-d3e63e50948f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53355e09-e7b1-4231-89bd-d3e63e50948f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53355e09-e7b1-4231-89bd-d3e63e50948f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67784704-c98f-4cf6-9068-d9f6d791dc14>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3de92b9f-b06c-465f-a689-7e4c6b49188f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67784704-c98f-4cf6-9068-d9f6d791dc14>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67784704-c98f-4cf6-9068-d9f6d791dc14>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67784704-c98f-4cf6-9068-d9f6d791dc14>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601005>
+
+    Annotations: 
+        rdfs:label "TIMOTHY SYNDROME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

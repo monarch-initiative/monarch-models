@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1202490f-d3e4-4d24-8bc4-07cf7df8a116>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-606960.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012197>
+
+    Annotations: 
+        rdfs:label "Insulinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_606960>
+
+    Annotations: 
+        rdfs:label "%606960 INSULINOMA TUMOR SUPPRESSOR GENE LOCUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/299087c4-aa34-42cc-bbdd-ec6f3c84bc2c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/87579bc3-e2e9-47e0-ba07-11652ffe1012>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012197>
+    
+    
+Individual: <http://model.geneontology.org/8a94ead5-01d1-4d9e-8628-8a0fd45b2d16>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_606960>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/299087c4-aa34-42cc-bbdd-ec6f3c84bc2c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ff7d45a7-d392-42d8-8846-b0a09207d12c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/299087c4-aa34-42cc-bbdd-ec6f3c84bc2c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/299087c4-aa34-42cc-bbdd-ec6f3c84bc2c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/299087c4-aa34-42cc-bbdd-ec6f3c84bc2c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87579bc3-e2e9-47e0-ba07-11652ffe1012>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fd862ef5-cbd4-4f1a-b20b-32dc2a73c7df>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87579bc3-e2e9-47e0-ba07-11652ffe1012>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87579bc3-e2e9-47e0-ba07-11652ffe1012>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87579bc3-e2e9-47e0-ba07-11652ffe1012>
+    
+    
+Individual: <http://model.geneontology.org/fd862ef5-cbd4-4f1a-b20b-32dc2a73c7df>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606960>
+    
+    
+Individual: <http://model.geneontology.org/ff7d45a7-d392-42d8-8846-b0a09207d12c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606960>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_606960>
+
+    Annotations: 
+        rdfs:label "%606960 INSULINOMA TUMOR SUPPRESSOR GENE LOCUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

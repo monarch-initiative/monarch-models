@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/17982dc3-3027-4202-86aa-8b818dcd1e76>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613958.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012205>
+
+    Annotations: 
+        rdfs:label "Globozoospermia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613958>
+
+    Annotations: 
+        rdfs:label "#613958 SPERMATOGENIC FAILURE 9; SPGF9;;GLOBOZOOSPERMIA, COMPLETE;;GLOBOZOOSPERMIA, TOTAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4e1a5a6d-3ad3-49e0-8228-7af2ae18c4e0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/81810c8d-76b8-4a50-97a2-6022fa35c74a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, MALE > GLOBOZOOSPERMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012205>
+    
+    
+Individual: <http://model.geneontology.org/827f1299-5123-473d-aa1b-c959539c6bb9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613958>
+    
+    
+Individual: <http://model.geneontology.org/cea0c4ac-b836-433b-8b41-32d46dd6cb9f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613958>
+    
+    
+Individual: <http://model.geneontology.org/d6078b61-cfc3-4104-9beb-ad6561c3bacd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613958>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a5a6d-3ad3-49e0-8228-7af2ae18c4e0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cea0c4ac-b836-433b-8b41-32d46dd6cb9f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a5a6d-3ad3-49e0-8228-7af2ae18c4e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a5a6d-3ad3-49e0-8228-7af2ae18c4e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a5a6d-3ad3-49e0-8228-7af2ae18c4e0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81810c8d-76b8-4a50-97a2-6022fa35c74a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/827f1299-5123-473d-aa1b-c959539c6bb9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81810c8d-76b8-4a50-97a2-6022fa35c74a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81810c8d-76b8-4a50-97a2-6022fa35c74a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81810c8d-76b8-4a50-97a2-6022fa35c74a>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613958>
+
+    Annotations: 
+        rdfs:label "#613958 SPERMATOGENIC FAILURE 9; SPGF9;;GLOBOZOOSPERMIA, COMPLETE;;GLOBOZOOSPERMIA, TOTAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

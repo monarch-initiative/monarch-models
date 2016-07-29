@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/717f683b-518c-4b10-b509-4bb4b8f70560>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-109100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002960>
+
+    Annotations: 
+        rdfs:label "Autoimmunity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0030057>
+
+    Annotations: 
+        rdfs:label "Autoimmune antibody positivity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_109100>
+
+    Annotations: 
+        rdfs:label "AUTOIMMUNE DISEASE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5fe6f6fc-6661-4ac4-92f7-3236b904e895>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0030057>
+    
+    
+Individual: <http://model.geneontology.org/b0a47be4-d07f-4fcf-811e-089aed6fda20>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_109100>
+    
+    
+Individual: <http://model.geneontology.org/b58d594f-4dd4-4ca3-84f9-ce8851e06ffa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_109100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ca71b620-937b-46ba-9d6a-e565c85414c8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b0a47be4-d07f-4fcf-811e-089aed6fda20>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ca71b620-937b-46ba-9d6a-e565c85414c8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ca71b620-937b-46ba-9d6a-e565c85414c8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ca71b620-937b-46ba-9d6a-e565c85414c8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fe6f6fc-6661-4ac4-92f7-3236b904e895>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c6dda1e9-a9f8-4692-a964-b310e3fb5eda>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fe6f6fc-6661-4ac4-92f7-3236b904e895>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fe6f6fc-6661-4ac4-92f7-3236b904e895>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fe6f6fc-6661-4ac4-92f7-3236b904e895>
+    
+    
+Individual: <http://model.geneontology.org/c6dda1e9-a9f8-4692-a964-b310e3fb5eda>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_109100>
+    
+    
+Individual: <http://model.geneontology.org/ca71b620-937b-46ba-9d6a-e565c85414c8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002960>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_109100>
+
+    Annotations: 
+        rdfs:label "AUTOIMMUNE DISEASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

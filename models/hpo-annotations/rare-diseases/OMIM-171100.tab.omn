@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b0463314-9a85-4b90-b1c0-bd78dfbb51b4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-171100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001871>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hematopoietic system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_171100>
+
+    Annotations: 
+        rdfs:label "PHAGOCYTOSIS, PLASMA-RELATED DEFECT IN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/364e0bec-7c4f-4aa5-ab46-e5219a41e178>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_171100>
+    
+    
+Individual: <http://model.geneontology.org/3fe06f0b-d6c7-4af2-9c4a-ee31e143f2df>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001871>
+    
+    
+Individual: <http://model.geneontology.org/653934d0-e260-4951-9cc2-88429c2db112>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_171100>
+    
+    
+Individual: <http://model.geneontology.org/aa8c80fc-2f38-4974-aad8-c38792008a35>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_171100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c77d8b06-bc6d-4874-8917-3933f080f352>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/364e0bec-7c4f-4aa5-ab46-e5219a41e178>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c77d8b06-bc6d-4874-8917-3933f080f352>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c77d8b06-bc6d-4874-8917-3933f080f352>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c77d8b06-bc6d-4874-8917-3933f080f352>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe06f0b-d6c7-4af2-9c4a-ee31e143f2df>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/653934d0-e260-4951-9cc2-88429c2db112>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe06f0b-d6c7-4af2-9c4a-ee31e143f2df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe06f0b-d6c7-4af2-9c4a-ee31e143f2df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe06f0b-d6c7-4af2-9c4a-ee31e143f2df>
+    
+    
+Individual: <http://model.geneontology.org/c77d8b06-bc6d-4874-8917-3933f080f352>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_171100>
+
+    Annotations: 
+        rdfs:label "PHAGOCYTOSIS, PLASMA-RELATED DEFECT IN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

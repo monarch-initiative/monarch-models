@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a7ef3508-2cfe-4ca7-89a0-95333ed0e101>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0050672.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0050672>
+
+    Annotations: 
+        rdfs:label "DYSKINETIC CEREBRAL PALSY"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011445>
+
+    Annotations: 
+        rdfs:label "Athetoid cerebral palsy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/546a2d4c-f627-4690-ba89-9143ed1c9a55>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:dyskinetic cerebral palsy"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011445>
+    
+    
+Individual: <http://model.geneontology.org/5aa7e20b-0363-4460-a994-6577c1b11b1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0050672>
+    
+    
+Individual: <http://model.geneontology.org/8fccdbfc-08e3-4642-88c8-15243dd83166>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0050672>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/546a2d4c-f627-4690-ba89-9143ed1c9a55>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5aa7e20b-0363-4460-a994-6577c1b11b1c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/546a2d4c-f627-4690-ba89-9143ed1c9a55>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/546a2d4c-f627-4690-ba89-9143ed1c9a55>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/546a2d4c-f627-4690-ba89-9143ed1c9a55>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0050672>
+
+    Annotations: 
+        rdfs:label "DYSKINETIC CEREBRAL PALSY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

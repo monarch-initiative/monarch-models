@@ -1,0 +1,181 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d15c1818-ec2c-4f7d-a61d-ef4aecb9762a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612798.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000364>
+
+    Annotations: 
+        rdfs:label "Hearing abnormality"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0030022>
+
+    Annotations: 
+        rdfs:label "Question mark ear"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612798>
+
+    Annotations: 
+        rdfs:label "QUESTION MARK EARS, ISOLATED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/61a62757-0e0b-4dec-ad82-0cb3d2c5f039>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/62605558-5667-4e8b-9f74-979d12c128c6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612798>
+    
+    
+Individual: <http://model.geneontology.org/8726e024-7415-4cc0-a602-31d12f027d92>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612798>
+    
+    
+Individual: <http://model.geneontology.org/978c8045-8090-4bf6-8390-b9566abc69b9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612798>
+    
+    
+Individual: <http://model.geneontology.org/a13eb486-c5c0-4a7a-81c1-04022607c5ac>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EARS > NORMAL HEARING"^^xsd:string
+    
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0000364>)
+    
+    
+Individual: <http://model.geneontology.org/b47c95f8-b084-490d-b52f-4ffde24a0701>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EARS > QUESTION MARK EARS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0030022>
+    
+    
+Individual: <http://model.geneontology.org/f395ac0a-29a7-496c-b26e-85380eed66de>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612798>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a13eb486-c5c0-4a7a-81c1-04022607c5ac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/62605558-5667-4e8b-9f74-979d12c128c6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a13eb486-c5c0-4a7a-81c1-04022607c5ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a13eb486-c5c0-4a7a-81c1-04022607c5ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-11-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a13eb486-c5c0-4a7a-81c1-04022607c5ac>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b47c95f8-b084-490d-b52f-4ffde24a0701>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/978c8045-8090-4bf6-8390-b9566abc69b9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b47c95f8-b084-490d-b52f-4ffde24a0701>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b47c95f8-b084-490d-b52f-4ffde24a0701>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b47c95f8-b084-490d-b52f-4ffde24a0701>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/61a62757-0e0b-4dec-ad82-0cb3d2c5f039>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8726e024-7415-4cc0-a602-31d12f027d92>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/61a62757-0e0b-4dec-ad82-0cb3d2c5f039>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/61a62757-0e0b-4dec-ad82-0cb3d2c5f039>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/61a62757-0e0b-4dec-ad82-0cb3d2c5f039>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612798>
+
+    Annotations: 
+        rdfs:label "QUESTION MARK EARS, ISOLATED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

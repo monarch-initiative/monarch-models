@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a414947a-bc96-40f4-91a9-46b9738608d4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614861.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000407>
+
+    Annotations: 
+        rdfs:label "Sensorineural hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614861>
+
+    Annotations: 
+        rdfs:label "#614861 DEAFNESS, AUTOSOMAL RECESSIVE 98; DFNB98"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/36f6f515-45ff-4e28-a2c5-b493ebdfa695>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "MODIFIER:PROFOUND;OMIM-CS:HEAD AND NECK_EARS > SENSORINEURAL DEAFNESS, PROFOUND"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000407>
+    
+    
+Individual: <http://model.geneontology.org/5c172c97-d0d7-4988-9072-a23e4ef787d3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/630eeead-40e7-4cb4-8c6f-ba10396a0e18>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614861>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36f6f515-45ff-4e28-a2c5-b493ebdfa695>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/860181f9-cc53-4037-afb3-9d4487ac3608>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36f6f515-45ff-4e28-a2c5-b493ebdfa695>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36f6f515-45ff-4e28-a2c5-b493ebdfa695>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36f6f515-45ff-4e28-a2c5-b493ebdfa695>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c172c97-d0d7-4988-9072-a23e4ef787d3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c36c3dd4-58fa-46c8-abf7-b4d0b874bb10>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c172c97-d0d7-4988-9072-a23e4ef787d3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c172c97-d0d7-4988-9072-a23e4ef787d3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-12-02"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c172c97-d0d7-4988-9072-a23e4ef787d3>
+    
+    
+Individual: <http://model.geneontology.org/860181f9-cc53-4037-afb3-9d4487ac3608>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614861>
+    
+    
+Individual: <http://model.geneontology.org/c36c3dd4-58fa-46c8-abf7-b4d0b874bb10>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614861>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614861>
+
+    Annotations: 
+        rdfs:label "#614861 DEAFNESS, AUTOSOMAL RECESSIVE 98; DFNB98"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

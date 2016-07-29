@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8172120a-7ec9-4d17-9a79-0605d9aba6c1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-611820.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001657>
+
+    Annotations: 
+        rdfs:label "Prolonged QT interval on EKG"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_611820>
+
+    Annotations: 
+        rdfs:label "#611820 LONG QT SYNDROME 11; LQT11"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5771ef37-b438-4b84-a3f6-fb8831e46cb0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_611820>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aaca31f6-cb96-4541-ad98-4ad43d699c29>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a52b3511-8ae8-4d7e-b921-35e9c5fc181f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aaca31f6-cb96-4541-ad98-4ad43d699c29>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aaca31f6-cb96-4541-ad98-4ad43d699c29>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aaca31f6-cb96-4541-ad98-4ad43d699c29>
+    
+    
+Individual: <http://model.geneontology.org/a52b3511-8ae8-4d7e-b921-35e9c5fc181f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_611820>
+    
+    
+Individual: <http://model.geneontology.org/aaca31f6-cb96-4541-ad98-4ad43d699c29>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001657>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_611820>
+
+    Annotations: 
+        rdfs:label "#611820 LONG QT SYNDROME 11; LQT11"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

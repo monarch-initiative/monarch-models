@@ -1,0 +1,258 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8a97fbfd-3d12-44de-9309-8e95707476de>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601547.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002488>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000519>
+
+    Annotations: 
+        rdfs:label "Congenital cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003577>
+
+    Annotations: 
+        rdfs:label "Congenital onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007976>
+
+    Annotations: 
+        rdfs:label "Cerulean cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010695>
+
+    Annotations: 
+        rdfs:label "Sutural cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601547>
+
+    Annotations: 
+        rdfs:label "#601547 CATARACT, CONGENITAL, CERULEAN TYPE, 2; CCA2;;CATARACT, CONGENITAL, 'BLUE DOT' TYPE, 2"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/020f1731-a03e-44d7-9bf0-bcc4494921d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007976>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/52a8bfec-e09e-4874-bfe4-f8a9b76f5225>,
+     <http://purl.obolibrary.org/obo/RO_0002488>  <http://model.geneontology.org/492418c2-d873-4986-a6ec-3d9cdc39b655>
+    
+    
+Individual: <http://model.geneontology.org/1650e8ef-5952-4150-822c-119d9a689dbe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010695>
+    
+    
+Individual: <http://model.geneontology.org/1838c476-9bee-40e7-b4b5-76cedb3d26af>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:11424921>
+    
+    
+Individual: <http://model.geneontology.org/1c1cf2b9-9de5-412b-be7c-c812a3d03c93>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#601547 cataract, congenital, cerulean type, 2;"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000519>
+    
+    
+Individual: <http://model.geneontology.org/492418c2-d873-4986-a6ec-3d9cdc39b655>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003577>
+    
+    
+Individual: <http://model.geneontology.org/52a8bfec-e09e-4874-bfe4-f8a9b76f5225>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "obligate"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/70953552-b191-4b1f-a4e9-c96af585ceda>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:11424921>
+    
+    
+Individual: <http://model.geneontology.org/935f4d5c-3bfc-4b36-bbe5-9ecd10c00b50>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601547>
+    
+    
+Individual: <http://model.geneontology.org/ce5b388f-78e8-413a-8c1c-d3d8f149194c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601547>
+    
+    
+Individual: <http://model.geneontology.org/d1b49694-4f19-426b-97a4-f75131df26fe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/db5c0c18-73e6-4bca-be33-d02f257995d3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601547>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1b49694-4f19-426b-97a4-f75131df26fe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1838c476-9bee-40e7-b4b5-76cedb3d26af>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1b49694-4f19-426b-97a4-f75131df26fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1b49694-4f19-426b-97a4-f75131df26fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1b49694-4f19-426b-97a4-f75131df26fe>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020f1731-a03e-44d7-9bf0-bcc4494921d8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ce5b388f-78e8-413a-8c1c-d3d8f149194c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020f1731-a03e-44d7-9bf0-bcc4494921d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020f1731-a03e-44d7-9bf0-bcc4494921d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020f1731-a03e-44d7-9bf0-bcc4494921d8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1cf2b9-9de5-412b-be7c-c812a3d03c93>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/935f4d5c-3bfc-4b36-bbe5-9ecd10c00b50>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1cf2b9-9de5-412b-be7c-c812a3d03c93>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1cf2b9-9de5-412b-be7c-c812a3d03c93>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c1cf2b9-9de5-412b-be7c-c812a3d03c93>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1650e8ef-5952-4150-822c-119d9a689dbe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/70953552-b191-4b1f-a4e9-c96af585ceda>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1650e8ef-5952-4150-822c-119d9a689dbe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1650e8ef-5952-4150-822c-119d9a689dbe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1650e8ef-5952-4150-822c-119d9a689dbe>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601547>
+
+    Annotations: 
+        rdfs:label "#601547 CATARACT, CONGENITAL, CERULEAN TYPE, 2; CCA2;;CATARACT, CONGENITAL, 'BLUE DOT' TYPE, 2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <pmid:11424921>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

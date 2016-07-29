@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e84a5657-86f4-4c85-a1fe-150b6c41914e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-130700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002097>
+
+    Annotations: 
+        rdfs:label "Emphysema"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004469>
+
+    Annotations: 
+        rdfs:label "Chronic bronchitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006510>
+
+    Annotations: 
+        rdfs:label "Chronic obstructive pulmonary disease"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_130700>
+
+    Annotations: 
+        rdfs:label "EMPHYSEMA, HEREDITARY PULMONARY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1a9b0976-d658-4c10-a983-c6e083fbaee8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004469>
+    
+    
+Individual: <http://model.geneontology.org/6b3aa642-f98b-4c76-b4d9-950017ba9ec7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002097>
+    
+    
+Individual: <http://model.geneontology.org/77095a4b-bf2a-48a0-b80e-7390ab7e3321>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_130700>
+    
+    
+Individual: <http://model.geneontology.org/9ce2bddc-4adb-4113-b300-cc187dce9d22>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006510>
+    
+    
+Individual: <http://model.geneontology.org/9d52c85a-c8a4-426c-9368-7385367fdc88>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_130700>
+    
+    
+Individual: <http://model.geneontology.org/bb7293b2-2d09-40a4-85c0-7078ccab67a8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_130700>
+    
+    
+Individual: <http://model.geneontology.org/be5db5a0-b980-43ec-a3c8-b6718b13d5c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_130700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a9b0976-d658-4c10-a983-c6e083fbaee8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9d52c85a-c8a4-426c-9368-7385367fdc88>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a9b0976-d658-4c10-a983-c6e083fbaee8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a9b0976-d658-4c10-a983-c6e083fbaee8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a9b0976-d658-4c10-a983-c6e083fbaee8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b3aa642-f98b-4c76-b4d9-950017ba9ec7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb7293b2-2d09-40a4-85c0-7078ccab67a8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b3aa642-f98b-4c76-b4d9-950017ba9ec7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b3aa642-f98b-4c76-b4d9-950017ba9ec7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b3aa642-f98b-4c76-b4d9-950017ba9ec7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ce2bddc-4adb-4113-b300-cc187dce9d22>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/77095a4b-bf2a-48a0-b80e-7390ab7e3321>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ce2bddc-4adb-4113-b300-cc187dce9d22>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ce2bddc-4adb-4113-b300-cc187dce9d22>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ce2bddc-4adb-4113-b300-cc187dce9d22>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_130700>
+
+    Annotations: 
+        rdfs:label "EMPHYSEMA, HEREDITARY PULMONARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

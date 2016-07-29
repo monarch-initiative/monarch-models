@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a3d77f91-aa5e-40a7-9dd8-83ed6c611213>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0000077.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0000077>
+
+    Annotations: 
+        rdfs:label "GASTROINTESTINAL SYSTEM DISEASE"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011024>
+
+    Annotations: 
+        rdfs:label "Abnormality of the gastrointestinal tract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/4dd5896a-b4a6-49d9-ba09-cd6259cdcfbc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:gastrointestinal disease"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011024>
+    
+    
+Individual: <http://model.geneontology.org/aa3cc14e-e3fd-414c-90f0-f4dac6937594>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0000077>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4dd5896a-b4a6-49d9-ba09-cd6259cdcfbc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c2741724-8748-4aad-8b05-d0c5d48e5638>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4dd5896a-b4a6-49d9-ba09-cd6259cdcfbc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4dd5896a-b4a6-49d9-ba09-cd6259cdcfbc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4dd5896a-b4a6-49d9-ba09-cd6259cdcfbc>
+    
+    
+Individual: <http://model.geneontology.org/c2741724-8748-4aad-8b05-d0c5d48e5638>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0000077>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0000077>
+
+    Annotations: 
+        rdfs:label "GASTROINTESTINAL SYSTEM DISEASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

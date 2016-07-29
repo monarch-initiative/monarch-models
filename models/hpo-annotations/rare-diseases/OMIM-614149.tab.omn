@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/fc11ee18-a11d-452c-979a-ec7df3a44911>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614149.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001802>
+
+    Annotations: 
+        rdfs:label "Absent toenails"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008400>
+
+    Annotations: 
+        rdfs:label "Onycholysis of distal fingernails"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614149>
+
+    Annotations: 
+        rdfs:label "%614149 NAIL DISORDER, NONSYNDROMIC CONGENITAL, 9; NDNC9;;ANONYCHIA-ONYCHOLYSIS, ISOLATED;;ONYCHODYSTROPHY;;NAIL DYSPLASIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0f45780d-0df6-4a8c-a3e9-ff6366e6e9bd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > ONYCHOLYSIS OF FINGERNAILS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008400>
+    
+    
+Individual: <http://model.geneontology.org/2f63245f-d49a-4874-a246-f93cb7d412bb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > ANONYCHIA OF TOENAILS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001802>
+    
+    
+Individual: <http://model.geneontology.org/7f7c4a36-5bef-4ed8-89bf-f2bcc987f377>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614149>
+    
+    
+Individual: <http://model.geneontology.org/a022480a-12bc-44c5-aea2-2c82af55b523>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614149>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab25d5b9-f76e-4ca1-a09e-9555f8999221>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c08e6363-7fe1-44b7-a798-cc56e42f319f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab25d5b9-f76e-4ca1-a09e-9555f8999221>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab25d5b9-f76e-4ca1-a09e-9555f8999221>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab25d5b9-f76e-4ca1-a09e-9555f8999221>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f45780d-0df6-4a8c-a3e9-ff6366e6e9bd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e5de54ad-8a7e-4a7d-a9ba-215edc4e622e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f45780d-0df6-4a8c-a3e9-ff6366e6e9bd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f45780d-0df6-4a8c-a3e9-ff6366e6e9bd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f45780d-0df6-4a8c-a3e9-ff6366e6e9bd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f63245f-d49a-4874-a246-f93cb7d412bb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7f7c4a36-5bef-4ed8-89bf-f2bcc987f377>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f63245f-d49a-4874-a246-f93cb7d412bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f63245f-d49a-4874-a246-f93cb7d412bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2f63245f-d49a-4874-a246-f93cb7d412bb>
+    
+    
+Individual: <http://model.geneontology.org/ab25d5b9-f76e-4ca1-a09e-9555f8999221>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/c08e6363-7fe1-44b7-a798-cc56e42f319f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614149>
+    
+    
+Individual: <http://model.geneontology.org/e5de54ad-8a7e-4a7d-a9ba-215edc4e622e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614149>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614149>
+
+    Annotations: 
+        rdfs:label "%614149 NAIL DISORDER, NONSYNDROMIC CONGENITAL, 9; NDNC9;;ANONYCHIA-ONYCHOLYSIS, ISOLATED;;ONYCHODYSTROPHY;;NAIL DYSPLASIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

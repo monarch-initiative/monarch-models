@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b08fe2c1-aff0-4efe-9683-5943ba393709>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614665.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004388>
+
+    Annotations: 
+        rdfs:label "Microcolon"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004401>
+
+    Annotations: 
+        rdfs:label "Meconium ileus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0040128>
+
+    Annotations: 
+        rdfs:label "Abnormal sweat electrolytes"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614665>
+
+    Annotations: 
+        rdfs:label "#614665 MECONIUM ILEUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/58a5043e-b40c-4712-8c69-a7a8b11b7e46>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/63756805-c8ac-4f77-91ad-9ad0c1053cd8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614665>
+    
+    
+Individual: <http://model.geneontology.org/657a2cdb-6f4a-4ecf-bad8-f48c0ed04412>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614665>
+    
+    
+Individual: <http://model.geneontology.org/7f8bc51e-0c7a-4a8d-8edc-07a3859588f9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_GASTROINTESTINAL > MECONIUM ILEUS ON ULTRASONOGRAPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004401>
+    
+    
+Individual: <http://model.geneontology.org/8baf4486-7af9-4455-893f-d058b8e97174>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614665>
+    
+    
+Individual: <http://model.geneontology.org/cfe110f4-fba9-4e45-bfc5-4ffebb65c349>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_GASTROINTESTINAL > MICROCOLON ON CONTRAST ENEMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004388>
+    
+    
+Individual: <http://model.geneontology.org/e5ff984b-7239-418c-a242-886b8aa88166>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614665>
+    
+    
+Individual: <http://model.geneontology.org/f471d659-6109-4ce8-b544-892b656f3ca8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MISCELLANEOUS > NORMAL SWEAT ELECTROLYTES"^^xsd:string
+    
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0040128>)
+    
+    
+Individual: <http://model.geneontology.org/f69e1272-447b-4427-b851-3a76d96789a8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614665>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfe110f4-fba9-4e45-bfc5-4ffebb65c349>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/657a2cdb-6f4a-4ecf-bad8-f48c0ed04412>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfe110f4-fba9-4e45-bfc5-4ffebb65c349>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfe110f4-fba9-4e45-bfc5-4ffebb65c349>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfe110f4-fba9-4e45-bfc5-4ffebb65c349>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f471d659-6109-4ce8-b544-892b656f3ca8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63756805-c8ac-4f77-91ad-9ad0c1053cd8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f471d659-6109-4ce8-b544-892b656f3ca8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f471d659-6109-4ce8-b544-892b656f3ca8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f471d659-6109-4ce8-b544-892b656f3ca8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58a5043e-b40c-4712-8c69-a7a8b11b7e46>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e5ff984b-7239-418c-a242-886b8aa88166>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58a5043e-b40c-4712-8c69-a7a8b11b7e46>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58a5043e-b40c-4712-8c69-a7a8b11b7e46>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58a5043e-b40c-4712-8c69-a7a8b11b7e46>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f8bc51e-0c7a-4a8d-8edc-07a3859588f9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8baf4486-7af9-4455-893f-d058b8e97174>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f8bc51e-0c7a-4a8d-8edc-07a3859588f9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f8bc51e-0c7a-4a8d-8edc-07a3859588f9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f8bc51e-0c7a-4a8d-8edc-07a3859588f9>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614665>
+
+    Annotations: 
+        rdfs:label "#614665 MECONIUM ILEUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

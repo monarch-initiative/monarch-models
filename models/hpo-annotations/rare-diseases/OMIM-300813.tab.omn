@@ -1,0 +1,126 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1fa05117-9c55-4139-bc53-2351027a9a4c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300813.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012570>
+
+    Annotations: 
+        rdfs:label "Synovial sarcoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300813>
+
+    Annotations: 
+        rdfs:label "SARCOMA, SYNOVIAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/77510bcd-20e9-47ef-8445-7e6758faf7fb>
+
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300813>
+    
+    
+Individual: <http://model.geneontology.org/ae575a0b-a075-46c7-b280-255a42664d1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012570>
+    
+    
+Individual: <http://model.geneontology.org/ccfac124-d3ab-434b-8742-2fa3a7935c71>
+
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300813>
+    
+    
+Individual: <http://model.geneontology.org/f645190a-54f3-42b4-9400-bcd2504d5b3b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/f6cb6d16-cd48-4ba2-8a58-3276d439e918>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300813>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae575a0b-a075-46c7-b280-255a42664d1c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ccfac124-d3ab-434b-8742-2fa3a7935c71>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae575a0b-a075-46c7-b280-255a42664d1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae575a0b-a075-46c7-b280-255a42664d1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-00-08"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae575a0b-a075-46c7-b280-255a42664d1c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f645190a-54f3-42b4-9400-bcd2504d5b3b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/77510bcd-20e9-47ef-8445-7e6758faf7fb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f645190a-54f3-42b4-9400-bcd2504d5b3b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f645190a-54f3-42b4-9400-bcd2504d5b3b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-00-08"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f645190a-54f3-42b4-9400-bcd2504d5b3b>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300813>
+
+    Annotations: 
+        rdfs:label "SARCOMA, SYNOVIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

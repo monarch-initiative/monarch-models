@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/376077bc-7555-40cb-b4af-a9d186db42fb>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601666.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000819>
+
+    Annotations: 
+        rdfs:label "Diabetes mellitus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100651>
+
+    Annotations: 
+        rdfs:label "Type I diabetes mellitus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601666>
+
+    Annotations: 
+        rdfs:label "DIABETES MELLITUS, INSULIN-DEPENDENT, 15"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0abcee74-341e-4f60-aa82-93671f6fe16d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601666>
+    
+    
+Individual: <http://model.geneontology.org/6518f725-70ac-4777-b808-a927db360876>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:METABOLIC > INSULIN-DEPENDENT DIABETES MELLITUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100651>
+    
+    
+Individual: <http://model.geneontology.org/8d36ff6f-6594-4720-aa6d-24d504d066c4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000819>
+    
+    
+Individual: <http://model.geneontology.org/aa5af656-298f-40ae-abbc-4d205682438b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601666>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6518f725-70ac-4777-b808-a927db360876>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0abcee74-341e-4f60-aa82-93671f6fe16d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6518f725-70ac-4777-b808-a927db360876>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6518f725-70ac-4777-b808-a927db360876>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6518f725-70ac-4777-b808-a927db360876>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d36ff6f-6594-4720-aa6d-24d504d066c4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/de4699dc-f897-43f2-888d-33ef4b0f997f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d36ff6f-6594-4720-aa6d-24d504d066c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d36ff6f-6594-4720-aa6d-24d504d066c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d36ff6f-6594-4720-aa6d-24d504d066c4>
+    
+    
+Individual: <http://model.geneontology.org/de4699dc-f897-43f2-888d-33ef4b0f997f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601666>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601666>
+
+    Annotations: 
+        rdfs:label "DIABETES MELLITUS, INSULIN-DEPENDENT, 15"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

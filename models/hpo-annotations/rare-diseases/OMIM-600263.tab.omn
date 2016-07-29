@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/92c923c2-e997-4088-b4b3-ffb5a65e5a9b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-600263.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005202>
+
+    Annotations: 
+        rdfs:label "Helicobacter pylori infection"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_600263>
+
+    Annotations: 
+        rdfs:label "HELICOBACTER PYLORI INFECTION, SUSCEPTIBILITY TO"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/354a9266-38ad-442b-b126-3eb309b83f9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_600263>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20534c7-cfbe-4352-b937-d097a9ee1aa9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b0fa2579-3345-47ff-90db-985072320169>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20534c7-cfbe-4352-b937-d097a9ee1aa9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20534c7-cfbe-4352-b937-d097a9ee1aa9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20534c7-cfbe-4352-b937-d097a9ee1aa9>
+    
+    
+Individual: <http://model.geneontology.org/b0fa2579-3345-47ff-90db-985072320169>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600263>
+    
+    
+Individual: <http://model.geneontology.org/b20534c7-cfbe-4352-b937-d097a9ee1aa9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005202>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_600263>
+
+    Annotations: 
+        rdfs:label "HELICOBACTER PYLORI INFECTION, SUSCEPTIBILITY TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

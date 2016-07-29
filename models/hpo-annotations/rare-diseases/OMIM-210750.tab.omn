@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7b2be6cf-2a7a-4ffd-8fe0-a85d720e3b55>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-210750.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001595>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hair"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_210750>
+
+    Annotations: 
+        rdfs:label "SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 6"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0d510e10-e46a-4303-acf0-76203a09c90a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_210750>
+    
+    
+Individual: <http://model.geneontology.org/5158b2b9-bd0d-4b04-874c-53dad724d5a7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/55ba6607-6ade-47d5-9e86-6585be81b0a5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_210750>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feaa9b4a-0dec-4fc2-93f2-ca248ad0839a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8314d5f8-2d7c-4f54-a8d3-a0ce37ae225b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feaa9b4a-0dec-4fc2-93f2-ca248ad0839a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feaa9b4a-0dec-4fc2-93f2-ca248ad0839a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feaa9b4a-0dec-4fc2-93f2-ca248ad0839a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5158b2b9-bd0d-4b04-874c-53dad724d5a7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0d510e10-e46a-4303-acf0-76203a09c90a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5158b2b9-bd0d-4b04-874c-53dad724d5a7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5158b2b9-bd0d-4b04-874c-53dad724d5a7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5158b2b9-bd0d-4b04-874c-53dad724d5a7>
+    
+    
+Individual: <http://model.geneontology.org/8314d5f8-2d7c-4f54-a8d3-a0ce37ae225b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_210750>
+    
+    
+Individual: <http://model.geneontology.org/feaa9b4a-0dec-4fc2-93f2-ca248ad0839a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001595>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_210750>
+
+    Annotations: 
+        rdfs:label "SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 6"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1b8d17f1-30d2-4a3c-aa11-10d2f3175552>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-191950.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001025>
+
+    Annotations: 
+        rdfs:label "Urticaria"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_191950>
+
+    Annotations: 
+        rdfs:label "URTICARIA, FAMILIAL LOCALIZED HEAT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/50cae217-61bf-42ea-9950-c20faea9b765>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191950>
+    
+    
+Individual: <http://model.geneontology.org/6893aa1d-9dbf-4c20-bd41-b3d0fed9dbb0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001025>
+    
+    
+Individual: <http://model.geneontology.org/e4656241-ead4-480b-80d1-79e39676c41c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191950>
+    
+    
+Individual: <http://model.geneontology.org/e86f68a0-8bf6-4025-b35c-6b1409d9b75d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/eecb3172-f4dc-481e-9ba8-d0215b5d0d59>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_191950>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e86f68a0-8bf6-4025-b35c-6b1409d9b75d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/50cae217-61bf-42ea-9950-c20faea9b765>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e86f68a0-8bf6-4025-b35c-6b1409d9b75d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e86f68a0-8bf6-4025-b35c-6b1409d9b75d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e86f68a0-8bf6-4025-b35c-6b1409d9b75d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6893aa1d-9dbf-4c20-bd41-b3d0fed9dbb0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e4656241-ead4-480b-80d1-79e39676c41c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6893aa1d-9dbf-4c20-bd41-b3d0fed9dbb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6893aa1d-9dbf-4c20-bd41-b3d0fed9dbb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6893aa1d-9dbf-4c20-bd41-b3d0fed9dbb0>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_191950>
+
+    Annotations: 
+        rdfs:label "URTICARIA, FAMILIAL LOCALIZED HEAT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

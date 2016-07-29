@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/db579aff-0b0d-4c0e-a5d0-e0cadbce68a7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615184.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001644>
+
+    Annotations: 
+        rdfs:label "Dilated cardiomyopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001653>
+
+    Annotations: 
+        rdfs:label "Mitral regurgitation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615184>
+
+    Annotations: 
+        rdfs:label "#615184 CARDIOMYOPATHY, DILATED, 1II; CMD1II"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01426f44-f83e-415f-86da-51810e7a280f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > MITRAL REGURGITATION, MILD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001653>
+    
+    
+Individual: <http://model.geneontology.org/34c640c0-23f0-43a4-893b-bcb2d2f493f5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "MODIFIER:MILD;OMIM-CS:CARDIOVASCULAR_HEART > CARDIOMYOPATHY, DILATED, MILD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001644>
+    
+    
+Individual: <http://model.geneontology.org/6c51aa93-6818-4cdb-96a5-a266cc4d0b86>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615184>
+    
+    
+Individual: <http://model.geneontology.org/b878a949-c23c-4da9-afdc-680604f848bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615184>
+    
+    
+Individual: <http://model.geneontology.org/bf56e451-3896-49ad-ad05-3e16d9d3b2bf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/de0c3afe-cff3-48a4-8cf0-c8dbe424ad66>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615184>
+    
+    
+Individual: <http://model.geneontology.org/f08662cb-7d4b-45cf-8761-e65b416c07a2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615184>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf56e451-3896-49ad-ad05-3e16d9d3b2bf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/de0c3afe-cff3-48a4-8cf0-c8dbe424ad66>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf56e451-3896-49ad-ad05-3e16d9d3b2bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf56e451-3896-49ad-ad05-3e16d9d3b2bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf56e451-3896-49ad-ad05-3e16d9d3b2bf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01426f44-f83e-415f-86da-51810e7a280f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6c51aa93-6818-4cdb-96a5-a266cc4d0b86>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01426f44-f83e-415f-86da-51810e7a280f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01426f44-f83e-415f-86da-51810e7a280f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-31"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01426f44-f83e-415f-86da-51810e7a280f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34c640c0-23f0-43a4-893b-bcb2d2f493f5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b878a949-c23c-4da9-afdc-680604f848bb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34c640c0-23f0-43a4-893b-bcb2d2f493f5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34c640c0-23f0-43a4-893b-bcb2d2f493f5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/34c640c0-23f0-43a4-893b-bcb2d2f493f5>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615184>
+
+    Annotations: 
+        rdfs:label "#615184 CARDIOMYOPATHY, DILATED, 1II; CMD1II"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

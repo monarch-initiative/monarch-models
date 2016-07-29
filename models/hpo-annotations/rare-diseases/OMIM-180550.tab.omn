@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b5b91bd9-1f76-467f-805e-585289907321>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-180550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000481>
+
+    Annotations: 
+        rdfs:label "Abnormality of the cornea"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000502>
+
+    Annotations: 
+        rdfs:label "Abnormality of the conjunctiva"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_180550>
+
+    Annotations: 
+        rdfs:label "#180550 RING DERMOID OF CORNEA; RDC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/41684234-45a4-4978-9e08-d3fbd1c014ae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_180550>
+    
+    
+Individual: <http://model.geneontology.org/62b13b09-75eb-4e14-bbb1-3541fe540eaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_180550>
+    
+    
+Individual: <http://model.geneontology.org/8086d106-986a-421c-a7a9-768b57a75f89>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:EYES > ANNULAR LIMBAL DERMOIDS EXTENDING ONTO CORNEA AND CONJUNCTIVA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000502>
+    
+    
+Individual: <http://model.geneontology.org/8b72915b-bcb1-4c21-8202-7b355a4af541>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:EYES > ANNULAR LIMBAL DERMOIDS EXTENDING ONTO CORNEA AND CONJUNCTIVA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000481>
+    
+    
+Individual: <http://model.geneontology.org/9c007511-ffea-480f-abf2-712e985957f3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/ba2186b7-05ef-472d-9093-880079d2be09>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_180550>
+    
+    
+Individual: <http://model.geneontology.org/dc82f083-a4d1-4167-9f31-b96363d251ce>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_180550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b72915b-bcb1-4c21-8202-7b355a4af541>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/62b13b09-75eb-4e14-bbb1-3541fe540eaa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b72915b-bcb1-4c21-8202-7b355a4af541>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b72915b-bcb1-4c21-8202-7b355a4af541>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b72915b-bcb1-4c21-8202-7b355a4af541>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8086d106-986a-421c-a7a9-768b57a75f89>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/41684234-45a4-4978-9e08-d3fbd1c014ae>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8086d106-986a-421c-a7a9-768b57a75f89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8086d106-986a-421c-a7a9-768b57a75f89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8086d106-986a-421c-a7a9-768b57a75f89>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c007511-ffea-480f-abf2-712e985957f3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ba2186b7-05ef-472d-9093-880079d2be09>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c007511-ffea-480f-abf2-712e985957f3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c007511-ffea-480f-abf2-712e985957f3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c007511-ffea-480f-abf2-712e985957f3>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_180550>
+
+    Annotations: 
+        rdfs:label "#180550 RING DERMOID OF CORNEA; RDC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

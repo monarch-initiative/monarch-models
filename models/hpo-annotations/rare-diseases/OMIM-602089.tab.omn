@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b29b9ef3-6e40-44f3-8859-85fbb298cca3>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-602089.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005306>
+
+    Annotations: 
+        rdfs:label "Capillary hemangiomas"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_602089>
+
+    Annotations: 
+        rdfs:label "#602089 HEMANGIOMA, CAPILLARY INFANTILE;;HCI;;HEMANGIOMA, HEREDITARY CAPILLARY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/11565810-fcd6-402b-86e9-3023380b2604>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_602089>
+    
+    
+Individual: <http://model.geneontology.org/30aca002-38c5-45ca-8b8a-9c5affb53cf5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005306>
+    
+    
+Individual: <http://model.geneontology.org/61828d47-8f0e-4b82-b514-2d85c0c9125c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_602089>
+    
+    
+Individual: <http://model.geneontology.org/e7655997-dd05-4cdc-bf1d-ccdce4856a58>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/ea646820-debc-46e2-a175-ed44e4757e49>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_602089>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7655997-dd05-4cdc-bf1d-ccdce4856a58>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/61828d47-8f0e-4b82-b514-2d85c0c9125c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7655997-dd05-4cdc-bf1d-ccdce4856a58>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7655997-dd05-4cdc-bf1d-ccdce4856a58>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7655997-dd05-4cdc-bf1d-ccdce4856a58>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30aca002-38c5-45ca-8b8a-9c5affb53cf5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/11565810-fcd6-402b-86e9-3023380b2604>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30aca002-38c5-45ca-8b8a-9c5affb53cf5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30aca002-38c5-45ca-8b8a-9c5affb53cf5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30aca002-38c5-45ca-8b8a-9c5affb53cf5>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_602089>
+
+    Annotations: 
+        rdfs:label "#602089 HEMANGIOMA, CAPILLARY INFANTILE;;HCI;;HEMANGIOMA, HEREDITARY CAPILLARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

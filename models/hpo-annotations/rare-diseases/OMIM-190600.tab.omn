@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/34b321f4-56a6-43bb-a516-42695729145d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-190600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001199>
+
+    Annotations: 
+        rdfs:label "Triphalangeal thumb"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010442>
+
+    Annotations: 
+        rdfs:label "Polydactyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_190600>
+
+    Annotations: 
+        rdfs:label "TRIPHALANGEAL THUMB, NONOPPOSABLE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01b5eab1-bb58-4cb0-9a0b-11eaeea86e56>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LIMBS > POLYDACTYLY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010442>
+    
+    
+Individual: <http://model.geneontology.org/0b04f2c0-3dca-4a36-bcba-f1910c5a70e4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/1c0d80dc-7714-4cbc-adb4-cb6a83aa6d67>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001199>
+    
+    
+Individual: <http://model.geneontology.org/388cdb66-7082-49c5-a8ef-6218eaf3fcb4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190600>
+    
+    
+Individual: <http://model.geneontology.org/7f35118d-6dd9-4311-b641-5ff3b42e1ef8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190600>
+    
+    
+Individual: <http://model.geneontology.org/d6900994-09c2-4064-be8a-c20a7590734d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190600>
+    
+    
+Individual: <http://model.geneontology.org/f5c1dc3a-f798-413b-9759-4a7fd4ef09a9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_190600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b04f2c0-3dca-4a36-bcba-f1910c5a70e4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/388cdb66-7082-49c5-a8ef-6218eaf3fcb4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b04f2c0-3dca-4a36-bcba-f1910c5a70e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b04f2c0-3dca-4a36-bcba-f1910c5a70e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b04f2c0-3dca-4a36-bcba-f1910c5a70e4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01b5eab1-bb58-4cb0-9a0b-11eaeea86e56>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7f35118d-6dd9-4311-b641-5ff3b42e1ef8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01b5eab1-bb58-4cb0-9a0b-11eaeea86e56>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01b5eab1-bb58-4cb0-9a0b-11eaeea86e56>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/01b5eab1-bb58-4cb0-9a0b-11eaeea86e56>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c0d80dc-7714-4cbc-adb4-cb6a83aa6d67>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d6900994-09c2-4064-be8a-c20a7590734d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c0d80dc-7714-4cbc-adb4-cb6a83aa6d67>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c0d80dc-7714-4cbc-adb4-cb6a83aa6d67>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c0d80dc-7714-4cbc-adb4-cb6a83aa6d67>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_190600>
+
+    Annotations: 
+        rdfs:label "TRIPHALANGEAL THUMB, NONOPPOSABLE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

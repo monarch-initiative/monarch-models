@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/06e17ed4-c17e-45ac-a5e3-8170b87bd112>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-149300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001598>
+
+    Annotations: 
+        rdfs:label "Concave nail"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_149300>
+
+    Annotations: 
+        rdfs:label "KOILONYCHIA, HEREDITARY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/931c7136-7692-4388-ae99-eb8b153b9b6c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_149300>
+    
+    
+Individual: <http://model.geneontology.org/c9ddb667-0411-417e-9eb8-e9246ab38527>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_149300>
+    
+    
+Individual: <http://model.geneontology.org/ebe3d596-6c85-4b6f-ae6c-185476705b3d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_149300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f88c7ddb-9679-4361-be3b-9f7df2a048e1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c9ddb667-0411-417e-9eb8-e9246ab38527>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f88c7ddb-9679-4361-be3b-9f7df2a048e1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f88c7ddb-9679-4361-be3b-9f7df2a048e1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f88c7ddb-9679-4361-be3b-9f7df2a048e1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd473a7c-a17e-4ba9-a488-9c8f31ae2dc9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/931c7136-7692-4388-ae99-eb8b153b9b6c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd473a7c-a17e-4ba9-a488-9c8f31ae2dc9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd473a7c-a17e-4ba9-a488-9c8f31ae2dc9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd473a7c-a17e-4ba9-a488-9c8f31ae2dc9>
+    
+    
+Individual: <http://model.geneontology.org/f88c7ddb-9679-4361-be3b-9f7df2a048e1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/fd473a7c-a17e-4ba9-a488-9c8f31ae2dc9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001598>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_149300>
+
+    Annotations: 
+        rdfs:label "KOILONYCHIA, HEREDITARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

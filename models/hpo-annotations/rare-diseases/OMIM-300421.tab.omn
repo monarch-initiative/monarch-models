@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0cc9a3ef-a4ca-4b9d-87e6-39052ab7d496>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300421.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001510>
+
+    Annotations: 
+        rdfs:label "Growth delay"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300421>
+
+    Annotations: 
+        rdfs:label "X-LINKED INTELLECTUAL DISABILITY, WITTWER TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2bce5798-f70a-4aa9-9af4-335c39dbcbbe>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:x-linked intellectual disability, wittwer typewittwe"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://model.geneontology.org/5b794d3a-16b5-411f-ac7c-c2438de806fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300421>
+    
+    
+Individual: <http://model.geneontology.org/c15dbb6f-46ec-40fb-aad2-e8ed0dc5da9a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:x-linked intellectual disability, wittwer typewittwe"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001510>
+    
+    
+Individual: <http://model.geneontology.org/ce58d1ba-dfde-4988-bcc5-aabfa72e76e1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300421>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c15dbb6f-46ec-40fb-aad2-e8ed0dc5da9a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5b794d3a-16b5-411f-ac7c-c2438de806fa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c15dbb6f-46ec-40fb-aad2-e8ed0dc5da9a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c15dbb6f-46ec-40fb-aad2-e8ed0dc5da9a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c15dbb6f-46ec-40fb-aad2-e8ed0dc5da9a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bce5798-f70a-4aa9-9af4-335c39dbcbbe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e0227dd9-fe96-4982-a0c1-819dee69efa9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bce5798-f70a-4aa9-9af4-335c39dbcbbe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bce5798-f70a-4aa9-9af4-335c39dbcbbe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bce5798-f70a-4aa9-9af4-335c39dbcbbe>
+    
+    
+Individual: <http://model.geneontology.org/e0227dd9-fe96-4982-a0c1-819dee69efa9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300421>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300421>
+
+    Annotations: 
+        rdfs:label "X-LINKED INTELLECTUAL DISABILITY, WITTWER TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

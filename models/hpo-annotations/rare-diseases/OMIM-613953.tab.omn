@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a52d7de9-a56f-4c23-bc90-8f3bdaee1869>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613953.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002728>
+
+    Annotations: 
+        rdfs:label "Chronic mucocutaneous candidiasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613953>
+
+    Annotations: 
+        rdfs:label "#613953 CANDIDIASIS, FAMILIAL, 5; CANDF5;;CANDIDIASIS, FAMILIAL CHRONIC MUCOCUTANEOUS, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/20bb46e7-c750-4508-bafe-91bbccd1d912>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/52530727-e6a9-4d29-a5f8-a709f55a05b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002728>
+    
+    
+Individual: <http://model.geneontology.org/872ee175-2329-4a7c-aaf6-24d06f79df7b>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:21350122>
+    
+    
+Individual: <http://model.geneontology.org/8f5d2ba1-6e73-46b9-bb8c-f95405919e89>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:21350122>
+    
+    
+Individual: <http://model.geneontology.org/bce194e6-525a-4596-8e34-78709fbbbeb7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613953>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20bb46e7-c750-4508-bafe-91bbccd1d912>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8f5d2ba1-6e73-46b9-bb8c-f95405919e89>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20bb46e7-c750-4508-bafe-91bbccd1d912>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20bb46e7-c750-4508-bafe-91bbccd1d912>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20bb46e7-c750-4508-bafe-91bbccd1d912>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52530727-e6a9-4d29-a5f8-a709f55a05b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/872ee175-2329-4a7c-aaf6-24d06f79df7b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52530727-e6a9-4d29-a5f8-a709f55a05b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52530727-e6a9-4d29-a5f8-a709f55a05b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52530727-e6a9-4d29-a5f8-a709f55a05b4>
+    
+    
+Individual: <pmid:21350122>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

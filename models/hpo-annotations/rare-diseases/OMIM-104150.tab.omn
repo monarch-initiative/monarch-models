@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/67a84e41-7aad-458c-8dbf-30a6c620978e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-104150.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011432>
+
+    Annotations: 
+        rdfs:label "High maternal serum alpha-fetoprotein"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_104150>
+
+    Annotations: 
+        rdfs:label "ALPHA-FETOPROTEIN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3df529ab-06d5-4cc5-8d33-8c4c38ac30ea>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > ELEVATED MATERNAL SERUM AND AMNIOTIC FLUID AFP IN: CONGENITAL NEPHROSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011432>
+    
+    
+Individual: <http://model.geneontology.org/42acb682-d091-4b7d-8589-8b5f9ab15d2b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_104150>
+    
+    
+Individual: <http://model.geneontology.org/649980f5-cfa6-4610-bb9e-ad1f7a91bf77>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/6d048246-1172-4484-a999-dfa50f51161e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_104150>
+    
+    
+Individual: <http://model.geneontology.org/aa9ae46d-a64d-4cfd-8378-a4b697276ace>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_104150>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f309dc60-1f7e-47ea-9e49-3f384684b64d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6d048246-1172-4484-a999-dfa50f51161e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f309dc60-1f7e-47ea-9e49-3f384684b64d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f309dc60-1f7e-47ea-9e49-3f384684b64d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f309dc60-1f7e-47ea-9e49-3f384684b64d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df529ab-06d5-4cc5-8d33-8c4c38ac30ea>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bfb7fc8f-56a5-47fa-9ae0-d84b7773daba>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df529ab-06d5-4cc5-8d33-8c4c38ac30ea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df529ab-06d5-4cc5-8d33-8c4c38ac30ea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df529ab-06d5-4cc5-8d33-8c4c38ac30ea>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/649980f5-cfa6-4610-bb9e-ad1f7a91bf77>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42acb682-d091-4b7d-8589-8b5f9ab15d2b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/649980f5-cfa6-4610-bb9e-ad1f7a91bf77>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/649980f5-cfa6-4610-bb9e-ad1f7a91bf77>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/649980f5-cfa6-4610-bb9e-ad1f7a91bf77>
+    
+    
+Individual: <http://model.geneontology.org/bfb7fc8f-56a5-47fa-9ae0-d84b7773daba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_104150>
+    
+    
+Individual: <http://model.geneontology.org/f309dc60-1f7e-47ea-9e49-3f384684b64d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Deficiency is asymptomatic"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_104150>
+
+    Annotations: 
+        rdfs:label "ALPHA-FETOPROTEIN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

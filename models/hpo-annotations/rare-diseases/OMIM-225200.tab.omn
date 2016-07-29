@@ -1,0 +1,319 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/061d28e3-e021-4690-aa37-8fa135223a8f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-225200.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000518>
+
+    Annotations: 
+        rdfs:label "Cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000541>
+
+    Annotations: 
+        rdfs:label "Retinal detachment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001083>
+
+    Annotations: 
+        rdfs:label "Ectopia lentis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009917>
+
+    Annotations: 
+        rdfs:label "Persistent pupillary membrane"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011003>
+
+    Annotations: 
+        rdfs:label "Severe Myopia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_225200>
+
+    Annotations: 
+        rdfs:label "%225200 ECTOPIA LENTIS ET PUPILLAE;;ECTOPIA LENTIS WITH ECTOPIA OF PUPIL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/140706d5-d0ee-4200-b559-8afd3e40fbc3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001083>
+    
+    
+Individual: <http://model.geneontology.org/18ffa378-7473-47d1-a5e5-ff97dc112888>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_225200>
+    
+    
+Individual: <http://model.geneontology.org/221ce273-c888-4571-9b05-84a4cf9c75ec>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > RETINAL DETACHMENT (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000541>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/db9135a2-f416-4588-8529-91b1c42ee725>
+    
+    
+Individual: <http://model.geneontology.org/41d5c7b4-4564-4ecb-ab5b-3c513716a072>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/45326760-37c1-4fbc-b641-5bd9373af29a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_225200>
+    
+    
+Individual: <http://model.geneontology.org/45aa5e01-db6a-4d6c-8ccf-87db151601c4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > PERSISTENT PUPILLARY MEMBRANE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009917>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/41d5c7b4-4564-4ecb-ab5b-3c513716a072>
+    
+    
+Individual: <http://model.geneontology.org/4e13b449-a008-4d03-a334-f7782ec414b8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > CATARACT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000518>
+    
+    
+Individual: <http://model.geneontology.org/4e26cee3-4c09-401d-b702-4c7c4e014926>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/6270c8a6-6d15-430a-bb1e-0f4b030421ba>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > HIGH MYOPIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011003>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/d1833dec-5d8b-4aae-9d1e-16312e868cc8>
+    
+    
+Individual: <http://model.geneontology.org/634b285d-6435-4637-9445-8c7e890f91c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_225200>
+    
+    
+Individual: <http://model.geneontology.org/96d3a108-aef0-48cd-9d7b-744013d0ea9e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_225200>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/140706d5-d0ee-4200-b559-8afd3e40fbc3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb5e8ac3-1a21-4420-977d-e83853c6caf9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/140706d5-d0ee-4200-b559-8afd3e40fbc3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/140706d5-d0ee-4200-b559-8afd3e40fbc3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/140706d5-d0ee-4200-b559-8afd3e40fbc3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/221ce273-c888-4571-9b05-84a4cf9c75ec>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/18ffa378-7473-47d1-a5e5-ff97dc112888>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/221ce273-c888-4571-9b05-84a4cf9c75ec>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/221ce273-c888-4571-9b05-84a4cf9c75ec>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/221ce273-c888-4571-9b05-84a4cf9c75ec>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e13b449-a008-4d03-a334-f7782ec414b8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/634b285d-6435-4637-9445-8c7e890f91c1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e13b449-a008-4d03-a334-f7782ec414b8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e13b449-a008-4d03-a334-f7782ec414b8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e13b449-a008-4d03-a334-f7782ec414b8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e26cee3-4c09-401d-b702-4c7c4e014926>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/45326760-37c1-4fbc-b641-5bd9373af29a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e26cee3-4c09-401d-b702-4c7c4e014926>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e26cee3-4c09-401d-b702-4c7c4e014926>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e26cee3-4c09-401d-b702-4c7c4e014926>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45aa5e01-db6a-4d6c-8ccf-87db151601c4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ec905eb2-58a8-48f4-b041-4b38125d1b55>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45aa5e01-db6a-4d6c-8ccf-87db151601c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45aa5e01-db6a-4d6c-8ccf-87db151601c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45aa5e01-db6a-4d6c-8ccf-87db151601c4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6270c8a6-6d15-430a-bb1e-0f4b030421ba>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e4ed26dd-ce46-4566-834a-a1a20ce7a3cc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6270c8a6-6d15-430a-bb1e-0f4b030421ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6270c8a6-6d15-430a-bb1e-0f4b030421ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6270c8a6-6d15-430a-bb1e-0f4b030421ba>
+    
+    
+Individual: <http://model.geneontology.org/bb5e8ac3-1a21-4420-977d-e83853c6caf9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_225200>
+    
+    
+Individual: <http://model.geneontology.org/d1833dec-5d8b-4aae-9d1e-16312e868cc8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/db9135a2-f416-4588-8529-91b1c42ee725>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/e4ed26dd-ce46-4566-834a-a1a20ce7a3cc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_225200>
+    
+    
+Individual: <http://model.geneontology.org/ec905eb2-58a8-48f4-b041-4b38125d1b55>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_225200>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_225200>
+
+    Annotations: 
+        rdfs:label "%225200 ECTOPIA LENTIS ET PUPILLAE;;ECTOPIA LENTIS WITH ECTOPIA OF PUPIL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

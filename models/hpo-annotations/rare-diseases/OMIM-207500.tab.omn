@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/20f25977-8861-4d08-b671-52a50403bf4e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-207500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002023>
+
+    Annotations: 
+        rdfs:label "Anal atresia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_207500>
+
+    Annotations: 
+        rdfs:label "ANUS, IMPERFORATE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0805dd4e-20ee-491f-9bc8-3176a6349eb9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_207500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ffecd39-57d6-40ac-8388-d39f86c459fb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/79589d4e-6cb4-4613-b742-6af887c1db31>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ffecd39-57d6-40ac-8388-d39f86c459fb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ffecd39-57d6-40ac-8388-d39f86c459fb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ffecd39-57d6-40ac-8388-d39f86c459fb>
+    
+    
+Individual: <http://model.geneontology.org/1ffecd39-57d6-40ac-8388-d39f86c459fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002023>
+    
+    
+Individual: <http://model.geneontology.org/79589d4e-6cb4-4613-b742-6af887c1db31>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_207500>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_207500>
+
+    Annotations: 
+        rdfs:label "ANUS, IMPERFORATE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

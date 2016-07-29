@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/10fd3920-85f9-40af-9dd0-432e5ec60367>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-426000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001450>
+
+    Annotations: 
+        rdfs:label "Y-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002715>
+
+    Annotations: 
+        rdfs:label "Abnormality of the immune system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_426000>
+
+    Annotations: 
+        rdfs:label "JUMONJI, AT-RICH INTERACTIVE DOMAIN 1D"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/029fa7de-0fbe-4374-b36c-175386564dba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_426000>
+    
+    
+Individual: <http://model.geneontology.org/35b0128e-f540-42f0-bcbd-b907f0b673af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002715>
+    
+    
+Individual: <http://model.geneontology.org/52afed71-47f9-43ef-913f-dd0c038430c6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_426000>
+    
+    
+Individual: <http://model.geneontology.org/6ebec1e0-8d2b-447b-8cf7-39466cd89563>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_426000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf976670-b308-41b3-ad53-2b2cd233756a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/52afed71-47f9-43ef-913f-dd0c038430c6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf976670-b308-41b3-ad53-2b2cd233756a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf976670-b308-41b3-ad53-2b2cd233756a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cf976670-b308-41b3-ad53-2b2cd233756a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/35b0128e-f540-42f0-bcbd-b907f0b673af>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/029fa7de-0fbe-4374-b36c-175386564dba>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/35b0128e-f540-42f0-bcbd-b907f0b673af>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/35b0128e-f540-42f0-bcbd-b907f0b673af>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/35b0128e-f540-42f0-bcbd-b907f0b673af>
+    
+    
+Individual: <http://model.geneontology.org/cf976670-b308-41b3-ad53-2b2cd233756a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001450>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_426000>
+
+    Annotations: 
+        rdfs:label "JUMONJI, AT-RICH INTERACTIVE DOMAIN 1D"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ce75136c-b418-41a3-b6a0-c16e0829065f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-159420.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007932>
+
+    Annotations: 
+        rdfs:label "Bilateral congenital mydriasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_159420>
+
+    Annotations: 
+        rdfs:label "MYDRIASIS, CONGENITAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0386810a-a5df-4e0f-b125-e1016f36e03d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_159420>
+    
+    
+Individual: <http://model.geneontology.org/1f884ce8-b0df-4dc8-9c17-a5dc10a76b89>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7df7bb33-cf71-43c4-bb20-16f18f60f4b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_159420>
+    
+    
+Individual: <http://model.geneontology.org/cca4f110-4c17-463e-b885-c9e5852926ae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_159420>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8a958d7-ec32-4001-9acf-8aeea109117a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0386810a-a5df-4e0f-b125-e1016f36e03d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8a958d7-ec32-4001-9acf-8aeea109117a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8a958d7-ec32-4001-9acf-8aeea109117a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e8a958d7-ec32-4001-9acf-8aeea109117a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f884ce8-b0df-4dc8-9c17-a5dc10a76b89>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7df7bb33-cf71-43c4-bb20-16f18f60f4b4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f884ce8-b0df-4dc8-9c17-a5dc10a76b89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f884ce8-b0df-4dc8-9c17-a5dc10a76b89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f884ce8-b0df-4dc8-9c17-a5dc10a76b89>
+    
+    
+Individual: <http://model.geneontology.org/e8a958d7-ec32-4001-9acf-8aeea109117a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007932>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_159420>
+
+    Annotations: 
+        rdfs:label "MYDRIASIS, CONGENITAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

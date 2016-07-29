@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7284f48b-33ad-48a7-88e4-204908cdf803>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-119550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000175>
+
+    Annotations: 
+        rdfs:label "Cleft palate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_119550>
+
+    Annotations: 
+        rdfs:label "CLEFT PALATE-LATERAL SYNECHIA SYNDROME"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/335310ef-9c86-463d-bba9-ad142e44974b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_119550>
+    
+    
+Individual: <http://model.geneontology.org/772f25c2-dd7d-45fd-9b94-e7764ec125da>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_119550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c55af9-2c45-40ac-a34c-fe8abf30b182>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/335310ef-9c86-463d-bba9-ad142e44974b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c55af9-2c45-40ac-a34c-fe8abf30b182>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c55af9-2c45-40ac-a34c-fe8abf30b182>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c55af9-2c45-40ac-a34c-fe8abf30b182>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d8ebbd5f-6fa0-49c5-966c-f12706156944>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e96096d4-ebb3-4e91-a7a6-94677691f60c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d8ebbd5f-6fa0-49c5-966c-f12706156944>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d8ebbd5f-6fa0-49c5-966c-f12706156944>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d8ebbd5f-6fa0-49c5-966c-f12706156944>
+    
+    
+Individual: <http://model.geneontology.org/a6c55af9-2c45-40ac-a34c-fe8abf30b182>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000175>
+    
+    
+Individual: <http://model.geneontology.org/d8ebbd5f-6fa0-49c5-966c-f12706156944>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/e96096d4-ebb3-4e91-a7a6-94677691f60c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_119550>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_119550>
+
+    Annotations: 
+        rdfs:label "CLEFT PALATE-LATERAL SYNECHIA SYNDROME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

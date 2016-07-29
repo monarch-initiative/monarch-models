@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8cabb3cf-5305-4424-a3e7-8e95bca7e601>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300147.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012125>
+
+    Annotations: 
+        rdfs:label "Prostate cancer"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300147>
+
+    Annotations: 
+        rdfs:label "%300147 PROSTATE CANCER, HEREDITARY, X-LINKED 1; HPCX1;;PROSTATE CANCER SUSCEPTIBILITY, X-LINKED; PCSX"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/14061d85-65b4-4a4c-af8c-34a1c4676d86>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/2bf89be3-7a93-43d3-b20c-d0e8f8b2bed6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300147>
+    
+    
+Individual: <http://model.geneontology.org/bf31c6cc-b5a4-4e3f-a868-7d43d65d05be>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300147>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e586d746-5b85-4184-9923-c5318b3d56fa>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e8ccdc24-4312-4afb-b296-7f09ce9f61e4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e586d746-5b85-4184-9923-c5318b3d56fa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e586d746-5b85-4184-9923-c5318b3d56fa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e586d746-5b85-4184-9923-c5318b3d56fa>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14061d85-65b4-4a4c-af8c-34a1c4676d86>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2bf89be3-7a93-43d3-b20c-d0e8f8b2bed6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14061d85-65b4-4a4c-af8c-34a1c4676d86>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14061d85-65b4-4a4c-af8c-34a1c4676d86>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14061d85-65b4-4a4c-af8c-34a1c4676d86>
+    
+    
+Individual: <http://model.geneontology.org/e586d746-5b85-4184-9923-c5318b3d56fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012125>
+    
+    
+Individual: <http://model.geneontology.org/e8ccdc24-4312-4afb-b296-7f09ce9f61e4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300147>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300147>
+
+    Annotations: 
+        rdfs:label "%300147 PROSTATE CANCER, HEREDITARY, X-LINKED 1; HPCX1;;PROSTATE CANCER SUSCEPTIBILITY, X-LINKED; PCSX"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b1b7367a-b74d-4f20-92a0-f78947154f5a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-272000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002036>
+
+    Annotations: 
+        rdfs:label "Hiatus hernia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_272000>
+
+    Annotations: 
+        rdfs:label "SUCROSURIA, HIATUS HERNIA AND MENTAL RETARDATION"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0d4fdb8c-7815-4e93-b085-99a81e16c20d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002036>
+    
+    
+Individual: <http://model.geneontology.org/539cd4e7-0486-49ee-a8ea-9faaec359f54>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/5ca65529-e29c-43ab-b907-dc82ab2d8fa4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272000>
+    
+    
+Individual: <http://model.geneontology.org/7a1fda18-5a73-43d3-8db4-1a7f8533612f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272000>
+    
+    
+Individual: <http://model.geneontology.org/a2893350-d205-4522-b052-489b020d3ec6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_272000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df561d11-0a9a-46cf-812c-5d6a1854b645>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5ca65529-e29c-43ab-b907-dc82ab2d8fa4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df561d11-0a9a-46cf-812c-5d6a1854b645>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df561d11-0a9a-46cf-812c-5d6a1854b645>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df561d11-0a9a-46cf-812c-5d6a1854b645>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d4fdb8c-7815-4e93-b085-99a81e16c20d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7a1fda18-5a73-43d3-8db4-1a7f8533612f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d4fdb8c-7815-4e93-b085-99a81e16c20d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d4fdb8c-7815-4e93-b085-99a81e16c20d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0d4fdb8c-7815-4e93-b085-99a81e16c20d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/539cd4e7-0486-49ee-a8ea-9faaec359f54>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bd95c7a8-6d2b-44df-915a-197ff4b937c9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/539cd4e7-0486-49ee-a8ea-9faaec359f54>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/539cd4e7-0486-49ee-a8ea-9faaec359f54>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/539cd4e7-0486-49ee-a8ea-9faaec359f54>
+    
+    
+Individual: <http://model.geneontology.org/bd95c7a8-6d2b-44df-915a-197ff4b937c9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272000>
+    
+    
+Individual: <http://model.geneontology.org/df561d11-0a9a-46cf-812c-5d6a1854b645>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_272000>
+
+    Annotations: 
+        rdfs:label "SUCROSURIA, HIATUS HERNIA AND MENTAL RETARDATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

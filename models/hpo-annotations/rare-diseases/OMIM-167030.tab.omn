@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ec857211-179e-4533-93c0-85de9a44ff51>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-167030.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003159>
+
+    Annotations: 
+        rdfs:label "Hyperoxaluria"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008725>
+
+    Annotations: 
+        rdfs:label "Oxalate nephrolithiasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_167030>
+
+    Annotations: 
+        rdfs:label "NEPHROLITHIASIS, CALCIUM OXALATE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3e060277-b018-4a08-bb92-1d4378ab6a59>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_167030>
+    
+    
+Individual: <http://model.geneontology.org/7aef6edc-5fad-4271-90ed-1ce927dfc378>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003159>
+    
+    
+Individual: <http://model.geneontology.org/813eb395-0164-4ce6-a07e-18fc6a6b4ce3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_167030>
+    
+    
+Individual: <http://model.geneontology.org/ab0485ae-6310-4a4c-968e-24559e5ff536>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008725>
+    
+    
+Individual: <http://model.geneontology.org/d4c4586d-9519-4e0f-9cbb-c7d7831d4541>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_167030>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab0485ae-6310-4a4c-968e-24559e5ff536>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3e060277-b018-4a08-bb92-1d4378ab6a59>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab0485ae-6310-4a4c-968e-24559e5ff536>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab0485ae-6310-4a4c-968e-24559e5ff536>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ab0485ae-6310-4a4c-968e-24559e5ff536>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7aef6edc-5fad-4271-90ed-1ce927dfc378>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/813eb395-0164-4ce6-a07e-18fc6a6b4ce3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7aef6edc-5fad-4271-90ed-1ce927dfc378>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7aef6edc-5fad-4271-90ed-1ce927dfc378>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7aef6edc-5fad-4271-90ed-1ce927dfc378>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_167030>
+
+    Annotations: 
+        rdfs:label "NEPHROLITHIASIS, CALCIUM OXALATE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

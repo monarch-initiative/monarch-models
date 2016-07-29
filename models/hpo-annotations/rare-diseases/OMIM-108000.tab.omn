@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/cfe58baf-631c-46ee-9997-06d0242fec08>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-108000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001626>
+
+    Annotations: 
+        rdfs:label "Abnormality of the cardiovascular system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_108000>
+
+    Annotations: 
+        rdfs:label "ARTERIES, ANOMALIES OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b0bd34f6-7bb7-48ce-adeb-7db8893f1880>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001626>
+    
+    
+Individual: <http://model.geneontology.org/bef2e085-4ed9-4c52-846a-1dc219f5bc07>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/bfdc03c2-ddba-4725-9feb-ba581f6bb6d6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108000>
+    
+    
+Individual: <http://model.geneontology.org/f29ca0af-0fd3-4ac5-855d-c70b774858b6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108000>
+    
+    
+Individual: <http://model.geneontology.org/ff2f0dd2-f690-4f6b-bef6-423d795fb6f3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_108000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0bd34f6-7bb7-48ce-adeb-7db8893f1880>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bfdc03c2-ddba-4725-9feb-ba581f6bb6d6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0bd34f6-7bb7-48ce-adeb-7db8893f1880>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0bd34f6-7bb7-48ce-adeb-7db8893f1880>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0bd34f6-7bb7-48ce-adeb-7db8893f1880>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bef2e085-4ed9-4c52-846a-1dc219f5bc07>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f29ca0af-0fd3-4ac5-855d-c70b774858b6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bef2e085-4ed9-4c52-846a-1dc219f5bc07>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bef2e085-4ed9-4c52-846a-1dc219f5bc07>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bef2e085-4ed9-4c52-846a-1dc219f5bc07>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_108000>
+
+    Annotations: 
+        rdfs:label "ARTERIES, ANOMALIES OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

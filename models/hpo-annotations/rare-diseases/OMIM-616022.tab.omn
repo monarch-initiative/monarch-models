@@ -1,0 +1,353 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/05c6d5a2-50ed-4c53-a9f8-3b49c047f45d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616022.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000403>
+
+    Annotations: 
+        rdfs:label "Recurrent otitis media"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001508>
+
+    Annotations: 
+        rdfs:label "Failure to thrive"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001875>
+
+    Annotations: 
+        rdfs:label "Neutropenia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002205>
+
+    Annotations: 
+        rdfs:label "Recurrent respiratory infections"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002718>
+
+    Annotations: 
+        rdfs:label "Recurrent bacterial infections"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004322>
+
+    Annotations: 
+        rdfs:label "Short stature"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616022>
+
+    Annotations: 
+        rdfs:label "NEUTROPENIA, SEVERE CONGENITAL, 6, AUTOSOMAL RECESSIVE; SCN6"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2fd1c148-0abc-4f85-9404-e6b1e01a755c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:IMMUNOLOGY > RECURRENT BACTERIAL INFECTIONS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002718>
+    
+    
+Individual: <http://model.geneontology.org/32c89aa8-c721-44c7-84f8-cb27555b0a34>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616022>
+    
+    
+Individual: <http://model.geneontology.org/39d00d38-70ae-4410-8ffb-f8e7eaf51e9a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_HEIGHT > SHORT STATURE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004322>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/9da21bdb-8d10-45fc-b009-d71e3154f5a8>
+    
+    
+Individual: <http://model.geneontology.org/409d6134-6f48-4f62-8336-1b5fe51d25ab>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4e3cc8b0-6824-41f9-aa0e-89449e2434ef>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/5e4a6516-4755-4558-8edf-3aa2a403dcec>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616022>
+    
+    
+Individual: <http://model.geneontology.org/6f9f6c8d-f68e-4c15-987f-2b53818f6e00>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:RESPIRATORY > RECURRENT RESPIRATORY INFECTIONS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002205>
+    
+    
+Individual: <http://model.geneontology.org/8e335294-60ef-4c00-95ee-cecf86cfcbb7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616022>
+    
+    
+Individual: <http://model.geneontology.org/8e86d963-40a4-4c22-b057-18208f9ae0f5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616022>
+    
+    
+Individual: <http://model.geneontology.org/93461f07-7fea-4bec-906f-0278ab377ce9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616022>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d040ab0b-3559-4925-8f6a-2b41bc44e5d2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/32c89aa8-c721-44c7-84f8-cb27555b0a34>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d040ab0b-3559-4925-8f6a-2b41bc44e5d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d040ab0b-3559-4925-8f6a-2b41bc44e5d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d040ab0b-3559-4925-8f6a-2b41bc44e5d2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d17c5553-9b55-4ce4-a421-a26001733647>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8e86d963-40a4-4c22-b057-18208f9ae0f5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d17c5553-9b55-4ce4-a421-a26001733647>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d17c5553-9b55-4ce4-a421-a26001733647>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d17c5553-9b55-4ce4-a421-a26001733647>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0b7e62a-2e76-4c50-8a2d-8b5a30d77e74>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f59759fe-b130-4669-989f-c6ead97e3014>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0b7e62a-2e76-4c50-8a2d-8b5a30d77e74>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0b7e62a-2e76-4c50-8a2d-8b5a30d77e74>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0b7e62a-2e76-4c50-8a2d-8b5a30d77e74>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2fd1c148-0abc-4f85-9404-e6b1e01a755c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb95832e-4b0b-4748-baa0-a4f629a33f58>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2fd1c148-0abc-4f85-9404-e6b1e01a755c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2fd1c148-0abc-4f85-9404-e6b1e01a755c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2fd1c148-0abc-4f85-9404-e6b1e01a755c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39d00d38-70ae-4410-8ffb-f8e7eaf51e9a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8e335294-60ef-4c00-95ee-cecf86cfcbb7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39d00d38-70ae-4410-8ffb-f8e7eaf51e9a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39d00d38-70ae-4410-8ffb-f8e7eaf51e9a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39d00d38-70ae-4410-8ffb-f8e7eaf51e9a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e3cc8b0-6824-41f9-aa0e-89449e2434ef>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e827285d-6e9f-4ab2-91a1-0af831461e1f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e3cc8b0-6824-41f9-aa0e-89449e2434ef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e3cc8b0-6824-41f9-aa0e-89449e2434ef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e3cc8b0-6824-41f9-aa0e-89449e2434ef>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f9f6c8d-f68e-4c15-987f-2b53818f6e00>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5e4a6516-4755-4558-8edf-3aa2a403dcec>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f9f6c8d-f68e-4c15-987f-2b53818f6e00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f9f6c8d-f68e-4c15-987f-2b53818f6e00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f9f6c8d-f68e-4c15-987f-2b53818f6e00>
+    
+    
+Individual: <http://model.geneontology.org/9da21bdb-8d10-45fc-b009-d71e3154f5a8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/bb95832e-4b0b-4748-baa0-a4f629a33f58>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616022>
+    
+    
+Individual: <http://model.geneontology.org/d040ab0b-3559-4925-8f6a-2b41bc44e5d2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EARS > RECURRENT OTITIS MEDIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000403>
+    
+    
+Individual: <http://model.geneontology.org/d17c5553-9b55-4ce4-a421-a26001733647>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_OTHER > FAILURE TO THRIVE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001508>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/409d6134-6f48-4f62-8336-1b5fe51d25ab>
+    
+    
+Individual: <http://model.geneontology.org/e827285d-6e9f-4ab2-91a1-0af831461e1f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/f0b7e62a-2e76-4c50-8a2d-8b5a30d77e74>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:IMMUNOLOGY > NEUTROPENIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001875>
+    
+    
+Individual: <http://model.geneontology.org/f59759fe-b130-4669-989f-c6ead97e3014>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616022>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616022>
+
+    Annotations: 
+        rdfs:label "NEUTROPENIA, SEVERE CONGENITAL, 6, AUTOSOMAL RECESSIVE; SCN6"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

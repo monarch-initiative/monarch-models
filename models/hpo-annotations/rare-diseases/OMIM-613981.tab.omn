@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/db42ca6e-4c54-4b9d-916d-161ee6e62905>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613981.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004782>
+
+    Annotations: 
+        rdfs:label "Hypotrichosis of the scalp"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613981>
+
+    Annotations: 
+        rdfs:label "#613981 HYPOTRICHOSIS 3; HYPT3;;HYPOTRICHOSIS SIMPLEX OF THE SCALP 2; HTSS2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/24ea4a29-eed5-4480-80bd-601de5a1ded2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004782>
+    
+    
+Individual: <http://model.geneontology.org/38c57d0e-e32d-42a3-a60b-03ceda093ff1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613981>
+    
+    
+Individual: <http://model.geneontology.org/456fde33-b1cd-46df-9f7c-5dc34bca702f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613981>
+    
+    
+Individual: <http://model.geneontology.org/49ed3e76-8618-468d-bb11-16ccb6c9ad42>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613981>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24ea4a29-eed5-4480-80bd-601de5a1ded2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/456fde33-b1cd-46df-9f7c-5dc34bca702f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24ea4a29-eed5-4480-80bd-601de5a1ded2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24ea4a29-eed5-4480-80bd-601de5a1ded2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24ea4a29-eed5-4480-80bd-601de5a1ded2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99d1610b-d062-41f7-bb17-3cdaa3818c70>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/38c57d0e-e32d-42a3-a60b-03ceda093ff1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99d1610b-d062-41f7-bb17-3cdaa3818c70>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99d1610b-d062-41f7-bb17-3cdaa3818c70>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99d1610b-d062-41f7-bb17-3cdaa3818c70>
+    
+    
+Individual: <http://model.geneontology.org/99d1610b-d062-41f7-bb17-3cdaa3818c70>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613981>
+
+    Annotations: 
+        rdfs:label "#613981 HYPOTRICHOSIS 3; HYPT3;;HYPOTRICHOSIS SIMPLEX OF THE SCALP 2; HTSS2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

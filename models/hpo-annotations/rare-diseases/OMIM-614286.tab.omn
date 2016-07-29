@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/eaf9a992-3e11-4e10-b788-da4567b25d39>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614286.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002863>
+
+    Annotations: 
+        rdfs:label "Myelodysplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614286>
+
+    Annotations: 
+        rdfs:label "#614286 MYELODYSPLASTIC SYNDROME; MDS;;MYELODYSPLASTIC SYNDROME, SUSCEPTIBILITY TO, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1389aa81-25e1-4f8f-a3de-b27ac0384370>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002863>
+    
+    
+Individual: <http://model.geneontology.org/15de6e1c-3c2d-48da-9a61-2fb2b9244639>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/1e152cdd-4b61-4ed3-b3d1-1983eeadb8d3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614286>
+    
+    
+Individual: <http://model.geneontology.org/66ed2056-f7ad-424f-9398-d1451d17c7f1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614286>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1389aa81-25e1-4f8f-a3de-b27ac0384370>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1e152cdd-4b61-4ed3-b3d1-1983eeadb8d3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1389aa81-25e1-4f8f-a3de-b27ac0384370>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1389aa81-25e1-4f8f-a3de-b27ac0384370>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1389aa81-25e1-4f8f-a3de-b27ac0384370>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15de6e1c-3c2d-48da-9a61-2fb2b9244639>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ca081323-48a9-4f89-bd1b-746f56be7702>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15de6e1c-3c2d-48da-9a61-2fb2b9244639>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15de6e1c-3c2d-48da-9a61-2fb2b9244639>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15de6e1c-3c2d-48da-9a61-2fb2b9244639>
+    
+    
+Individual: <http://model.geneontology.org/ca081323-48a9-4f89-bd1b-746f56be7702>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614286>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614286>
+
+    Annotations: 
+        rdfs:label "#614286 MYELODYSPLASTIC SYNDROME; MDS;;MYELODYSPLASTIC SYNDROME, SUSCEPTIBILITY TO, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

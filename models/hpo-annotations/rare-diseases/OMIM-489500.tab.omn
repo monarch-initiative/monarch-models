@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9c0be505-6213-4ab1-831e-f12cabcf5b37>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-489500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001871>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hematopoietic system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002664>
+
+    Annotations: 
+        rdfs:label "Neoplasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_489500>
+
+    Annotations: 
+        rdfs:label "XG REGULATOR"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5d29682a-5bff-4bb8-a91e-780d5a2e3ecb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001871>
+    
+    
+Individual: <http://model.geneontology.org/712fbdf1-16a1-4e94-8ac9-168184abe4c2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_489500>
+    
+    
+Individual: <http://model.geneontology.org/752650e4-7c80-4f67-875a-d7c5ee8b289f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_489500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5d29682a-5bff-4bb8-a91e-780d5a2e3ecb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/80e83968-9bb6-45c0-bb56-c71f34a4de7a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5d29682a-5bff-4bb8-a91e-780d5a2e3ecb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5d29682a-5bff-4bb8-a91e-780d5a2e3ecb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5d29682a-5bff-4bb8-a91e-780d5a2e3ecb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab874e3-d5ff-4794-b67a-dee26e35cae8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/712fbdf1-16a1-4e94-8ac9-168184abe4c2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab874e3-d5ff-4794-b67a-dee26e35cae8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab874e3-d5ff-4794-b67a-dee26e35cae8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab874e3-d5ff-4794-b67a-dee26e35cae8>
+    
+    
+Individual: <http://model.geneontology.org/80e83968-9bb6-45c0-bb56-c71f34a4de7a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_489500>
+    
+    
+Individual: <http://model.geneontology.org/9ab874e3-d5ff-4794-b67a-dee26e35cae8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002664>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_489500>
+
+    Annotations: 
+        rdfs:label "XG REGULATOR"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

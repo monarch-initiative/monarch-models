@@ -1,0 +1,215 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e1a99af4-2621-4868-8699-2d0141480cb4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615888.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000421>
+
+    Annotations: 
+        rdfs:label "Epistaxis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003010>
+
+    Annotations: 
+        rdfs:label "Prolonged bleeding time"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003593>
+
+    Annotations: 
+        rdfs:label "Infantile onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615888>
+
+    Annotations: 
+        rdfs:label "BLEEDING DISORDER, PLATELET-TYPE, 18; BDPLT18"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/00ff9246-c030-4f04-b00d-9de4d6e0a12c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/0b77b32f-da5d-403f-8ce1-296fc36fdaa2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > PROLONGED BLEEDING TIME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003010>
+    
+    
+Individual: <http://model.geneontology.org/1bf88b9a-b133-444f-936c-c6d90417fe6f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615888>
+    
+    
+Individual: <http://model.geneontology.org/29ce8114-4972-4ce7-9557-5179f81080ae>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_NOSE > EPISTAXIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000421>
+    
+    
+Individual: <http://model.geneontology.org/427965b7-489d-4325-8d01-43753612a3c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/4c58be9c-15fc-44ca-81bd-e894ea0a2461>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/6877881c-da76-4168-8d34-83c8bc186127>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615888>
+    
+    
+Individual: <http://model.geneontology.org/a84dfe5f-7bc5-4b83-bf6a-8be70699339e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615888>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e1ed8b85-1210-4a53-aea7-37e4d707c727>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/00ff9246-c030-4f04-b00d-9de4d6e0a12c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e1ed8b85-1210-4a53-aea7-37e4d707c727>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e1ed8b85-1210-4a53-aea7-37e4d707c727>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e1ed8b85-1210-4a53-aea7-37e4d707c727>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b77b32f-da5d-403f-8ce1-296fc36fdaa2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6877881c-da76-4168-8d34-83c8bc186127>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b77b32f-da5d-403f-8ce1-296fc36fdaa2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b77b32f-da5d-403f-8ce1-296fc36fdaa2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b77b32f-da5d-403f-8ce1-296fc36fdaa2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29ce8114-4972-4ce7-9557-5179f81080ae>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1bf88b9a-b133-444f-936c-c6d90417fe6f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29ce8114-4972-4ce7-9557-5179f81080ae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29ce8114-4972-4ce7-9557-5179f81080ae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29ce8114-4972-4ce7-9557-5179f81080ae>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427965b7-489d-4325-8d01-43753612a3c5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4c58be9c-15fc-44ca-81bd-e894ea0a2461>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427965b7-489d-4325-8d01-43753612a3c5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427965b7-489d-4325-8d01-43753612a3c5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/427965b7-489d-4325-8d01-43753612a3c5>
+    
+    
+Individual: <http://model.geneontology.org/e1ed8b85-1210-4a53-aea7-37e4d707c727>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003593>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615888>
+
+    Annotations: 
+        rdfs:label "BLEEDING DISORDER, PLATELET-TYPE, 18; BDPLT18"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

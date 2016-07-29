@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/673c69a4-d5a5-4c99-abb3-623cb2a2ef61>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300087.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005268>
+
+    Annotations: 
+        rdfs:label "Spontaneous abortion"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300087>
+
+    Annotations: 
+        rdfs:label "#300087 X INACTIVATION, FAMILIAL SKEWED, 1; SXI1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0c7970bd-78ee-4670-8602-607754d09150>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005268>
+    
+    
+Individual: <http://model.geneontology.org/45ff0e18-a2d1-4921-ae83-0a213c5273cf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300087>
+    
+    
+Individual: <http://model.geneontology.org/c2a63b9a-7f3e-40bb-bcb5-ec680c1beec8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300087>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7970bd-78ee-4670-8602-607754d09150>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/45ff0e18-a2d1-4921-ae83-0a213c5273cf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7970bd-78ee-4670-8602-607754d09150>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7970bd-78ee-4670-8602-607754d09150>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7970bd-78ee-4670-8602-607754d09150>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300087>
+
+    Annotations: 
+        rdfs:label "#300087 X INACTIVATION, FAMILIAL SKEWED, 1; SXI1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

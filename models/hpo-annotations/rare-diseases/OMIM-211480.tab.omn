@@ -1,0 +1,212 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c38f403f-69a5-42c9-88c2-dc7b89b0e815>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-211480.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000975>
+
+    Annotations: 
+        rdfs:label "Hyperhidrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009763>
+
+    Annotations: 
+        rdfs:label "Limb pain"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012531>
+
+    Annotations: 
+        rdfs:label "Pain"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_211480>
+
+    Annotations: 
+        rdfs:label "211480 BUERGER DISEASE;;THROMBOANGIITIS OBLITERANS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/18da9689-8673-4109-95b0-df4741bc5aaf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000975>
+    
+    
+Individual: <http://model.geneontology.org/2c701752-bc35-44c5-8769-574d5d737f32>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LIMBS > PAIN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012531>
+    
+    
+Individual: <http://model.geneontology.org/39dbd2ec-9d52-4869-bcd9-9aacf0d6e902>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_211480>
+    
+    
+Individual: <http://model.geneontology.org/515cf3ce-3185-4ec0-9875-e5f822b9892c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_211480>
+    
+    
+Individual: <http://model.geneontology.org/5eb272d0-888b-459e-a31c-c8176b9e049d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_211480>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e27df789-f363-4653-8644-6bd7797fedd4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/74b63f8d-74f6-49a4-b828-05b79b4efbbb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e27df789-f363-4653-8644-6bd7797fedd4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e27df789-f363-4653-8644-6bd7797fedd4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e27df789-f363-4653-8644-6bd7797fedd4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18da9689-8673-4109-95b0-df4741bc5aaf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/39dbd2ec-9d52-4869-bcd9-9aacf0d6e902>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18da9689-8673-4109-95b0-df4741bc5aaf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18da9689-8673-4109-95b0-df4741bc5aaf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18da9689-8673-4109-95b0-df4741bc5aaf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c701752-bc35-44c5-8769-574d5d737f32>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/515cf3ce-3185-4ec0-9875-e5f822b9892c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c701752-bc35-44c5-8769-574d5d737f32>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c701752-bc35-44c5-8769-574d5d737f32>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c701752-bc35-44c5-8769-574d5d737f32>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f2fe8e3-8792-4fc1-a71b-11e8a271e867>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d2b61d63-f7f3-4f01-8bbd-bbc94f2e00f5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f2fe8e3-8792-4fc1-a71b-11e8a271e867>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f2fe8e3-8792-4fc1-a71b-11e8a271e867>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9f2fe8e3-8792-4fc1-a71b-11e8a271e867>
+    
+    
+Individual: <http://model.geneontology.org/74b63f8d-74f6-49a4-b828-05b79b4efbbb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_211480>
+    
+    
+Individual: <http://model.geneontology.org/9f2fe8e3-8792-4fc1-a71b-11e8a271e867>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009763>
+    
+    
+Individual: <http://model.geneontology.org/d2b61d63-f7f3-4f01-8bbd-bbc94f2e00f5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_211480>
+    
+    
+Individual: <http://model.geneontology.org/e27df789-f363-4653-8644-6bd7797fedd4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_211480>
+
+    Annotations: 
+        rdfs:label "211480 BUERGER DISEASE;;THROMBOANGIITIS OBLITERANS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

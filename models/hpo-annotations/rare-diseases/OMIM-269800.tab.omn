@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c8a771f0-54d3-4f9e-9090-b6dbd85b3771>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-269800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000707>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nervous system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100256>
+
+    Annotations: 
+        rdfs:label "Senile plaques"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_269800>
+
+    Annotations: 
+        rdfs:label "269800 SENILE PLAQUE FORMATION"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01baf2b4-033c-4658-ae48-3e389bcab1d6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_269800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1305e461-c83b-4b23-b899-1052badf21c5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/678b0750-4baa-45e2-b27f-2293742d09fc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1305e461-c83b-4b23-b899-1052badf21c5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1305e461-c83b-4b23-b899-1052badf21c5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1305e461-c83b-4b23-b899-1052badf21c5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67a4bcfd-848c-4c50-a59b-222f5fdf22a8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b37b122e-9678-40a4-bc78-4e5e1b027595>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67a4bcfd-848c-4c50-a59b-222f5fdf22a8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67a4bcfd-848c-4c50-a59b-222f5fdf22a8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67a4bcfd-848c-4c50-a59b-222f5fdf22a8>
+    
+    
+Individual: <http://model.geneontology.org/1305e461-c83b-4b23-b899-1052badf21c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000707>
+    
+    
+Individual: <http://model.geneontology.org/678b0750-4baa-45e2-b27f-2293742d09fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_269800>
+    
+    
+Individual: <http://model.geneontology.org/67a4bcfd-848c-4c50-a59b-222f5fdf22a8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEURO > SENILE PLAQUES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100256>
+    
+    
+Individual: <http://model.geneontology.org/b37b122e-9678-40a4-bc78-4e5e1b027595>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_269800>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_269800>
+
+    Annotations: 
+        rdfs:label "269800 SENILE PLAQUE FORMATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

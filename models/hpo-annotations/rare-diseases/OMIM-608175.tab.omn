@@ -1,0 +1,95 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/603ed0a6-00e0-40c8-af1b-801ea63dd60b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-608175.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100646>
+
+    Annotations: 
+        rdfs:label "Thyroiditis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_608175>
+
+    Annotations: 
+        rdfs:label "AUTOIMMUNE THYROID DISEASE, SUSCEPTIBILITY TO, 3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1302effd-88a6-445c-a587-0ac33a2ae595>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100646>
+    
+    
+Individual: <http://model.geneontology.org/c29af2bf-1138-4672-9393-5f7632032a1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_608175>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1302effd-88a6-445c-a587-0ac33a2ae595>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fdc0e15b-f844-40ba-9a56-c711dd610b3d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1302effd-88a6-445c-a587-0ac33a2ae595>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1302effd-88a6-445c-a587-0ac33a2ae595>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-23"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1302effd-88a6-445c-a587-0ac33a2ae595>
+    
+    
+Individual: <http://model.geneontology.org/fdc0e15b-f844-40ba-9a56-c711dd610b3d>
+
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608175>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_608175>
+
+    Annotations: 
+        rdfs:label "AUTOIMMUNE THYROID DISEASE, SUSCEPTIBILITY TO, 3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

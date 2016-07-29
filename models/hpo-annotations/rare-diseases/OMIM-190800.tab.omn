@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0a982df2-c98f-427f-84b0-86e8111a0466>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-190800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008009>
+
+    Annotations: 
+        rdfs:label "Three rows of eyelashes"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_190800>
+
+    Annotations: 
+        rdfs:label "TRISTICHIASIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/789efb19-f159-48a3-9ddc-ca9572ff2180>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7e354531-bbe7-4a85-8b6a-0b98709c525e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008009>
+    
+    
+Individual: <http://model.geneontology.org/87d34095-bb98-41ef-967d-389c2a3bfb2d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190800>
+    
+    
+Individual: <http://model.geneontology.org/a88b87a4-862e-4689-9f4b-de08545bd8e7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190800>
+    
+    
+Individual: <http://model.geneontology.org/b0fa000c-1fa4-4a19-9959-dbaa4ad197e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_190800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e354531-bbe7-4a85-8b6a-0b98709c525e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a88b87a4-862e-4689-9f4b-de08545bd8e7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e354531-bbe7-4a85-8b6a-0b98709c525e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e354531-bbe7-4a85-8b6a-0b98709c525e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e354531-bbe7-4a85-8b6a-0b98709c525e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/789efb19-f159-48a3-9ddc-ca9572ff2180>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/87d34095-bb98-41ef-967d-389c2a3bfb2d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/789efb19-f159-48a3-9ddc-ca9572ff2180>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/789efb19-f159-48a3-9ddc-ca9572ff2180>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/789efb19-f159-48a3-9ddc-ca9572ff2180>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_190800>
+
+    Annotations: 
+        rdfs:label "TRISTICHIASIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

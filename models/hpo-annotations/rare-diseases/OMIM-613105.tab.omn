@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/bbbaf1a7-8342-4ce3-8493-9be7a4bc028f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613105.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000533>
+
+    Annotations: 
+        rdfs:label "Chorioretinal atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000613>
+
+    Annotations: 
+        rdfs:label "Photophobia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613105>
+
+    Annotations: 
+        rdfs:label "CHOROIDAL DYSTROPHY, CENTRAL AREOLAR 2; CACD2"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4c026998-4530-4bce-aa6e-60f9c1f55d8f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000613>
+    
+    
+Individual: <http://model.geneontology.org/5f2e5f27-418d-49fa-be8a-fdef2b3358e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000533>
+    
+    
+Individual: <http://model.geneontology.org/6d45d1eb-06d4-4372-89b2-601f2e76a33f>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:14557183>
+    
+    
+Individual: <http://model.geneontology.org/76547310-cb26-41d1-894a-220215451a4a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613105>
+    
+    
+Individual: <http://model.geneontology.org/9d8f5f8f-b64b-4ad1-9d1f-0a73374b6f42>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613105>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d85fdf9b-c695-403b-9580-495c22912cd3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/76547310-cb26-41d1-894a-220215451a4a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d85fdf9b-c695-403b-9580-495c22912cd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d85fdf9b-c695-403b-9580-495c22912cd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d85fdf9b-c695-403b-9580-495c22912cd3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c026998-4530-4bce-aa6e-60f9c1f55d8f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/be6370a9-7d36-4f34-aafd-636d302bebd7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c026998-4530-4bce-aa6e-60f9c1f55d8f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c026998-4530-4bce-aa6e-60f9c1f55d8f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c026998-4530-4bce-aa6e-60f9c1f55d8f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f2e5f27-418d-49fa-be8a-fdef2b3358e6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6d45d1eb-06d4-4372-89b2-601f2e76a33f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f2e5f27-418d-49fa-be8a-fdef2b3358e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f2e5f27-418d-49fa-be8a-fdef2b3358e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f2e5f27-418d-49fa-be8a-fdef2b3358e6>
+    
+    
+Individual: <http://model.geneontology.org/be6370a9-7d36-4f34-aafd-636d302bebd7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613105>
+    
+    
+Individual: <http://model.geneontology.org/d85fdf9b-c695-403b-9580-495c22912cd3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613105>
+
+    Annotations: 
+        rdfs:label "CHOROIDAL DYSTROPHY, CENTRAL AREOLAR 2; CACD2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <pmid:14557183>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

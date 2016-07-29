@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2e5ec442-3f41-4698-a438-6373c00a4f4d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-123270.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012113>
+
+    Annotations: 
+        rdfs:label "Abnormality of creatine metabolism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_123270>
+
+    Annotations: 
+        rdfs:label "123270 CREATINE KINASE, BRAIN TYPE, ECTOPIC EXPRESSION OF; CKBE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/21ade672-2954-49da-9d0c-967613acbda0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012113>
+    
+    
+Individual: <http://model.geneontology.org/cb738275-f0f9-480c-bde1-59b559900bd5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_123270>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21ade672-2954-49da-9d0c-967613acbda0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f111eb24-d43a-4989-8c2e-32bb4502a593>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21ade672-2954-49da-9d0c-967613acbda0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21ade672-2954-49da-9d0c-967613acbda0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21ade672-2954-49da-9d0c-967613acbda0>
+    
+    
+Individual: <http://model.geneontology.org/f111eb24-d43a-4989-8c2e-32bb4502a593>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_123270>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_123270>
+
+    Annotations: 
+        rdfs:label "123270 CREATINE KINASE, BRAIN TYPE, ECTOPIC EXPRESSION OF; CKBE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

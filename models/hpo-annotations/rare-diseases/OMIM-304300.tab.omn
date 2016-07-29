@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c69862ae-1205-4afd-befa-8ecc5617909a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-304300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000271>
+
+    Annotations: 
+        rdfs:label "Abnormality of the face"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_304300>
+
+    Annotations: 
+        rdfs:label "CYANIDE, INABILITY TO SMELL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/49dead4b-5c9f-4f21-99b6-66a118f1a9f1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000271>
+    
+    
+Individual: <http://model.geneontology.org/6a4701db-19e1-431d-9e5c-cf74c525e78a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_304300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49dead4b-5c9f-4f21-99b6-66a118f1a9f1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/855f35d8-9425-4c4b-8877-0ec57b31f079>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49dead4b-5c9f-4f21-99b6-66a118f1a9f1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49dead4b-5c9f-4f21-99b6-66a118f1a9f1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/49dead4b-5c9f-4f21-99b6-66a118f1a9f1>
+    
+    
+Individual: <http://model.geneontology.org/855f35d8-9425-4c4b-8877-0ec57b31f079>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_304300>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_304300>
+
+    Annotations: 
+        rdfs:label "CYANIDE, INABILITY TO SMELL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

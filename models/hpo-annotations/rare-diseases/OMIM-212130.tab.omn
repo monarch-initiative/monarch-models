@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2c1fb612-ebe7-4370-8984-5f7be96104f8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-212130.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001670>
+
+    Annotations: 
+        rdfs:label "Asymmetric septal hypertrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003198>
+
+    Annotations: 
+        rdfs:label "Myopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_212130>
+
+    Annotations: 
+        rdfs:label "CARDIOMYOPATHY ASSOCIATED WITH MYOPATHY AND SUDDEN DEATH"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0451d2f5-3810-4ede-8e1e-0d1f64f4063b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/1e68a360-076e-4404-83e3-da88860b0ead>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_212130>
+    
+    
+Individual: <http://model.geneontology.org/4bc3daca-1efd-4a35-a652-e999da0b8014>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003198>
+    
+    
+Individual: <http://model.geneontology.org/5a53f0b3-f6ce-44a8-ad36-2f498eb3b138>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_212130>
+    
+    
+Individual: <http://model.geneontology.org/8ca1cad5-1255-4ff7-93bb-9cf9f8151d5a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001670>
+    
+    
+Individual: <http://model.geneontology.org/8f27d5b1-104a-40c9-94d7-dfbfada5c148>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_212130>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0451d2f5-3810-4ede-8e1e-0d1f64f4063b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c6b108f3-1288-4859-aa0f-a2fd103f043f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0451d2f5-3810-4ede-8e1e-0d1f64f4063b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0451d2f5-3810-4ede-8e1e-0d1f64f4063b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0451d2f5-3810-4ede-8e1e-0d1f64f4063b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4bc3daca-1efd-4a35-a652-e999da0b8014>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5a53f0b3-f6ce-44a8-ad36-2f498eb3b138>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4bc3daca-1efd-4a35-a652-e999da0b8014>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4bc3daca-1efd-4a35-a652-e999da0b8014>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4bc3daca-1efd-4a35-a652-e999da0b8014>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca1cad5-1255-4ff7-93bb-9cf9f8151d5a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1e68a360-076e-4404-83e3-da88860b0ead>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca1cad5-1255-4ff7-93bb-9cf9f8151d5a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca1cad5-1255-4ff7-93bb-9cf9f8151d5a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca1cad5-1255-4ff7-93bb-9cf9f8151d5a>
+    
+    
+Individual: <http://model.geneontology.org/c6b108f3-1288-4859-aa0f-a2fd103f043f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_212130>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_212130>
+
+    Annotations: 
+        rdfs:label "CARDIOMYOPATHY ASSOCIATED WITH MYOPATHY AND SUDDEN DEATH"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

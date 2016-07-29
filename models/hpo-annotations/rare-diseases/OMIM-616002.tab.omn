@@ -1,0 +1,378 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/fd09bacc-fd34-4edd-9369-fdf50cafb5c7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616002.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000089>
+
+    Annotations: 
+        rdfs:label "Renal hypoplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000093>
+
+    Annotations: 
+        rdfs:label "Proteinuria"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000097>
+
+    Annotations: 
+        rdfs:label "Focal segmental glomerulosclerosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000100>
+
+    Annotations: 
+        rdfs:label "Nephrotic syndrome"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003774>
+
+    Annotations: 
+        rdfs:label "Stage 5 chronic kidney disease"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003828>
+
+    Annotations: 
+        rdfs:label "Variable expressivity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003829>
+
+    Annotations: 
+        rdfs:label "Incomplete penetrance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616002>
+
+    Annotations: 
+        rdfs:label "FOCAL SEGMENTAL GLOMERULOSCLEROSIS 7; FSGS7"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/02393f7c-e21d-4b5f-96b3-438bfe934ddb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_KIDNEYS > END-STAGE RENAL DISEASE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003774>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/229d8e3f-066a-49d5-9ccb-d01595ee0583>
+    
+    
+Individual: <http://model.geneontology.org/176e230d-46ba-475f-bd3b-6197866422ab>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_KIDNEYS > NEPHROTIC SYNDROME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000100>
+    
+    
+Individual: <http://model.geneontology.org/229d8e3f-066a-49d5-9ccb-d01595ee0583>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/270521d3-b43c-4cc9-9925-9ad9a0748075>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > PROTEINURIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000093>
+    
+    
+Individual: <http://model.geneontology.org/27a9313d-eebb-4874-be26-27d5594e62d4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616002>
+    
+    
+Individual: <http://model.geneontology.org/32679c71-a6f3-46fb-94b4-18b08b837376>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616002>
+    
+    
+Individual: <http://model.geneontology.org/5ea7ac10-b93a-4168-a9d1-f5ad3d8a60f4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/7b66307c-3e2e-4a00-bad8-f79868b1b8b4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_KIDNEYS > FOCAL SEGMENTAL GLOMERULOSCLEROSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000097>
+    
+    
+Individual: <http://model.geneontology.org/80ae19ad-9b9e-4320-8ed5-f13fc02d5b0b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/86490123-1feb-4bd3-9798-3174e7b932e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/93862e96-e5ba-4250-acc4-00c4fe973638>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_KIDNEYS > SMALL KIDNEYS (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000089>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/a1662c3a-ae18-4e82-a714-f3736dec2c65>
+    
+    
+Individual: <http://model.geneontology.org/9ab89824-dc95-4d8f-b2db-bb7d34495af4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003829>
+    
+    
+Individual: <http://model.geneontology.org/a1662c3a-ae18-4e82-a714-f3736dec2c65>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/a92485e1-b039-40b4-b9cd-897fe934110d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/ad038994-2e54-4ba2-bdbb-3388ec6effe3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616002>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4276d89-0196-4ce9-86b8-04850d4b6d0c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5ea7ac10-b93a-4168-a9d1-f5ad3d8a60f4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4276d89-0196-4ce9-86b8-04850d4b6d0c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4276d89-0196-4ce9-86b8-04850d4b6d0c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4276d89-0196-4ce9-86b8-04850d4b6d0c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02393f7c-e21d-4b5f-96b3-438bfe934ddb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/32679c71-a6f3-46fb-94b4-18b08b837376>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02393f7c-e21d-4b5f-96b3-438bfe934ddb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02393f7c-e21d-4b5f-96b3-438bfe934ddb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02393f7c-e21d-4b5f-96b3-438bfe934ddb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176e230d-46ba-475f-bd3b-6197866422ab>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/27a9313d-eebb-4874-be26-27d5594e62d4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176e230d-46ba-475f-bd3b-6197866422ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176e230d-46ba-475f-bd3b-6197866422ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176e230d-46ba-475f-bd3b-6197866422ab>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/270521d3-b43c-4cc9-9925-9ad9a0748075>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eb15f53f-f557-4846-ba11-6d8093fade6d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/270521d3-b43c-4cc9-9925-9ad9a0748075>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/270521d3-b43c-4cc9-9925-9ad9a0748075>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/270521d3-b43c-4cc9-9925-9ad9a0748075>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b66307c-3e2e-4a00-bad8-f79868b1b8b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ae01d94d-8b29-4760-b048-ed2cd52f1063>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b66307c-3e2e-4a00-bad8-f79868b1b8b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b66307c-3e2e-4a00-bad8-f79868b1b8b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7b66307c-3e2e-4a00-bad8-f79868b1b8b4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/86490123-1feb-4bd3-9798-3174e7b932e0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/80ae19ad-9b9e-4320-8ed5-f13fc02d5b0b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/86490123-1feb-4bd3-9798-3174e7b932e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/86490123-1feb-4bd3-9798-3174e7b932e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/86490123-1feb-4bd3-9798-3174e7b932e0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab89824-dc95-4d8f-b2db-bb7d34495af4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a92485e1-b039-40b4-b9cd-897fe934110d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab89824-dc95-4d8f-b2db-bb7d34495af4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab89824-dc95-4d8f-b2db-bb7d34495af4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ab89824-dc95-4d8f-b2db-bb7d34495af4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93862e96-e5ba-4250-acc4-00c4fe973638>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b1865728-bbb0-4fd0-be3a-de6659c111bc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93862e96-e5ba-4250-acc4-00c4fe973638>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93862e96-e5ba-4250-acc4-00c4fe973638>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93862e96-e5ba-4250-acc4-00c4fe973638>
+    
+    
+Individual: <http://model.geneontology.org/ae01d94d-8b29-4760-b048-ed2cd52f1063>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616002>
+    
+    
+Individual: <http://model.geneontology.org/b1865728-bbb0-4fd0-be3a-de6659c111bc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616002>
+    
+    
+Individual: <http://model.geneontology.org/b4276d89-0196-4ce9-86b8-04850d4b6d0c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003828>
+    
+    
+Individual: <http://model.geneontology.org/eb15f53f-f557-4846-ba11-6d8093fade6d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616002>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616002>
+
+    Annotations: 
+        rdfs:label "FOCAL SEGMENTAL GLOMERULOSCLEROSIS 7; FSGS7"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

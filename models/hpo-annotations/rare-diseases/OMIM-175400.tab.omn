@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e3fc0cff-edaf-4259-9f5b-adbe9576e09c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-175400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005238>
+
+    Annotations: 
+        rdfs:label "Discrete intestinal polyps"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_175400>
+
+    Annotations: 
+        rdfs:label "POLYPOSIS, INTESTINAL, SCATTERED AND DISCRETE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/097f37f2-7bb5-4955-b4fa-280d1646e046>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175400>
+    
+    
+Individual: <http://model.geneontology.org/55be5381-fc48-4e82-ab0b-837b8b64ca8a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/c0cd6f47-f486-4c4e-8d9b-cad6e81259e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005238>
+    
+    
+Individual: <http://model.geneontology.org/e831ba1a-44e7-43d0-85f8-d12124615f7d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_175400>
+    
+    
+Individual: <http://model.geneontology.org/eac24c5b-eae0-4dfc-9ca8-4709e135841e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_175400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c0cd6f47-f486-4c4e-8d9b-cad6e81259e3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/097f37f2-7bb5-4955-b4fa-280d1646e046>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c0cd6f47-f486-4c4e-8d9b-cad6e81259e3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c0cd6f47-f486-4c4e-8d9b-cad6e81259e3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c0cd6f47-f486-4c4e-8d9b-cad6e81259e3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55be5381-fc48-4e82-ab0b-837b8b64ca8a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e831ba1a-44e7-43d0-85f8-d12124615f7d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55be5381-fc48-4e82-ab0b-837b8b64ca8a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55be5381-fc48-4e82-ab0b-837b8b64ca8a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55be5381-fc48-4e82-ab0b-837b8b64ca8a>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_175400>
+
+    Annotations: 
+        rdfs:label "POLYPOSIS, INTESTINAL, SCATTERED AND DISCRETE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

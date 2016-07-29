@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/de5a4710-5cc2-4940-9ace-30637b724643>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-607785.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012209>
+
+    Annotations: 
+        rdfs:label "Juvenile myelomonocytic leukemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_607785>
+
+    Annotations: 
+        rdfs:label "#607785 JUVENILE MYELOMONOCYTIC LEUKEMIA; JMML;;LEUKEMIA, JUVENILE MYELOMONOCYTICLEUKEMIA, CHRONIC MYELOMONOCYTIC, INCLUDED; CMML, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/20d0ecb7-940d-4223-9dc8-f8f8fbcf7b24>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/4116e7c6-aa3d-4152-9c33-63fd75c8ec71>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607785>
+    
+    
+Individual: <http://model.geneontology.org/c1b48384-1004-4b09-811a-08942dac517f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_607785>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f9ab6161-0459-4553-878d-653fe4c8f5b9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4116e7c6-aa3d-4152-9c33-63fd75c8ec71>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f9ab6161-0459-4553-878d-653fe4c8f5b9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f9ab6161-0459-4553-878d-653fe4c8f5b9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-12"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f9ab6161-0459-4553-878d-653fe4c8f5b9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20d0ecb7-940d-4223-9dc8-f8f8fbcf7b24>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e3143cb2-c854-4523-a552-2e9da3ee7e56>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20d0ecb7-940d-4223-9dc8-f8f8fbcf7b24>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20d0ecb7-940d-4223-9dc8-f8f8fbcf7b24>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20d0ecb7-940d-4223-9dc8-f8f8fbcf7b24>
+    
+    
+Individual: <http://model.geneontology.org/e3143cb2-c854-4523-a552-2e9da3ee7e56>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607785>
+    
+    
+Individual: <http://model.geneontology.org/f9ab6161-0459-4553-878d-653fe4c8f5b9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012209>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_607785>
+
+    Annotations: 
+        rdfs:label "#607785 JUVENILE MYELOMONOCYTIC LEUKEMIA; JMML;;LEUKEMIA, JUVENILE MYELOMONOCYTICLEUKEMIA, CHRONIC MYELOMONOCYTIC, INCLUDED; CMML, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

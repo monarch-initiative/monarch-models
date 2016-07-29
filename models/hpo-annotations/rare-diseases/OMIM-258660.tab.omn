@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/89359a6a-76f5-4093-b754-b03bfb4c1d5c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-258660.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007634>
+
+    Annotations: 
+        rdfs:label "Nonarteritic anterior ischemic optic neuropathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_258660>
+
+    Annotations: 
+        rdfs:label "NONARTERITIC ANTERIOR ISCHEMIC OPTIC NEUROPATHY, SUSCEPTIBILITY TO"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1403e2d4-3194-44d7-9656-a56cde733ffb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_258660>
+    
+    
+Individual: <http://model.geneontology.org/72d29e55-f34a-4598-9b9a-44bb2e37cd89>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007634>
+    
+    
+Individual: <http://model.geneontology.org/88ac8ee7-c67d-40ab-898f-f6c116c916a9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/cbbb56d0-1e7a-4233-b0ba-69faacc663de>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_258660>
+    
+    
+Individual: <http://model.geneontology.org/f93287db-7ed4-4491-b39f-a52afaf723fd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_258660>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72d29e55-f34a-4598-9b9a-44bb2e37cd89>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cbbb56d0-1e7a-4233-b0ba-69faacc663de>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72d29e55-f34a-4598-9b9a-44bb2e37cd89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72d29e55-f34a-4598-9b9a-44bb2e37cd89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72d29e55-f34a-4598-9b9a-44bb2e37cd89>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88ac8ee7-c67d-40ab-898f-f6c116c916a9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1403e2d4-3194-44d7-9656-a56cde733ffb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88ac8ee7-c67d-40ab-898f-f6c116c916a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88ac8ee7-c67d-40ab-898f-f6c116c916a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88ac8ee7-c67d-40ab-898f-f6c116c916a9>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_258660>
+
+    Annotations: 
+        rdfs:label "NONARTERITIC ANTERIOR ISCHEMIC OPTIC NEUROPATHY, SUSCEPTIBILITY TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

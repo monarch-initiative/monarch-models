@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c6ebb5c8-4e78-44d7-94ff-41fe20c85e40>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-312530.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000541>
+
+    Annotations: 
+        rdfs:label "Retinal detachment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_312530>
+
+    Annotations: 
+        rdfs:label "RETINAL DETACHMENT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/9b5b8f96-b82a-4497-a629-0531a1f85321>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000541>
+    
+    
+Individual: <http://model.geneontology.org/a7f27ef9-f445-4c83-a799-e88805b602d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_312530>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b5b8f96-b82a-4497-a629-0531a1f85321>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/abe74e8d-5b10-46a6-ac02-1b8b96d221bf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b5b8f96-b82a-4497-a629-0531a1f85321>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b5b8f96-b82a-4497-a629-0531a1f85321>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9b5b8f96-b82a-4497-a629-0531a1f85321>
+    
+    
+Individual: <http://model.geneontology.org/abe74e8d-5b10-46a6-ac02-1b8b96d221bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_312530>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_312530>
+
+    Annotations: 
+        rdfs:label "RETINAL DETACHMENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

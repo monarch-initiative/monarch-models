@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/edf9ebd4-c82c-4f00-bcba-048bdb51323c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-125900.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000699>
+
+    Annotations: 
+        rdfs:label "Diastema"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001566>
+
+    Annotations: 
+        rdfs:label "Widely-spaced maxillary central incisors"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_125900>
+
+    Annotations: 
+        rdfs:label "DIASTEMA, DENTAL MEDIAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6f2085a2-9f74-449b-8391-b18dba88c899>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001566>
+    
+    
+Individual: <http://model.geneontology.org/add7e9ec-3b22-410f-8195-40647ca1cddb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125900>
+    
+    
+Individual: <http://model.geneontology.org/ca22e3b8-e87f-4a16-b55f-de95190d9430>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125900>
+    
+    
+Individual: <http://model.geneontology.org/d4036c85-9d5c-4bb9-86c9-facd09a9d59d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/de158e39-97dc-4bac-9358-9c9a468047e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000699>
+    
+    
+Individual: <http://model.geneontology.org/f6f5e0ca-1c86-4f50-ae86-6d54d72ffcd9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125900>
+    
+    
+Individual: <http://model.geneontology.org/fe7a3452-ef63-47a7-b029-8ab1592a5115>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_125900>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4036c85-9d5c-4bb9-86c9-facd09a9d59d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ca22e3b8-e87f-4a16-b55f-de95190d9430>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4036c85-9d5c-4bb9-86c9-facd09a9d59d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4036c85-9d5c-4bb9-86c9-facd09a9d59d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d4036c85-9d5c-4bb9-86c9-facd09a9d59d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de158e39-97dc-4bac-9358-9c9a468047e6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f6f5e0ca-1c86-4f50-ae86-6d54d72ffcd9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de158e39-97dc-4bac-9358-9c9a468047e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de158e39-97dc-4bac-9358-9c9a468047e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de158e39-97dc-4bac-9358-9c9a468047e6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f2085a2-9f74-449b-8391-b18dba88c899>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/add7e9ec-3b22-410f-8195-40647ca1cddb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f2085a2-9f74-449b-8391-b18dba88c899>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f2085a2-9f74-449b-8391-b18dba88c899>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f2085a2-9f74-449b-8391-b18dba88c899>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_125900>
+
+    Annotations: 
+        rdfs:label "DIASTEMA, DENTAL MEDIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

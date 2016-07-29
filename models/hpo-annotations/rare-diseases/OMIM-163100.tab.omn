@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8ad441ee-e945-4e64-974f-4052eaa155ce>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-163100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007616>
+
+    Annotations: 
+        rdfs:label "Nevus flammeus nuchae"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_163100>
+
+    Annotations: 
+        rdfs:label "NEVUS FLAMMEUS OF NAPE OF NECK"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/021ac745-c698-476c-89af-be3236d1e2e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007616>
+    
+    
+Individual: <http://model.geneontology.org/1c3e7ea2-64c3-41c0-843e-fece220ece8c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_163100>
+    
+    
+Individual: <http://model.geneontology.org/1f0b3f32-d18b-4b72-8612-e04de9abc2e7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_163100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/021ac745-c698-476c-89af-be3236d1e2e3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4cb0d383-4e03-4a1a-9571-ff8ef402f9de>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/021ac745-c698-476c-89af-be3236d1e2e3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/021ac745-c698-476c-89af-be3236d1e2e3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/021ac745-c698-476c-89af-be3236d1e2e3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7afce8f9-5024-4c07-b495-9f379a70afd3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1c3e7ea2-64c3-41c0-843e-fece220ece8c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7afce8f9-5024-4c07-b495-9f379a70afd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7afce8f9-5024-4c07-b495-9f379a70afd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7afce8f9-5024-4c07-b495-9f379a70afd3>
+    
+    
+Individual: <http://model.geneontology.org/4cb0d383-4e03-4a1a-9571-ff8ef402f9de>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_163100>
+    
+    
+Individual: <http://model.geneontology.org/7afce8f9-5024-4c07-b495-9f379a70afd3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_163100>
+
+    Annotations: 
+        rdfs:label "NEVUS FLAMMEUS OF NAPE OF NECK"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

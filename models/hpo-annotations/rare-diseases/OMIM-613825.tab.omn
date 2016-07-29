@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e3e877dd-db24-4b93-a98a-cd70569f142c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613825.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012308>
+
+    Annotations: 
+        rdfs:label "Decreased serum complement C9"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613825>
+
+    Annotations: 
+        rdfs:label "#613825 COMPLEMENT COMPONENT 9 DEFICIENCY; C9D;;C9 DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01363db6-4619-43a5-8ab8-af9873f1fd47>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613825>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ca062c4-bcf8-4bbb-a8dd-7fc8b2f221d9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/061feadb-7f96-4748-a0df-f567be98f633>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ca062c4-bcf8-4bbb-a8dd-7fc8b2f221d9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ca062c4-bcf8-4bbb-a8dd-7fc8b2f221d9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ca062c4-bcf8-4bbb-a8dd-7fc8b2f221d9>
+    
+    
+Individual: <http://model.geneontology.org/061feadb-7f96-4748-a0df-f567be98f633>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613825>
+    
+    
+Individual: <http://model.geneontology.org/9ca062c4-bcf8-4bbb-a8dd-7fc8b2f221d9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012308>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613825>
+
+    Annotations: 
+        rdfs:label "#613825 COMPLEMENT COMPONENT 9 DEFICIENCY; C9D;;C9 DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

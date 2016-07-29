@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/36c9ac00-4213-437f-9a27-81fb47b0c35f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0011320.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0011320>
+
+    Annotations: 
+        rdfs:label "Kyasanur Forest Disease"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001945>
+
+    Annotations: 
+        rdfs:label "Fever"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002383>
+
+    Annotations: 
+        rdfs:label "Encephalitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3847bafa-7079-4991-b77e-ae8e0a35cddb>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/23110991;PMID:2665018;PMID:11849118>
+    
+    
+Individual: <http://model.geneontology.org/662630a7-d050-44e1-8038-2ba0f651a7df>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 15.560207945880734/3). MESHID: D007733"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002383>
+    
+    
+Individual: <http://model.geneontology.org/6a2843fa-479d-468b-9f07-2a5a45d7ce7d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 22.213953817924388/6). MESHID: D007733"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001945>
+    
+    
+Individual: <http://model.geneontology.org/a67a2e35-4e82-4def-9657-19b66ff803af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0011320>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a2843fa-479d-468b-9f07-2a5a45d7ce7d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c775af1f-8f67-499f-819d-8675e7de2c10>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a2843fa-479d-468b-9f07-2a5a45d7ce7d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a2843fa-479d-468b-9f07-2a5a45d7ce7d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a2843fa-479d-468b-9f07-2a5a45d7ce7d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/662630a7-d050-44e1-8038-2ba0f651a7df>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3847bafa-7079-4991-b77e-ae8e0a35cddb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/662630a7-d050-44e1-8038-2ba0f651a7df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/662630a7-d050-44e1-8038-2ba0f651a7df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/662630a7-d050-44e1-8038-2ba0f651a7df>
+    
+    
+Individual: <http://model.geneontology.org/c775af1f-8f67-499f-819d-8675e7de2c10>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/21122237;PMID:2665018;PMID:16710839;PMID:22172587;PMID:11849118>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/21122237;PMID:2665018;PMID:16710839;PMID:22172587;PMID:11849118>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/23110991;PMID:2665018;PMID:11849118>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

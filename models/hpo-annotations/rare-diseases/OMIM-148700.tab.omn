@@ -1,0 +1,227 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d5700936-a4d7-4dc7-9eee-56fe6b3301d0>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-148700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000975>
+
+    Annotations: 
+        rdfs:label "Hyperhidrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000982>
+
+    Annotations: 
+        rdfs:label "Palmoplantar keratoderma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007501>
+
+    Annotations: 
+        rdfs:label "Streaks of hyperkeratosis along each finger onto the palm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_148700>
+
+    Annotations: 
+        rdfs:label "#148700 PALMOPLANTAR KERATODERMA I, STRIATE, FOCAL, OR DIFFUSE; PPKS1;;KERATOSIS PALMOPLANTARIS STRIATA I;;STRIATE PALMOPLANTAR KERATODERMA I; SPPK1;;KERATODERMA, PALMOPLANTAR, STRIATE FORM I; KPPS1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/000f7b69-0ac3-4727-8afe-a55f4566f52d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#148700 palmoplantar keratoderma i, striate, focal,"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000982>
+    
+    
+Individual: <http://model.geneontology.org/06d68ccd-7a31-4d59-a43c-0ac3413e3453>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > HYPERHIDROSIS (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000975>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/491dd14c-349b-42f0-a825-7358d8cacb1a>
+    
+    
+Individual: <http://model.geneontology.org/19ec52c2-d1b6-4458-ae32-62aaaa0209d9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007501>
+    
+    
+Individual: <http://model.geneontology.org/22641fc1-9f6a-4895-afe9-99ed69526533>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_148700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fa35efc8-dfa9-43e9-a702-6114c641bc44>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8ac9dc4e-192a-4837-9bcd-6e7a8cbdf2b7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fa35efc8-dfa9-43e9-a702-6114c641bc44>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fa35efc8-dfa9-43e9-a702-6114c641bc44>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fa35efc8-dfa9-43e9-a702-6114c641bc44>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/000f7b69-0ac3-4727-8afe-a55f4566f52d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/446ca03e-174b-4522-8506-cebf12ba3c6d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/000f7b69-0ac3-4727-8afe-a55f4566f52d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/000f7b69-0ac3-4727-8afe-a55f4566f52d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/000f7b69-0ac3-4727-8afe-a55f4566f52d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d68ccd-7a31-4d59-a43c-0ac3413e3453>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/844d7c97-7044-4e63-9617-da0ab8c2795d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d68ccd-7a31-4d59-a43c-0ac3413e3453>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d68ccd-7a31-4d59-a43c-0ac3413e3453>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06d68ccd-7a31-4d59-a43c-0ac3413e3453>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19ec52c2-d1b6-4458-ae32-62aaaa0209d9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c2c25d2f-58a4-4ec9-8dd6-7ce86a0d8cbb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19ec52c2-d1b6-4458-ae32-62aaaa0209d9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19ec52c2-d1b6-4458-ae32-62aaaa0209d9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19ec52c2-d1b6-4458-ae32-62aaaa0209d9>
+    
+    
+Individual: <http://model.geneontology.org/446ca03e-174b-4522-8506-cebf12ba3c6d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_148700>
+    
+    
+Individual: <http://model.geneontology.org/491dd14c-349b-42f0-a825-7358d8cacb1a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/844d7c97-7044-4e63-9617-da0ab8c2795d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_148700>
+    
+    
+Individual: <http://model.geneontology.org/8ac9dc4e-192a-4837-9bcd-6e7a8cbdf2b7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_148700>
+    
+    
+Individual: <http://model.geneontology.org/c2c25d2f-58a4-4ec9-8dd6-7ce86a0d8cbb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_148700>
+    
+    
+Individual: <http://model.geneontology.org/fa35efc8-dfa9-43e9-a702-6114c641bc44>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_148700>
+
+    Annotations: 
+        rdfs:label "#148700 PALMOPLANTAR KERATODERMA I, STRIATE, FOCAL, OR DIFFUSE; PPKS1;;KERATOSIS PALMOPLANTARIS STRIATA I;;STRIATE PALMOPLANTAR KERATODERMA I; SPPK1;;KERATODERMA, PALMOPLANTAR, STRIATE FORM I; KPPS1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

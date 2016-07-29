@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f967248b-3fae-4bc6-9654-bfe752b670b4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-237550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000952>
+
+    Annotations: 
+        rdfs:label "Jaundice"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002908>
+
+    Annotations: 
+        rdfs:label "Conjugated hyperbilirubinemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_237550>
+
+    Annotations: 
+        rdfs:label "HYPERBILIRUBINEMIA, CONJUGATED, TYPE III"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/03990188-ac99-45f4-848e-86a0e63fd29a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000952>
+    
+    
+Individual: <http://model.geneontology.org/305b8069-3381-4412-b4d9-fb566d40ee09>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237550>
+    
+    
+Individual: <http://model.geneontology.org/46ddc92b-4d70-49c4-a477-ea63bab14a95>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002908>
+    
+    
+Individual: <http://model.geneontology.org/5e2222af-dc44-45ea-a0ef-dc071161872d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237550>
+    
+    
+Individual: <http://model.geneontology.org/81854fc3-05ef-48fb-a319-1a83bc811016>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/a0b24743-1a3f-44f4-907d-13efbbd2ce1b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237550>
+    
+    
+Individual: <http://model.geneontology.org/add00cc1-b687-4a46-a34f-8b881dac155c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_237550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03990188-ac99-45f4-848e-86a0e63fd29a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a0b24743-1a3f-44f4-907d-13efbbd2ce1b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03990188-ac99-45f4-848e-86a0e63fd29a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03990188-ac99-45f4-848e-86a0e63fd29a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03990188-ac99-45f4-848e-86a0e63fd29a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46ddc92b-4d70-49c4-a477-ea63bab14a95>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5e2222af-dc44-45ea-a0ef-dc071161872d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46ddc92b-4d70-49c4-a477-ea63bab14a95>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46ddc92b-4d70-49c4-a477-ea63bab14a95>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46ddc92b-4d70-49c4-a477-ea63bab14a95>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81854fc3-05ef-48fb-a319-1a83bc811016>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/305b8069-3381-4412-b4d9-fb566d40ee09>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81854fc3-05ef-48fb-a319-1a83bc811016>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81854fc3-05ef-48fb-a319-1a83bc811016>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81854fc3-05ef-48fb-a319-1a83bc811016>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_237550>
+
+    Annotations: 
+        rdfs:label "HYPERBILIRUBINEMIA, CONJUGATED, TYPE III"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

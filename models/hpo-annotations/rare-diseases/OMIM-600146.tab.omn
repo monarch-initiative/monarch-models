@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/04de3900-779e-4f55-b966-1c827dbad17b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-600146.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001258>
+
+    Annotations: 
+        rdfs:label "Spastic paraplegia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_600146>
+
+    Annotations: 
+        rdfs:label "SPASTIC PARAPLEGIA 5B, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/45364316-0953-492e-96a2-b6b5178841cd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600146>
+    
+    
+Individual: <http://model.geneontology.org/b554b35a-f3a9-4ef1-a6db-077f48b0d89e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/c7ebf018-0558-4315-9566-78864c16abaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600146>
+    
+    
+Individual: <http://model.geneontology.org/cdbbe5fe-8bc1-4f83-aed9-e9f90087b88f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001258>
+    
+    
+Individual: <http://model.geneontology.org/e38da90b-0bc2-479b-95c1-099a524e979f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_600146>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b554b35a-f3a9-4ef1-a6db-077f48b0d89e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c7ebf018-0558-4315-9566-78864c16abaa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b554b35a-f3a9-4ef1-a6db-077f48b0d89e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b554b35a-f3a9-4ef1-a6db-077f48b0d89e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b554b35a-f3a9-4ef1-a6db-077f48b0d89e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cdbbe5fe-8bc1-4f83-aed9-e9f90087b88f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/45364316-0953-492e-96a2-b6b5178841cd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cdbbe5fe-8bc1-4f83-aed9-e9f90087b88f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cdbbe5fe-8bc1-4f83-aed9-e9f90087b88f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cdbbe5fe-8bc1-4f83-aed9-e9f90087b88f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_600146>
+
+    Annotations: 
+        rdfs:label "SPASTIC PARAPLEGIA 5B, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/89516014-10fd-497a-a937-6d78c435c000>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-223400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002247>
+
+    Annotations: 
+        rdfs:label "Duodenal atresia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_223400>
+
+    Annotations: 
+        rdfs:label "DUODENAL ATRESIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/279e6b23-a00b-4bc0-ac4b-7befbecaeb90>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/2d9f570b-ebd6-4071-ba50-c93418dc966b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002247>
+    
+    
+Individual: <http://model.geneontology.org/6a8fb44a-2e6d-4bdf-9d51-0248d745f2dc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_223400>
+    
+    
+Individual: <http://model.geneontology.org/a7fac1b8-6e62-48a7-b446-2e260cf53144>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_223400>
+    
+    
+Individual: <http://model.geneontology.org/aec89d7b-3bb8-4567-9420-0d1d80d7c4f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_223400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d9f570b-ebd6-4071-ba50-c93418dc966b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6a8fb44a-2e6d-4bdf-9d51-0248d745f2dc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d9f570b-ebd6-4071-ba50-c93418dc966b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d9f570b-ebd6-4071-ba50-c93418dc966b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d9f570b-ebd6-4071-ba50-c93418dc966b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/279e6b23-a00b-4bc0-ac4b-7befbecaeb90>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a7fac1b8-6e62-48a7-b446-2e260cf53144>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/279e6b23-a00b-4bc0-ac4b-7befbecaeb90>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/279e6b23-a00b-4bc0-ac4b-7befbecaeb90>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/279e6b23-a00b-4bc0-ac4b-7befbecaeb90>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_223400>
+
+    Annotations: 
+        rdfs:label "DUODENAL ATRESIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

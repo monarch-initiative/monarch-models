@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/fe5b9371-47ca-4724-9230-a6b078d1b73f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-173450.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001892>
+
+    Annotations: 
+        rdfs:label "Bleeding diathesis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_173450>
+
+    Annotations: 
+        rdfs:label "PLATELET FACTOR 3 DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3240b605-d361-4fa5-9847-aef8e41d290a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/4be50f31-ddf2-4486-be96-9a9f61a725f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001892>
+    
+    
+Individual: <http://model.geneontology.org/50885758-1b8f-428b-bab3-22463362b1b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173450>
+    
+    
+Individual: <http://model.geneontology.org/a65331e6-0fe9-4fe0-82c0-571ce990212e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173450>
+    
+    
+Individual: <http://model.geneontology.org/c68f2ba3-5b7a-4107-8b91-75509d8673ea>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_173450>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3240b605-d361-4fa5-9847-aef8e41d290a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/50885758-1b8f-428b-bab3-22463362b1b4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3240b605-d361-4fa5-9847-aef8e41d290a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3240b605-d361-4fa5-9847-aef8e41d290a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3240b605-d361-4fa5-9847-aef8e41d290a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be50f31-ddf2-4486-be96-9a9f61a725f8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a65331e6-0fe9-4fe0-82c0-571ce990212e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be50f31-ddf2-4486-be96-9a9f61a725f8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be50f31-ddf2-4486-be96-9a9f61a725f8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be50f31-ddf2-4486-be96-9a9f61a725f8>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_173450>
+
+    Annotations: 
+        rdfs:label "PLATELET FACTOR 3 DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

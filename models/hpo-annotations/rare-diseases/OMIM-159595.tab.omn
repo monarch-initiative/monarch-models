@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b505f6a8-00f1-4a6c-ac2e-b78953fced7a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-159595.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001974>
+
+    Annotations: 
+        rdfs:label "Leukocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005534>
+
+    Annotations: 
+        rdfs:label "Transient myeloproliferative syndrome"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_159595>
+
+    Annotations: 
+        rdfs:label "MYELOPROLIFERATIVE SYNDROME, TRANSIENT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2c9d3adc-f8e9-4cbf-98b1-41565a1e4783>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_159595>
+    
+    
+Individual: <http://model.geneontology.org/30f1ab59-4433-44ca-96c5-26768170c096>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005534>
+    
+    
+Individual: <http://model.geneontology.org/6ff1aa57-043e-48cc-a9bb-dac58661b615>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_159595>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30f1ab59-4433-44ca-96c5-26768170c096>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2c9d3adc-f8e9-4cbf-98b1-41565a1e4783>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30f1ab59-4433-44ca-96c5-26768170c096>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30f1ab59-4433-44ca-96c5-26768170c096>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/30f1ab59-4433-44ca-96c5-26768170c096>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77ed512f-91af-4d10-b882-bdaf2daf661c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7015f4a1-de60-4fc3-9cb5-b2362ddf06e2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77ed512f-91af-4d10-b882-bdaf2daf661c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77ed512f-91af-4d10-b882-bdaf2daf661c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77ed512f-91af-4d10-b882-bdaf2daf661c>
+    
+    
+Individual: <http://model.geneontology.org/7015f4a1-de60-4fc3-9cb5-b2362ddf06e2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_159595>
+    
+    
+Individual: <http://model.geneontology.org/77ed512f-91af-4d10-b882-bdaf2daf661c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001974>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_159595>
+
+    Annotations: 
+        rdfs:label "MYELOPROLIFERATIVE SYNDROME, TRANSIENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

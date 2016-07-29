@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/69ed7317-e0bb-463d-918f-43277f707a74>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615024.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000982>
+
+    Annotations: 
+        rdfs:label "Palmoplantar keratoderma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007431>
+
+    Annotations: 
+        rdfs:label "Congenital ichthyosiform erythroderma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615024>
+
+    Annotations: 
+        rdfs:label "#615024 ICHTHYOSIS, CONGENITAL, AUTOSOMAL RECESSIVE 10; ARCI10"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/03e24da7-3042-482f-88b8-b4b3c8537a19>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615024>
+    
+    
+Individual: <http://model.geneontology.org/0a150ba9-8c20-440d-8e22-4d81fbf1c1f2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > PALMOPLANTAR KERATODERMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000982>
+    
+    
+Individual: <http://model.geneontology.org/525ba9a9-ad97-4124-bd91-0302a3a8d69d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615024>
+    
+    
+Individual: <http://model.geneontology.org/57dbace3-ed18-48a6-908f-555947d2e99f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#615024 ichthyosis, congenital, autosoma"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007431>
+    
+    
+Individual: <http://model.geneontology.org/6f3044a4-008a-4bcf-a26d-e79fd75bb5f2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/9219d5cc-0565-45ef-8104-a9dafc1e27bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615024>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a150ba9-8c20-440d-8e22-4d81fbf1c1f2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/525ba9a9-ad97-4124-bd91-0302a3a8d69d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a150ba9-8c20-440d-8e22-4d81fbf1c1f2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a150ba9-8c20-440d-8e22-4d81fbf1c1f2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a150ba9-8c20-440d-8e22-4d81fbf1c1f2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/57dbace3-ed18-48a6-908f-555947d2e99f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/03e24da7-3042-482f-88b8-b4b3c8537a19>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/57dbace3-ed18-48a6-908f-555947d2e99f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/57dbace3-ed18-48a6-908f-555947d2e99f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/57dbace3-ed18-48a6-908f-555947d2e99f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f3044a4-008a-4bcf-a26d-e79fd75bb5f2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d4284075-3dbf-4d9b-aff6-41d5736cbb25>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f3044a4-008a-4bcf-a26d-e79fd75bb5f2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f3044a4-008a-4bcf-a26d-e79fd75bb5f2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f3044a4-008a-4bcf-a26d-e79fd75bb5f2>
+    
+    
+Individual: <http://model.geneontology.org/d4284075-3dbf-4d9b-aff6-41d5736cbb25>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615024>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615024>
+
+    Annotations: 
+        rdfs:label "#615024 ICHTHYOSIS, CONGENITAL, AUTOSOMAL RECESSIVE 10; ARCI10"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

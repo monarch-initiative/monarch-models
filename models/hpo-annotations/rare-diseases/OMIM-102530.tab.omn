@@ -1,0 +1,175 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4a3db9c6-4a7e-4bb8-9f77-4a9338b1dcbe>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-102530.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000789>
+
+    Annotations: 
+        rdfs:label "Infertility"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012205>
+
+    Annotations: 
+        rdfs:label "Globozoospermia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_102530>
+
+    Annotations: 
+        rdfs:label "SPERMATOGENIC FAILURE 6; SPGF6"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/04c91000-7781-43a8-86cf-cafd8fc482aa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/62674184-7b94-42f5-b723-f9c28ca5d75d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:globozoospermia"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012205>
+    
+    
+Individual: <http://model.geneontology.org/731bdc90-3186-4122-a039-43fb0607c866>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000789>
+    
+    
+Individual: <http://model.geneontology.org/7549f6e9-d209-4734-bfa1-483c47f6759b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_102530>
+    
+    
+Individual: <http://model.geneontology.org/800f325a-3262-4327-98c2-d0c5612eff4a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_102530>
+    
+    
+Individual: <http://model.geneontology.org/8e8ab70d-854f-4b81-883d-de6a936ed922>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_102530>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a47c7d19-2e1f-41a6-9596-3fe467e50877>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/04c91000-7781-43a8-86cf-cafd8fc482aa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a47c7d19-2e1f-41a6-9596-3fe467e50877>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a47c7d19-2e1f-41a6-9596-3fe467e50877>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a47c7d19-2e1f-41a6-9596-3fe467e50877>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62674184-7b94-42f5-b723-f9c28ca5d75d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/800f325a-3262-4327-98c2-d0c5612eff4a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62674184-7b94-42f5-b723-f9c28ca5d75d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62674184-7b94-42f5-b723-f9c28ca5d75d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-00-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/62674184-7b94-42f5-b723-f9c28ca5d75d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731bdc90-3186-4122-a039-43fb0607c866>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7549f6e9-d209-4734-bfa1-483c47f6759b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731bdc90-3186-4122-a039-43fb0607c866>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731bdc90-3186-4122-a039-43fb0607c866>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/731bdc90-3186-4122-a039-43fb0607c866>
+    
+    
+Individual: <http://model.geneontology.org/a47c7d19-2e1f-41a6-9596-3fe467e50877>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_102530>
+
+    Annotations: 
+        rdfs:label "SPERMATOGENIC FAILURE 6; SPGF6"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

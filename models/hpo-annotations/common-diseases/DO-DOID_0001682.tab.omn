@@ -1,0 +1,153 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/cf6fb56c-bb75-41ba-8756-235fb74132c2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0001682.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0001682>
+
+    Annotations: 
+        rdfs:label "CONGENITAL HEART DISEASE"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001627>
+
+    Annotations: 
+        rdfs:label "Abnormal heart morphology"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002564>
+
+    Annotations: 
+        rdfs:label "Malformation of the heart and great vessels"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/1d6f802e-d8fa-47ca-837b-8239ce487b53>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0001682>
+    
+    
+Individual: <http://model.geneontology.org/548d0949-cb99-448d-a58c-c10f9bae1575>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Inferred from reading disease title"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001627>
+    
+    
+Individual: <http://model.geneontology.org/7789aa3f-7cf5-4731-9eea-cf92bb847825>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:Congenital Heart Defects"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002564>
+    
+    
+Individual: <http://model.geneontology.org/8e9088fd-ece5-40cc-b562-f19de2e7717e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0001682>
+    
+    
+Individual: <http://model.geneontology.org/99dec548-73dc-4e53-bb3c-10e6e11f8165>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0001682>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/548d0949-cb99-448d-a58c-c10f9bae1575>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1d6f802e-d8fa-47ca-837b-8239ce487b53>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/548d0949-cb99-448d-a58c-c10f9bae1575>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/548d0949-cb99-448d-a58c-c10f9bae1575>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/548d0949-cb99-448d-a58c-c10f9bae1575>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7789aa3f-7cf5-4731-9eea-cf92bb847825>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8e9088fd-ece5-40cc-b562-f19de2e7717e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7789aa3f-7cf5-4731-9eea-cf92bb847825>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7789aa3f-7cf5-4731-9eea-cf92bb847825>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7789aa3f-7cf5-4731-9eea-cf92bb847825>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0001682>
+
+    Annotations: 
+        rdfs:label "CONGENITAL HEART DISEASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

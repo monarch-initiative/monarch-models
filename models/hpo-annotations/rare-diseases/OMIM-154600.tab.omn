@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ca3511e9-2007-4048-b0bf-46683eb95c25>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-154600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007687>
+
+    Annotations: 
+        rdfs:label "Unilateral ptosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007970>
+
+    Annotations: 
+        rdfs:label "Congenital ptosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_154600>
+
+    Annotations: 
+        rdfs:label "MARCUS GUNN PHENOMENON"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0626e466-4bf9-4082-be1d-123ab9444065>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Unilateral"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007970>
+    
+    
+Individual: <http://model.geneontology.org/1dba718c-349a-4475-bf6c-1a3c4c6cebef>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007687>
+    
+    
+Individual: <http://model.geneontology.org/53cde678-ad5e-404f-9bf9-8857b26e9f6a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/8335c510-f153-4966-a680-b311da2b0ddc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_154600>
+    
+    
+Individual: <http://model.geneontology.org/ba4e5b34-5271-4bae-a2a9-6f870cc84f2f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_154600>
+    
+    
+Individual: <http://model.geneontology.org/eda74483-97c3-479f-baed-aed545c2d5d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_154600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0626e466-4bf9-4082-be1d-123ab9444065>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f90b7c2f-5789-49a2-9b8f-eef860e81869>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0626e466-4bf9-4082-be1d-123ab9444065>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0626e466-4bf9-4082-be1d-123ab9444065>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0626e466-4bf9-4082-be1d-123ab9444065>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dba718c-349a-4475-bf6c-1a3c4c6cebef>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ba4e5b34-5271-4bae-a2a9-6f870cc84f2f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dba718c-349a-4475-bf6c-1a3c4c6cebef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dba718c-349a-4475-bf6c-1a3c4c6cebef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dba718c-349a-4475-bf6c-1a3c4c6cebef>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53cde678-ad5e-404f-9bf9-8857b26e9f6a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8335c510-f153-4966-a680-b311da2b0ddc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53cde678-ad5e-404f-9bf9-8857b26e9f6a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53cde678-ad5e-404f-9bf9-8857b26e9f6a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53cde678-ad5e-404f-9bf9-8857b26e9f6a>
+    
+    
+Individual: <http://model.geneontology.org/f90b7c2f-5789-49a2-9b8f-eef860e81869>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_154600>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_154600>
+
+    Annotations: 
+        rdfs:label "MARCUS GUNN PHENOMENON"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

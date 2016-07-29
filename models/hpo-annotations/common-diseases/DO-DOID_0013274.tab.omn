@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7ac809dc-1668-483b-aec5-d2e9b72dfdc7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0013274.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0013274>
+
+    Annotations: 
+        rdfs:label "Pneumonia of Calves, Enzootic"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002090>
+
+    Annotations: 
+        rdfs:label "Pneumonia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/45680ccb-9ec0-4794-a566-4510021d4afe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0013274>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7f271ae-542b-45c0-b56c-4ca20b862e19>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d62712a9-7cda-4393-9e8e-43e7a34bf499>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7f271ae-542b-45c0-b56c-4ca20b862e19>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7f271ae-542b-45c0-b56c-4ca20b862e19>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e7f271ae-542b-45c0-b56c-4ca20b862e19>
+    
+    
+Individual: <http://model.geneontology.org/d62712a9-7cda-4393-9e8e-43e7a34bf499>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/21078926;PMID:16427590;PMID:19796608;PMID:21800424;PMID:18218156>
+    
+    
+Individual: <http://model.geneontology.org/e7f271ae-542b-45c0-b56c-4ca20b862e19>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 47.669889557561056/13). MESHID: D048089"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002090>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/21078926;PMID:16427590;PMID:19796608;PMID:21800424;PMID:18218156>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

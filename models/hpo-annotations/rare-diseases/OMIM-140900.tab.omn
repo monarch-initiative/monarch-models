@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a08f3983-a221-4fe9-b61e-226b7785b2de>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-140900.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001048>
+
+    Annotations: 
+        rdfs:label "Cavernous hemangioma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_140900>
+
+    Annotations: 
+        rdfs:label "HEMANGIOMAS OF SMALL INTESTINE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/047caf56-d8d9-4ada-8cb0-315f9363cad9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_140900>
+    
+    
+Individual: <http://model.geneontology.org/5fd847b8-27a3-42c5-842f-7ce2b86f7be3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_140900>
+    
+    
+Individual: <http://model.geneontology.org/70fc34fc-6420-4bf7-ad1c-f03e139a4136>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Of small intestine"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001048>
+    
+    
+Individual: <http://model.geneontology.org/a6c9c7fd-f2a7-444e-bbe5-fdc25c261b1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f9c77800-5b9a-43d6-8515-80dadb9c4e17>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_140900>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c9c7fd-f2a7-444e-bbe5-fdc25c261b1c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/047caf56-d8d9-4ada-8cb0-315f9363cad9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c9c7fd-f2a7-444e-bbe5-fdc25c261b1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c9c7fd-f2a7-444e-bbe5-fdc25c261b1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a6c9c7fd-f2a7-444e-bbe5-fdc25c261b1c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70fc34fc-6420-4bf7-ad1c-f03e139a4136>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5fd847b8-27a3-42c5-842f-7ce2b86f7be3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70fc34fc-6420-4bf7-ad1c-f03e139a4136>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70fc34fc-6420-4bf7-ad1c-f03e139a4136>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70fc34fc-6420-4bf7-ad1c-f03e139a4136>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_140900>
+
+    Annotations: 
+        rdfs:label "HEMANGIOMAS OF SMALL INTESTINE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

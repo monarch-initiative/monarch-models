@@ -1,0 +1,233 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/98ee0353-5216-4717-93bd-da1f4b1c0b55>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-606713.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000175>
+
+    Annotations: 
+        rdfs:label "Cleft palate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000204>
+
+    Annotations: 
+        rdfs:label "Cleft upper lip"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000674>
+
+    Annotations: 
+        rdfs:label "Anodontia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_606713>
+
+    Annotations: 
+        rdfs:label "#606713 VAN DER WOUDE SYNDROME 2; VWS2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2bbc588a-b936-413a-bdca-8b1c11c05ad3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_TEETH > ANODONTIA (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000674>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/cb846bb3-a6f6-4907-8bd7-352111f9c916>
+    
+    
+Individual: <http://model.geneontology.org/398b5057-b961-45c5-824e-640dc4d52d11>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606713>
+    
+    
+Individual: <http://model.geneontology.org/3e29affc-b828-4184-839f-8f5c0a3987b5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/5895fa0e-cd9a-4d75-b14e-6b39f04ce433>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_606713>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9afeb59-7306-4ed0-a57a-ad92a4035267>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e1aac757-ba82-445a-ae86-8d25fc177972>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9afeb59-7306-4ed0-a57a-ad92a4035267>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9afeb59-7306-4ed0-a57a-ad92a4035267>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c9afeb59-7306-4ed0-a57a-ad92a4035267>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bbc588a-b936-413a-bdca-8b1c11c05ad3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/398b5057-b961-45c5-824e-640dc4d52d11>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bbc588a-b936-413a-bdca-8b1c11c05ad3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bbc588a-b936-413a-bdca-8b1c11c05ad3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bbc588a-b936-413a-bdca-8b1c11c05ad3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e29affc-b828-4184-839f-8f5c0a3987b5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/623888aa-8ff7-4d33-aaeb-9042b462b24e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e29affc-b828-4184-839f-8f5c0a3987b5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e29affc-b828-4184-839f-8f5c0a3987b5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e29affc-b828-4184-839f-8f5c0a3987b5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84aaac27-72cc-4c2b-8051-6fe5c9bf0709>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63c26e6f-65f2-4504-a2ef-d818aec3040f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84aaac27-72cc-4c2b-8051-6fe5c9bf0709>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84aaac27-72cc-4c2b-8051-6fe5c9bf0709>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84aaac27-72cc-4c2b-8051-6fe5c9bf0709>
+    
+    
+Individual: <http://model.geneontology.org/623888aa-8ff7-4d33-aaeb-9042b462b24e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606713>
+    
+    
+Individual: <http://model.geneontology.org/63c26e6f-65f2-4504-a2ef-d818aec3040f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606713>
+    
+    
+Individual: <http://model.geneontology.org/84aaac27-72cc-4c2b-8051-6fe5c9bf0709>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_MOUTH > CLEFT PALATE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000175>
+    
+    
+Individual: <http://model.geneontology.org/c9afeb59-7306-4ed0-a57a-ad92a4035267>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_MOUTH > CLEFT LIP"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000204>
+    
+    
+Individual: <http://model.geneontology.org/cb846bb3-a6f6-4907-8bd7-352111f9c916>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/e1aac757-ba82-445a-ae86-8d25fc177972>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606713>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_606713>
+
+    Annotations: 
+        rdfs:label "#606713 VAN DER WOUDE SYNDROME 2; VWS2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

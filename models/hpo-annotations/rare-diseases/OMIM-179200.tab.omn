@@ -1,0 +1,196 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/621ea7f6-c962-4bdb-a129-956c6181f5f8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-179200.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002488>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001377>
+
+    Annotations: 
+        rdfs:label "Limited elbow extension"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003577>
+
+    Annotations: 
+        rdfs:label "Congenital onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005798>
+
+    Annotations: 
+        rdfs:label "Posterior radial head dislocation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009760>
+
+    Annotations: 
+        rdfs:label "Antecubital pterygium"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_179200>
+
+    Annotations: 
+        rdfs:label "RADIAL HEADS, POSTERIOR DISLOCATION OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/92f9101e-6f90-4028-aaca-7a9909c57474>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179200>
+    
+    
+Individual: <http://model.geneontology.org/983d8c45-c547-4fac-ab51-60cd2cd64bf3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009760>
+    
+    
+Individual: <http://model.geneontology.org/99636c78-b07f-4835-ae3d-b7063402ebdf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179200>
+    
+    
+Individual: <http://model.geneontology.org/c47e2f97-f834-4d69-af8a-ec7c5670e053>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001377>
+    
+    
+Individual: <http://model.geneontology.org/c5758b4c-4f3e-4332-a87e-a93cf30de32e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_179200>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47e2f97-f834-4d69-af8a-ec7c5670e053>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/92f9101e-6f90-4028-aaca-7a9909c57474>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47e2f97-f834-4d69-af8a-ec7c5670e053>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47e2f97-f834-4d69-af8a-ec7c5670e053>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47e2f97-f834-4d69-af8a-ec7c5670e053>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c76d6e6f-2bd7-414d-968f-52a1867c92c9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/99636c78-b07f-4835-ae3d-b7063402ebdf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c76d6e6f-2bd7-414d-968f-52a1867c92c9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c76d6e6f-2bd7-414d-968f-52a1867c92c9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c76d6e6f-2bd7-414d-968f-52a1867c92c9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/983d8c45-c547-4fac-ab51-60cd2cd64bf3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cfccbab2-daf7-417d-809b-4d7ce9e80385>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/983d8c45-c547-4fac-ab51-60cd2cd64bf3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/983d8c45-c547-4fac-ab51-60cd2cd64bf3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/983d8c45-c547-4fac-ab51-60cd2cd64bf3>
+    
+    
+Individual: <http://model.geneontology.org/c76d6e6f-2bd7-414d-968f-52a1867c92c9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005798>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/RO_0002488>  <http://model.geneontology.org/dcc595e5-3a1f-45d6-8548-15df12572134>
+    
+    
+Individual: <http://model.geneontology.org/cfccbab2-daf7-417d-809b-4d7ce9e80385>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179200>
+    
+    
+Individual: <http://model.geneontology.org/dcc595e5-3a1f-45d6-8548-15df12572134>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003577>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_179200>
+
+    Annotations: 
+        rdfs:label "RADIAL HEADS, POSTERIOR DISLOCATION OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

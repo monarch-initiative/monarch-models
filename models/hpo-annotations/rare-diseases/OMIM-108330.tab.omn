@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1cb45e9a-39cb-4c82-9383-f3db5f89083b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-108330.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002664>
+
+    Annotations: 
+        rdfs:label "Neoplasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_108330>
+
+    Annotations: 
+        rdfs:label "CYTOCHROME P450, SUBFAMILY I, POLYPEPTIDE 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1edad4b0-0801-4083-9627-1e356ef04115>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108330>
+    
+    
+Individual: <http://model.geneontology.org/40c2e3af-c924-40e7-a6da-1cc4ea920e6f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002664>
+    
+    
+Individual: <http://model.geneontology.org/758e62b1-2c51-4ec5-8d72-6d66dc1d4ffe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108330>
+    
+    
+Individual: <http://model.geneontology.org/d3e7c539-dbff-4e6b-93be-5adad3d36333>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f47f6ab8-96b1-4368-9946-0360e0d8940a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_108330>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3e7c539-dbff-4e6b-93be-5adad3d36333>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1edad4b0-0801-4083-9627-1e356ef04115>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3e7c539-dbff-4e6b-93be-5adad3d36333>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3e7c539-dbff-4e6b-93be-5adad3d36333>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3e7c539-dbff-4e6b-93be-5adad3d36333>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40c2e3af-c924-40e7-a6da-1cc4ea920e6f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/758e62b1-2c51-4ec5-8d72-6d66dc1d4ffe>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40c2e3af-c924-40e7-a6da-1cc4ea920e6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40c2e3af-c924-40e7-a6da-1cc4ea920e6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/40c2e3af-c924-40e7-a6da-1cc4ea920e6f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_108330>
+
+    Annotations: 
+        rdfs:label "CYTOCHROME P450, SUBFAMILY I, POLYPEPTIDE 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

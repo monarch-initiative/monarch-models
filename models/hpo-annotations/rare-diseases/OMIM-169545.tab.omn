@@ -1,0 +1,206 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8af8dc20-7129-4887-8511-6c6838f750da>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-169545.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000086>
+
+    Annotations: 
+        rdfs:label "Ectopic kidney"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001438>
+
+    Annotations: 
+        rdfs:label "Abnormality of the abdomen"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_169545>
+
+    Annotations: 
+        rdfs:label "PELVIC LIPOMATOSIS WITH CROSSED RENAL ECTOPIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/08b92cc5-8680-4668-b446-6ee2f99adbf2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/0b0e4f9d-2064-4ee5-bd9d-19d44a25aaf2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169545>
+    
+    
+Individual: <http://model.geneontology.org/2959d59e-d211-47ea-8d42-e27e78f0218c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001438>
+    
+    
+Individual: <http://model.geneontology.org/37068fc6-fd5f-499e-8c86-de7bb4305545>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169545>
+    
+    
+Individual: <http://model.geneontology.org/52c7b17d-e1f2-46b5-9b15-51677ac0a7fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169545>
+    
+    
+Individual: <http://model.geneontology.org/97a4d733-7772-45ea-b98d-186ebfa15928>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/d39279ab-e740-4167-93dc-dac27b44064d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000086>
+    
+    
+Individual: <http://model.geneontology.org/e6fb2d62-918b-4f43-8fdf-cd03ec04de81>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_169545>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d39279ab-e740-4167-93dc-dac27b44064d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/37068fc6-fd5f-499e-8c86-de7bb4305545>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d39279ab-e740-4167-93dc-dac27b44064d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d39279ab-e740-4167-93dc-dac27b44064d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d39279ab-e740-4167-93dc-dac27b44064d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08b92cc5-8680-4668-b446-6ee2f99adbf2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f501d607-204c-41e4-8e84-14e103b5ed83>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08b92cc5-8680-4668-b446-6ee2f99adbf2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08b92cc5-8680-4668-b446-6ee2f99adbf2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08b92cc5-8680-4668-b446-6ee2f99adbf2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2959d59e-d211-47ea-8d42-e27e78f0218c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/52c7b17d-e1f2-46b5-9b15-51677ac0a7fb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2959d59e-d211-47ea-8d42-e27e78f0218c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2959d59e-d211-47ea-8d42-e27e78f0218c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2959d59e-d211-47ea-8d42-e27e78f0218c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97a4d733-7772-45ea-b98d-186ebfa15928>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0b0e4f9d-2064-4ee5-bd9d-19d44a25aaf2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97a4d733-7772-45ea-b98d-186ebfa15928>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97a4d733-7772-45ea-b98d-186ebfa15928>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97a4d733-7772-45ea-b98d-186ebfa15928>
+    
+    
+Individual: <http://model.geneontology.org/f501d607-204c-41e4-8e84-14e103b5ed83>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169545>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_169545>
+
+    Annotations: 
+        rdfs:label "PELVIC LIPOMATOSIS WITH CROSSED RENAL ECTOPIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

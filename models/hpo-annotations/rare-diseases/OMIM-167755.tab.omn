@@ -1,0 +1,181 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c6f1c999-25c5-4e65-b74e-9f134191a6ee>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-167755.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000819>
+
+    Annotations: 
+        rdfs:label "Diabetes mellitus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001732>
+
+    Annotations: 
+        rdfs:label "Abnormality of the pancreas"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_167755>
+
+    Annotations: 
+        rdfs:label "167755 PANCREAS, DORSAL, AGENESIS OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/136edf4c-289c-4e94-bdb1-c26d44f3a03c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_167755>
+    
+    
+Individual: <http://model.geneontology.org/3285de4b-53d1-4de9-8e6f-ea78b0bdc9bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/4ab9b213-d39d-4e75-927b-4b8330ba2b8a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_167755>
+    
+    
+Individual: <http://model.geneontology.org/537f5985-cec4-4b01-9997-a88731204246>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_PANCREAS > ABSENT CORPUS, TAIL AND UNCINATE PROCESS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001732>
+    
+    
+Individual: <http://model.geneontology.org/839be924-c0a9-47f2-9e83-fe2364d3b462>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "SUSCEPTIBILITY TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000819>
+    
+    
+Individual: <http://model.geneontology.org/eb455109-6704-4f51-b2ea-8b05ec0d38bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_167755>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3285de4b-53d1-4de9-8e6f-ea78b0bdc9bb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/136edf4c-289c-4e94-bdb1-c26d44f3a03c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3285de4b-53d1-4de9-8e6f-ea78b0bdc9bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3285de4b-53d1-4de9-8e6f-ea78b0bdc9bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-12"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3285de4b-53d1-4de9-8e6f-ea78b0bdc9bb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/537f5985-cec4-4b01-9997-a88731204246>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4ab9b213-d39d-4e75-927b-4b8330ba2b8a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/537f5985-cec4-4b01-9997-a88731204246>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/537f5985-cec4-4b01-9997-a88731204246>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-12"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/537f5985-cec4-4b01-9997-a88731204246>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/839be924-c0a9-47f2-9e83-fe2364d3b462>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f883a9c3-5629-4d62-8bda-73aa2b1f1020>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/839be924-c0a9-47f2-9e83-fe2364d3b462>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/839be924-c0a9-47f2-9e83-fe2364d3b462>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-12"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/839be924-c0a9-47f2-9e83-fe2364d3b462>
+    
+    
+Individual: <http://model.geneontology.org/f883a9c3-5629-4d62-8bda-73aa2b1f1020>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_167755>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_167755>
+
+    Annotations: 
+        rdfs:label "167755 PANCREAS, DORSAL, AGENESIS OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

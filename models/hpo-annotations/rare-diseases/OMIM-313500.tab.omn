@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/572b5576-48b2-4ead-a720-6c4d1a5ab659>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-313500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000668>
+
+    Annotations: 
+        rdfs:label "Hypodontia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000677>
+
+    Annotations: 
+        rdfs:label "Oligodontia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001423>
+
+    Annotations: 
+        rdfs:label "X-linked dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_313500>
+
+    Annotations: 
+        rdfs:label "TOOTH AGENESIS, SELECTIVE, X-LINKED, 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0fc61658-eaf0-4f31-bfe3-55811f9b8b7b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000668>
+    
+    
+Individual: <http://model.geneontology.org/1873849d-e3ad-4b18-b3ee-bd9fb57f1636>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_313500>
+    
+    
+Individual: <http://model.geneontology.org/43393ede-5297-41a3-ab4b-4720a18299c8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001423>
+    
+    
+Individual: <http://model.geneontology.org/70cc7426-ff27-4ead-a9d6-9588b069c80f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000677>
+    
+    
+Individual: <http://model.geneontology.org/d278084b-2c7d-4470-8ac4-ee95529bb954>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_313500>
+    
+    
+Individual: <http://model.geneontology.org/e23b63b0-f558-441b-ac58-893bc5b836e4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_313500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fc61658-eaf0-4f31-bfe3-55811f9b8b7b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1873849d-e3ad-4b18-b3ee-bd9fb57f1636>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fc61658-eaf0-4f31-bfe3-55811f9b8b7b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fc61658-eaf0-4f31-bfe3-55811f9b8b7b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0fc61658-eaf0-4f31-bfe3-55811f9b8b7b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43393ede-5297-41a3-ab4b-4720a18299c8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d278084b-2c7d-4470-8ac4-ee95529bb954>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43393ede-5297-41a3-ab4b-4720a18299c8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43393ede-5297-41a3-ab4b-4720a18299c8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43393ede-5297-41a3-ab4b-4720a18299c8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70cc7426-ff27-4ead-a9d6-9588b069c80f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e9fdc27c-0bdf-46a3-89ec-080997dd0be0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70cc7426-ff27-4ead-a9d6-9588b069c80f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70cc7426-ff27-4ead-a9d6-9588b069c80f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70cc7426-ff27-4ead-a9d6-9588b069c80f>
+    
+    
+Individual: <http://model.geneontology.org/e9fdc27c-0bdf-46a3-89ec-080997dd0be0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_313500>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_313500>
+
+    Annotations: 
+        rdfs:label "TOOTH AGENESIS, SELECTIVE, X-LINKED, 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

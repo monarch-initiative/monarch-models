@@ -1,0 +1,412 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ee9b2306-5363-4404-9b57-ea03903c06bd>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614972.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000952>
+
+    Annotations: 
+        rdfs:label "Jaundice"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000989>
+
+    Annotations: 
+        rdfs:label "Pruritus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001406>
+
+    Annotations: 
+        rdfs:label "Intrahepatic cholestasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001622>
+
+    Annotations: 
+        rdfs:label "Premature birth"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200148>
+
+    Annotations: 
+        rdfs:label "Abnormal liver function tests during pregnancy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200150>
+
+    Annotations: 
+        rdfs:label "increased serum bile acid concentration during pregnancy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614972>
+
+    Annotations: 
+        rdfs:label "#614972 CHOLESTASIS, INTRAHEPATIC, OF PREGNANCY 3; ICP3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/027112f0-b88a-45fd-bf42-a5699f82b841>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > INTRAHEPATIC CHOLESTASIS DURING PREGNANCY, RESOLVES POSTPARTUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001406>
+    
+    
+Individual: <http://model.geneontology.org/06b152a2-bd5e-4543-8b6b-f403ce0ab337>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/0f1cd4a0-6bc4-4745-a3bc-e7f5c2fcf285>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3616688-384a-439f-8829-1cfdbb10fff5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/06b152a2-bd5e-4543-8b6b-f403ce0ab337>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3616688-384a-439f-8829-1cfdbb10fff5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3616688-384a-439f-8829-1cfdbb10fff5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3616688-384a-439f-8829-1cfdbb10fff5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f4039ca4-0832-49e0-a0b6-89ee026687ab>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/72521b28-a7ae-4be9-a3bd-946c1fc26b0c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f4039ca4-0832-49e0-a0b6-89ee026687ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f4039ca4-0832-49e0-a0b6-89ee026687ab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-12-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f4039ca4-0832-49e0-a0b6-89ee026687ab>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a73bb0-1ac4-45e1-9a0b-56b36bbfe730>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/123ab865-1f3b-4e52-9d67-0451b89a0ae8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a73bb0-1ac4-45e1-9a0b-56b36bbfe730>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a73bb0-1ac4-45e1-9a0b-56b36bbfe730>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-12-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a73bb0-1ac4-45e1-9a0b-56b36bbfe730>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8a70758-d4d6-4bdd-9bca-47c980cb634b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b4477951-7135-4e41-ba74-79fdf39911e9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8a70758-d4d6-4bdd-9bca-47c980cb634b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8a70758-d4d6-4bdd-9bca-47c980cb634b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8a70758-d4d6-4bdd-9bca-47c980cb634b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/027112f0-b88a-45fd-bf42-a5699f82b841>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dca60e1c-bbc5-4412-a635-18346d2d20b8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/027112f0-b88a-45fd-bf42-a5699f82b841>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/027112f0-b88a-45fd-bf42-a5699f82b841>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/027112f0-b88a-45fd-bf42-a5699f82b841>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4265343a-c699-41a0-9778-16a0fa9696b0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/89c3c9c1-799b-4b22-930f-42703def47bb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4265343a-c699-41a0-9778-16a0fa9696b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4265343a-c699-41a0-9778-16a0fa9696b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4265343a-c699-41a0-9778-16a0fa9696b0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4918a51c-8089-4033-b234-73fb335d74c7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5bb7a1c4-18e6-4469-a43c-65aae5518184>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4918a51c-8089-4033-b234-73fb335d74c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4918a51c-8089-4033-b234-73fb335d74c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4918a51c-8089-4033-b234-73fb335d74c7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/706c4163-0ec2-4c71-a405-ae883edfad79>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0f3b84b9-b645-45fa-a994-ce863aa29693>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/706c4163-0ec2-4c71-a405-ae883edfad79>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/706c4163-0ec2-4c71-a405-ae883edfad79>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-12-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/706c4163-0ec2-4c71-a405-ae883edfad79>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79563919-84fb-45c0-a81a-d72893d74c85>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6ca19fdc-1a29-46ed-acd3-731dfb0e4fbf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79563919-84fb-45c0-a81a-d72893d74c85>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79563919-84fb-45c0-a81a-d72893d74c85>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-06-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79563919-84fb-45c0-a81a-d72893d74c85>
+    
+    
+Individual: <http://model.geneontology.org/0f3b84b9-b645-45fa-a994-ce863aa29693>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/123ab865-1f3b-4e52-9d67-0451b89a0ae8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/133bac3b-f97f-4174-ac83-280f94ebb682>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4265343a-c699-41a0-9778-16a0fa9696b0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > ABNORMAL LIVER FUNCTION TESTS DURING PREGNANCY, RESOLVES POSTPARTUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200148>
+    
+    
+Individual: <http://model.geneontology.org/4918a51c-8089-4033-b234-73fb335d74c7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > JAUNDICE (IN SOME PATIENTS), RESOLVED POSTPARTUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000952>
+    
+    
+Individual: <http://model.geneontology.org/5bb7a1c4-18e6-4469-a43c-65aae5518184>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/6ca19fdc-1a29-46ed-acd3-731dfb0e4fbf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/706c4163-0ec2-4c71-a405-ae883edfad79>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:PRENATAL MANIFESTATIONS_DELIVERY > PREMATURE DELIVERY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001622>
+    
+    
+Individual: <http://model.geneontology.org/72521b28-a7ae-4be9-a3bd-946c1fc26b0c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/79563919-84fb-45c0-a81a-d72893d74c85>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > ABNORMAL LIVER FUNCTION TESTS DURING PREGNANCY, RESOLVES POSTPARTUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200148>
+    
+    
+Individual: <http://model.geneontology.org/89c3c9c1-799b-4b22-930f-42703def47bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/b4477951-7135-4e41-ba74-79fdf39911e9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/dca60e1c-bbc5-4412-a635-18346d2d20b8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614972>
+    
+    
+Individual: <http://model.geneontology.org/f3616688-384a-439f-8829-1cfdbb10fff5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > INCREASED SERUM BILE ACID CONCENTRATION DURING PREGNANCY, RESOLVES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200150>
+    
+    
+Individual: <http://model.geneontology.org/f4039ca4-0832-49e0-a0b6-89ee026687ab>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f6a73bb0-1ac4-45e1-9a0b-56b36bbfe730>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/133bac3b-f97f-4174-ac83-280f94ebb682>
+    
+    
+Individual: <http://model.geneontology.org/f8a70758-d4d6-4bdd-9bca-47c980cb634b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > PRURITUS DURING PREGNANCY, RESOLVES POSTPARTUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000989>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614972>
+
+    Annotations: 
+        rdfs:label "#614972 CHOLESTASIS, INTRAHEPATIC, OF PREGNANCY 3; ICP3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

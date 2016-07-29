@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a013894c-e354-4b10-9902-7ad0d317bced>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-133239.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002664>
+
+    Annotations: 
+        rdfs:label "Neoplasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002860>
+
+    Annotations: 
+        rdfs:label "Squamous cell carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_133239>
+
+    Annotations: 
+        rdfs:label "ESOPHAGEAL CANCERESOPHAGEAL SQUAMOUS CELL CARCINOMA, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1ac5819d-c665-4a84-b53f-b24e6d821ab7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:al canceresophageal squamous cell carcinoma, included"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002860>
+    
+    
+Individual: <http://model.geneontology.org/205714d1-a822-4c0a-b753-ba1d3b4c54cb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_133239>
+    
+    
+Individual: <http://model.geneontology.org/2bca4c71-0f56-4275-8132-27c02461d2df>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/3514cea7-9892-4221-bf03-738f65a6b1ee>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_133239>
+    
+    
+Individual: <http://model.geneontology.org/8ead1f82-a17a-47c3-bc52-8538a91215be>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_133239>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec70e6ec-ba57-4245-bd7d-d9cb8b7354e9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/205714d1-a822-4c0a-b753-ba1d3b4c54cb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec70e6ec-ba57-4245-bd7d-d9cb8b7354e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec70e6ec-ba57-4245-bd7d-d9cb8b7354e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec70e6ec-ba57-4245-bd7d-d9cb8b7354e9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ac5819d-c665-4a84-b53f-b24e6d821ab7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e6f0486f-a3cb-4a96-9432-8304d06eb5e3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ac5819d-c665-4a84-b53f-b24e6d821ab7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ac5819d-c665-4a84-b53f-b24e6d821ab7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1ac5819d-c665-4a84-b53f-b24e6d821ab7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bca4c71-0f56-4275-8132-27c02461d2df>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3514cea7-9892-4221-bf03-738f65a6b1ee>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bca4c71-0f56-4275-8132-27c02461d2df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bca4c71-0f56-4275-8132-27c02461d2df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2bca4c71-0f56-4275-8132-27c02461d2df>
+    
+    
+Individual: <http://model.geneontology.org/e6f0486f-a3cb-4a96-9432-8304d06eb5e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_133239>
+    
+    
+Individual: <http://model.geneontology.org/ec70e6ec-ba57-4245-bd7d-d9cb8b7354e9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002664>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_133239>
+
+    Annotations: 
+        rdfs:label "ESOPHAGEAL CANCERESOPHAGEAL SQUAMOUS CELL CARCINOMA, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

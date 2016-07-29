@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0f6d0fd2-1eaf-4ac5-bffd-8457b49504fe>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "DO-DOID_0011162.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/DOID_0011162>
+
+    Annotations: 
+        rdfs:label "RESPIRATORY FAILURE"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002878>
+
+    Annotations: 
+        rdfs:label "Respiratory failure"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Individual: <http://model.geneontology.org/8d38c3a6-0a3f-4f27-9fb7-375fbfcce1b0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:respiratory failure"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002878>
+    
+    
+Individual: <http://model.geneontology.org/9107acad-c82a-4ffc-8122-525524003d0c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/DOID_0011162>
+    
+    
+Individual: <http://model.geneontology.org/ccb08d86-a069-4f33-95a1-e303d2e3b339>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/DOID_0011162>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d38c3a6-0a3f-4f27-9fb7-375fbfcce1b0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9107acad-c82a-4ffc-8122-525524003d0c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d38c3a6-0a3f-4f27-9fb7-375fbfcce1b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d38c3a6-0a3f-4f27-9fb7-375fbfcce1b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8d38c3a6-0a3f-4f27-9fb7-375fbfcce1b0>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/DOID_0011162>
+
+    Annotations: 
+        rdfs:label "RESPIRATORY FAILURE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

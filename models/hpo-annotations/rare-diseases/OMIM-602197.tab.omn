@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/92165584-6095-40c0-b273-09ab45a3733a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-602197.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001317>
+
+    Annotations: 
+        rdfs:label "Abnormality of the cerebellum"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_602197>
+
+    Annotations: 
+        rdfs:label "602197 CEREBELLAR DEGENERATION-RELATED AUTOANTIGEN 3;;CDR3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/23073597-5c24-4f95-9762-1726d08df625>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001317>
+    
+    
+Individual: <http://model.geneontology.org/93b1b594-ad33-4808-9701-2e2879daf82b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_602197>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23073597-5c24-4f95-9762-1726d08df625>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eef6b7cc-30fb-4a00-8387-ce31c39dd0d7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23073597-5c24-4f95-9762-1726d08df625>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23073597-5c24-4f95-9762-1726d08df625>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23073597-5c24-4f95-9762-1726d08df625>
+    
+    
+Individual: <http://model.geneontology.org/eef6b7cc-30fb-4a00-8387-ce31c39dd0d7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_602197>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_602197>
+
+    Annotations: 
+        rdfs:label "602197 CEREBELLAR DEGENERATION-RELATED AUTOANTIGEN 3;;CDR3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

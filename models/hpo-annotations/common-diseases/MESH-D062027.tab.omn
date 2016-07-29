@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/31efa396-15b7-429e-99d9-a65e45071d6e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "MESH-D062027.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <MESH:D062027>
+
+    Annotations: 
+        rdfs:label "Linear IgA Bullous Dermatosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002960>
+
+    Annotations: 
+        rdfs:label "Autoimmunity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008066>
+
+    Annotations: 
+        rdfs:label "Abnormal blistering of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <urn:local:ITM>
+
+    Annotations: 
+        rdfs:label "ITM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3d978eaf-9978-411c-b422-f492cf09dd4b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 19.86059693231119/3)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008066>
+    
+    
+Individual: <http://model.geneontology.org/3e66dca6-f2f3-4759-8b0e-03863f195cae>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Parsed by BioLark from Pubmed abstract (additional info: 21.04859308347777/5)."^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002960>
+    
+    
+Individual: <http://model.geneontology.org/795c433c-f5bb-4e11-a105-b22814e07473>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/21906150;PMID:23316661;PMID:22924407>
+    
+    
+Individual: <http://model.geneontology.org/d6d33811-2296-483f-80b5-0bd42fa14981>
+
+    Types: 
+        <MESH:D062027>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d978eaf-9978-411c-b422-f492cf09dd4b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/795c433c-f5bb-4e11-a105-b22814e07473>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d978eaf-9978-411c-b422-f492cf09dd4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d978eaf-9978-411c-b422-f492cf09dd4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d978eaf-9978-411c-b422-f492cf09dd4b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e66dca6-f2f3-4759-8b0e-03863f195cae>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fac958d2-3376-4c85-9b9d-11b1f80265cb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e66dca6-f2f3-4759-8b0e-03863f195cae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e66dca6-f2f3-4759-8b0e-03863f195cae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3e66dca6-f2f3-4759-8b0e-03863f195cae>
+    
+    
+Individual: <http://model.geneontology.org/fac958d2-3376-4c85-9b9d-11b1f80265cb>
+
+    Types: 
+        <urn:local:ITM>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/22264207;PMID:21906150;PMID:23316661;PMID:23067077;PMID:22924407>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/21906150;PMID:23316661;PMID:22924407>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/22264207;PMID:21906150;PMID:23316661;PMID:23067077;PMID:22924407>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0ec44ee2-bd25-44fd-bace-52aba555d124>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612229.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001425>
+
+    Annotations: 
+        rdfs:label "Heterogeneous"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003003>
+
+    Annotations: 
+        rdfs:label "Colon cancer"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612229>
+
+    Annotations: 
+        rdfs:label "COLORECTAL CANCER, SUSCEPTIBILITY TO, 3"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1dbc7056-9b52-49ae-a6ca-07e02ff93e17>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001425>
+    
+    
+Individual: <http://model.geneontology.org/90f92052-8aac-4f36-99c0-f65241832720>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/17934461;PMID:18372901;PMID:18372905>
+    
+    
+Individual: <http://model.geneontology.org/cb9c4a23-83a0-422a-8918-6008df69459f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612229>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faf328d7-b55a-4cfd-a17a-02654f0b2909>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/90f92052-8aac-4f36-99c0-f65241832720>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faf328d7-b55a-4cfd-a17a-02654f0b2909>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO:curators"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faf328d7-b55a-4cfd-a17a-02654f0b2909>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-07-08"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faf328d7-b55a-4cfd-a17a-02654f0b2909>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dbc7056-9b52-49ae-a6ca-07e02ff93e17>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe589f88-f064-42a0-a6a0-a3f972a5d516>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dbc7056-9b52-49ae-a6ca-07e02ff93e17>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO:curators"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dbc7056-9b52-49ae-a6ca-07e02ff93e17>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-07-08"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1dbc7056-9b52-49ae-a6ca-07e02ff93e17>
+    
+    
+Individual: <http://model.geneontology.org/faf328d7-b55a-4cfd-a17a-02654f0b2909>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003003>
+    
+    
+Individual: <http://model.geneontology.org/fe589f88-f064-42a0-a6a0-a3f972a5d516>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612229>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612229>
+
+    Annotations: 
+        rdfs:label "COLORECTAL CANCER, SUSCEPTIBILITY TO, 3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/17934461;PMID:18372901;PMID:18372905>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

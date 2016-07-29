@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/849c8122-5cb9-4851-9c1d-ec34eaca85a1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-608645.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0040113>
+
+    Annotations: 
+        rdfs:label "Old-aged sensorineural hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_608645>
+
+    Annotations: 
+        rdfs:label "%608645 DEAFNESS, AUTOSOMAL DOMINANT 31; DFNA31"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0a4a9654-ac23-43f3-905b-ed0a4d4a3aa6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608645>
+    
+    
+Individual: <http://model.geneontology.org/2cdd9ac8-3b19-4dd1-9811-8955a7afa352>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EARS > PRESBYCUSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0040113>
+    
+    
+Individual: <http://model.geneontology.org/48c9517a-52fe-41fd-8c33-b10808d9e912>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_608645>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf7c16e5-b6e3-43ff-bb3c-3dd54dbdff53>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0a4a9654-ac23-43f3-905b-ed0a4d4a3aa6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf7c16e5-b6e3-43ff-bb3c-3dd54dbdff53>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf7c16e5-b6e3-43ff-bb3c-3dd54dbdff53>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-09-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf7c16e5-b6e3-43ff-bb3c-3dd54dbdff53>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cdd9ac8-3b19-4dd1-9811-8955a7afa352>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9b6181f0-778e-4657-b224-2bae3e6ce1a3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cdd9ac8-3b19-4dd1-9811-8955a7afa352>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cdd9ac8-3b19-4dd1-9811-8955a7afa352>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-09-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cdd9ac8-3b19-4dd1-9811-8955a7afa352>
+    
+    
+Individual: <http://model.geneontology.org/9b6181f0-778e-4657-b224-2bae3e6ce1a3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608645>
+    
+    
+Individual: <http://model.geneontology.org/bf7c16e5-b6e3-43ff-bb3c-3dd54dbdff53>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EARS > PRESBYCUSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_608645>
+
+    Annotations: 
+        rdfs:label "%608645 DEAFNESS, AUTOSOMAL DOMINANT 31; DFNA31"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

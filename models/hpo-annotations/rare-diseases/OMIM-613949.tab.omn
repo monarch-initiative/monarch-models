@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/37b0f89a-128c-43d1-bf99-9a52dbd4ab72>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613949.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002843>
+
+    Annotations: 
+        rdfs:label "Abnormality of T cells"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613949>
+
+    Annotations: 
+        rdfs:label "#613949 OKT4 EPITOPE DEFICIENCY ;;T4 EPITOPE DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/a06ac492-f6de-4bc2-9a99-08642d36f765>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002843>
+    
+    
+Individual: <http://model.geneontology.org/e030ca7c-3d14-4a13-a8be-ed8765a976b6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613949>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a06ac492-f6de-4bc2-9a99-08642d36f765>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f7277a5b-6f45-4e7d-8dea-11f24a451978>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a06ac492-f6de-4bc2-9a99-08642d36f765>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a06ac492-f6de-4bc2-9a99-08642d36f765>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-23"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a06ac492-f6de-4bc2-9a99-08642d36f765>
+    
+    
+Individual: <http://model.geneontology.org/f7277a5b-6f45-4e7d-8dea-11f24a451978>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613949>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613949>
+
+    Annotations: 
+        rdfs:label "#613949 OKT4 EPITOPE DEFICIENCY ;;T4 EPITOPE DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

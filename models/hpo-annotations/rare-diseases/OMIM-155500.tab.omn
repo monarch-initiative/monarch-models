@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/071f0a96-547a-489b-b014-8492950e6db2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-155500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004099>
+
+    Annotations: 
+        rdfs:label "Macrodactyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_155500>
+
+    Annotations: 
+        rdfs:label "MEGALODACTYLY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/24421eb9-3bbb-46c6-ad98-79ad3e28008d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_155500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/940a8c42-d7f2-42d7-a123-08b9a4a986a1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b141aac2-79a3-4f45-bb1a-cafceb2dcac9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/940a8c42-d7f2-42d7-a123-08b9a4a986a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/940a8c42-d7f2-42d7-a123-08b9a4a986a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/940a8c42-d7f2-42d7-a123-08b9a4a986a1>
+    
+    
+Individual: <http://model.geneontology.org/940a8c42-d7f2-42d7-a123-08b9a4a986a1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004099>
+    
+    
+Individual: <http://model.geneontology.org/b141aac2-79a3-4f45-bb1a-cafceb2dcac9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_155500>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_155500>
+
+    Annotations: 
+        rdfs:label "MEGALODACTYLY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

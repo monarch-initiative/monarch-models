@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6a60f942-a8e1-4ae5-80dd-bd3b28459828>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-259680.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005901>
+
+    Annotations: 
+        rdfs:label "Chronic recurrent multifocal osteomyelitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_259680>
+
+    Annotations: 
+        rdfs:label "CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1857d472-c982-4784-badd-b58e706435ec>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_259680>
+    
+    
+Individual: <http://model.geneontology.org/45bf2b15-b570-4f12-9268-a3f45edc6bc2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005901>
+    
+    
+Individual: <http://model.geneontology.org/5453ce7a-edc8-446a-b976-2f46ec362889>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/8b4475f7-6996-4181-949a-b1770b58a9cd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_259680>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45bf2b15-b570-4f12-9268-a3f45edc6bc2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1857d472-c982-4784-badd-b58e706435ec>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45bf2b15-b570-4f12-9268-a3f45edc6bc2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45bf2b15-b570-4f12-9268-a3f45edc6bc2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45bf2b15-b570-4f12-9268-a3f45edc6bc2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5453ce7a-edc8-446a-b976-2f46ec362889>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d5e45f17-ad58-472a-a174-a9b0c2458d47>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5453ce7a-edc8-446a-b976-2f46ec362889>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5453ce7a-edc8-446a-b976-2f46ec362889>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5453ce7a-edc8-446a-b976-2f46ec362889>
+    
+    
+Individual: <http://model.geneontology.org/d5e45f17-ad58-472a-a174-a9b0c2458d47>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_259680>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_259680>
+
+    Annotations: 
+        rdfs:label "CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
