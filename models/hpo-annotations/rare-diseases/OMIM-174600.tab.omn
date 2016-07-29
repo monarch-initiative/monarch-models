@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/52358fac-f609-492a-b465-b645023123a3>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-174600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001199>
+
+    Annotations: 
+        rdfs:label "Triphalangeal thumb"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100258>
+
+    Annotations: 
+        rdfs:label "Preaxial polydactyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_174600>
+
+    Annotations: 
+        rdfs:label "POLYDACTYLY, PREAXIAL III"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/14e40c9e-a0db-443b-8668-0655b5475eb7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_174600>
+    
+    
+Individual: <http://model.geneontology.org/5a4bdf4f-9d63-41d4-a63e-8bf5c398be9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001199>
+    
+    
+Individual: <http://model.geneontology.org/891d30ca-6d94-4931-80a3-acd2d2da18eb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LIMBS > PREAXIAL POLYDACTYLY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100258>
+    
+    
+Individual: <http://model.geneontology.org/8cdfabd6-d82a-4b4e-beb5-136bb45666df>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_174600>
+    
+    
+Individual: <http://model.geneontology.org/9e006193-e06b-4509-b97c-0e8b38751585>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/b00ae6fb-323d-4f51-819b-7966c9184f1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_174600>
+    
+    
+Individual: <http://model.geneontology.org/b93bb18f-0397-4102-a837-563ed24601b7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_174600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a4bdf4f-9d63-41d4-a63e-8bf5c398be9a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/14e40c9e-a0db-443b-8668-0655b5475eb7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a4bdf4f-9d63-41d4-a63e-8bf5c398be9a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a4bdf4f-9d63-41d4-a63e-8bf5c398be9a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a4bdf4f-9d63-41d4-a63e-8bf5c398be9a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/891d30ca-6d94-4931-80a3-acd2d2da18eb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8cdfabd6-d82a-4b4e-beb5-136bb45666df>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/891d30ca-6d94-4931-80a3-acd2d2da18eb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/891d30ca-6d94-4931-80a3-acd2d2da18eb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/891d30ca-6d94-4931-80a3-acd2d2da18eb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e006193-e06b-4509-b97c-0e8b38751585>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b00ae6fb-323d-4f51-819b-7966c9184f1c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e006193-e06b-4509-b97c-0e8b38751585>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e006193-e06b-4509-b97c-0e8b38751585>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9e006193-e06b-4509-b97c-0e8b38751585>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_174600>
+
+    Annotations: 
+        rdfs:label "POLYDACTYLY, PREAXIAL III"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

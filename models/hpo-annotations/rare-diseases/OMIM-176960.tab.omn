@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7c56b499-71c0-4f92-b558-d7b8b985daed>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-176960.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011750>
+
+    Annotations: 
+        rdfs:label "Neoplasm of the anterior pituitary"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_176960>
+
+    Annotations: 
+        rdfs:label "PROTEIN KINASE C, ALPHA"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4dd49c7f-057f-41fc-8c1a-e8df6cc97ec3>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:8077302>
+    
+    
+Individual: <http://model.geneontology.org/b279774b-8e32-43f6-b849-fa804809328a>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:8077302>
+    
+    
+Individual: <http://model.geneontology.org/c47719e9-b525-4b0f-a7aa-03c361983b53>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011750>
+    
+    
+Individual: <http://model.geneontology.org/de022846-422a-4d0d-b80e-f1d3e7c57acd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/f10ecd31-bb7b-456d-a0c2-cfe6236b8b9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_176960>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47719e9-b525-4b0f-a7aa-03c361983b53>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b279774b-8e32-43f6-b849-fa804809328a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47719e9-b525-4b0f-a7aa-03c361983b53>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47719e9-b525-4b0f-a7aa-03c361983b53>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c47719e9-b525-4b0f-a7aa-03c361983b53>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de022846-422a-4d0d-b80e-f1d3e7c57acd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4dd49c7f-057f-41fc-8c1a-e8df6cc97ec3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de022846-422a-4d0d-b80e-f1d3e7c57acd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de022846-422a-4d0d-b80e-f1d3e7c57acd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de022846-422a-4d0d-b80e-f1d3e7c57acd>
+    
+    
+Individual: <pmid:8077302>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

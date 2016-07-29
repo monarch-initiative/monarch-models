@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/56370c9a-690a-4e18-98b2-7cbf112ce75b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-135300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000169>
+
+    Annotations: 
+        rdfs:label "Gingival fibromatosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_135300>
+
+    Annotations: 
+        rdfs:label "FIBROMATOSIS, GINGIVAL, 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0753cb5d-bdd3-4d49-8b92-eba57e5b352e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000169>
+    
+    
+Individual: <http://model.geneontology.org/3f255b32-274f-42e5-aabb-6a74b3e82a48>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7f56b83a-dc99-4ff3-ba32-b69a2aaf4e6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_135300>
+    
+    
+Individual: <http://model.geneontology.org/8385b8fe-2ee3-4861-8b11-a3a5e99b3f3f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_135300>
+    
+    
+Individual: <http://model.geneontology.org/ac9b3676-0930-4443-90c2-6d23278fc317>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_135300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0753cb5d-bdd3-4d49-8b92-eba57e5b352e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8385b8fe-2ee3-4861-8b11-a3a5e99b3f3f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0753cb5d-bdd3-4d49-8b92-eba57e5b352e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0753cb5d-bdd3-4d49-8b92-eba57e5b352e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0753cb5d-bdd3-4d49-8b92-eba57e5b352e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f255b32-274f-42e5-aabb-6a74b3e82a48>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7f56b83a-dc99-4ff3-ba32-b69a2aaf4e6e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f255b32-274f-42e5-aabb-6a74b3e82a48>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f255b32-274f-42e5-aabb-6a74b3e82a48>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f255b32-274f-42e5-aabb-6a74b3e82a48>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_135300>
+
+    Annotations: 
+        rdfs:label "FIBROMATOSIS, GINGIVAL, 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

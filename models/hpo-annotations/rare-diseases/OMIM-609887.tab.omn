@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/dd38fc14-e774-4861-905e-a54e699f1715>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-609887.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012108>
+
+    Annotations: 
+        rdfs:label "Primary open angle glaucoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_609887>
+
+    Annotations: 
+        rdfs:label "#609887 GLAUCOMA 1, OPEN ANGLE, G; GLC1G"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/187f18e7-a875-45bb-824a-bc22bccf251a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609887>
+    
+    
+Individual: <http://model.geneontology.org/22ad8eb8-7c84-4db0-9bd0-7f05afc26e4a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012108>
+    
+    
+Individual: <http://model.geneontology.org/58f0700c-8efd-4730-bf19-6d4c4a3712b3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_609887>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ad8eb8-7c84-4db0-9bd0-7f05afc26e4a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/187f18e7-a875-45bb-824a-bc22bccf251a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ad8eb8-7c84-4db0-9bd0-7f05afc26e4a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ad8eb8-7c84-4db0-9bd0-7f05afc26e4a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ad8eb8-7c84-4db0-9bd0-7f05afc26e4a>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_609887>
+
+    Annotations: 
+        rdfs:label "#609887 GLAUCOMA 1, OPEN ANGLE, G; GLC1G"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

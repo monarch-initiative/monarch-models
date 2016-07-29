@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/05b33416-897c-40b2-953d-18cb1d5ef51f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-609464.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012220>
+
+    Annotations: 
+        rdfs:label "Non-caseating epithelioid cell granulomatosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_609464>
+
+    Annotations: 
+        rdfs:label "#609464 SARCOIDOSIS, EARLY-ONSET;;EOS"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/70077a09-18bc-4665-a799-d37aff92116f>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:15086578>
+    
+    
+Individual: <http://model.geneontology.org/837bfe54-ddcb-44df-ad86-db031fc0171a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_609464>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20fad59-c3ed-4d7d-b620-c71625f7a5a3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/70077a09-18bc-4665-a799-d37aff92116f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20fad59-c3ed-4d7d-b620-c71625f7a5a3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20fad59-c3ed-4d7d-b620-c71625f7a5a3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b20fad59-c3ed-4d7d-b620-c71625f7a5a3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8af5f03d-5da4-4a47-897c-ef9a755d74db>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9bdd674f-54a7-4439-9b40-6178301e4601>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8af5f03d-5da4-4a47-897c-ef9a755d74db>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8af5f03d-5da4-4a47-897c-ef9a755d74db>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8af5f03d-5da4-4a47-897c-ef9a755d74db>
+    
+    
+Individual: <http://model.geneontology.org/8af5f03d-5da4-4a47-897c-ef9a755d74db>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/9bdd674f-54a7-4439-9b40-6178301e4601>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:15086578>
+    
+    
+Individual: <http://model.geneontology.org/b20fad59-c3ed-4d7d-b620-c71625f7a5a3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012220>
+    
+    
+Individual: <pmid:15086578>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

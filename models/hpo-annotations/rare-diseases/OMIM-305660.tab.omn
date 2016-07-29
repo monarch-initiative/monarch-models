@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/79018b2b-f12c-4b75-8418-eabcc899ff0f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-305660.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_305660>
+
+    Annotations: 
+        rdfs:label "GAMMA-AMINOBUTYRIC ACID RECEPTOR, ALPHA-3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/18470916-14a7-4c5b-84af-f1cf2eefbd71>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/96e1a4e9-d166-4800-a4a6-92c9009db888>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_305660>
+    
+    
+Individual: <http://model.geneontology.org/ebb4cd21-3afb-4011-a2e2-689844e3b170>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_305660>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18470916-14a7-4c5b-84af-f1cf2eefbd71>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/96e1a4e9-d166-4800-a4a6-92c9009db888>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18470916-14a7-4c5b-84af-f1cf2eefbd71>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18470916-14a7-4c5b-84af-f1cf2eefbd71>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18470916-14a7-4c5b-84af-f1cf2eefbd71>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_305660>
+
+    Annotations: 
+        rdfs:label "GAMMA-AMINOBUTYRIC ACID RECEPTOR, ALPHA-3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

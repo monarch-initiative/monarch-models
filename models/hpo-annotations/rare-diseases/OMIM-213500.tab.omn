@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/54bf1e14-ce86-4e84-8b37-a075c47c6888>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-213500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000707>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nervous system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_213500>
+
+    Annotations: 
+        rdfs:label "CEREBRAL ANGIOPATHY, DYSPHORIC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1212c29f-64a1-4883-bdda-35baf0e56002>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000707>
+    
+    
+Individual: <http://model.geneontology.org/1916b9a3-e981-470c-9823-217e4677c92e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_213500>
+    
+    
+Individual: <http://model.geneontology.org/3594bd82-6913-4575-aab3-a51a390bcc20>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_213500>
+    
+    
+Individual: <http://model.geneontology.org/decb4b00-ac38-408f-86b5-2cad6ca1f9b0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/fc3eeeb5-ca98-4035-ac75-c6fbdb9fb658>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_213500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/decb4b00-ac38-408f-86b5-2cad6ca1f9b0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1916b9a3-e981-470c-9823-217e4677c92e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/decb4b00-ac38-408f-86b5-2cad6ca1f9b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/decb4b00-ac38-408f-86b5-2cad6ca1f9b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/decb4b00-ac38-408f-86b5-2cad6ca1f9b0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1212c29f-64a1-4883-bdda-35baf0e56002>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3594bd82-6913-4575-aab3-a51a390bcc20>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1212c29f-64a1-4883-bdda-35baf0e56002>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1212c29f-64a1-4883-bdda-35baf0e56002>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1212c29f-64a1-4883-bdda-35baf0e56002>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_213500>
+
+    Annotations: 
+        rdfs:label "CEREBRAL ANGIOPATHY, DYSPHORIC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

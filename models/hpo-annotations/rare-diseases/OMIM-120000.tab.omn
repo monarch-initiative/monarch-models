@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/af93d309-ed32-4902-b2d2-bf287ac568d0>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-120000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001680>
+
+    Annotations: 
+        rdfs:label "Coarctation of aorta"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004383>
+
+    Annotations: 
+        rdfs:label "Hypoplastic left heart"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_120000>
+
+    Annotations: 
+        rdfs:label "COARCTATION OF AORTA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2c9be64f-cca1-4a3b-8a5b-dc7be3ebfe1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_120000>
+    
+    
+Individual: <http://model.geneontology.org/4571e895-a8d8-41a6-863c-e1c433b849d7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_120000>
+    
+    
+Individual: <http://model.geneontology.org/952295a1-fa63-4fba-b50f-522e275bd3bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001680>
+    
+    
+Individual: <http://model.geneontology.org/e6e9a25b-a7ce-4109-a288-2d5c178105a1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004383>
+    
+    
+Individual: <http://model.geneontology.org/f48c998b-7009-4f4d-b9af-2bb51da388a6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_120000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e9a25b-a7ce-4109-a288-2d5c178105a1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4571e895-a8d8-41a6-863c-e1c433b849d7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e9a25b-a7ce-4109-a288-2d5c178105a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e9a25b-a7ce-4109-a288-2d5c178105a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e9a25b-a7ce-4109-a288-2d5c178105a1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/952295a1-fa63-4fba-b50f-522e275bd3bb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2c9be64f-cca1-4a3b-8a5b-dc7be3ebfe1c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/952295a1-fa63-4fba-b50f-522e275bd3bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/952295a1-fa63-4fba-b50f-522e275bd3bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/952295a1-fa63-4fba-b50f-522e275bd3bb>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_120000>
+
+    Annotations: 
+        rdfs:label "COARCTATION OF AORTA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

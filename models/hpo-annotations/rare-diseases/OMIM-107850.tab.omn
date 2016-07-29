@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1f3b2e7d-4db0-4cb3-8021-b376b00fa722>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-107850.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010982>
+
+    Annotations: 
+        rdfs:label "Polygenic inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_107850>
+
+    Annotations: 
+        rdfs:label "107850 ARM FOLDING PREFERENCE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/458db370-aa6d-42bf-b189-3cec8894a018>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_107850>
+    
+    
+Individual: <http://model.geneontology.org/4abfa996-5bdf-4290-85a4-b27fef88ce4b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > NON-MENDELIAN, ? HERITABILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010982>
+    
+    
+Individual: <http://model.geneontology.org/52a21c44-a32a-4d0e-8281-c2f1b7c4e27c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_107850>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4abfa996-5bdf-4290-85a4-b27fef88ce4b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/458db370-aa6d-42bf-b189-3cec8894a018>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4abfa996-5bdf-4290-85a4-b27fef88ce4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4abfa996-5bdf-4290-85a4-b27fef88ce4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "0017-03-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4abfa996-5bdf-4290-85a4-b27fef88ce4b>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_107850>
+
+    Annotations: 
+        rdfs:label "107850 ARM FOLDING PREFERENCE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

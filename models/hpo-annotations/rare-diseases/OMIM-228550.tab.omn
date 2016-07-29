@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/660399f8-f908-444e-9e92-0c207aad2f3d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-228550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003549>
+
+    Annotations: 
+        rdfs:label "Abnormality of connective tissue"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010614>
+
+    Annotations: 
+        rdfs:label "Fibroma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_228550>
+
+    Annotations: 
+        rdfs:label "#228550 MYOFIBROMATOSIS, INFANTILE, 1; IMF1;;MYOFIBROMATOSIS, JUVENILE;;FIBROMATOSIS, CONGENITAL GENERALIZED; CGF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/26da615c-216b-421c-83c8-d24e3fc0a539>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_228550>
+    
+    
+Individual: <http://model.geneontology.org/6c352f9f-2243-4635-9f4a-a4ba7fd02525>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:Myofibromatosis affecting skin, muscle, bone, and viscera"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010614>
+    
+    
+Individual: <http://model.geneontology.org/873e4ec0-4352-4c22-928b-6ec5b3de47bb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:Benign soft tissue developmental anomalies"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003549>
+    
+    
+Individual: <http://model.geneontology.org/a3695099-cf96-4aa0-b300-bf0f412f4281>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_228550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdf78900-5dfb-4f62-9a86-291b9c8ff9a6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/26da615c-216b-421c-83c8-d24e3fc0a539>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdf78900-5dfb-4f62-9a86-291b9c8ff9a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdf78900-5dfb-4f62-9a86-291b9c8ff9a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdf78900-5dfb-4f62-9a86-291b9c8ff9a6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6c352f9f-2243-4635-9f4a-a4ba7fd02525>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d77d3445-28d7-411b-aa04-fdac02d1b662>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6c352f9f-2243-4635-9f4a-a4ba7fd02525>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6c352f9f-2243-4635-9f4a-a4ba7fd02525>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-07"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6c352f9f-2243-4635-9f4a-a4ba7fd02525>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/873e4ec0-4352-4c22-928b-6ec5b3de47bb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c90bd963-172e-4bdc-956f-3309da95bcc6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/873e4ec0-4352-4c22-928b-6ec5b3de47bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/873e4ec0-4352-4c22-928b-6ec5b3de47bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-07"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/873e4ec0-4352-4c22-928b-6ec5b3de47bb>
+    
+    
+Individual: <http://model.geneontology.org/c90bd963-172e-4bdc-956f-3309da95bcc6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_228550>
+    
+    
+Individual: <http://model.geneontology.org/d77d3445-28d7-411b-aa04-fdac02d1b662>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_228550>
+    
+    
+Individual: <http://model.geneontology.org/fdf78900-5dfb-4f62-9a86-291b9c8ff9a6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_228550>
+
+    Annotations: 
+        rdfs:label "#228550 MYOFIBROMATOSIS, INFANTILE, 1; IMF1;;MYOFIBROMATOSIS, JUVENILE;;FIBROMATOSIS, CONGENITAL GENERALIZED; CGF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

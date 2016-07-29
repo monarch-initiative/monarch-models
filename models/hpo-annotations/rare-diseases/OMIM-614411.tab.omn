@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c82d8551-019a-4cae-bb0f-5a9afd8f9783>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614411.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614411>
+
+    Annotations: 
+        rdfs:label "#614411 GLYCEROL QUANTITATIVE TRAIT LOCUS; GLYCQTL;;GLYCEROL RELEASE DURING EXERCISE, DEFECTIVEBODY MASS INDEX QUANTITATIVE TRAIT LOCUS 17, INCLUDED; BMIQ17, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/42e683ac-57dd-43aa-855e-199f38bd2fd4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614411>
+    
+    
+Individual: <http://model.geneontology.org/4c5c42f9-d487-4e9e-aa33-97823d6479a9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614411>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd145bf1-f7ca-45fc-b6d0-5537185086ef>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42e683ac-57dd-43aa-855e-199f38bd2fd4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd145bf1-f7ca-45fc-b6d0-5537185086ef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd145bf1-f7ca-45fc-b6d0-5537185086ef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd145bf1-f7ca-45fc-b6d0-5537185086ef>
+    
+    
+Individual: <http://model.geneontology.org/fd145bf1-f7ca-45fc-b6d0-5537185086ef>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614411>
+
+    Annotations: 
+        rdfs:label "#614411 GLYCEROL QUANTITATIVE TRAIT LOCUS; GLYCQTL;;GLYCEROL RELEASE DURING EXERCISE, DEFECTIVEBODY MASS INDEX QUANTITATIVE TRAIT LOCUS 17, INCLUDED; BMIQ17, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

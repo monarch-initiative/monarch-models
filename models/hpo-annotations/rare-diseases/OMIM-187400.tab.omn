@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/dd428738-95ac-4aa6-ac12-fba4e94fd27e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-187400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000119>
+
+    Annotations: 
+        rdfs:label "Abnormality of the genitourinary system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100813>
+
+    Annotations: 
+        rdfs:label "Testicular torsion"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_187400>
+
+    Annotations: 
+        rdfs:label "187400 TESTICULAR TORSION;;TORSION OF TESTICULAR CORD"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/079f5f77-a7a5-4336-bc0e-d0d41fe97dfb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000119>
+    
+    
+Individual: <http://model.geneontology.org/15091fbe-8fea-47f3-84e2-d1182e2f197d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_187400>
+    
+    
+Individual: <http://model.geneontology.org/631db410-c787-452f-bc79-b3b9284f5ffe>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GU > TESTICULAR TORSION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100813>
+    
+    
+Individual: <http://model.geneontology.org/71c82d13-98ac-4591-b664-264f800ff7e9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_187400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/079f5f77-a7a5-4336-bc0e-d0d41fe97dfb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/15091fbe-8fea-47f3-84e2-d1182e2f197d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/079f5f77-a7a5-4336-bc0e-d0d41fe97dfb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/079f5f77-a7a5-4336-bc0e-d0d41fe97dfb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/079f5f77-a7a5-4336-bc0e-d0d41fe97dfb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/631db410-c787-452f-bc79-b3b9284f5ffe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cc296c70-0daa-4592-842c-de6cfe6e0703>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/631db410-c787-452f-bc79-b3b9284f5ffe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/631db410-c787-452f-bc79-b3b9284f5ffe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/631db410-c787-452f-bc79-b3b9284f5ffe>
+    
+    
+Individual: <http://model.geneontology.org/cc296c70-0daa-4592-842c-de6cfe6e0703>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_187400>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_187400>
+
+    Annotations: 
+        rdfs:label "187400 TESTICULAR TORSION;;TORSION OF TESTICULAR CORD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

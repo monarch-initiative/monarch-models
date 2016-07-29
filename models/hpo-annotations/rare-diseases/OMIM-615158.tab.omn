@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ca6ac7b7-7c51-43dd-a734-816d73b3a0b7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615158.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001942>
+
+    Annotations: 
+        rdfs:label "Metabolic acidosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001943>
+
+    Annotations: 
+        rdfs:label "Hypoglycemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012759>
+
+    Annotations: 
+        rdfs:label "Neurodevelopmental abnormality"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615158>
+
+    Annotations: 
+        rdfs:label "#615158 MITOCHONDRIAL COMPLEX III DEFICIENCY, NUCLEAR TYPE 3; MC3DN3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/020ebf3d-cf43-4bfb-908e-e2d28b27a0ff>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > NORMAL PSYCHOMOTOR DEVELOPMENT"^^xsd:string
+    
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0012759>)
+    
+    
+Individual: <http://model.geneontology.org/2450333a-47a2-4a62-b074-dc6670f594d1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > HYPOGLYCEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001943>
+    
+    
+Individual: <http://model.geneontology.org/502e809a-0331-4368-bb28-512fc8ef1c9d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615158>
+    
+    
+Individual: <http://model.geneontology.org/578359e3-8d86-4cbb-b5fb-f8caf15c21ca>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/65c9eb07-b0a0-45e0-9681-a10175821764>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615158>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1c61857-a419-44ee-884a-6efcc831b6ce>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c7b793e0-35f2-46ff-9d4b-54644f297182>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1c61857-a419-44ee-884a-6efcc831b6ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1c61857-a419-44ee-884a-6efcc831b6ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c1c61857-a419-44ee-884a-6efcc831b6ce>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020ebf3d-cf43-4bfb-908e-e2d28b27a0ff>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e5b59073-4e4d-4974-afeb-526bd83cbae5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020ebf3d-cf43-4bfb-908e-e2d28b27a0ff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020ebf3d-cf43-4bfb-908e-e2d28b27a0ff>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-11-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/020ebf3d-cf43-4bfb-908e-e2d28b27a0ff>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2450333a-47a2-4a62-b074-dc6670f594d1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/502e809a-0331-4368-bb28-512fc8ef1c9d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2450333a-47a2-4a62-b074-dc6670f594d1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2450333a-47a2-4a62-b074-dc6670f594d1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2450333a-47a2-4a62-b074-dc6670f594d1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/578359e3-8d86-4cbb-b5fb-f8caf15c21ca>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d5dfd9a1-b21f-4791-8cb0-da624962ee83>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/578359e3-8d86-4cbb-b5fb-f8caf15c21ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/578359e3-8d86-4cbb-b5fb-f8caf15c21ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/578359e3-8d86-4cbb-b5fb-f8caf15c21ca>
+    
+    
+Individual: <http://model.geneontology.org/c1c61857-a419-44ee-884a-6efcc831b6ce>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:METABOLIC FEATURES > METABOLIC ACIDOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001942>
+    
+    
+Individual: <http://model.geneontology.org/c7b793e0-35f2-46ff-9d4b-54644f297182>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615158>
+    
+    
+Individual: <http://model.geneontology.org/d5dfd9a1-b21f-4791-8cb0-da624962ee83>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615158>
+    
+    
+Individual: <http://model.geneontology.org/e5b59073-4e4d-4974-afeb-526bd83cbae5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615158>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615158>
+
+    Annotations: 
+        rdfs:label "#615158 MITOCHONDRIAL COMPLEX III DEFICIENCY, NUCLEAR TYPE 3; MC3DN3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

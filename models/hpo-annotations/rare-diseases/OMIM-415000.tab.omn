@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/dcdc3f10-c961-4fbb-acfc-1bd1a7f7abf2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-415000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000027>
+
+    Annotations: 
+        rdfs:label "Azoospermia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001450>
+
+    Annotations: 
+        rdfs:label "Y-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_415000>
+
+    Annotations: 
+        rdfs:label "SPERMATOGENIC FAILURE, NONOBSTRUCTIVE, Y-LINKED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/528f1069-d9c2-4322-991e-bff4b3ef2fe8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000027>
+    
+    
+Individual: <http://model.geneontology.org/87867e96-597b-4a17-8957-86a07049cc67>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_415000>
+    
+    
+Individual: <http://model.geneontology.org/991fc7f6-5d6c-40e2-a20c-b8bdb92e799e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_415000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3a5eadb-857e-4691-81f6-761a879e5e00>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/87867e96-597b-4a17-8957-86a07049cc67>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3a5eadb-857e-4691-81f6-761a879e5e00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3a5eadb-857e-4691-81f6-761a879e5e00>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3a5eadb-857e-4691-81f6-761a879e5e00>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/528f1069-d9c2-4322-991e-bff4b3ef2fe8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/edf7b706-e574-4550-8a0d-d9b16a73a966>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/528f1069-d9c2-4322-991e-bff4b3ef2fe8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/528f1069-d9c2-4322-991e-bff4b3ef2fe8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/528f1069-d9c2-4322-991e-bff4b3ef2fe8>
+    
+    
+Individual: <http://model.geneontology.org/e3a5eadb-857e-4691-81f6-761a879e5e00>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001450>
+    
+    
+Individual: <http://model.geneontology.org/edf7b706-e574-4550-8a0d-d9b16a73a966>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_415000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_415000>
+
+    Annotations: 
+        rdfs:label "SPERMATOGENIC FAILURE, NONOBSTRUCTIVE, Y-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

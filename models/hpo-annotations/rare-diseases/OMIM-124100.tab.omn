@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/cc907149-f00e-4dbb-b76f-3c3b1d2300be>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-124100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000112>
+
+    Annotations: 
+        rdfs:label "Nephropathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_124100>
+
+    Annotations: 
+        rdfs:label "DANUBIAN ENDEMIC FAMILIAL NEPHROPATHY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/62f4d4f8-f233-463f-952b-79875d30e088>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_124100>
+    
+    
+Individual: <http://model.geneontology.org/8bc3575f-c025-4230-8420-b48dc910ef9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_124100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5956431-ef0d-45fa-b669-795a54de5137>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/62f4d4f8-f233-463f-952b-79875d30e088>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5956431-ef0d-45fa-b669-795a54de5137>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5956431-ef0d-45fa-b669-795a54de5137>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5956431-ef0d-45fa-b669-795a54de5137>
+    
+    
+Individual: <http://model.geneontology.org/c5956431-ef0d-45fa-b669-795a54de5137>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000112>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_124100>
+
+    Annotations: 
+        rdfs:label "DANUBIAN ENDEMIC FAMILIAL NEPHROPATHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3ac722d9-f63b-4659-a3d4-4e2caeb5b0a1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615619.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0030153>
+
+    Annotations: 
+        rdfs:label "Cholangiocarcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615619>
+
+    Annotations: 
+        rdfs:label "CHOLANGIOCARCINOMA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b27a9bb5-efcb-4d24-8f0a-24c24f11b3fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615619>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc3c9d09-0f36-42d4-9b17-da5fadea09a9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dc313ef3-7e0e-4041-9d88-b8136b1f6b98>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc3c9d09-0f36-42d4-9b17-da5fadea09a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc3c9d09-0f36-42d4-9b17-da5fadea09a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc3c9d09-0f36-42d4-9b17-da5fadea09a9>
+    
+    
+Individual: <http://model.geneontology.org/cc3c9d09-0f36-42d4-9b17-da5fadea09a9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:cholangiocarcinoma"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0030153>
+    
+    
+Individual: <http://model.geneontology.org/dc313ef3-7e0e-4041-9d88-b8136b1f6b98>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615619>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615619>
+
+    Annotations: 
+        rdfs:label "CHOLANGIOCARCINOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

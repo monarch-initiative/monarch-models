@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1ab9b41c-397b-443d-8e79-3f245d4a5800>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-247640.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002665>
+
+    Annotations: 
+        rdfs:label "Lymphoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006721>
+
+    Annotations: 
+        rdfs:label "Acute lymphatic leukemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006727>
+
+    Annotations: 
+        rdfs:label "T-cell acute lymphoblastic leukemias"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_247640>
+
+    Annotations: 
+        rdfs:label "LYMPHOBLASTIC LEUKEMIA, ACUTE, WITH LYMPHOMATOUS FEATURES"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/04db0c2c-63db-42f0-acbc-7ea2dfa4a994>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006727>
+    
+    
+Individual: <http://model.geneontology.org/18d25ae7-0187-40aa-bcfb-d9d203b79dd5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_247640>
+    
+    
+Individual: <http://model.geneontology.org/3df3ab86-ab7f-42d7-8f34-5d950476ad09>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006721>
+    
+    
+Individual: <http://model.geneontology.org/5096408b-428a-44a0-9a95-096e4178548f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_247640>
+    
+    
+Individual: <http://model.geneontology.org/9a819e3e-e6ce-4ca5-b8ab-c7c052c2e76d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_247640>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/04db0c2c-63db-42f0-acbc-7ea2dfa4a994>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/18d25ae7-0187-40aa-bcfb-d9d203b79dd5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/04db0c2c-63db-42f0-acbc-7ea2dfa4a994>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/04db0c2c-63db-42f0-acbc-7ea2dfa4a994>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/04db0c2c-63db-42f0-acbc-7ea2dfa4a994>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df3ab86-ab7f-42d7-8f34-5d950476ad09>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d780927c-f956-406d-ae19-fdabad78c89e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df3ab86-ab7f-42d7-8f34-5d950476ad09>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df3ab86-ab7f-42d7-8f34-5d950476ad09>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-07-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3df3ab86-ab7f-42d7-8f34-5d950476ad09>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c3c06ea-02d4-4a03-908b-7546fd833b4f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5096408b-428a-44a0-9a95-096e4178548f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c3c06ea-02d4-4a03-908b-7546fd833b4f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c3c06ea-02d4-4a03-908b-7546fd833b4f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c3c06ea-02d4-4a03-908b-7546fd833b4f>
+    
+    
+Individual: <http://model.geneontology.org/9c3c06ea-02d4-4a03-908b-7546fd833b4f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002665>
+    
+    
+Individual: <http://model.geneontology.org/d780927c-f956-406d-ae19-fdabad78c89e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_247640>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_247640>
+
+    Annotations: 
+        rdfs:label "LYMPHOBLASTIC LEUKEMIA, ACUTE, WITH LYMPHOMATOUS FEATURES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

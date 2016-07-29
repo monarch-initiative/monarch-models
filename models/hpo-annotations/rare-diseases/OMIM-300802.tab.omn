@@ -1,0 +1,187 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3fa60a67-7274-4dd9-9cf5-1826b2d9add7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300802.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001250>
+
+    Annotations: 
+        rdfs:label "Seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001423>
+
+    Annotations: 
+        rdfs:label "X-linked dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300802>
+
+    Annotations: 
+        rdfs:label "#300802 MENTAL RETARDATION, X-LINKED 96; MRX96"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/62090470-481f-4910-b01f-15c885a9ff49>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300802>
+    
+    
+Individual: <http://model.geneontology.org/7eeaad52-a58a-44c7-b93b-64f9c601dcc3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/9463d1d6-a972-41a3-a241-8d8866f0bcac>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://model.geneontology.org/bc348ae4-971f-4df6-87f2-66ac8d8eb093>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001423>
+    
+    
+Individual: <http://model.geneontology.org/ca5c5152-7d8d-4d95-8a76-5eb9388be2dc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300802>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc348ae4-971f-4df6-87f2-66ac8d8eb093>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dd74dda8-20f6-4423-aad1-e54474fc8079>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc348ae4-971f-4df6-87f2-66ac8d8eb093>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc348ae4-971f-4df6-87f2-66ac8d8eb093>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bc348ae4-971f-4df6-87f2-66ac8d8eb093>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd1d3a92-bf90-451c-ae82-8d889f082ee5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/62090470-481f-4910-b01f-15c885a9ff49>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd1d3a92-bf90-451c-ae82-8d889f082ee5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd1d3a92-bf90-451c-ae82-8d889f082ee5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd1d3a92-bf90-451c-ae82-8d889f082ee5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9463d1d6-a972-41a3-a241-8d8866f0bcac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/efe80af0-9b55-4f10-aca9-b78d84a89cac>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9463d1d6-a972-41a3-a241-8d8866f0bcac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9463d1d6-a972-41a3-a241-8d8866f0bcac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9463d1d6-a972-41a3-a241-8d8866f0bcac>
+    
+    
+Individual: <http://model.geneontology.org/dd74dda8-20f6-4423-aad1-e54474fc8079>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300802>
+    
+    
+Individual: <http://model.geneontology.org/efe80af0-9b55-4f10-aca9-b78d84a89cac>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300802>
+    
+    
+Individual: <http://model.geneontology.org/fd1d3a92-bf90-451c-ae82-8d889f082ee5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001250>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/7eeaad52-a58a-44c7-b93b-64f9c601dcc3>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300802>
+
+    Annotations: 
+        rdfs:label "#300802 MENTAL RETARDATION, X-LINKED 96; MRX96"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

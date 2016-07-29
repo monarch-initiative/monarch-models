@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6aee7f81-8ed7-4568-91f9-e9d30947406e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614420.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000123>
+
+    Annotations: 
+        rdfs:label "Nephritis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002725>
+
+    Annotations: 
+        rdfs:label "Systemic lupus erythematosus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614420>
+
+    Annotations: 
+        rdfs:label "#614420 SYSTEMIC LUPUS ERYTHEMATOSUS 16; SLEB16"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/096c32e7-9242-4a01-a04b-891467b1f770>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#614420 systemic lupus erythematosus 16; sleb16"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002725>
+    
+    
+Individual: <http://model.geneontology.org/0a1c25c7-8a96-47e4-ba58-5032084d5d86>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614420>
+    
+    
+Individual: <http://model.geneontology.org/16353a3d-4577-4f75-8f63-0b0fd9039722>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614420>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/096c32e7-9242-4a01-a04b-891467b1f770>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f693eaf6-7e34-4de3-bcdd-d2493548d7b2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/096c32e7-9242-4a01-a04b-891467b1f770>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/096c32e7-9242-4a01-a04b-891467b1f770>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/096c32e7-9242-4a01-a04b-891467b1f770>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f93733a-8556-439d-b596-d58793df44ac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0a1c25c7-8a96-47e4-ba58-5032084d5d86>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f93733a-8556-439d-b596-d58793df44ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f93733a-8556-439d-b596-d58793df44ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f93733a-8556-439d-b596-d58793df44ac>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/782e83cc-5dfc-40f1-9fb8-48bf2c7b8156>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e917aec4-fea6-4bd1-9c6a-2ef61fb1fdd0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/782e83cc-5dfc-40f1-9fb8-48bf2c7b8156>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/782e83cc-5dfc-40f1-9fb8-48bf2c7b8156>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/782e83cc-5dfc-40f1-9fb8-48bf2c7b8156>
+    
+    
+Individual: <http://model.geneontology.org/5f93733a-8556-439d-b596-d58793df44ac>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_KIDNEYS > NEPHRITIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000123>
+    
+    
+Individual: <http://model.geneontology.org/782e83cc-5dfc-40f1-9fb8-48bf2c7b8156>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/e917aec4-fea6-4bd1-9c6a-2ef61fb1fdd0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614420>
+    
+    
+Individual: <http://model.geneontology.org/f693eaf6-7e34-4de3-bcdd-d2493548d7b2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614420>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614420>
+
+    Annotations: 
+        rdfs:label "#614420 SYSTEMIC LUPUS ERYTHEMATOSUS 16; SLEB16"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/38646b4c-713f-49c9-acd2-c5b0656cdee8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614417.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001250>
+
+    Annotations: 
+        rdfs:label "Seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614417>
+
+    Annotations: 
+        rdfs:label "#614417 EPILEPSY, FAMILIAL TEMPORAL LOBE, 5; ETL5"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/8bd18616-30a7-4b14-aef8-925ffb868549>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614417>
+    
+    
+Individual: <http://model.geneontology.org/9c54f26b-033b-4ebc-8a39-1435b0a58ad7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#614417 epilepsy, familial temporal"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001250>
+    
+    
+Individual: <http://model.geneontology.org/a84ffaa9-6481-41c9-b2b4-b7df69ffb865>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614417>
+    
+    
+Individual: <http://model.geneontology.org/c3a0389c-6649-4cff-92ca-867e2cda2bf6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/fcb6219b-e118-4eb3-b443-5804d9397e49>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614417>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c3a0389c-6649-4cff-92ca-867e2cda2bf6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a84ffaa9-6481-41c9-b2b4-b7df69ffb865>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c3a0389c-6649-4cff-92ca-867e2cda2bf6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c3a0389c-6649-4cff-92ca-867e2cda2bf6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c3a0389c-6649-4cff-92ca-867e2cda2bf6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c54f26b-033b-4ebc-8a39-1435b0a58ad7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8bd18616-30a7-4b14-aef8-925ffb868549>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c54f26b-033b-4ebc-8a39-1435b0a58ad7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c54f26b-033b-4ebc-8a39-1435b0a58ad7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c54f26b-033b-4ebc-8a39-1435b0a58ad7>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614417>
+
+    Annotations: 
+        rdfs:label "#614417 EPILEPSY, FAMILIAL TEMPORAL LOBE, 5; ETL5"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

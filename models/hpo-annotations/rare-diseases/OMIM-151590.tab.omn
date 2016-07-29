@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8445f61f-2c95-4a17-bd24-da3902498014>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-151590.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002860>
+
+    Annotations: 
+        rdfs:label "Squamous cell carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_151590>
+
+    Annotations: 
+        rdfs:label "LICHEN SCLEROSUS ET ATROPHICUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0b65a5f7-e60b-49b0-a4ec-a461149dc10f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/22c4725b-d352-4a00-b3d6-70b2c3f9b78b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_151590>
+    
+    
+Individual: <http://model.geneontology.org/383ee2ff-3116-4892-b4fb-849775ae12dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002860>
+    
+    
+Individual: <http://model.geneontology.org/551a9cce-6d50-4593-a287-bb33141fb662>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_151590>
+    
+    
+Individual: <http://model.geneontology.org/705efb82-b651-4ab6-a555-b58f9487fc1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_151590>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b65a5f7-e60b-49b0-a4ec-a461149dc10f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/22c4725b-d352-4a00-b3d6-70b2c3f9b78b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b65a5f7-e60b-49b0-a4ec-a461149dc10f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b65a5f7-e60b-49b0-a4ec-a461149dc10f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b65a5f7-e60b-49b0-a4ec-a461149dc10f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/383ee2ff-3116-4892-b4fb-849775ae12dd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/551a9cce-6d50-4593-a287-bb33141fb662>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/383ee2ff-3116-4892-b4fb-849775ae12dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/383ee2ff-3116-4892-b4fb-849775ae12dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/383ee2ff-3116-4892-b4fb-849775ae12dd>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_151590>
+
+    Annotations: 
+        rdfs:label "LICHEN SCLEROSUS ET ATROPHICUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/14069387-33ad-4d39-a68e-007719258883>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-600202.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010522>
+
+    Annotations: 
+        rdfs:label "Dyslexia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_600202>
+
+    Annotations: 
+        rdfs:label "DYSLEXIA, SUSCEPTIBILITY TO, 2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/61d671d2-93ac-4048-8d5b-d43053491d3a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600202>
+    
+    
+Individual: <http://model.geneontology.org/8a1abdfc-e870-450e-bd05-1129a200eae9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_600202>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a8df29d0-4be3-4e11-b2d6-8e2ba24299c7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/61d671d2-93ac-4048-8d5b-d43053491d3a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a8df29d0-4be3-4e11-b2d6-8e2ba24299c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a8df29d0-4be3-4e11-b2d6-8e2ba24299c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a8df29d0-4be3-4e11-b2d6-8e2ba24299c7>
+    
+    
+Individual: <http://model.geneontology.org/a8df29d0-4be3-4e11-b2d6-8e2ba24299c7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010522>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_600202>
+
+    Annotations: 
+        rdfs:label "DYSLEXIA, SUSCEPTIBILITY TO, 2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

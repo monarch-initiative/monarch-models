@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4e6c5ed8-a92a-4dc5-9747-f38d12e13089>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-131430.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001871>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hematopoietic system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002715>
+
+    Annotations: 
+        rdfs:label "Abnormality of the immune system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_131430>
+
+    Annotations: 
+        rdfs:label "EOSINOPHILOPENIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/84d9241d-fcb0-4c3b-9f80-9f37879fcdc4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_131430>
+    
+    
+Individual: <http://model.geneontology.org/a6c438b4-e4fc-4ca6-be3a-64dfcc4f5215>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_131430>
+    
+    
+Individual: <http://model.geneontology.org/b5443d56-1ff0-48e4-83d5-663ffeb0163e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002715>
+    
+    
+Individual: <http://model.geneontology.org/bd48e2aa-3f9f-49d6-b617-854517d85ee2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001871>
+    
+    
+Individual: <http://model.geneontology.org/de46226e-da36-4065-aafa-7e397d385b6d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_131430>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5443d56-1ff0-48e4-83d5-663ffeb0163e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/84d9241d-fcb0-4c3b-9f80-9f37879fcdc4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5443d56-1ff0-48e4-83d5-663ffeb0163e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5443d56-1ff0-48e4-83d5-663ffeb0163e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b5443d56-1ff0-48e4-83d5-663ffeb0163e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd48e2aa-3f9f-49d6-b617-854517d85ee2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a6c438b4-e4fc-4ca6-be3a-64dfcc4f5215>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd48e2aa-3f9f-49d6-b617-854517d85ee2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd48e2aa-3f9f-49d6-b617-854517d85ee2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd48e2aa-3f9f-49d6-b617-854517d85ee2>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_131430>
+
+    Annotations: 
+        rdfs:label "EOSINOPHILOPENIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

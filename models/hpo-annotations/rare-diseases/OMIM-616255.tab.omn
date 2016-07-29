@@ -1,0 +1,122 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a54ed6d2-5719-4084-9fa6-32aa4bb71c70>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616255.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002750>
+
+    Annotations: 
+        rdfs:label "Delayed skeletal maturation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616255>
+
+    Annotations: 
+        rdfs:label "#616255 SHORT STATURE WITH NONSPECIFIC SKELETAL ABNORMALITIES; SNSK"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/64d9aab6-544c-4091-9229-c2ce2cb12f4e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616255>
+    
+    
+Individual: <http://model.geneontology.org/7b481112-eb20-4e5f-8d4a-8d96856c69c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616255>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84226bbc-dc00-49fe-b482-807b1c65d56c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/64d9aab6-544c-4091-9229-c2ce2cb12f4e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84226bbc-dc00-49fe-b482-807b1c65d56c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84226bbc-dc00-49fe-b482-807b1c65d56c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84226bbc-dc00-49fe-b482-807b1c65d56c>
+    
+    
+Individual: <http://model.geneontology.org/84226bbc-dc00-49fe-b482-807b1c65d56c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL > DELAYED BONE AGE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002750>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/84d6f529-a4aa-4d45-b1ec-e95e4ae35154>
+    
+    
+Individual: <http://model.geneontology.org/84d6f529-a4aa-4d45-b1ec-e95e4ae35154>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616255>
+
+    Annotations: 
+        rdfs:label "#616255 SHORT STATURE WITH NONSPECIFIC SKELETAL ABNORMALITIES; SNSK"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

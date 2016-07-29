@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/fbc217d3-ebb6-4856-985a-711891097910>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-219550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_219550>
+
+    Annotations: 
+        rdfs:label "CYSTEINE PEPTIDURIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/03b739bf-23e7-461f-afc6-c3cbb6c9a101>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/24017cf4-c8c2-47aa-ae7d-3d4134d69870>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/7542dd05-26aa-43e3-80fa-194f38d1a04c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_219550>
+    
+    
+Individual: <http://model.geneontology.org/7ad6a0f6-c7e0-42f9-91f7-f30a7b5ce2b8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://model.geneontology.org/87fc80da-1e23-423b-9be8-2e89d43a3255>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_219550>
+    
+    
+Individual: <http://model.geneontology.org/8a53811b-55f1-4412-82c3-06cfc3b06f47>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_219550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03b739bf-23e7-461f-afc6-c3cbb6c9a101>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e4c0cf93-c754-4e38-91e6-4648fbc3bd7e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03b739bf-23e7-461f-afc6-c3cbb6c9a101>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03b739bf-23e7-461f-afc6-c3cbb6c9a101>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/03b739bf-23e7-461f-afc6-c3cbb6c9a101>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24017cf4-c8c2-47aa-ae7d-3d4134d69870>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/87fc80da-1e23-423b-9be8-2e89d43a3255>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24017cf4-c8c2-47aa-ae7d-3d4134d69870>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24017cf4-c8c2-47aa-ae7d-3d4134d69870>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24017cf4-c8c2-47aa-ae7d-3d4134d69870>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7ad6a0f6-c7e0-42f9-91f7-f30a7b5ce2b8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7542dd05-26aa-43e3-80fa-194f38d1a04c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7ad6a0f6-c7e0-42f9-91f7-f30a7b5ce2b8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7ad6a0f6-c7e0-42f9-91f7-f30a7b5ce2b8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7ad6a0f6-c7e0-42f9-91f7-f30a7b5ce2b8>
+    
+    
+Individual: <http://model.geneontology.org/e4c0cf93-c754-4e38-91e6-4648fbc3bd7e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_219550>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_219550>
+
+    Annotations: 
+        rdfs:label "CYSTEINE PEPTIDURIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

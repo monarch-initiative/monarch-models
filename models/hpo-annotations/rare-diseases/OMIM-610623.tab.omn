@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c1949697-ec7c-4bde-bfe2-ee4e3c10d992>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-610623.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000518>
+
+    Annotations: 
+        rdfs:label "Cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000568>
+
+    Annotations: 
+        rdfs:label "Microphthalmia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_610623>
+
+    Annotations: 
+        rdfs:label "#610623 CATARACT, POSTERIOR POLAR, 4; CTPP4;;CPP4CATARACT, POSTERIOR POLAR, 4, WITH MICROPHTHALMIA AND NEURODEVELOPMENTALABNORMALITIES, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/11237260-6230-4b5b-a2eb-c858574a9dea>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:rior polar, 4, with microphthalmia a"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000568>
+    
+    
+Individual: <http://model.geneontology.org/45d3dbd1-4d56-430e-b471-ab69894281e4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_610623>
+    
+    
+Individual: <http://model.geneontology.org/6c96142a-912f-4dcf-a6ab-e64dd3239ccd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_610623>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b305114b-2c0a-4b81-bcd1-e713206bde1c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/45d3dbd1-4d56-430e-b471-ab69894281e4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b305114b-2c0a-4b81-bcd1-e713206bde1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b305114b-2c0a-4b81-bcd1-e713206bde1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b305114b-2c0a-4b81-bcd1-e713206bde1c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df2c3e75-23f0-4dd0-8112-78420af709bf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9f8429b1-48bf-4c53-bc37-41cc8b2f61d3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df2c3e75-23f0-4dd0-8112-78420af709bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df2c3e75-23f0-4dd0-8112-78420af709bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df2c3e75-23f0-4dd0-8112-78420af709bf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11237260-6230-4b5b-a2eb-c858574a9dea>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9d527333-c60c-4aa1-b353-1024b004ad54>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11237260-6230-4b5b-a2eb-c858574a9dea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11237260-6230-4b5b-a2eb-c858574a9dea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11237260-6230-4b5b-a2eb-c858574a9dea>
+    
+    
+Individual: <http://model.geneontology.org/9d527333-c60c-4aa1-b353-1024b004ad54>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_610623>
+    
+    
+Individual: <http://model.geneontology.org/9f8429b1-48bf-4c53-bc37-41cc8b2f61d3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_610623>
+    
+    
+Individual: <http://model.geneontology.org/b305114b-2c0a-4b81-bcd1-e713206bde1c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/df2c3e75-23f0-4dd0-8112-78420af709bf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#610623 cataract, posterior polar, 4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000518>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_610623>
+
+    Annotations: 
+        rdfs:label "#610623 CATARACT, POSTERIOR POLAR, 4; CTPP4;;CPP4CATARACT, POSTERIOR POLAR, 4, WITH MICROPHTHALMIA AND NEURODEVELOPMENTALABNORMALITIES, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

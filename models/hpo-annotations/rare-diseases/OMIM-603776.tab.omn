@@ -1,0 +1,162 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f0eea18c-fd1c-4225-bdba-86eed1b64304>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-603776.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003124>
+
+    Annotations: 
+        rdfs:label "Hypercholesterolemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_603776>
+
+    Annotations: 
+        rdfs:label "#603776 HYPERCHOLESTEROLEMIA, AUTOSOMAL DOMINANT, 3; HCHOLA3;;FH3LOW DENSITY LIPOPROTEIN CHOLESTEROL LEVEL QUANTITATIVE TRAIT LOCUS1, INCLUDED; LDLCQ1, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/60a74cfe-d2d5-44b9-98f1-fbd518697838>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003124>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/b148e14e-8cc8-4729-85eb-6aaf3d0ccce3>
+    
+    
+Individual: <http://model.geneontology.org/6938a753-8787-498f-b2d5-cff8af45cb01>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_603776>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d51e8800-592f-4b8a-bfb1-423816e2250e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/743fcbe5-9d5b-4fca-a6ca-fe6c1667e856>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d51e8800-592f-4b8a-bfb1-423816e2250e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d51e8800-592f-4b8a-bfb1-423816e2250e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d51e8800-592f-4b8a-bfb1-423816e2250e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60a74cfe-d2d5-44b9-98f1-fbd518697838>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/78150e80-9b7b-4b09-8714-8bcae7fab92e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60a74cfe-d2d5-44b9-98f1-fbd518697838>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60a74cfe-d2d5-44b9-98f1-fbd518697838>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60a74cfe-d2d5-44b9-98f1-fbd518697838>
+    
+    
+Individual: <http://model.geneontology.org/743fcbe5-9d5b-4fca-a6ca-fe6c1667e856>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603776>
+    
+    
+Individual: <http://model.geneontology.org/78150e80-9b7b-4b09-8714-8bcae7fab92e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603776>
+    
+    
+Individual: <http://model.geneontology.org/b148e14e-8cc8-4729-85eb-6aaf3d0ccce3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "obligate"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/d51e8800-592f-4b8a-bfb1-423816e2250e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/fedc66f4-8dd4-4468-8e54-65095183be1c>
+    
+    
+Individual: <http://model.geneontology.org/fedc66f4-8dd4-4468-8e54-65095183be1c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "obligate"^^xsd:string
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_603776>
+
+    Annotations: 
+        rdfs:label "#603776 HYPERCHOLESTEROLEMIA, AUTOSOMAL DOMINANT, 3; HCHOLA3;;FH3LOW DENSITY LIPOPROTEIN CHOLESTEROL LEVEL QUANTITATIVE TRAIT LOCUS1, INCLUDED; LDLCQ1, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

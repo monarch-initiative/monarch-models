@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/47961fe8-24bb-4ccc-9319-e415e27947ee>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-134000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002219>
+
+    Annotations: 
+        rdfs:label "Facial hypertrichosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_134000>
+
+    Annotations: 
+        rdfs:label "FACIAL HYPERTRICHOSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0d2c9aae-8692-48b7-aa76-8cfd7935d5f0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_134000>
+    
+    
+Individual: <http://model.geneontology.org/3b0e662a-2837-49c7-bc80-2d1fee978514>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/521f0221-1d80-43f0-bf12-de81d92dfb97>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_134000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b0e662a-2837-49c7-bc80-2d1fee978514>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b93ce426-636b-4001-918a-f6ec654b4a24>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b0e662a-2837-49c7-bc80-2d1fee978514>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b0e662a-2837-49c7-bc80-2d1fee978514>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3b0e662a-2837-49c7-bc80-2d1fee978514>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/859fe0f9-8aa9-4ffa-8ce7-d66b226f9067>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0d2c9aae-8692-48b7-aa76-8cfd7935d5f0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/859fe0f9-8aa9-4ffa-8ce7-d66b226f9067>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/859fe0f9-8aa9-4ffa-8ce7-d66b226f9067>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/859fe0f9-8aa9-4ffa-8ce7-d66b226f9067>
+    
+    
+Individual: <http://model.geneontology.org/859fe0f9-8aa9-4ffa-8ce7-d66b226f9067>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002219>
+    
+    
+Individual: <http://model.geneontology.org/b93ce426-636b-4001-918a-f6ec654b4a24>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_134000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_134000>
+
+    Annotations: 
+        rdfs:label "FACIAL HYPERTRICHOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

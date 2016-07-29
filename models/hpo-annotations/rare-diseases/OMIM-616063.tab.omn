@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4935336b-b913-4702-8603-ccb286a93a48>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616063.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200034>
+
+    Annotations: 
+        rdfs:label "Papule"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200044>
+
+    Annotations: 
+        rdfs:label "Porokeratosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616063>
+
+    Annotations: 
+        rdfs:label "POROKERATOSIS 8, DISSEMINATED SUPERFICIAL ACTINIC TYPE; POROK8"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/02c9cb99-75d7-4c31-bfc5-757e671f7595>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX: 't commonsubtype of porokeratosis. it is characterize'"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200044>
+    
+    
+Individual: <http://model.geneontology.org/1c1d57f1-d89d-4a85-9888-7dad709159e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616063>
+    
+    
+Individual: <http://model.geneontology.org/48aec4cc-13d7-4837-9c27-47efa27a8f2f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/76c780de-956f-4e36-91f6-38f81f8afe6f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX: ' with numerous tiny papules on theface, as wel'"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200034>
+    
+    
+Individual: <http://model.geneontology.org/ab34e105-3e78-4b27-aa28-33c35bb1293b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616063>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02c9cb99-75d7-4c31-bfc5-757e671f7595>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ac844cce-ccbc-4d38-8fa2-9ba63845f805>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02c9cb99-75d7-4c31-bfc5-757e671f7595>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02c9cb99-75d7-4c31-bfc5-757e671f7595>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-09-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02c9cb99-75d7-4c31-bfc5-757e671f7595>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48aec4cc-13d7-4837-9c27-47efa27a8f2f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ed1d66f7-f0bb-4761-b3c9-3283da16e137>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48aec4cc-13d7-4837-9c27-47efa27a8f2f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48aec4cc-13d7-4837-9c27-47efa27a8f2f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48aec4cc-13d7-4837-9c27-47efa27a8f2f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76c780de-956f-4e36-91f6-38f81f8afe6f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1c1d57f1-d89d-4a85-9888-7dad709159e0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76c780de-956f-4e36-91f6-38f81f8afe6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76c780de-956f-4e36-91f6-38f81f8afe6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-09-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76c780de-956f-4e36-91f6-38f81f8afe6f>
+    
+    
+Individual: <http://model.geneontology.org/ac844cce-ccbc-4d38-8fa2-9ba63845f805>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616063>
+    
+    
+Individual: <http://model.geneontology.org/ed1d66f7-f0bb-4761-b3c9-3283da16e137>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616063>
+
+    Annotations: 
+        rdfs:label "POROKERATOSIS 8, DISSEMINATED SUPERFICIAL ACTINIC TYPE; POROK8"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

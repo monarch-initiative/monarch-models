@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/74e7154e-740f-42be-ba59-d2504d5ec264>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614379.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001287>
+
+    Annotations: 
+        rdfs:label "Meningitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0045044>
+
+    Annotations: 
+        rdfs:label "Decreased serum complement C4b"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200120>
+
+    Annotations: 
+        rdfs:label "Chronic active hepatitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614379>
+
+    Annotations: 
+        rdfs:label "#614379 COMPLEMENT COMPONENT 4B DEFICIENCY; C4BD ;;C4B DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/309ed3be-0984-49f6-891f-f55bd7f62065>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0045044>
+    
+    
+Individual: <http://model.geneontology.org/4f7680a1-95ac-4c73-b04f-33dead0afc5b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX: 'nts with autoimmune chronic active hepatitis beginning inchildh'"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200120>
+    
+    
+Individual: <http://model.geneontology.org/60f69536-8a2f-4c96-a418-4790b4c7259d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614379>
+    
+    
+Individual: <http://model.geneontology.org/614e6a65-a055-4edc-b2c4-e71e509a3934>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614379>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/309ed3be-0984-49f6-891f-f55bd7f62065>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e84f605a-f589-4a1b-b1d8-bc8185628eaa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/309ed3be-0984-49f6-891f-f55bd7f62065>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/309ed3be-0984-49f6-891f-f55bd7f62065>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/309ed3be-0984-49f6-891f-f55bd7f62065>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f7680a1-95ac-4c73-b04f-33dead0afc5b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d394b565-48e9-48be-808e-b2b11bff5758>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f7680a1-95ac-4c73-b04f-33dead0afc5b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f7680a1-95ac-4c73-b04f-33dead0afc5b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-23"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f7680a1-95ac-4c73-b04f-33dead0afc5b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9562b08d-dd3e-4c88-a615-fada8f3a4e82>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/60f69536-8a2f-4c96-a418-4790b4c7259d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9562b08d-dd3e-4c88-a615-fada8f3a4e82>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9562b08d-dd3e-4c88-a615-fada8f3a4e82>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-23"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9562b08d-dd3e-4c88-a615-fada8f3a4e82>
+    
+    
+Individual: <http://model.geneontology.org/9562b08d-dd3e-4c88-a615-fada8f3a4e82>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX: 'bility to bacterialmeningitis (winkelstein, 1987)'"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001287>
+    
+    
+Individual: <http://model.geneontology.org/d394b565-48e9-48be-808e-b2b11bff5758>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614379>
+    
+    
+Individual: <http://model.geneontology.org/e84f605a-f589-4a1b-b1d8-bc8185628eaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614379>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614379>
+
+    Annotations: 
+        rdfs:label "#614379 COMPLEMENT COMPONENT 4B DEFICIENCY; C4BD ;;C4B DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

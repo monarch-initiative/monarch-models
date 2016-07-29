@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/78df2b5b-b7f2-4592-a09c-501023c87100>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-107700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002250>
+
+    Annotations: 
+        rdfs:label "Abnormality of the large intestine"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_107700>
+
+    Annotations: 
+        rdfs:label "APPENDICITIS, PRONENESS TO"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/86c96c57-91d0-49ed-a738-0b17e0ed06ce>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_107700>
+    
+    
+Individual: <http://model.geneontology.org/b9ee051f-7b11-4f25-bf0e-96ebe7dfe5fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002250>
+    
+    
+Individual: <http://model.geneontology.org/e216cee2-672c-4156-a87c-ad022e800e31>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_107700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b9ee051f-7b11-4f25-bf0e-96ebe7dfe5fa>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/86c96c57-91d0-49ed-a738-0b17e0ed06ce>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b9ee051f-7b11-4f25-bf0e-96ebe7dfe5fa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b9ee051f-7b11-4f25-bf0e-96ebe7dfe5fa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b9ee051f-7b11-4f25-bf0e-96ebe7dfe5fa>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_107700>
+
+    Annotations: 
+        rdfs:label "APPENDICITIS, PRONENESS TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

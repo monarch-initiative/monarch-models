@@ -1,0 +1,212 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6612dab0-ec8e-4338-be62-0eaee90c4d22>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-176700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000179>
+
+    Annotations: 
+        rdfs:label "Thick lower lip vermilion"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000303>
+
+    Annotations: 
+        rdfs:label "Mandibular prognathia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001363>
+
+    Annotations: 
+        rdfs:label "Craniosynostosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007651>
+
+    Annotations: 
+        rdfs:label "Ectropion of lower eyelids"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_176700>
+
+    Annotations: 
+        rdfs:label "%176700 PROGNATHISM, MANDIBULAR;;'HABSBURG JAW';;'HAPSBURG JAW'"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0e09454f-fd3c-4c52-8f5f-82e7351a06c8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001363>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/0e0fce74-47bb-4c3b-ba86-3efaf08238bf>
+    
+    
+Individual: <http://model.geneontology.org/0e0fce74-47bb-4c3b-ba86-3efaf08238bf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Occasional"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4f38e0c5-538f-4846-bb82-d29a8e9859ae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    
+Individual: <http://model.geneontology.org/69c328d5-f749-4690-af33-486d5c3bece0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    
+Individual: <http://model.geneontology.org/7013aebc-3db1-4745-a416-8547008efcd3>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176700>
+    
+    
+Individual: <http://model.geneontology.org/9c8763ce-cab1-4b84-bc45-0a5102eaab2f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_176700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a4f70656-40df-4675-b2b6-9e017095ec75>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4f38e0c5-538f-4846-bb82-d29a8e9859ae>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a4f70656-40df-4675-b2b6-9e017095ec75>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a4f70656-40df-4675-b2b6-9e017095ec75>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e9bcd5dc-cc50-42c8-9de5-afa07343827f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/69c328d5-f749-4690-af33-486d5c3bece0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e9bcd5dc-cc50-42c8-9de5-afa07343827f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e9bcd5dc-cc50-42c8-9de5-afa07343827f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e09454f-fd3c-4c52-8f5f-82e7351a06c8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7013aebc-3db1-4745-a416-8547008efcd3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e09454f-fd3c-4c52-8f5f-82e7351a06c8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e09454f-fd3c-4c52-8f5f-82e7351a06c8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9dfb2354-f579-4a4a-a7c1-5fb999733d3e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eb8e6fa1-7c80-4624-8746-02e0b310de76>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9dfb2354-f579-4a4a-a7c1-5fb999733d3e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9dfb2354-f579-4a4a-a7c1-5fb999733d3e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9dfb2354-f579-4a4a-a7c1-5fb999733d3e>
+    
+    
+Individual: <http://model.geneontology.org/9dfb2354-f579-4a4a-a7c1-5fb999733d3e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:FACIES > THICK LOWER LIP"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000179>
+    
+    
+Individual: <http://model.geneontology.org/a4f70656-40df-4675-b2b6-9e017095ec75>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007651>
+    
+    
+Individual: <http://model.geneontology.org/e9bcd5dc-cc50-42c8-9de5-afa07343827f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000303>
+    
+    
+Individual: <http://model.geneontology.org/eb8e6fa1-7c80-4624-8746-02e0b310de76>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176700>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_176700>
+
+    Annotations: 
+        rdfs:label "%176700 PROGNATHISM, MANDIBULAR;;'HABSBURG JAW';;'HAPSBURG JAW'"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

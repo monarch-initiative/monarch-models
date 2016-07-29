@@ -1,0 +1,261 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/885ecac4-92b7-443c-a1b8-70a05e4e054c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614842.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000013>
+
+    Annotations: 
+        rdfs:label "Hypoplasia of the uterus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000044>
+
+    Annotations: 
+        rdfs:label "Hypogonadotrophic hypogonadism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000458>
+
+    Annotations: 
+        rdfs:label "Anosmia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002750>
+
+    Annotations: 
+        rdfs:label "Delayed skeletal maturation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614842>
+
+    Annotations: 
+        rdfs:label "#614842 HYPOGONADOTROPIC HYPOGONADISM 13 WITH OR WITHOUT ANOSMIA; HH13"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/30a161a7-ef2d-466f-a527-2b9081127c40>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Occasional"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/30e161c9-a1b8-4fcb-ad92-8c3ae64b7588>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614842>
+    
+    
+Individual: <http://model.geneontology.org/4aeca0cd-d032-4e45-a610-030855f74ad8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL > DELAYED BONE AGE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002750>
+    
+    
+Individual: <http://model.geneontology.org/5a7e3ac4-c6c1-407e-9efb-ea6e80507c8a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000458>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/30a161a7-ef2d-466f-a527-2b9081127c40>
+    
+    
+Individual: <http://model.geneontology.org/5c7ecdba-a1a9-4f20-a61e-417786dd820a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614842>
+    
+    
+Individual: <http://model.geneontology.org/9cbedc7e-cc9d-4b18-a606-c3d06bbc3cb9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/b80c3125-77cf-49b4-bfcf-d50568149aaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614842>
+    
+    
+Individual: <http://model.geneontology.org/b8d3fc60-d564-4802-b1a7-3580342d7b99>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614842>
+    
+    
+Individual: <http://model.geneontology.org/c9b34412-5652-4e8d-8828-9e3ce71a5f48>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614842>
+    
+    
+Individual: <http://model.geneontology.org/d7933347-481c-4418-9eb4-189194d7c5b1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000044>
+    
+    
+Individual: <http://model.geneontology.org/da692c7b-3300-4f97-891b-d388176d3646>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, FEMALE > HYPOPLASTIC UTERUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000013>
+    
+    
+Individual: <http://model.geneontology.org/f8133fec-6297-4e87-ba00-e154144a0eb5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614842>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7933347-481c-4418-9eb4-189194d7c5b1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c9b34412-5652-4e8d-8828-9e3ce71a5f48>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7933347-481c-4418-9eb4-189194d7c5b1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7933347-481c-4418-9eb4-189194d7c5b1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7933347-481c-4418-9eb4-189194d7c5b1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da692c7b-3300-4f97-891b-d388176d3646>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b8d3fc60-d564-4802-b1a7-3580342d7b99>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da692c7b-3300-4f97-891b-d388176d3646>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da692c7b-3300-4f97-891b-d388176d3646>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-11-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da692c7b-3300-4f97-891b-d388176d3646>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4aeca0cd-d032-4e45-a610-030855f74ad8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/30e161c9-a1b8-4fcb-ad92-8c3ae64b7588>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4aeca0cd-d032-4e45-a610-030855f74ad8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4aeca0cd-d032-4e45-a610-030855f74ad8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-11-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4aeca0cd-d032-4e45-a610-030855f74ad8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a7e3ac4-c6c1-407e-9efb-ea6e80507c8a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5c7ecdba-a1a9-4f20-a61e-417786dd820a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a7e3ac4-c6c1-407e-9efb-ea6e80507c8a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a7e3ac4-c6c1-407e-9efb-ea6e80507c8a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a7e3ac4-c6c1-407e-9efb-ea6e80507c8a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9cbedc7e-cc9d-4b18-a606-c3d06bbc3cb9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b80c3125-77cf-49b4-bfcf-d50568149aaa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9cbedc7e-cc9d-4b18-a606-c3d06bbc3cb9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9cbedc7e-cc9d-4b18-a606-c3d06bbc3cb9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9cbedc7e-cc9d-4b18-a606-c3d06bbc3cb9>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614842>
+
+    Annotations: 
+        rdfs:label "#614842 HYPOGONADOTROPIC HYPOGONADISM 13 WITH OR WITHOUT ANOSMIA; HH13"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

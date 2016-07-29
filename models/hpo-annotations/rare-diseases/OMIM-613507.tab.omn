@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d0ebd92c-1631-4c2b-a684-a454ce484633>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613507.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001324>
+
+    Annotations: 
+        rdfs:label "Muscle weakness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004308>
+
+    Annotations: 
+        rdfs:label "Ventricular arrhythmia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011712>
+
+    Annotations: 
+        rdfs:label "Right bundle branch block"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613507>
+
+    Annotations: 
+        rdfs:label "#613507 GLYCOGEN STORAGE DISEASE XV; GSD15;;GSD XV;;GLYCOGENIN DEFICIENCY;;GYG1 DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/00e5a303-2118-441a-8a7b-738a24a61754>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MUSCLE, SOFT TISSUE > MUSCLE WEAKNESS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001324>
+    
+    
+Individual: <http://model.geneontology.org/02b4170e-34d2-437e-8f52-84ee103e9d5f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613507>
+    
+    
+Individual: <http://model.geneontology.org/2773d854-9b41-40d0-9c84-d1a6f38ffdb6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613507>
+    
+    
+Individual: <http://model.geneontology.org/3de44d60-dfeb-414c-8f32-0390255a2fa0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > RIGHT BUNDLE BRANCH BLOCK"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011712>
+    
+    
+Individual: <http://model.geneontology.org/4959f8e4-ef02-4da1-8b6a-d3a005090429>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613507>
+    
+    
+Individual: <http://model.geneontology.org/4a7a783a-1909-4291-8b8d-3d2bfbcf4549>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613507>
+    
+    
+Individual: <http://model.geneontology.org/9bb00dc9-64f8-4c6d-8fe2-7a7bd04b51a0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/ba8756e1-9dfa-43a3-981e-6bf99594593d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > VENTRICULAR ARRHYTHMIAS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004308>
+    
+    
+Individual: <http://model.geneontology.org/e365d87a-5101-430a-be67-580b9d321a9b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613507>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba8756e1-9dfa-43a3-981e-6bf99594593d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/02b4170e-34d2-437e-8f52-84ee103e9d5f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba8756e1-9dfa-43a3-981e-6bf99594593d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba8756e1-9dfa-43a3-981e-6bf99594593d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-31"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ba8756e1-9dfa-43a3-981e-6bf99594593d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00e5a303-2118-441a-8a7b-738a24a61754>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4a7a783a-1909-4291-8b8d-3d2bfbcf4549>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00e5a303-2118-441a-8a7b-738a24a61754>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00e5a303-2118-441a-8a7b-738a24a61754>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00e5a303-2118-441a-8a7b-738a24a61754>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3de44d60-dfeb-414c-8f32-0390255a2fa0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4959f8e4-ef02-4da1-8b6a-d3a005090429>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3de44d60-dfeb-414c-8f32-0390255a2fa0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3de44d60-dfeb-414c-8f32-0390255a2fa0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3de44d60-dfeb-414c-8f32-0390255a2fa0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bb00dc9-64f8-4c6d-8fe2-7a7bd04b51a0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2773d854-9b41-40d0-9c84-d1a6f38ffdb6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bb00dc9-64f8-4c6d-8fe2-7a7bd04b51a0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bb00dc9-64f8-4c6d-8fe2-7a7bd04b51a0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9bb00dc9-64f8-4c6d-8fe2-7a7bd04b51a0>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613507>
+
+    Annotations: 
+        rdfs:label "#613507 GLYCOGEN STORAGE DISEASE XV; GSD15;;GSD XV;;GLYCOGENIN DEFICIENCY;;GYG1 DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

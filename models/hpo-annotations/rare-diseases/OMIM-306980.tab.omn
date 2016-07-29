@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/878e5261-34c0-46d1-b370-72a073f0407f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-306980.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002251>
+
+    Annotations: 
+        rdfs:label "Aganglionic megacolon"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005627>
+
+    Annotations: 
+        rdfs:label "Type D brachydactyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009778>
+
+    Annotations: 
+        rdfs:label "Short thumb"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_306980>
+
+    Annotations: 
+        rdfs:label "HIRSCHSPRUNG DISEASE WITH TYPE D BRACHYDACTYLY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0cc5f0bd-3eb3-4aac-84e2-b4eb1982874c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009778>
+    
+    
+Individual: <http://model.geneontology.org/6527aadc-3e5b-4dd1-b7bd-4349ccd75810>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_306980>
+    
+    
+Individual: <http://model.geneontology.org/6b013101-b688-4064-a147-4dff305a713c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002251>
+    
+    
+Individual: <http://model.geneontology.org/834e3a72-90b2-4cf2-869a-f4fed876a4a7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_306980>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e789814e-7785-4771-b83d-011841d5d011>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6527aadc-3e5b-4dd1-b7bd-4349ccd75810>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e789814e-7785-4771-b83d-011841d5d011>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e789814e-7785-4771-b83d-011841d5d011>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e789814e-7785-4771-b83d-011841d5d011>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cc5f0bd-3eb3-4aac-84e2-b4eb1982874c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9ce4b58f-285f-4649-8723-f3166696a791>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cc5f0bd-3eb3-4aac-84e2-b4eb1982874c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cc5f0bd-3eb3-4aac-84e2-b4eb1982874c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cc5f0bd-3eb3-4aac-84e2-b4eb1982874c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b013101-b688-4064-a147-4dff305a713c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/952ad6f7-2f07-41cf-80b1-b873e4fac0d4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b013101-b688-4064-a147-4dff305a713c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b013101-b688-4064-a147-4dff305a713c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6b013101-b688-4064-a147-4dff305a713c>
+    
+    
+Individual: <http://model.geneontology.org/952ad6f7-2f07-41cf-80b1-b873e4fac0d4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_306980>
+    
+    
+Individual: <http://model.geneontology.org/9ce4b58f-285f-4649-8723-f3166696a791>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_306980>
+    
+    
+Individual: <http://model.geneontology.org/e789814e-7785-4771-b83d-011841d5d011>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005627>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_306980>
+
+    Annotations: 
+        rdfs:label "HIRSCHSPRUNG DISEASE WITH TYPE D BRACHYDACTYLY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

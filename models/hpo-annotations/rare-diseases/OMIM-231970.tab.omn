@@ -1,0 +1,270 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/15e0bb49-5aab-4b20-9ee9-8bb615cf1f14>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-231970.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000609>
+
+    Annotations: 
+        rdfs:label "Optic nerve hypoplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002650>
+
+    Annotations: 
+        rdfs:label "Scoliosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003298>
+
+    Annotations: 
+        rdfs:label "Spina bifida occulta"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009013>
+
+    Annotations: 
+        rdfs:label "Congenital absence of gluteal muscles"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_231970>
+
+    Annotations: 
+        rdfs:label "231970 GLUTEAL MUSCLES, ABSENCE OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/13684eca-49c7-4032-9f44-ecae08aa4c5c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009013>
+    
+    
+Individual: <http://model.geneontology.org/468e4a6d-29c4-4952-b28f-3f3d1fb077fc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4969fd3e-bef8-4e58-ac62-2ab011b1ced9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_231970>
+    
+    
+Individual: <http://model.geneontology.org/8f41a2e5-3e6c-4a05-8bc2-91e56b5f7ebe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_231970>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a563fbdc-31bd-4ead-80b9-c87351eadee3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c5d753eb-616b-494e-b7a2-0c2f94fd08d9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a563fbdc-31bd-4ead-80b9-c87351eadee3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a563fbdc-31bd-4ead-80b9-c87351eadee3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a563fbdc-31bd-4ead-80b9-c87351eadee3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f001c47b-47b6-46f3-896c-58e7237f12a7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b61ff76a-877c-4b5b-8388-427502e23467>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f001c47b-47b6-46f3-896c-58e7237f12a7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f001c47b-47b6-46f3-896c-58e7237f12a7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f001c47b-47b6-46f3-896c-58e7237f12a7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13684eca-49c7-4032-9f44-ecae08aa4c5c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a68c95df-21da-4034-a64c-3cf68248e27b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13684eca-49c7-4032-9f44-ecae08aa4c5c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13684eca-49c7-4032-9f44-ecae08aa4c5c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13684eca-49c7-4032-9f44-ecae08aa4c5c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a233351-b215-4ff6-9a0f-8e6f1057a892>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4969fd3e-bef8-4e58-ac62-2ab011b1ced9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a233351-b215-4ff6-9a0f-8e6f1057a892>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a233351-b215-4ff6-9a0f-8e6f1057a892>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9a233351-b215-4ff6-9a0f-8e6f1057a892>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93a773b3-a276-4148-a794-bc1b586769ca>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e6b4c6aa-34cb-494b-a350-404889711c5d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93a773b3-a276-4148-a794-bc1b586769ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93a773b3-a276-4148-a794-bc1b586769ca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/93a773b3-a276-4148-a794-bc1b586769ca>
+    
+    
+Individual: <http://model.geneontology.org/93a773b3-a276-4148-a794-bc1b586769ca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/9a233351-b215-4ff6-9a0f-8e6f1057a892>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > OPTIC NERVE HYPOPLASIA (IN 1 PATIENT)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000609>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/468e4a6d-29c4-4952-b28f-3f3d1fb077fc>
+    
+    
+Individual: <http://model.geneontology.org/a563fbdc-31bd-4ead-80b9-c87351eadee3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003298>
+    
+    
+Individual: <http://model.geneontology.org/a68c95df-21da-4034-a64c-3cf68248e27b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_231970>
+    
+    
+Individual: <http://model.geneontology.org/b61ff76a-877c-4b5b-8388-427502e23467>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_231970>
+    
+    
+Individual: <http://model.geneontology.org/c5d753eb-616b-494e-b7a2-0c2f94fd08d9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_231970>
+    
+    
+Individual: <http://model.geneontology.org/e6b4c6aa-34cb-494b-a350-404889711c5d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_231970>
+    
+    
+Individual: <http://model.geneontology.org/f001c47b-47b6-46f3-896c-58e7237f12a7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_SPINE > SCOLIOSIS (IN 1 PATIENT)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002650>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/fa09ccab-6d14-4455-a3c0-778acfff0a08>
+    
+    
+Individual: <http://model.geneontology.org/fa09ccab-6d14-4455-a3c0-778acfff0a08>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_231970>
+
+    Annotations: 
+        rdfs:label "231970 GLUTEAL MUSCLES, ABSENCE OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

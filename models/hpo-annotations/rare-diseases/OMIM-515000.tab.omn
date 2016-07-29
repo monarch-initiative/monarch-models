@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/76d42bf9-957d-4f2c-99f0-535c7886143d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-515000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001915>
+
+    Annotations: 
+        rdfs:label "Aplastic anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_515000>
+
+    Annotations: 
+        rdfs:label "CHLORAMPHENICOL TOXICITY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/36695dcf-9a46-47e4-9856-5bcdf703a0fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001915>
+    
+    
+Individual: <http://model.geneontology.org/b0eda5e1-761c-4fee-ba1b-b028a3f73ec9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_515000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36695dcf-9a46-47e4-9856-5bcdf703a0fc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e205c33a-28d5-4638-8750-12b1eb7f06d2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36695dcf-9a46-47e4-9856-5bcdf703a0fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36695dcf-9a46-47e4-9856-5bcdf703a0fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36695dcf-9a46-47e4-9856-5bcdf703a0fc>
+    
+    
+Individual: <http://model.geneontology.org/e205c33a-28d5-4638-8750-12b1eb7f06d2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_515000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_515000>
+
+    Annotations: 
+        rdfs:label "CHLORAMPHENICOL TOXICITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

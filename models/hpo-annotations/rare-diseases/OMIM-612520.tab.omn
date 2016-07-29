@@ -1,0 +1,101 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b62f8a4a-4bb7-49bd-948b-80365e315c17>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612520.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100651>
+
+    Annotations: 
+        rdfs:label "Type I diabetes mellitus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612520>
+
+    Annotations: 
+        rdfs:label "#612520 DIABETES MELLITUS, INSULIN-DEPENDENT, 20; IDDM20"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5b30a7a9-fe14-4ca7-95d6-b4f4cf4986bd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:9313763>
+    
+    
+Individual: <http://model.geneontology.org/e9e1c8f7-a4c6-4ea6-bf35-6c4d2ecd7057>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612520>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efff24b5-b1f7-4825-8dfc-8078f1e3d3a4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5b30a7a9-fe14-4ca7-95d6-b4f4cf4986bd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efff24b5-b1f7-4825-8dfc-8078f1e3d3a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efff24b5-b1f7-4825-8dfc-8078f1e3d3a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efff24b5-b1f7-4825-8dfc-8078f1e3d3a4>
+    
+    
+Individual: <http://model.geneontology.org/efff24b5-b1f7-4825-8dfc-8078f1e3d3a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100651>
+    
+    
+Individual: <pmid:9313763>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

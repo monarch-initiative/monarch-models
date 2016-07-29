@@ -1,0 +1,175 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e8d18590-eb5d-4554-9bdc-d68159f9c571>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-603373.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000836>
+
+    Annotations: 
+        rdfs:label "Hyperthyroidism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012188>
+
+    Annotations: 
+        rdfs:label "Hyperemesis gravidarum"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_603373>
+
+    Annotations: 
+        rdfs:label "#603373 HYPERTHYROIDISM, FAMILIAL GESTATIONAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/15dd7c18-57cc-4a80-abb7-b02b9c871b95>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Gestational hyperthyroidism"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000836>
+    
+    
+Individual: <http://model.geneontology.org/63229abf-a706-4493-9240-5a534eeb7c89>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:9854118>
+    
+    
+Individual: <http://model.geneontology.org/64d97996-819f-4190-872b-4044c92f7181>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:9854118>
+    
+    
+Individual: <http://model.geneontology.org/be77bcbc-5955-4a52-91ee-6156724eb56d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_603373>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5c5e7e9-08ac-4ade-b531-2b8304ca1273>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/64d97996-819f-4190-872b-4044c92f7181>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5c5e7e9-08ac-4ade-b531-2b8304ca1273>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5c5e7e9-08ac-4ade-b531-2b8304ca1273>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5c5e7e9-08ac-4ade-b531-2b8304ca1273>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f498cae0-2793-4ccb-bcaf-2f268eb2ebd3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63229abf-a706-4493-9240-5a534eeb7c89>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f498cae0-2793-4ccb-bcaf-2f268eb2ebd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f498cae0-2793-4ccb-bcaf-2f268eb2ebd3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f498cae0-2793-4ccb-bcaf-2f268eb2ebd3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dd7c18-57cc-4a80-abb7-b02b9c871b95>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ead55b27-3979-42d6-a0f4-bef80b10280f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dd7c18-57cc-4a80-abb7-b02b9c871b95>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dd7c18-57cc-4a80-abb7-b02b9c871b95>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dd7c18-57cc-4a80-abb7-b02b9c871b95>
+    
+    
+Individual: <http://model.geneontology.org/c5c5e7e9-08ac-4ade-b531-2b8304ca1273>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/ead55b27-3979-42d6-a0f4-bef80b10280f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:9854118>
+    
+    
+Individual: <http://model.geneontology.org/f498cae0-2793-4ccb-bcaf-2f268eb2ebd3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012188>
+    
+    
+Individual: <pmid:9854118>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

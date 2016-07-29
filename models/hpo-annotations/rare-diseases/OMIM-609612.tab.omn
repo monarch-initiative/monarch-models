@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d1527f21-2e42-4704-8b75-fbaa479a959c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-609612.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000508>
+
+    Annotations: 
+        rdfs:label "Ptosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000577>
+
+    Annotations: 
+        rdfs:label "Exotropia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_609612>
+
+    Annotations: 
+        rdfs:label "609612 FIBROSIS OF EXTRAOCULAR MUSCLES, CONGENITAL, WITH SYNERGISTIC DIVERGENCE;;CONGENITAL FIBROSIS SYNDROME WITH SYNERGISTIC DIVERGENCE;;EXTERNAL OPHTHALMOPLEGIA WITH SYNERGISTIC DIVERGENCEEXTERNAL OPHTHALMOPLEGIA, SYNERGISTIC DIVERGENCE, JAW WINKING, ANDOCULOCUTANEOUS HYPOPIGMENTATION, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2831e854-cafc-44c0-9d6a-e74ee26cdd0a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609612>
+    
+    
+Individual: <http://model.geneontology.org/837b5da1-a834-4339-a478-054e246b0c27>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > PTOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000508>
+    
+    
+Individual: <http://model.geneontology.org/bb5d2d49-f46c-4a99-b1f8-3d0687dfeae4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/cfe630c2-9e33-459a-a3b6-c06822045239>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609612>
+    
+    
+Individual: <http://model.geneontology.org/d53d315e-99de-4ef3-ab40-bfafefbd5782>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > EXOTROPIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000577>
+    
+    
+Individual: <http://model.geneontology.org/e5295366-ba3d-4cc8-824a-c7e15a6a2d13>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_609612>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb5d2d49-f46c-4a99-b1f8-3d0687dfeae4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe49854d-709e-4229-a1dd-b002d728ed8f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb5d2d49-f46c-4a99-b1f8-3d0687dfeae4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb5d2d49-f46c-4a99-b1f8-3d0687dfeae4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-02-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb5d2d49-f46c-4a99-b1f8-3d0687dfeae4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d53d315e-99de-4ef3-ab40-bfafefbd5782>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cfe630c2-9e33-459a-a3b6-c06822045239>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d53d315e-99de-4ef3-ab40-bfafefbd5782>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d53d315e-99de-4ef3-ab40-bfafefbd5782>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-02-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d53d315e-99de-4ef3-ab40-bfafefbd5782>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/837b5da1-a834-4339-a478-054e246b0c27>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2831e854-cafc-44c0-9d6a-e74ee26cdd0a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/837b5da1-a834-4339-a478-054e246b0c27>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/837b5da1-a834-4339-a478-054e246b0c27>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-02-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/837b5da1-a834-4339-a478-054e246b0c27>
+    
+    
+Individual: <http://model.geneontology.org/fe49854d-709e-4229-a1dd-b002d728ed8f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609612>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_609612>
+
+    Annotations: 
+        rdfs:label "609612 FIBROSIS OF EXTRAOCULAR MUSCLES, CONGENITAL, WITH SYNERGISTIC DIVERGENCE;;CONGENITAL FIBROSIS SYNDROME WITH SYNERGISTIC DIVERGENCE;;EXTERNAL OPHTHALMOPLEGIA WITH SYNERGISTIC DIVERGENCEEXTERNAL OPHTHALMOPLEGIA, SYNERGISTIC DIVERGENCE, JAW WINKING, ANDOCULOCUTANEOUS HYPOPIGMENTATION, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

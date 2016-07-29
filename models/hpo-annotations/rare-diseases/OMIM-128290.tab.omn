@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e870a4f9-c305-47f6-a767-87f27926d6d0>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-128290.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000598>
+
+    Annotations: 
+        rdfs:label "Abnormality of the ear"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_128290>
+
+    Annotations: 
+        rdfs:label "EAR ANTITRAGUS, TAG AT BASE OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/220da64c-4f2b-41b9-a21a-6b2b7e908725>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000598>
+    
+    
+Individual: <http://model.geneontology.org/386cd089-53ab-48a3-89ec-20202c99267d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128290>
+    
+    
+Individual: <http://model.geneontology.org/d8cc4b5e-b15a-4a4b-9c25-428311a3b18a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128290>
+    
+    
+Individual: <http://model.geneontology.org/d9b91dfd-3b4d-42f8-8d95-dab21aa176e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/e1904715-b78c-45b9-b2a3-a23c1537c0f7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_128290>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9b91dfd-3b4d-42f8-8d95-dab21aa176e0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/386cd089-53ab-48a3-89ec-20202c99267d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9b91dfd-3b4d-42f8-8d95-dab21aa176e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9b91dfd-3b4d-42f8-8d95-dab21aa176e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9b91dfd-3b4d-42f8-8d95-dab21aa176e0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220da64c-4f2b-41b9-a21a-6b2b7e908725>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d8cc4b5e-b15a-4a4b-9c25-428311a3b18a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220da64c-4f2b-41b9-a21a-6b2b7e908725>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220da64c-4f2b-41b9-a21a-6b2b7e908725>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220da64c-4f2b-41b9-a21a-6b2b7e908725>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_128290>
+
+    Annotations: 
+        rdfs:label "EAR ANTITRAGUS, TAG AT BASE OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

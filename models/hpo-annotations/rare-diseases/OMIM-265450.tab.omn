@@ -1,0 +1,181 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/73b256d1-ffa4-4afb-b3da-2e65d646f43d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-265450.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002092>
+
+    Annotations: 
+        rdfs:label "Pulmonary hypertension"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006518>
+
+    Annotations: 
+        rdfs:label "Pulmonary venoocclusive disease"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_265450>
+
+    Annotations: 
+        rdfs:label "#265450 PULMONARY VENOOCCLUSIVE DISEASE; PVOD"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/31ca5d40-214a-4640-a53d-703b2c39aa1d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_265450>
+    
+    
+Individual: <http://model.geneontology.org/5790d187-3b64-4c3c-9410-d48f09cb8501>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_VASCULAR > PULMONARY ARTERIAL HYPERTENSION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002092>
+    
+    
+Individual: <http://model.geneontology.org/76787127-0218-404d-bdc3-d9d485ecddc1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_265450>
+    
+    
+Individual: <http://model.geneontology.org/77b37a32-d471-4a65-96a8-ae81ab0811f1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7fb0af6e-cb66-4b97-ae81-4f9bdc4bd984>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_265450>
+    
+    
+Individual: <http://model.geneontology.org/a21612c3-2922-443e-867f-9297cc1053eb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_265450>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea09ddf6-cb22-4e95-b3a4-376284f0a7c2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7fb0af6e-cb66-4b97-ae81-4f9bdc4bd984>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea09ddf6-cb22-4e95-b3a4-376284f0a7c2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea09ddf6-cb22-4e95-b3a4-376284f0a7c2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea09ddf6-cb22-4e95-b3a4-376284f0a7c2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5790d187-3b64-4c3c-9410-d48f09cb8501>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/76787127-0218-404d-bdc3-d9d485ecddc1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5790d187-3b64-4c3c-9410-d48f09cb8501>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5790d187-3b64-4c3c-9410-d48f09cb8501>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5790d187-3b64-4c3c-9410-d48f09cb8501>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77b37a32-d471-4a65-96a8-ae81ab0811f1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/31ca5d40-214a-4640-a53d-703b2c39aa1d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77b37a32-d471-4a65-96a8-ae81ab0811f1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77b37a32-d471-4a65-96a8-ae81ab0811f1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77b37a32-d471-4a65-96a8-ae81ab0811f1>
+    
+    
+Individual: <http://model.geneontology.org/ea09ddf6-cb22-4e95-b3a4-376284f0a7c2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006518>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_265450>
+
+    Annotations: 
+        rdfs:label "#265450 PULMONARY VENOOCCLUSIVE DISEASE; PVOD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a7d24025-71d2-4ef9-8457-20f2220a7e6f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614823.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001647>
+
+    Annotations: 
+        rdfs:label "Bicuspid aortic valve"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001680>
+
+    Annotations: 
+        rdfs:label "Coarctation of aorta"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004963>
+
+    Annotations: 
+        rdfs:label "Calcification of the aorta"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614823>
+
+    Annotations: 
+        rdfs:label "#614823 AORTIC VALVE DISEASE 2; AOVD2;;BICUSPID AORTIC VALVE;;AORTIC VALVE STENOSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/09f268ae-ada2-4bc4-9ee4-b7a7a39705fe>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/608e529e-d63d-4171-97d3-49aca04e5c41>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614823>
+    
+    
+Individual: <http://model.geneontology.org/66ab6743-aceb-415e-9c52-5a47a62f9e5c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > BICUSPID AORTIC VALVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001647>
+    
+    
+Individual: <http://model.geneontology.org/a75a40c4-99ad-4449-9616-2f876b3b7422>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614823>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1490cc-ac31-4b0c-ae0d-585382e28c7b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eefc213f-7f5d-4d26-9889-6b1a23127cd4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1490cc-ac31-4b0c-ae0d-585382e28c7b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1490cc-ac31-4b0c-ae0d-585382e28c7b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af1490cc-ac31-4b0c-ae0d-585382e28c7b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c60888df-ceca-46ed-80f4-78e6d2f3fce5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aba65297-6ecc-4a44-a4e1-c0946853fc16>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c60888df-ceca-46ed-80f4-78e6d2f3fce5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c60888df-ceca-46ed-80f4-78e6d2f3fce5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c60888df-ceca-46ed-80f4-78e6d2f3fce5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09f268ae-ada2-4bc4-9ee4-b7a7a39705fe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/608e529e-d63d-4171-97d3-49aca04e5c41>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09f268ae-ada2-4bc4-9ee4-b7a7a39705fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09f268ae-ada2-4bc4-9ee4-b7a7a39705fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/09f268ae-ada2-4bc4-9ee4-b7a7a39705fe>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/66ab6743-aceb-415e-9c52-5a47a62f9e5c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a79af63d-7c3d-4c94-aced-6f48ef5c4a89>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/66ab6743-aceb-415e-9c52-5a47a62f9e5c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/66ab6743-aceb-415e-9c52-5a47a62f9e5c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/66ab6743-aceb-415e-9c52-5a47a62f9e5c>
+    
+    
+Individual: <http://model.geneontology.org/a79af63d-7c3d-4c94-aced-6f48ef5c4a89>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614823>
+    
+    
+Individual: <http://model.geneontology.org/aba65297-6ecc-4a44-a4e1-c0946853fc16>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614823>
+    
+    
+Individual: <http://model.geneontology.org/af1490cc-ac31-4b0c-ae0d-585382e28c7b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_VASCULAR > COARCTATION OF THE AORTA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001680>
+    
+    
+Individual: <http://model.geneontology.org/c60888df-ceca-46ed-80f4-78e6d2f3fce5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_VASCULAR > CALCIFICATION OF THE AORTA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004963>
+    
+    
+Individual: <http://model.geneontology.org/eefc213f-7f5d-4d26-9889-6b1a23127cd4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614823>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614823>
+
+    Annotations: 
+        rdfs:label "#614823 AORTIC VALVE DISEASE 2; AOVD2;;BICUSPID AORTIC VALVE;;AORTIC VALVE STENOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

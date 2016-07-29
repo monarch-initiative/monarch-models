@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0d1e4ea0-bb78-4f01-860a-675ba4222eb1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601004.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004941>
+
+    Annotations: 
+        rdfs:label "Extrahepatic portal hypertension"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601004>
+
+    Annotations: 
+        rdfs:label "PORTAL VEIN, CAVERNOUS TRANSFORMATION OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/46d8303c-77de-4dfd-9b21-3dff9beb8db7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004941>
+    
+    
+Individual: <http://model.geneontology.org/50410713-de16-452e-af45-f8b24c52e4ef>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601004>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46d8303c-77de-4dfd-9b21-3dff9beb8db7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/60a860ad-3b74-474c-a0d5-58a89eece24a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46d8303c-77de-4dfd-9b21-3dff9beb8db7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46d8303c-77de-4dfd-9b21-3dff9beb8db7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/46d8303c-77de-4dfd-9b21-3dff9beb8db7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/796728c2-abb1-4b61-b2ff-502db0084a1c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bc93e446-cbe9-4b15-801f-afbc288c723c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/796728c2-abb1-4b61-b2ff-502db0084a1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/796728c2-abb1-4b61-b2ff-502db0084a1c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/796728c2-abb1-4b61-b2ff-502db0084a1c>
+    
+    
+Individual: <http://model.geneontology.org/60a860ad-3b74-474c-a0d5-58a89eece24a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601004>
+    
+    
+Individual: <http://model.geneontology.org/796728c2-abb1-4b61-b2ff-502db0084a1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/bc93e446-cbe9-4b15-801f-afbc288c723c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601004>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601004>
+
+    Annotations: 
+        rdfs:label "PORTAL VEIN, CAVERNOUS TRANSFORMATION OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

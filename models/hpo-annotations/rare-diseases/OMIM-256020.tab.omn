@@ -1,0 +1,280 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4eb1f7e6-3131-40c4-93d5-f210db2201d1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-256020.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000083>
+
+    Annotations: 
+        rdfs:label "Renal failure"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000093>
+
+    Annotations: 
+        rdfs:label "Proteinuria"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000112>
+
+    Annotations: 
+        rdfs:label "Nephropathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000924>
+
+    Annotations: 
+        rdfs:label "Abnormality of the musculoskeletal system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001597>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nail"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_256020>
+
+    Annotations: 
+        rdfs:label "256020 NAIL-PATELLA-LIKE RENAL DISEASE;;GLOMERULAR BASEMENT MEMBRANE DISEASE, NAIL-PATELLA SYNDROME TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07a13092-0b33-4aba-9510-915601d7b72d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000924>
+    
+    
+Individual: <http://model.geneontology.org/0b7efb04-9ab0-4d70-9c3d-ddd2d50edcfe>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NAILS > NORMAL NAILS"^^xsd:string
+    
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0001597>)
+    
+    
+Individual: <http://model.geneontology.org/176229fe-0069-4980-a0a5-1446a2b457fe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/26dcbe08-15bf-4a60-8953-a1ae082b46f9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_256020>
+    
+    
+Individual: <http://model.geneontology.org/30602378-9eeb-4a1b-b005-872cc88240df>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_256020>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d67d8026-8874-470c-bf9e-d05adf91338a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c42a18e8-c0bd-4867-a77f-899dc32b97f9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d67d8026-8874-470c-bf9e-d05adf91338a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d67d8026-8874-470c-bf9e-d05adf91338a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d67d8026-8874-470c-bf9e-d05adf91338a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebe017e4-dfb6-490b-938f-1a06858b0db9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/77eab9b3-51cd-46a7-976c-cff90201828e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebe017e4-dfb6-490b-938f-1a06858b0db9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebe017e4-dfb6-490b-938f-1a06858b0db9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebe017e4-dfb6-490b-938f-1a06858b0db9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b7efb04-9ab0-4d70-9c3d-ddd2d50edcfe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/26dcbe08-15bf-4a60-8953-a1ae082b46f9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b7efb04-9ab0-4d70-9c3d-ddd2d50edcfe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b7efb04-9ab0-4d70-9c3d-ddd2d50edcfe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-11-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0b7efb04-9ab0-4d70-9c3d-ddd2d50edcfe>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07a13092-0b33-4aba-9510-915601d7b72d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/48abfedf-12a3-47d2-ad7a-54391d502ee3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07a13092-0b33-4aba-9510-915601d7b72d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07a13092-0b33-4aba-9510-915601d7b72d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07a13092-0b33-4aba-9510-915601d7b72d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176229fe-0069-4980-a0a5-1446a2b457fe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f9faebc3-83ec-4c8d-8107-91f39fb0a9ed>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176229fe-0069-4980-a0a5-1446a2b457fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176229fe-0069-4980-a0a5-1446a2b457fe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/176229fe-0069-4980-a0a5-1446a2b457fe>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6624d696-a23e-4ee5-b6a6-6cfa44581544>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7b6f574e-9a22-4686-973a-934e1aae2e31>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6624d696-a23e-4ee5-b6a6-6cfa44581544>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6624d696-a23e-4ee5-b6a6-6cfa44581544>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6624d696-a23e-4ee5-b6a6-6cfa44581544>
+    
+    
+Individual: <http://model.geneontology.org/48abfedf-12a3-47d2-ad7a-54391d502ee3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_256020>
+    
+    
+Individual: <http://model.geneontology.org/6624d696-a23e-4ee5-b6a6-6cfa44581544>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000083>
+    
+    
+Individual: <http://model.geneontology.org/77eab9b3-51cd-46a7-976c-cff90201828e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_256020>
+    
+    
+Individual: <http://model.geneontology.org/7b6f574e-9a22-4686-973a-934e1aae2e31>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_256020>
+    
+    
+Individual: <http://model.geneontology.org/c42a18e8-c0bd-4867-a77f-899dc32b97f9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_256020>
+    
+    
+Individual: <http://model.geneontology.org/d67d8026-8874-470c-bf9e-d05adf91338a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000093>
+    
+    
+Individual: <http://model.geneontology.org/ebe017e4-dfb6-490b-938f-1a06858b0db9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000112>
+    
+    
+Individual: <http://model.geneontology.org/f9faebc3-83ec-4c8d-8107-91f39fb0a9ed>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_256020>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_256020>
+
+    Annotations: 
+        rdfs:label "256020 NAIL-PATELLA-LIKE RENAL DISEASE;;GLOMERULAR BASEMENT MEMBRANE DISEASE, NAIL-PATELLA SYNDROME TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

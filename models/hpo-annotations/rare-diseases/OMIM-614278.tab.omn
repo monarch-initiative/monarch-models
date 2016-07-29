@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0a242c22-78d8-4df4-9687-5c5b95c3e42a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614278.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0040175>
+
+    Annotations: 
+        rdfs:label "Platelet-activating factor acetylhydrolase deficiency"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0040178>
+
+    Annotations: 
+        rdfs:label "Increased level of platelet-activating factor"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614278>
+
+    Annotations: 
+        rdfs:label "#614278 PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE DEFICIENCY; PAFAD"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/04a32451-3146-4b61-b27f-527f9538ff08>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614278>
+    
+    
+Individual: <http://model.geneontology.org/097cdeab-2d7e-4b4f-bec1-caee3ec5b807>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0040178>
+    
+    
+Individual: <http://model.geneontology.org/0b504019-ba13-4007-a3d0-9a091090f20e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614278>
+    
+    
+Individual: <http://model.geneontology.org/3c5fc7c6-9bc2-4de6-9e77-4659637f2110>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0040175>
+    
+    
+Individual: <http://model.geneontology.org/fea3e497-5d8f-4841-89a2-500d7e823213>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614278>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/097cdeab-2d7e-4b4f-bec1-caee3ec5b807>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/04a32451-3146-4b61-b27f-527f9538ff08>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/097cdeab-2d7e-4b4f-bec1-caee3ec5b807>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/097cdeab-2d7e-4b4f-bec1-caee3ec5b807>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/097cdeab-2d7e-4b4f-bec1-caee3ec5b807>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c5fc7c6-9bc2-4de6-9e77-4659637f2110>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0b504019-ba13-4007-a3d0-9a091090f20e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c5fc7c6-9bc2-4de6-9e77-4659637f2110>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c5fc7c6-9bc2-4de6-9e77-4659637f2110>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c5fc7c6-9bc2-4de6-9e77-4659637f2110>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614278>
+
+    Annotations: 
+        rdfs:label "#614278 PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE DEFICIENCY; PAFAD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

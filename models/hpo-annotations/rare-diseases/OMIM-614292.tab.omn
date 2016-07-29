@@ -1,0 +1,316 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2df5f1b6-8c2f-4c91-9402-bb5e0fc4e8ed>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614292.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000518>
+
+    Annotations: 
+        rdfs:label "Cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000541>
+
+    Annotations: 
+        rdfs:label "Retinal detachment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001132>
+
+    Annotations: 
+        rdfs:label "Lens subluxation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011003>
+
+    Annotations: 
+        rdfs:label "Severe Myopia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200071>
+
+    Annotations: 
+        rdfs:label "Peripheral vitreoretinal degeneration"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614292>
+
+    Annotations: 
+        rdfs:label "#614292 MYOPIA, HIGH, WITH CATARACT AND VITREORETINAL DEGENERATION; MCVD"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07e8cbec-fae2-4abf-82da-458ee52fd587>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614292>
+    
+    
+Individual: <http://model.geneontology.org/11f805ae-e94b-4619-80dd-11799babe864>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614292>
+    
+    
+Individual: <http://model.geneontology.org/21421b65-f2e1-484d-95a1-7afc5cc573f7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/22e4c0fb-328d-475a-8e65-ecb28a151297>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > PERIPHERAL VITREORETINAL DEGENERATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200071>
+    
+    
+Individual: <http://model.geneontology.org/29f1bb08-a372-4117-aaf1-df83b47ed6ed>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3569ea64-a1d9-4e33-9089-cda0e779d2ea>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614292>
+    
+    
+Individual: <http://model.geneontology.org/476c27a4-b998-4190-b7f8-715f03cd0e47>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614292>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdcef45b-18b5-494c-b98c-46d3958fdaac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/07e8cbec-fae2-4abf-82da-458ee52fd587>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdcef45b-18b5-494c-b98c-46d3958fdaac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdcef45b-18b5-494c-b98c-46d3958fdaac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fdcef45b-18b5-494c-b98c-46d3958fdaac>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe330243-a604-4c8b-bbba-1867136c17cd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4c1de5b1-4c4e-4005-a4ce-aa9674a294ca>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe330243-a604-4c8b-bbba-1867136c17cd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe330243-a604-4c8b-bbba-1867136c17cd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe330243-a604-4c8b-bbba-1867136c17cd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22e4c0fb-328d-475a-8e65-ecb28a151297>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d6343ee9-38ae-495c-b683-d7b198b15291>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22e4c0fb-328d-475a-8e65-ecb28a151297>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22e4c0fb-328d-475a-8e65-ecb28a151297>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-31"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22e4c0fb-328d-475a-8e65-ecb28a151297>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58704da6-1e72-4508-9cc6-110e1f070251>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/11f805ae-e94b-4619-80dd-11799babe864>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58704da6-1e72-4508-9cc6-110e1f070251>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58704da6-1e72-4508-9cc6-110e1f070251>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58704da6-1e72-4508-9cc6-110e1f070251>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c7478fd-8bdc-4804-a1e9-bbd45998e3fc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3569ea64-a1d9-4e33-9089-cda0e779d2ea>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c7478fd-8bdc-4804-a1e9-bbd45998e3fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c7478fd-8bdc-4804-a1e9-bbd45998e3fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c7478fd-8bdc-4804-a1e9-bbd45998e3fc>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9020b463-5fc2-417e-bbe5-5055cebeb71d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9c7e361f-db34-4078-a306-33b318285821>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9020b463-5fc2-417e-bbe5-5055cebeb71d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9020b463-5fc2-417e-bbe5-5055cebeb71d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9020b463-5fc2-417e-bbe5-5055cebeb71d>
+    
+    
+Individual: <http://model.geneontology.org/4c1de5b1-4c4e-4005-a4ce-aa9674a294ca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614292>
+    
+    
+Individual: <http://model.geneontology.org/58704da6-1e72-4508-9cc6-110e1f070251>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > RETINAL DETACHMENT (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000541>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/29f1bb08-a372-4117-aaf1-df83b47ed6ed>
+    
+    
+Individual: <http://model.geneontology.org/7c7478fd-8bdc-4804-a1e9-bbd45998e3fc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > CATARACT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000518>
+    
+    
+Individual: <http://model.geneontology.org/9020b463-5fc2-417e-bbe5-5055cebeb71d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/9c7e361f-db34-4078-a306-33b318285821>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614292>
+    
+    
+Individual: <http://model.geneontology.org/d6343ee9-38ae-495c-b683-d7b198b15291>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614292>
+    
+    
+Individual: <http://model.geneontology.org/fdcef45b-18b5-494c-b98c-46d3958fdaac>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > LENS SUBLUXATION (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001132>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/21421b65-f2e1-484d-95a1-7afc5cc573f7>
+    
+    
+Individual: <http://model.geneontology.org/fe330243-a604-4c8b-bbba-1867136c17cd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > HIGH MYOPIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011003>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614292>
+
+    Annotations: 
+        rdfs:label "#614292 MYOPIA, HIGH, WITH CATARACT AND VITREORETINAL DEGENERATION; MCVD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,205 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/51bec409-763a-44f0-b95c-9f652d9da86c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614280.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002121>
+
+    Annotations: 
+        rdfs:label "Absence seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002373>
+
+    Annotations: 
+        rdfs:label "Febrile seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614280>
+
+    Annotations: 
+        rdfs:label "%614280 EPILEPSY, JUVENILE MYOCLONIC, SUSCEPTIBILITY TO, 9; EJM9"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/08911a31-0380-490b-8baa-05e30c5c2cc7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614280>
+    
+    
+Individual: <http://model.geneontology.org/35f94707-ce09-4601-ae1c-c204d3860d6e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3a5d1a8f-06b2-4351-bd1f-bd465e5a8e50>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > ABSENCE SEIZURES (IN SOME)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002121>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/35f94707-ce09-4601-ae1c-c204d3860d6e>
+    
+    
+Individual: <http://model.geneontology.org/9a238a9b-85fc-47a4-9d9d-0abe6991a833>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614280>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9d6b730-401a-4ccf-a518-336c22c25891>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/08911a31-0380-490b-8baa-05e30c5c2cc7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9d6b730-401a-4ccf-a518-336c22c25891>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9d6b730-401a-4ccf-a518-336c22c25891>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9d6b730-401a-4ccf-a518-336c22c25891>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff92d876-0792-4497-a254-5f1d44d465a9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ec451d0c-f1b4-4f34-b7c1-303d5dc3c32d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff92d876-0792-4497-a254-5f1d44d465a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff92d876-0792-4497-a254-5f1d44d465a9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff92d876-0792-4497-a254-5f1d44d465a9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a5d1a8f-06b2-4351-bd1f-bd465e5a8e50>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d17864fb-7554-42eb-91ee-4f369ba4677e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a5d1a8f-06b2-4351-bd1f-bd465e5a8e50>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a5d1a8f-06b2-4351-bd1f-bd465e5a8e50>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a5d1a8f-06b2-4351-bd1f-bd465e5a8e50>
+    
+    
+Individual: <http://model.geneontology.org/a9d6b730-401a-4ccf-a518-336c22c25891>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > FEBRILE SEIZURES (IN SOME)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002373>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/ed3ea21a-ff2a-4a45-be0a-5dd77b109ec4>
+    
+    
+Individual: <http://model.geneontology.org/d17864fb-7554-42eb-91ee-4f369ba4677e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614280>
+    
+    
+Individual: <http://model.geneontology.org/ec451d0c-f1b4-4f34-b7c1-303d5dc3c32d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614280>
+    
+    
+Individual: <http://model.geneontology.org/ed3ea21a-ff2a-4a45-be0a-5dd77b109ec4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/ff92d876-0792-4497-a254-5f1d44d465a9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614280>
+
+    Annotations: 
+        rdfs:label "%614280 EPILEPSY, JUVENILE MYOCLONIC, SUSCEPTIBILITY TO, 9; EJM9"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

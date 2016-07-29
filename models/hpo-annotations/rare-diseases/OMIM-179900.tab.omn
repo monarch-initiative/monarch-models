@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/355a6d5f-805e-4264-95b1-85e0fce641e4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-179900.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001425>
+
+    Annotations: 
+        rdfs:label "Heterogeneous"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007875>
+
+    Annotations: 
+        rdfs:label "Congenital blindness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_179900>
+
+    Annotations: 
+        rdfs:label "%179900 RETINAL APLASIA;;AMAUROSIS CONGENITA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1d79479a-81ac-4c3d-83ca-95ee63c00097>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/2ce16f60-ef85-43a0-b870-0eb48074c063>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179900>
+    
+    
+Individual: <http://model.geneontology.org/55e0aafd-8ab8-417a-8ad1-a654b945473b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007875>
+    
+    
+Individual: <http://model.geneontology.org/7282a93f-805d-4884-b6bc-dfd0d94174d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001425>
+    
+    
+Individual: <http://model.geneontology.org/7434e6d8-091d-4c73-83fc-dc602d6757b8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179900>
+    
+    
+Individual: <http://model.geneontology.org/7a780fc6-e1be-4709-836d-277ee28a9697>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_179900>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d79479a-81ac-4c3d-83ca-95ee63c00097>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2ce16f60-ef85-43a0-b870-0eb48074c063>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d79479a-81ac-4c3d-83ca-95ee63c00097>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d79479a-81ac-4c3d-83ca-95ee63c00097>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d79479a-81ac-4c3d-83ca-95ee63c00097>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55e0aafd-8ab8-417a-8ad1-a654b945473b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7434e6d8-091d-4c73-83fc-dc602d6757b8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55e0aafd-8ab8-417a-8ad1-a654b945473b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55e0aafd-8ab8-417a-8ad1-a654b945473b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55e0aafd-8ab8-417a-8ad1-a654b945473b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7282a93f-805d-4884-b6bc-dfd0d94174d8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b2b15b31-e354-41e3-9c88-304035234267>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7282a93f-805d-4884-b6bc-dfd0d94174d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7282a93f-805d-4884-b6bc-dfd0d94174d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7282a93f-805d-4884-b6bc-dfd0d94174d8>
+    
+    
+Individual: <http://model.geneontology.org/b2b15b31-e354-41e3-9c88-304035234267>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179900>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_179900>
+
+    Annotations: 
+        rdfs:label "%179900 RETINAL APLASIA;;AMAUROSIS CONGENITA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

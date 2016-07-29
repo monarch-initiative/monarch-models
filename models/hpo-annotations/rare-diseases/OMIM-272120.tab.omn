@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a7108010-5fca-4839-b7ce-0ad5a402aeea>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-272120.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001699>
+
+    Annotations: 
+        rdfs:label "Sudden death"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005949>
+
+    Annotations: 
+        rdfs:label "Apneic episodes in infancy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_272120>
+
+    Annotations: 
+        rdfs:label "SUDDEN INFANT DEATH SYNDROME"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/498e7f0b-086f-4a3c-8375-e819b277a0df>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005949>
+    
+    
+Individual: <http://model.geneontology.org/5868b4a7-ef99-4d5d-a69e-36bf3026469d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272120>
+    
+    
+Individual: <http://model.geneontology.org/7353fa25-dac5-45c9-a4fd-240e20f69d30>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272120>
+    
+    
+Individual: <http://model.geneontology.org/887c7857-34f9-486b-a518-91cdc2cab4e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_272120>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ff9923-caa4-41e9-91b7-c0fa2b734710>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5868b4a7-ef99-4d5d-a69e-36bf3026469d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ff9923-caa4-41e9-91b7-c0fa2b734710>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ff9923-caa4-41e9-91b7-c0fa2b734710>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f7ff9923-caa4-41e9-91b7-c0fa2b734710>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/498e7f0b-086f-4a3c-8375-e819b277a0df>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7353fa25-dac5-45c9-a4fd-240e20f69d30>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/498e7f0b-086f-4a3c-8375-e819b277a0df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/498e7f0b-086f-4a3c-8375-e819b277a0df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/498e7f0b-086f-4a3c-8375-e819b277a0df>
+    
+    
+Individual: <http://model.geneontology.org/f7ff9923-caa4-41e9-91b7-c0fa2b734710>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001699>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_272120>
+
+    Annotations: 
+        rdfs:label "SUDDEN INFANT DEATH SYNDROME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

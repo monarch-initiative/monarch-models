@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ec7705dc-ae3b-4ec7-8c10-8d2f078ecdfc>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-139100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002216>
+
+    Annotations: 
+        rdfs:label "Premature graying of hair"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_139100>
+
+    Annotations: 
+        rdfs:label "%139100 GRAYING OF HAIR, PRECOCIOUS;;WHITE HAIR, PREMATURE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/572219ef-35e2-4fd5-b07e-4efb4be335a2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/6e81e866-3c2e-4895-bf43-c6e14e279f4d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_139100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/572219ef-35e2-4fd5-b07e-4efb4be335a2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/98eb2d96-b69f-4f81-8d3c-bc4a2803bd00>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/572219ef-35e2-4fd5-b07e-4efb4be335a2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/572219ef-35e2-4fd5-b07e-4efb4be335a2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/572219ef-35e2-4fd5-b07e-4efb4be335a2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/946d771d-04d0-4efc-93b8-3ed4faa6f30a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/89a318dd-828e-4fda-aaa0-b150883b7e77>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/946d771d-04d0-4efc-93b8-3ed4faa6f30a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/946d771d-04d0-4efc-93b8-3ed4faa6f30a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/946d771d-04d0-4efc-93b8-3ed4faa6f30a>
+    
+    
+Individual: <http://model.geneontology.org/89a318dd-828e-4fda-aaa0-b150883b7e77>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_139100>
+    
+    
+Individual: <http://model.geneontology.org/946d771d-04d0-4efc-93b8-3ed4faa6f30a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002216>
+    
+    
+Individual: <http://model.geneontology.org/98eb2d96-b69f-4f81-8d3c-bc4a2803bd00>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_139100>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_139100>
+
+    Annotations: 
+        rdfs:label "%139100 GRAYING OF HAIR, PRECOCIOUS;;WHITE HAIR, PREMATURE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

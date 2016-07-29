@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c4c428e8-c9cb-46a6-9561-4146ecb08ee9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601367.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001297>
+
+    Annotations: 
+        rdfs:label "Stroke"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601367>
+
+    Annotations: 
+        rdfs:label "STROKE, ISCHEMIC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1a21355a-af1c-4fd1-8c74-27294af3b5bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601367>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ded2872a-fcc0-4aa3-b09b-084f1ac8febb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5b8faead-11dd-4f6a-8395-e60d4d086f44>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ded2872a-fcc0-4aa3-b09b-084f1ac8febb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ded2872a-fcc0-4aa3-b09b-084f1ac8febb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ded2872a-fcc0-4aa3-b09b-084f1ac8febb>
+    
+    
+Individual: <http://model.geneontology.org/5b8faead-11dd-4f6a-8395-e60d4d086f44>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601367>
+    
+    
+Individual: <http://model.geneontology.org/ded2872a-fcc0-4aa3-b09b-084f1ac8febb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001297>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601367>
+
+    Annotations: 
+        rdfs:label "STROKE, ISCHEMIC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

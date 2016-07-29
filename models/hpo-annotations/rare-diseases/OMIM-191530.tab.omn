@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/da16e12e-6d5b-4ed1-b158-7ed2bdc072c5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-191530.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_191530>
+
+    Annotations: 
+        rdfs:label "URATE-BINDING GLOBULIN, DECREASE IN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/373ea245-f5ea-49b7-a0b4-f974375f62c4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/58c99774-f9fe-4fba-9aef-2e775e900011>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191530>
+    
+    
+Individual: <http://model.geneontology.org/68f16956-57d6-4cef-9c5d-82919c4ca88e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_191530>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc577937-a166-49f4-8f3f-41bc6a6c2eb0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/87c36444-89a9-46ba-9c6a-6829d57c4725>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc577937-a166-49f4-8f3f-41bc6a6c2eb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc577937-a166-49f4-8f3f-41bc6a6c2eb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cc577937-a166-49f4-8f3f-41bc6a6c2eb0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/373ea245-f5ea-49b7-a0b4-f974375f62c4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/58c99774-f9fe-4fba-9aef-2e775e900011>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/373ea245-f5ea-49b7-a0b4-f974375f62c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/373ea245-f5ea-49b7-a0b4-f974375f62c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/373ea245-f5ea-49b7-a0b4-f974375f62c4>
+    
+    
+Individual: <http://model.geneontology.org/87c36444-89a9-46ba-9c6a-6829d57c4725>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191530>
+    
+    
+Individual: <http://model.geneontology.org/cc577937-a166-49f4-8f3f-41bc6a6c2eb0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_191530>
+
+    Annotations: 
+        rdfs:label "URATE-BINDING GLOBULIN, DECREASE IN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,119 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/970ee89a-1249-4582-8c80-712db138d8f5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300511.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008209>
+
+    Annotations: 
+        rdfs:label "Premature ovarian failure"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300511>
+
+    Annotations: 
+        rdfs:label "#300511 PREMATURE OVARIAN FAILURE 2A; POF2A"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0f01c608-5265-4ccf-b349-eecef1ca73fd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300511>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c92995e-ac3c-4f11-b52b-20f87906abae>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cb5416a9-d48c-4421-af6a-b573e9265a7b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c92995e-ac3c-4f11-b52b-20f87906abae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c92995e-ac3c-4f11-b52b-20f87906abae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c92995e-ac3c-4f11-b52b-20f87906abae>
+    
+    
+Individual: <http://model.geneontology.org/2c92995e-ac3c-4f11-b52b-20f87906abae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008209>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/b26578c4-441d-46ef-9412-ca1e1c4d2637>
+    
+    
+Individual: <http://model.geneontology.org/b26578c4-441d-46ef-9412-ca1e1c4d2637>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "obligate"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/cb5416a9-d48c-4421-af6a-b573e9265a7b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300511>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300511>
+
+    Annotations: 
+        rdfs:label "#300511 PREMATURE OVARIAN FAILURE 2A; POF2A"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

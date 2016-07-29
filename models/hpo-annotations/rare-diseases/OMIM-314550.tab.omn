@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f1390114-1c20-4556-aa62-6f0cb1d92cd7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-314550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000076>
+
+    Annotations: 
+        rdfs:label "Vesicoureteral reflux"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_314550>
+
+    Annotations: 
+        rdfs:label "VESICOURETERAL REFLUX, X-LINKED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/44aa7f6b-c963-40ad-b132-6cef47a8abf4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/68a66692-6272-4cdd-be32-5eaae4b64c2d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000076>
+    
+    
+Individual: <http://model.geneontology.org/a3aaf691-c50c-4167-a155-f11c54ace5c2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_314550>
+    
+    
+Individual: <http://model.geneontology.org/c803d4fe-9738-433a-9dd4-875a39904e9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_314550>
+    
+    
+Individual: <http://model.geneontology.org/f0d00bc7-aeb2-4e1a-9e7c-3e225953ad1b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_314550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44aa7f6b-c963-40ad-b132-6cef47a8abf4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a3aaf691-c50c-4167-a155-f11c54ace5c2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44aa7f6b-c963-40ad-b132-6cef47a8abf4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44aa7f6b-c963-40ad-b132-6cef47a8abf4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44aa7f6b-c963-40ad-b132-6cef47a8abf4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68a66692-6272-4cdd-be32-5eaae4b64c2d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c803d4fe-9738-433a-9dd4-875a39904e9a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68a66692-6272-4cdd-be32-5eaae4b64c2d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68a66692-6272-4cdd-be32-5eaae4b64c2d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68a66692-6272-4cdd-be32-5eaae4b64c2d>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_314550>
+
+    Annotations: 
+        rdfs:label "VESICOURETERAL REFLUX, X-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

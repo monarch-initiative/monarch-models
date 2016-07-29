@@ -1,0 +1,196 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/29317951-a8fa-4335-acbc-f0eb6253fba1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615425.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001075>
+
+    Annotations: 
+        rdfs:label "Atrophic scars"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008404>
+
+    Annotations: 
+        rdfs:label "Nail dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615425>
+
+    Annotations: 
+        rdfs:label "#615425 EPIDERMOLYSIS BULLOSA SIMPLEX, AUTOSOMAL RECESSIVE 2; EBSB2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/017c2430-9bb2-4f24-9649-1d3dbaaecdb8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > ATROPHIC SCARS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001075>
+    
+    
+Individual: <http://model.geneontology.org/270b0bed-766c-42f5-bc11-dceb9798ae03>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615425>
+    
+    
+Individual: <http://model.geneontology.org/3c918f92-0ee1-41b7-a441-2e83d9faaa02>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615425>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3eaf290-dcf8-4ba3-9dc5-41d4e5b110d5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fa232c36-5fd3-4b1f-9d73-f4a881826bb5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3eaf290-dcf8-4ba3-9dc5-41d4e5b110d5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3eaf290-dcf8-4ba3-9dc5-41d4e5b110d5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3eaf290-dcf8-4ba3-9dc5-41d4e5b110d5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/017c2430-9bb2-4f24-9649-1d3dbaaecdb8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/270b0bed-766c-42f5-bc11-dceb9798ae03>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/017c2430-9bb2-4f24-9649-1d3dbaaecdb8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/017c2430-9bb2-4f24-9649-1d3dbaaecdb8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/017c2430-9bb2-4f24-9649-1d3dbaaecdb8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/615a4f6b-a0bd-4d2f-af81-43692e77c3b9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f71d6565-8b77-48a2-800d-2ffa6ff3e4bc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/615a4f6b-a0bd-4d2f-af81-43692e77c3b9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/615a4f6b-a0bd-4d2f-af81-43692e77c3b9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/615a4f6b-a0bd-4d2f-af81-43692e77c3b9>
+    
+    
+Individual: <http://model.geneontology.org/615a4f6b-a0bd-4d2f-af81-43692e77c3b9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > NAIL DYSTROPHY (1 PATIENT)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008404>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/d7401d0c-4eb1-4108-9788-92b823de18d6>
+    
+    
+Individual: <http://model.geneontology.org/b3eaf290-dcf8-4ba3-9dc5-41d4e5b110d5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/d7401d0c-4eb1-4108-9788-92b823de18d6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/f71d6565-8b77-48a2-800d-2ffa6ff3e4bc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615425>
+    
+    
+Individual: <http://model.geneontology.org/fa232c36-5fd3-4b1f-9d73-f4a881826bb5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615425>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615425>
+
+    Annotations: 
+        rdfs:label "#615425 EPIDERMOLYSIS BULLOSA SIMPLEX, AUTOSOMAL RECESSIVE 2; EBSB2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/908ce86b-d2c9-4354-ae16-399e75740201>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613080.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012245>
+
+    Annotations: 
+        rdfs:label "Sex reversal"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613080>
+
+    Annotations: 
+        rdfs:label "#613080 46,XY SEX REVERSAL 5; SRXY5;;46,XY SEX REVERSAL, CBX2-RELATED;;46,XY GONADAL DYSGENESIS, COMPLETE, CBX2-RELATED;;SEX REVERSAL, XY, CBX2-RELATED;;DISORDER OF SEX DEVELOPMENT, 46,XY, CBX2-RELATED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/209923c3-111a-4553-81eb-39fbb2707e6d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/3196189c-c1e3-4de7-9a5b-2486e8632924>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613080>
+    
+    
+Individual: <http://model.geneontology.org/3d70ef94-3cf7-4a3a-b2aa-b3eff9cfdb54>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012245>
+    
+    
+Individual: <http://model.geneontology.org/4fe0efeb-679f-49a1-9b48-751e1ae260f1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613080>
+    
+    
+Individual: <http://model.geneontology.org/be9dab9c-87c9-474e-8f3b-7d54ba370430>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613080>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/209923c3-111a-4553-81eb-39fbb2707e6d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3196189c-c1e3-4de7-9a5b-2486e8632924>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/209923c3-111a-4553-81eb-39fbb2707e6d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/209923c3-111a-4553-81eb-39fbb2707e6d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-02"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/209923c3-111a-4553-81eb-39fbb2707e6d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d70ef94-3cf7-4a3a-b2aa-b3eff9cfdb54>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4fe0efeb-679f-49a1-9b48-751e1ae260f1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d70ef94-3cf7-4a3a-b2aa-b3eff9cfdb54>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d70ef94-3cf7-4a3a-b2aa-b3eff9cfdb54>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d70ef94-3cf7-4a3a-b2aa-b3eff9cfdb54>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613080>
+
+    Annotations: 
+        rdfs:label "#613080 46,XY SEX REVERSAL 5; SRXY5;;46,XY SEX REVERSAL, CBX2-RELATED;;46,XY GONADAL DYSGENESIS, COMPLETE, CBX2-RELATED;;SEX REVERSAL, XY, CBX2-RELATED;;DISORDER OF SEX DEVELOPMENT, 46,XY, CBX2-RELATED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

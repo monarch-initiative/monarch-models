@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/eebef0fd-3534-4291-ba37-f3dea7f40984>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613370.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000819>
+
+    Annotations: 
+        rdfs:label "Diabetes mellitus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004904>
+
+    Annotations: 
+        rdfs:label "Maturity-onset diabetes of the young"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613370>
+
+    Annotations: 
+        rdfs:label "#613370 MATURITY-ONSET DIABETES OF THE YOUNG, TYPE 10; MODY10"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0a842245-a7b4-4191-85b9-88858a467eca>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ENDOCRINE FEATURES > DIABETES MELLITUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000819>
+    
+    
+Individual: <http://model.geneontology.org/3d947a35-c6a3-475f-af97-07bc73213fb7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613370>
+    
+    
+Individual: <http://model.geneontology.org/44cf53ef-bfb0-4c84-bfbc-28b203bc5b50>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613370>
+    
+    
+Individual: <http://model.geneontology.org/4ebad8ff-0abf-4c04-9737-ca5d5870faaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613370>
+    
+    
+Individual: <http://model.geneontology.org/c90b3b51-59a0-42f8-8c02-eed55eb1f08b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#613370 maturity-onset diabetes of the young, type 10;"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004904>
+    
+    
+Individual: <http://model.geneontology.org/e6029a00-f36f-426f-94b8-1fc93d7db59b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613370>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c90b3b51-59a0-42f8-8c02-eed55eb1f08b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/44cf53ef-bfb0-4c84-bfbc-28b203bc5b50>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c90b3b51-59a0-42f8-8c02-eed55eb1f08b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c90b3b51-59a0-42f8-8c02-eed55eb1f08b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c90b3b51-59a0-42f8-8c02-eed55eb1f08b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a8d756-9983-418a-ac47-6b6e3e581b6f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4ebad8ff-0abf-4c04-9737-ca5d5870faaa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a8d756-9983-418a-ac47-6b6e3e581b6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a8d756-9983-418a-ac47-6b6e3e581b6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6a8d756-9983-418a-ac47-6b6e3e581b6f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a842245-a7b4-4191-85b9-88858a467eca>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3d947a35-c6a3-475f-af97-07bc73213fb7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a842245-a7b4-4191-85b9-88858a467eca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a842245-a7b4-4191-85b9-88858a467eca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a842245-a7b4-4191-85b9-88858a467eca>
+    
+    
+Individual: <http://model.geneontology.org/f6a8d756-9983-418a-ac47-6b6e3e581b6f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613370>
+
+    Annotations: 
+        rdfs:label "#613370 MATURITY-ONSET DIABETES OF THE YOUNG, TYPE 10; MODY10"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

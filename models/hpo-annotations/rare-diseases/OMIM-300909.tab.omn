@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5b55ff40-ce45-490f-aa76-71a8d7400f61>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300909.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100665>
+
+    Annotations: 
+        rdfs:label "Angioedema"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300909>
+
+    Annotations: 
+        rdfs:label "ACQUIRED ANGIOEDEMA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b95e8292-1388-414c-ba65-fbc4f0223a9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300909>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7e7c71f-29d3-4371-8c36-47ac42a41bc0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f7e0fa93-c429-4959-be79-30522ea1e1bf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7e7c71f-29d3-4371-8c36-47ac42a41bc0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7e7c71f-29d3-4371-8c36-47ac42a41bc0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d7e7c71f-29d3-4371-8c36-47ac42a41bc0>
+    
+    
+Individual: <http://model.geneontology.org/d7e7c71f-29d3-4371-8c36-47ac42a41bc0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:acquired angioedemaaae|acquir"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100665>
+    
+    
+Individual: <http://model.geneontology.org/f7e0fa93-c429-4959-be79-30522ea1e1bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300909>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300909>
+
+    Annotations: 
+        rdfs:label "ACQUIRED ANGIOEDEMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

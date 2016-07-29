@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f9891125-5c73-4166-b2a7-1e7bc590e5af>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613347.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002894>
+
+    Annotations: 
+        rdfs:label "Neoplasm of the pancreas"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613347>
+
+    Annotations: 
+        rdfs:label "#613347 PANCREATIC CANCER, SUSCEPTIBILITY TO, 2;;PNCA2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/10753db4-8f13-40fe-9760-921c0f1c03ad>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613347>
+    
+    
+Individual: <http://model.geneontology.org/5fe4af30-e2ea-4def-b3a5-370a7ce64c80>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613347>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a82b1ded-b81b-4355-99a2-7bf39f66de27>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/10753db4-8f13-40fe-9760-921c0f1c03ad>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a82b1ded-b81b-4355-99a2-7bf39f66de27>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a82b1ded-b81b-4355-99a2-7bf39f66de27>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a82b1ded-b81b-4355-99a2-7bf39f66de27>
+    
+    
+Individual: <http://model.geneontology.org/a82b1ded-b81b-4355-99a2-7bf39f66de27>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002894>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613347>
+
+    Annotations: 
+        rdfs:label "#613347 PANCREATIC CANCER, SUSCEPTIBILITY TO, 2;;PNCA2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

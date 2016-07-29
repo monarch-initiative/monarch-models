@@ -1,0 +1,190 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e0c7db6e-b8ce-488a-a5ca-624a6152470a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-164800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007410>
+
+    Annotations: 
+        rdfs:label "Palmoplantar hyperhidrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008400>
+
+    Annotations: 
+        rdfs:label "Onycholysis of distal fingernails"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_164800>
+
+    Annotations: 
+        rdfs:label "ONYCHOLYSIS, PARTIAL, WITH SCLERONYCHIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/335fb7d6-896c-4509-bfb5-73b7d5da75a4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/37b77033-ff67-41da-8d41-25e9cd3dd5d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_164800>
+    
+    
+Individual: <http://model.geneontology.org/565a9f7b-68d4-488a-8aa1-803a691316ce>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/99e77db2-8e55-43a3-85cc-09f29c4428ea>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > PALMOPLANTAR HYPERHIDROSIS (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007410>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/335fb7d6-896c-4509-bfb5-73b7d5da75a4>
+    
+    
+Individual: <http://model.geneontology.org/9cd52f8f-f986-4544-97fa-f13c8857aa68>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_164800>
+    
+    
+Individual: <http://model.geneontology.org/a3194455-bbc3-4fcf-9e29-73bd3c467f23>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_164800>
+    
+    
+Individual: <http://model.geneontology.org/af64988f-648f-434e-8503-e57727031d34>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008400>
+    
+    
+Individual: <http://model.geneontology.org/c72e5a2c-ee45-4672-b23d-9b951a443ccb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_164800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af64988f-648f-434e-8503-e57727031d34>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9cd52f8f-f986-4544-97fa-f13c8857aa68>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af64988f-648f-434e-8503-e57727031d34>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af64988f-648f-434e-8503-e57727031d34>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af64988f-648f-434e-8503-e57727031d34>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/565a9f7b-68d4-488a-8aa1-803a691316ce>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/37b77033-ff67-41da-8d41-25e9cd3dd5d5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/565a9f7b-68d4-488a-8aa1-803a691316ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/565a9f7b-68d4-488a-8aa1-803a691316ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/565a9f7b-68d4-488a-8aa1-803a691316ce>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99e77db2-8e55-43a3-85cc-09f29c4428ea>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a3194455-bbc3-4fcf-9e29-73bd3c467f23>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99e77db2-8e55-43a3-85cc-09f29c4428ea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99e77db2-8e55-43a3-85cc-09f29c4428ea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99e77db2-8e55-43a3-85cc-09f29c4428ea>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_164800>
+
+    Annotations: 
+        rdfs:label "ONYCHOLYSIS, PARTIAL, WITH SCLERONYCHIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/01ba931d-1b4e-46ef-bb25-49a7c6498261>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-134200.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010628>
+
+    Annotations: 
+        rdfs:label "Facial palsy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_134200>
+
+    Annotations: 
+        rdfs:label "FACIAL PALSY, FAMILIAL RECURRENT PERIPHERAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/22b27914-f984-452b-b598-351145f719ef>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/6aa57ce4-d68b-4de4-895c-b5aad8af5eb6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_134200>
+    
+    
+Individual: <http://model.geneontology.org/7c2419fa-06ad-43dc-bf07-72428bf97cfb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_134200>
+    
+    
+Individual: <http://model.geneontology.org/b449ff33-8cbe-4204-b036-1313fb1dceaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010628>
+    
+    
+Individual: <http://model.geneontology.org/ca6dbdd6-e6e5-42b9-a75a-a2276e024c46>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_134200>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b449ff33-8cbe-4204-b036-1313fb1dceaa>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6aa57ce4-d68b-4de4-895c-b5aad8af5eb6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b449ff33-8cbe-4204-b036-1313fb1dceaa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b449ff33-8cbe-4204-b036-1313fb1dceaa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b449ff33-8cbe-4204-b036-1313fb1dceaa>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22b27914-f984-452b-b598-351145f719ef>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7c2419fa-06ad-43dc-bf07-72428bf97cfb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22b27914-f984-452b-b598-351145f719ef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22b27914-f984-452b-b598-351145f719ef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22b27914-f984-452b-b598-351145f719ef>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_134200>
+
+    Annotations: 
+        rdfs:label "FACIAL PALSY, FAMILIAL RECURRENT PERIPHERAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

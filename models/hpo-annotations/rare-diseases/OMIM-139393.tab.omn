@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d5587358-896e-48e3-aa44-190190f49217>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-139393.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007131>
+
+    Annotations: 
+        rdfs:label "Acute demyelinating polyneuropathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_139393>
+
+    Annotations: 
+        rdfs:label "GUILLAIN-BARRE SYNDROME, FAMILIAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3fefcffb-874d-4ac6-808d-e27724e9fb98>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_139393>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67158884-48a3-4313-99b3-84286a199215>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dd3d71ad-52f1-4675-ae07-598a51ce4885>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67158884-48a3-4313-99b3-84286a199215>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67158884-48a3-4313-99b3-84286a199215>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/67158884-48a3-4313-99b3-84286a199215>
+    
+    
+Individual: <http://model.geneontology.org/67158884-48a3-4313-99b3-84286a199215>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007131>
+    
+    
+Individual: <http://model.geneontology.org/dd3d71ad-52f1-4675-ae07-598a51ce4885>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_139393>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_139393>
+
+    Annotations: 
+        rdfs:label "GUILLAIN-BARRE SYNDROME, FAMILIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

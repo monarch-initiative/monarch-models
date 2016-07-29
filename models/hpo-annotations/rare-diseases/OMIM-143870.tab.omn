@@ -1,0 +1,218 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3e9a21e2-a137-4889-b535-b24ac080da7c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-143870.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001425>
+
+    Annotations: 
+        rdfs:label "Heterogeneous"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002150>
+
+    Annotations: 
+        rdfs:label "Hypercalciuria"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008672>
+
+    Annotations: 
+        rdfs:label "Calcium oxalate nephrolithiasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_143870>
+
+    Annotations: 
+        rdfs:label "HYPERCALCIURIA, ABSORPTIVE, 2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/05d2e993-6ac4-4b03-b937-cfcfdc6dfc31>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MISCELLANEOUS > GENETIC HETEROGENEITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001425>
+    
+    
+Individual: <http://model.geneontology.org/20a6c610-63c5-43be-a211-fdb6b2e00f11>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_143870>
+    
+    
+Individual: <http://model.geneontology.org/4d56f33d-256e-4c0c-94df-17e1996a64d2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008672>
+    
+    
+Individual: <http://model.geneontology.org/59084d82-2724-4459-8bb4-8553a690b72b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7aec8b94-2e4b-41bf-aff3-de217cf7c9d3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_143870>
+    
+    
+Individual: <http://model.geneontology.org/922d27ec-e3e9-41ca-83e4-c1fcc01adb60>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_143870>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3700f1a-3c19-443c-8b63-d2c42a4e1dac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/20a6c610-63c5-43be-a211-fdb6b2e00f11>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3700f1a-3c19-443c-8b63-d2c42a4e1dac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3700f1a-3c19-443c-8b63-d2c42a4e1dac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f3700f1a-3c19-443c-8b63-d2c42a4e1dac>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05d2e993-6ac4-4b03-b937-cfcfdc6dfc31>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d40b222f-a1ae-46e4-bc8d-f1401199d67f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05d2e993-6ac4-4b03-b937-cfcfdc6dfc31>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05d2e993-6ac4-4b03-b937-cfcfdc6dfc31>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05d2e993-6ac4-4b03-b937-cfcfdc6dfc31>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4d56f33d-256e-4c0c-94df-17e1996a64d2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f4ddd6eb-ecc3-4e95-991d-3d0b03fa0c1a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4d56f33d-256e-4c0c-94df-17e1996a64d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4d56f33d-256e-4c0c-94df-17e1996a64d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4d56f33d-256e-4c0c-94df-17e1996a64d2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59084d82-2724-4459-8bb4-8553a690b72b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7aec8b94-2e4b-41bf-aff3-de217cf7c9d3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59084d82-2724-4459-8bb4-8553a690b72b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59084d82-2724-4459-8bb4-8553a690b72b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/59084d82-2724-4459-8bb4-8553a690b72b>
+    
+    
+Individual: <http://model.geneontology.org/d40b222f-a1ae-46e4-bc8d-f1401199d67f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_143870>
+    
+    
+Individual: <http://model.geneontology.org/f3700f1a-3c19-443c-8b63-d2c42a4e1dac>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002150>
+    
+    
+Individual: <http://model.geneontology.org/f4ddd6eb-ecc3-4e95-991d-3d0b03fa0c1a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_143870>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_143870>
+
+    Annotations: 
+        rdfs:label "HYPERCALCIURIA, ABSORPTIVE, 2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

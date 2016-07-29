@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b8dca97e-9bf2-4092-9c8f-38d40ed2b012>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-231090.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000119>
+
+    Annotations: 
+        rdfs:label "Abnormality of the genitourinary system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_231090>
+
+    Annotations: 
+        rdfs:label "HYDATIDIFORM MOLE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/098d28ea-cbee-4efc-80d5-5f4bfc32401c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_231090>
+    
+    
+Individual: <http://model.geneontology.org/5c4b1613-0967-4392-9ae3-c341e0bb3a6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000119>
+    
+    
+Individual: <http://model.geneontology.org/c5517771-4117-4f9e-98a0-c064563f90a9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_231090>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4a5e4e5-2faf-4324-b2c4-f0edc464a4d7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f209de43-379f-474c-8980-f88a48e4ed9c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4a5e4e5-2faf-4324-b2c4-f0edc464a4d7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4a5e4e5-2faf-4324-b2c4-f0edc464a4d7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4a5e4e5-2faf-4324-b2c4-f0edc464a4d7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c4b1613-0967-4392-9ae3-c341e0bb3a6e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/098d28ea-cbee-4efc-80d5-5f4bfc32401c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c4b1613-0967-4392-9ae3-c341e0bb3a6e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c4b1613-0967-4392-9ae3-c341e0bb3a6e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c4b1613-0967-4392-9ae3-c341e0bb3a6e>
+    
+    
+Individual: <http://model.geneontology.org/e4a5e4e5-2faf-4324-b2c4-f0edc464a4d7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/f209de43-379f-474c-8980-f88a48e4ed9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_231090>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_231090>
+
+    Annotations: 
+        rdfs:label "HYDATIDIFORM MOLE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

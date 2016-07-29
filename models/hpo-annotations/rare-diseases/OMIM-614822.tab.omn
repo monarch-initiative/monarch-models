@@ -1,0 +1,196 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e8c7377c-a170-4b28-893d-bf0b8156eb6a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614822.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000789>
+
+    Annotations: 
+        rdfs:label "Infertility"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012864>
+
+    Annotations: 
+        rdfs:label "Abnormal sperm morphology"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614822>
+
+    Annotations: 
+        rdfs:label "#614822 SPERMATOGENIC FAILURE 10; SPGF10;;SPERMATOGENIC FAILURE WITH DEFECTIVE SPERM ANNULUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0ea81cf3-7c0c-47a2-94b9-e560dcbbe38c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614822>
+    
+    
+Individual: <http://model.geneontology.org/2ae898f1-0ac9-4050-a110-a2a9e76c1fb3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614822>
+    
+    
+Individual: <http://model.geneontology.org/42e96291-02a4-4996-a3ab-f73b27700677>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614822>
+    
+    
+Individual: <http://model.geneontology.org/50ef18bb-174c-4044-b8de-6614e9b6e2a2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/6ced7df8-0d5e-4832-aeb9-808efb373756>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/87ff2e21-6338-4fc2-8043-925c1ee0c527>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, MALE > TERATOZOOSPERMIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012864>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/6ced7df8-0d5e-4832-aeb9-808efb373756>
+    
+    
+Individual: <http://model.geneontology.org/c8b817aa-96c9-4046-865b-581bac9e2bfe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614822>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1115d25-3169-4016-af23-2a9e302533d8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42e96291-02a4-4996-a3ab-f73b27700677>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1115d25-3169-4016-af23-2a9e302533d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1115d25-3169-4016-af23-2a9e302533d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1115d25-3169-4016-af23-2a9e302533d8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50ef18bb-174c-4044-b8de-6614e9b6e2a2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2ae898f1-0ac9-4050-a110-a2a9e76c1fb3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50ef18bb-174c-4044-b8de-6614e9b6e2a2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50ef18bb-174c-4044-b8de-6614e9b6e2a2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50ef18bb-174c-4044-b8de-6614e9b6e2a2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ff2e21-6338-4fc2-8043-925c1ee0c527>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0ea81cf3-7c0c-47a2-94b9-e560dcbbe38c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ff2e21-6338-4fc2-8043-925c1ee0c527>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ff2e21-6338-4fc2-8043-925c1ee0c527>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ff2e21-6338-4fc2-8043-925c1ee0c527>
+    
+    
+Individual: <http://model.geneontology.org/d1115d25-3169-4016-af23-2a9e302533d8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, MALE > INFERTILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000789>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614822>
+
+    Annotations: 
+        rdfs:label "#614822 SPERMATOGENIC FAILURE 10; SPGF10;;SPERMATOGENIC FAILURE WITH DEFECTIVE SPERM ANNULUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

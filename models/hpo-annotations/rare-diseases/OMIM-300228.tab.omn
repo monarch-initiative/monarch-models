@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/957d4730-932f-4cf0-9fcc-3ef7598f3400>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300228.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100728>
+
+    Annotations: 
+        rdfs:label "Germ cell neoplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300228>
+
+    Annotations: 
+        rdfs:label "%300228 TESTICULAR GERM CELL TUMOR 1; TGCT1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3fe16557-9728-4332-b23b-749866cd633f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/6397796c-d2aa-4278-99cf-22dceb68476f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300228>
+    
+    
+Individual: <http://model.geneontology.org/c2725dbf-925e-4669-8da2-67fb346d1049>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300228>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d37e36a5-bf76-4455-9624-17ea6cc5c9ba>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d5ed001b-57d7-4fb6-a20c-3d03fd91d526>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d37e36a5-bf76-4455-9624-17ea6cc5c9ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d37e36a5-bf76-4455-9624-17ea6cc5c9ba>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d37e36a5-bf76-4455-9624-17ea6cc5c9ba>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe16557-9728-4332-b23b-749866cd633f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6397796c-d2aa-4278-99cf-22dceb68476f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe16557-9728-4332-b23b-749866cd633f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe16557-9728-4332-b23b-749866cd633f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3fe16557-9728-4332-b23b-749866cd633f>
+    
+    
+Individual: <http://model.geneontology.org/d37e36a5-bf76-4455-9624-17ea6cc5c9ba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100728>
+    
+    
+Individual: <http://model.geneontology.org/d5ed001b-57d7-4fb6-a20c-3d03fd91d526>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300228>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300228>
+
+    Annotations: 
+        rdfs:label "%300228 TESTICULAR GERM CELL TUMOR 1; TGCT1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

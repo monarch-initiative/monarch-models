@@ -1,0 +1,153 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/21776586-c1fc-4495-8375-79889c3c177e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613830.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007642>
+
+    Annotations: 
+        rdfs:label "Congenital stationary night blindness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613830>
+
+    Annotations: 
+        rdfs:label "#613830 NIGHT BLINDNESS, CONGENITAL STATIONARY, TYPE 1D; CSNB1D;;CSNB, COMPLETE, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1048bacb-8ef1-4f3a-8f7c-d50bec14eaab>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/7e156f99-863e-4a50-a5ba-5b633a84dc32>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613830>
+    
+    
+Individual: <http://model.geneontology.org/a905d0f8-a9cc-4707-8127-8aebee8932c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613830>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd41bd60-bfb3-4737-bad8-134c38cdc1e7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7e156f99-863e-4a50-a5ba-5b633a84dc32>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd41bd60-bfb3-4737-bad8-134c38cdc1e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd41bd60-bfb3-4737-bad8-134c38cdc1e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd41bd60-bfb3-4737-bad8-134c38cdc1e7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1048bacb-8ef1-4f3a-8f7c-d50bec14eaab>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dc1f198a-8950-4947-bde6-70f6f611f618>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1048bacb-8ef1-4f3a-8f7c-d50bec14eaab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1048bacb-8ef1-4f3a-8f7c-d50bec14eaab>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1048bacb-8ef1-4f3a-8f7c-d50bec14eaab>
+    
+    
+Individual: <http://model.geneontology.org/bd41bd60-bfb3-4737-bad8-134c38cdc1e7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#613830 night blindness, congenital stationary, type 1d; csnb1d;;c"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007642>
+    
+    
+Individual: <http://model.geneontology.org/dc1f198a-8950-4947-bde6-70f6f611f618>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613830>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613830>
+
+    Annotations: 
+        rdfs:label "#613830 NIGHT BLINDNESS, CONGENITAL STATIONARY, TYPE 1D; CSNB1D;;CSNB, COMPLETE, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

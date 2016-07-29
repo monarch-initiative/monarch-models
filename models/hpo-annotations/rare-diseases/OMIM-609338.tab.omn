@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/91683706-3a9e-4239-95d0-f73e1c414fcf>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-609338.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010982>
+
+    Annotations: 
+        rdfs:label "Polygenic inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012273>
+
+    Annotations: 
+        rdfs:label "Increased carotid artery intimal medial thickness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_609338>
+
+    Annotations: 
+        rdfs:label "#609338 CAROTID INTIMAL MEDIAL THICKNESS 1;;CIMT1;;INTIMAL MEDIAL THICKNESS OF INTERNAL CAROTID ARTERY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/060750a7-53f7-4c94-a230-3b8a28d2d9d9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609338>
+    
+    
+Individual: <http://model.geneontology.org/a0bcbfee-38c2-4ce1-9e1b-8e80045dc3e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010982>
+    
+    
+Individual: <http://model.geneontology.org/c05b53b7-d1c9-42d4-b44e-0f7f58ac7b9d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609338>
+    
+    
+Individual: <http://model.geneontology.org/cefb1cbe-d1e1-4abe-b238-007a5d79ff0d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_609338>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0bcbfee-38c2-4ce1-9e1b-8e80045dc3e0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/060750a7-53f7-4c94-a230-3b8a28d2d9d9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0bcbfee-38c2-4ce1-9e1b-8e80045dc3e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0bcbfee-38c2-4ce1-9e1b-8e80045dc3e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-07"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0bcbfee-38c2-4ce1-9e1b-8e80045dc3e0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3c04067-1f2a-482b-b92f-0ffb8956244a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c05b53b7-d1c9-42d4-b44e-0f7f58ac7b9d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3c04067-1f2a-482b-b92f-0ffb8956244a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3c04067-1f2a-482b-b92f-0ffb8956244a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-07"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3c04067-1f2a-482b-b92f-0ffb8956244a>
+    
+    
+Individual: <http://model.geneontology.org/d3c04067-1f2a-482b-b92f-0ffb8956244a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012273>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_609338>
+
+    Annotations: 
+        rdfs:label "#609338 CAROTID INTIMAL MEDIAL THICKNESS 1;;CIMT1;;INTIMAL MEDIAL THICKNESS OF INTERNAL CAROTID ARTERY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e693e4ab-a358-4d1f-ae69-6d4e83c639c8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613244.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006716>
+
+    Annotations: 
+        rdfs:label "Hereditary nonpolyposis colorectal carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613244>
+
+    Annotations: 
+        rdfs:label "#613244 COLORECTAL CANCER, HEREDITARY NONPOLYPOSIS, TYPE 8; HNPCC8"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/72996554-3905-48ed-abfc-c3f1268f0d01>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613244>
+    
+    
+Individual: <http://model.geneontology.org/7dad1a45-56eb-4c87-9035-a79d20256eda>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006716>
+    
+    
+Individual: <http://model.geneontology.org/b9edad99-0d9d-4d70-bcab-a1fb40635e8d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613244>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dad1a45-56eb-4c87-9035-a79d20256eda>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/72996554-3905-48ed-abfc-c3f1268f0d01>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dad1a45-56eb-4c87-9035-a79d20256eda>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dad1a45-56eb-4c87-9035-a79d20256eda>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7dad1a45-56eb-4c87-9035-a79d20256eda>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613244>
+
+    Annotations: 
+        rdfs:label "#613244 COLORECTAL CANCER, HEREDITARY NONPOLYPOSIS, TYPE 8; HNPCC8"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/33a19a85-be6b-4884-8321-51ce5b3389ef>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-153800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007868>
+
+    Annotations: 
+        rdfs:label "Age-related macular degeneration"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_153800>
+
+    Annotations: 
+        rdfs:label "MACULAR DEGENERATION, AGE-RELATED, 2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3db481fa-b991-4a42-a2d9-75f2cd6ba760>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/60d4f7e7-8354-4df2-8248-7ce9ed735577>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_153800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3db481fa-b991-4a42-a2d9-75f2cd6ba760>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ce9bb1d2-7f2c-4e22-846c-6d2ec3189160>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3db481fa-b991-4a42-a2d9-75f2cd6ba760>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3db481fa-b991-4a42-a2d9-75f2cd6ba760>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3db481fa-b991-4a42-a2d9-75f2cd6ba760>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8f7b977a-73df-45fb-bd43-ac089432f431>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8bdb3e4d-5ff4-4ff1-8302-18878e2407d9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8f7b977a-73df-45fb-bd43-ac089432f431>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8f7b977a-73df-45fb-bd43-ac089432f431>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8f7b977a-73df-45fb-bd43-ac089432f431>
+    
+    
+Individual: <http://model.geneontology.org/8bdb3e4d-5ff4-4ff1-8302-18878e2407d9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_153800>
+    
+    
+Individual: <http://model.geneontology.org/8f7b977a-73df-45fb-bd43-ac089432f431>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007868>
+    
+    
+Individual: <http://model.geneontology.org/ce9bb1d2-7f2c-4e22-846c-6d2ec3189160>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_153800>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_153800>
+
+    Annotations: 
+        rdfs:label "MACULAR DEGENERATION, AGE-RELATED, 2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

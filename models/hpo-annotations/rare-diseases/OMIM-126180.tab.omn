@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8ffa5d74-cbc2-415c-8e64-3c428dd5e246>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-126180.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000707>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nervous system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_126180>
+
+    Annotations: 
+        rdfs:label "DISCRIMINATION, TWO-POINT, REDUCTION IN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/56906d7e-2896-44fd-b13f-053ea037a0f3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000707>
+    
+    
+Individual: <http://model.geneontology.org/8a76f132-5f13-4920-8cec-fc7b6f499e78>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_126180>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b87b82ea-c423-4f61-801f-c5414ba4ffa8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ad41943d-b2e9-46f6-bfed-ee0f68c6bcc9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b87b82ea-c423-4f61-801f-c5414ba4ffa8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b87b82ea-c423-4f61-801f-c5414ba4ffa8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b87b82ea-c423-4f61-801f-c5414ba4ffa8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/56906d7e-2896-44fd-b13f-053ea037a0f3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/99ca33e0-607d-4411-9f15-d2e6bce4ec43>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/56906d7e-2896-44fd-b13f-053ea037a0f3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/56906d7e-2896-44fd-b13f-053ea037a0f3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/56906d7e-2896-44fd-b13f-053ea037a0f3>
+    
+    
+Individual: <http://model.geneontology.org/99ca33e0-607d-4411-9f15-d2e6bce4ec43>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_126180>
+    
+    
+Individual: <http://model.geneontology.org/ad41943d-b2e9-46f6-bfed-ee0f68c6bcc9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_126180>
+    
+    
+Individual: <http://model.geneontology.org/b87b82ea-c423-4f61-801f-c5414ba4ffa8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_126180>
+
+    Annotations: 
+        rdfs:label "DISCRIMINATION, TWO-POINT, REDUCTION IN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

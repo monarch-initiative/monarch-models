@@ -1,0 +1,215 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7938c618-95b7-4dce-b9b0-2dabc6255cc7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612591.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012114>
+
+    Annotations: 
+        rdfs:label "Endometrial carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200063>
+
+    Annotations: 
+        rdfs:label "Colorectal polyps"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612591>
+
+    Annotations: 
+        rdfs:label "#612591 COLORECTAL CANCER, SUSCEPTIBILITY TO, 10; CRCS10;;COLORECTAL CANCER, SUSCEPTIBILITY TO, ON CHROMOSOME 19q"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0da76d65-a0f7-4e51-912b-23af07bd775d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, FEMALE > ENDOMETRIAL CARCINOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012114>
+    
+    
+Individual: <http://model.geneontology.org/32512dd8-0119-4dc3-b2f5-7a925894f04b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612591>
+    
+    
+Individual: <http://model.geneontology.org/5c946a61-4645-402f-afb3-1286f6650825>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612591>
+    
+    
+Individual: <http://model.geneontology.org/8cdee77e-9eeb-43c1-a84c-883064a78273>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612591>
+    
+    
+Individual: <http://model.geneontology.org/af066c50-7e4e-4c34-8223-07650523ecab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612591>
+    
+    
+Individual: <http://model.geneontology.org/b67fd9f6-32cd-4f68-a64f-ada7298dc43a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/e6e698b0-a0f0-40ff-94ab-b9e309b7930a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEOPLASIA > ENDOMETRIAL CARCINOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012114>
+    
+    
+Individual: <http://model.geneontology.org/f801ba01-948c-4981-8f96-7a5b9814e673>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612591>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b67fd9f6-32cd-4f68-a64f-ada7298dc43a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8cdee77e-9eeb-43c1-a84c-883064a78273>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b67fd9f6-32cd-4f68-a64f-ada7298dc43a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b67fd9f6-32cd-4f68-a64f-ada7298dc43a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-25"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b67fd9f6-32cd-4f68-a64f-ada7298dc43a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e698b0-a0f0-40ff-94ab-b9e309b7930a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5c946a61-4645-402f-afb3-1286f6650825>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e698b0-a0f0-40ff-94ab-b9e309b7930a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e698b0-a0f0-40ff-94ab-b9e309b7930a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-25"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6e698b0-a0f0-40ff-94ab-b9e309b7930a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe32f45b-6956-4816-bcd2-898a4ca230be>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/af066c50-7e4e-4c34-8223-07650523ecab>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe32f45b-6956-4816-bcd2-898a4ca230be>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe32f45b-6956-4816-bcd2-898a4ca230be>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-31"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fe32f45b-6956-4816-bcd2-898a4ca230be>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0da76d65-a0f7-4e51-912b-23af07bd775d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/32512dd8-0119-4dc3-b2f5-7a925894f04b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0da76d65-a0f7-4e51-912b-23af07bd775d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0da76d65-a0f7-4e51-912b-23af07bd775d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-25"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0da76d65-a0f7-4e51-912b-23af07bd775d>
+    
+    
+Individual: <http://model.geneontology.org/fe32f45b-6956-4816-bcd2-898a4ca230be>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_GASTROINTESTINAL > COLORECTAL POLYPS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200063>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612591>
+
+    Annotations: 
+        rdfs:label "#612591 COLORECTAL CANCER, SUSCEPTIBILITY TO, 10; CRCS10;;COLORECTAL CANCER, SUSCEPTIBILITY TO, ON CHROMOSOME 19q"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

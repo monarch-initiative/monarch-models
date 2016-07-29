@@ -1,0 +1,159 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f745ffcb-325d-477a-a905-67f9f1159a16>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-102800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001930>
+
+    Annotations: 
+        rdfs:label "Nonspherocytic hemolytic anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_102800>
+
+    Annotations: 
+        rdfs:label "ADENOSINE TRIPHOSPHATASE DEFICIENCY, ANEMIA DUE TO"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0d3b99b3-d78e-46d2-a4c2-83dea4d11dd4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_102800>
+    
+    
+Individual: <http://model.geneontology.org/0ee5c16f-9c64-47b1-9122-cf5f630e831a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_102800>
+    
+    
+Individual: <http://model.geneontology.org/4f40d09e-7ad3-4ddc-a4ec-4c9f700fe860>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001930>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/b52dd26c-cd10-4a87-b373-0edd27f71abc>
+    
+    
+Individual: <http://model.geneontology.org/a34bce20-bd20-47d7-8330-e1fed9eaa927>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/b52dd26c-cd10-4a87-b373-0edd27f71abc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/c295848b-3421-4a9d-be43-33051cc90281>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_102800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a34bce20-bd20-47d7-8330-e1fed9eaa927>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0d3b99b3-d78e-46d2-a4c2-83dea4d11dd4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a34bce20-bd20-47d7-8330-e1fed9eaa927>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a34bce20-bd20-47d7-8330-e1fed9eaa927>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a34bce20-bd20-47d7-8330-e1fed9eaa927>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f40d09e-7ad3-4ddc-a4ec-4c9f700fe860>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0ee5c16f-9c64-47b1-9122-cf5f630e831a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f40d09e-7ad3-4ddc-a4ec-4c9f700fe860>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f40d09e-7ad3-4ddc-a4ec-4c9f700fe860>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f40d09e-7ad3-4ddc-a4ec-4c9f700fe860>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_102800>
+
+    Annotations: 
+        rdfs:label "ADENOSINE TRIPHOSPHATASE DEFICIENCY, ANEMIA DUE TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

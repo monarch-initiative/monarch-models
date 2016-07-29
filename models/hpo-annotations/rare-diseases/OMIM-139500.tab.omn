@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2f6d39e9-1de6-4ac5-8808-630e78dc012e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-139500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008528>
+
+    Annotations: 
+        rdfs:label "Long hairs growing from helix of pinna"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_139500>
+
+    Annotations: 
+        rdfs:label "HAIRY EARS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2e55bfb8-5526-47bd-baa6-cd47279d7eeb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_139500>
+    
+    
+Individual: <http://model.geneontology.org/97fcf2ce-5a2d-43eb-921e-df82cf664587>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_139500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebbfbc80-2cc0-4111-bb30-198928706676>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2e55bfb8-5526-47bd-baa6-cd47279d7eeb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebbfbc80-2cc0-4111-bb30-198928706676>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebbfbc80-2cc0-4111-bb30-198928706676>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ebbfbc80-2cc0-4111-bb30-198928706676>
+    
+    
+Individual: <http://model.geneontology.org/ebbfbc80-2cc0-4111-bb30-198928706676>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008528>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_139500>
+
+    Annotations: 
+        rdfs:label "HAIRY EARS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

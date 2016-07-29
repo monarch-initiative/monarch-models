@@ -1,0 +1,369 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f74f007c-8e8b-45f5-b21f-9f7a62910766>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-237800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000952>
+
+    Annotations: 
+        rdfs:label "Jaundice"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001744>
+
+    Annotations: 
+        rdfs:label "Splenomegaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001923>
+
+    Annotations: 
+        rdfs:label "Reticulocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002240>
+
+    Annotations: 
+        rdfs:label "Hepatomegaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002904>
+
+    Annotations: 
+        rdfs:label "Hyperbilirubinemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010972>
+
+    Annotations: 
+        rdfs:label "Anemia of inadequate production"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_237800>
+
+    Annotations: 
+        rdfs:label "%237800 HYPERBILIRUBINEMIA, SHUNT, PRIMARY; PSHB"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/004a48a6-eb98-4488-8201-6b16ef345e8e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_LIVER > HEPATOMEGALY (LESS COMMON)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002240>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/4f403132-0ab2-4667-8288-712138f47886>
+    
+    
+Individual: <http://model.geneontology.org/0f5188fe-f8fc-4755-86ca-b9a4e913c579>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/3a3c7798-4075-498a-8f0a-304f043e5861>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001744>
+    
+    
+Individual: <http://model.geneontology.org/41a1b8be-d873-4f77-a11c-c74730c2b49b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/4f403132-0ab2-4667-8288-712138f47886>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/7243d29b-372b-40de-9bbd-e81111005525>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/739eeb04-5d7b-41ba-a566-fcdd251ad9db>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > INCREASED RETICULOCYTES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001923>
+    
+    
+Individual: <http://model.geneontology.org/7435c99e-2707-4028-9775-eccfcb93e961>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/92acef7b-e28a-428d-9eb3-81e31e8b94a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/a53770f9-7ae7-4be5-a97a-0c59628c219c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/b35a7fed-ebb7-4585-a588-d6a05b5b4ce7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/c6654b46-f73d-4c0d-baf9-7d823e22dc5e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEMATOLOGY > INEFFECTIVE ERYTHROPOIESIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010972>
+    
+    
+Individual: <http://model.geneontology.org/c88c04b7-652e-4ff2-b11a-54da5edf17c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/d35ef5a8-821a-47c2-87d6-94ac9de72078>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c6654b46-f73d-4c0d-baf9-7d823e22dc5e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a53770f9-7ae7-4be5-a97a-0c59628c219c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c6654b46-f73d-4c0d-baf9-7d823e22dc5e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c6654b46-f73d-4c0d-baf9-7d823e22dc5e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c6654b46-f73d-4c0d-baf9-7d823e22dc5e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df84a28f-d17a-4f74-9065-2bd2d7488050>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7243d29b-372b-40de-9bbd-e81111005525>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df84a28f-d17a-4f74-9065-2bd2d7488050>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df84a28f-d17a-4f74-9065-2bd2d7488050>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df84a28f-d17a-4f74-9065-2bd2d7488050>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0b7eca8-8983-418d-aebd-9a9da2db0a55>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/41a1b8be-d873-4f77-a11c-c74730c2b49b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0b7eca8-8983-418d-aebd-9a9da2db0a55>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0b7eca8-8983-418d-aebd-9a9da2db0a55>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0b7eca8-8983-418d-aebd-9a9da2db0a55>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faa8fed6-f0a8-4338-ab4c-dd1b5e4f1d77>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b35a7fed-ebb7-4585-a588-d6a05b5b4ce7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faa8fed6-f0a8-4338-ab4c-dd1b5e4f1d77>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faa8fed6-f0a8-4338-ab4c-dd1b5e4f1d77>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/faa8fed6-f0a8-4338-ab4c-dd1b5e4f1d77>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f5188fe-f8fc-4755-86ca-b9a4e913c579>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fa0f36bc-01ee-4850-bea6-0cc113bb30e6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f5188fe-f8fc-4755-86ca-b9a4e913c579>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f5188fe-f8fc-4755-86ca-b9a4e913c579>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f5188fe-f8fc-4755-86ca-b9a4e913c579>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/004a48a6-eb98-4488-8201-6b16ef345e8e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/92acef7b-e28a-428d-9eb3-81e31e8b94a4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/004a48a6-eb98-4488-8201-6b16ef345e8e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/004a48a6-eb98-4488-8201-6b16ef345e8e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/004a48a6-eb98-4488-8201-6b16ef345e8e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a3c7798-4075-498a-8f0a-304f043e5861>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7435c99e-2707-4028-9775-eccfcb93e961>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a3c7798-4075-498a-8f0a-304f043e5861>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a3c7798-4075-498a-8f0a-304f043e5861>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a3c7798-4075-498a-8f0a-304f043e5861>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/739eeb04-5d7b-41ba-a566-fcdd251ad9db>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c88c04b7-652e-4ff2-b11a-54da5edf17c5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/739eeb04-5d7b-41ba-a566-fcdd251ad9db>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/739eeb04-5d7b-41ba-a566-fcdd251ad9db>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/739eeb04-5d7b-41ba-a566-fcdd251ad9db>
+    
+    
+Individual: <http://model.geneontology.org/df84a28f-d17a-4f74-9065-2bd2d7488050>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002904>
+    
+    
+Individual: <http://model.geneontology.org/e0b7eca8-8983-418d-aebd-9a9da2db0a55>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000952>
+    
+    
+Individual: <http://model.geneontology.org/fa0f36bc-01ee-4850-bea6-0cc113bb30e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_237800>
+    
+    
+Individual: <http://model.geneontology.org/faa8fed6-f0a8-4338-ab4c-dd1b5e4f1d77>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_237800>
+
+    Annotations: 
+        rdfs:label "%237800 HYPERBILIRUBINEMIA, SHUNT, PRIMARY; PSHB"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3e100d97-25ce-4c4e-adc2-0311771a59aa>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615616.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004756>
+
+    Annotations: 
+        rdfs:label "Ventricular tachycardia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011710>
+
+    Annotations: 
+        rdfs:label "Bundle branch block"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615616>
+
+    Annotations: 
+        rdfs:label "#615616 ARRHYTHMOGENIC RIGHT VENTRICULAR DYSPLASIA, FAMILIAL, 13; ARVD13;;ARRHYTHMOGENIC RIGHT VENTRICULAR CARDIOMYOPATHY 13; ARVC13"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2149a88b-58c4-4bd8-871a-1f5a4c790c4a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > VENTRICULAR TACHYCARDIA, SUSTAINED OR NONSUSTAINED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004756>
+    
+    
+Individual: <http://model.geneontology.org/72a4abd5-e839-484b-ac5c-a8eceb22b113>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/9578ef9a-1d4d-470a-bc00-eb9331549c5e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615616>
+    
+    
+Individual: <http://model.geneontology.org/9fb271ae-2e2e-487e-ac6d-494d1aa867b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615616>
+    
+    
+Individual: <http://model.geneontology.org/ca56d37d-bfa7-4762-b04f-3c7124a4869a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615616>
+    
+    
+Individual: <http://model.geneontology.org/d5ec2087-a645-4530-abaa-923addb238e7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615616>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f81960f2-2087-4266-86cc-22ce50c11982>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ca56d37d-bfa7-4762-b04f-3c7124a4869a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f81960f2-2087-4266-86cc-22ce50c11982>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f81960f2-2087-4266-86cc-22ce50c11982>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f81960f2-2087-4266-86cc-22ce50c11982>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2149a88b-58c4-4bd8-871a-1f5a4c790c4a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9578ef9a-1d4d-470a-bc00-eb9331549c5e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2149a88b-58c4-4bd8-871a-1f5a4c790c4a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2149a88b-58c4-4bd8-871a-1f5a4c790c4a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2149a88b-58c4-4bd8-871a-1f5a4c790c4a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72a4abd5-e839-484b-ac5c-a8eceb22b113>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9fb271ae-2e2e-487e-ac6d-494d1aa867b4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72a4abd5-e839-484b-ac5c-a8eceb22b113>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72a4abd5-e839-484b-ac5c-a8eceb22b113>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-02-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/72a4abd5-e839-484b-ac5c-a8eceb22b113>
+    
+    
+Individual: <http://model.geneontology.org/f81960f2-2087-4266-86cc-22ce50c11982>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > LEFT BUNDLE-BRANCH BLOCK MORPHOLOGY WITH SUPERIOR AXIS DEVIATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011710>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615616>
+
+    Annotations: 
+        rdfs:label "#615616 ARRHYTHMOGENIC RIGHT VENTRICULAR DYSPLASIA, FAMILIAL, 13; ARVD13;;ARRHYTHMOGENIC RIGHT VENTRICULAR CARDIOMYOPATHY 13; ARVC13"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

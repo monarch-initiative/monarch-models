@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9c212078-9dec-4ce9-b4db-9d3486b64a04>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-121800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001131>
+
+    Annotations: 
+        rdfs:label "Corneal dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007760>
+
+    Annotations: 
+        rdfs:label "Crystalline corneal dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_121800>
+
+    Annotations: 
+        rdfs:label "CORNEAL DYSTROPHY, CRYSTALLINE, OF SCHNYDER"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/76cd5e7a-6678-455f-8c3c-fe4371e6b0d4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_121800>
+    
+    
+Individual: <http://model.geneontology.org/9c40ad3a-83ba-4622-a2ae-c32d94e3b7a2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_121800>
+    
+    
+Individual: <http://model.geneontology.org/a0777a62-38d6-4cf1-bf59-6f46b71f9707>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007760>
+    
+    
+Individual: <http://model.geneontology.org/a9aa77c9-d403-4d3b-bb2b-cfd6c1b8bf4e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/d0c97914-b17e-4c66-80cf-ca429f6d9fa8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:corneal dystrophy, crystall"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001131>
+    
+    
+Individual: <http://model.geneontology.org/e4c368d9-6a55-4ede-8d81-1ef4fe8084b1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_121800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0777a62-38d6-4cf1-bf59-6f46b71f9707>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9c40ad3a-83ba-4622-a2ae-c32d94e3b7a2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0777a62-38d6-4cf1-bf59-6f46b71f9707>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0777a62-38d6-4cf1-bf59-6f46b71f9707>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0777a62-38d6-4cf1-bf59-6f46b71f9707>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9aa77c9-d403-4d3b-bb2b-cfd6c1b8bf4e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/76cd5e7a-6678-455f-8c3c-fe4371e6b0d4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9aa77c9-d403-4d3b-bb2b-cfd6c1b8bf4e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9aa77c9-d403-4d3b-bb2b-cfd6c1b8bf4e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a9aa77c9-d403-4d3b-bb2b-cfd6c1b8bf4e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d0c97914-b17e-4c66-80cf-ca429f6d9fa8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e5128797-351c-4a06-acc2-d0702409578d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d0c97914-b17e-4c66-80cf-ca429f6d9fa8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d0c97914-b17e-4c66-80cf-ca429f6d9fa8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d0c97914-b17e-4c66-80cf-ca429f6d9fa8>
+    
+    
+Individual: <http://model.geneontology.org/e5128797-351c-4a06-acc2-d0702409578d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_121800>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_121800>
+
+    Annotations: 
+        rdfs:label "CORNEAL DYSTROPHY, CRYSTALLINE, OF SCHNYDER"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

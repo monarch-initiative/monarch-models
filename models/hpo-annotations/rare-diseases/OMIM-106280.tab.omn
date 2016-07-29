@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/991d763f-b509-45c6-a265-96754b756f76>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-106280.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010296>
+
+    Annotations: 
+        rdfs:label "Ankyloglossia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_106280>
+
+    Annotations: 
+        rdfs:label "ANKYLOGLOSSIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/13b0b6ab-23cf-45e8-801c-6e0c3647e042>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010296>
+    
+    
+Individual: <http://model.geneontology.org/3aefb699-a601-4b2e-a4cb-43164e59f425>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_106280>
+    
+    
+Individual: <http://model.geneontology.org/550b5da6-64bf-4780-a34d-6f2bb9c05b91>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_106280>
+    
+    
+Individual: <http://model.geneontology.org/75328a02-3fb4-4ea3-8aec-d96f809a4baa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f8c44bb5-544c-41f1-9077-976ae0747eb4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_106280>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13b0b6ab-23cf-45e8-801c-6e0c3647e042>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3aefb699-a601-4b2e-a4cb-43164e59f425>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13b0b6ab-23cf-45e8-801c-6e0c3647e042>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13b0b6ab-23cf-45e8-801c-6e0c3647e042>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13b0b6ab-23cf-45e8-801c-6e0c3647e042>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/75328a02-3fb4-4ea3-8aec-d96f809a4baa>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/550b5da6-64bf-4780-a34d-6f2bb9c05b91>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/75328a02-3fb4-4ea3-8aec-d96f809a4baa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/75328a02-3fb4-4ea3-8aec-d96f809a4baa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/75328a02-3fb4-4ea3-8aec-d96f809a4baa>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_106280>
+
+    Annotations: 
+        rdfs:label "ANKYLOGLOSSIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

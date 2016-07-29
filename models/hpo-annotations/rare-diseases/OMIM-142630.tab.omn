@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/279500e8-79ed-4c9d-8e5c-d08ac6a37541>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-142630.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008069>
+
+    Annotations: 
+        rdfs:label "Neoplasm of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0040138>
+
+    Annotations: 
+        rdfs:label "Mucinous histiocytosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_142630>
+
+    Annotations: 
+        rdfs:label "HISTIOCYTOSIS, PROGRESSIVE MUCINOUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/10729c27-813f-4820-b81c-07e59b84173c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/327da840-597f-4668-b1a2-a190020859dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008069>
+    
+    
+Individual: <http://model.geneontology.org/41aa9363-f07c-44bd-8451-7f5334573739>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142630>
+    
+    
+Individual: <http://model.geneontology.org/57bff411-59a1-4d1f-aaeb-188c350fbb18>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142630>
+    
+    
+Individual: <http://model.geneontology.org/7420561b-eea7-4762-bb65-d457b34ae363>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_142630>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecf5a01a-fa79-40a7-992b-244e1f5aa79e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/41aa9363-f07c-44bd-8451-7f5334573739>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecf5a01a-fa79-40a7-992b-244e1f5aa79e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecf5a01a-fa79-40a7-992b-244e1f5aa79e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecf5a01a-fa79-40a7-992b-244e1f5aa79e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10729c27-813f-4820-b81c-07e59b84173c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c0e838a6-eb0e-4935-a015-baaef7a33d77>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10729c27-813f-4820-b81c-07e59b84173c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10729c27-813f-4820-b81c-07e59b84173c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10729c27-813f-4820-b81c-07e59b84173c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/327da840-597f-4668-b1a2-a190020859dd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/57bff411-59a1-4d1f-aaeb-188c350fbb18>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/327da840-597f-4668-b1a2-a190020859dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/327da840-597f-4668-b1a2-a190020859dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/327da840-597f-4668-b1a2-a190020859dd>
+    
+    
+Individual: <http://model.geneontology.org/c0e838a6-eb0e-4935-a015-baaef7a33d77>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142630>
+    
+    
+Individual: <http://model.geneontology.org/ecf5a01a-fa79-40a7-992b-244e1f5aa79e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:rogressive mucinous histiocytosis|http://www.orpha.ne"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0040138>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_142630>
+
+    Annotations: 
+        rdfs:label "HISTIOCYTOSIS, PROGRESSIVE MUCINOUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

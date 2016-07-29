@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/302c7ce8-177f-44b1-8308-aa33886ae8c2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-605027.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002665>
+
+    Annotations: 
+        rdfs:label "Lymphoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_605027>
+
+    Annotations: 
+        rdfs:label "LYMPHOMA, NON-HODGKIN, FAMILIAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/41b030f7-536a-4d5b-ab62-d6f4ea255a50>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_605027>
+    
+    
+Individual: <http://model.geneontology.org/554aec23-3b86-4700-8b9d-68bafd2a9d5e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002665>
+    
+    
+Individual: <http://model.geneontology.org/a8ebc24f-4494-47cb-ad34-f6bad493632d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_605027>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554aec23-3b86-4700-8b9d-68bafd2a9d5e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/41b030f7-536a-4d5b-ab62-d6f4ea255a50>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554aec23-3b86-4700-8b9d-68bafd2a9d5e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554aec23-3b86-4700-8b9d-68bafd2a9d5e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554aec23-3b86-4700-8b9d-68bafd2a9d5e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_605027>
+
+    Annotations: 
+        rdfs:label "LYMPHOMA, NON-HODGKIN, FAMILIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

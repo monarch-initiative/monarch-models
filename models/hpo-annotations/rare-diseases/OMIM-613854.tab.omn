@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2cad0e68-2b12-44eb-8258-4be332bd237c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613854.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001669>
+
+    Annotations: 
+        rdfs:label "Transposition of the great arteries"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613854>
+
+    Annotations: 
+        rdfs:label "#613854 TRANSPOSITION OF THE GREAT ARTERIES, DEXTRO-LOOPED 3; DTGA3"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0173ded9-8b69-4354-830c-26400f346bc0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/2da03ba6-e6e9-4f31-8a37-8d8a8486f38d>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:17924340>
+    
+    
+Individual: <http://model.geneontology.org/542b73d5-0803-494a-a7d4-66ea38cd3fc0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613854>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0173ded9-8b69-4354-830c-26400f346bc0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2da03ba6-e6e9-4f31-8a37-8d8a8486f38d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0173ded9-8b69-4354-830c-26400f346bc0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0173ded9-8b69-4354-830c-26400f346bc0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0173ded9-8b69-4354-830c-26400f346bc0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73b36c48-a771-48bd-8d6a-83a292892769>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d912dafb-56c9-46f7-9091-1870356e38bb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73b36c48-a771-48bd-8d6a-83a292892769>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73b36c48-a771-48bd-8d6a-83a292892769>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73b36c48-a771-48bd-8d6a-83a292892769>
+    
+    
+Individual: <http://model.geneontology.org/73b36c48-a771-48bd-8d6a-83a292892769>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001669>
+    
+    
+Individual: <http://model.geneontology.org/d912dafb-56c9-46f7-9091-1870356e38bb>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:17924340>
+    
+    
+Individual: <pmid:17924340>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

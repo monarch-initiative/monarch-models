@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/50913bb8-c514-4a32-a83f-c5d98369e228>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-606243.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012218>
+
+    Annotations: 
+        rdfs:label "Alveolar soft part sarcoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_606243>
+
+    Annotations: 
+        rdfs:label "#606243 ALVEOLAR SOFT PART SARCOMA; ASPS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1a04599a-e4a6-4ef8-b4a7-af66661dee9f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606243>
+    
+    
+Individual: <http://model.geneontology.org/688962eb-e344-4acc-837a-3a60db0f8e4a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_606243>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dd4b8fdd-535c-4b3f-b9ba-fd54d98e8d2d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/faf4f3dd-6698-4f87-b4e6-f4006b7b7a19>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dd4b8fdd-535c-4b3f-b9ba-fd54d98e8d2d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dd4b8fdd-535c-4b3f-b9ba-fd54d98e8d2d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dd4b8fdd-535c-4b3f-b9ba-fd54d98e8d2d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df55fc6a-0f91-4d7e-92a3-fa21692e7798>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1a04599a-e4a6-4ef8-b4a7-af66661dee9f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df55fc6a-0f91-4d7e-92a3-fa21692e7798>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df55fc6a-0f91-4d7e-92a3-fa21692e7798>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/df55fc6a-0f91-4d7e-92a3-fa21692e7798>
+    
+    
+Individual: <http://model.geneontology.org/dd4b8fdd-535c-4b3f-b9ba-fd54d98e8d2d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012218>
+    
+    
+Individual: <http://model.geneontology.org/df55fc6a-0f91-4d7e-92a3-fa21692e7798>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/faf4f3dd-6698-4f87-b4e6-f4006b7b7a19>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606243>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_606243>
+
+    Annotations: 
+        rdfs:label "#606243 ALVEOLAR SOFT PART SARCOMA; ASPS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

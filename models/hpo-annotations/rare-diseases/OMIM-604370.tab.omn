@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/aa256525-c7d9-43cd-a333-de9703fafe45>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-604370.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001426>
+
+    Annotations: 
+        rdfs:label "Multifactorial inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003002>
+
+    Annotations: 
+        rdfs:label "Breast carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_604370>
+
+    Annotations: 
+        rdfs:label "BREAST-OVARIAN CANCER, FAMILIAL, SUSCEPTIBILITY TO, 1; BROVCA1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/12d88ccf-df52-4e51-8e16-64fd2be40b58>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604370>
+    
+    
+Individual: <http://model.geneontology.org/25f4a8fb-dac8-4465-b050-3162289dba57>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003002>
+    
+    
+Individual: <http://model.geneontology.org/645e8ceb-f099-4290-bcc8-da037ac7882a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001426>
+    
+    
+Individual: <http://model.geneontology.org/84e6f8df-1e6c-4f72-aa1d-00b992351664>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/cbdf0d57-b84a-4501-b57d-dd52c05a37f1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604370>
+    
+    
+Individual: <http://model.geneontology.org/d55a9d52-0742-46b2-b80c-129c142929c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_604370>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25f4a8fb-dac8-4465-b050-3162289dba57>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f6398168-f52c-43c3-9b1d-ec5776de5fec>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25f4a8fb-dac8-4465-b050-3162289dba57>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25f4a8fb-dac8-4465-b050-3162289dba57>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25f4a8fb-dac8-4465-b050-3162289dba57>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/645e8ceb-f099-4290-bcc8-da037ac7882a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/12d88ccf-df52-4e51-8e16-64fd2be40b58>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/645e8ceb-f099-4290-bcc8-da037ac7882a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/645e8ceb-f099-4290-bcc8-da037ac7882a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/645e8ceb-f099-4290-bcc8-da037ac7882a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84e6f8df-1e6c-4f72-aa1d-00b992351664>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cbdf0d57-b84a-4501-b57d-dd52c05a37f1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84e6f8df-1e6c-4f72-aa1d-00b992351664>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84e6f8df-1e6c-4f72-aa1d-00b992351664>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84e6f8df-1e6c-4f72-aa1d-00b992351664>
+    
+    
+Individual: <http://model.geneontology.org/f6398168-f52c-43c3-9b1d-ec5776de5fec>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604370>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_604370>
+
+    Annotations: 
+        rdfs:label "BREAST-OVARIAN CANCER, FAMILIAL, SUSCEPTIBILITY TO, 1; BROVCA1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

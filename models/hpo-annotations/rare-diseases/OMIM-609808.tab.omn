@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5c26acb2-26fa-474b-81de-5f0cf775b7f0>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-609808.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000951>
+
+    Annotations: 
+        rdfs:label "Abnormality of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010566>
+
+    Annotations: 
+        rdfs:label "Hamartoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_609808>
+
+    Annotations: 
+        rdfs:label "HAMARTOMA, PRECALCANEAL CONGENITAL FIBROLIPOMATOUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0bd132e1-f3bb-406f-9bb1-960467512ae9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:hamartoma, precalcaneal conge"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010566>
+    
+    
+Individual: <http://model.geneontology.org/49021a7d-b4b0-4b24-9769-ab897793806f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609808>
+    
+    
+Individual: <http://model.geneontology.org/71aa31d2-1929-466d-8b45-5e2c1676d0da>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609808>
+    
+    
+Individual: <http://model.geneontology.org/966a103d-481e-4b7a-bb3a-000b337413e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000951>
+    
+    
+Individual: <http://model.geneontology.org/aa2560f6-b646-46e3-ac59-1b4c85454656>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/d69eaba6-17c7-4b8c-81f5-26eacd374413>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609808>
+    
+    
+Individual: <http://model.geneontology.org/ee5cb907-2ffb-4d84-ba79-521fdb3496bd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_609808>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa2560f6-b646-46e3-ac59-1b4c85454656>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/49021a7d-b4b0-4b24-9769-ab897793806f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa2560f6-b646-46e3-ac59-1b4c85454656>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa2560f6-b646-46e3-ac59-1b4c85454656>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa2560f6-b646-46e3-ac59-1b4c85454656>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bd132e1-f3bb-406f-9bb1-960467512ae9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d69eaba6-17c7-4b8c-81f5-26eacd374413>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bd132e1-f3bb-406f-9bb1-960467512ae9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bd132e1-f3bb-406f-9bb1-960467512ae9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0bd132e1-f3bb-406f-9bb1-960467512ae9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/966a103d-481e-4b7a-bb3a-000b337413e6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/71aa31d2-1929-466d-8b45-5e2c1676d0da>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/966a103d-481e-4b7a-bb3a-000b337413e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/966a103d-481e-4b7a-bb3a-000b337413e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/966a103d-481e-4b7a-bb3a-000b337413e6>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_609808>
+
+    Annotations: 
+        rdfs:label "HAMARTOMA, PRECALCANEAL CONGENITAL FIBROLIPOMATOUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

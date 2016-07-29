@@ -1,0 +1,181 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/63c0cbcc-c1ce-4319-8e51-3ac53ec295a1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-182970.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003202>
+
+    Annotations: 
+        rdfs:label "Amyotrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007269>
+
+    Annotations: 
+        rdfs:label "Spinal muscular atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_182970>
+
+    Annotations: 
+        rdfs:label "%182970 SPINAL MUSCULAR ATROPHY, FACIOSCAPULOHUMERAL TYPE;;FSHSMA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0c05adb6-af95-4ef4-b7c6-b46ccce3cc78>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:%182970 spinal muscular atrophy, facioscapulohumera"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007269>
+    
+    
+Individual: <http://model.geneontology.org/2936f349-7fa6-4133-8bda-e6b53069fcbc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_182970>
+    
+    
+Individual: <http://model.geneontology.org/46d4a318-4937-4fa8-bf80-bb03cb42ebab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_182970>
+    
+    
+Individual: <http://model.geneontology.org/5997744c-8c2a-464a-a2f9-9a9660952e33>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/68f81418-a257-4f82-aef1-1ac0575ab4f6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_182970>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c05adb6-af95-4ef4-b7c6-b46ccce3cc78>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/46d4a318-4937-4fa8-bf80-bb03cb42ebab>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c05adb6-af95-4ef4-b7c6-b46ccce3cc78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c05adb6-af95-4ef4-b7c6-b46ccce3cc78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c05adb6-af95-4ef4-b7c6-b46ccce3cc78>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5997744c-8c2a-464a-a2f9-9a9660952e33>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8f938a6f-b537-43db-857e-336ef85d1c58>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5997744c-8c2a-464a-a2f9-9a9660952e33>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5997744c-8c2a-464a-a2f9-9a9660952e33>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5997744c-8c2a-464a-a2f9-9a9660952e33>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87432362-559a-4076-8a33-efa1a3e37b13>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2936f349-7fa6-4133-8bda-e6b53069fcbc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87432362-559a-4076-8a33-efa1a3e37b13>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87432362-559a-4076-8a33-efa1a3e37b13>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87432362-559a-4076-8a33-efa1a3e37b13>
+    
+    
+Individual: <http://model.geneontology.org/87432362-559a-4076-8a33-efa1a3e37b13>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003202>
+    
+    
+Individual: <http://model.geneontology.org/8f938a6f-b537-43db-857e-336ef85d1c58>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_182970>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_182970>
+
+    Annotations: 
+        rdfs:label "%182970 SPINAL MUSCULAR ATROPHY, FACIOSCAPULOHUMERAL TYPE;;FSHSMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

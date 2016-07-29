@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3937aab5-bc8d-4889-b088-f1f9df9a2369>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-240400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_240400>
+
+    Annotations: 
+        rdfs:label "HYPOASCORBEMIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1f38f4f4-cbc0-4465-9ca8-aecde11ed814>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_240400>
+    
+    
+Individual: <http://model.geneontology.org/60c25d56-1f99-4281-8846-7b22009c88e0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/78c896e5-4e69-4d2d-984e-0fd75e5328cc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/7b4ba732-76e1-4cdf-a7d5-f2e3c5a6d18d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_240400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60c25d56-1f99-4281-8846-7b22009c88e0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1f38f4f4-cbc0-4465-9ca8-aecde11ed814>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60c25d56-1f99-4281-8846-7b22009c88e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60c25d56-1f99-4281-8846-7b22009c88e0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/60c25d56-1f99-4281-8846-7b22009c88e0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/78c896e5-4e69-4d2d-984e-0fd75e5328cc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7c2bda2a-126e-46f0-a0e9-75e711837f25>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/78c896e5-4e69-4d2d-984e-0fd75e5328cc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/78c896e5-4e69-4d2d-984e-0fd75e5328cc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/78c896e5-4e69-4d2d-984e-0fd75e5328cc>
+    
+    
+Individual: <http://model.geneontology.org/7c2bda2a-126e-46f0-a0e9-75e711837f25>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_240400>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_240400>
+
+    Annotations: 
+        rdfs:label "HYPOASCORBEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

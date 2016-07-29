@@ -1,0 +1,196 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/00caab9c-d640-41e1-836d-d5d4abfdb48d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-604625.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000677>
+
+    Annotations: 
+        rdfs:label "Oligodontia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000691>
+
+    Annotations: 
+        rdfs:label "Microdontia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_604625>
+
+    Annotations: 
+        rdfs:label "#604625 TOOTH AGENESIS, SELECTIVE, 3; STHAG3;;HYPODONTIA/OLIGODONTIA 3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0dfeb3e8-054a-4243-b180-8d0fe6a3d5d1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_TEETH > SMALL TEETH (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000691>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/73359ba3-4c08-4c18-88c6-d041636aff56>
+    
+    
+Individual: <http://model.geneontology.org/1a649488-20e7-4cd0-9d4b-d9a7fa30d322>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/318d9a13-261c-4a02-bf97-bf9eeeb7d04c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604625>
+    
+    
+Individual: <http://model.geneontology.org/42330cb8-d986-4422-9e9f-0f6c33dd5706>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604625>
+    
+    
+Individual: <http://model.geneontology.org/62011c28-b07f-45f3-864a-7ff9449c2089>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_604625>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af3793e7-dfbd-4759-96fd-bd3b69cc21e7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b1cdbe78-d2da-4b9f-ad6b-29650c64d485>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af3793e7-dfbd-4759-96fd-bd3b69cc21e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af3793e7-dfbd-4759-96fd-bd3b69cc21e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/af3793e7-dfbd-4759-96fd-bd3b69cc21e7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0dfeb3e8-054a-4243-b180-8d0fe6a3d5d1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/318d9a13-261c-4a02-bf97-bf9eeeb7d04c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0dfeb3e8-054a-4243-b180-8d0fe6a3d5d1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0dfeb3e8-054a-4243-b180-8d0fe6a3d5d1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0dfeb3e8-054a-4243-b180-8d0fe6a3d5d1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a649488-20e7-4cd0-9d4b-d9a7fa30d322>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42330cb8-d986-4422-9e9f-0f6c33dd5706>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a649488-20e7-4cd0-9d4b-d9a7fa30d322>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a649488-20e7-4cd0-9d4b-d9a7fa30d322>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a649488-20e7-4cd0-9d4b-d9a7fa30d322>
+    
+    
+Individual: <http://model.geneontology.org/73359ba3-4c08-4c18-88c6-d041636aff56>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/af3793e7-dfbd-4759-96fd-bd3b69cc21e7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000677>
+    
+    
+Individual: <http://model.geneontology.org/b1cdbe78-d2da-4b9f-ad6b-29650c64d485>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_604625>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_604625>
+
+    Annotations: 
+        rdfs:label "#604625 TOOTH AGENESIS, SELECTIVE, 3; STHAG3;;HYPODONTIA/OLIGODONTIA 3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

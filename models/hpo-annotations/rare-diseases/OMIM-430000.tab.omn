@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2e51bc5c-4483-4d5f-9ea5-376422bcfd9a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-430000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001871>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hematopoietic system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_430000>
+
+    Annotations: 
+        rdfs:label "INTERLEUKIN 3 RECEPTOR, Y-CHROMOSOMAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/08bc0f53-141e-4a8b-bc44-7fc772c2ec6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_430000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f590043d-49bd-4173-95c8-2bdd3b8d4e3f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a1403ca9-d78e-42bb-b793-5a32980eecb3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f590043d-49bd-4173-95c8-2bdd3b8d4e3f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f590043d-49bd-4173-95c8-2bdd3b8d4e3f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f590043d-49bd-4173-95c8-2bdd3b8d4e3f>
+    
+    
+Individual: <http://model.geneontology.org/a1403ca9-d78e-42bb-b793-5a32980eecb3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_430000>
+    
+    
+Individual: <http://model.geneontology.org/f590043d-49bd-4173-95c8-2bdd3b8d4e3f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001871>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_430000>
+
+    Annotations: 
+        rdfs:label "INTERLEUKIN 3 RECEPTOR, Y-CHROMOSOMAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

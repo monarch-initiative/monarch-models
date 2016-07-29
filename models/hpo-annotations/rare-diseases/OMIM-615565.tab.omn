@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/bcfc0fb3-50a2-4115-8932-73e8ac7d132e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615565.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000510>
+
+    Annotations: 
+        rdfs:label "Retinitis pigmentosa"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615565>
+
+    Annotations: 
+        rdfs:label "#615565 RETINITIS PIGMENTOSA 67; RP67"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1cda6f14-3bd0-453e-90b0-11a9e16a91b0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > RETINITIS PIGMENTOSA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000510>
+    
+    
+Individual: <http://model.geneontology.org/6003a8c2-69fd-4cb0-8098-c764ecc885b1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/ab3c1cbc-f23c-460c-a3c5-cbdabbb12e3b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615565>
+    
+    
+Individual: <http://model.geneontology.org/bf9470fe-5aa2-4733-b161-2f8ecea1a432>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615565>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1cda6f14-3bd0-453e-90b0-11a9e16a91b0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ab3c1cbc-f23c-460c-a3c5-cbdabbb12e3b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1cda6f14-3bd0-453e-90b0-11a9e16a91b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1cda6f14-3bd0-453e-90b0-11a9e16a91b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1cda6f14-3bd0-453e-90b0-11a9e16a91b0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6003a8c2-69fd-4cb0-8098-c764ecc885b1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cf123e4f-3b4a-44fc-ac0f-97b0e088f83d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6003a8c2-69fd-4cb0-8098-c764ecc885b1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6003a8c2-69fd-4cb0-8098-c764ecc885b1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6003a8c2-69fd-4cb0-8098-c764ecc885b1>
+    
+    
+Individual: <http://model.geneontology.org/cf123e4f-3b4a-44fc-ac0f-97b0e088f83d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615565>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615565>
+
+    Annotations: 
+        rdfs:label "#615565 RETINITIS PIGMENTOSA 67; RP67"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/61b2b62d-e90b-4055-b5d9-341c80836359>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-114600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000164>
+
+    Annotations: 
+        rdfs:label "Abnormality of the teeth"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_114600>
+
+    Annotations: 
+        rdfs:label "CANINE TEETH, ABSENCE OF UPPER PERMANENT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/14524bfa-2897-49af-8eea-e3580fda89e7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/3ca3d6ea-e403-49b6-8dfe-ffa79fe76604>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_114600>
+    
+    
+Individual: <http://model.geneontology.org/b3fffe62-6299-417a-b9aa-a7aaa58bbd06>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000164>
+    
+    
+Individual: <http://model.geneontology.org/b442356d-7b4d-474f-a0a2-134ae953dda7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_114600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3fffe62-6299-417a-b9aa-a7aaa58bbd06>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c77c709f-beb1-4d58-9179-6369156a898a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3fffe62-6299-417a-b9aa-a7aaa58bbd06>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3fffe62-6299-417a-b9aa-a7aaa58bbd06>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3fffe62-6299-417a-b9aa-a7aaa58bbd06>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14524bfa-2897-49af-8eea-e3580fda89e7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3ca3d6ea-e403-49b6-8dfe-ffa79fe76604>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14524bfa-2897-49af-8eea-e3580fda89e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14524bfa-2897-49af-8eea-e3580fda89e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14524bfa-2897-49af-8eea-e3580fda89e7>
+    
+    
+Individual: <http://model.geneontology.org/c77c709f-beb1-4d58-9179-6369156a898a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_114600>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_114600>
+
+    Annotations: 
+        rdfs:label "CANINE TEETH, ABSENCE OF UPPER PERMANENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

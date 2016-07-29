@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ce874846-9642-4cc9-9ff6-b8dd99d1ab50>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-607676.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002721>
+
+    Annotations: 
+        rdfs:label "Immunodeficiency"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_607676>
+
+    Annotations: 
+        rdfs:label "IMMUNODEFICIENCY DUE TO INTERLEUKIN-1 RECEPTOR-ASSOCIATED KINASE-4 DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3f78edfe-dacf-4942-8d9f-8f32d3e1228b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:immunodeficiency due to interleukin-"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002721>
+    
+    
+Individual: <http://model.geneontology.org/91f46626-fbf6-4c81-bc8b-0ed22bbd1a79>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607676>
+    
+    
+Individual: <http://model.geneontology.org/aa1b403f-1bd7-4c9b-8747-7b917eb7f28f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_607676>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f78edfe-dacf-4942-8d9f-8f32d3e1228b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/91f46626-fbf6-4c81-bc8b-0ed22bbd1a79>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f78edfe-dacf-4942-8d9f-8f32d3e1228b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f78edfe-dacf-4942-8d9f-8f32d3e1228b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f78edfe-dacf-4942-8d9f-8f32d3e1228b>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_607676>
+
+    Annotations: 
+        rdfs:label "IMMUNODEFICIENCY DUE TO INTERLEUKIN-1 RECEPTOR-ASSOCIATED KINASE-4 DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

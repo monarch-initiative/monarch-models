@@ -1,0 +1,233 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/20d2da75-3d3c-4813-b196-aca8f5df6bd6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300424.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000510>
+
+    Annotations: 
+        rdfs:label "Retinitis pigmentosa"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000551>
+
+    Annotations: 
+        rdfs:label "Abnormality of color vision"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001419>
+
+    Annotations: 
+        rdfs:label "X-linked recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007787>
+
+    Annotations: 
+        rdfs:label "Posterior subcapsular cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300424>
+
+    Annotations: 
+        rdfs:label "#300424 RETINITIS PIGMENTOSA 23; RP23"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1f6a6b63-430c-44d2-9b6d-4a6ee672a79b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001419>
+    
+    
+Individual: <http://model.geneontology.org/54853aa8-7de0-41fc-bd7c-ae6783638247>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300424>
+    
+    
+Individual: <http://model.geneontology.org/5838092d-2aee-4d80-90a2-442127abeb51>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#300424 retinitis pigmentosa 23; rp23"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000510>
+    
+    
+Individual: <http://model.geneontology.org/67809509-663f-4b62-bb1b-63e4b2f80929>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300424>
+    
+    
+Individual: <http://model.geneontology.org/6858c241-411d-4925-9ba5-f680a459e4e7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > POSTERIOR SUBCAPSULAR CATARACTS (RARE)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007787>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/81eb9575-dce7-497c-b23c-821016b7bda6>
+    
+    
+Individual: <http://model.geneontology.org/81eb9575-dce7-497c-b23c-821016b7bda6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b2eae7f7-0f6e-471a-bd95-c11b0a666aab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300424>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f95109cc-3016-4e91-a56c-7f6363f37764>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ee8cf7ad-3ccb-4118-af4e-a4487c1f0987>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f95109cc-3016-4e91-a56c-7f6363f37764>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f95109cc-3016-4e91-a56c-7f6363f37764>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f95109cc-3016-4e91-a56c-7f6363f37764>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f6a6b63-430c-44d2-9b6d-4a6ee672a79b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/67809509-663f-4b62-bb1b-63e4b2f80929>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f6a6b63-430c-44d2-9b6d-4a6ee672a79b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f6a6b63-430c-44d2-9b6d-4a6ee672a79b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1f6a6b63-430c-44d2-9b6d-4a6ee672a79b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5838092d-2aee-4d80-90a2-442127abeb51>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eb4991c1-f2f3-4fca-b44e-512f96338204>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5838092d-2aee-4d80-90a2-442127abeb51>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5838092d-2aee-4d80-90a2-442127abeb51>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5838092d-2aee-4d80-90a2-442127abeb51>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6858c241-411d-4925-9ba5-f680a459e4e7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/54853aa8-7de0-41fc-bd7c-ae6783638247>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6858c241-411d-4925-9ba5-f680a459e4e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6858c241-411d-4925-9ba5-f680a459e4e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6858c241-411d-4925-9ba5-f680a459e4e7>
+    
+    
+Individual: <http://model.geneontology.org/eb4991c1-f2f3-4fca-b44e-512f96338204>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300424>
+    
+    
+Individual: <http://model.geneontology.org/ee8cf7ad-3ccb-4118-af4e-a4487c1f0987>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300424>
+    
+    
+Individual: <http://model.geneontology.org/f95109cc-3016-4e91-a56c-7f6363f37764>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > ABNORMAL COLOR VISION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000551>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300424>
+
+    Annotations: 
+        rdfs:label "#300424 RETINITIS PIGMENTOSA 23; RP23"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

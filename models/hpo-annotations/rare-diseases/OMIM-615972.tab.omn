@@ -1,0 +1,288 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/37d110ed-7804-4cc5-aadc-875b1ee99899>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615972.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000505>
+
+    Annotations: 
+        rdfs:label "Visual impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000568>
+
+    Annotations: 
+        rdfs:label "Microphthalmos"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007663>
+
+    Annotations: 
+        rdfs:label "Reduced visual acuity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012426>
+
+    Annotations: 
+        rdfs:label "Optic disc drusen"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615972>
+
+    Annotations: 
+        rdfs:label "#615972 NANOPHTHALMOS 4; NNO4;;NANOPHTHALMIA 4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/03c84a8b-b83d-4af2-9a44-0e93b6bc65c0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0576bbb0-4084-490c-8d7f-1739daf71fed>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0aa0bd16-192b-42b9-bfbf-fbb157da3edb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/29c8925f-2587-4632-8b80-b3b882cdc77c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#615972 nanophthalmos 4; nno4;;nanophthal"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000568>
+    
+    
+Individual: <http://model.geneontology.org/5aa0600f-5928-42ed-afc1-e8194e309d2d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615972>
+    
+    
+Individual: <http://model.geneontology.org/6a3206d1-d27c-4ce6-877e-1eb51ec5f7be>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/6b0f50b5-b4d3-4e76-a31f-d49a1867ac9d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/8ed440a6-687b-4aec-b68f-c61a4b212a57>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > DECREASED VISUAL ACUITY (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000505>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/0576bbb0-4084-490c-8d7f-1739daf71fed>
+    
+    
+Individual: <http://model.geneontology.org/97c8882c-034a-49de-a2fb-09d36d3f6237>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615972>
+    
+    
+Individual: <http://model.geneontology.org/a1402cf7-8556-4fbc-a3fc-4bd01c40fce8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615972>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f290e831-2533-48c2-840a-9e865d5bb7be>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cb1b95c0-95fa-45f3-a8ab-4b2b4f204929>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f290e831-2533-48c2-840a-9e865d5bb7be>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f290e831-2533-48c2-840a-9e865d5bb7be>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-07-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f290e831-2533-48c2-840a-9e865d5bb7be>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f57e56dc-db0d-4879-86c8-9d8a72f2cce3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/97c8882c-034a-49de-a2fb-09d36d3f6237>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f57e56dc-db0d-4879-86c8-9d8a72f2cce3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f57e56dc-db0d-4879-86c8-9d8a72f2cce3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-09-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f57e56dc-db0d-4879-86c8-9d8a72f2cce3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0aa0bd16-192b-42b9-bfbf-fbb157da3edb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6a3206d1-d27c-4ce6-877e-1eb51ec5f7be>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0aa0bd16-192b-42b9-bfbf-fbb157da3edb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0aa0bd16-192b-42b9-bfbf-fbb157da3edb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0aa0bd16-192b-42b9-bfbf-fbb157da3edb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29c8925f-2587-4632-8b80-b3b882cdc77c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f74a59ef-01f4-4f09-b541-d8299663c044>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29c8925f-2587-4632-8b80-b3b882cdc77c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29c8925f-2587-4632-8b80-b3b882cdc77c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/29c8925f-2587-4632-8b80-b3b882cdc77c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ed440a6-687b-4aec-b68f-c61a4b212a57>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5aa0600f-5928-42ed-afc1-e8194e309d2d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ed440a6-687b-4aec-b68f-c61a4b212a57>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ed440a6-687b-4aec-b68f-c61a4b212a57>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-09-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ed440a6-687b-4aec-b68f-c61a4b212a57>
+    
+    
+Individual: <http://model.geneontology.org/cb1b95c0-95fa-45f3-a8ab-4b2b4f204929>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615972>
+    
+    
+Individual: <http://model.geneontology.org/f290e831-2533-48c2-840a-9e865d5bb7be>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > DECREASED VISUAL ACUITY (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007663>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/6b0f50b5-b4d3-4e76-a31f-d49a1867ac9d>
+    
+    
+Individual: <http://model.geneontology.org/f57e56dc-db0d-4879-86c8-9d8a72f2cce3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > OPTIC DISC DRUSEN (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012426>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/03c84a8b-b83d-4af2-9a44-0e93b6bc65c0>
+    
+    
+Individual: <http://model.geneontology.org/f74a59ef-01f4-4f09-b541-d8299663c044>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615972>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615972>
+
+    Annotations: 
+        rdfs:label "#615972 NANOPHTHALMOS 4; NNO4;;NANOPHTHALMIA 4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

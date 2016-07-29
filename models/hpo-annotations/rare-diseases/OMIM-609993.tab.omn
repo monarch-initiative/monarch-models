@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/829ce76d-7e8a-47b9-a12d-ce8b6d2f64d9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-609993.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008209>
+
+    Annotations: 
+        rdfs:label "Premature ovarian failure"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_609993>
+
+    Annotations: 
+        rdfs:label "OSTEOSCLEROSIS - ICHTHYOSIS - PREMATURE OVARIAN FAILURE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5f853145-4665-4b52-ab4f-a0fec9ba1090>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:osis - ichthyosis - premature ovarian failure"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008209>
+    
+    
+Individual: <http://model.geneontology.org/62b5bd9e-70b7-4874-beae-99b52e3d2aee>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_609993>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f853145-4665-4b52-ab4f-a0fec9ba1090>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dacbaa96-01a7-4883-8ad2-276c08e48aa4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f853145-4665-4b52-ab4f-a0fec9ba1090>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f853145-4665-4b52-ab4f-a0fec9ba1090>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f853145-4665-4b52-ab4f-a0fec9ba1090>
+    
+    
+Individual: <http://model.geneontology.org/dacbaa96-01a7-4883-8ad2-276c08e48aa4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609993>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_609993>
+
+    Annotations: 
+        rdfs:label "OSTEOSCLEROSIS - ICHTHYOSIS - PREMATURE OVARIAN FAILURE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

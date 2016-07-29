@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/210b75b5-ac99-4d8c-b535-ce5d5ccb4ffd>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-603075.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000529>
+
+    Annotations: 
+        rdfs:label "Progressive visual loss"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_603075>
+
+    Annotations: 
+        rdfs:label "#603075 MACULAR DEGENERATION, AGE-RELATED, 1; ARMD1;;MACULOPATHY, AGE-RELATED, 1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0fd068a1-76bf-4bbd-880a-cfdc50a98b8b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_603075>
+    
+    
+Individual: <http://model.geneontology.org/cc91f937-2fbd-4730-a46b-6487e323a95b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_603075>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb00d17a-1a7d-44a8-ac7d-59fe4732c8a5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0fd068a1-76bf-4bbd-880a-cfdc50a98b8b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb00d17a-1a7d-44a8-ac7d-59fe4732c8a5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb00d17a-1a7d-44a8-ac7d-59fe4732c8a5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb00d17a-1a7d-44a8-ac7d-59fe4732c8a5>
+    
+    
+Individual: <http://model.geneontology.org/fb00d17a-1a7d-44a8-ac7d-59fe4732c8a5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > PROGRESSIVE VISION LOSS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000529>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_603075>
+
+    Annotations: 
+        rdfs:label "#603075 MACULAR DEGENERATION, AGE-RELATED, 1; ARMD1;;MACULOPATHY, AGE-RELATED, 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e1d9cf04-338a-4418-87b5-50faeb987749>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-203340.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001022>
+
+    Annotations: 
+        rdfs:label "Albinism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_203340>
+
+    Annotations: 
+        rdfs:label "MICROCEPHALY - ALBINISM - DIGITAL ANOMALIES"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3c0c2149-0404-4cbd-9bdb-438fb8f68051>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_203340>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95716964-1ea1-4a58-ab4b-a33bbd66a59d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b4404e7a-5ad1-4b09-a80f-35fce16fb21c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95716964-1ea1-4a58-ab4b-a33bbd66a59d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95716964-1ea1-4a58-ab4b-a33bbd66a59d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95716964-1ea1-4a58-ab4b-a33bbd66a59d>
+    
+    
+Individual: <http://model.geneontology.org/95716964-1ea1-4a58-ab4b-a33bbd66a59d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:microcephaly - albinism - digital anomalies"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001022>
+    
+    
+Individual: <http://model.geneontology.org/b4404e7a-5ad1-4b09-a80f-35fce16fb21c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_203340>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_203340>
+
+    Annotations: 
+        rdfs:label "MICROCEPHALY - ALBINISM - DIGITAL ANOMALIES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

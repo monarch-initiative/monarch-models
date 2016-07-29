@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1164f353-fe69-44cd-bcde-47838bc0e3eb>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-425000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001871>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hematopoietic system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_425000>
+
+    Annotations: 
+        rdfs:label "GRANULOCYTE-MACROPHAGE COLONY-STIMULATING FACTOR RECEPTOR, ALPHA SUBUNIT,Y-CHROMOSOMAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/25d325da-1d8c-48fd-9a6b-406ff8c20fe1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001871>
+    
+    
+Individual: <http://model.geneontology.org/9ef49f9b-fd91-437e-a585-1ca6b19df033>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_425000>
+    
+    
+Individual: <http://model.geneontology.org/cf558423-dd39-423a-b00e-e7ac18ab4b91>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_425000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25d325da-1d8c-48fd-9a6b-406ff8c20fe1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9ef49f9b-fd91-437e-a585-1ca6b19df033>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25d325da-1d8c-48fd-9a6b-406ff8c20fe1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25d325da-1d8c-48fd-9a6b-406ff8c20fe1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25d325da-1d8c-48fd-9a6b-406ff8c20fe1>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_425000>
+
+    Annotations: 
+        rdfs:label "GRANULOCYTE-MACROPHAGE COLONY-STIMULATING FACTOR RECEPTOR, ALPHA SUBUNIT,Y-CHROMOSOMAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

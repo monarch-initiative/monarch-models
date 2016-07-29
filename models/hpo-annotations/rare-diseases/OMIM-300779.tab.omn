@@ -1,0 +1,202 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5ac340ab-11ee-443d-b194-8dbf3ffe90ef>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300779.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002488>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001131>
+
+    Annotations: 
+        rdfs:label "Corneal dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001423>
+
+    Annotations: 
+        rdfs:label "X-linked dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003577>
+
+    Annotations: 
+        rdfs:label "Congenital onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007957>
+
+    Annotations: 
+        rdfs:label "Corneal opacity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300779>
+
+    Annotations: 
+        rdfs:label "%300779 CORNEAL DYSTROPHY, ENDOTHELIAL, X-LINKED; XECD;;ENDOTHELIAL CORNEAL DYSTROPHY, X-LINKED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/26ea7dc6-b35f-4b8c-ae6d-bf0a8c3c3315>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300779>
+    
+    
+Individual: <http://model.geneontology.org/369cc294-dcee-4291-b531-73c5a1470f4c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003577>
+    
+    
+Individual: <http://model.geneontology.org/40eb54b8-4dca-4780-bc30-8788e432a0a2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300779>
+    
+    
+Individual: <http://model.geneontology.org/5d291a66-cc43-4e6f-8b0e-248657b6f886>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300779>
+    
+    
+Individual: <http://model.geneontology.org/77da6c56-f7f2-40f7-8d43-cb9b6ae893c6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001423>
+    
+    
+Individual: <http://model.geneontology.org/782da32a-7031-45d2-9a54-2075bcfb2744>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300779>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e41c4341-3d6d-479d-8475-086f3d845697>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5d291a66-cc43-4e6f-8b0e-248657b6f886>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e41c4341-3d6d-479d-8475-086f3d845697>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e41c4341-3d6d-479d-8475-086f3d845697>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e41c4341-3d6d-479d-8475-086f3d845697>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f292fcf1-aed8-484e-852c-f6f15a246965>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/40eb54b8-4dca-4780-bc30-8788e432a0a2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f292fcf1-aed8-484e-852c-f6f15a246965>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f292fcf1-aed8-484e-852c-f6f15a246965>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f292fcf1-aed8-484e-852c-f6f15a246965>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77da6c56-f7f2-40f7-8d43-cb9b6ae893c6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/26ea7dc6-b35f-4b8c-ae6d-bf0a8c3c3315>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77da6c56-f7f2-40f7-8d43-cb9b6ae893c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77da6c56-f7f2-40f7-8d43-cb9b6ae893c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77da6c56-f7f2-40f7-8d43-cb9b6ae893c6>
+    
+    
+Individual: <http://model.geneontology.org/e41c4341-3d6d-479d-8475-086f3d845697>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > CORNEAL CLOUDING, CONGENITAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007957>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/RO_0002488>  <http://model.geneontology.org/369cc294-dcee-4291-b531-73c5a1470f4c>
+    
+    
+Individual: <http://model.geneontology.org/f292fcf1-aed8-484e-852c-f6f15a246965>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:%300779 corneal dystrophy, endothel"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001131>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300779>
+
+    Annotations: 
+        rdfs:label "%300779 CORNEAL DYSTROPHY, ENDOTHELIAL, X-LINKED; XECD;;ENDOTHELIAL CORNEAL DYSTROPHY, X-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

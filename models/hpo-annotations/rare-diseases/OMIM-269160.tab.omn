@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/257603a0-bf1e-46ff-8f44-c8e7e6225fb6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-269160.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010636>
+
+    Annotations: 
+        rdfs:label "Schizencephaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_269160>
+
+    Annotations: 
+        rdfs:label "SCHIZENCEPHALY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/282c0ba1-a56e-4623-bcf0-8674febcf7b7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:schizencephalyhttp://www"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010636>
+    
+    
+Individual: <http://model.geneontology.org/2d8dc927-7ca4-4ce7-82da-804a9949d301>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_269160>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/282c0ba1-a56e-4623-bcf0-8674febcf7b7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bf949fe6-05b2-412f-8a14-88f37d3bed9b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/282c0ba1-a56e-4623-bcf0-8674febcf7b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/282c0ba1-a56e-4623-bcf0-8674febcf7b7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/282c0ba1-a56e-4623-bcf0-8674febcf7b7>
+    
+    
+Individual: <http://model.geneontology.org/bf949fe6-05b2-412f-8a14-88f37d3bed9b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_269160>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_269160>
+
+    Annotations: 
+        rdfs:label "SCHIZENCEPHALY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

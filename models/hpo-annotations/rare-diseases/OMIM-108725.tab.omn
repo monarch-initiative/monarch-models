@@ -1,0 +1,218 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1bbce764-1239-4e5c-9047-11f7bbe3cc71>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-108725.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001658>
+
+    Annotations: 
+        rdfs:label "Myocardial infarction"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002155>
+
+    Annotations: 
+        rdfs:label "Hypertriglyceridemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003233>
+
+    Annotations: 
+        rdfs:label "Decreased circulating high-density lipoprotein cholesterol"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_108725>
+
+    Annotations: 
+        rdfs:label "ATHEROSCLEROSIS SUSCEPTIBILITY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/082cf503-68e2-4874-b712-94900053760e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/19ce9c1f-f057-49d0-b856-cdd9d556d2b7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108725>
+    
+    
+Individual: <http://model.geneontology.org/220fd572-70c1-49f4-8db7-381b732b1449>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_108725>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d721ac84-e92e-4658-a434-f1f13ce1e6b2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cb0bcfe8-d126-413d-837a-bd4c3782e7f9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d721ac84-e92e-4658-a434-f1f13ce1e6b2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d721ac84-e92e-4658-a434-f1f13ce1e6b2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d721ac84-e92e-4658-a434-f1f13ce1e6b2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/082cf503-68e2-4874-b712-94900053760e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6637af6a-1fac-4d87-a517-fd83e3ccf8da>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/082cf503-68e2-4874-b712-94900053760e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/082cf503-68e2-4874-b712-94900053760e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/082cf503-68e2-4874-b712-94900053760e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51cf7950-1a1e-4db4-a926-4fdc7bbe6027>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/19ce9c1f-f057-49d0-b856-cdd9d556d2b7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51cf7950-1a1e-4db4-a926-4fdc7bbe6027>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51cf7950-1a1e-4db4-a926-4fdc7bbe6027>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/51cf7950-1a1e-4db4-a926-4fdc7bbe6027>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/555faa64-e2d7-4dfa-a107-7173ed0dd322>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bc0e6b1f-95a8-4031-92c2-131ecffcd151>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/555faa64-e2d7-4dfa-a107-7173ed0dd322>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/555faa64-e2d7-4dfa-a107-7173ed0dd322>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/555faa64-e2d7-4dfa-a107-7173ed0dd322>
+    
+    
+Individual: <http://model.geneontology.org/51cf7950-1a1e-4db4-a926-4fdc7bbe6027>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003233>
+    
+    
+Individual: <http://model.geneontology.org/555faa64-e2d7-4dfa-a107-7173ed0dd322>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Increased risk"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001658>
+    
+    
+Individual: <http://model.geneontology.org/6637af6a-1fac-4d87-a517-fd83e3ccf8da>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108725>
+    
+    
+Individual: <http://model.geneontology.org/bc0e6b1f-95a8-4031-92c2-131ecffcd151>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108725>
+    
+    
+Individual: <http://model.geneontology.org/cb0bcfe8-d126-413d-837a-bd4c3782e7f9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_108725>
+    
+    
+Individual: <http://model.geneontology.org/d721ac84-e92e-4658-a434-f1f13ce1e6b2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002155>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_108725>
+
+    Annotations: 
+        rdfs:label "ATHEROSCLEROSIS SUSCEPTIBILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

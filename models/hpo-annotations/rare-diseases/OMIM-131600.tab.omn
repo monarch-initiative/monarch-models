@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9ac3c5e9-aa20-43e7-af0c-89968927d5a9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-131600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000951>
+
+    Annotations: 
+        rdfs:label "Abnormality of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200040>
+
+    Annotations: 
+        rdfs:label "Epidermoid cyst"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_131600>
+
+    Annotations: 
+        rdfs:label "EPIDERMOID CYSTS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/06992dff-9c40-484e-a8ce-985ce540451f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000951>
+    
+    
+Individual: <http://model.geneontology.org/2d8155cc-f4c7-488d-81c6-d488891d2c4c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_131600>
+    
+    
+Individual: <http://model.geneontology.org/8eaa513c-fe40-46cd-a535-1d1079a0faae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/a83a5c5f-fc65-4e30-a9b9-d8c34c8eb81a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_131600>
+    
+    
+Individual: <http://model.geneontology.org/b94645e9-c339-44be-a27d-e534e184ccb4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_131600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d50ae018-44aa-4738-8aa6-4eb00acd9aa2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2d8155cc-f4c7-488d-81c6-d488891d2c4c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d50ae018-44aa-4738-8aa6-4eb00acd9aa2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d50ae018-44aa-4738-8aa6-4eb00acd9aa2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-02-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d50ae018-44aa-4738-8aa6-4eb00acd9aa2>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06992dff-9c40-484e-a8ce-985ce540451f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a83a5c5f-fc65-4e30-a9b9-d8c34c8eb81a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06992dff-9c40-484e-a8ce-985ce540451f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06992dff-9c40-484e-a8ce-985ce540451f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06992dff-9c40-484e-a8ce-985ce540451f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8eaa513c-fe40-46cd-a535-1d1079a0faae>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bd3e5eb6-053c-40a0-aa2b-a2570353d239>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8eaa513c-fe40-46cd-a535-1d1079a0faae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8eaa513c-fe40-46cd-a535-1d1079a0faae>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8eaa513c-fe40-46cd-a535-1d1079a0faae>
+    
+    
+Individual: <http://model.geneontology.org/bd3e5eb6-053c-40a0-aa2b-a2570353d239>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_131600>
+    
+    
+Individual: <http://model.geneontology.org/d50ae018-44aa-4738-8aa6-4eb00acd9aa2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN > EPIDERMOID CYSTS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200040>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_131600>
+
+    Annotations: 
+        rdfs:label "EPIDERMOID CYSTS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

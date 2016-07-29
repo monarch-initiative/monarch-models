@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/80a6183b-d1c8-4211-b805-4804831b2103>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-137130.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001438>
+
+    Annotations: 
+        rdfs:label "Abnormality of the abdomen"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_137130>
+
+    Annotations: 
+        rdfs:label "GASTRIC SNEEZING"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0aa5ee06-fd5d-481a-bbd7-81fd6066530d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137130>
+    
+    
+Individual: <http://model.geneontology.org/38636de5-7c7e-4f31-b84c-1b42fb08f191>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001438>
+    
+    
+Individual: <http://model.geneontology.org/3a0d64a1-c2a5-4861-8210-1d42e74ceb26>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_137130>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/38636de5-7c7e-4f31-b84c-1b42fb08f191>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0aa5ee06-fd5d-481a-bbd7-81fd6066530d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/38636de5-7c7e-4f31-b84c-1b42fb08f191>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/38636de5-7c7e-4f31-b84c-1b42fb08f191>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/38636de5-7c7e-4f31-b84c-1b42fb08f191>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52d52d3c-7bc7-4537-b190-d4bba36aed7a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/89bb181d-f724-400a-8d39-d7fc5c5b24e8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52d52d3c-7bc7-4537-b190-d4bba36aed7a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52d52d3c-7bc7-4537-b190-d4bba36aed7a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52d52d3c-7bc7-4537-b190-d4bba36aed7a>
+    
+    
+Individual: <http://model.geneontology.org/52d52d3c-7bc7-4537-b190-d4bba36aed7a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/89bb181d-f724-400a-8d39-d7fc5c5b24e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137130>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_137130>
+
+    Annotations: 
+        rdfs:label "GASTRIC SNEEZING"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

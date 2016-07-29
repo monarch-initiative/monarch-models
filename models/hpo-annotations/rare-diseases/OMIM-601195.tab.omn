@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1513ce88-057b-4b26-8d13-e8e4025fa497>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601195.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012463>
+
+    Annotations: 
+        rdfs:label "Elevated transferrin saturation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601195>
+
+    Annotations: 
+        rdfs:label "601195 IRON OVERLOAD IN AFRICA;;AFRICAN IRON OVERLOAD;;BANTU SIDEROSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/7f463f02-82d8-46ed-b1b3-f7fda5d6e6d6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LAB > ELEVATED TRANSFERRIN SATURATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012463>
+    
+    
+Individual: <http://model.geneontology.org/a83a5f5a-1227-43b7-a61d-72844e122ba1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601195>
+    
+    
+Individual: <http://model.geneontology.org/af1f52bb-1d8b-4feb-a356-a36b2b636693>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601195>
+    
+    
+Individual: <http://model.geneontology.org/e36187f3-bd0e-4941-b430-799520efeffd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601195>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e9dd174b-9b61-4ce1-b322-12c31d739da7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/af1f52bb-1d8b-4feb-a356-a36b2b636693>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e9dd174b-9b61-4ce1-b322-12c31d739da7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e9dd174b-9b61-4ce1-b322-12c31d739da7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e9dd174b-9b61-4ce1-b322-12c31d739da7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f463f02-82d8-46ed-b1b3-f7fda5d6e6d6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a83a5f5a-1227-43b7-a61d-72844e122ba1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f463f02-82d8-46ed-b1b3-f7fda5d6e6d6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f463f02-82d8-46ed-b1b3-f7fda5d6e6d6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-11-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7f463f02-82d8-46ed-b1b3-f7fda5d6e6d6>
+    
+    
+Individual: <http://model.geneontology.org/e9dd174b-9b61-4ce1-b322-12c31d739da7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601195>
+
+    Annotations: 
+        rdfs:label "601195 IRON OVERLOAD IN AFRICA;;AFRICAN IRON OVERLOAD;;BANTU SIDEROSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

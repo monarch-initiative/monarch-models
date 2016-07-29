@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/132ed2a8-0560-4dce-9ee6-3d07fa419c3b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-600808.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001425>
+
+    Annotations: 
+        rdfs:label "Heterogeneous"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010677>
+
+    Annotations: 
+        rdfs:label "Enuresis nocturna"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_600808>
+
+    Annotations: 
+        rdfs:label "%600808 ENURESIS, NOCTURNAL, 2; ENUR2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0744967b-f0c7-44ad-91e0-957855424211>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600808>
+    
+    
+Individual: <http://model.geneontology.org/4b11a5ab-75ae-4e6f-85c5-b1c57bb937de>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/82945da6-4aaa-4400-998a-bf08dcebeafe>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010677>
+    
+    
+Individual: <http://model.geneontology.org/89071818-f35c-4e5e-9597-c9fbcf39d938>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600808>
+    
+    
+Individual: <http://model.geneontology.org/a949818b-f7ea-40b5-837f-30e08412b82f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_600808>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddd6d550-ac70-4653-91f0-f99fa32d5530>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b79f158d-f547-4300-a355-fc14996b5067>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddd6d550-ac70-4653-91f0-f99fa32d5530>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddd6d550-ac70-4653-91f0-f99fa32d5530>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddd6d550-ac70-4653-91f0-f99fa32d5530>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b11a5ab-75ae-4e6f-85c5-b1c57bb937de>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0744967b-f0c7-44ad-91e0-957855424211>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b11a5ab-75ae-4e6f-85c5-b1c57bb937de>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b11a5ab-75ae-4e6f-85c5-b1c57bb937de>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4b11a5ab-75ae-4e6f-85c5-b1c57bb937de>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82945da6-4aaa-4400-998a-bf08dcebeafe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/89071818-f35c-4e5e-9597-c9fbcf39d938>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82945da6-4aaa-4400-998a-bf08dcebeafe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82945da6-4aaa-4400-998a-bf08dcebeafe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82945da6-4aaa-4400-998a-bf08dcebeafe>
+    
+    
+Individual: <http://model.geneontology.org/b79f158d-f547-4300-a355-fc14996b5067>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600808>
+    
+    
+Individual: <http://model.geneontology.org/ddd6d550-ac70-4653-91f0-f99fa32d5530>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > HETEROGENEITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001425>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_600808>
+
+    Annotations: 
+        rdfs:label "%600808 ENURESIS, NOCTURNAL, 2; ENUR2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

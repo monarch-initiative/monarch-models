@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7f8f5c9c-b0f8-45c4-817c-a3d3dbffff9c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615457.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001513>
+
+    Annotations: 
+        rdfs:label "Obesity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615457>
+
+    Annotations: 
+        rdfs:label "#615457 BODY MASS INDEX QUANTITATIVE TRAIT LOCUS 18; BMIQ18;;OBESITY, SUSCEPTIBILITY TO"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/18fb292b-d96e-4463-9281-16112f18d2bd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "MODIFIER:SEVERE;OMIM-CS:GROWTH_WEIGHT > OBESITY, SEVERE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001513>
+    
+    
+Individual: <http://model.geneontology.org/1964dd17-e3c5-42f2-b0cf-f0b101d9b4d9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615457>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18fb292b-d96e-4463-9281-16112f18d2bd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/54475a1b-4740-4c5f-92e5-67eb28797340>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18fb292b-d96e-4463-9281-16112f18d2bd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18fb292b-d96e-4463-9281-16112f18d2bd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18fb292b-d96e-4463-9281-16112f18d2bd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/602d6344-66aa-4509-84c0-4307246dd5b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1ab74dfd-345f-4894-9f92-90c87bca7825>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/602d6344-66aa-4509-84c0-4307246dd5b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/602d6344-66aa-4509-84c0-4307246dd5b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/602d6344-66aa-4509-84c0-4307246dd5b4>
+    
+    
+Individual: <http://model.geneontology.org/1ab74dfd-345f-4894-9f92-90c87bca7825>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615457>
+    
+    
+Individual: <http://model.geneontology.org/54475a1b-4740-4c5f-92e5-67eb28797340>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615457>
+    
+    
+Individual: <http://model.geneontology.org/602d6344-66aa-4509-84c0-4307246dd5b4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615457>
+
+    Annotations: 
+        rdfs:label "#615457 BODY MASS INDEX QUANTITATIVE TRAIT LOCUS 18; BMIQ18;;OBESITY, SUSCEPTIBILITY TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

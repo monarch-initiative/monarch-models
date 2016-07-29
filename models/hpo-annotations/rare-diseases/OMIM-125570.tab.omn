@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3e400f6a-aaad-482b-8b6d-606364b01ced>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-125570.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007608>
+
+    Annotations: 
+        rdfs:label "Abnormal palmar dermal ridges"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_125570>
+
+    Annotations: 
+        rdfs:label "DERMATOGLYPHICS--ARCH ON ANY DIGIT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0666996b-2312-415c-af83-1bc0414c31fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125570>
+    
+    
+Individual: <http://model.geneontology.org/18e6de97-a235-4453-b274-bc9861b62fe9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007608>
+    
+    
+Individual: <http://model.geneontology.org/cafaa760-bdba-46a1-a975-9c5e30a08038>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/eb4bf399-bbbb-4e06-873b-a5f92517173e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125570>
+    
+    
+Individual: <http://model.geneontology.org/f0aa60d3-f688-463f-973f-297738b43805>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_125570>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cafaa760-bdba-46a1-a975-9c5e30a08038>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0666996b-2312-415c-af83-1bc0414c31fb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cafaa760-bdba-46a1-a975-9c5e30a08038>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cafaa760-bdba-46a1-a975-9c5e30a08038>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cafaa760-bdba-46a1-a975-9c5e30a08038>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18e6de97-a235-4453-b274-bc9861b62fe9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eb4bf399-bbbb-4e06-873b-a5f92517173e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18e6de97-a235-4453-b274-bc9861b62fe9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18e6de97-a235-4453-b274-bc9861b62fe9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/18e6de97-a235-4453-b274-bc9861b62fe9>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_125570>
+
+    Annotations: 
+        rdfs:label "DERMATOGLYPHICS--ARCH ON ANY DIGIT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

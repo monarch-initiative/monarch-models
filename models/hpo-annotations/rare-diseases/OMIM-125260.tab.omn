@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/094a6220-05a8-421e-8338-b9c230e3e860>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-125260.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002715>
+
+    Annotations: 
+        rdfs:label "Abnormality of the immune system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_125260>
+
+    Annotations: 
+        rdfs:label "DEFECTIVE INTERFERING PARTICLE INDUCTION, CONTROL OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4276bf68-c9af-4673-b99a-94bd30196874>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125260>
+    
+    
+Individual: <http://model.geneontology.org/4c83aeed-2fc1-4d1e-a73e-2ec185504148>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/72ed871f-0135-414e-b9a1-c6d62ab5a4eb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125260>
+    
+    
+Individual: <http://model.geneontology.org/c9fc5c87-ee85-4bb6-99f1-e2b44c16bd7d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_125260>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d72c692e-8076-4385-baa1-27e7cbc0fd39>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/72ed871f-0135-414e-b9a1-c6d62ab5a4eb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d72c692e-8076-4385-baa1-27e7cbc0fd39>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d72c692e-8076-4385-baa1-27e7cbc0fd39>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d72c692e-8076-4385-baa1-27e7cbc0fd39>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c83aeed-2fc1-4d1e-a73e-2ec185504148>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4276bf68-c9af-4673-b99a-94bd30196874>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c83aeed-2fc1-4d1e-a73e-2ec185504148>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c83aeed-2fc1-4d1e-a73e-2ec185504148>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c83aeed-2fc1-4d1e-a73e-2ec185504148>
+    
+    
+Individual: <http://model.geneontology.org/d72c692e-8076-4385-baa1-27e7cbc0fd39>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002715>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_125260>
+
+    Annotations: 
+        rdfs:label "DEFECTIVE INTERFERING PARTICLE INDUCTION, CONTROL OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

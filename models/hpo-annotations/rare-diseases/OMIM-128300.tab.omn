@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2280cc1f-09e0-4f63-b8a6-3ff1dbe3874b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-128300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004459>
+
+    Annotations: 
+        rdfs:label "Exostosis of the external auditory canal"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_128300>
+
+    Annotations: 
+        rdfs:label "EAR EXOSTOSES"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3c2ba5b0-cff7-4172-b5b7-2655cb6e10e6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/6329cb5c-c87d-4f10-b605-6da553b629d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004459>
+    
+    
+Individual: <http://model.geneontology.org/71c2e6b4-0d77-4a5c-a799-4765b2c3a33e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128300>
+    
+    
+Individual: <http://model.geneontology.org/a854270a-c2c1-4b5a-a025-815f2a586b3e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_128300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c2ba5b0-cff7-4172-b5b7-2655cb6e10e6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/71c2e6b4-0d77-4a5c-a799-4765b2c3a33e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c2ba5b0-cff7-4172-b5b7-2655cb6e10e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c2ba5b0-cff7-4172-b5b7-2655cb6e10e6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c2ba5b0-cff7-4172-b5b7-2655cb6e10e6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6329cb5c-c87d-4f10-b605-6da553b629d8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b7f966c7-a30b-4451-9e20-ad1b5ed0c7e3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6329cb5c-c87d-4f10-b605-6da553b629d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6329cb5c-c87d-4f10-b605-6da553b629d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6329cb5c-c87d-4f10-b605-6da553b629d8>
+    
+    
+Individual: <http://model.geneontology.org/b7f966c7-a30b-4451-9e20-ad1b5ed0c7e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128300>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_128300>
+
+    Annotations: 
+        rdfs:label "EAR EXOSTOSES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

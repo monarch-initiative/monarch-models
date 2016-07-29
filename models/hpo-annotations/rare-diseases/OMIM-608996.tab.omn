@@ -1,0 +1,135 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8e2be13f-cd37-404b-a4fb-1c1e6ecaa0ae>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-608996.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008209>
+
+    Annotations: 
+        rdfs:label "Premature ovarian failure"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_608996>
+
+    Annotations: 
+        rdfs:label "#608996 PREMATURE OVARIAN FAILURE 3; POF3"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3412baaf-97b1-4634-9378-be4f236c14a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008209>
+    
+    
+Individual: <http://model.geneontology.org/d8e6f4e5-ad39-4817-b873-d920d8cbf982>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:19429596>
+    
+    
+Individual: <http://model.geneontology.org/dceb9e64-ba6d-43a0-a269-7a458f10f41f>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:19429596>
+    
+    
+Individual: <http://model.geneontology.org/f6d1b818-27ec-48b1-9222-4f8a9421f980>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f7dac1d7-3168-4524-9aa6-cbadb4e4149c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_608996>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6d1b818-27ec-48b1-9222-4f8a9421f980>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dceb9e64-ba6d-43a0-a269-7a458f10f41f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6d1b818-27ec-48b1-9222-4f8a9421f980>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6d1b818-27ec-48b1-9222-4f8a9421f980>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f6d1b818-27ec-48b1-9222-4f8a9421f980>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3412baaf-97b1-4634-9378-be4f236c14a4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d8e6f4e5-ad39-4817-b873-d920d8cbf982>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3412baaf-97b1-4634-9378-be4f236c14a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3412baaf-97b1-4634-9378-be4f236c14a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3412baaf-97b1-4634-9378-be4f236c14a4>
+    
+    
+Individual: <pmid:19429596>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

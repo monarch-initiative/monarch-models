@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e21bfcdc-8b76-46a8-9ed3-3aad815496ca>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-156520.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001840>
+
+    Annotations: 
+        rdfs:label "Metatarsus adductus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_156520>
+
+    Annotations: 
+        rdfs:label "%156520 METATARSUS VARUS, TYPE I"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/59733030-0658-4acf-85d4-dac80e0db4be>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_156520>
+    
+    
+Individual: <http://model.geneontology.org/6134bd85-9ffa-4d69-a3bb-80f0fb263045>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_156520>
+    
+    
+Individual: <http://model.geneontology.org/88196f8f-abc2-478b-99ff-6369dfd328bf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/b616d15a-a4d1-4c73-9c95-cfd86d5ef831>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_156520>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dbc4caaf-7747-45b9-84d5-767a267d8880>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/59733030-0658-4acf-85d4-dac80e0db4be>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dbc4caaf-7747-45b9-84d5-767a267d8880>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dbc4caaf-7747-45b9-84d5-767a267d8880>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dbc4caaf-7747-45b9-84d5-767a267d8880>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88196f8f-abc2-478b-99ff-6369dfd328bf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6134bd85-9ffa-4d69-a3bb-80f0fb263045>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88196f8f-abc2-478b-99ff-6369dfd328bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88196f8f-abc2-478b-99ff-6369dfd328bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/88196f8f-abc2-478b-99ff-6369dfd328bf>
+    
+    
+Individual: <http://model.geneontology.org/dbc4caaf-7747-45b9-84d5-767a267d8880>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001840>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_156520>
+
+    Annotations: 
+        rdfs:label "%156520 METATARSUS VARUS, TYPE I"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

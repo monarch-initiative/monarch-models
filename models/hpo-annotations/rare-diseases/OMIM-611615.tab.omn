@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/27ac41a9-49b0-4dea-b84d-7843bf51daa7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-611615.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001644>
+
+    Annotations: 
+        rdfs:label "Dilated cardiomyopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003701>
+
+    Annotations: 
+        rdfs:label "Proximal muscle weakness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_611615>
+
+    Annotations: 
+        rdfs:label "CARDIOMYOPATHY, DILATED, 1X"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/02efc236-d2ea-406b-88a4-390e86e237af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003701>
+    
+    
+Individual: <http://model.geneontology.org/16669132-58c1-494f-8349-a8a99d4893c7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_611615>
+    
+    
+Individual: <http://model.geneontology.org/220d0d97-39bf-4e5e-9826-19c5dfbeffcf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/3332f820-244a-4e3a-8505-8f26d0eea5a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001644>
+    
+    
+Individual: <http://model.geneontology.org/4817b04a-5200-4215-9342-c83a912be106>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_611615>
+    
+    
+Individual: <http://model.geneontology.org/4dc3c8a6-bca4-4058-a9aa-8b44edfaf11d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_611615>
+    
+    
+Individual: <http://model.geneontology.org/9d97ba17-0278-4a3a-a1fe-d4ad9bfbbc31>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_611615>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02efc236-d2ea-406b-88a4-390e86e237af>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/16669132-58c1-494f-8349-a8a99d4893c7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02efc236-d2ea-406b-88a4-390e86e237af>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02efc236-d2ea-406b-88a4-390e86e237af>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/02efc236-d2ea-406b-88a4-390e86e237af>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220d0d97-39bf-4e5e-9826-19c5dfbeffcf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4dc3c8a6-bca4-4058-a9aa-8b44edfaf11d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220d0d97-39bf-4e5e-9826-19c5dfbeffcf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220d0d97-39bf-4e5e-9826-19c5dfbeffcf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/220d0d97-39bf-4e5e-9826-19c5dfbeffcf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3332f820-244a-4e3a-8505-8f26d0eea5a4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4817b04a-5200-4215-9342-c83a912be106>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3332f820-244a-4e3a-8505-8f26d0eea5a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3332f820-244a-4e3a-8505-8f26d0eea5a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3332f820-244a-4e3a-8505-8f26d0eea5a4>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_611615>
+
+    Annotations: 
+        rdfs:label "CARDIOMYOPATHY, DILATED, 1X"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

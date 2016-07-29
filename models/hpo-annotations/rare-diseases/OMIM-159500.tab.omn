@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/877d688b-3f4f-4005-a6e8-d520e2a602c5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-159500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000478>
+
+    Annotations: 
+        rdfs:label "Abnormality of the eye"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_159500>
+
+    Annotations: 
+        rdfs:label "MYELINATED OPTIC NERVE FIBERS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/06983a6f-d1da-405b-8597-44bef936d42c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_159500>
+    
+    
+Individual: <http://model.geneontology.org/1c898dba-aeb8-4bb1-8f47-d23558cb590a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000478>
+    
+    
+Individual: <http://model.geneontology.org/3ff01a83-7f73-41da-9287-85ac5b3405f2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/5214dfe4-e7c3-4d75-9c9e-740fe0106ed7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_159500>
+    
+    
+Individual: <http://model.geneontology.org/9dfe739e-a5f9-4229-b7d2-0a06b94d06dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_159500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c898dba-aeb8-4bb1-8f47-d23558cb590a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/06983a6f-d1da-405b-8597-44bef936d42c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c898dba-aeb8-4bb1-8f47-d23558cb590a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c898dba-aeb8-4bb1-8f47-d23558cb590a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c898dba-aeb8-4bb1-8f47-d23558cb590a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ff01a83-7f73-41da-9287-85ac5b3405f2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5214dfe4-e7c3-4d75-9c9e-740fe0106ed7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ff01a83-7f73-41da-9287-85ac5b3405f2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ff01a83-7f73-41da-9287-85ac5b3405f2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ff01a83-7f73-41da-9287-85ac5b3405f2>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_159500>
+
+    Annotations: 
+        rdfs:label "MYELINATED OPTIC NERVE FIBERS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

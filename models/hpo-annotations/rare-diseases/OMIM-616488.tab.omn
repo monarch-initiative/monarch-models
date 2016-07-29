@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d293dfa1-ded2-4447-adb0-089f651e709f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616488.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000559>
+
+    Annotations: 
+        rdfs:label "Corneal scarring"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000966>
+
+    Annotations: 
+        rdfs:label "Hypohidrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012804>
+
+    Annotations: 
+        rdfs:label "Corneal ulceration"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616488>
+
+    Annotations: 
+        rdfs:label "#616488 NEUROPATHY, HEREDITARY SENSORY AND AUTONOMIC, TYPE VIII; HSAN8;;HSAN VIII"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/007e6416-85a4-4f52-b4ca-0873d649ca18>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > CORNEAL SCARRING"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000559>
+    
+    
+Individual: <http://model.geneontology.org/4ccf6919-2362-466a-b07f-fba337c2ae81>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616488>
+    
+    
+Individual: <http://model.geneontology.org/5be92ff5-f3d3-47b2-b180-da4b375d9477>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616488>
+    
+    
+Individual: <http://model.geneontology.org/a0e923c5-f6c2-4ee3-af08-3041f70ba627>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > DECREASED SWEATING"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000966>
+    
+    
+Individual: <http://model.geneontology.org/b1f27772-4d85-4ccf-8ed0-fe88424fe8fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616488>
+    
+    
+Individual: <http://model.geneontology.org/f918f7e1-cf08-4ab2-b388-f1c4c129a919>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > CORNEAL ULCERATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012804>
+    
+    
+Individual: <http://model.geneontology.org/fc1797c0-08f1-4c74-b5cb-82951dba70c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616488>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0e923c5-f6c2-4ee3-af08-3041f70ba627>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5be92ff5-f3d3-47b2-b180-da4b375d9477>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0e923c5-f6c2-4ee3-af08-3041f70ba627>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0e923c5-f6c2-4ee3-af08-3041f70ba627>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a0e923c5-f6c2-4ee3-af08-3041f70ba627>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f918f7e1-cf08-4ab2-b388-f1c4c129a919>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b1f27772-4d85-4ccf-8ed0-fe88424fe8fa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f918f7e1-cf08-4ab2-b388-f1c4c129a919>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f918f7e1-cf08-4ab2-b388-f1c4c129a919>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f918f7e1-cf08-4ab2-b388-f1c4c129a919>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/007e6416-85a4-4f52-b4ca-0873d649ca18>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4ccf6919-2362-466a-b07f-fba337c2ae81>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/007e6416-85a4-4f52-b4ca-0873d649ca18>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/007e6416-85a4-4f52-b4ca-0873d649ca18>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/007e6416-85a4-4f52-b4ca-0873d649ca18>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616488>
+
+    Annotations: 
+        rdfs:label "#616488 NEUROPATHY, HEREDITARY SENSORY AND AUTONOMIC, TYPE VIII; HSAN8;;HSAN VIII"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

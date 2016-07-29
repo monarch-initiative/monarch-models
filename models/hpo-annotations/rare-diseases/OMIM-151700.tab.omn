@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c4be0afc-d1e9-4e1e-b14c-1181ea3e6ec4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-151700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012032>
+
+    Annotations: 
+        rdfs:label "Lipoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012549>
+
+    Annotations: 
+        rdfs:label "Conjunctival lipoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_151700>
+
+    Annotations: 
+        rdfs:label "LIPOMA OF THE CONJUNCTIVA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0f480643-ef7c-477e-b651-c9d4da50ef5b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/1c8707b1-7979-427c-a155-e76be4677280>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_151700>
+    
+    
+Individual: <http://model.geneontology.org/43a27771-7ff8-4527-8d3c-70e243644445>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_151700>
+    
+    
+Individual: <http://model.geneontology.org/46674d5c-da6f-4e38-b5d2-aaa2e35e8251>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_151700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae8412ba-1f1b-46c0-9450-2d6abbc2f62e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1c8707b1-7979-427c-a155-e76be4677280>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae8412ba-1f1b-46c0-9450-2d6abbc2f62e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae8412ba-1f1b-46c0-9450-2d6abbc2f62e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ae8412ba-1f1b-46c0-9450-2d6abbc2f62e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f480643-ef7c-477e-b651-c9d4da50ef5b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/db9f1e0e-771d-4cca-89f2-8ff93dc7390f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f480643-ef7c-477e-b651-c9d4da50ef5b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f480643-ef7c-477e-b651-c9d4da50ef5b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f480643-ef7c-477e-b651-c9d4da50ef5b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6aedee2f-2305-49e9-b816-b4f9cb24b111>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/43a27771-7ff8-4527-8d3c-70e243644445>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6aedee2f-2305-49e9-b816-b4f9cb24b111>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6aedee2f-2305-49e9-b816-b4f9cb24b111>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-00-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6aedee2f-2305-49e9-b816-b4f9cb24b111>
+    
+    
+Individual: <http://model.geneontology.org/6aedee2f-2305-49e9-b816-b4f9cb24b111>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012549>
+    
+    
+Individual: <http://model.geneontology.org/ae8412ba-1f1b-46c0-9450-2d6abbc2f62e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:lipoma of the conjunctiva"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012032>
+    
+    
+Individual: <http://model.geneontology.org/db9f1e0e-771d-4cca-89f2-8ff93dc7390f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_151700>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_151700>
+
+    Annotations: 
+        rdfs:label "LIPOMA OF THE CONJUNCTIVA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

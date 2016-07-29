@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/496d74c6-b0fb-464b-9462-2a2eddefc7d0>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-156240.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100001>
+
+    Annotations: 
+        rdfs:label "Malignant mesothelioma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_156240>
+
+    Annotations: 
+        rdfs:label "MESOTHELIOMA, MALIGNANT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/16e97a9b-7935-4224-903e-da656d1bb3c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100001>
+    
+    
+Individual: <http://model.geneontology.org/270ef10a-6385-4a3f-9698-6d464587c380>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_156240>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16e97a9b-7935-4224-903e-da656d1bb3c1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4742a4bc-9586-44d8-a4c8-dc64da5627c7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16e97a9b-7935-4224-903e-da656d1bb3c1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16e97a9b-7935-4224-903e-da656d1bb3c1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16e97a9b-7935-4224-903e-da656d1bb3c1>
+    
+    
+Individual: <http://model.geneontology.org/4742a4bc-9586-44d8-a4c8-dc64da5627c7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_156240>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_156240>
+
+    Annotations: 
+        rdfs:label "MESOTHELIOMA, MALIGNANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

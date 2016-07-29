@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/11280b6a-0e2f-4d5e-9fb9-9452d372152c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-141405.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000707>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nervous system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010828>
+
+    Annotations: 
+        rdfs:label "Hemifacial spasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_141405>
+
+    Annotations: 
+        rdfs:label "HEMIFACIAL SPASM, FAMILIAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0e65e392-fec0-4ecf-8c12-ab5fe8408056>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEURO > HEMIFACIAL SPASM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010828>
+    
+    
+Individual: <http://model.geneontology.org/26e4ef1a-e67a-4d56-897e-99d773cb1c3b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_141405>
+    
+    
+Individual: <http://model.geneontology.org/3aeac278-5127-4940-a265-57a0ca03fea0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_141405>
+    
+    
+Individual: <http://model.geneontology.org/4c3ac76d-4415-42d3-9d3f-c14a7ff35887>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000707>
+    
+    
+Individual: <http://model.geneontology.org/5b9f565f-29d2-4ab0-80b7-fdb84c16d413>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_141405>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6aced08-b3eb-4f9b-9c9e-b2965d66d042>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3aeac278-5127-4940-a265-57a0ca03fea0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6aced08-b3eb-4f9b-9c9e-b2965d66d042>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6aced08-b3eb-4f9b-9c9e-b2965d66d042>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e6aced08-b3eb-4f9b-9c9e-b2965d66d042>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e65e392-fec0-4ecf-8c12-ab5fe8408056>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/26e4ef1a-e67a-4d56-897e-99d773cb1c3b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e65e392-fec0-4ecf-8c12-ab5fe8408056>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e65e392-fec0-4ecf-8c12-ab5fe8408056>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e65e392-fec0-4ecf-8c12-ab5fe8408056>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c3ac76d-4415-42d3-9d3f-c14a7ff35887>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c9485642-21b6-4876-9463-163b77b01398>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c3ac76d-4415-42d3-9d3f-c14a7ff35887>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c3ac76d-4415-42d3-9d3f-c14a7ff35887>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c3ac76d-4415-42d3-9d3f-c14a7ff35887>
+    
+    
+Individual: <http://model.geneontology.org/c9485642-21b6-4876-9463-163b77b01398>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_141405>
+    
+    
+Individual: <http://model.geneontology.org/e6aced08-b3eb-4f9b-9c9e-b2965d66d042>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_141405>
+
+    Annotations: 
+        rdfs:label "HEMIFACIAL SPASM, FAMILIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

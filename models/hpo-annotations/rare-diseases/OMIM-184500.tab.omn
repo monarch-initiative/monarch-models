@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/89a250ef-bf5a-45c5-978f-c1fa1bd3140c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-184500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000695>
+
+    Annotations: 
+        rdfs:label "Natal tooth"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012035>
+
+    Annotations: 
+        rdfs:label "Steatocystoma multiplex"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_184500>
+
+    Annotations: 
+        rdfs:label "STEATOCYSTOMA MULTIPLEX"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4ff2e05a-69a6-4a09-b62a-b745cae7ac22>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/53e4e4ca-1847-4bbd-b6c6-e4a0b2daf3bd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_184500>
+    
+    
+Individual: <http://model.geneontology.org/543e9bc5-fddf-4efc-b44d-1a67b1ea8c2c>
+
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0000695>)
+    
+    
+Individual: <http://model.geneontology.org/5c8cfb5d-4012-4ab4-89b0-4323d63aa5b5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_184500>
+    
+    
+Individual: <http://model.geneontology.org/aa052cc1-c77e-46fd-a3e6-82ed11a663d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012035>
+    
+    
+Individual: <http://model.geneontology.org/c11e0d13-c7c0-43fe-81c7-e82387da999f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_184500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa052cc1-c77e-46fd-a3e6-82ed11a663d8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ffce8eaf-16b9-4d38-9755-f4be420632b8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa052cc1-c77e-46fd-a3e6-82ed11a663d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa052cc1-c77e-46fd-a3e6-82ed11a663d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-07-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aa052cc1-c77e-46fd-a3e6-82ed11a663d8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff2e05a-69a6-4a09-b62a-b745cae7ac22>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/53e4e4ca-1847-4bbd-b6c6-e4a0b2daf3bd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff2e05a-69a6-4a09-b62a-b745cae7ac22>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff2e05a-69a6-4a09-b62a-b745cae7ac22>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff2e05a-69a6-4a09-b62a-b745cae7ac22>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/543e9bc5-fddf-4efc-b44d-1a67b1ea8c2c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5c8cfb5d-4012-4ab4-89b0-4323d63aa5b5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/543e9bc5-fddf-4efc-b44d-1a67b1ea8c2c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/543e9bc5-fddf-4efc-b44d-1a67b1ea8c2c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/543e9bc5-fddf-4efc-b44d-1a67b1ea8c2c>
+    
+    
+Individual: <http://model.geneontology.org/ffce8eaf-16b9-4d38-9755-f4be420632b8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_184500>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_184500>
+
+    Annotations: 
+        rdfs:label "STEATOCYSTOMA MULTIPLEX"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

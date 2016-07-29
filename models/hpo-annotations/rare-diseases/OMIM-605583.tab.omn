@@ -1,0 +1,153 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/45b0e612-e8c3-4760-8802-207271e59163>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-605583.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000407>
+
+    Annotations: 
+        rdfs:label "Sensorineural hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_605583>
+
+    Annotations: 
+        rdfs:label "#605583 DEAFNESS, AUTOSOMAL DOMINANT 25; DFNA25"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/252c8b10-4ff4-4065-86df-9ced0240a488>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "obligate"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/a44aca90-ddbc-44b8-8427-83afdf84744e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_605583>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cca97407-931e-413f-afe7-dd871badad16>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d07ef706-6fda-4821-9c89-fb3c7c675fc9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cca97407-931e-413f-afe7-dd871badad16>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cca97407-931e-413f-afe7-dd871badad16>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cca97407-931e-413f-afe7-dd871badad16>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec439c02-02a8-4173-af55-0cefacde46fc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b6b3f006-92b7-4939-998d-e87ffc30b382>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec439c02-02a8-4173-af55-0cefacde46fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec439c02-02a8-4173-af55-0cefacde46fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ec439c02-02a8-4173-af55-0cefacde46fc>
+    
+    
+Individual: <http://model.geneontology.org/b6b3f006-92b7-4939-998d-e87ffc30b382>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_605583>
+    
+    
+Individual: <http://model.geneontology.org/cca97407-931e-413f-afe7-dd871badad16>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/d07ef706-6fda-4821-9c89-fb3c7c675fc9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_605583>
+    
+    
+Individual: <http://model.geneontology.org/ec439c02-02a8-4173-af55-0cefacde46fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000407>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/252c8b10-4ff4-4065-86df-9ced0240a488>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_605583>
+
+    Annotations: 
+        rdfs:label "#605583 DEAFNESS, AUTOSOMAL DOMINANT 25; DFNA25"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

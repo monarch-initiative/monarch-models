@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/347aa80d-ee68-4e0f-9754-e13e9222261c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-139630.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001595>
+
+    Annotations: 
+        rdfs:label "Abnormality of the hair"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_139630>
+
+    Annotations: 
+        rdfs:label "HAIRY NOSE TIP"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1e0ff83d-9fb7-4072-a814-56f380763ced>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_139630>
+    
+    
+Individual: <http://model.geneontology.org/316d68c7-e3c3-41b1-8769-c26974444484>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001595>
+    
+    
+Individual: <http://model.geneontology.org/fb461e3c-7ac0-46ce-90ee-be2cc71ceaeb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_139630>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/316d68c7-e3c3-41b1-8769-c26974444484>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1e0ff83d-9fb7-4072-a814-56f380763ced>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/316d68c7-e3c3-41b1-8769-c26974444484>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/316d68c7-e3c3-41b1-8769-c26974444484>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/316d68c7-e3c3-41b1-8769-c26974444484>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_139630>
+
+    Annotations: 
+        rdfs:label "HAIRY NOSE TIP"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

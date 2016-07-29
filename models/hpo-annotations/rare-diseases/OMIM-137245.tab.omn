@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1b2221c4-e479-456d-b219-0d3ba75e6ecf>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-137245.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0045038>
+
+    Annotations: 
+        rdfs:label "Gastric lymphoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_137245>
+
+    Annotations: 
+        rdfs:label "137245 GASTRIC LYMPHOMA, PRIMARY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/183f5fb6-332c-4f5d-8973-772435bf3c48>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-TX"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0045038>
+    
+    
+Individual: <http://model.geneontology.org/96892792-c2d4-4197-965b-3d386020460b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_137245>
+    
+    
+Individual: <http://model.geneontology.org/e5164d52-a4e7-4ec3-8026-ee7c19b2b24b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_137245>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/183f5fb6-332c-4f5d-8973-772435bf3c48>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/96892792-c2d4-4197-965b-3d386020460b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/183f5fb6-332c-4f5d-8973-772435bf3c48>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/183f5fb6-332c-4f5d-8973-772435bf3c48>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/183f5fb6-332c-4f5d-8973-772435bf3c48>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_137245>
+
+    Annotations: 
+        rdfs:label "137245 GASTRIC LYMPHOMA, PRIMARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

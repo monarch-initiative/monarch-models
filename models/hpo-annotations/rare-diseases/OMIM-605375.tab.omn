@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/879353a6-3750-4c03-a61e-47bc6eb4f69e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-605375.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001250>
+
+    Annotations: 
+        rdfs:label "Seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_605375>
+
+    Annotations: 
+        rdfs:label "#605375 EPILEPSY, NOCTURNAL FRONTAL LOBE, 3; ENFL3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3d847361-467e-4c51-8446-349b4493cfc8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_605375>
+    
+    
+Individual: <http://model.geneontology.org/95497c8b-3747-4e12-a825-8b496794ed85>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#605375 epilepsy, nocturnal frontal"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001250>
+    
+    
+Individual: <http://model.geneontology.org/b7647d2e-0a86-4a18-8343-85ad055cefb6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_605375>
+    
+    
+Individual: <http://model.geneontology.org/bf15ae1b-503c-49f8-9dec-71f321f4f69f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f5380d5f-ecab-4011-af28-b61bd14d409b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_605375>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf15ae1b-503c-49f8-9dec-71f321f4f69f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b7647d2e-0a86-4a18-8343-85ad055cefb6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf15ae1b-503c-49f8-9dec-71f321f4f69f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf15ae1b-503c-49f8-9dec-71f321f4f69f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf15ae1b-503c-49f8-9dec-71f321f4f69f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95497c8b-3747-4e12-a825-8b496794ed85>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3d847361-467e-4c51-8446-349b4493cfc8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95497c8b-3747-4e12-a825-8b496794ed85>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95497c8b-3747-4e12-a825-8b496794ed85>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95497c8b-3747-4e12-a825-8b496794ed85>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_605375>
+
+    Annotations: 
+        rdfs:label "#605375 EPILEPSY, NOCTURNAL FRONTAL LOBE, 3; ENFL3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

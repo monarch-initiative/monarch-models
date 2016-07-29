@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1da11d91-920d-4e62-828e-fd07a55039a9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-247430.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002728>
+
+    Annotations: 
+        rdfs:label "Chronic mucocutaneous candidiasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_247430>
+
+    Annotations: 
+        rdfs:label "LYMPHOBLASTIC TRANSFORMATION, INHIBITION OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0502b0d1-2efc-48c5-ab66-7658a1bfb92e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002728>
+    
+    
+Individual: <http://model.geneontology.org/1341e4cf-87b2-4104-bee8-354f64805f3c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_247430>
+    
+    
+Individual: <http://model.geneontology.org/245548dd-d3e2-4711-adf7-4c48a4b45843>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/6a05f649-f247-475a-98de-dbfa97951859>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/7e09a510-2fd9-4c16-8d2e-bc8eb80f348a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_247430>
+    
+    
+Individual: <http://model.geneontology.org/86a01f76-aead-43d5-9cce-6f7feaab3012>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_247430>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0502b0d1-2efc-48c5-ab66-7658a1bfb92e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7e09a510-2fd9-4c16-8d2e-bc8eb80f348a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0502b0d1-2efc-48c5-ab66-7658a1bfb92e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0502b0d1-2efc-48c5-ab66-7658a1bfb92e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0502b0d1-2efc-48c5-ab66-7658a1bfb92e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/245548dd-d3e2-4711-adf7-4c48a4b45843>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f2237c9c-9a39-46dd-9485-7fa7a2d5700f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/245548dd-d3e2-4711-adf7-4c48a4b45843>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/245548dd-d3e2-4711-adf7-4c48a4b45843>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/245548dd-d3e2-4711-adf7-4c48a4b45843>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a05f649-f247-475a-98de-dbfa97951859>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1341e4cf-87b2-4104-bee8-354f64805f3c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a05f649-f247-475a-98de-dbfa97951859>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a05f649-f247-475a-98de-dbfa97951859>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6a05f649-f247-475a-98de-dbfa97951859>
+    
+    
+Individual: <http://model.geneontology.org/f2237c9c-9a39-46dd-9485-7fa7a2d5700f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_247430>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_247430>
+
+    Annotations: 
+        rdfs:label "LYMPHOBLASTIC TRANSFORMATION, INHIBITION OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

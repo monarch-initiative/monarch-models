@@ -1,0 +1,307 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ebf99620-120c-4901-a7d7-f700322b861e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615812.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000822>
+
+    Annotations: 
+        rdfs:label "Hypertension"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001297>
+
+    Annotations: 
+        rdfs:label "Stroke"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001956>
+
+    Annotations: 
+        rdfs:label "Truncal obesity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003124>
+
+    Annotations: 
+        rdfs:label "Hypercholesterolemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012743>
+
+    Annotations: 
+        rdfs:label "Abdominal obesity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615812>
+
+    Annotations: 
+        rdfs:label "ABDOMINAL OBESITY-METABOLIC SYNDROME 3; AOMS3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/23012fa8-4638-46b1-bc49-098aa72e1b40>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "MODIFIER:SEVERE;OMIM-CS:CARDIOVASCULAR_VASCULAR > HYPERTENSION, SEVERE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000822>
+    
+    
+Individual: <http://model.geneontology.org/25a5de2e-70ce-4c41-9d26-7487ed19f17b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_VASCULAR > STROKE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001297>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/63e97616-876a-4068-a673-6bbc7d64f011>
+    
+    
+Individual: <http://model.geneontology.org/42da1c87-6b5a-4ba0-8962-2f63dc496062>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615812>
+    
+    
+Individual: <http://model.geneontology.org/6343eda8-3338-4d52-937b-ae2b701b8cde>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > ELEVATED TOTAL CHOLESTEROL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003124>
+    
+    
+Individual: <http://model.geneontology.org/63e97616-876a-4068-a673-6bbc7d64f011>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/7169a6d6-6ba1-44af-814c-b1583f157414>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615812>
+    
+    
+Individual: <http://model.geneontology.org/9ea0bde9-ccf1-48f8-af98-393053e7795e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/b6862397-583c-4bc3-bcd3-9654719260be>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615812>
+    
+    
+Individual: <http://model.geneontology.org/bb15b76c-30bc-40ce-bc13-f6720a3c8560>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/bcfabc1d-bf5f-411b-9e22-c900d83bf618>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#615812 abdominal obesity-metabolic"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012743>
+    
+    
+Individual: <http://model.geneontology.org/c364144d-62ac-4c5f-b34e-0fdd4c84930e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ABDOMEN_EXTERNAL FEATURES > TRUNCAL OBESITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001956>
+    
+    
+Individual: <http://model.geneontology.org/c71a6831-46e9-426b-aa1c-fd41c166a48b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615812>
+    
+    
+Individual: <http://model.geneontology.org/e7efe0ec-01fd-4b26-9c19-35924f98a10b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615812>
+    
+    
+Individual: <http://model.geneontology.org/ff5e2218-9ef6-4210-8cb9-4e6c69632339>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615812>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bcfabc1d-bf5f-411b-9e22-c900d83bf618>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b6862397-583c-4bc3-bcd3-9654719260be>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bcfabc1d-bf5f-411b-9e22-c900d83bf618>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bcfabc1d-bf5f-411b-9e22-c900d83bf618>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bcfabc1d-bf5f-411b-9e22-c900d83bf618>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c364144d-62ac-4c5f-b34e-0fdd4c84930e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e7efe0ec-01fd-4b26-9c19-35924f98a10b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c364144d-62ac-4c5f-b34e-0fdd4c84930e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c364144d-62ac-4c5f-b34e-0fdd4c84930e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c364144d-62ac-4c5f-b34e-0fdd4c84930e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23012fa8-4638-46b1-bc49-098aa72e1b40>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7169a6d6-6ba1-44af-814c-b1583f157414>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23012fa8-4638-46b1-bc49-098aa72e1b40>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23012fa8-4638-46b1-bc49-098aa72e1b40>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/23012fa8-4638-46b1-bc49-098aa72e1b40>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25a5de2e-70ce-4c41-9d26-7487ed19f17b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c71a6831-46e9-426b-aa1c-fd41c166a48b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25a5de2e-70ce-4c41-9d26-7487ed19f17b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25a5de2e-70ce-4c41-9d26-7487ed19f17b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/25a5de2e-70ce-4c41-9d26-7487ed19f17b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6343eda8-3338-4d52-937b-ae2b701b8cde>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/42da1c87-6b5a-4ba0-8962-2f63dc496062>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6343eda8-3338-4d52-937b-ae2b701b8cde>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6343eda8-3338-4d52-937b-ae2b701b8cde>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6343eda8-3338-4d52-937b-ae2b701b8cde>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ea0bde9-ccf1-48f8-af98-393053e7795e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb15b76c-30bc-40ce-bc13-f6720a3c8560>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ea0bde9-ccf1-48f8-af98-393053e7795e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ea0bde9-ccf1-48f8-af98-393053e7795e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9ea0bde9-ccf1-48f8-af98-393053e7795e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615812>
+
+    Annotations: 
+        rdfs:label "ABDOMINAL OBESITY-METABOLIC SYNDROME 3; AOMS3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

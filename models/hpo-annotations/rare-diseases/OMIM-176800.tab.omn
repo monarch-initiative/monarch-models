@@ -1,0 +1,212 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/94518899-cfe7-44d3-978b-660cb249e6f9>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-176800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002974>
+
+    Annotations: 
+        rdfs:label "Radioulnar synostosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006394>
+
+    Annotations: 
+        rdfs:label "Limited pronation/supination of forearm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_176800>
+
+    Annotations: 
+        rdfs:label "PRONATION-SUPINATION OF THE FOREARM, IMPAIRMENT OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3644877b-2360-404d-ae60-e4472345c596>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKEL > NO RADIOULNAR SYNOSTOSIS"^^xsd:string
+    
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0002974>)
+    
+    
+Individual: <http://model.geneontology.org/7dab9f94-99cf-4cb3-b5ea-3cd99e9f0dad>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176800>
+    
+    
+Individual: <http://model.geneontology.org/acca18c1-6a59-465c-a1af-62866c574287>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006394>
+    
+    
+Individual: <http://model.geneontology.org/d61ee632-8af9-4fe9-9f53-8e366bd4bf16>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/dbcbf67d-e0b9-4040-81ca-a4134d7a885c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176800>
+    
+    
+Individual: <http://model.geneontology.org/dcb924d0-6ef0-43e0-bcd4-4a612c0d8c8e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_176800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/acca18c1-6a59-465c-a1af-62866c574287>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f45de9cb-bc33-4158-ae95-e9cf196e6fb9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/acca18c1-6a59-465c-a1af-62866c574287>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/acca18c1-6a59-465c-a1af-62866c574287>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/acca18c1-6a59-465c-a1af-62866c574287>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d61ee632-8af9-4fe9-9f53-8e366bd4bf16>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f256d0d4-ab77-4501-a918-abff67204be6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d61ee632-8af9-4fe9-9f53-8e366bd4bf16>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d61ee632-8af9-4fe9-9f53-8e366bd4bf16>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d61ee632-8af9-4fe9-9f53-8e366bd4bf16>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f31cc66d-52f1-460d-accf-63fb60989732>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dbcbf67d-e0b9-4040-81ca-a4134d7a885c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f31cc66d-52f1-460d-accf-63fb60989732>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f31cc66d-52f1-460d-accf-63fb60989732>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f31cc66d-52f1-460d-accf-63fb60989732>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3644877b-2360-404d-ae60-e4472345c596>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7dab9f94-99cf-4cb3-b5ea-3cd99e9f0dad>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3644877b-2360-404d-ae60-e4472345c596>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3644877b-2360-404d-ae60-e4472345c596>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3644877b-2360-404d-ae60-e4472345c596>
+    
+    
+Individual: <http://model.geneontology.org/f256d0d4-ab77-4501-a918-abff67204be6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176800>
+    
+    
+Individual: <http://model.geneontology.org/f31cc66d-52f1-460d-accf-63fb60989732>
+
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0002974>)
+    
+    
+Individual: <http://model.geneontology.org/f45de9cb-bc33-4158-ae95-e9cf196e6fb9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_176800>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_176800>
+
+    Annotations: 
+        rdfs:label "PRONATION-SUPINATION OF THE FOREARM, IMPAIRMENT OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

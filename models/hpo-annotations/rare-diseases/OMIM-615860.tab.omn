@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/970c388b-b468-4c4f-94a8-c6e31055c259>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615860.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000548>
+
+    Annotations: 
+        rdfs:label "Cone-rod dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000556>
+
+    Annotations: 
+        rdfs:label "Retinal dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615860>
+
+    Annotations: 
+        rdfs:label "CONE-ROD DYSTROPHY 19; CORD19"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/43a197cd-64a1-41d3-b58d-0b6208b307c1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > CONE-FIRST RETINAL DYSTROPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000556>
+    
+    
+Individual: <http://model.geneontology.org/55ec45f1-8401-4007-9eae-583b4688ea9b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#615860 cone-rod dystrophy 19; cord1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000548>
+    
+    
+Individual: <http://model.geneontology.org/59d0c10b-13a9-4364-8629-01a7ee02dd4c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615860>
+    
+    
+Individual: <http://model.geneontology.org/6ef366e6-aeb5-439d-a201-601dd2acfb6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615860>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e00dfe1b-3d86-4cd2-aae9-270f394e9b58>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/af71632e-14c8-4166-b5ff-108256310264>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e00dfe1b-3d86-4cd2-aae9-270f394e9b58>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e00dfe1b-3d86-4cd2-aae9-270f394e9b58>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e00dfe1b-3d86-4cd2-aae9-270f394e9b58>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43a197cd-64a1-41d3-b58d-0b6208b307c1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/59d0c10b-13a9-4364-8629-01a7ee02dd4c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43a197cd-64a1-41d3-b58d-0b6208b307c1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43a197cd-64a1-41d3-b58d-0b6208b307c1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43a197cd-64a1-41d3-b58d-0b6208b307c1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55ec45f1-8401-4007-9eae-583b4688ea9b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e57cf5e3-6a59-47aa-b0af-66e349ecd225>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55ec45f1-8401-4007-9eae-583b4688ea9b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55ec45f1-8401-4007-9eae-583b4688ea9b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/55ec45f1-8401-4007-9eae-583b4688ea9b>
+    
+    
+Individual: <http://model.geneontology.org/af71632e-14c8-4166-b5ff-108256310264>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/e00dfe1b-3d86-4cd2-aae9-270f394e9b58>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/e57cf5e3-6a59-47aa-b0af-66e349ecd225>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615860>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615860>
+
+    Annotations: 
+        rdfs:label "CONE-ROD DYSTROPHY 19; CORD19"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

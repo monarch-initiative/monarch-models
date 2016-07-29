@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/44f1855f-496e-49a9-98e1-b776bd3e1453>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-609535.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_609535>
+
+    Annotations: 
+        rdfs:label "#609535 DRUG METABOLISM, POOR, CYP2C19-RELATEDMEPHENYTOIN, POOR METABOLISM OF, INCLUDED;;OPREMAZOLE, POOR METABOLISM OF, INCLUDED;;PROGUANIL, POOR METABOLISM OF, INCLUDED;;CLOPIDOGREL, POOR METABOLISM OF, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/12ebcad0-344e-4ef0-af82-d71356cdbda0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_609535>
+    
+    
+Individual: <http://model.geneontology.org/8ffc14dc-f471-478d-9954-0d678bbfec39>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_609535>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac430c06-e185-4e69-8ceb-c05c9b80092d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/12ebcad0-344e-4ef0-af82-d71356cdbda0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac430c06-e185-4e69-8ceb-c05c9b80092d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac430c06-e185-4e69-8ceb-c05c9b80092d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ac430c06-e185-4e69-8ceb-c05c9b80092d>
+    
+    
+Individual: <http://model.geneontology.org/ac430c06-e185-4e69-8ceb-c05c9b80092d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_609535>
+
+    Annotations: 
+        rdfs:label "#609535 DRUG METABOLISM, POOR, CYP2C19-RELATEDMEPHENYTOIN, POOR METABOLISM OF, INCLUDED;;OPREMAZOLE, POOR METABOLISM OF, INCLUDED;;PROGUANIL, POOR METABOLISM OF, INCLUDED;;CLOPIDOGREL, POOR METABOLISM OF, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

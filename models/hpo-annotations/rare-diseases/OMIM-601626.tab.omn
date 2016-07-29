@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/99803637-1fa6-46f9-ad4f-10ab18b66bf8>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601626.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004808>
+
+    Annotations: 
+        rdfs:label "Acute myeloid leukemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601626>
+
+    Annotations: 
+        rdfs:label "LEUKEMIA, ACUTE MYELOID"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/37ac0ff3-46a2-4e0d-ae7f-d3bbdc9a778f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601626>
+    
+    
+Individual: <http://model.geneontology.org/3d6ddda3-09aa-4f37-b625-8f843fc34bfa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/56fd172d-2ac6-4cac-9dc1-264b7b912599>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601626>
+    
+    
+Individual: <http://model.geneontology.org/633c58fc-9e1e-463b-a163-9be6c79e2f21>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004808>
+    
+    
+Individual: <http://model.geneontology.org/e7962efc-572c-423f-ba90-b2907dd7a535>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601626>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d6ddda3-09aa-4f37-b625-8f843fc34bfa>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/37ac0ff3-46a2-4e0d-ae7f-d3bbdc9a778f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d6ddda3-09aa-4f37-b625-8f843fc34bfa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d6ddda3-09aa-4f37-b625-8f843fc34bfa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d6ddda3-09aa-4f37-b625-8f843fc34bfa>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/633c58fc-9e1e-463b-a163-9be6c79e2f21>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/56fd172d-2ac6-4cac-9dc1-264b7b912599>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/633c58fc-9e1e-463b-a163-9be6c79e2f21>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/633c58fc-9e1e-463b-a163-9be6c79e2f21>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/633c58fc-9e1e-463b-a163-9be6c79e2f21>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601626>
+
+    Annotations: 
+        rdfs:label "LEUKEMIA, ACUTE MYELOID"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

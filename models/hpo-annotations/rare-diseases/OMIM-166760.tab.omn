@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c88607ed-3184-41f4-9ad5-8ae6e092536e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-166760.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000403>
+
+    Annotations: 
+        rdfs:label "Recurrent otitis media"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001472>
+
+    Annotations: 
+        rdfs:label "Familial predisposition"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_166760>
+
+    Annotations: 
+        rdfs:label "OTITIS MEDIA, SUSCEPTIBILITY TO"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/45dbdb02-e354-4e70-82cd-eaa822c79313>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000403>
+    
+    
+Individual: <http://model.geneontology.org/50d6f8a2-5727-4b64-a4aa-5413da35211b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001472>
+    
+    
+Individual: <http://model.geneontology.org/d806a7fb-5f64-4dff-8af4-0fdfa670ec38>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_166760>
+    
+    
+Individual: <http://model.geneontology.org/f419c7ab-571c-4a87-a413-6e2b31ec1025>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_166760>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45dbdb02-e354-4e70-82cd-eaa822c79313>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d806a7fb-5f64-4dff-8af4-0fdfa670ec38>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45dbdb02-e354-4e70-82cd-eaa822c79313>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45dbdb02-e354-4e70-82cd-eaa822c79313>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45dbdb02-e354-4e70-82cd-eaa822c79313>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50d6f8a2-5727-4b64-a4aa-5413da35211b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f6ba8863-3403-43b6-8d48-33835a791c1e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50d6f8a2-5727-4b64-a4aa-5413da35211b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50d6f8a2-5727-4b64-a4aa-5413da35211b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/50d6f8a2-5727-4b64-a4aa-5413da35211b>
+    
+    
+Individual: <http://model.geneontology.org/f6ba8863-3403-43b6-8d48-33835a791c1e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_166760>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_166760>
+
+    Annotations: 
+        rdfs:label "OTITIS MEDIA, SUSCEPTIBILITY TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

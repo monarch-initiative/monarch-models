@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/bb0b5473-9867-4748-ab64-c38f653dce67>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-605431.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000505>
+
+    Annotations: 
+        rdfs:label "Visual impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_605431>
+
+    Annotations: 
+        rdfs:label "*605431 MITOGEN-ACTIVATED PROTEIN KINASE 8-INTERACTING PROTEIN 3; MAPK8IP3;;SUNDAY DRIVER, DROSOPHILA, HOMOLOG OF, 2; SYD2;;JNK/STRESS-ACTIVATED PROTEIN KINASE-ASSOCIATED PROTEIN 1; JSAP1;;JNK-INTERACTING PROTEIN 3; JIP3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/438f7666-101c-42c4-b38a-7a70133f8ed2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/55916c4f-080c-48b1-8401-25023d4e5cc9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_605431>
+    
+    
+Individual: <http://model.geneontology.org/6bf33246-5495-4718-8315-361b39c2d810>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_605431>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a91e4335-9fde-48ae-8f24-4768af5e7dc1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/55916c4f-080c-48b1-8401-25023d4e5cc9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a91e4335-9fde-48ae-8f24-4768af5e7dc1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a91e4335-9fde-48ae-8f24-4768af5e7dc1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a91e4335-9fde-48ae-8f24-4768af5e7dc1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/438f7666-101c-42c4-b38a-7a70133f8ed2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c44ef52a-4a51-41f0-8ae3-2d17b852ad21>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/438f7666-101c-42c4-b38a-7a70133f8ed2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/438f7666-101c-42c4-b38a-7a70133f8ed2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/438f7666-101c-42c4-b38a-7a70133f8ed2>
+    
+    
+Individual: <http://model.geneontology.org/a91e4335-9fde-48ae-8f24-4768af5e7dc1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > DECREASED VISUAL ACUITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000505>
+    
+    
+Individual: <http://model.geneontology.org/c44ef52a-4a51-41f0-8ae3-2d17b852ad21>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_605431>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_605431>
+
+    Annotations: 
+        rdfs:label "*605431 MITOGEN-ACTIVATED PROTEIN KINASE 8-INTERACTING PROTEIN 3; MAPK8IP3;;SUNDAY DRIVER, DROSOPHILA, HOMOLOG OF, 2; SYD2;;JNK/STRESS-ACTIVATED PROTEIN KINASE-ASSOCIATED PROTEIN 1; JSAP1;;JNK-INTERACTING PROTEIN 3; JIP3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

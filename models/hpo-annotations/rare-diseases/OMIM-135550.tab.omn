@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4f9a1498-1c95-42a4-b606-3ade2fb49cf3>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-135550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000169>
+
+    Annotations: 
+        rdfs:label "Gingival fibromatosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000408>
+
+    Annotations: 
+        rdfs:label "Progressive sensorineural hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_135550>
+
+    Annotations: 
+        rdfs:label "FIBROMATOSIS, GINGIVAL, WITH PROGRESSIVE DEAFNESS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2c563f70-0669-4c6c-86b2-48f657c801b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_135550>
+    
+    
+Individual: <http://model.geneontology.org/7949cb6d-65a8-4b60-8647-3dced5d00721>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000169>
+    
+    
+Individual: <http://model.geneontology.org/88f8cacd-de56-4565-951c-f8fc2f91568e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_135550>
+    
+    
+Individual: <http://model.geneontology.org/b6f5b629-2b9d-4306-9e7d-f2a15cee19a3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_135550>
+    
+    
+Individual: <http://model.geneontology.org/ddddde4a-f9b3-441e-9036-10d88147deea>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/ea34aef8-e6c8-403f-b4db-845ff2180445>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000408>
+    
+    
+Individual: <http://model.geneontology.org/f9dd4abc-ab6b-4e65-866d-8599fe8603ba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_135550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddddde4a-f9b3-441e-9036-10d88147deea>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/88f8cacd-de56-4565-951c-f8fc2f91568e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddddde4a-f9b3-441e-9036-10d88147deea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddddde4a-f9b3-441e-9036-10d88147deea>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ddddde4a-f9b3-441e-9036-10d88147deea>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea34aef8-e6c8-403f-b4db-845ff2180445>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2c563f70-0669-4c6c-86b2-48f657c801b4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea34aef8-e6c8-403f-b4db-845ff2180445>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea34aef8-e6c8-403f-b4db-845ff2180445>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ea34aef8-e6c8-403f-b4db-845ff2180445>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7949cb6d-65a8-4b60-8647-3dced5d00721>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b6f5b629-2b9d-4306-9e7d-f2a15cee19a3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7949cb6d-65a8-4b60-8647-3dced5d00721>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7949cb6d-65a8-4b60-8647-3dced5d00721>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7949cb6d-65a8-4b60-8647-3dced5d00721>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_135550>
+
+    Annotations: 
+        rdfs:label "FIBROMATOSIS, GINGIVAL, WITH PROGRESSIVE DEAFNESS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/71f00944-2a48-4067-b105-e8aca9163e80>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613985.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004840>
+
+    Annotations: 
+        rdfs:label "Hypochromic microcytic anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011906>
+
+    Annotations: 
+        rdfs:label "Reduced beta/alpha synthesis ratio"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613985>
+
+    Annotations: 
+        rdfs:label "BETA-THALASSEMIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/19df6511-c935-4468-b416-9766289debc7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004840>
+    
+    
+Individual: <http://model.geneontology.org/60d89f48-d0ad-49c4-842b-a3635d55b303>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613985>
+    
+    
+Individual: <http://model.geneontology.org/82bb1766-4ce1-4dfc-97ef-7e50c238f97b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613985>
+    
+    
+Individual: <http://model.geneontology.org/98fe8405-afd8-4a33-9ec8-cf2067daa168>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011906>
+    
+    
+Individual: <http://model.geneontology.org/b566789c-66a2-4778-8b7c-ca86aa6711cf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613985>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19df6511-c935-4468-b416-9766289debc7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/82bb1766-4ce1-4dfc-97ef-7e50c238f97b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19df6511-c935-4468-b416-9766289debc7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19df6511-c935-4468-b416-9766289debc7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/19df6511-c935-4468-b416-9766289debc7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/98fe8405-afd8-4a33-9ec8-cf2067daa168>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/60d89f48-d0ad-49c4-842b-a3635d55b303>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/98fe8405-afd8-4a33-9ec8-cf2067daa168>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/98fe8405-afd8-4a33-9ec8-cf2067daa168>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/98fe8405-afd8-4a33-9ec8-cf2067daa168>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613985>
+
+    Annotations: 
+        rdfs:label "BETA-THALASSEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

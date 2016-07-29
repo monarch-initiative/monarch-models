@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1dc2a9ad-3c7a-4ef2-8159-dca60ae32294>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-268220.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006779>
+
+    Annotations: 
+        rdfs:label "Alveolar rhabdomyosarcoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_268220>
+
+    Annotations: 
+        rdfs:label "RHABDOMYOSARCOMA 2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/008000f0-b645-475c-957f-510f5c73aa9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_268220>
+    
+    
+Individual: <http://model.geneontology.org/0f4e20cf-8aee-4f4d-b775-0f9c38f8baf3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/30617192-8d22-4609-b4a4-92a820918ef2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_268220>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8870143-2607-4ee3-b6b5-424a6db03fdb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/008000f0-b645-475c-957f-510f5c73aa9a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8870143-2607-4ee3-b6b5-424a6db03fdb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8870143-2607-4ee3-b6b5-424a6db03fdb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f8870143-2607-4ee3-b6b5-424a6db03fdb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f4e20cf-8aee-4f4d-b775-0f9c38f8baf3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b334c3d0-d661-453e-a720-8fd8dfb01949>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f4e20cf-8aee-4f4d-b775-0f9c38f8baf3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f4e20cf-8aee-4f4d-b775-0f9c38f8baf3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0f4e20cf-8aee-4f4d-b775-0f9c38f8baf3>
+    
+    
+Individual: <http://model.geneontology.org/b334c3d0-d661-453e-a720-8fd8dfb01949>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_268220>
+    
+    
+Individual: <http://model.geneontology.org/f8870143-2607-4ee3-b6b5-424a6db03fdb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006779>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_268220>
+
+    Annotations: 
+        rdfs:label "RHABDOMYOSARCOMA 2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

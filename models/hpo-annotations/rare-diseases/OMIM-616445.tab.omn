@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/90ca339c-b87c-4037-abd2-5874cb5d0830>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616445.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011107>
+
+    Annotations: 
+        rdfs:label "Recurrent aphthous stomatitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012203>
+
+    Annotations: 
+        rdfs:label "Onychomycosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616445>
+
+    Annotations: 
+        rdfs:label "#616445 CANDIDIASIS, FAMILIAL, 9; CANDF9"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1c027a6a-cdbe-4f38-bcb1-68215d0d1658>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/48a4db8a-4419-4d4c-9bf1-1b6e6939f8b4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_MOUTH > APHTHOUS STOMATITIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011107>
+    
+    
+Individual: <http://model.geneontology.org/5fca15ff-1146-4b71-ae10-928d7e9326c6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/819c8605-620c-433a-8204-05976ca73116>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, HAIR, NAILS_NAILS > ONYCHOMYCOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012203>
+    
+    
+Individual: <http://model.geneontology.org/c9fe2c6a-0ea8-42c7-9cc1-5f69864ac493>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616445>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48a4db8a-4419-4d4c-9bf1-1b6e6939f8b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e4d4c539-9e6d-4416-8de0-cb3a6af5d926>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48a4db8a-4419-4d4c-9bf1-1b6e6939f8b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48a4db8a-4419-4d4c-9bf1-1b6e6939f8b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-07-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/48a4db8a-4419-4d4c-9bf1-1b6e6939f8b4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fca15ff-1146-4b71-ae10-928d7e9326c6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1c027a6a-cdbe-4f38-bcb1-68215d0d1658>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fca15ff-1146-4b71-ae10-928d7e9326c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fca15ff-1146-4b71-ae10-928d7e9326c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fca15ff-1146-4b71-ae10-928d7e9326c6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/819c8605-620c-433a-8204-05976ca73116>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e643c465-66d1-467e-b9d5-97789e851222>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/819c8605-620c-433a-8204-05976ca73116>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/819c8605-620c-433a-8204-05976ca73116>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-07-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/819c8605-620c-433a-8204-05976ca73116>
+    
+    
+Individual: <http://model.geneontology.org/e4d4c539-9e6d-4416-8de0-cb3a6af5d926>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616445>
+    
+    
+Individual: <http://model.geneontology.org/e643c465-66d1-467e-b9d5-97789e851222>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616445>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616445>
+
+    Annotations: 
+        rdfs:label "#616445 CANDIDIASIS, FAMILIAL, 9; CANDF9"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

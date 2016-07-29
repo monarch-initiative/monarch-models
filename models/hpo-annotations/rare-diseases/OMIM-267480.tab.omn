@@ -1,0 +1,215 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b4f201bb-64fd-4b18-9f6f-c46fce6ed7b5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-267480.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002093>
+
+    Annotations: 
+        rdfs:label "Respiratory insufficiency"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002878>
+
+    Annotations: 
+        rdfs:label "Respiratory failure"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012416>
+
+    Annotations: 
+        rdfs:label "Hypercapnia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_267480>
+
+    Annotations: 
+        rdfs:label "RESPIRATORY UNDERRESPONSIVENESS TO HYPOXIA AND HYPERCAPNIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0a5541a4-2751-4fd7-8678-d0e35612ae75>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002093>
+    
+    
+Individual: <http://model.geneontology.org/1de08501-a83a-40e4-a00b-f227117d92f0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:ness to hypoxia and hypercapnia"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012416>
+    
+    
+Individual: <http://model.geneontology.org/2530354c-365d-4bd2-aa97-a8fd9064ff12>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_267480>
+    
+    
+Individual: <http://model.geneontology.org/5ffb3abe-9efe-4bdb-8b0b-cf5a1fc23d10>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_267480>
+    
+    
+Individual: <http://model.geneontology.org/79096e98-42f9-4138-a385-beac80185141>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/8b84fd06-a6d3-4225-a4f9-289be7a2b738>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:RESP > RESPIRATORY FAILURE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002878>
+    
+    
+Individual: <http://model.geneontology.org/ca4a6939-3d29-49ea-bf04-16062334d5a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_267480>
+    
+    
+Individual: <http://model.geneontology.org/d64872f8-624b-4dfa-a534-f51c7cf0d245>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_267480>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a5541a4-2751-4fd7-8678-d0e35612ae75>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2530354c-365d-4bd2-aa97-a8fd9064ff12>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a5541a4-2751-4fd7-8678-d0e35612ae75>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a5541a4-2751-4fd7-8678-d0e35612ae75>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a5541a4-2751-4fd7-8678-d0e35612ae75>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1de08501-a83a-40e4-a00b-f227117d92f0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ca4a6939-3d29-49ea-bf04-16062334d5a4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1de08501-a83a-40e4-a00b-f227117d92f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1de08501-a83a-40e4-a00b-f227117d92f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1de08501-a83a-40e4-a00b-f227117d92f0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79096e98-42f9-4138-a385-beac80185141>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/db0e25db-4498-4108-95de-984ec4da257d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79096e98-42f9-4138-a385-beac80185141>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79096e98-42f9-4138-a385-beac80185141>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/79096e98-42f9-4138-a385-beac80185141>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b84fd06-a6d3-4225-a4f9-289be7a2b738>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5ffb3abe-9efe-4bdb-8b0b-cf5a1fc23d10>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b84fd06-a6d3-4225-a4f9-289be7a2b738>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b84fd06-a6d3-4225-a4f9-289be7a2b738>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-06-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b84fd06-a6d3-4225-a4f9-289be7a2b738>
+    
+    
+Individual: <http://model.geneontology.org/db0e25db-4498-4108-95de-984ec4da257d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_267480>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_267480>
+
+    Annotations: 
+        rdfs:label "RESPIRATORY UNDERRESPONSIVENESS TO HYPOXIA AND HYPERCAPNIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

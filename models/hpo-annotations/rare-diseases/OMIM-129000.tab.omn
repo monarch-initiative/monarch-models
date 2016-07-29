@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/590306d6-98f6-46d2-8688-1eabf9f32ae3>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-129000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004461>
+
+    Annotations: 
+        rdfs:label "Congenital earlobe sinuses"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_129000>
+
+    Annotations: 
+        rdfs:label "EARRING HOLES, NATURAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/06f0a197-1732-460b-837f-764d5a12cb37>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/53376fe0-2291-4868-8815-49df9bf2b871>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004461>
+    
+    
+Individual: <http://model.geneontology.org/91bdf5d0-933d-4145-b6d3-17e3edf946f9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_129000>
+    
+    
+Individual: <http://model.geneontology.org/ae02bb27-79e6-4f0a-b52f-d23584408c6c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_129000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06f0a197-1732-460b-837f-764d5a12cb37>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/91bdf5d0-933d-4145-b6d3-17e3edf946f9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06f0a197-1732-460b-837f-764d5a12cb37>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06f0a197-1732-460b-837f-764d5a12cb37>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/06f0a197-1732-460b-837f-764d5a12cb37>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53376fe0-2291-4868-8815-49df9bf2b871>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e25b3223-86a3-437c-a0bb-55ab651e79d5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53376fe0-2291-4868-8815-49df9bf2b871>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53376fe0-2291-4868-8815-49df9bf2b871>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53376fe0-2291-4868-8815-49df9bf2b871>
+    
+    
+Individual: <http://model.geneontology.org/e25b3223-86a3-437c-a0bb-55ab651e79d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_129000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_129000>
+
+    Annotations: 
+        rdfs:label "EARRING HOLES, NATURAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/cbd3b6aa-3cce-4461-bf5e-3b586d55066f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-189150.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001597>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nail"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_189150>
+
+    Annotations: 
+        rdfs:label "TOE, ROTATED FIFTH"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1b481fb3-de25-483d-9646-dab6af8fc4e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189150>
+    
+    
+Individual: <http://model.geneontology.org/79f64d77-c24c-4731-903c-e77108e6fdc2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189150>
+    
+    
+Individual: <http://model.geneontology.org/847db7c4-d21f-4c66-946c-edd3a6e06dd7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_189150>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c7c03546-774e-4151-a334-b7a0eaeeef2a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1b481fb3-de25-483d-9646-dab6af8fc4e3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c7c03546-774e-4151-a334-b7a0eaeeef2a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c7c03546-774e-4151-a334-b7a0eaeeef2a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c7c03546-774e-4151-a334-b7a0eaeeef2a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f072e7a9-366a-4f77-a00c-028aac0d98ac>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/79f64d77-c24c-4731-903c-e77108e6fdc2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f072e7a9-366a-4f77-a00c-028aac0d98ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f072e7a9-366a-4f77-a00c-028aac0d98ac>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f072e7a9-366a-4f77-a00c-028aac0d98ac>
+    
+    
+Individual: <http://model.geneontology.org/c7c03546-774e-4151-a334-b7a0eaeeef2a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f072e7a9-366a-4f77-a00c-028aac0d98ac>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001597>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_189150>
+
+    Annotations: 
+        rdfs:label "TOE, ROTATED FIFTH"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

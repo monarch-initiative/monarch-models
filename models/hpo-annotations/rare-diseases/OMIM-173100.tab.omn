@@ -1,0 +1,218 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b516fcfe-8aa2-4ceb-b6ce-21397a94e398>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-173100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000839>
+
+    Annotations: 
+        rdfs:label "Pituitary dwarfism"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000861>
+
+    Annotations: 
+        rdfs:label "Isolated growth hormone deficiency"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003510>
+
+    Annotations: 
+        rdfs:label "Severe short stature"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_173100>
+
+    Annotations: 
+        rdfs:label "#173100 ISOLATED GROWTH HORMONE DEFICIENCY, TYPE II; IGHD2;;IGHD II;;GROWTH HORMONE DEFICIENCY, ISOLATED, AUTOSOMAL DOMINANT;;PITUITARY DWARFISM DUE TO ISOLATED GROWTH HORMONE DEFICIENCY, AUTOSOMALDOMINANT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/059eb941-649e-47a0-9688-32d6cf90cf89>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000839>
+    
+    
+Individual: <http://model.geneontology.org/26fa03dc-f2f2-4022-87c8-5b2b35527c65>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/4f60a2a9-4e53-45fb-a74a-fd2e0c4c209e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003510>
+    
+    
+Individual: <http://model.geneontology.org/6d2de1bc-e4f3-4a8f-9c6a-b0d037f7cc33>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173100>
+    
+    
+Individual: <http://model.geneontology.org/72223d75-19bc-46cc-8ab0-40a2c62e488e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173100>
+    
+    
+Individual: <http://model.geneontology.org/9c27014a-eb62-41d9-a45e-cf8e36875077>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_173100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3f89845-edc7-42e5-a2d9-083e0379f81d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/72223d75-19bc-46cc-8ab0-40a2c62e488e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3f89845-edc7-42e5-a2d9-083e0379f81d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3f89845-edc7-42e5-a2d9-083e0379f81d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d3f89845-edc7-42e5-a2d9-083e0379f81d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/059eb941-649e-47a0-9688-32d6cf90cf89>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d6f47aef-f9db-4cf0-9a79-51af81a9779e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/059eb941-649e-47a0-9688-32d6cf90cf89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/059eb941-649e-47a0-9688-32d6cf90cf89>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/059eb941-649e-47a0-9688-32d6cf90cf89>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/26fa03dc-f2f2-4022-87c8-5b2b35527c65>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6d2de1bc-e4f3-4a8f-9c6a-b0d037f7cc33>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/26fa03dc-f2f2-4022-87c8-5b2b35527c65>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/26fa03dc-f2f2-4022-87c8-5b2b35527c65>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/26fa03dc-f2f2-4022-87c8-5b2b35527c65>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f60a2a9-4e53-45fb-a74a-fd2e0c4c209e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fa6a33d3-951a-4f84-84de-67db3de24a2d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f60a2a9-4e53-45fb-a74a-fd2e0c4c209e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f60a2a9-4e53-45fb-a74a-fd2e0c4c209e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4f60a2a9-4e53-45fb-a74a-fd2e0c4c209e>
+    
+    
+Individual: <http://model.geneontology.org/d3f89845-edc7-42e5-a2d9-083e0379f81d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000861>
+    
+    
+Individual: <http://model.geneontology.org/d6f47aef-f9db-4cf0-9a79-51af81a9779e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173100>
+    
+    
+Individual: <http://model.geneontology.org/fa6a33d3-951a-4f84-84de-67db3de24a2d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173100>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_173100>
+
+    Annotations: 
+        rdfs:label "#173100 ISOLATED GROWTH HORMONE DEFICIENCY, TYPE II; IGHD2;;IGHD II;;GROWTH HORMONE DEFICIENCY, ISOLATED, AUTOSOMAL DOMINANT;;PITUITARY DWARFISM DUE TO ISOLATED GROWTH HORMONE DEFICIENCY, AUTOSOMALDOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

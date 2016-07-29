@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f07f2150-c917-43bf-a164-63ef8a005fbe>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601230.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000989>
+
+    Annotations: 
+        rdfs:label "Pruritus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601230>
+
+    Annotations: 
+        rdfs:label "DERMATITIS HERPETIFORMIS, FAMILIAL"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/22d3780b-85e5-4982-9499-bfacb4760fca>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/24068131>
+    
+    
+Individual: <http://model.geneontology.org/82e97f1d-4187-4639-934f-e93f8cd7e200>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601230>
+    
+    
+Individual: <http://model.geneontology.org/86063ed1-b384-44ca-b4de-cc6e1abdf5c6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601230>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d536ccdf-8431-41e9-92ff-87729cc55bf7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/82e97f1d-4187-4639-934f-e93f8cd7e200>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d536ccdf-8431-41e9-92ff-87729cc55bf7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d536ccdf-8431-41e9-92ff-87729cc55bf7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d536ccdf-8431-41e9-92ff-87729cc55bf7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca7fcc8-e6b0-4889-8759-3ae0580c7329>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/22d3780b-85e5-4982-9499-bfacb4760fca>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca7fcc8-e6b0-4889-8759-3ae0580c7329>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca7fcc8-e6b0-4889-8759-3ae0580c7329>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-04-03"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ca7fcc8-e6b0-4889-8759-3ae0580c7329>
+    
+    
+Individual: <http://model.geneontology.org/8ca7fcc8-e6b0-4889-8759-3ae0580c7329>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000989>
+    
+    
+Individual: <http://model.geneontology.org/d536ccdf-8431-41e9-92ff-87729cc55bf7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601230>
+
+    Annotations: 
+        rdfs:label "DERMATITIS HERPETIFORMIS, FAMILIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/24068131>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

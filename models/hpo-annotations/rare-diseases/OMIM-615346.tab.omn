@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/96569239-f33e-46e1-b291-99e5a4f2bb0b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615346.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005616>
+
+    Annotations: 
+        rdfs:label "Accelerated skeletal maturation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010314>
+
+    Annotations: 
+        rdfs:label "Premature thelarche"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615346>
+
+    Annotations: 
+        rdfs:label "#615346 PRECOCIOUS PUBERTY, CENTRAL, 2; CPPB2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2469b710-967e-4b46-95c9-9fb42b2da0cf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL > ADVANCED BONE AGE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005616>
+    
+    
+Individual: <http://model.geneontology.org/530adbe9-3f4b-4b67-b15d-3e432f84d788>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CHEST_BREASTS > PREMATURE THELARCHE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010314>
+    
+    
+Individual: <http://model.geneontology.org/705bd42f-194c-420f-a590-e8c28b7fa881>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615346>
+    
+    
+Individual: <http://model.geneontology.org/7833d112-1a62-4c6c-9f37-b4bfca0316f7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615346>
+    
+    
+Individual: <http://model.geneontology.org/87a73e10-9bc7-4b59-899a-3098ecf3d38b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615346>
+    
+    
+Individual: <http://model.geneontology.org/d4eae203-b9d0-431f-9b78-61d748a5111b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615346>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e739c0a3-2cbc-4cec-a652-a625d9e648df>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7833d112-1a62-4c6c-9f37-b4bfca0316f7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e739c0a3-2cbc-4cec-a652-a625d9e648df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e739c0a3-2cbc-4cec-a652-a625d9e648df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e739c0a3-2cbc-4cec-a652-a625d9e648df>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2469b710-967e-4b46-95c9-9fb42b2da0cf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/87a73e10-9bc7-4b59-899a-3098ecf3d38b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2469b710-967e-4b46-95c9-9fb42b2da0cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2469b710-967e-4b46-95c9-9fb42b2da0cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2469b710-967e-4b46-95c9-9fb42b2da0cf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/530adbe9-3f4b-4b67-b15d-3e432f84d788>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/705bd42f-194c-420f-a590-e8c28b7fa881>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/530adbe9-3f4b-4b67-b15d-3e432f84d788>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/530adbe9-3f4b-4b67-b15d-3e432f84d788>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-08-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/530adbe9-3f4b-4b67-b15d-3e432f84d788>
+    
+    
+Individual: <http://model.geneontology.org/e739c0a3-2cbc-4cec-a652-a625d9e648df>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615346>
+
+    Annotations: 
+        rdfs:label "#615346 PRECOCIOUS PUBERTY, CENTRAL, 2; CPPB2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

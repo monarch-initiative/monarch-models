@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f91a3e25-3ae1-4e9a-915f-262e3c941775>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-167300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000976>
+
+    Annotations: 
+        rdfs:label "Eczematoid dermatitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002664>
+
+    Annotations: 
+        rdfs:label "Neoplasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_167300>
+
+    Annotations: 
+        rdfs:label "PAGET DISEASE, EXTRAMAMMARY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/003a5cd3-15cf-4eee-8f40-9b7fa637a2a0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_167300>
+    
+    
+Individual: <http://model.geneontology.org/147ecb9d-da56-42fe-a7ef-8c63869f4301>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_167300>
+    
+    
+Individual: <http://model.geneontology.org/2c41cf39-06eb-4799-a76c-a860063d79fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002664>
+    
+    
+Individual: <http://model.geneontology.org/7e1e0020-e319-4a95-b8a7-b59c5a745aaf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000976>
+    
+    
+Individual: <http://model.geneontology.org/87812330-724b-4aef-aeae-39f7bdda98a2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_167300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c41cf39-06eb-4799-a76c-a860063d79fc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/003a5cd3-15cf-4eee-8f40-9b7fa637a2a0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c41cf39-06eb-4799-a76c-a860063d79fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c41cf39-06eb-4799-a76c-a860063d79fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c41cf39-06eb-4799-a76c-a860063d79fc>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e1e0020-e319-4a95-b8a7-b59c5a745aaf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/147ecb9d-da56-42fe-a7ef-8c63869f4301>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e1e0020-e319-4a95-b8a7-b59c5a745aaf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e1e0020-e319-4a95-b8a7-b59c5a745aaf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e1e0020-e319-4a95-b8a7-b59c5a745aaf>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_167300>
+
+    Annotations: 
+        rdfs:label "PAGET DISEASE, EXTRAMAMMARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

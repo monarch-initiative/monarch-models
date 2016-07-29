@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/54c8a7c2-66c4-4a06-bb49-16d4be83964a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-173580.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001892>
+
+    Annotations: 
+        rdfs:label "Abnormal bleeding"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008148>
+
+    Annotations: 
+        rdfs:label "Impaired epinephrine-induced platelet aggregation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_173580>
+
+    Annotations: 
+        rdfs:label "PLATELET RESPONSIVENESS TO ADRENALINE, DEPRESSED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1deefc52-69ce-417a-9874-ad41dba1b201>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173580>
+    
+    
+Individual: <http://model.geneontology.org/27699a4a-2656-47bc-a45b-cb33e6631993>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/68a53eea-1040-4060-b8a3-196ecc9c8711>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173580>
+    
+    
+Individual: <http://model.geneontology.org/68b28d0d-bfc4-47bc-9b14-a39ef738188f>
+
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0001892>)
+    
+    
+Individual: <http://model.geneontology.org/8e8387e9-239a-4130-8125-4a26c636b160>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_173580>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3495348-ca28-472c-9d13-0a05649b69e9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/68a53eea-1040-4060-b8a3-196ecc9c8711>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3495348-ca28-472c-9d13-0a05649b69e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3495348-ca28-472c-9d13-0a05649b69e9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-07-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3495348-ca28-472c-9d13-0a05649b69e9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27699a4a-2656-47bc-a45b-cb33e6631993>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e8ea5a5a-3ce3-4604-b5f5-f11c4fad71aa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27699a4a-2656-47bc-a45b-cb33e6631993>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27699a4a-2656-47bc-a45b-cb33e6631993>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27699a4a-2656-47bc-a45b-cb33e6631993>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68b28d0d-bfc4-47bc-9b14-a39ef738188f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1deefc52-69ce-417a-9874-ad41dba1b201>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68b28d0d-bfc4-47bc-9b14-a39ef738188f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68b28d0d-bfc4-47bc-9b14-a39ef738188f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/68b28d0d-bfc4-47bc-9b14-a39ef738188f>
+    
+    
+Individual: <http://model.geneontology.org/b3495348-ca28-472c-9d13-0a05649b69e9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008148>
+    
+    
+Individual: <http://model.geneontology.org/e8ea5a5a-3ce3-4604-b5f5-f11c4fad71aa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_173580>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_173580>
+
+    Annotations: 
+        rdfs:label "PLATELET RESPONSIVENESS TO ADRENALINE, DEPRESSED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

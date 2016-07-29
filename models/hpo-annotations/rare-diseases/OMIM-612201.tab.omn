@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/697aefd5-6c27-4285-9b04-24d7a868a475>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612201.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005110>
+
+    Annotations: 
+        rdfs:label "Atrial fibrillation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612201>
+
+    Annotations: 
+        rdfs:label "ATRIAL FIBRILLATION, FAMILIAL, 6"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0e4a450e-5f21-4afe-b162-2ffe896fff7e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005110>
+    
+    
+Individual: <http://model.geneontology.org/3695d95a-ee8c-4e8c-b89b-f43a56862ff0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612201>
+    
+    
+Individual: <http://model.geneontology.org/43d70346-7e6f-444c-af22-2e61431c366e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/58c68276-ebdd-45e9-b188-34fb4e2d43f1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612201>
+    
+    
+Individual: <http://model.geneontology.org/902c5d55-0642-4b65-8b8e-3ad9a73da8d9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612201>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e4a450e-5f21-4afe-b162-2ffe896fff7e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3695d95a-ee8c-4e8c-b89b-f43a56862ff0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e4a450e-5f21-4afe-b162-2ffe896fff7e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e4a450e-5f21-4afe-b162-2ffe896fff7e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0e4a450e-5f21-4afe-b162-2ffe896fff7e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43d70346-7e6f-444c-af22-2e61431c366e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/58c68276-ebdd-45e9-b188-34fb4e2d43f1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43d70346-7e6f-444c-af22-2e61431c366e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43d70346-7e6f-444c-af22-2e61431c366e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/43d70346-7e6f-444c-af22-2e61431c366e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612201>
+
+    Annotations: 
+        rdfs:label "ATRIAL FIBRILLATION, FAMILIAL, 6"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

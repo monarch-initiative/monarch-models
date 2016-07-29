@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f2f3a9f3-89b4-4ea4-aa32-002b9c1ce233>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-128500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000598>
+
+    Annotations: 
+        rdfs:label "Abnormality of the ear"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_128500>
+
+    Annotations: 
+        rdfs:label "EAR FOLDING"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/879c1f0a-37ac-42b4-8897-8dac2dd470dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128500>
+    
+    
+Individual: <http://model.geneontology.org/ad156ea4-e908-4bd6-ae67-dfca0f81fd60>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000598>
+    
+    
+Individual: <http://model.geneontology.org/c979ce36-279e-40db-9286-1e9b3db17c3c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128500>
+    
+    
+Individual: <http://model.geneontology.org/eae4e3c8-f2cc-4594-b524-f505ec3235ee>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f2398254-c450-4a1e-90cf-7003c8096884>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_128500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ad156ea4-e908-4bd6-ae67-dfca0f81fd60>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/879c1f0a-37ac-42b4-8897-8dac2dd470dd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ad156ea4-e908-4bd6-ae67-dfca0f81fd60>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ad156ea4-e908-4bd6-ae67-dfca0f81fd60>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ad156ea4-e908-4bd6-ae67-dfca0f81fd60>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eae4e3c8-f2cc-4594-b524-f505ec3235ee>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c979ce36-279e-40db-9286-1e9b3db17c3c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eae4e3c8-f2cc-4594-b524-f505ec3235ee>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eae4e3c8-f2cc-4594-b524-f505ec3235ee>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/eae4e3c8-f2cc-4594-b524-f505ec3235ee>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_128500>
+
+    Annotations: 
+        rdfs:label "EAR FOLDING"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

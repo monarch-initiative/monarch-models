@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f988247c-424c-4f81-a838-6e003ca572e6>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-202300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000818>
+
+    Annotations: 
+        rdfs:label "Abnormality of the endocrine system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006744>
+
+    Annotations: 
+        rdfs:label "Adrenocortical carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_202300>
+
+    Annotations: 
+        rdfs:label "ADRENOCORTICAL CARCINOMA, HEREDITARY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4671e366-e229-4225-87d9-e5cb9315e558>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/5b1b0c23-2099-4853-952a-d784b066b021>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_202300>
+    
+    
+Individual: <http://model.geneontology.org/6b0d2523-8822-418a-8648-8fea79e87b9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_202300>
+    
+    
+Individual: <http://model.geneontology.org/898ec66a-96b4-48bf-848b-643cf3bb5e5a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_202300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4671e366-e229-4225-87d9-e5cb9315e558>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5b1b0c23-2099-4853-952a-d784b066b021>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4671e366-e229-4225-87d9-e5cb9315e558>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4671e366-e229-4225-87d9-e5cb9315e558>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4671e366-e229-4225-87d9-e5cb9315e558>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9db6e516-82b4-4ace-a10f-e6a7e5bfaeca>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/defe06d0-6e43-4d2c-b657-5c51f69cf65f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9db6e516-82b4-4ace-a10f-e6a7e5bfaeca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9db6e516-82b4-4ace-a10f-e6a7e5bfaeca>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9db6e516-82b4-4ace-a10f-e6a7e5bfaeca>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99994303-b02e-4255-8a5e-f174f2b4e9b1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6b0d2523-8822-418a-8648-8fea79e87b9c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99994303-b02e-4255-8a5e-f174f2b4e9b1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99994303-b02e-4255-8a5e-f174f2b4e9b1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/99994303-b02e-4255-8a5e-f174f2b4e9b1>
+    
+    
+Individual: <http://model.geneontology.org/99994303-b02e-4255-8a5e-f174f2b4e9b1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006744>
+    
+    
+Individual: <http://model.geneontology.org/9db6e516-82b4-4ace-a10f-e6a7e5bfaeca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000818>
+    
+    
+Individual: <http://model.geneontology.org/defe06d0-6e43-4d2c-b657-5c51f69cf65f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_202300>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_202300>
+
+    Annotations: 
+        rdfs:label "ADRENOCORTICAL CARCINOMA, HEREDITARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

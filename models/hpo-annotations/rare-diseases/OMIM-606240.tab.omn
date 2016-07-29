@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/71e1d9e6-360f-4a51-9896-f20d079138d1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-606240.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0040198>
+
+    Annotations: 
+        rdfs:label "Non-medullary thyroid carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_606240>
+
+    Annotations: 
+        rdfs:label "THYROID CANCER, NONMEDULLARY, 3; NMTC3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0de56693-fb19-47c8-935b-e2ee590c4e70>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606240>
+    
+    
+Individual: <http://model.geneontology.org/52367cc9-59b2-4c28-babc-6c1ead91f60b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7f99418b-8abe-4eeb-abac-e258f4356352>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_606240>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52367cc9-59b2-4c28-babc-6c1ead91f60b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ccb6594f-5c94-4cd4-a0c9-62e718967ec9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52367cc9-59b2-4c28-babc-6c1ead91f60b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52367cc9-59b2-4c28-babc-6c1ead91f60b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52367cc9-59b2-4c28-babc-6c1ead91f60b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8cf62c3d-31de-4dec-bc1f-e07ea692b8df>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0de56693-fb19-47c8-935b-e2ee590c4e70>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8cf62c3d-31de-4dec-bc1f-e07ea692b8df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8cf62c3d-31de-4dec-bc1f-e07ea692b8df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-10-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8cf62c3d-31de-4dec-bc1f-e07ea692b8df>
+    
+    
+Individual: <http://model.geneontology.org/8cf62c3d-31de-4dec-bc1f-e07ea692b8df>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEOPLASIA > NONMEDULLARY THYROID CARCINOMA (FOLLICULAR)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0040198>
+    
+    
+Individual: <http://model.geneontology.org/ccb6594f-5c94-4cd4-a0c9-62e718967ec9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_606240>
+
+    Annotations: 
+        rdfs:label "THYROID CANCER, NONMEDULLARY, 3; NMTC3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

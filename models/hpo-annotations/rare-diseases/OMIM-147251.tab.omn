@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/19416094-23af-4191-a3d8-00ac71cbb30d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-147251.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000164>
+
+    Annotations: 
+        rdfs:label "Abnormality of the teeth"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_147251>
+
+    Annotations: 
+        rdfs:label "INCISORS, FUSED MANDIBULAR"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6878103a-f056-465a-a689-2774f56665b0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_147251>
+    
+    
+Individual: <http://model.geneontology.org/7158f0a5-5aa9-4c8f-808c-07fce443f36d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/c438abcf-1a2a-4685-8cf5-f83de148a1f9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000164>
+    
+    
+Individual: <http://model.geneontology.org/cfffd248-236a-4d24-b930-7ba95dbd7091>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_147251>
+    
+    
+Individual: <http://model.geneontology.org/e0c49c94-78a9-4f5d-8b9e-3d0b103c82cc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_147251>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c438abcf-1a2a-4685-8cf5-f83de148a1f9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cfffd248-236a-4d24-b930-7ba95dbd7091>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c438abcf-1a2a-4685-8cf5-f83de148a1f9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c438abcf-1a2a-4685-8cf5-f83de148a1f9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c438abcf-1a2a-4685-8cf5-f83de148a1f9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7158f0a5-5aa9-4c8f-808c-07fce443f36d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6878103a-f056-465a-a689-2774f56665b0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7158f0a5-5aa9-4c8f-808c-07fce443f36d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7158f0a5-5aa9-4c8f-808c-07fce443f36d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7158f0a5-5aa9-4c8f-808c-07fce443f36d>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_147251>
+
+    Annotations: 
+        rdfs:label "INCISORS, FUSED MANDIBULAR"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

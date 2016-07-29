@@ -1,0 +1,153 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/59ce0368-9688-4313-b9df-a645dd37b13e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614256.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614256>
+
+    Annotations: 
+        rdfs:label "#614256 MENTAL RETARDATION, AUTOSOMAL DOMINANT 10; MRD10"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/011fd683-0b6b-48f6-8587-48ea4f3aef41>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "1/1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/10a66cf5-14c4-4dce-9526-0be8185fc209>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/011fd683-0b6b-48f6-8587-48ea4f3aef41>
+    
+    
+Individual: <http://model.geneontology.org/5b7e1f37-e9c1-4b20-89cb-5d2abc4af9b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614256>
+    
+    
+Individual: <http://model.geneontology.org/620403d1-6d15-4c02-9418-f5c3b8a07cf4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614256>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10a66cf5-14c4-4dce-9526-0be8185fc209>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/84c4a4e2-2195-4c42-92ae-76e7c2a0ab8d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10a66cf5-14c4-4dce-9526-0be8185fc209>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10a66cf5-14c4-4dce-9526-0be8185fc209>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/10a66cf5-14c4-4dce-9526-0be8185fc209>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/675dcc39-1f32-40bf-b19f-80b9310a668e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5b7e1f37-e9c1-4b20-89cb-5d2abc4af9b4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/675dcc39-1f32-40bf-b19f-80b9310a668e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/675dcc39-1f32-40bf-b19f-80b9310a668e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-10"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/675dcc39-1f32-40bf-b19f-80b9310a668e>
+    
+    
+Individual: <http://model.geneontology.org/675dcc39-1f32-40bf-b19f-80b9310a668e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/84c4a4e2-2195-4c42-92ae-76e7c2a0ab8d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614256>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614256>
+
+    Annotations: 
+        rdfs:label "#614256 MENTAL RETARDATION, AUTOSOMAL DOMINANT 10; MRD10"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

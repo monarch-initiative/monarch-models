@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/eb02781a-0363-4ee5-9b7d-bb9d3bcc9662>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612794.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001631>
+
+    Annotations: 
+        rdfs:label "Defect in the atrial septum"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612794>
+
+    Annotations: 
+        rdfs:label "#612794 ATRIAL SEPTAL DEFECT 5; ASD5"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07767e20-6090-460e-a06a-52951e755cea>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612794>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/505162ce-b7f2-42f8-b9cb-4d4fa1c34c43>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5d6f9987-bca2-493e-b10c-02e8d1703b38>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/505162ce-b7f2-42f8-b9cb-4d4fa1c34c43>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/505162ce-b7f2-42f8-b9cb-4d4fa1c34c43>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/505162ce-b7f2-42f8-b9cb-4d4fa1c34c43>
+    
+    
+Individual: <http://model.geneontology.org/505162ce-b7f2-42f8-b9cb-4d4fa1c34c43>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001631>
+    
+    
+Individual: <http://model.geneontology.org/5d6f9987-bca2-493e-b10c-02e8d1703b38>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612794>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612794>
+
+    Annotations: 
+        rdfs:label "#612794 ATRIAL SEPTAL DEFECT 5; ASD5"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/aa9f3ed3-c22a-4774-8c8e-a2cc2af8c4ce>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-221995.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009806>
+
+    Annotations: 
+        rdfs:label "Nephrogenic diabetes insipidus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_221995>
+
+    Annotations: 
+        rdfs:label "NEPHROGENIC DIABETES INSIPIDUS - INTRACRANIAL CALCIFICATION"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6a45067a-e88a-4f87-b522-f16d63bc78c6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_221995>
+    
+    
+Individual: <http://model.geneontology.org/77042c09-78ac-4721-bb68-9769f51683cc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:nephrogenic diabetes insipidus - intracranial calc"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009806>
+    
+    
+Individual: <http://model.geneontology.org/e1ae44c0-c9a6-4ece-9b15-25226f3e98cc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_221995>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77042c09-78ac-4721-bb68-9769f51683cc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6a45067a-e88a-4f87-b522-f16d63bc78c6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77042c09-78ac-4721-bb68-9769f51683cc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77042c09-78ac-4721-bb68-9769f51683cc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77042c09-78ac-4721-bb68-9769f51683cc>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_221995>
+
+    Annotations: 
+        rdfs:label "NEPHROGENIC DIABETES INSIPIDUS - INTRACRANIAL CALCIFICATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7e9fd45a-25d1-4fa4-abf2-d5b47e8a1d86>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613308.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001903>
+
+    Annotations: 
+        rdfs:label "Anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613308>
+
+    Annotations: 
+        rdfs:label "#613308 DIAMOND-BLACKFAN ANEMIA 9; DBA9"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/088654ab-1eab-4fe4-9a62-7216b7194726>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613308>
+    
+    
+Individual: <http://model.geneontology.org/0db68647-10dc-4d2e-ab84-02aa227bbd11>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001903>
+    
+    
+Individual: <http://model.geneontology.org/a7f97d28-75e3-4c52-9a6a-32cb9771dd83>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613308>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0db68647-10dc-4d2e-ab84-02aa227bbd11>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/088654ab-1eab-4fe4-9a62-7216b7194726>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0db68647-10dc-4d2e-ab84-02aa227bbd11>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0db68647-10dc-4d2e-ab84-02aa227bbd11>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0db68647-10dc-4d2e-ab84-02aa227bbd11>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613308>
+
+    Annotations: 
+        rdfs:label "#613308 DIAMOND-BLACKFAN ANEMIA 9; DBA9"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

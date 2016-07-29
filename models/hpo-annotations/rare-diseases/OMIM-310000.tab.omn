@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5b48d539-4110-4236-99bc-a4c0c08b68c1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-310000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007081>
+
+    Annotations: 
+        rdfs:label "Late-onset muscular dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_310000>
+
+    Annotations: 
+        rdfs:label "MUSCULAR DYSTROPHY, MABRY TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/067fd0e5-8834-4164-b5e9-e7a05b89a2c4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/26f7396c-b40e-42e7-9317-b45afcd5ddb8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_310000>
+    
+    
+Individual: <http://model.geneontology.org/5224e118-3f23-4805-982e-026e81b9ddb9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Onset about puberty"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007081>
+    
+    
+Individual: <http://model.geneontology.org/a00992d0-f5d5-402c-bdf3-579018db9964>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_310000>
+    
+    
+Individual: <http://model.geneontology.org/dbfe317c-aa28-42fb-9fcd-84ac69bb39c2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_310000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/067fd0e5-8834-4164-b5e9-e7a05b89a2c4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/26f7396c-b40e-42e7-9317-b45afcd5ddb8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/067fd0e5-8834-4164-b5e9-e7a05b89a2c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/067fd0e5-8834-4164-b5e9-e7a05b89a2c4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/067fd0e5-8834-4164-b5e9-e7a05b89a2c4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5224e118-3f23-4805-982e-026e81b9ddb9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a00992d0-f5d5-402c-bdf3-579018db9964>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5224e118-3f23-4805-982e-026e81b9ddb9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5224e118-3f23-4805-982e-026e81b9ddb9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5224e118-3f23-4805-982e-026e81b9ddb9>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_310000>
+
+    Annotations: 
+        rdfs:label "MUSCULAR DYSTROPHY, MABRY TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

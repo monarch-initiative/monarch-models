@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/dc77cd52-4c91-4dbf-9030-c5d77e772577>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615896.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001006>
+
+    Annotations: 
+        rdfs:label "Hypotrichosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002224>
+
+    Annotations: 
+        rdfs:label "Woolly hair"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615896>
+
+    Annotations: 
+        rdfs:label "#615896 HYPOTRICHOSIS 13; HYPT13;;HYPOTRICHOSIS WITH WOOLLY HAIR"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/130543b1-2b7f-4c09-b281-96227b164532>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615896>
+    
+    
+Individual: <http://model.geneontology.org/42aedfdd-78b1-41f4-8a27-49baa4d04ce8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/63a31e20-97cb-4cbb-8bad-d89ddf5beb89>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/842c6f7f-359c-4681-a19c-b363f53a1a6c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_HAIR > HYPOTRICHOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001006>
+    
+    
+Individual: <http://model.geneontology.org/a6d28b32-6311-4a95-9206-ca4704c83763>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615896>
+    
+    
+Individual: <http://model.geneontology.org/c07a2222-686b-44f0-83cc-6fe23ccdf86f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615896>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0c6f137-826d-4884-b673-580420047169>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/130543b1-2b7f-4c09-b281-96227b164532>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0c6f137-826d-4884-b673-580420047169>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0c6f137-826d-4884-b673-580420047169>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f0c6f137-826d-4884-b673-580420047169>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42aedfdd-78b1-41f4-8a27-49baa4d04ce8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63a31e20-97cb-4cbb-8bad-d89ddf5beb89>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42aedfdd-78b1-41f4-8a27-49baa4d04ce8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42aedfdd-78b1-41f4-8a27-49baa4d04ce8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42aedfdd-78b1-41f4-8a27-49baa4d04ce8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/842c6f7f-359c-4681-a19c-b363f53a1a6c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a6d28b32-6311-4a95-9206-ca4704c83763>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/842c6f7f-359c-4681-a19c-b363f53a1a6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/842c6f7f-359c-4681-a19c-b363f53a1a6c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/842c6f7f-359c-4681-a19c-b363f53a1a6c>
+    
+    
+Individual: <http://model.geneontology.org/f0c6f137-826d-4884-b673-580420047169>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:;hypotrichosis with woolly hair"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002224>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615896>
+
+    Annotations: 
+        rdfs:label "#615896 HYPOTRICHOSIS 13; HYPT13;;HYPOTRICHOSIS WITH WOOLLY HAIR"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

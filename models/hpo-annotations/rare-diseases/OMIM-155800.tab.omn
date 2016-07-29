@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/41118067-5562-4e48-9524-c1bf27bfeb9e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-155800.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003593>
+
+    Annotations: 
+        rdfs:label "Infantile onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007440>
+
+    Annotations: 
+        rdfs:label "Generalized hyperpigmentation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_155800>
+
+    Annotations: 
+        rdfs:label "MELANOSIS, UNIVERSAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01a23da6-3ddf-46e8-a43f-486af58255bc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_155800>
+    
+    
+Individual: <http://model.geneontology.org/093d9dc6-ce9b-40c5-b97b-a27fcc5bde62>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007440>
+    
+    
+Individual: <http://model.geneontology.org/0e13a894-62cb-4e25-abda-f4ad3d52f893>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_155800>
+    
+    
+Individual: <http://model.geneontology.org/22cc0880-da64-43fa-b883-96213fa8bd16>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_155800>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/093d9dc6-ce9b-40c5-b97b-a27fcc5bde62>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fc13d0f6-f149-47c7-a2a8-217fbe005836>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/093d9dc6-ce9b-40c5-b97b-a27fcc5bde62>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/093d9dc6-ce9b-40c5-b97b-a27fcc5bde62>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/093d9dc6-ce9b-40c5-b97b-a27fcc5bde62>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d93bbb-7767-4d0f-ba2e-01175fae6632>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/01a23da6-3ddf-46e8-a43f-486af58255bc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d93bbb-7767-4d0f-ba2e-01175fae6632>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d93bbb-7767-4d0f-ba2e-01175fae6632>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d93bbb-7767-4d0f-ba2e-01175fae6632>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ad5b85-37c5-42db-bb5a-99cb66b912d2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0e13a894-62cb-4e25-abda-f4ad3d52f893>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ad5b85-37c5-42db-bb5a-99cb66b912d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ad5b85-37c5-42db-bb5a-99cb66b912d2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87ad5b85-37c5-42db-bb5a-99cb66b912d2>
+    
+    
+Individual: <http://model.geneontology.org/81d93bbb-7767-4d0f-ba2e-01175fae6632>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/87ad5b85-37c5-42db-bb5a-99cb66b912d2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003593>
+    
+    
+Individual: <http://model.geneontology.org/fc13d0f6-f149-47c7-a2a8-217fbe005836>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_155800>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_155800>
+
+    Annotations: 
+        rdfs:label "MELANOSIS, UNIVERSAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b7d8bb03-f04a-4d8a-a487-c544b5177c53>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-305350.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006739>
+
+    Annotations: 
+        rdfs:label "Squamous cell carcinoma of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200043>
+
+    Annotations: 
+        rdfs:label "Verrucae"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_305350>
+
+    Annotations: 
+        rdfs:label "305350 EPIDERMODYSPLASIA VERRUCIFORMIS, X-LINKED; EDVX; EDV2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/355cc3b2-1ecb-4db8-b963-7a46885370d0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/4156e345-a4be-4b77-a821-a8059f07471a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_305350>
+    
+    
+Individual: <http://model.geneontology.org/5bf94e39-e6c7-4e9e-aa79-c5286bc122ee>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_305350>
+    
+    
+Individual: <http://model.geneontology.org/b50c4a9b-287a-4f65-8092-e178ffabdf8f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_305350>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1383090-fc6c-48ff-a368-bf7a551bc7cf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4156e345-a4be-4b77-a821-a8059f07471a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1383090-fc6c-48ff-a368-bf7a551bc7cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1383090-fc6c-48ff-a368-bf7a551bc7cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d1383090-fc6c-48ff-a368-bf7a551bc7cf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0007971-64a0-42de-99a4-0c547e904028>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b6298043-4aaf-44f8-a49f-be4cb0b05bb5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0007971-64a0-42de-99a4-0c547e904028>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0007971-64a0-42de-99a4-0c547e904028>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e0007971-64a0-42de-99a4-0c547e904028>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/355cc3b2-1ecb-4db8-b963-7a46885370d0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5bf94e39-e6c7-4e9e-aa79-c5286bc122ee>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/355cc3b2-1ecb-4db8-b963-7a46885370d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/355cc3b2-1ecb-4db8-b963-7a46885370d0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/355cc3b2-1ecb-4db8-b963-7a46885370d0>
+    
+    
+Individual: <http://model.geneontology.org/b6298043-4aaf-44f8-a49f-be4cb0b05bb5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_305350>
+    
+    
+Individual: <http://model.geneontology.org/d1383090-fc6c-48ff-a368-bf7a551bc7cf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006739>
+    
+    
+Individual: <http://model.geneontology.org/e0007971-64a0-42de-99a4-0c547e904028>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200043>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_305350>
+
+    Annotations: 
+        rdfs:label "305350 EPIDERMODYSPLASIA VERRUCIFORMIS, X-LINKED; EDVX; EDV2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

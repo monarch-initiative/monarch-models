@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5ec9575e-9d6f-4cca-a2ac-281a8efa7e47>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-191550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000073>
+
+    Annotations: 
+        rdfs:label "Ureteral duplication"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_191550>
+
+    Annotations: 
+        rdfs:label "URETER, BIFID OR DOUBLE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1d460fe4-2fde-43bd-8599-48c673f26164>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000073>
+    
+    
+Individual: <http://model.geneontology.org/6316d671-cc8f-4da3-ad03-3e2c389c7e76>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191550>
+    
+    
+Individual: <http://model.geneontology.org/6f47b257-50fa-4e7a-9098-6f5444c6b253>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/ecd7cdf5-f06f-4db5-8064-456235dcac47>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_191550>
+    
+    
+Individual: <http://model.geneontology.org/f99fdd1f-f61f-4c10-89e1-92dbffcb7a7a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_191550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d460fe4-2fde-43bd-8599-48c673f26164>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6316d671-cc8f-4da3-ad03-3e2c389c7e76>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d460fe4-2fde-43bd-8599-48c673f26164>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d460fe4-2fde-43bd-8599-48c673f26164>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1d460fe4-2fde-43bd-8599-48c673f26164>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f47b257-50fa-4e7a-9098-6f5444c6b253>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ecd7cdf5-f06f-4db5-8064-456235dcac47>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f47b257-50fa-4e7a-9098-6f5444c6b253>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f47b257-50fa-4e7a-9098-6f5444c6b253>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6f47b257-50fa-4e7a-9098-6f5444c6b253>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_191550>
+
+    Annotations: 
+        rdfs:label "URETER, BIFID OR DOUBLE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

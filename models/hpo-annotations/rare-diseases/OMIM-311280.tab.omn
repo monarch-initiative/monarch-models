@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e4d3d0ee-db74-49dc-8d69-c650016f26af>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-311280.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010740>
+
+    Annotations: 
+        rdfs:label "Osteopathia striata"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_311280>
+
+    Annotations: 
+        rdfs:label "OSTEOPATHIA STRIATA - PIGMENTARY DERMOPATHY - WHITE FORELOCK"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0cf017a8-8497-4c96-a3f0-9c7883827f20>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:osteopathia striata - pigmentary dermop"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010740>
+    
+    
+Individual: <http://model.geneontology.org/33bcb87f-10d7-4ff6-a1ba-dd174d4e8c5e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_311280>
+    
+    
+Individual: <http://model.geneontology.org/eb41539b-6e53-4dfa-9209-c7bfc51bce3c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_311280>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf017a8-8497-4c96-a3f0-9c7883827f20>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/33bcb87f-10d7-4ff6-a1ba-dd174d4e8c5e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf017a8-8497-4c96-a3f0-9c7883827f20>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf017a8-8497-4c96-a3f0-9c7883827f20>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0cf017a8-8497-4c96-a3f0-9c7883827f20>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_311280>
+
+    Annotations: 
+        rdfs:label "OSTEOPATHIA STRIATA - PIGMENTARY DERMOPATHY - WHITE FORELOCK"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e1173ec6-5578-467f-9116-9bcb7404103c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616532.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001250>
+
+    Annotations: 
+        rdfs:label "Seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002315>
+
+    Annotations: 
+        rdfs:label "Headache"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616532>
+
+    Annotations: 
+        rdfs:label "#616532 HERPES SIMPLEX ENCEPHALITIS, SUSCEPTIBILITY TO, 7;;ENCEPHALOPATHY, ACUTE, INFECTION-INDUCED, SUSCEPTIBILITY TO, 7; IIAE7"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07f56ace-2e19-4060-875d-8fa735e477b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616532>
+    
+    
+Individual: <http://model.geneontology.org/093152f3-72da-4c02-8d63-20a78d6dc895>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616532>
+    
+    
+Individual: <http://model.geneontology.org/3869b60e-58bd-4a80-93ad-f36d1bd696ec>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > HEADACHE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002315>
+    
+    
+Individual: <http://model.geneontology.org/b800c243-34e6-41de-9765-8f5388311b3f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > SEIZURES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001250>
+    
+    
+Individual: <http://model.geneontology.org/e6934711-c5c7-41df-8a5c-1795dbe1d5a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616532>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b800c243-34e6-41de-9765-8f5388311b3f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/07f56ace-2e19-4060-875d-8fa735e477b4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b800c243-34e6-41de-9765-8f5388311b3f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b800c243-34e6-41de-9765-8f5388311b3f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b800c243-34e6-41de-9765-8f5388311b3f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3869b60e-58bd-4a80-93ad-f36d1bd696ec>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/093152f3-72da-4c02-8d63-20a78d6dc895>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3869b60e-58bd-4a80-93ad-f36d1bd696ec>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3869b60e-58bd-4a80-93ad-f36d1bd696ec>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3869b60e-58bd-4a80-93ad-f36d1bd696ec>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616532>
+
+    Annotations: 
+        rdfs:label "#616532 HERPES SIMPLEX ENCEPHALITIS, SUSCEPTIBILITY TO, 7;;ENCEPHALOPATHY, ACUTE, INFECTION-INDUCED, SUSCEPTIBILITY TO, 7; IIAE7"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

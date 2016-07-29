@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/aa031e1a-a7f6-4176-9448-d3788c3be0a1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-120050.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004429>
+
+    Annotations: 
+        rdfs:label "Recurrent viral infections"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_120050>
+
+    Annotations: 
+        rdfs:label "%120050 COXSACKIEVIRUS B3 SUSCEPTIBILITY; CXB3S;;CB3S"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/431ab2ee-0e69-470e-8fbd-5a0e7ea00262>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_120050>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/be60f536-448a-4cb4-9953-a1b249cd8379>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c72e1e3a-415d-4c46-b21b-27d200fa8d01>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/be60f536-448a-4cb4-9953-a1b249cd8379>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/be60f536-448a-4cb4-9953-a1b249cd8379>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/be60f536-448a-4cb4-9953-a1b249cd8379>
+    
+    
+Individual: <http://model.geneontology.org/be60f536-448a-4cb4-9953-a1b249cd8379>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004429>
+    
+    
+Individual: <http://model.geneontology.org/c72e1e3a-415d-4c46-b21b-27d200fa8d01>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_120050>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_120050>
+
+    Annotations: 
+        rdfs:label "%120050 COXSACKIEVIRUS B3 SUSCEPTIBILITY; CXB3S;;CB3S"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

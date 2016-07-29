@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/aab02c5f-4891-4dfe-bb72-84a73e086d19>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613986.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004322>
+
+    Annotations: 
+        rdfs:label "Short stature"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0011755>
+
+    Annotations: 
+        rdfs:label "Ectopic posterior pituitary"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613986>
+
+    Annotations: 
+        rdfs:label "#613986 PITUITARY HORMONE DEFICIENCY, COMBINED, 6; CPHD6"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6e4524a1-400c-4a13-ac0d-7d025e202357>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_HEIGHT > SHORT STATURE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004322>
+    
+    
+Individual: <http://model.geneontology.org/7359d299-8c98-4612-ba1c-da935c57b92e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/86171d1c-9d6e-4c23-a6a2-b9ba8f4baa91>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613986>
+    
+    
+Individual: <http://model.geneontology.org/b0f1565f-d7d3-40f7-9336-d2d2b7effba0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613986>
+    
+    
+Individual: <http://model.geneontology.org/b5168986-a550-4e3c-a645-61514ea7f2f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613986>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb579fe1-4ee1-4ca0-bb07-992d7cd73e16>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/86171d1c-9d6e-4c23-a6a2-b9ba8f4baa91>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb579fe1-4ee1-4ca0-bb07-992d7cd73e16>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb579fe1-4ee1-4ca0-bb07-992d7cd73e16>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb579fe1-4ee1-4ca0-bb07-992d7cd73e16>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4524a1-400c-4a13-ac0d-7d025e202357>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e8940aa3-3beb-42c6-bee6-c4d242ec38d2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4524a1-400c-4a13-ac0d-7d025e202357>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4524a1-400c-4a13-ac0d-7d025e202357>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6e4524a1-400c-4a13-ac0d-7d025e202357>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7359d299-8c98-4612-ba1c-da935c57b92e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b0f1565f-d7d3-40f7-9336-d2d2b7effba0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7359d299-8c98-4612-ba1c-da935c57b92e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7359d299-8c98-4612-ba1c-da935c57b92e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7359d299-8c98-4612-ba1c-da935c57b92e>
+    
+    
+Individual: <http://model.geneontology.org/bb579fe1-4ee1-4ca0-bb07-992d7cd73e16>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > ECTOPIC POSTERIOR PITUITARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0011755>
+    
+    
+Individual: <http://model.geneontology.org/e8940aa3-3beb-42c6-bee6-c4d242ec38d2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613986>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613986>
+
+    Annotations: 
+        rdfs:label "#613986 PITUITARY HORMONE DEFICIENCY, COMBINED, 6; CPHD6"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

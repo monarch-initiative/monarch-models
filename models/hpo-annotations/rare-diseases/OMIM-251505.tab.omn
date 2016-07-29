@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b028c494-9358-4355-9ef8-0cf1849def66>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-251505.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000568>
+
+    Annotations: 
+        rdfs:label "Microphthalmos"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000589>
+
+    Annotations: 
+        rdfs:label "Coloboma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_251505>
+
+    Annotations: 
+        rdfs:label "MICROPHTHALMIA, ISOLATED, WITH COLOBOMA 4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1ffd0274-91f6-49d4-bbb7-4cb34b75846c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_251505>
+    
+    
+Individual: <http://model.geneontology.org/4eae17d7-a811-4897-be39-8cc947d4c9fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_251505>
+    
+    
+Individual: <http://model.geneontology.org/5aebc692-3c00-4acd-b579-ca048751e80b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000568>
+    
+    
+Individual: <http://model.geneontology.org/8ea70d97-ecf8-409b-9884-223832531e84>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:mia, isolated, with coloboma 4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000589>
+    
+    
+Individual: <http://model.geneontology.org/d313de21-46d5-4ebd-9232-6cdc7e28c834>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/e56294ab-2e3d-4e51-9d4b-4859cc377250>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_251505>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d313de21-46d5-4ebd-9232-6cdc7e28c834>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4eae17d7-a811-4897-be39-8cc947d4c9fb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d313de21-46d5-4ebd-9232-6cdc7e28c834>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d313de21-46d5-4ebd-9232-6cdc7e28c834>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d313de21-46d5-4ebd-9232-6cdc7e28c834>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5aebc692-3c00-4acd-b579-ca048751e80b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1ffd0274-91f6-49d4-bbb7-4cb34b75846c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5aebc692-3c00-4acd-b579-ca048751e80b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5aebc692-3c00-4acd-b579-ca048751e80b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5aebc692-3c00-4acd-b579-ca048751e80b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ea70d97-ecf8-409b-9884-223832531e84>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fa0ec1b4-cbcc-4d73-8eef-5b4474e23c73>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ea70d97-ecf8-409b-9884-223832531e84>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ea70d97-ecf8-409b-9884-223832531e84>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8ea70d97-ecf8-409b-9884-223832531e84>
+    
+    
+Individual: <http://model.geneontology.org/fa0ec1b4-cbcc-4d73-8eef-5b4474e23c73>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_251505>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_251505>
+
+    Annotations: 
+        rdfs:label "MICROPHTHALMIA, ISOLATED, WITH COLOBOMA 4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

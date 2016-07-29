@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d45e63be-aee7-47a9-87ed-7b899b86009a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-150699.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000131>
+
+    Annotations: 
+        rdfs:label "Uterine leiomyoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001428>
+
+    Annotations: 
+        rdfs:label "Somatic mutation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_150699>
+
+    Annotations: 
+        rdfs:label "#150699 LEIOMYOMA, UTERINE; UL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1153767e-ae30-4a8b-91c7-07fd9c4316f5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150699>
+    
+    
+Individual: <http://model.geneontology.org/32449428-53bd-486b-aab2-2b3d01d67e1c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150699>
+    
+    
+Individual: <http://model.geneontology.org/41a3556d-291a-44d1-9b96-fb3f1e2a1415>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000131>
+    
+    
+Individual: <http://model.geneontology.org/538def7b-9313-4982-b21a-bcd558b0d9c6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > SOMATIC MUTATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001428>
+    
+    
+Individual: <http://model.geneontology.org/d360d397-7881-43ad-86bf-b10a89b67fd3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150699>
+    
+    
+Individual: <http://model.geneontology.org/e862b858-324a-4415-84fe-5c67866ea66d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f6d312d3-76aa-496d-9d1a-f92e292e5263>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_150699>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e862b858-324a-4415-84fe-5c67866ea66d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d360d397-7881-43ad-86bf-b10a89b67fd3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e862b858-324a-4415-84fe-5c67866ea66d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e862b858-324a-4415-84fe-5c67866ea66d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e862b858-324a-4415-84fe-5c67866ea66d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/41a3556d-291a-44d1-9b96-fb3f1e2a1415>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1153767e-ae30-4a8b-91c7-07fd9c4316f5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/41a3556d-291a-44d1-9b96-fb3f1e2a1415>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/41a3556d-291a-44d1-9b96-fb3f1e2a1415>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/41a3556d-291a-44d1-9b96-fb3f1e2a1415>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538def7b-9313-4982-b21a-bcd558b0d9c6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/32449428-53bd-486b-aab2-2b3d01d67e1c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538def7b-9313-4982-b21a-bcd558b0d9c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538def7b-9313-4982-b21a-bcd558b0d9c6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/538def7b-9313-4982-b21a-bcd558b0d9c6>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_150699>
+
+    Annotations: 
+        rdfs:label "#150699 LEIOMYOMA, UTERINE; UL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

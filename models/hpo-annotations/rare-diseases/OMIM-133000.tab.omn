@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/04c9254d-088e-4181-ac0a-fc0fe39b1182>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-133000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010783>
+
+    Annotations: 
+        rdfs:label "Erythema"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_133000>
+
+    Annotations: 
+        rdfs:label "ERYTHEMA PALMARE HEREDITARIUM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07b25aed-5b45-4bb1-b444-602bf7ae2c80>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/bedf87bf-7c0f-4b48-b9a7-540ae808b0ba>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_133000>
+    
+    
+Individual: <http://model.geneontology.org/d6f47c2e-5c82-4541-94c7-09163fc249c9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010783>
+    
+    
+Individual: <http://model.geneontology.org/e61dd931-bdca-4520-a53c-f45950c27f7b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_133000>
+    
+    
+Individual: <http://model.geneontology.org/fd53b513-85dd-40d4-a64e-85cba3f31606>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_133000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6f47c2e-5c82-4541-94c7-09163fc249c9>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e61dd931-bdca-4520-a53c-f45950c27f7b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6f47c2e-5c82-4541-94c7-09163fc249c9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6f47c2e-5c82-4541-94c7-09163fc249c9>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6f47c2e-5c82-4541-94c7-09163fc249c9>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07b25aed-5b45-4bb1-b444-602bf7ae2c80>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bedf87bf-7c0f-4b48-b9a7-540ae808b0ba>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07b25aed-5b45-4bb1-b444-602bf7ae2c80>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07b25aed-5b45-4bb1-b444-602bf7ae2c80>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/07b25aed-5b45-4bb1-b444-602bf7ae2c80>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_133000>
+
+    Annotations: 
+        rdfs:label "ERYTHEMA PALMARE HEREDITARIUM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ebf6e787-4a4e-4cec-87c6-1e1bfc053d96>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616566.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002947>
+
+    Annotations: 
+        rdfs:label "Cervical kyphosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003416>
+
+    Annotations: 
+        rdfs:label "Spinal canal stenosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616566>
+
+    Annotations: 
+        rdfs:label "SPONDYLOCOSTAL DYSOSTOSIS 6, AUTOSOMAL RECESSIVE; SCDO6"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1c10c637-f89c-4b99-8524-03a770d8d638>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_SPINE > CERVICAL KYPHOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002947>
+    
+    
+Individual: <http://model.geneontology.org/47cef2db-562e-4414-b15e-f021929bfe61>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/85ae7bea-fa3b-4633-8824-84e2e2138e10>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616566>
+    
+    
+Individual: <http://model.geneontology.org/c4d61779-8673-4721-b98d-31f68117e687>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616566>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efdb6a39-3419-4a53-8eba-6a7079c38ee3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe8eb187-0639-4ee7-950b-877b668c107e>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efdb6a39-3419-4a53-8eba-6a7079c38ee3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efdb6a39-3419-4a53-8eba-6a7079c38ee3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efdb6a39-3419-4a53-8eba-6a7079c38ee3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c10c637-f89c-4b99-8524-03a770d8d638>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/85ae7bea-fa3b-4633-8824-84e2e2138e10>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c10c637-f89c-4b99-8524-03a770d8d638>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c10c637-f89c-4b99-8524-03a770d8d638>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-11-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c10c637-f89c-4b99-8524-03a770d8d638>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47cef2db-562e-4414-b15e-f021929bfe61>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fca8f52e-68e3-42e2-9d6a-c6f39ccf1977>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47cef2db-562e-4414-b15e-f021929bfe61>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47cef2db-562e-4414-b15e-f021929bfe61>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47cef2db-562e-4414-b15e-f021929bfe61>
+    
+    
+Individual: <http://model.geneontology.org/efdb6a39-3419-4a53-8eba-6a7079c38ee3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_SKULL > SPINAL CANAL STENOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003416>
+    
+    
+Individual: <http://model.geneontology.org/fca8f52e-68e3-42e2-9d6a-c6f39ccf1977>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/fe8eb187-0639-4ee7-950b-877b668c107e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616566>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616566>
+
+    Annotations: 
+        rdfs:label "SPONDYLOCOSTAL DYSOSTOSIS 6, AUTOSOMAL RECESSIVE; SCDO6"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

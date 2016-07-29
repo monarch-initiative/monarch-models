@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d5c9b83a-bad9-452a-94c3-da5ed03fb786>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-125460.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012379>
+
+    Annotations: 
+        rdfs:label "Abnormal enzyme/coenzyme activity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_125460>
+
+    Annotations: 
+        rdfs:label "DEOXYRIBOSE-5-PHOSPHATE ALDOLASE DEFICIENCY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2f8c19b3-4783-4caf-9ab4-a47a1a21dd95>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_125460>
+    
+    
+Individual: <http://model.geneontology.org/73ee6374-f1db-49f2-a5d0-23dfa07cf8f0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012379>
+    
+    
+Individual: <http://model.geneontology.org/facc3ecb-be9b-4644-bb04-f3bb32fac9fb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_125460>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73ee6374-f1db-49f2-a5d0-23dfa07cf8f0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2f8c19b3-4783-4caf-9ab4-a47a1a21dd95>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73ee6374-f1db-49f2-a5d0-23dfa07cf8f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73ee6374-f1db-49f2-a5d0-23dfa07cf8f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73ee6374-f1db-49f2-a5d0-23dfa07cf8f0>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_125460>
+
+    Annotations: 
+        rdfs:label "DEOXYRIBOSE-5-PHOSPHATE ALDOLASE DEFICIENCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

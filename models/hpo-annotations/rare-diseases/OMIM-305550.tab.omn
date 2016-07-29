@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b71f53c4-2228-43c1-9965-cd23b38e2347>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-305550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001939>
+
+    Annotations: 
+        rdfs:label "Abnormality of metabolism/homeostasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003198>
+
+    Annotations: 
+        rdfs:label "Myopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_305550>
+
+    Annotations: 
+        rdfs:label "FINGERPRINT BODY MYOPATHY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/05fadb1e-499f-4376-8094-aeb4fa48cc0a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001939>
+    
+    
+Individual: <http://model.geneontology.org/14a57c8d-1495-401f-bee4-7c292da7ba1b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/439c75f3-0622-456e-b288-597299c13943>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_305550>
+    
+    
+Individual: <http://model.geneontology.org/8b2c32c2-7e8b-47c3-a95a-c8b0c58bddf6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003198>
+    
+    
+Individual: <http://model.geneontology.org/8f5d55db-405c-4d4d-9ae3-56041c6a62e2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_305550>
+    
+    
+Individual: <http://model.geneontology.org/9afe0d5c-bb5f-4616-8311-ad2b0eacc37b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_305550>
+    
+    
+Individual: <http://model.geneontology.org/a11cba58-430e-4f30-a0d6-eccb4c729711>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_305550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05fadb1e-499f-4376-8094-aeb4fa48cc0a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8f5d55db-405c-4d4d-9ae3-56041c6a62e2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05fadb1e-499f-4376-8094-aeb4fa48cc0a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05fadb1e-499f-4376-8094-aeb4fa48cc0a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/05fadb1e-499f-4376-8094-aeb4fa48cc0a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14a57c8d-1495-401f-bee4-7c292da7ba1b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/439c75f3-0622-456e-b288-597299c13943>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14a57c8d-1495-401f-bee4-7c292da7ba1b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14a57c8d-1495-401f-bee4-7c292da7ba1b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14a57c8d-1495-401f-bee4-7c292da7ba1b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b2c32c2-7e8b-47c3-a95a-c8b0c58bddf6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9afe0d5c-bb5f-4616-8311-ad2b0eacc37b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b2c32c2-7e8b-47c3-a95a-c8b0c58bddf6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b2c32c2-7e8b-47c3-a95a-c8b0c58bddf6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8b2c32c2-7e8b-47c3-a95a-c8b0c58bddf6>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_305550>
+
+    Annotations: 
+        rdfs:label "FINGERPRINT BODY MYOPATHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

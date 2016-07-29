@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/071f0a1a-24b0-45ad-a983-4eeb71e78e04>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-110000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010749>
+
+    Annotations: 
+        rdfs:label "Blepharochalasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_110000>
+
+    Annotations: 
+        rdfs:label "BLEPHAROCHALASIS, SUPERIOR"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/12d3710e-f8d9-4516-abd3-57738e5f1dcb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010749>
+    
+    
+Individual: <http://model.geneontology.org/347be3c9-8f0a-464e-b99d-05cfbdc2938f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/92388323-e0f2-41a5-afc5-399bb03f650b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_110000>
+    
+    
+Individual: <http://model.geneontology.org/c0518a1f-ee37-4d69-a1c4-1db7e94c60cb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_110000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/12d3710e-f8d9-4516-abd3-57738e5f1dcb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/92388323-e0f2-41a5-afc5-399bb03f650b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/12d3710e-f8d9-4516-abd3-57738e5f1dcb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/12d3710e-f8d9-4516-abd3-57738e5f1dcb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/12d3710e-f8d9-4516-abd3-57738e5f1dcb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/347be3c9-8f0a-464e-b99d-05cfbdc2938f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f0d0eee7-56fd-4558-a0a9-51c5169e820b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/347be3c9-8f0a-464e-b99d-05cfbdc2938f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/347be3c9-8f0a-464e-b99d-05cfbdc2938f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/347be3c9-8f0a-464e-b99d-05cfbdc2938f>
+    
+    
+Individual: <http://model.geneontology.org/f0d0eee7-56fd-4558-a0a9-51c5169e820b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_110000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_110000>
+
+    Annotations: 
+        rdfs:label "BLEPHAROCHALASIS, SUPERIOR"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

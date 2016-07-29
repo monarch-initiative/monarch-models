@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/59ac66fe-6e42-4d03-b48a-71b72afbb4c2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-126300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009743>
+
+    Annotations: 
+        rdfs:label "Distichiasis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_126300>
+
+    Annotations: 
+        rdfs:label "DISTICHIASIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07beae20-91b4-46fe-8e33-efd5e1237b9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_126300>
+    
+    
+Individual: <http://model.geneontology.org/6cd6571d-6007-438e-a087-08c9f1b02649>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009743>
+    
+    
+Individual: <http://model.geneontology.org/a33595c2-4a8d-442b-b785-dc7e03d84ee4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/abdf18bb-a58b-4448-b308-1566cc88c462>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_126300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a33595c2-4a8d-442b-b785-dc7e03d84ee4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cc86bdec-5eea-4789-b9c0-2e5e4c959f08>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a33595c2-4a8d-442b-b785-dc7e03d84ee4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a33595c2-4a8d-442b-b785-dc7e03d84ee4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a33595c2-4a8d-442b-b785-dc7e03d84ee4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cd6571d-6007-438e-a087-08c9f1b02649>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/07beae20-91b4-46fe-8e33-efd5e1237b9c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cd6571d-6007-438e-a087-08c9f1b02649>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cd6571d-6007-438e-a087-08c9f1b02649>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6cd6571d-6007-438e-a087-08c9f1b02649>
+    
+    
+Individual: <http://model.geneontology.org/cc86bdec-5eea-4789-b9c0-2e5e4c959f08>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_126300>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_126300>
+
+    Annotations: 
+        rdfs:label "DISTICHIASIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

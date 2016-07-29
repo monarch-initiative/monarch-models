@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6cb6e967-e6f9-4280-8672-44ee32c3e110>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-309100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007754>
+
+    Annotations: 
+        rdfs:label "Macular dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_309100>
+
+    Annotations: 
+        rdfs:label "MACULAR DYSTROPHY, X-LINKED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/08358bbf-b276-4e7c-bc2d-3127d02d73a4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/73e4f2b5-af00-4010-b8e6-a4238fbd9ee7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007754>
+    
+    
+Individual: <http://model.geneontology.org/ba281e59-3fa2-4501-90d4-8fca41d28090>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_309100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08358bbf-b276-4e7c-bc2d-3127d02d73a4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/eb39b36f-9ad3-45c4-a6d3-d00f74eb41d8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08358bbf-b276-4e7c-bc2d-3127d02d73a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08358bbf-b276-4e7c-bc2d-3127d02d73a4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/08358bbf-b276-4e7c-bc2d-3127d02d73a4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73e4f2b5-af00-4010-b8e6-a4238fbd9ee7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c99c85d8-ca7f-4c55-82b3-5c643f49e36d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73e4f2b5-af00-4010-b8e6-a4238fbd9ee7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73e4f2b5-af00-4010-b8e6-a4238fbd9ee7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/73e4f2b5-af00-4010-b8e6-a4238fbd9ee7>
+    
+    
+Individual: <http://model.geneontology.org/c99c85d8-ca7f-4c55-82b3-5c643f49e36d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_309100>
+    
+    
+Individual: <http://model.geneontology.org/eb39b36f-9ad3-45c4-a6d3-d00f74eb41d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_309100>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_309100>
+
+    Annotations: 
+        rdfs:label "MACULAR DYSTROPHY, X-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

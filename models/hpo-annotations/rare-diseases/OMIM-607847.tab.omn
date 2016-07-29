@@ -1,0 +1,190 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ba6b7688-4bfd-4ec3-a9b9-ec28eb26fdcf>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-607847.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001875>
+
+    Annotations: 
+        rdfs:label "Neutropenia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004808>
+
+    Annotations: 
+        rdfs:label "Acute myeloid leukemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_607847>
+
+    Annotations: 
+        rdfs:label "#607847 NEUTROPENIA, NONIMMUNE CHRONIC IDIOPATHIC, OF ADULTS;;NONIMMUNE CHRONIC IDIOPATHIC NEUTROPENIA OF ADULTS;;NI-CINA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2bb31948-1ff4-452a-8c6d-f064785d5d89>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607847>
+    
+    
+Individual: <http://model.geneontology.org/2cd6e62c-8200-4458-b027-5305cd341a42>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/3a0cfbbb-8f5b-4e36-93df-b6c1e805f019>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004808>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/8669ec57-c252-4bc9-8217-64e84af84412>
+    
+    
+Individual: <http://model.geneontology.org/3f0e7441-e37a-42c0-a9e2-8838d9c9ed32>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Mild"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001875>
+    
+    
+Individual: <http://model.geneontology.org/8669ec57-c252-4bc9-8217-64e84af84412>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Occasional"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/8d032fe0-816c-4c48-8672-a5164287a259>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607847>
+    
+    
+Individual: <http://model.geneontology.org/a83d2d18-cd76-4570-862b-655e4fd9db01>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_607847>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cd6e62c-8200-4458-b027-5305cd341a42>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2bb31948-1ff4-452a-8c6d-f064785d5d89>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cd6e62c-8200-4458-b027-5305cd341a42>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cd6e62c-8200-4458-b027-5305cd341a42>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cd6e62c-8200-4458-b027-5305cd341a42>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a0cfbbb-8f5b-4e36-93df-b6c1e805f019>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fef2c045-77f5-41a5-afd0-6fb8bd2cd430>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a0cfbbb-8f5b-4e36-93df-b6c1e805f019>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a0cfbbb-8f5b-4e36-93df-b6c1e805f019>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a0cfbbb-8f5b-4e36-93df-b6c1e805f019>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f0e7441-e37a-42c0-a9e2-8838d9c9ed32>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8d032fe0-816c-4c48-8672-a5164287a259>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f0e7441-e37a-42c0-a9e2-8838d9c9ed32>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f0e7441-e37a-42c0-a9e2-8838d9c9ed32>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f0e7441-e37a-42c0-a9e2-8838d9c9ed32>
+    
+    
+Individual: <http://model.geneontology.org/fef2c045-77f5-41a5-afd0-6fb8bd2cd430>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_607847>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_607847>
+
+    Annotations: 
+        rdfs:label "#607847 NEUTROPENIA, NONIMMUNE CHRONIC IDIOPATHIC, OF ADULTS;;NONIMMUNE CHRONIC IDIOPATHIC NEUTROPENIA OF ADULTS;;NI-CINA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/621fa05d-9520-4bd2-8ed4-a3a2743f4801>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613342.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003510>
+
+    Annotations: 
+        rdfs:label "Severe short stature"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613342>
+
+    Annotations: 
+        rdfs:label "BRACHYDACTYLOUS DWARFISM, MSELENI TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0c7ee3d1-a4dc-4363-a91d-598afabdfa07>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:brachydactylous dwarfism, mseleni type"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003510>
+    
+    
+Individual: <http://model.geneontology.org/a468f6bc-08f6-4835-bf43-5236e19f56c4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613342>
+    
+    
+Individual: <http://model.geneontology.org/c2c5a601-16d6-4e57-b532-5221966f86db>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613342>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7ee3d1-a4dc-4363-a91d-598afabdfa07>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a468f6bc-08f6-4835-bf43-5236e19f56c4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7ee3d1-a4dc-4363-a91d-598afabdfa07>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7ee3d1-a4dc-4363-a91d-598afabdfa07>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0c7ee3d1-a4dc-4363-a91d-598afabdfa07>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613342>
+
+    Annotations: 
+        rdfs:label "BRACHYDACTYLOUS DWARFISM, MSELENI TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

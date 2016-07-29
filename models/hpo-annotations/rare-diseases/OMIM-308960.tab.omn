@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/97749d24-9d45-45b2-8904-ff23a43c5a57>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-308960.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002488>
+
+    Annotations: 
+        rdfs:label "Acute leukemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_308960>
+
+    Annotations: 
+        rdfs:label "LEUKEMIA, ACUTE, ?X-LINKED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/410f4083-2421-42cb-9014-193c6944f3e3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_308960>
+    
+    
+Individual: <http://model.geneontology.org/a86ec74b-7b5c-4881-a3e3-3ea32a178938>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002488>
+    
+    
+Individual: <http://model.geneontology.org/bc303d25-fa28-40fb-bbee-8cdfde967470>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_308960>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a86ec74b-7b5c-4881-a3e3-3ea32a178938>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/410f4083-2421-42cb-9014-193c6944f3e3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a86ec74b-7b5c-4881-a3e3-3ea32a178938>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a86ec74b-7b5c-4881-a3e3-3ea32a178938>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/a86ec74b-7b5c-4881-a3e3-3ea32a178938>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_308960>
+
+    Annotations: 
+        rdfs:label "LEUKEMIA, ACUTE, ?X-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

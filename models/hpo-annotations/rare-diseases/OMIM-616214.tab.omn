@@ -1,0 +1,205 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/db9878cf-99d1-4e7c-b1b4-b54d118a8098>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616214.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000842>
+
+    Annotations: 
+        rdfs:label "Hyperinsulinemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003074>
+
+    Annotations: 
+        rdfs:label "Hyperglycemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616214>
+
+    Annotations: 
+        rdfs:label "#616214 HYPERPROINSULINEMIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/15dffffd-04d5-4b1a-98e4-9e7120274ffd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/22bc90a3-e5de-445d-b138-49fa09eb4a9f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4ff03cc6-cd17-43f2-8b8e-e9b4b5c4e2bb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ENDOCRINE FEATURES > HYPERGLYCEMIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003074>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/a5acad4f-6ee9-4220-b0b2-b3f742ed58d6>
+    
+    
+Individual: <http://model.geneontology.org/59335f0a-0f57-4d5a-8842-289b06e62f3a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/834b2073-3d46-4a55-a28d-cf93889385e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616214>
+    
+    
+Individual: <http://model.geneontology.org/a5acad4f-6ee9-4220-b0b2-b3f742ed58d6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b4192e9f-0cab-47a1-b40a-84b074e742cf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ENDOCRINE FEATURES > HYPERINSULINEMIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000842>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/22bc90a3-e5de-445d-b138-49fa09eb4a9f>
+    
+    
+Individual: <http://model.geneontology.org/c6ae954a-06d7-4b57-9d19-29f0a1b0c978>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616214>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4192e9f-0cab-47a1-b40a-84b074e742cf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e5670f56-9a01-49be-a04d-61c88103cf47>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4192e9f-0cab-47a1-b40a-84b074e742cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4192e9f-0cab-47a1-b40a-84b074e742cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-02-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b4192e9f-0cab-47a1-b40a-84b074e742cf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dffffd-04d5-4b1a-98e4-9e7120274ffd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/59335f0a-0f57-4d5a-8842-289b06e62f3a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dffffd-04d5-4b1a-98e4-9e7120274ffd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dffffd-04d5-4b1a-98e4-9e7120274ffd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/15dffffd-04d5-4b1a-98e4-9e7120274ffd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff03cc6-cd17-43f2-8b8e-e9b4b5c4e2bb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/834b2073-3d46-4a55-a28d-cf93889385e8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff03cc6-cd17-43f2-8b8e-e9b4b5c4e2bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff03cc6-cd17-43f2-8b8e-e9b4b5c4e2bb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-02-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4ff03cc6-cd17-43f2-8b8e-e9b4b5c4e2bb>
+    
+    
+Individual: <http://model.geneontology.org/e5670f56-9a01-49be-a04d-61c88103cf47>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616214>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616214>
+
+    Annotations: 
+        rdfs:label "#616214 HYPERPROINSULINEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

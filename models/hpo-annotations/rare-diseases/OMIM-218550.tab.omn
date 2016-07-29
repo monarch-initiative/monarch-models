@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/384d8e54-b4d3-4e54-bec6-d8198e2da94e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-218550.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001363>
+
+    Annotations: 
+        rdfs:label "Craniosynostosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002990>
+
+    Annotations: 
+        rdfs:label "Fibular aplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_218550>
+
+    Annotations: 
+        rdfs:label "CRANIOSYNOSTOSIS WITH FIBULAR APLASIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b3b78dd6-b136-4084-b146-000a041cac78>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001363>
+    
+    
+Individual: <http://model.geneontology.org/bfbe5bd6-e2af-49ae-b2cf-01a2c61963cf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002990>
+    
+    
+Individual: <http://model.geneontology.org/cb67369d-6a9b-4925-aa8c-03436dc5976d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/db710e0e-bd64-45b4-9f8a-6aebe4803eb8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_218550>
+    
+    
+Individual: <http://model.geneontology.org/f228177b-f617-499f-87de-1313f3e303c1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_218550>
+    
+    
+Individual: <http://model.geneontology.org/f73afc2e-aac6-4992-a8a2-441feb8e543d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_218550>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3b78dd6-b136-4084-b146-000a041cac78>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/db710e0e-bd64-45b4-9f8a-6aebe4803eb8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3b78dd6-b136-4084-b146-000a041cac78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3b78dd6-b136-4084-b146-000a041cac78>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b3b78dd6-b136-4084-b146-000a041cac78>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bfbe5bd6-e2af-49ae-b2cf-01a2c61963cf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f228177b-f617-499f-87de-1313f3e303c1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bfbe5bd6-e2af-49ae-b2cf-01a2c61963cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bfbe5bd6-e2af-49ae-b2cf-01a2c61963cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bfbe5bd6-e2af-49ae-b2cf-01a2c61963cf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cb67369d-6a9b-4925-aa8c-03436dc5976d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe95fc5e-1a49-48f0-a5a2-0b33b52859cc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cb67369d-6a9b-4925-aa8c-03436dc5976d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cb67369d-6a9b-4925-aa8c-03436dc5976d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cb67369d-6a9b-4925-aa8c-03436dc5976d>
+    
+    
+Individual: <http://model.geneontology.org/fe95fc5e-1a49-48f0-a5a2-0b33b52859cc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_218550>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_218550>
+
+    Annotations: 
+        rdfs:label "CRANIOSYNOSTOSIS WITH FIBULAR APLASIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

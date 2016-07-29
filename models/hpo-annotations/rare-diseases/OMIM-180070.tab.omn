@@ -1,0 +1,212 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/49e099e9-2068-431b-8776-1b6372c60206>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-180070.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001493>
+
+    Annotations: 
+        rdfs:label "Falciform retinal fold"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007899>
+
+    Annotations: 
+        rdfs:label "Retinal nonattachment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007973>
+
+    Annotations: 
+        rdfs:label "Retinal dysplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_180070>
+
+    Annotations: 
+        rdfs:label "RETINAL NONATTACHMENT AND FALCIFORM DETACHMENT"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/154af717-ae1d-43af-97e2-1ada61daf815>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007899>
+    
+    
+Individual: <http://model.geneontology.org/5da36266-f666-4e42-9ffc-4fd424449dc8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/5e87771f-6ab4-497f-af01-9dc5e3a0143f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_180070>
+    
+    
+Individual: <http://model.geneontology.org/64d54523-219d-46d6-8598-b5eca467e709>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_180070>
+    
+    
+Individual: <http://model.geneontology.org/aa5ace5c-63df-44e4-8888-c1fa982ced67>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_180070>
+    
+    
+Individual: <http://model.geneontology.org/aee6f0a7-b5a6-4c78-a728-7a67166c7de1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001493>
+    
+    
+Individual: <http://model.geneontology.org/bb3a94be-f03d-41d0-acbd-014186fc4d9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_180070>
+    
+    
+Individual: <http://model.geneontology.org/c2f64cf9-61ac-4650-afb8-7756e4d44aab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_180070>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aee6f0a7-b5a6-4c78-a728-7a67166c7de1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb3a94be-f03d-41d0-acbd-014186fc4d9c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aee6f0a7-b5a6-4c78-a728-7a67166c7de1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aee6f0a7-b5a6-4c78-a728-7a67166c7de1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/aee6f0a7-b5a6-4c78-a728-7a67166c7de1>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feb93aaa-6683-41af-9477-f1b5e600fe9c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/64d54523-219d-46d6-8598-b5eca467e709>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feb93aaa-6683-41af-9477-f1b5e600fe9c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feb93aaa-6683-41af-9477-f1b5e600fe9c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/feb93aaa-6683-41af-9477-f1b5e600fe9c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/154af717-ae1d-43af-97e2-1ada61daf815>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aa5ace5c-63df-44e4-8888-c1fa982ced67>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/154af717-ae1d-43af-97e2-1ada61daf815>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/154af717-ae1d-43af-97e2-1ada61daf815>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/154af717-ae1d-43af-97e2-1ada61daf815>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5da36266-f666-4e42-9ffc-4fd424449dc8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5e87771f-6ab4-497f-af01-9dc5e3a0143f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5da36266-f666-4e42-9ffc-4fd424449dc8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5da36266-f666-4e42-9ffc-4fd424449dc8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5da36266-f666-4e42-9ffc-4fd424449dc8>
+    
+    
+Individual: <http://model.geneontology.org/feb93aaa-6683-41af-9477-f1b5e600fe9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007973>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_180070>
+
+    Annotations: 
+        rdfs:label "RETINAL NONATTACHMENT AND FALCIFORM DETACHMENT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

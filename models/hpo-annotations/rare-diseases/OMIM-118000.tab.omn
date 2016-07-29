@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/eb371b12-8c52-4b85-8163-5c723c5336ed>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-118000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000925>
+
+    Annotations: 
+        rdfs:label "Abnormality of the vertebral column"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_118000>
+
+    Annotations: 
+        rdfs:label "CERVICAL VERTEBRAL BRIDGE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5b88f49d-667f-4758-970c-ab9f3a51b5d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000925>
+    
+    
+Individual: <http://model.geneontology.org/5edf2569-e67f-4e38-867f-1f1f3b4b2130>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_118000>
+    
+    
+Individual: <http://model.geneontology.org/910c379d-e0e4-47db-afdc-fa071f0685c6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_118000>
+    
+    
+Individual: <http://model.geneontology.org/dc72bea3-ab59-43c5-8a91-f08c4e02e85b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/f14ff4b1-1729-4799-9040-f9d74974b742>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_118000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dc72bea3-ab59-43c5-8a91-f08c4e02e85b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/910c379d-e0e4-47db-afdc-fa071f0685c6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dc72bea3-ab59-43c5-8a91-f08c4e02e85b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dc72bea3-ab59-43c5-8a91-f08c4e02e85b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/dc72bea3-ab59-43c5-8a91-f08c4e02e85b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5b88f49d-667f-4758-970c-ab9f3a51b5d8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5edf2569-e67f-4e38-867f-1f1f3b4b2130>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5b88f49d-667f-4758-970c-ab9f3a51b5d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5b88f49d-667f-4758-970c-ab9f3a51b5d8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5b88f49d-667f-4758-970c-ab9f3a51b5d8>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_118000>
+
+    Annotations: 
+        rdfs:label "CERVICAL VERTEBRAL BRIDGE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

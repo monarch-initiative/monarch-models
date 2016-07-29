@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/0ab4341d-345c-4ed3-83af-8db61bbaed19>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614415.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000992>
+
+    Annotations: 
+        rdfs:label "Cutaneous photosensitivity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614415>
+
+    Annotations: 
+        rdfs:label "#614415 CHILBLAIN LUPUS 2; CHBL2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/53bfb3f7-4d82-4b79-8e9e-91edff7b690a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_SKIN > CUTANEOUS PHOTOSENSITIVITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000992>
+    
+    
+Individual: <http://model.geneontology.org/9f2fb51c-dcd1-47d3-bf60-eff7dd49e21d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614415>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b74a9701-08f6-476e-85d6-2f52c8df5997>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aac8f72e-b048-4a24-9f19-0e34ba88d2af>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b74a9701-08f6-476e-85d6-2f52c8df5997>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b74a9701-08f6-476e-85d6-2f52c8df5997>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b74a9701-08f6-476e-85d6-2f52c8df5997>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53bfb3f7-4d82-4b79-8e9e-91edff7b690a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ec1f0fa1-48d1-4b2f-b732-cab4686b7e0c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53bfb3f7-4d82-4b79-8e9e-91edff7b690a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53bfb3f7-4d82-4b79-8e9e-91edff7b690a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/53bfb3f7-4d82-4b79-8e9e-91edff7b690a>
+    
+    
+Individual: <http://model.geneontology.org/aac8f72e-b048-4a24-9f19-0e34ba88d2af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614415>
+    
+    
+Individual: <http://model.geneontology.org/b74a9701-08f6-476e-85d6-2f52c8df5997>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/ec1f0fa1-48d1-4b2f-b732-cab4686b7e0c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614415>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614415>
+
+    Annotations: 
+        rdfs:label "#614415 CHILBLAIN LUPUS 2; CHBL2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

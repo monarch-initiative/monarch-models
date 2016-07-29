@@ -1,0 +1,270 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f37ad674-a902-4fd4-a4be-476d2b482793>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616067.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000062>
+
+    Annotations: 
+        rdfs:label "Ambiguous genitalia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000063>
+
+    Annotations: 
+        rdfs:label "Fused labia minora"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000729>
+
+    Annotations: 
+        rdfs:label "Autistic behavior"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012245>
+
+    Annotations: 
+        rdfs:label "Sex reversal"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616067>
+
+    Annotations: 
+        rdfs:label "#616067 46,XY SEX REVERSAL 9; SRXY9"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0372c52c-336b-4467-a88c-d0f41fdaa50f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616067>
+    
+    
+Individual: <http://model.geneontology.org/1b8047ab-a9eb-4884-863a-c19a04ed24ab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/1e9d3c90-a569-4d35-9cc3-ff3a8b458fa1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616067>
+    
+    
+Individual: <http://model.geneontology.org/2371db28-2df0-468a-bfe8-c28e7c4cb8f0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_EXTERNAL GENITALIA, FEMALE > FUSED LABIA MINORA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000063>
+    
+    
+Individual: <http://model.geneontology.org/37f5e9b1-7f1e-4350-be19-ef8de7249d3c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_BEHAVIORAL/PSYCHIATRIC MANIFESTATIONS > AUTISM SPECTRUM DISORDER (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000729>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/aa8d4402-f144-4e69-b5f7-1b39bce170e2>
+    
+    
+Individual: <http://model.geneontology.org/3f3db149-5c51-43f4-8663-4a28bbdb69c7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7999c1fb-6b9e-4aed-9ef7-215edd2532d7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616067>
+    
+    
+Individual: <http://model.geneontology.org/7ce1b176-c963-454e-b569-0539b08cea74>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616067>
+    
+    
+Individual: <http://model.geneontology.org/aa8d4402-f144-4e69-b5f7-1b39bce170e2>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/ccc4233b-bb14-4925-b62c-f8829d25c991>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#616067 46,xy sex reversal 9; srxy9"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012245>
+    
+    
+Individual: <http://model.geneontology.org/dcb78777-61a9-4ac5-9127-0408ba94b7bd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616067>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ccc4233b-bb14-4925-b62c-f8829d25c991>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0372c52c-336b-4467-a88c-d0f41fdaa50f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ccc4233b-bb14-4925-b62c-f8829d25c991>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ccc4233b-bb14-4925-b62c-f8829d25c991>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ccc4233b-bb14-4925-b62c-f8829d25c991>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e82cf4f9-2bee-4280-a677-329bf5d462e4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7999c1fb-6b9e-4aed-9ef7-215edd2532d7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e82cf4f9-2bee-4280-a677-329bf5d462e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e82cf4f9-2bee-4280-a677-329bf5d462e4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e82cf4f9-2bee-4280-a677-329bf5d462e4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2371db28-2df0-468a-bfe8-c28e7c4cb8f0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7ce1b176-c963-454e-b569-0539b08cea74>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2371db28-2df0-468a-bfe8-c28e7c4cb8f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2371db28-2df0-468a-bfe8-c28e7c4cb8f0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2371db28-2df0-468a-bfe8-c28e7c4cb8f0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f3db149-5c51-43f4-8663-4a28bbdb69c7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1b8047ab-a9eb-4884-863a-c19a04ed24ab>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f3db149-5c51-43f4-8663-4a28bbdb69c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f3db149-5c51-43f4-8663-4a28bbdb69c7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f3db149-5c51-43f4-8663-4a28bbdb69c7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37f5e9b1-7f1e-4350-be19-ef8de7249d3c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1e9d3c90-a569-4d35-9cc3-ff3a8b458fa1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37f5e9b1-7f1e-4350-be19-ef8de7249d3c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37f5e9b1-7f1e-4350-be19-ef8de7249d3c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-06-22"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37f5e9b1-7f1e-4350-be19-ef8de7249d3c>
+    
+    
+Individual: <http://model.geneontology.org/e82cf4f9-2bee-4280-a677-329bf5d462e4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_EXTERNAL GENITALIA, MALE > AMBIGUOUS EXTERNAL GENITALIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000062>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616067>
+
+    Annotations: 
+        rdfs:label "#616067 46,XY SEX REVERSAL 9; SRXY9"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/162dcf7a-0f09-45b5-9daf-50090b3a85a1>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613195.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000501>
+
+    Annotations: 
+        rdfs:label "Glaucoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001083>
+
+    Annotations: 
+        rdfs:label "Ectopia lentis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004322>
+
+    Annotations: 
+        rdfs:label "Short stature"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613195>
+
+    Annotations: 
+        rdfs:label "#613195 WEILL-MARCHESANI-LIKE SYNDROME"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0a6cc292-7c9c-4827-a058-c54207910bfa>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/356cda0c-6368-4762-acd0-b0c374998fdb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_HEIGHT > SHORT STATURE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004322>
+    
+    
+Individual: <http://model.geneontology.org/36bf1c1c-ebc8-4091-a9c3-fbc7b0f1b3f5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613195>
+    
+    
+Individual: <http://model.geneontology.org/57244dd8-f674-47ff-82a2-ce7e944a6b06>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613195>
+    
+    
+Individual: <http://model.geneontology.org/696217fe-9b0c-484a-8110-ef25920fb674>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > GLAUCOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000501>
+    
+    
+Individual: <http://model.geneontology.org/79dbdf9f-004b-4b70-a190-24cdbcd457bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613195>
+    
+    
+Individual: <http://model.geneontology.org/7bf56dae-ed2f-4aa2-b5e8-33dbd8f58ad0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613195>
+    
+    
+Individual: <http://model.geneontology.org/cc312bd0-18af-4d4c-8952-48bc5aff6280>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613195>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cebc9570-a14c-4fa3-af58-3e43221ebe33>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/57244dd8-f674-47ff-82a2-ce7e944a6b06>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cebc9570-a14c-4fa3-af58-3e43221ebe33>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cebc9570-a14c-4fa3-af58-3e43221ebe33>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cebc9570-a14c-4fa3-af58-3e43221ebe33>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a6cc292-7c9c-4827-a058-c54207910bfa>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7bf56dae-ed2f-4aa2-b5e8-33dbd8f58ad0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a6cc292-7c9c-4827-a058-c54207910bfa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a6cc292-7c9c-4827-a058-c54207910bfa>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0a6cc292-7c9c-4827-a058-c54207910bfa>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/356cda0c-6368-4762-acd0-b0c374998fdb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/36bf1c1c-ebc8-4091-a9c3-fbc7b0f1b3f5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/356cda0c-6368-4762-acd0-b0c374998fdb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/356cda0c-6368-4762-acd0-b0c374998fdb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/356cda0c-6368-4762-acd0-b0c374998fdb>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/696217fe-9b0c-484a-8110-ef25920fb674>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/79dbdf9f-004b-4b70-a190-24cdbcd457bf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/696217fe-9b0c-484a-8110-ef25920fb674>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/696217fe-9b0c-484a-8110-ef25920fb674>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/696217fe-9b0c-484a-8110-ef25920fb674>
+    
+    
+Individual: <http://model.geneontology.org/cebc9570-a14c-4fa3-af58-3e43221ebe33>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > ECTOPIA LENTIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001083>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613195>
+
+    Annotations: 
+        rdfs:label "#613195 WEILL-MARCHESANI-LIKE SYNDROME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

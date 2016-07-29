@@ -1,0 +1,206 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5009ea3e-7f89-4caf-832f-ed5ad7928bec>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-169000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001388>
+
+    Annotations: 
+        rdfs:label "Joint laxity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005001>
+
+    Annotations: 
+        rdfs:label "Recurrent patellar dislocation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_169000>
+
+    Annotations: 
+        rdfs:label "PATELLA, FAMILIAL RECURRENT DISLOCATION OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2632e086-bed9-4ff8-9e32-28f15c9ca395>
+
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0001388>)
+    
+    
+Individual: <http://model.geneontology.org/3346232e-c8ae-46a6-94d4-3e177d907d11>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169000>
+    
+    
+Individual: <http://model.geneontology.org/8aad7fef-b208-4ff5-adf4-dbfe3fea308b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:JOINTS > NO JOINT LAXITY"^^xsd:string
+    
+    Types: 
+        not (<http://purl.obolibrary.org/obo/HP_0001388>)
+    
+    
+Individual: <http://model.geneontology.org/a2d0fbd3-af70-430d-94ba-b8e4bf059189>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169000>
+    
+    
+Individual: <http://model.geneontology.org/b50d98a4-15ff-40be-9321-bda6f919e6ff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_169000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c67771bd-284a-456c-a1b2-4f63d12f1fc4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3346232e-c8ae-46a6-94d4-3e177d907d11>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c67771bd-284a-456c-a1b2-4f63d12f1fc4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c67771bd-284a-456c-a1b2-4f63d12f1fc4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c67771bd-284a-456c-a1b2-4f63d12f1fc4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d460f255-6979-48cb-bf11-5a17e93055fc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bbe90baa-0bb0-46ee-a27c-25a481b93045>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d460f255-6979-48cb-bf11-5a17e93055fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d460f255-6979-48cb-bf11-5a17e93055fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d460f255-6979-48cb-bf11-5a17e93055fc>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2632e086-bed9-4ff8-9e32-28f15c9ca395>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a2d0fbd3-af70-430d-94ba-b8e4bf059189>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2632e086-bed9-4ff8-9e32-28f15c9ca395>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2632e086-bed9-4ff8-9e32-28f15c9ca395>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2632e086-bed9-4ff8-9e32-28f15c9ca395>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8aad7fef-b208-4ff5-adf4-dbfe3fea308b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e87917d9-f23d-4bf0-a4ca-e7f8ac28ab0f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8aad7fef-b208-4ff5-adf4-dbfe3fea308b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8aad7fef-b208-4ff5-adf4-dbfe3fea308b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8aad7fef-b208-4ff5-adf4-dbfe3fea308b>
+    
+    
+Individual: <http://model.geneontology.org/bbe90baa-0bb0-46ee-a27c-25a481b93045>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169000>
+    
+    
+Individual: <http://model.geneontology.org/c67771bd-284a-456c-a1b2-4f63d12f1fc4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/d460f255-6979-48cb-bf11-5a17e93055fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005001>
+    
+    
+Individual: <http://model.geneontology.org/e87917d9-f23d-4bf0-a4ca-e7f8ac28ab0f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_169000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_169000>
+
+    Annotations: 
+        rdfs:label "PATELLA, FAMILIAL RECURRENT DISLOCATION OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

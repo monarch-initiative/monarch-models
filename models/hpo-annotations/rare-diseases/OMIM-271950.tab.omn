@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ffadfe54-8c8c-4b84-b950-c65dc957a739>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-271950.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001682>
+
+    Annotations: 
+        rdfs:label "Subvalvular aortic stenosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_271950>
+
+    Annotations: 
+        rdfs:label "SUBAORTIC STENOSIS, MEMBRANOUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/10500ae0-c580-41be-828c-6a39d81ac791>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_271950>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24c55594-0b6d-4533-bfca-ce425e2744b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bd5c5a8e-d02d-4c69-85aa-3f23d28b88d2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24c55594-0b6d-4533-bfca-ce425e2744b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24c55594-0b6d-4533-bfca-ce425e2744b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24c55594-0b6d-4533-bfca-ce425e2744b4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ef3ff1-7873-42a2-afc6-b1407be23ed8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1736b71f-95aa-48ad-93e2-d899d97e158b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ef3ff1-7873-42a2-afc6-b1407be23ed8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ef3ff1-7873-42a2-afc6-b1407be23ed8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ef3ff1-7873-42a2-afc6-b1407be23ed8>
+    
+    
+Individual: <http://model.geneontology.org/1736b71f-95aa-48ad-93e2-d899d97e158b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_271950>
+    
+    
+Individual: <http://model.geneontology.org/24c55594-0b6d-4533-bfca-ce425e2744b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001682>
+    
+    
+Individual: <http://model.geneontology.org/70ef3ff1-7873-42a2-afc6-b1407be23ed8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/bd5c5a8e-d02d-4c69-85aa-3f23d28b88d2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_271950>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_271950>
+
+    Annotations: 
+        rdfs:label "SUBAORTIC STENOSIS, MEMBRANOUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

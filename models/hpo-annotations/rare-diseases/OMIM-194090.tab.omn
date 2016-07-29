@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a007cbb0-3223-418a-a666-06d07a303eac>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-194090.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002667>
+
+    Annotations: 
+        rdfs:label "Nephroblastoma (Wilms tumor)"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_194090>
+
+    Annotations: 
+        rdfs:label "WILMS TUMOR 3"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/35fc50ba-1124-4d89-9725-ceacc3b87c61>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_194090>
+    
+    
+Individual: <http://model.geneontology.org/8ef0f7a3-711d-4e84-8952-27e032315fcb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_194090>
+    
+    
+Individual: <http://model.geneontology.org/d07ac025-dbb0-46d5-a6e7-742019b9259f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002667>
+    
+    
+Individual: <http://model.geneontology.org/d6211e13-3bf0-4ddc-adc2-5843d5c6ee6f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/dddb784c-83f4-46c6-8625-2f03ceabc5c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_194090>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d07ac025-dbb0-46d5-a6e7-742019b9259f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8ef0f7a3-711d-4e84-8952-27e032315fcb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d07ac025-dbb0-46d5-a6e7-742019b9259f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d07ac025-dbb0-46d5-a6e7-742019b9259f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d07ac025-dbb0-46d5-a6e7-742019b9259f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6211e13-3bf0-4ddc-adc2-5843d5c6ee6f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/35fc50ba-1124-4d89-9725-ceacc3b87c61>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6211e13-3bf0-4ddc-adc2-5843d5c6ee6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6211e13-3bf0-4ddc-adc2-5843d5c6ee6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d6211e13-3bf0-4ddc-adc2-5843d5c6ee6f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_194090>
+
+    Annotations: 
+        rdfs:label "WILMS TUMOR 3"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

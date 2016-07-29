@@ -1,0 +1,264 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/16055362-43c9-4069-92d6-434439a377d2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-161050.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001805>
+
+    Annotations: 
+        rdfs:label "Thick nail"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001816>
+
+    Annotations: 
+        rdfs:label "Thin nail"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002164>
+
+    Annotations: 
+        rdfs:label "Nail dysplasia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003677>
+
+    Annotations: 
+        rdfs:label "Slow progression"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_161050>
+
+    Annotations: 
+        rdfs:label "%161050 NAIL DISORDER, NONSYNDROMIC CONGENITAL, 1; NDNC1;;TWENTY-NAIL DYSTROPHY;;ONYCHODYSTROPHY TOTALIS, ISOLATEDNAIL GROWTH, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/22fa93fe-d6b4-49fb-8cf3-d97a26d14f6f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > SLOWLY PROGRESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003677>
+    
+    
+Individual: <http://model.geneontology.org/27e9e7d0-0b69-4679-aea9-6cb926b3ddd0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > THICKENED NAILS (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001805>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/4243e229-1c96-450e-9f64-077f4dbd3f13>
+    
+    
+Individual: <http://model.geneontology.org/2b555c44-800e-4de6-a0e2-b6635e6d8f4a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_161050>
+    
+    
+Individual: <http://model.geneontology.org/3a9a34b0-0578-4535-9e9b-c4f0471c235c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_161050>
+    
+    
+Individual: <http://model.geneontology.org/4243e229-1c96-450e-9f64-077f4dbd3f13>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/74e0b1c8-27d9-48e9-89d5-55ab4f5c5d01>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_161050>
+    
+    
+Individual: <http://model.geneontology.org/bb8a2d63-600f-4a1f-8c76-7e1dcb54ac33>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_161050>
+    
+    
+Individual: <http://model.geneontology.org/d01dc3eb-ff88-47d8-8bdb-735842bfaef5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/d9e5e1b6-de20-45cd-abc1-3aae76b56de4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_NAILS > THIN NAILS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001816>
+    
+    
+Individual: <http://model.geneontology.org/ea64519d-a08e-49a7-943f-ef4fc3b867af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_161050>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d01dc3eb-ff88-47d8-8bdb-735842bfaef5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/74e0b1c8-27d9-48e9-89d5-55ab4f5c5d01>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d01dc3eb-ff88-47d8-8bdb-735842bfaef5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d01dc3eb-ff88-47d8-8bdb-735842bfaef5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d01dc3eb-ff88-47d8-8bdb-735842bfaef5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9e5e1b6-de20-45cd-abc1-3aae76b56de4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bb8a2d63-600f-4a1f-8c76-7e1dcb54ac33>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9e5e1b6-de20-45cd-abc1-3aae76b56de4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9e5e1b6-de20-45cd-abc1-3aae76b56de4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d9e5e1b6-de20-45cd-abc1-3aae76b56de4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2c00538-3b8c-4b0d-89ab-b8847edcf506>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2b555c44-800e-4de6-a0e2-b6635e6d8f4a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2c00538-3b8c-4b0d-89ab-b8847edcf506>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2c00538-3b8c-4b0d-89ab-b8847edcf506>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2c00538-3b8c-4b0d-89ab-b8847edcf506>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22fa93fe-d6b4-49fb-8cf3-d97a26d14f6f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3a9a34b0-0578-4535-9e9b-c4f0471c235c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22fa93fe-d6b4-49fb-8cf3-d97a26d14f6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22fa93fe-d6b4-49fb-8cf3-d97a26d14f6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22fa93fe-d6b4-49fb-8cf3-d97a26d14f6f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27e9e7d0-0b69-4679-aea9-6cb926b3ddd0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f41080a3-ca9d-4f23-81fd-abb9b6596390>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27e9e7d0-0b69-4679-aea9-6cb926b3ddd0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27e9e7d0-0b69-4679-aea9-6cb926b3ddd0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27e9e7d0-0b69-4679-aea9-6cb926b3ddd0>
+    
+    
+Individual: <http://model.geneontology.org/f2c00538-3b8c-4b0d-89ab-b8847edcf506>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002164>
+    
+    
+Individual: <http://model.geneontology.org/f41080a3-ca9d-4f23-81fd-abb9b6596390>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_161050>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_161050>
+
+    Annotations: 
+        rdfs:label "%161050 NAIL DISORDER, NONSYNDROMIC CONGENITAL, 1; NDNC1;;TWENTY-NAIL DYSTROPHY;;ONYCHODYSTROPHY TOTALIS, ISOLATEDNAIL GROWTH, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

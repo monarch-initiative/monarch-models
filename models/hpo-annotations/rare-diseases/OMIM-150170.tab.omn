@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/1a68362e-79ad-4290-ad91-4ac1041d942c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-150170.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002149>
+
+    Annotations: 
+        rdfs:label "Hyperuricemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004925>
+
+    Annotations: 
+        rdfs:label "Chronic lactic acidosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_150170>
+
+    Annotations: 
+        rdfs:label "LACTIC ACIDOSIS, CHRONIC ADULT FORM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0890f59c-38a1-4983-86eb-9d0ca21be342>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/14f3a0a9-56e4-4fa7-b9a9-6ac0fec20e41>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002149>
+    
+    
+Individual: <http://model.geneontology.org/5a946370-a962-4ea3-89ba-3b6f9b66c10d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004925>
+    
+    
+Individual: <http://model.geneontology.org/6bb8584a-af96-441d-bb60-523ffbc8c08a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150170>
+    
+    
+Individual: <http://model.geneontology.org/891c6cc9-1328-4899-a77f-ca85a3392732>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150170>
+    
+    
+Individual: <http://model.geneontology.org/a16535f3-ffb5-457f-b7a3-fcd5ff5d016f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_150170>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0890f59c-38a1-4983-86eb-9d0ca21be342>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d9a2e1fb-94ed-47c4-bd5e-5ce4a1804586>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0890f59c-38a1-4983-86eb-9d0ca21be342>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0890f59c-38a1-4983-86eb-9d0ca21be342>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0890f59c-38a1-4983-86eb-9d0ca21be342>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14f3a0a9-56e4-4fa7-b9a9-6ac0fec20e41>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6bb8584a-af96-441d-bb60-523ffbc8c08a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14f3a0a9-56e4-4fa7-b9a9-6ac0fec20e41>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14f3a0a9-56e4-4fa7-b9a9-6ac0fec20e41>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/14f3a0a9-56e4-4fa7-b9a9-6ac0fec20e41>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a946370-a962-4ea3-89ba-3b6f9b66c10d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/891c6cc9-1328-4899-a77f-ca85a3392732>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a946370-a962-4ea3-89ba-3b6f9b66c10d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a946370-a962-4ea3-89ba-3b6f9b66c10d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a946370-a962-4ea3-89ba-3b6f9b66c10d>
+    
+    
+Individual: <http://model.geneontology.org/d9a2e1fb-94ed-47c4-bd5e-5ce4a1804586>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_150170>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_150170>
+
+    Annotations: 
+        rdfs:label "LACTIC ACIDOSIS, CHRONIC ADULT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

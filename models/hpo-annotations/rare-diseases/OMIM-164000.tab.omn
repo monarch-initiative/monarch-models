@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/2a1881d9-beb8-4eb3-bd38-356d2e1d4192>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-164000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000366>
+
+    Annotations: 
+        rdfs:label "Abnormality of the nose"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_164000>
+
+    Annotations: 
+        rdfs:label "NOSE, ANOMALOUS SHAPE OF"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/b0a4e6d0-60a8-40c9-acca-22b47da47fcb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000366>
+    
+    
+Individual: <http://model.geneontology.org/b1177d00-40cb-4464-aa88-f3d42b1d52f4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_164000>
+    
+    
+Individual: <http://model.geneontology.org/c62279fe-a8a7-4eb0-be2b-d1163b34aae8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_164000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0a4e6d0-60a8-40c9-acca-22b47da47fcb>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b1177d00-40cb-4464-aa88-f3d42b1d52f4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0a4e6d0-60a8-40c9-acca-22b47da47fcb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0a4e6d0-60a8-40c9-acca-22b47da47fcb>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b0a4e6d0-60a8-40c9-acca-22b47da47fcb>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_164000>
+
+    Annotations: 
+        rdfs:label "NOSE, ANOMALOUS SHAPE OF"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

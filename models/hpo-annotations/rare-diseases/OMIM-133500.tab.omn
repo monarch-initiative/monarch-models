@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e58304fc-ddeb-4f21-b060-c896560d7586>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-133500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000598>
+
+    Annotations: 
+        rdfs:label "Abnormality of the ear"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_133500>
+
+    Annotations: 
+        rdfs:label "EXCHONDROSIS OF PINNA, POSTERIOR"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4e3255df-8a46-4bcb-bf7a-1c5187d6b18d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_133500>
+    
+    
+Individual: <http://model.geneontology.org/69fe97ba-62a2-4fc0-83df-6d29ab4c64ce>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000598>
+    
+    
+Individual: <http://model.geneontology.org/9bacfbc1-a32c-445b-9328-aeba95e25e82>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_133500>
+    
+    
+Individual: <http://model.geneontology.org/9e2676c7-46de-4a1c-b7d9-9626b3711973>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_133500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2a9b07a-7f74-4480-91ec-a24a0721d239>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9bacfbc1-a32c-445b-9328-aeba95e25e82>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2a9b07a-7f74-4480-91ec-a24a0721d239>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2a9b07a-7f74-4480-91ec-a24a0721d239>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f2a9b07a-7f74-4480-91ec-a24a0721d239>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69fe97ba-62a2-4fc0-83df-6d29ab4c64ce>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4e3255df-8a46-4bcb-bf7a-1c5187d6b18d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69fe97ba-62a2-4fc0-83df-6d29ab4c64ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69fe97ba-62a2-4fc0-83df-6d29ab4c64ce>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/69fe97ba-62a2-4fc0-83df-6d29ab4c64ce>
+    
+    
+Individual: <http://model.geneontology.org/f2a9b07a-7f74-4480-91ec-a24a0721d239>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_133500>
+
+    Annotations: 
+        rdfs:label "EXCHONDROSIS OF PINNA, POSTERIOR"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

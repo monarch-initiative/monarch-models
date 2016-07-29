@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/38a9375a-63c9-434a-8738-c1de991fc106>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-112270.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002653>
+
+    Annotations: 
+        rdfs:label "Bone pain"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_112270>
+
+    Annotations: 
+        rdfs:label "BONE PAIN, PERIODIC"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/179e1e2f-97ad-4e84-b2cb-02f1f2c66bc7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_112270>
+    
+    
+Individual: <http://model.geneontology.org/2d983d7d-4460-4c4c-9c45-174aaf75c61d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_112270>
+    
+    
+Individual: <http://model.geneontology.org/2ed1df6d-9a67-4151-8b61-f459c71c757c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/881d969d-1cbd-4de0-b0e2-e8cbcc51d884>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_112270>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efede65c-cd12-4ba3-91d8-cf8bd1399d38>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2d983d7d-4460-4c4c-9c45-174aaf75c61d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efede65c-cd12-4ba3-91d8-cf8bd1399d38>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efede65c-cd12-4ba3-91d8-cf8bd1399d38>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/efede65c-cd12-4ba3-91d8-cf8bd1399d38>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ed1df6d-9a67-4151-8b61-f459c71c757c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/179e1e2f-97ad-4e84-b2cb-02f1f2c66bc7>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ed1df6d-9a67-4151-8b61-f459c71c757c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ed1df6d-9a67-4151-8b61-f459c71c757c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2ed1df6d-9a67-4151-8b61-f459c71c757c>
+    
+    
+Individual: <http://model.geneontology.org/efede65c-cd12-4ba3-91d8-cf8bd1399d38>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Episodic"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002653>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_112270>
+
+    Annotations: 
+        rdfs:label "BONE PAIN, PERIODIC"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

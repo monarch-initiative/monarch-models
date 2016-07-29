@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4969fd64-01ab-45c5-a728-d2931922ba57>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-601816.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001626>
+
+    Annotations: 
+        rdfs:label "Abnormality of the cardiovascular system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002904>
+
+    Annotations: 
+        rdfs:label "Hyperbilirubinemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_601816>
+
+    Annotations: 
+        rdfs:label "BILIRUBIN, SERUM LEVEL OF, QUANTITATIVE TRAIT LOCUS 1; BILIQTL1"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4caf12d9-b630-4451-848d-3528cbebf93d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001626>
+    
+    
+Individual: <http://model.geneontology.org/65d12d47-91d1-4ee4-8979-fbf24267a5b8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601816>
+    
+    
+Individual: <http://model.geneontology.org/a62d321f-60c4-45ae-ba85-e3ad34451a9b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_601816>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de45452e-7678-4982-834a-998bc0eaab2e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/65d12d47-91d1-4ee4-8979-fbf24267a5b8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de45452e-7678-4982-834a-998bc0eaab2e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de45452e-7678-4982-834a-998bc0eaab2e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/de45452e-7678-4982-834a-998bc0eaab2e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4caf12d9-b630-4451-848d-3528cbebf93d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e48889f1-b50b-49b8-8feb-a53d37311b41>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4caf12d9-b630-4451-848d-3528cbebf93d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4caf12d9-b630-4451-848d-3528cbebf93d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4caf12d9-b630-4451-848d-3528cbebf93d>
+    
+    
+Individual: <http://model.geneontology.org/de45452e-7678-4982-834a-998bc0eaab2e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002904>
+    
+    
+Individual: <http://model.geneontology.org/e48889f1-b50b-49b8-8feb-a53d37311b41>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_601816>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_601816>
+
+    Annotations: 
+        rdfs:label "BILIRUBIN, SERUM LEVEL OF, QUANTITATIVE TRAIT LOCUS 1; BILIQTL1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

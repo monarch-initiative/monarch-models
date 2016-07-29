@@ -1,0 +1,205 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a195fb40-1732-4d05-93a7-991d2b1c7d7a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-249300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000485>
+
+    Annotations: 
+        rdfs:label "Megalocornea"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_249300>
+
+    Annotations: 
+        rdfs:label "249300 MEGALOCORNEA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/03091e13-6095-4c80-b632-a211e11ec32c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3a48c36e-4a31-4346-a40b-a0069bd43c5a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "common"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/462051a1-536c-4abd-a3bb-e4cfbb619cca>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_249300>
+    
+    
+Individual: <http://model.geneontology.org/52a33262-3edc-4143-b36f-243329dc7e87>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE MUCH RARER THAN X-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/3a48c36e-4a31-4346-a40b-a0069bd43c5a>
+    
+    
+Individual: <http://model.geneontology.org/5ca50a68-8393-4047-a760-55967168ab75>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_249300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52a33262-3edc-4143-b36f-243329dc7e87>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6879e119-50a5-42c2-90ec-a7203b2687f4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52a33262-3edc-4143-b36f-243329dc7e87>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52a33262-3edc-4143-b36f-243329dc7e87>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/52a33262-3edc-4143-b36f-243329dc7e87>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d90bc4-7010-4fed-b4ff-77284ed6cdbe>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/462051a1-536c-4abd-a3bb-e4cfbb619cca>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d90bc4-7010-4fed-b4ff-77284ed6cdbe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d90bc4-7010-4fed-b4ff-77284ed6cdbe>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/81d90bc4-7010-4fed-b4ff-77284ed6cdbe>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/973db39a-7cad-4bd9-a0aa-b6a170cfe15e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dba49822-fb3a-4197-b95a-0b3ec1557eda>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/973db39a-7cad-4bd9-a0aa-b6a170cfe15e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/973db39a-7cad-4bd9-a0aa-b6a170cfe15e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/973db39a-7cad-4bd9-a0aa-b6a170cfe15e>
+    
+    
+Individual: <http://model.geneontology.org/6879e119-50a5-42c2-90ec-a7203b2687f4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_249300>
+    
+    
+Individual: <http://model.geneontology.org/81d90bc4-7010-4fed-b4ff-77284ed6cdbe>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEENT > LARGE CORNEA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000485>
+    
+    
+Individual: <http://model.geneontology.org/973db39a-7cad-4bd9-a0aa-b6a170cfe15e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE MUCH RARER THAN X-LINKED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/03091e13-6095-4c80-b632-a211e11ec32c>
+    
+    
+Individual: <http://model.geneontology.org/dba49822-fb3a-4197-b95a-0b3ec1557eda>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_249300>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_249300>
+
+    Annotations: 
+        rdfs:label "249300 MEGALOCORNEA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

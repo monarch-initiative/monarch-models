@@ -1,0 +1,184 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/dc344219-51ee-400e-9e4a-3ea027140833>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613678.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000926>
+
+    Annotations: 
+        rdfs:label "Platyspondyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004322>
+
+    Annotations: 
+        rdfs:label "Short stature"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613678>
+
+    Annotations: 
+        rdfs:label "%613678 BRACHYOLMIA TYPE 2;;BRACHYOLMIA, MAROTEAUX TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5335a205-0c3e-428d-883b-1f647c2cf6bf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/57350cec-ad74-4abe-b789-48945e5e0709>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613678>
+    
+    
+Individual: <http://model.geneontology.org/5c41639a-3497-43c7-bae8-71171fe572c3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_SPINE > PLATYSPONDYLY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000926>
+    
+    
+Individual: <http://model.geneontology.org/672652ba-118a-4340-b338-54a3972acf6e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613678>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c41639a-3497-43c7-bae8-71171fe572c3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/defee6b7-ecd9-41a7-9d6c-bbe2348d7a3f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c41639a-3497-43c7-bae8-71171fe572c3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c41639a-3497-43c7-bae8-71171fe572c3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c41639a-3497-43c7-bae8-71171fe572c3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5335a205-0c3e-428d-883b-1f647c2cf6bf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/93ef1e25-a5bd-4938-a666-9e5cdec80cd0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5335a205-0c3e-428d-883b-1f647c2cf6bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5335a205-0c3e-428d-883b-1f647c2cf6bf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5335a205-0c3e-428d-883b-1f647c2cf6bf>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/965eadd4-3ff6-442a-9255-fcc4e5c5351a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/57350cec-ad74-4abe-b789-48945e5e0709>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/965eadd4-3ff6-442a-9255-fcc4e5c5351a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/965eadd4-3ff6-442a-9255-fcc4e5c5351a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/965eadd4-3ff6-442a-9255-fcc4e5c5351a>
+    
+    
+Individual: <http://model.geneontology.org/93ef1e25-a5bd-4938-a666-9e5cdec80cd0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613678>
+    
+    
+Individual: <http://model.geneontology.org/965eadd4-3ff6-442a-9255-fcc4e5c5351a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_HEIGHT > SHORT STATURE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004322>
+    
+    
+Individual: <http://model.geneontology.org/defee6b7-ecd9-41a7-9d6c-bbe2348d7a3f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613678>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613678>
+
+    Annotations: 
+        rdfs:label "%613678 BRACHYOLMIA TYPE 2;;BRACHYOLMIA, MAROTEAUX TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d5534392-91c6-4931-bddf-37533c69a134>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-142000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001903>
+
+    Annotations: 
+        rdfs:label "Anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005560>
+
+    Annotations: 
+        rdfs:label "Imbalanced hemoglobin synthesis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_142000>
+
+    Annotations: 
+        rdfs:label "HEMOGLOBIN--DELTA LOCUS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1505a688-cf49-4dac-be8b-bc539bc34000>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005560>
+    
+    
+Individual: <http://model.geneontology.org/21e7253f-1e95-4bb6-9deb-a66e1780c411>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/2cf89795-378a-4f08-aead-b788f3854e3a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001903>
+    
+    
+Individual: <http://model.geneontology.org/63a740ad-0182-4667-904e-c15e0020d0ab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142000>
+    
+    
+Individual: <http://model.geneontology.org/91b408c2-9949-453c-b8c2-5374f502d460>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142000>
+    
+    
+Individual: <http://model.geneontology.org/d88ce2de-8e8f-4410-83d1-b54addf48b9c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142000>
+    
+    
+Individual: <http://model.geneontology.org/ec9b312a-a17c-4646-b246-144795e3b4cc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_142000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1505a688-cf49-4dac-be8b-bc539bc34000>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/91b408c2-9949-453c-b8c2-5374f502d460>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1505a688-cf49-4dac-be8b-bc539bc34000>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1505a688-cf49-4dac-be8b-bc539bc34000>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1505a688-cf49-4dac-be8b-bc539bc34000>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cf89795-378a-4f08-aead-b788f3854e3a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d88ce2de-8e8f-4410-83d1-b54addf48b9c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cf89795-378a-4f08-aead-b788f3854e3a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cf89795-378a-4f08-aead-b788f3854e3a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-15"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2cf89795-378a-4f08-aead-b788f3854e3a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21e7253f-1e95-4bb6-9deb-a66e1780c411>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/63a740ad-0182-4667-904e-c15e0020d0ab>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21e7253f-1e95-4bb6-9deb-a66e1780c411>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21e7253f-1e95-4bb6-9deb-a66e1780c411>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21e7253f-1e95-4bb6-9deb-a66e1780c411>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_142000>
+
+    Annotations: 
+        rdfs:label "HEMOGLOBIN--DELTA LOCUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

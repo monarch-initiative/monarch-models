@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/b318dff2-9293-4806-a9bc-e31d32cab410>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-179500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001010>
+
+    Annotations: 
+        rdfs:label "Hypopigmentation of the skin"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_179500>
+
+    Annotations: 
+        rdfs:label "RAINDROP HYPOPIGMENTATION"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/16f5d553-ae2e-48d5-85e4-82daabfe038e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001010>
+    
+    
+Individual: <http://model.geneontology.org/ebed3f55-8c46-47d3-841b-109a9007e451>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_179500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff533511-805c-4537-b6ed-e1913e7a568d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f08274e8-9d14-4c2d-aa26-56d1aa0aaadb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff533511-805c-4537-b6ed-e1913e7a568d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff533511-805c-4537-b6ed-e1913e7a568d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ff533511-805c-4537-b6ed-e1913e7a568d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16f5d553-ae2e-48d5-85e4-82daabfe038e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ef2e5ab3-17b7-483f-889a-1e5d33e76e5b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16f5d553-ae2e-48d5-85e4-82daabfe038e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16f5d553-ae2e-48d5-85e4-82daabfe038e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/16f5d553-ae2e-48d5-85e4-82daabfe038e>
+    
+    
+Individual: <http://model.geneontology.org/ef2e5ab3-17b7-483f-889a-1e5d33e76e5b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179500>
+    
+    
+Individual: <http://model.geneontology.org/f08274e8-9d14-4c2d-aa26-56d1aa0aaadb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_179500>
+    
+    
+Individual: <http://model.geneontology.org/ff533511-805c-4537-b6ed-e1913e7a568d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_179500>
+
+    Annotations: 
+        rdfs:label "RAINDROP HYPOPIGMENTATION"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

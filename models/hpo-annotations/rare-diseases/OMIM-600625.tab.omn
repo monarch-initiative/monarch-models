@@ -1,0 +1,205 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/11a2f632-2fdc-47f3-950e-1dad35174468>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-600625.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000202>
+
+    Annotations: 
+        rdfs:label "Cleft lip/palate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001472>
+
+    Annotations: 
+        rdfs:label "Familial predisposition"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002006>
+
+    Annotations: 
+        rdfs:label "Facial cleft"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_600625>
+
+    Annotations: 
+        rdfs:label "OROFACIAL CLEFT 11 CLEFT LIP, CONGENITAL HEALED, INCLUDED CONGENITAL HEALED CLEFT LIP, INCLUDED"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0593a552-7fd7-4a12-b87b-015945a466c3>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600625>
+    
+    
+Individual: <http://model.geneontology.org/23348cf0-4466-4307-bdb4-17da957f9e76>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600625>
+    
+    
+Individual: <http://model.geneontology.org/362a3345-9a1e-485d-8d93-af0b5907ba57>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001472>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/b9138ac6-de51-4b03-aba6-6c2ddc1c01d3>
+    
+    
+Individual: <http://model.geneontology.org/4a4476d6-518e-4051-850b-ed2da5bb8713>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000202>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/e0688e99-0514-4c8e-aead-4e0051d4f74f>
+    
+    
+Individual: <http://model.geneontology.org/b7385b51-7963-43fa-81fc-1ecf17bc54f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_600625>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da793b0e-97d3-46c7-9d80-c4e072131bfd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/23348cf0-4466-4307-bdb4-17da957f9e76>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da793b0e-97d3-46c7-9d80-c4e072131bfd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da793b0e-97d3-46c7-9d80-c4e072131bfd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-21"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/da793b0e-97d3-46c7-9d80-c4e072131bfd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/362a3345-9a1e-485d-8d93-af0b5907ba57>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fc2a03e4-7443-4d54-a035-d26519467b65>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/362a3345-9a1e-485d-8d93-af0b5907ba57>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/362a3345-9a1e-485d-8d93-af0b5907ba57>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/362a3345-9a1e-485d-8d93-af0b5907ba57>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4a4476d6-518e-4051-850b-ed2da5bb8713>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0593a552-7fd7-4a12-b87b-015945a466c3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4a4476d6-518e-4051-850b-ed2da5bb8713>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4a4476d6-518e-4051-850b-ed2da5bb8713>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-05-11"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4a4476d6-518e-4051-850b-ed2da5bb8713>
+    
+    
+Individual: <http://model.geneontology.org/b9138ac6-de51-4b03-aba6-6c2ddc1c01d3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "hallmark"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/da793b0e-97d3-46c7-9d80-c4e072131bfd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:orofacial cleft 11 cleft lip, conge"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002006>
+    
+    
+Individual: <http://model.geneontology.org/e0688e99-0514-4c8e-aead-4e0051d4f74f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "hallmark"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/fc2a03e4-7443-4d54-a035-d26519467b65>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_600625>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_600625>
+
+    Annotations: 
+        rdfs:label "OROFACIAL CLEFT 11 CLEFT LIP, CONGENITAL HEALED, INCLUDED CONGENITAL HEALED CLEFT LIP, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

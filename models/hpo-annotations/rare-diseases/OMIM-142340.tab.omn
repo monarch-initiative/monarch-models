@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/cc2d5753-5cd0-4576-b1d7-46003e6b7db7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-142340.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000776>
+
+    Annotations: 
+        rdfs:label "Congenital diaphragmatic hernia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001426>
+
+    Annotations: 
+        rdfs:label "Multifactorial inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_142340>
+
+    Annotations: 
+        rdfs:label "DIAPHRAGMATIC HERNIA, CONGENITAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/7e300a2d-7c29-47e2-8230-a1a448b1ed4b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000776>
+    
+    
+Individual: <http://model.geneontology.org/875037df-dcca-455a-a6e2-d69d1f5c0e49>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142340>
+    
+    
+Individual: <http://model.geneontology.org/9d850e56-8c85-4fd8-b6b1-448488109352>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001426>
+    
+    
+Individual: <http://model.geneontology.org/b3bc2822-2104-4e42-8c3c-3b0ff82d4959>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_142340>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e300a2d-7c29-47e2-8230-a1a448b1ed4b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c05cbbcb-b4fa-4fe8-9bb3-088cb359206b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e300a2d-7c29-47e2-8230-a1a448b1ed4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e300a2d-7c29-47e2-8230-a1a448b1ed4b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7e300a2d-7c29-47e2-8230-a1a448b1ed4b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d850e56-8c85-4fd8-b6b1-448488109352>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/875037df-dcca-455a-a6e2-d69d1f5c0e49>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d850e56-8c85-4fd8-b6b1-448488109352>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d850e56-8c85-4fd8-b6b1-448488109352>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9d850e56-8c85-4fd8-b6b1-448488109352>
+    
+    
+Individual: <http://model.geneontology.org/c05cbbcb-b4fa-4fe8-9bb3-088cb359206b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_142340>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_142340>
+
+    Annotations: 
+        rdfs:label "DIAPHRAGMATIC HERNIA, CONGENITAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

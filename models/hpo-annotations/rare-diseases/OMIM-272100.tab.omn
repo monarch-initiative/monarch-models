@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c4dac921-501f-4677-9a59-5441efcc23fd>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-272100.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006918>
+
+    Annotations: 
+        rdfs:label "Diffuse cerebral sclerosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100704>
+
+    Annotations: 
+        rdfs:label "Cortical visual impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_272100>
+
+    Annotations: 
+        rdfs:label "SUDANOPHILIC CEREBRAL SCLEROSIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/11abac0b-c98b-4b46-8797-25600c33d457>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/700e3da7-f02d-4925-a10c-8b21bddd900c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272100>
+    
+    
+Individual: <http://model.geneontology.org/84a1ce27-1496-424e-82f9-5b3ac2e8823c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100704>
+    
+    
+Individual: <http://model.geneontology.org/b5077c37-b50a-4984-bf8a-acc4d0f6673b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272100>
+    
+    
+Individual: <http://model.geneontology.org/bbc1f97d-384b-46b4-965d-42de6f98e292>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006918>
+    
+    
+Individual: <http://model.geneontology.org/bed73ac7-72ba-4268-8b38-a1f9c220b435>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_272100>
+    
+    
+Individual: <http://model.geneontology.org/db8a3f62-f51e-489a-ad8f-100017f7e84b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_272100>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbc1f97d-384b-46b4-965d-42de6f98e292>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bed73ac7-72ba-4268-8b38-a1f9c220b435>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbc1f97d-384b-46b4-965d-42de6f98e292>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbc1f97d-384b-46b4-965d-42de6f98e292>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-07-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bbc1f97d-384b-46b4-965d-42de6f98e292>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11abac0b-c98b-4b46-8797-25600c33d457>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b5077c37-b50a-4984-bf8a-acc4d0f6673b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11abac0b-c98b-4b46-8797-25600c33d457>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11abac0b-c98b-4b46-8797-25600c33d457>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11abac0b-c98b-4b46-8797-25600c33d457>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84a1ce27-1496-424e-82f9-5b3ac2e8823c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/700e3da7-f02d-4925-a10c-8b21bddd900c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84a1ce27-1496-424e-82f9-5b3ac2e8823c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84a1ce27-1496-424e-82f9-5b3ac2e8823c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/84a1ce27-1496-424e-82f9-5b3ac2e8823c>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_272100>
+
+    Annotations: 
+        rdfs:label "SUDANOPHILIC CEREBRAL SCLEROSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/5bd549d3-b289-449e-a53a-d0d2bbe27e60>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-227240.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000478>
+
+    Annotations: 
+        rdfs:label "Abnormality of the eye"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_227240>
+
+    Annotations: 
+        rdfs:label "SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 5"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/e3c366db-f84e-4c66-b9ac-6b464466854a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000478>
+    
+    
+Individual: <http://model.geneontology.org/e736b48b-c7f5-46ec-b8ae-2c6b549b2356>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_227240>
+    
+    
+Individual: <http://model.geneontology.org/feb8945f-a3f5-4a4e-b525-ffef803488a7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_227240>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3c366db-f84e-4c66-b9ac-6b464466854a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e736b48b-c7f5-46ec-b8ae-2c6b549b2356>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3c366db-f84e-4c66-b9ac-6b464466854a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3c366db-f84e-4c66-b9ac-6b464466854a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3c366db-f84e-4c66-b9ac-6b464466854a>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_227240>
+
+    Annotations: 
+        rdfs:label "SKIN/HAIR/EYE PIGMENTATION, VARIATION IN, 5"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

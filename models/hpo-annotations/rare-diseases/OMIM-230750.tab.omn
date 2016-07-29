@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/57264f0c-11ec-42db-83e5-ecfbeb52c84f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-230750.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001543>
+
+    Annotations: 
+        rdfs:label "Gastroschisis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_230750>
+
+    Annotations: 
+        rdfs:label "GASTROSCHISISABDOMINAL WALL DEFECTS, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/00c2b6e9-c206-46de-9ac0-7f6096ea8fe2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001543>
+    
+    
+Individual: <http://model.geneontology.org/47c291f7-4ac7-4e20-96d9-9cd5a12cc5a5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_230750>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00c2b6e9-c206-46de-9ac0-7f6096ea8fe2>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/65f458a5-2ade-4c92-a975-104271283433>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00c2b6e9-c206-46de-9ac0-7f6096ea8fe2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00c2b6e9-c206-46de-9ac0-7f6096ea8fe2>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/00c2b6e9-c206-46de-9ac0-7f6096ea8fe2>
+    
+    
+Individual: <http://model.geneontology.org/65f458a5-2ade-4c92-a975-104271283433>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_230750>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_230750>
+
+    Annotations: 
+        rdfs:label "GASTROSCHISISABDOMINAL WALL DEFECTS, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/3eee1be1-6611-4e0c-a0c8-af4ac8aec2f4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-147900.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001374>
+
+    Annotations: 
+        rdfs:label "Congenital hip dislocation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001388>
+
+    Annotations: 
+        rdfs:label "Joint laxity"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_147900>
+
+    Annotations: 
+        rdfs:label "JOINT LAXITY, FAMILIAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0a0798a4-6efc-4726-8fe7-033adc7aa03c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_147900>
+    
+    
+Individual: <http://model.geneontology.org/1c2709e6-fa9e-4446-8d63-2ac921060ede>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001374>
+    
+    
+Individual: <http://model.geneontology.org/1c53667c-f3ba-4253-a0d4-56dfa6d3626a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_147900>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c2709e6-fa9e-4446-8d63-2ac921060ede>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3c4d9d8e-fd6e-4038-bfa8-c947706f6744>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c2709e6-fa9e-4446-8d63-2ac921060ede>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c2709e6-fa9e-4446-8d63-2ac921060ede>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1c2709e6-fa9e-4446-8d63-2ac921060ede>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d0fe222-ab46-4cdb-b9a3-3f25e2971fa4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/661bc013-34e9-40ae-85ee-1e023faa52f8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d0fe222-ab46-4cdb-b9a3-3f25e2971fa4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d0fe222-ab46-4cdb-b9a3-3f25e2971fa4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d0fe222-ab46-4cdb-b9a3-3f25e2971fa4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/90e26d46-f958-45d2-9a32-24be2b13e18e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0a0798a4-6efc-4726-8fe7-033adc7aa03c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/90e26d46-f958-45d2-9a32-24be2b13e18e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/90e26d46-f958-45d2-9a32-24be2b13e18e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/90e26d46-f958-45d2-9a32-24be2b13e18e>
+    
+    
+Individual: <http://model.geneontology.org/2d0fe222-ab46-4cdb-b9a3-3f25e2971fa4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001388>
+    
+    
+Individual: <http://model.geneontology.org/3c4d9d8e-fd6e-4038-bfa8-c947706f6744>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_147900>
+    
+    
+Individual: <http://model.geneontology.org/661bc013-34e9-40ae-85ee-1e023faa52f8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_147900>
+    
+    
+Individual: <http://model.geneontology.org/90e26d46-f958-45d2-9a32-24be2b13e18e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_147900>
+
+    Annotations: 
+        rdfs:label "JOINT LAXITY, FAMILIAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

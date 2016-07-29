@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6835e2d2-9526-4cba-af95-906edcc90d0f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-608995.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001426>
+
+    Annotations: 
+        rdfs:label "Multifactorial inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010522>
+
+    Annotations: 
+        rdfs:label "Dyslexia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_608995>
+
+    Annotations: 
+        rdfs:label "DYSLEXIA, SUSCEPTIBILITY TO, 8"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/018707fd-1f97-4f1a-8896-d82262cedc5f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001426>
+    
+    
+Individual: <http://model.geneontology.org/1858c92d-4040-4570-8db1-5eaaf7478f5c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608995>
+    
+    
+Individual: <http://model.geneontology.org/27a8bdf6-0a05-4e86-a2df-8e3160c71a99>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608995>
+    
+    
+Individual: <http://model.geneontology.org/3544a4a5-1aec-442b-8374-f32ed5e3b17d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_608995>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/018707fd-1f97-4f1a-8896-d82262cedc5f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/27a8bdf6-0a05-4e86-a2df-8e3160c71a99>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/018707fd-1f97-4f1a-8896-d82262cedc5f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/018707fd-1f97-4f1a-8896-d82262cedc5f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/018707fd-1f97-4f1a-8896-d82262cedc5f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c48fc47-b1e4-449e-a764-9b99f78bc635>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1858c92d-4040-4570-8db1-5eaaf7478f5c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c48fc47-b1e4-449e-a764-9b99f78bc635>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c48fc47-b1e4-449e-a764-9b99f78bc635>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2010-06-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c48fc47-b1e4-449e-a764-9b99f78bc635>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58ca5e4a-48f4-4d70-804b-b1c0e3ac3d70>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7be0423f-3ccb-4e21-a101-cde961b594e1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58ca5e4a-48f4-4d70-804b-b1c0e3ac3d70>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58ca5e4a-48f4-4d70-804b-b1c0e3ac3d70>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/58ca5e4a-48f4-4d70-804b-b1c0e3ac3d70>
+    
+    
+Individual: <http://model.geneontology.org/4c48fc47-b1e4-449e-a764-9b99f78bc635>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010522>
+    
+    
+Individual: <http://model.geneontology.org/58ca5e4a-48f4-4d70-804b-b1c0e3ac3d70>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/7be0423f-3ccb-4e21-a101-cde961b594e1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608995>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_608995>
+
+    Annotations: 
+        rdfs:label "DYSLEXIA, SUSCEPTIBILITY TO, 8"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

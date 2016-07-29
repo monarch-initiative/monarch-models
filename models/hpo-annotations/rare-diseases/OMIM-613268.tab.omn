@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f98e9453-320d-47e0-a63e-893d21393d70>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-613268.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001131>
+
+    Annotations: 
+        rdfs:label "Corneal dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_613268>
+
+    Annotations: 
+        rdfs:label "#613268 CORNEAL DYSTROPHY, FUCHS ENDOTHELIAL, 4; FECD4;;CORNEAL DYSTROPHY, FUCHS ENDOTHELIAL, LATE-ONSET"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3f93554e-6535-49cf-81d0-baf1aeffe672>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001131>
+    
+    
+Individual: <http://model.geneontology.org/44393790-494b-4b36-a6fe-befe64a0b9ab>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_613268>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f93554e-6535-49cf-81d0-baf1aeffe672>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9a1c7a15-eeb3-49b4-b8ce-9a179a786fc3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f93554e-6535-49cf-81d0-baf1aeffe672>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f93554e-6535-49cf-81d0-baf1aeffe672>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f93554e-6535-49cf-81d0-baf1aeffe672>
+    
+    
+Individual: <http://model.geneontology.org/9a1c7a15-eeb3-49b4-b8ce-9a179a786fc3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_613268>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_613268>
+
+    Annotations: 
+        rdfs:label "#613268 CORNEAL DYSTROPHY, FUCHS ENDOTHELIAL, 4; FECD4;;CORNEAL DYSTROPHY, FUCHS ENDOTHELIAL, LATE-ONSET"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

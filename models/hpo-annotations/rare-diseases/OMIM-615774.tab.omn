@@ -1,0 +1,147 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a1283a30-cb7a-401c-b9bf-3b82a109bbbe>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615774.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000789>
+
+    Annotations: 
+        rdfs:label "Infertility"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615774>
+
+    Annotations: 
+        rdfs:label "#615774 OOCYTE MATURATION DEFECT; OOMD"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/401c5f98-0480-4f68-91f0-fa5078108868>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GENITOURINARY_INTERNAL GENITALIA, FEMALE > INFERTILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000789>
+    
+    
+Individual: <http://model.geneontology.org/68ad2c28-50ee-4ce5-942d-1b342ab420da>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615774>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c38f9078-2154-4dba-b54c-3f7404105c6f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e570a823-c8ba-4d7b-9bd8-a013cd8212b2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c38f9078-2154-4dba-b54c-3f7404105c6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c38f9078-2154-4dba-b54c-3f7404105c6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-05-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c38f9078-2154-4dba-b54c-3f7404105c6f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/401c5f98-0480-4f68-91f0-fa5078108868>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9c8ca405-8100-42eb-acc9-b278a765ed4c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/401c5f98-0480-4f68-91f0-fa5078108868>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/401c5f98-0480-4f68-91f0-fa5078108868>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-05-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/401c5f98-0480-4f68-91f0-fa5078108868>
+    
+    
+Individual: <http://model.geneontology.org/9c8ca405-8100-42eb-acc9-b278a765ed4c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615774>
+    
+    
+Individual: <http://model.geneontology.org/c38f9078-2154-4dba-b54c-3f7404105c6f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/e570a823-c8ba-4d7b-9bd8-a013cd8212b2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615774>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615774>
+
+    Annotations: 
+        rdfs:label "#615774 OOCYTE MATURATION DEFECT; OOMD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

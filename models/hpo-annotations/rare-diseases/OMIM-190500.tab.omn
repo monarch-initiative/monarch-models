@@ -1,0 +1,172 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/737a0f88-ac54-4945-bb88-b70f088a84ca>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-190500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001199>
+
+    Annotations: 
+        rdfs:label "Triphalangeal thumb"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009606>
+
+    Annotations: 
+        rdfs:label "duplicated distal phalanx of the thumb"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_190500>
+
+    Annotations: 
+        rdfs:label "TRIPHALANGEAL THUMB WITH DOUBLE PHALANGES"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/20cca9ae-f68d-49ef-8e3c-ce14bfac1486>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001199>
+    
+    
+Individual: <http://model.geneontology.org/2e09ea55-d623-40f3-9cae-9db536589e1a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/471cb578-804f-4b89-9b5c-ded3bffe18ee>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190500>
+    
+    
+Individual: <http://model.geneontology.org/83828e58-4077-4ecd-9cb0-271585081ec9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_190500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d80ee5bb-33f4-49b9-ad8e-e093c2b0c88a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/471cb578-804f-4b89-9b5c-ded3bffe18ee>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d80ee5bb-33f4-49b9-ad8e-e093c2b0c88a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d80ee5bb-33f4-49b9-ad8e-e093c2b0c88a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d80ee5bb-33f4-49b9-ad8e-e093c2b0c88a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e09ea55-d623-40f3-9cae-9db536589e1a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fd560064-b6c0-442f-8245-b98c7744f51c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e09ea55-d623-40f3-9cae-9db536589e1a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e09ea55-d623-40f3-9cae-9db536589e1a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e09ea55-d623-40f3-9cae-9db536589e1a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20cca9ae-f68d-49ef-8e3c-ce14bfac1486>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a2a2caf2-2ba0-4d10-9d7f-0558d8315b1a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20cca9ae-f68d-49ef-8e3c-ce14bfac1486>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20cca9ae-f68d-49ef-8e3c-ce14bfac1486>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20cca9ae-f68d-49ef-8e3c-ce14bfac1486>
+    
+    
+Individual: <http://model.geneontology.org/a2a2caf2-2ba0-4d10-9d7f-0558d8315b1a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190500>
+    
+    
+Individual: <http://model.geneontology.org/d80ee5bb-33f4-49b9-ad8e-e093c2b0c88a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009606>
+    
+    
+Individual: <http://model.geneontology.org/fd560064-b6c0-442f-8245-b98c7744f51c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_190500>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_190500>
+
+    Annotations: 
+        rdfs:label "TRIPHALANGEAL THUMB WITH DOUBLE PHALANGES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

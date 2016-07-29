@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/237d87ac-70f5-4017-873d-3b0ebcaf6943>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-104400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009827>
+
+    Annotations: 
+        rdfs:label "Amelia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_104400>
+
+    Annotations: 
+        rdfs:label "AMELIA AND TERMINAL TRANSVERSE HEMIMELIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/54a60de3-d634-4a43-a554-d2f25d9660a1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009827>
+    
+    
+Individual: <http://model.geneontology.org/74f7f183-e33a-4b2f-8111-2a5ce388bfc2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_104400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/54a60de3-d634-4a43-a554-d2f25d9660a1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cb598d37-91f8-4b5e-8de7-0257c23cb0ff>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/54a60de3-d634-4a43-a554-d2f25d9660a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/54a60de3-d634-4a43-a554-d2f25d9660a1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/54a60de3-d634-4a43-a554-d2f25d9660a1>
+    
+    
+Individual: <http://model.geneontology.org/cb598d37-91f8-4b5e-8de7-0257c23cb0ff>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_104400>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_104400>
+
+    Annotations: 
+        rdfs:label "AMELIA AND TERMINAL TRANSVERSE HEMIMELIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

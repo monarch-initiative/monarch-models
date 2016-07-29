@@ -1,0 +1,196 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/731131fa-0c17-48f1-8e46-1e7ea4c9f96e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615916.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001644>
+
+    Annotations: 
+        rdfs:label "Dilated cardiomyopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004308>
+
+    Annotations: 
+        rdfs:label "Ventricular arrhythmia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615916>
+
+    Annotations: 
+        rdfs:label "#615916 CARDIOMYOPATHY, DILATED, 1NN; CMD1NN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/11d7f90f-5125-46cb-99f9-99c92fab7570>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/265bf952-2e15-49e3-b2ee-4e57dc852b4c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > VENTRICULAR ARRHYTHMIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004308>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/57914b7f-f744-4969-ae04-9b63710ee257>
+    
+    
+Individual: <http://model.geneontology.org/57914b7f-f744-4969-ae04-9b63710ee257>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/9207f2c5-4780-430a-9b68-c17795f3b634>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615916>
+    
+    
+Individual: <http://model.geneontology.org/92129102-c71b-46d3-83e1-189dbf57e75f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615916>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb356f61-6582-40ce-8ada-58cbe27fa5b3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/11d7f90f-5125-46cb-99f9-99c92fab7570>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb356f61-6582-40ce-8ada-58cbe27fa5b3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb356f61-6582-40ce-8ada-58cbe27fa5b3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb356f61-6582-40ce-8ada-58cbe27fa5b3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c2005b08-ebea-4b05-8142-17e9b23076e8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9207f2c5-4780-430a-9b68-c17795f3b634>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c2005b08-ebea-4b05-8142-17e9b23076e8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c2005b08-ebea-4b05-8142-17e9b23076e8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c2005b08-ebea-4b05-8142-17e9b23076e8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/265bf952-2e15-49e3-b2ee-4e57dc852b4c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ab156772-0f23-4c19-a199-cc57b81c9f36>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/265bf952-2e15-49e3-b2ee-4e57dc852b4c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/265bf952-2e15-49e3-b2ee-4e57dc852b4c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/265bf952-2e15-49e3-b2ee-4e57dc852b4c>
+    
+    
+Individual: <http://model.geneontology.org/ab156772-0f23-4c19-a199-cc57b81c9f36>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615916>
+    
+    
+Individual: <http://model.geneontology.org/bb356f61-6582-40ce-8ada-58cbe27fa5b3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/c2005b08-ebea-4b05-8142-17e9b23076e8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:CARDIOVASCULAR_HEART > DILATED CARDIOMYOPATHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001644>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615916>
+
+    Annotations: 
+        rdfs:label "#615916 CARDIOMYOPATHY, DILATED, 1NN; CMD1NN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

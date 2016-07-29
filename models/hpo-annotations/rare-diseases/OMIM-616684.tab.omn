@@ -1,0 +1,258 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8d40a2b4-5582-4718-97db-954cde14abc7>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616684.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000407>
+
+    Annotations: 
+        rdfs:label "Sensorineural hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000639>
+
+    Annotations: 
+        rdfs:label "Nystagmus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002151>
+
+    Annotations: 
+        rdfs:label "Increased serum lactate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002355>
+
+    Annotations: 
+        rdfs:label "Difficulty walking"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002751>
+
+    Annotations: 
+        rdfs:label "Kyphoscoliosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616684>
+
+    Annotations: 
+        rdfs:label "#616684 CHARCOT-MARIE-TOOTH DISEASE, TYPE 4K; CMT4K;;CHARCOT-MARIE-TOOTH DISEASE, DEMYELINATING, AUTOSOMAL RECESSIVE, TYPE4K;;CHARCOT-MARIE-TOOTH NEUROPATHY, DEMYELINATING, AUTOSOMAL RECESSIVE,TYPE 4K"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2d6630f9-4cc2-4f07-b3c2-17006ad12147>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_SPINE > KYPHOSCOLIOSIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002751>
+    
+    
+Individual: <http://model.geneontology.org/2f32edaf-988d-42ef-b693-e57d365c70dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616684>
+    
+    
+Individual: <http://model.geneontology.org/4286e6f9-eebc-4ab5-aa9c-881ac2626668>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > INCREASED SERUM LACTATE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002151>
+    
+    
+Individual: <http://model.geneontology.org/44af6cd8-fef2-4c95-b9e6-f82508da8ebd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "MODIFIER:MILD;OMIM-CS:HEAD AND NECK_EARS > HEARING LOSS, SENSORINEURAL, MILD"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000407>
+    
+    
+Individual: <http://model.geneontology.org/81a254f1-4331-46f5-bddd-dd4195fd6310>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616684>
+    
+    
+Individual: <http://model.geneontology.org/82d5a16a-4b7c-44de-ac0a-e0f27befef64>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_PERIPHERAL NERVOUS SYSTEM > DIFFICULTY WALKING"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002355>
+    
+    
+Individual: <http://model.geneontology.org/a2ebaaf2-4b61-4014-b59b-ca380cf2a2d5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616684>
+    
+    
+Individual: <http://model.geneontology.org/a4f517d6-f092-4301-8ecc-00e80669095d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616684>
+    
+    
+Individual: <http://model.geneontology.org/dc35bd35-5bb1-4961-aa0a-9c1ee0af7793>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616684>
+    
+    
+Individual: <http://model.geneontology.org/e3fc8647-a331-4431-8de8-3bff21e8a0ed>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616684>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fbae7be2-bdcb-43df-916f-b9f5b4c0f2bd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a4f517d6-f092-4301-8ecc-00e80669095d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fbae7be2-bdcb-43df-916f-b9f5b4c0f2bd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fbae7be2-bdcb-43df-916f-b9f5b4c0f2bd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fbae7be2-bdcb-43df-916f-b9f5b4c0f2bd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d6630f9-4cc2-4f07-b3c2-17006ad12147>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a2ebaaf2-4b61-4014-b59b-ca380cf2a2d5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d6630f9-4cc2-4f07-b3c2-17006ad12147>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d6630f9-4cc2-4f07-b3c2-17006ad12147>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d6630f9-4cc2-4f07-b3c2-17006ad12147>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4286e6f9-eebc-4ab5-aa9c-881ac2626668>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/2f32edaf-988d-42ef-b693-e57d365c70dd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4286e6f9-eebc-4ab5-aa9c-881ac2626668>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4286e6f9-eebc-4ab5-aa9c-881ac2626668>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4286e6f9-eebc-4ab5-aa9c-881ac2626668>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44af6cd8-fef2-4c95-b9e6-f82508da8ebd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dc35bd35-5bb1-4961-aa0a-9c1ee0af7793>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44af6cd8-fef2-4c95-b9e6-f82508da8ebd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44af6cd8-fef2-4c95-b9e6-f82508da8ebd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/44af6cd8-fef2-4c95-b9e6-f82508da8ebd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82d5a16a-4b7c-44de-ac0a-e0f27befef64>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/81a254f1-4331-46f5-bddd-dd4195fd6310>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82d5a16a-4b7c-44de-ac0a-e0f27befef64>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82d5a16a-4b7c-44de-ac0a-e0f27befef64>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/82d5a16a-4b7c-44de-ac0a-e0f27befef64>
+    
+    
+Individual: <http://model.geneontology.org/fbae7be2-bdcb-43df-916f-b9f5b4c0f2bd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > NYSTAGMUS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000639>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616684>
+
+    Annotations: 
+        rdfs:label "#616684 CHARCOT-MARIE-TOOTH DISEASE, TYPE 4K; CMT4K;;CHARCOT-MARIE-TOOTH DISEASE, DEMYELINATING, AUTOSOMAL RECESSIVE, TYPE4K;;CHARCOT-MARIE-TOOTH NEUROPATHY, DEMYELINATING, AUTOSOMAL RECESSIVE,TYPE 4K"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

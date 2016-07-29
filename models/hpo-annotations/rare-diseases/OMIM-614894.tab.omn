@@ -1,0 +1,221 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9b8cd169-b535-4ea4-89ff-984edc5ef7a2>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614894.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001508>
+
+    Annotations: 
+        rdfs:label "Failure to thrive"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002719>
+
+    Annotations: 
+        rdfs:label "Recurrent infections"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003593>
+
+    Annotations: 
+        rdfs:label "Infantile onset"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614894>
+
+    Annotations: 
+        rdfs:label "#614894 MONOCYTE AND DENDRITIC CELL DEFICIENCY, AUTOSOMAL RECESSIVE;;IRF8 DEFICIENCY, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1caa7188-2456-4a90-a088-391f0540759e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/210a8d51-964a-452f-aa9a-701f18c526c3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614894>
+    
+    
+Individual: <http://model.geneontology.org/45b61b2d-ade8-43df-85e0-ab79f8e67194>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_OTHER > FAILURE TO THRIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001508>
+    
+    
+Individual: <http://model.geneontology.org/5b763f7c-6f60-4d8a-9387-5c391bdb42a8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614894>
+    
+    
+Individual: <http://model.geneontology.org/8339fe00-bc04-4f21-b02b-5cd5f25eb37f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002719>
+    
+    
+Individual: <http://model.geneontology.org/bf5bcd3f-5665-4c7d-837a-d16c31c5a04c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MISCELLANEOUS > ONSET IN INFANCY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003593>
+    
+    
+Individual: <http://model.geneontology.org/cad20c66-1fbb-4303-9b98-9b15b8b2b30f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614894>
+    
+    
+Individual: <http://model.geneontology.org/d59337b4-60c3-481b-8552-d9633b97cb3c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/eccc60ca-817b-4c40-be89-ce9ec058b3b6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614894>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf5bcd3f-5665-4c7d-837a-d16c31c5a04c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/210a8d51-964a-452f-aa9a-701f18c526c3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf5bcd3f-5665-4c7d-837a-d16c31c5a04c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf5bcd3f-5665-4c7d-837a-d16c31c5a04c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bf5bcd3f-5665-4c7d-837a-d16c31c5a04c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1caa7188-2456-4a90-a088-391f0540759e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5b763f7c-6f60-4d8a-9387-5c391bdb42a8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1caa7188-2456-4a90-a088-391f0540759e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1caa7188-2456-4a90-a088-391f0540759e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1caa7188-2456-4a90-a088-391f0540759e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45b61b2d-ade8-43df-85e0-ab79f8e67194>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cad20c66-1fbb-4303-9b98-9b15b8b2b30f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45b61b2d-ade8-43df-85e0-ab79f8e67194>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45b61b2d-ade8-43df-85e0-ab79f8e67194>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-10-06"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/45b61b2d-ade8-43df-85e0-ab79f8e67194>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8339fe00-bc04-4f21-b02b-5cd5f25eb37f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d59337b4-60c3-481b-8552-d9633b97cb3c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8339fe00-bc04-4f21-b02b-5cd5f25eb37f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8339fe00-bc04-4f21-b02b-5cd5f25eb37f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/8339fe00-bc04-4f21-b02b-5cd5f25eb37f>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614894>
+
+    Annotations: 
+        rdfs:label "#614894 MONOCYTE AND DENDRITIC CELL DEFICIENCY, AUTOSOMAL RECESSIVE;;IRF8 DEFICIENCY, AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

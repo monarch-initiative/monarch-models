@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/cfe327d7-bd5e-4254-8870-2aa13aff00e4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-189960.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002032>
+
+    Annotations: 
+        rdfs:label "Esophageal atresia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002575>
+
+    Annotations: 
+        rdfs:label "Tracheoesophageal fistula"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_189960>
+
+    Annotations: 
+        rdfs:label "TRACHEOESOPHAGEAL FISTULA WITH OR WITHOUT ESOPHAGEAL ATRESIA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3c51af65-3f1d-4969-b7f6-42b628b5dc18>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002032>
+    
+    
+Individual: <http://model.geneontology.org/5e044178-e2c6-4747-a66b-c6253dd2c0d6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189960>
+    
+    
+Individual: <http://model.geneontology.org/b2a5e760-af2b-42e2-9e4f-d8598d0eedb0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002575>
+    
+    
+Individual: <http://model.geneontology.org/b6d2d6d0-f18f-4c5e-b387-a99d350d5d25>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_189960>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b2a5e760-af2b-42e2-9e4f-d8598d0eedb0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e00dbbc7-0a64-4293-9ec3-fd13d158e660>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b2a5e760-af2b-42e2-9e4f-d8598d0eedb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b2a5e760-af2b-42e2-9e4f-d8598d0eedb0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b2a5e760-af2b-42e2-9e4f-d8598d0eedb0>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c51af65-3f1d-4969-b7f6-42b628b5dc18>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5e044178-e2c6-4747-a66b-c6253dd2c0d6>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c51af65-3f1d-4969-b7f6-42b628b5dc18>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c51af65-3f1d-4969-b7f6-42b628b5dc18>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3c51af65-3f1d-4969-b7f6-42b628b5dc18>
+    
+    
+Individual: <http://model.geneontology.org/e00dbbc7-0a64-4293-9ec3-fd13d158e660>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189960>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_189960>
+
+    Annotations: 
+        rdfs:label "TRACHEOESOPHAGEAL FISTULA WITH OR WITHOUT ESOPHAGEAL ATRESIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

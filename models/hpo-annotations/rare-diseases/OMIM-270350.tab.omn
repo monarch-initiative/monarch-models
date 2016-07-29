@@ -1,0 +1,150 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/6f9e7954-4dc5-4ea7-9913-48ebab7f9140>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-270350.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000458>
+
+    Annotations: 
+        rdfs:label "Anosmia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_270350>
+
+    Annotations: 
+        rdfs:label "SKUNK N-BUTYLMERCAPTAN, INABILITY TO SMELL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/11327f7a-714c-4fe1-b0aa-316841f2d446>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Anosmia for N-butylmercaptan"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000458>
+    
+    
+Individual: <http://model.geneontology.org/3b389ec7-1760-4e6c-ad90-a6ebb3a6db49>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_270350>
+    
+    
+Individual: <http://model.geneontology.org/c03cfb33-2966-4a86-a200-29608e3aee7a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/d0f0c66a-ba80-46c5-9ff9-d3abf7271042>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_270350>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c03cfb33-2966-4a86-a200-29608e3aee7a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e10c1412-7945-4ea5-b691-a3eae5b113bc>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c03cfb33-2966-4a86-a200-29608e3aee7a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c03cfb33-2966-4a86-a200-29608e3aee7a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c03cfb33-2966-4a86-a200-29608e3aee7a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11327f7a-714c-4fe1-b0aa-316841f2d446>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3b389ec7-1760-4e6c-ad90-a6ebb3a6db49>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11327f7a-714c-4fe1-b0aa-316841f2d446>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11327f7a-714c-4fe1-b0aa-316841f2d446>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/11327f7a-714c-4fe1-b0aa-316841f2d446>
+    
+    
+Individual: <http://model.geneontology.org/e10c1412-7945-4ea5-b691-a3eae5b113bc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_270350>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_270350>
+
+    Annotations: 
+        rdfs:label "SKUNK N-BUTYLMERCAPTAN, INABILITY TO SMELL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

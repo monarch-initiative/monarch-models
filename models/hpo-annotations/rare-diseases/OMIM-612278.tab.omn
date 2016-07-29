@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/807a9339-6d4a-4b12-be6d-f1f35530170c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-612278.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002037>
+
+    Annotations: 
+        rdfs:label "Inflammation of the large intestine"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_612278>
+
+    Annotations: 
+        rdfs:label "#612278 INFLAMMATORY BOWEL DISEASE 19; IBD19"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/29155b18-56da-44f2-bc3b-d2d1af4d8552>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_612278>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd0907b3-274e-49c4-a94b-e1bfdf706fcf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3d1015b3-c4c8-48ad-a97f-b11ddc6a8451>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd0907b3-274e-49c4-a94b-e1bfdf706fcf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd0907b3-274e-49c4-a94b-e1bfdf706fcf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd0907b3-274e-49c4-a94b-e1bfdf706fcf>
+    
+    
+Individual: <http://model.geneontology.org/3d1015b3-c4c8-48ad-a97f-b11ddc6a8451>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_612278>
+    
+    
+Individual: <http://model.geneontology.org/fd0907b3-274e-49c4-a94b-e1bfdf706fcf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002037>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_612278>
+
+    Annotations: 
+        rdfs:label "#612278 INFLAMMATORY BOWEL DISEASE 19; IBD19"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,233 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/bafe0bee-b747-4b4b-adb1-a8c5d6558b97>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-616672.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000252>
+
+    Annotations: 
+        rdfs:label "Microcephaly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002059>
+
+    Annotations: 
+        rdfs:label "Cerebral atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002151>
+
+    Annotations: 
+        rdfs:label "Increased serum lactate"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002500>
+
+    Annotations: 
+        rdfs:label "Abnormality of the cerebral white matter"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_616672>
+
+    Annotations: 
+        rdfs:label "#616672 COMBINED OXIDATIVE PHOSPHORYLATION DEFICIENCY 27; COXPD27"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0786ee28-dc89-4dd6-9434-057607be107d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_HEAD > MICROCEPHALY, POSTNATAL (PATIENT B)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000252>
+    
+    
+Individual: <http://model.geneontology.org/55f1e05a-2504-4759-a436-6f4a4da6cb12>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616672>
+    
+    
+Individual: <http://model.geneontology.org/6ced27d7-402b-4f0d-826c-f67557f2448e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > WHITE MATTER ABNORMALITIES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002500>
+    
+    
+Individual: <http://model.geneontology.org/864445b9-2f0d-4a9f-9258-33997e203b6d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616672>
+    
+    
+Individual: <http://model.geneontology.org/896e135f-cd62-433e-af53-1c3c98ba850a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616672>
+    
+    
+Individual: <http://model.geneontology.org/97ca8ecf-1356-4a28-870b-c249e8a523d4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > CEREBRAL ATROPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002059>
+    
+    
+Individual: <http://model.geneontology.org/9b24155d-c520-4540-a253-5dbac7eca049>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_616672>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e11c934e-c5fe-46d1-b075-070b56cac9c5>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/55f1e05a-2504-4759-a436-6f4a4da6cb12>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e11c934e-c5fe-46d1-b075-070b56cac9c5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e11c934e-c5fe-46d1-b075-070b56cac9c5>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e11c934e-c5fe-46d1-b075-070b56cac9c5>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0786ee28-dc89-4dd6-9434-057607be107d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bf3219d9-542f-451d-91d3-8a3cf4706477>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0786ee28-dc89-4dd6-9434-057607be107d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0786ee28-dc89-4dd6-9434-057607be107d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0786ee28-dc89-4dd6-9434-057607be107d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6ced27d7-402b-4f0d-826c-f67557f2448e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/864445b9-2f0d-4a9f-9258-33997e203b6d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6ced27d7-402b-4f0d-826c-f67557f2448e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6ced27d7-402b-4f0d-826c-f67557f2448e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6ced27d7-402b-4f0d-826c-f67557f2448e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97ca8ecf-1356-4a28-870b-c249e8a523d4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/896e135f-cd62-433e-af53-1c3c98ba850a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97ca8ecf-1356-4a28-870b-c249e8a523d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97ca8ecf-1356-4a28-870b-c249e8a523d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-13"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/97ca8ecf-1356-4a28-870b-c249e8a523d4>
+    
+    
+Individual: <http://model.geneontology.org/a18ecf09-6ba2-4faf-b212-8001e610502e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/bf3219d9-542f-451d-91d3-8a3cf4706477>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_616672>
+    
+    
+Individual: <http://model.geneontology.org/e11c934e-c5fe-46d1-b075-070b56cac9c5>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > INCREASED SERUM LACTATE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002151>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/a18ecf09-6ba2-4faf-b212-8001e610502e>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_616672>
+
+    Annotations: 
+        rdfs:label "#616672 COMBINED OXIDATIVE PHOSPHORYLATION DEFICIENCY 27; COXPD27"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

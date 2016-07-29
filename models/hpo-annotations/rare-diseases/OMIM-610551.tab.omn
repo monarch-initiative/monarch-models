@@ -1,0 +1,190 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a71835e6-18c8-494c-8a2d-99bc4c42ad4d>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-610551.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005353>
+
+    Annotations: 
+        rdfs:label "Susceptibility to herpesvirus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012302>
+
+    Annotations: 
+        rdfs:label "Herpes simplex encephalitis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_610551>
+
+    Annotations: 
+        rdfs:label "#610551 HERPES SIMPLEX ENCEPHALITIS, SUSCEPTIBILITY TO, 1;;ENCEPHALOPATHY, ACUTE, INFECTION-INDUCED, SUSCEPTIBILITY TO, 1; IIAE1"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/080a8217-dafe-4b85-b3be-7d6e332b0ae1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/0a74570b-82eb-4c90-967b-a91433ebef9f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_610551>
+    
+    
+Individual: <http://model.geneontology.org/77b27f5d-ca83-40dd-8a78-7e65e22c7d00>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:16973841>
+    
+    
+Individual: <http://model.geneontology.org/7d0a3593-3889-42fc-9708-e8e90cb7e8fe>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:16973841>
+    
+    
+Individual: <http://model.geneontology.org/c723dc3d-9a54-49ac-b046-fc740c0ccdef>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005353>
+    
+    
+Individual: <http://model.geneontology.org/d295e887-3544-4d0a-a4bb-fed4da0a3644>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#610551 herpes simplex encephalitis, susceptibility to,"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012302>
+    
+    
+Individual: <http://model.geneontology.org/d29f7164-03c2-41f8-9af6-d93282e22460>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_610551>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c723dc3d-9a54-49ac-b046-fc740c0ccdef>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/77b27f5d-ca83-40dd-8a78-7e65e22c7d00>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c723dc3d-9a54-49ac-b046-fc740c0ccdef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c723dc3d-9a54-49ac-b046-fc740c0ccdef>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c723dc3d-9a54-49ac-b046-fc740c0ccdef>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d295e887-3544-4d0a-a4bb-fed4da0a3644>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0a74570b-82eb-4c90-967b-a91433ebef9f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d295e887-3544-4d0a-a4bb-fed4da0a3644>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d295e887-3544-4d0a-a4bb-fed4da0a3644>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d295e887-3544-4d0a-a4bb-fed4da0a3644>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/080a8217-dafe-4b85-b3be-7d6e332b0ae1>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7d0a3593-3889-42fc-9708-e8e90cb7e8fe>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/080a8217-dafe-4b85-b3be-7d6e332b0ae1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/080a8217-dafe-4b85-b3be-7d6e332b0ae1>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-03-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/080a8217-dafe-4b85-b3be-7d6e332b0ae1>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_610551>
+
+    Annotations: 
+        rdfs:label "#610551 HERPES SIMPLEX ENCEPHALITIS, SUSCEPTIBILITY TO, 1;;ENCEPHALOPATHY, ACUTE, INFECTION-INDUCED, SUSCEPTIBILITY TO, 1; IIAE1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <pmid:16973841>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

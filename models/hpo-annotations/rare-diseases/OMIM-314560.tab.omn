@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d51e750a-227d-464d-b19c-28cea21720e4>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-314560.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001892>
+
+    Annotations: 
+        rdfs:label "Bleeding diathesis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003010>
+
+    Annotations: 
+        rdfs:label "Prolonged bleeding time"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_314560>
+
+    Annotations: 
+        rdfs:label "VON WILLEBRAND DISEASE, X-LINKED FORM"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/15de093f-5136-496b-8fc5-63387c0a4890>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_314560>
+    
+    
+Individual: <http://model.geneontology.org/3697447b-9a54-4066-8d56-243fb7ce332c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001892>
+    
+    
+Individual: <http://model.geneontology.org/5df87898-31af-47b7-bb9c-d3a1e0d79ff4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_314560>
+    
+    
+Individual: <http://model.geneontology.org/c5d14320-5c1f-4b75-b44c-71dcc53059e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003010>
+    
+    
+Individual: <http://model.geneontology.org/dbe4e04e-5adf-4df1-8ecf-ba9b849bc692>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_314560>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5d14320-5c1f-4b75-b44c-71dcc53059e8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5df87898-31af-47b7-bb9c-d3a1e0d79ff4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5d14320-5c1f-4b75-b44c-71dcc53059e8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5d14320-5c1f-4b75-b44c-71dcc53059e8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/c5d14320-5c1f-4b75-b44c-71dcc53059e8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3697447b-9a54-4066-8d56-243fb7ce332c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/15de093f-5136-496b-8fc5-63387c0a4890>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3697447b-9a54-4066-8d56-243fb7ce332c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3697447b-9a54-4066-8d56-243fb7ce332c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3697447b-9a54-4066-8d56-243fb7ce332c>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_314560>
+
+    Annotations: 
+        rdfs:label "VON WILLEBRAND DISEASE, X-LINKED FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

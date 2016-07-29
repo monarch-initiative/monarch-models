@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/7a268c3a-3cbf-4e00-801a-11ba3b08f421>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-189300.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000153>
+
+    Annotations: 
+        rdfs:label "Abnormality of the mouth"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_189300>
+
+    Annotations: 
+        rdfs:label "TONGUE CURLING, FOLDING, OR ROLLINGCLOVERLEAF TONGUE, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5573e25f-62a9-46e3-8617-f26aef34223a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000153>
+    
+    
+Individual: <http://model.geneontology.org/9f788dcf-7ee2-4f09-a559-63e52d29d9ee>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189300>
+    
+    
+Individual: <http://model.geneontology.org/e29f30ec-10f3-40c6-a8b7-fbb906ce92ae>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_189300>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5573e25f-62a9-46e3-8617-f26aef34223a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9f788dcf-7ee2-4f09-a559-63e52d29d9ee>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5573e25f-62a9-46e3-8617-f26aef34223a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5573e25f-62a9-46e3-8617-f26aef34223a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5573e25f-62a9-46e3-8617-f26aef34223a>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_189300>
+
+    Annotations: 
+        rdfs:label "TONGUE CURLING, FOLDING, OR ROLLINGCLOVERLEAF TONGUE, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/97ae71f3-af0f-4089-a95a-08934f51766a>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-189000.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000924>
+
+    Annotations: 
+        rdfs:label "Abnormality of the musculoskeletal system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_189000>
+
+    Annotations: 
+        rdfs:label "TOE, FIFTH, NUMBER OF PHALANGES IN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/6ec04181-e892-4c0e-9b50-4fd244d6bae1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_189000>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87f1641c-3a08-4a9b-b258-af5873c255df>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/badb0a82-1dcf-4d8b-bb7d-28a83058683c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87f1641c-3a08-4a9b-b258-af5873c255df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87f1641c-3a08-4a9b-b258-af5873c255df>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/87f1641c-3a08-4a9b-b258-af5873c255df>
+    
+    
+Individual: <http://model.geneontology.org/87f1641c-3a08-4a9b-b258-af5873c255df>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000924>
+    
+    
+Individual: <http://model.geneontology.org/badb0a82-1dcf-4d8b-bb7d-28a83058683c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189000>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_189000>
+
+    Annotations: 
+        rdfs:label "TOE, FIFTH, NUMBER OF PHALANGES IN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

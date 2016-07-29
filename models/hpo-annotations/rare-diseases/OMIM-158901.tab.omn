@@ -1,0 +1,354 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/25f16dd9-b403-4ea0-99db-b20d36ac4236>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-158901.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000365>
+
+    Annotations: 
+        rdfs:label "Hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003691>
+
+    Annotations: 
+        rdfs:label "Scapular winging"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003749>
+
+    Annotations: 
+        rdfs:label "Pelvic girdle muscle weakness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008970>
+
+    Annotations: 
+        rdfs:label "Scapulohumeral muscular dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0009027>
+
+    Annotations: 
+        rdfs:label "Foot dorsiflexor weakness"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010628>
+
+    Annotations: 
+        rdfs:label "Facial palsy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010984>
+
+    Annotations: 
+        rdfs:label "Digenic inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0030664>
+
+    Annotations: 
+        rdfs:label "Beevor's sign"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_158901>
+
+    Annotations: 
+        rdfs:label "#158901 FACIOSCAPULOHUMERAL MUSCULAR DYSTROPHY 2; FSHD2;;FACIOSCAPULOHUMERAL MUSCULAR DYSTROPHY 2, DIGENIC;;FSHD2, DIGENIC;;MUSCULAR DYSTROPHY, FACIOSCAPULOHUMERAL, TYPE 2;;MUSCULAR DYSTROPHY, FACIOSCAPULOHUMERAL, TYPE 1B; FSHD1B"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0394b2e9-ac4b-460a-a88f-69252ed1f293>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_158901>
+    
+    
+Individual: <http://model.geneontology.org/1c7bf35b-49c7-4ef6-a341-d4a5811c8810>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "18%"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/27509626-5cf8-4f75-a670-a77ac47880e8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003749>
+    
+    
+Individual: <http://model.geneontology.org/35d6569b-f6b8-41ce-b3b2-af48d2ac3653>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "18%"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3ed9fe53-a894-4bab-a137-fef596c7f204>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0030664>
+    
+    
+Individual: <http://model.geneontology.org/422a47df-a00e-4f8e-9767-d53c6fca19c3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003691>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/1c7bf35b-49c7-4ef6-a341-d4a5811c8810>
+    
+    
+Individual: <http://model.geneontology.org/57523a94-101e-4387-8d64-5a5f9a1e981c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0009027>
+    
+    
+Individual: <http://model.geneontology.org/59939f2a-c8f9-4d53-b916-0ffee1684c84>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/61f81240-5e1f-46c0-85c9-4cc8a3feab5c>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://www.ncbi.nlm.nih.gov/pubmed/8328457>
+    
+    
+Individual: <http://model.geneontology.org/67ca27a4-0df2-44c9-a5e7-5a6212cfb71a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_158901>
+    
+    
+Individual: <http://model.geneontology.org/7664ccd5-5e3f-4c91-903c-557d4cd7a59c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#158901 facioscapulohumeral muscular dystrophy 2; fshd2;;facioscap"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008970>
+    
+    
+Individual: <http://model.geneontology.org/95d63426-96b3-4856-acb7-cdcf7431dde0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010984>
+    
+    
+Individual: <http://model.geneontology.org/99d3eead-e2c8-4d1d-8389-a171a6806878>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_158901>
+    
+    
+Individual: <http://model.geneontology.org/9dbc043c-7f0d-4356-bba4-37458c227483>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000365>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/35d6569b-f6b8-41ce-b3b2-af48d2ac3653>
+    
+    
+Individual: <http://model.geneontology.org/b70fb247-7245-400c-ac31-08ba5b9c696b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_158901>
+    
+    
+Individual: <http://model.geneontology.org/c38b370b-b7a2-429a-974a-4e3b1036d0f9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_158901>
+    
+    
+Individual: <http://model.geneontology.org/e01cbc8a-cb2d-4b71-930f-706092337b02>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_158901>
+    
+    
+Individual: <http://model.geneontology.org/e427b907-8633-4c27-90a0-4a627638555d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_158901>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb6ca908-f586-40e1-80b9-dfa58346452b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b70fb247-7245-400c-ac31-08ba5b9c696b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb6ca908-f586-40e1-80b9-dfa58346452b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb6ca908-f586-40e1-80b9-dfa58346452b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27509626-5cf8-4f75-a670-a77ac47880e8>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/67ca27a4-0df2-44c9-a5e7-5a6212cfb71a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27509626-5cf8-4f75-a670-a77ac47880e8>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/27509626-5cf8-4f75-a670-a77ac47880e8>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed9fe53-a894-4bab-a137-fef596c7f204>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/59939f2a-c8f9-4d53-b916-0ffee1684c84>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed9fe53-a894-4bab-a137-fef596c7f204>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed9fe53-a894-4bab-a137-fef596c7f204>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3ed9fe53-a894-4bab-a137-fef596c7f204>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/422a47df-a00e-4f8e-9767-d53c6fca19c3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/61f81240-5e1f-46c0-85c9-4cc8a3feab5c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/422a47df-a00e-4f8e-9767-d53c6fca19c3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/422a47df-a00e-4f8e-9767-d53c6fca19c3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-12-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/422a47df-a00e-4f8e-9767-d53c6fca19c3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/57523a94-101e-4387-8d64-5a5f9a1e981c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0394b2e9-ac4b-460a-a88f-69252ed1f293>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/57523a94-101e-4387-8d64-5a5f9a1e981c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/57523a94-101e-4387-8d64-5a5f9a1e981c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7664ccd5-5e3f-4c91-903c-557d4cd7a59c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/c38b370b-b7a2-429a-974a-4e3b1036d0f9>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7664ccd5-5e3f-4c91-903c-557d4cd7a59c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7664ccd5-5e3f-4c91-903c-557d4cd7a59c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9dbc043c-7f0d-4356-bba4-37458c227483>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/99d3eead-e2c8-4d1d-8389-a171a6806878>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9dbc043c-7f0d-4356-bba4-37458c227483>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9dbc043c-7f0d-4356-bba4-37458c227483>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95d63426-96b3-4856-acb7-cdcf7431dde0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e01cbc8a-cb2d-4b71-930f-706092337b02>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95d63426-96b3-4856-acb7-cdcf7431dde0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/95d63426-96b3-4856-acb7-cdcf7431dde0>
+    
+    
+Individual: <http://model.geneontology.org/fb6ca908-f586-40e1-80b9-dfa58346452b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010628>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_158901>
+
+    Annotations: 
+        rdfs:label "#158901 FACIOSCAPULOHUMERAL MUSCULAR DYSTROPHY 2; FSHD2;;FACIOSCAPULOHUMERAL MUSCULAR DYSTROPHY 2, DIGENIC;;FSHD2, DIGENIC;;MUSCULAR DYSTROPHY, FACIOSCAPULOHUMERAL, TYPE 2;;MUSCULAR DYSTROPHY, FACIOSCAPULOHUMERAL, TYPE 1B; FSHD1B"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <http://www.ncbi.nlm.nih.gov/pubmed/8328457>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

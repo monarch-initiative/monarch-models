@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9f0f2922-27c3-41e6-bd80-8e1313b08399>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-134700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004814>
+
+    Annotations: 
+        rdfs:label "Fava bean-induced hemolytic anemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_134700>
+
+    Annotations: 
+        rdfs:label "FAVISM, SUSCEPTIBILITY TO"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3a88f9a2-390e-4730-b79b-d37de5b67de6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/73471487-7694-434f-89ac-686a4e80fa7b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_134700>
+    
+    
+Individual: <http://model.geneontology.org/76b14fa9-0150-469f-b77f-4cc5419dbcb3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004814>
+    
+    
+Individual: <http://model.geneontology.org/7f3fb7db-3aeb-4421-a6e8-4f8f437f3d37>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_134700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a88f9a2-390e-4730-b79b-d37de5b67de6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a447cf0c-0f1c-4179-b095-5a7e723360c5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a88f9a2-390e-4730-b79b-d37de5b67de6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a88f9a2-390e-4730-b79b-d37de5b67de6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3a88f9a2-390e-4730-b79b-d37de5b67de6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76b14fa9-0150-469f-b77f-4cc5419dbcb3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/73471487-7694-434f-89ac-686a4e80fa7b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76b14fa9-0150-469f-b77f-4cc5419dbcb3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76b14fa9-0150-469f-b77f-4cc5419dbcb3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-01-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/76b14fa9-0150-469f-b77f-4cc5419dbcb3>
+    
+    
+Individual: <http://model.geneontology.org/a447cf0c-0f1c-4179-b095-5a7e723360c5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_134700>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_134700>
+
+    Annotations: 
+        rdfs:label "FAVISM, SUSCEPTIBILITY TO"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

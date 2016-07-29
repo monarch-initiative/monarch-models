@@ -1,0 +1,356 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d673796d-0fa3-4429-89f8-856b876ee032>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-614500.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000510>
+
+    Annotations: 
+        rdfs:label "Retinitis pigmentosa"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000543>
+
+    Annotations: 
+        rdfs:label "Optic disc pallor"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000548>
+
+    Annotations: 
+        rdfs:label "Cone-rod dystrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007401>
+
+    Annotations: 
+        rdfs:label "Macular atrophy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100259>
+
+    Annotations: 
+        rdfs:label "Postaxial polydactyly"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_614500>
+
+    Annotations: 
+        rdfs:label "#614500 CONE-ROD DYSTROPHY 16; CORD16;;RETINAL DYSTROPHY WITH EARLY MACULAR INVOLVEMENTRETINITIS PIGMENTOSA 64, INCLUDED; RP64, INCLUDED"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/07eb420e-becc-42bf-a0fa-2da23009f159>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    
+Individual: <http://model.geneontology.org/0f6c207e-cb75-459a-adcb-abdd35f5f122>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/165db00a-9bdb-4c29-8631-4426034b82d8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    
+Individual: <http://model.geneontology.org/1b6458ca-5e12-4ef1-b967-4b2984b91b03>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > OPTIC DISC PALLOR (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000543>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/0f6c207e-cb75-459a-adcb-abdd35f5f122>
+    
+    
+Individual: <http://model.geneontology.org/20673525-05d4-4b28-95d2-23f470d7f9e4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    
+Individual: <http://model.geneontology.org/37296854-e4a8-4b10-9989-c1def2058dc9>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/3f294756-da17-496e-9932-a5dc7913cf2a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_FEET > POSTAXIAL POLYDACTYLY (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100259>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/37296854-e4a8-4b10-9989-c1def2058dc9>
+    
+    
+Individual: <http://model.geneontology.org/42a50829-3a6a-456f-ad9c-ff00c9002d0f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:nvolvementretinitis pigmentosa 64, inclu"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000510>
+    
+    
+Individual: <http://model.geneontology.org/4e1a1ba8-f60a-47cc-9367-2e263d474f20>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_HANDS > POSTAXIAL POLYDACTYLY (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100259>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/5b293585-b81b-485c-9d01-5041cd4b932e>
+    
+    
+Individual: <http://model.geneontology.org/5b293585-b81b-485c-9d01-5041cd4b932e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/5ce6793a-a3bc-4de7-92de-c21faaab0608>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb6c3860-074d-4f96-8389-f9f59b268286>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fe20a8f5-6737-4657-b517-b64f6371cff3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb6c3860-074d-4f96-8389-f9f59b268286>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb6c3860-074d-4f96-8389-f9f59b268286>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bb6c3860-074d-4f96-8389-f9f59b268286>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e281aa3e-dc2f-41b5-99d5-931babae9a80>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/07eb420e-becc-42bf-a0fa-2da23009f159>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e281aa3e-dc2f-41b5-99d5-931babae9a80>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e281aa3e-dc2f-41b5-99d5-931babae9a80>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-07-26"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e281aa3e-dc2f-41b5-99d5-931babae9a80>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecffb13e-845a-4c4f-80d4-d1e692e94c13>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d83f4431-3b8b-4a2b-b201-3bf9bd2ce37b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecffb13e-845a-4c4f-80d4-d1e692e94c13>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecffb13e-845a-4c4f-80d4-d1e692e94c13>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/ecffb13e-845a-4c4f-80d4-d1e692e94c13>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b6458ca-5e12-4ef1-b967-4b2984b91b03>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a9104492-fd5c-481f-9610-c32869050b58>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b6458ca-5e12-4ef1-b967-4b2984b91b03>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b6458ca-5e12-4ef1-b967-4b2984b91b03>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1b6458ca-5e12-4ef1-b967-4b2984b91b03>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f294756-da17-496e-9932-a5dc7913cf2a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f7990b22-badd-4eaf-8e6b-efea50ef89b1>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f294756-da17-496e-9932-a5dc7913cf2a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f294756-da17-496e-9932-a5dc7913cf2a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3f294756-da17-496e-9932-a5dc7913cf2a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a1ba8-f60a-47cc-9367-2e263d474f20>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/165db00a-9bdb-4c29-8631-4426034b82d8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a1ba8-f60a-47cc-9367-2e263d474f20>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a1ba8-f60a-47cc-9367-2e263d474f20>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-18"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4e1a1ba8-f60a-47cc-9367-2e263d474f20>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42a50829-3a6a-456f-ad9c-ff00c9002d0f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/20673525-05d4-4b28-95d2-23f470d7f9e4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42a50829-3a6a-456f-ad9c-ff00c9002d0f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42a50829-3a6a-456f-ad9c-ff00c9002d0f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/42a50829-3a6a-456f-ad9c-ff00c9002d0f>
+    
+    
+Individual: <http://model.geneontology.org/a9104492-fd5c-481f-9610-c32869050b58>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    
+Individual: <http://model.geneontology.org/bb6c3860-074d-4f96-8389-f9f59b268286>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/d83f4431-3b8b-4a2b-b201-3bf9bd2ce37b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    
+Individual: <http://model.geneontology.org/e281aa3e-dc2f-41b5-99d5-931babae9a80>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EYES > MACULAR ATROPHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007401>
+    
+    
+Individual: <http://model.geneontology.org/ecffb13e-845a-4c4f-80d4-d1e692e94c13>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:#614500 cone-rod dystrophy 16; cord1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000548>
+    
+    
+Individual: <http://model.geneontology.org/f7990b22-badd-4eaf-8e6b-efea50ef89b1>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    
+Individual: <http://model.geneontology.org/fe20a8f5-6737-4657-b517-b64f6371cff3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_614500>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_614500>
+
+    Annotations: 
+        rdfs:label "#614500 CONE-ROD DYSTROPHY 16; CORD16;;RETINAL DYSTROPHY WITH EARLY MACULAR INVOLVEMENTRETINITIS PIGMENTOSA 64, INCLUDED; RP64, INCLUDED"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

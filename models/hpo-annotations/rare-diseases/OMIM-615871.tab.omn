@@ -1,0 +1,307 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/a67734d2-602c-4c55-b4a7-85f1f2e5fbf5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615871.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000708>
+
+    Annotations: 
+        rdfs:label "Behavioral abnormality"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001249>
+
+    Annotations: 
+        rdfs:label "Intellectual disability"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001251>
+
+    Annotations: 
+        rdfs:label "Ataxia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002373>
+
+    Annotations: 
+        rdfs:label "Febrile seizures"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0200134>
+
+    Annotations: 
+        rdfs:label "Epileptic encephalopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615871>
+
+    Annotations: 
+        rdfs:label "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 24; EIEE24"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/13ba644c-e570-4b38-90f7-d8599434998d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/20b20d8f-4edd-4f2f-9589-5ffc887039dd>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > FEBRILE SEIZURES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002373>
+    
+    
+Individual: <http://model.geneontology.org/2e3eb30d-d1ef-4f43-9bf5-24ad78288964>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > INTELLECTUAL DISABILITY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001249>
+    
+    
+Individual: <http://model.geneontology.org/3d7da0f0-b77c-4468-b440-26caf6ddc9a6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > ATAXIA (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001251>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/d96146c7-6888-400a-b3fa-758f213d8888>
+    
+    
+Individual: <http://model.geneontology.org/402ec66c-3d32-46d8-9cd1-ff29244c8fe4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615871>
+    
+    
+Individual: <http://model.geneontology.org/711952f5-9bb4-49ed-8a72-9e192b73978b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/7a3e1678-81c6-45df-8577-6956ca2f749b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615871>
+    
+    
+Individual: <http://model.geneontology.org/a8a261e7-4428-4b06-8ee9-a9c45f98372c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615871>
+    
+    
+Individual: <http://model.geneontology.org/aaf3679f-ffe3-496f-8942-be3fa110229a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615871>
+    
+    
+Individual: <http://model.geneontology.org/b216fb53-b8eb-48fa-b005-aee9e2976b1d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_BEHAVIORAL/PSYCHIATRIC MANIFESTATIONS > BEHAVIORAL DISTURBANCES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000708>
+    
+    
+Individual: <http://model.geneontology.org/b82d5d64-2631-48c4-9cd5-ea0ab714a69c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615871>
+    
+    
+Individual: <http://model.geneontology.org/d96146c7-6888-400a-b3fa-758f213d8888>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/f114a996-704c-4a36-81bd-028eb9dcb014>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > EPILEPTIC ENCEPHALOPATHY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0200134>
+    
+    
+Individual: <http://model.geneontology.org/f8833a1e-5f92-4b81-994b-b11a4eb4771d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615871>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b216fb53-b8eb-48fa-b005-aee9e2976b1d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/7a3e1678-81c6-45df-8577-6956ca2f749b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b216fb53-b8eb-48fa-b005-aee9e2976b1d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b216fb53-b8eb-48fa-b005-aee9e2976b1d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/b216fb53-b8eb-48fa-b005-aee9e2976b1d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f114a996-704c-4a36-81bd-028eb9dcb014>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/aaf3679f-ffe3-496f-8942-be3fa110229a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f114a996-704c-4a36-81bd-028eb9dcb014>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f114a996-704c-4a36-81bd-028eb9dcb014>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/f114a996-704c-4a36-81bd-028eb9dcb014>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13ba644c-e570-4b38-90f7-d8599434998d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/711952f5-9bb4-49ed-8a72-9e192b73978b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13ba644c-e570-4b38-90f7-d8599434998d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13ba644c-e570-4b38-90f7-d8599434998d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/13ba644c-e570-4b38-90f7-d8599434998d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3eb30d-d1ef-4f43-9bf5-24ad78288964>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b82d5d64-2631-48c4-9cd5-ea0ab714a69c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3eb30d-d1ef-4f43-9bf5-24ad78288964>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3eb30d-d1ef-4f43-9bf5-24ad78288964>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e3eb30d-d1ef-4f43-9bf5-24ad78288964>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20b20d8f-4edd-4f2f-9589-5ffc887039dd>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a8a261e7-4428-4b06-8ee9-a9c45f98372c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20b20d8f-4edd-4f2f-9589-5ffc887039dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20b20d8f-4edd-4f2f-9589-5ffc887039dd>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/20b20d8f-4edd-4f2f-9589-5ffc887039dd>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d7da0f0-b77c-4468-b440-26caf6ddc9a6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/402ec66c-3d32-46d8-9cd1-ff29244c8fe4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d7da0f0-b77c-4468-b440-26caf6ddc9a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d7da0f0-b77c-4468-b440-26caf6ddc9a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-08-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d7da0f0-b77c-4468-b440-26caf6ddc9a6>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615871>
+
+    Annotations: 
+        rdfs:label "EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 24; EIEE24"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

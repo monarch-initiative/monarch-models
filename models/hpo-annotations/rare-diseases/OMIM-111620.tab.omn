@@ -1,0 +1,104 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/36efa651-759a-443d-a892-19fdf7646016>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-111620.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0010701>
+
+    Annotations: 
+        rdfs:label "Abnormal immunoglobulin level"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_111620>
+
+    Annotations: 
+        rdfs:label "#111620 RADIN BLOOD GROUP ANTIGEN; RD;;BLOOD GROUP--RADIN ANTIGEN"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/089efba5-b583-481c-944c-1306db24403e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_111620>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39e1d092-6078-45cf-8dd1-6575e86041fc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/8989873e-0553-4ee6-b6e0-d46375d66203>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39e1d092-6078-45cf-8dd1-6575e86041fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39e1d092-6078-45cf-8dd1-6575e86041fc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/39e1d092-6078-45cf-8dd1-6575e86041fc>
+    
+    
+Individual: <http://model.geneontology.org/39e1d092-6078-45cf-8dd1-6575e86041fc>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0010701>
+    
+    
+Individual: <http://model.geneontology.org/8989873e-0553-4ee6-b6e0-d46375d66203>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_111620>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_111620>
+
+    Annotations: 
+        rdfs:label "#111620 RADIN BLOOD GROUP ANTIGEN; RD;;BLOOD GROUP--RADIN ANTIGEN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

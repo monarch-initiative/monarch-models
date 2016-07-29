@@ -1,0 +1,245 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e67e6b8d-3e02-47f5-879f-42f3281d677c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-608615.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000677>
+
+    Annotations: 
+        rdfs:label "Oligodontia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002209>
+
+    Annotations: 
+        rdfs:label "Sparse scalp hair"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005227>
+
+    Annotations: 
+        rdfs:label "Adenomatous colonic polyposis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_608615>
+
+    Annotations: 
+        rdfs:label "#608615 OLIGODONTIA-COLORECTAL CANCER SYNDROME; ODCRCS;;TOOTH AGENESIS-COLORECTAL CANCER SYNDROME"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0aad5af0-f80a-47ad-8c20-b2e08c7daa0d>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:15042511>
+    
+    
+Individual: <http://model.geneontology.org/1bb99bdd-ef32-4e9a-a1e7-2644e7fdffd4>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:15042511>
+    
+    
+Individual: <http://model.geneontology.org/1bc624d0-22b9-48b6-b0e5-6f6046386592>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1d3e0655-312d-4b0d-bc3c-7731227bc6a4>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:15042511>
+    
+    
+Individual: <http://model.geneontology.org/385365dc-6882-4a8c-a4d2-3e7f8f9c2688>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_608615>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bba47c32-1aa5-4d30-8a4a-f11dd39b1483>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1d3e0655-312d-4b0d-bc3c-7731227bc6a4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bba47c32-1aa5-4d30-8a4a-f11dd39b1483>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bba47c32-1aa5-4d30-8a4a-f11dd39b1483>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bba47c32-1aa5-4d30-8a4a-f11dd39b1483>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3d78f8d-881b-4186-bb85-1914f44b1d0b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/cc79f896-e932-4783-9988-59be3397e21f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3d78f8d-881b-4186-bb85-1914f44b1d0b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3d78f8d-881b-4186-bb85-1914f44b1d0b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-07-30"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e3d78f8d-881b-4186-bb85-1914f44b1d0b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb5f869b-bb7f-4ece-a197-6b877721f1a6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/0aad5af0-f80a-47ad-8c20-b2e08c7daa0d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb5f869b-bb7f-4ece-a197-6b877721f1a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb5f869b-bb7f-4ece-a197-6b877721f1a6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fb5f869b-bb7f-4ece-a197-6b877721f1a6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c71f503-1906-471b-9d92-87705baca40f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1bb99bdd-ef32-4e9a-a1e7-2644e7fdffd4>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c71f503-1906-471b-9d92-87705baca40f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c71f503-1906-471b-9d92-87705baca40f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c71f503-1906-471b-9d92-87705baca40f>
+    
+    
+Individual: <http://model.geneontology.org/3cbe7e5c-df31-4f90-ba79-438bb6036981>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "2/12"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/4c71f503-1906-471b-9d92-87705baca40f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000677>
+    
+    
+Individual: <http://model.geneontology.org/bba47c32-1aa5-4d30-8a4a-f11dd39b1483>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005227>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/3cbe7e5c-df31-4f90-ba79-438bb6036981>
+    
+    
+Individual: <http://model.geneontology.org/cc79f896-e932-4783-9988-59be3397e21f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608615>
+    
+    
+Individual: <http://model.geneontology.org/e3d78f8d-881b-4186-bb85-1914f44b1d0b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKIN, NAILS, HAIR_HAIR > SPARSE SCALP HAIR (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002209>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/1bc624d0-22b9-48b6-b0e5-6f6046386592>
+    
+    
+Individual: <http://model.geneontology.org/fb5f869b-bb7f-4ece-a197-6b877721f1a6>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_608615>
+
+    Annotations: 
+        rdfs:label "#608615 OLIGODONTIA-COLORECTAL CANCER SYNDROME; ODCRCS;;TOOTH AGENESIS-COLORECTAL CANCER SYNDROME"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <pmid:15042511>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/9c328e5c-44ac-4004-8dd8-bb28089679b5>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-117600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002664>
+
+    Annotations: 
+        rdfs:label "Neoplasm"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0100244>
+
+    Annotations: 
+        rdfs:label "Fibrosarcoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_117600>
+
+    Annotations: 
+        rdfs:label "117600 CEREBRAL SARCOMA"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/175f51b3-ea83-40ad-aab6-ab91c9e3e5fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_117600>
+    
+    
+Individual: <http://model.geneontology.org/1b719b27-474b-4638-a627-97d13f07c4a8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_117600>
+    
+    
+Individual: <http://model.geneontology.org/5a62c0cd-58db-44d3-848b-5f6d6d1474f7>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002664>
+    
+    
+Individual: <http://model.geneontology.org/89c7087d-f2f9-4e8b-98b4-f35318649d4d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ONCOLOGY > CEREBRAL FIBROSARCOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0100244>
+    
+    
+Individual: <http://model.geneontology.org/98eed911-bf2b-4377-a690-083c829aa056>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_117600>
+    
+    
+Individual: <http://model.geneontology.org/bebd69fd-350e-4ce1-a1f8-6f28ebfb29be>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_117600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d138360c-acf5-4f84-9f0f-3ddab5651a2d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/175f51b3-ea83-40ad-aab6-ab91c9e3e5fa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d138360c-acf5-4f84-9f0f-3ddab5651a2d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d138360c-acf5-4f84-9f0f-3ddab5651a2d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/d138360c-acf5-4f84-9f0f-3ddab5651a2d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a62c0cd-58db-44d3-848b-5f6d6d1474f7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1b719b27-474b-4638-a627-97d13f07c4a8>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a62c0cd-58db-44d3-848b-5f6d6d1474f7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a62c0cd-58db-44d3-848b-5f6d6d1474f7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5a62c0cd-58db-44d3-848b-5f6d6d1474f7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/89c7087d-f2f9-4e8b-98b4-f35318649d4d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/98eed911-bf2b-4377-a690-083c829aa056>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/89c7087d-f2f9-4e8b-98b4-f35318649d4d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/89c7087d-f2f9-4e8b-98b4-f35318649d4d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-11-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/89c7087d-f2f9-4e8b-98b4-f35318649d4d>
+    
+    
+Individual: <http://model.geneontology.org/d138360c-acf5-4f84-9f0f-3ddab5651a2d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_117600>
+
+    Annotations: 
+        rdfs:label "117600 CEREBRAL SARCOMA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

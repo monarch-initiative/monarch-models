@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/86df86d2-ceee-4698-b1e5-beef5fc9146f>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-144700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003745>
+
+    Annotations: 
+        rdfs:label "Sporadic"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0005584>
+
+    Annotations: 
+        rdfs:label "Renal cell carcinoma"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_144700>
+
+    Annotations: 
+        rdfs:label "RENAL CELL CARCINOMA, NONPAPILLARY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/28509278-eeb7-4680-b9fc-dd5871317219>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144700>
+    
+    
+Individual: <http://model.geneontology.org/5c1f07a6-0a7a-4ad4-8f86-c5688861c846>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0005584>
+    
+    
+Individual: <http://model.geneontology.org/6dd89e3d-f387-40f7-af4e-2cb0f5ffe575>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003745>
+    
+    
+Individual: <http://model.geneontology.org/9115ffaa-be4b-4e94-b229-675e124c7f8c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144700>
+    
+    
+Individual: <http://model.geneontology.org/ebc74e92-8345-4740-a65f-beb76ab0dff8>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_144700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1f07a6-0a7a-4ad4-8f86-c5688861c846>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/28509278-eeb7-4680-b9fc-dd5871317219>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1f07a6-0a7a-4ad4-8f86-c5688861c846>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1f07a6-0a7a-4ad4-8f86-c5688861c846>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-31"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5c1f07a6-0a7a-4ad4-8f86-c5688861c846>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6dd89e3d-f387-40f7-af4e-2cb0f5ffe575>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9115ffaa-be4b-4e94-b229-675e124c7f8c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6dd89e3d-f387-40f7-af4e-2cb0f5ffe575>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6dd89e3d-f387-40f7-af4e-2cb0f5ffe575>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-04-24"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/6dd89e3d-f387-40f7-af4e-2cb0f5ffe575>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_144700>
+
+    Annotations: 
+        rdfs:label "RENAL CELL CARCINOMA, NONPAPILLARY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

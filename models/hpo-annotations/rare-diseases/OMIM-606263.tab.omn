@@ -1,0 +1,233 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/c872cc63-64c5-4719-b9c0-b03e8441556c>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-606263.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000365>
+
+    Annotations: 
+        rdfs:label "Hearing impairment"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002653>
+
+    Annotations: 
+        rdfs:label "Bone pain"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003155>
+
+    Annotations: 
+        rdfs:label "Elevated alkaline phosphatase"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_606263>
+
+    Annotations: 
+        rdfs:label "%606263 PAGET DISEASE OF BONE 4; PDB4"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1157dd27-2c9b-4242-8cc0-15abf692598a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/166c4bc9-b972-41c8-aa56-30e856426b79>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606263>
+    
+    
+Individual: <http://model.geneontology.org/37775cc8-9794-497b-906b-0e01b794e8b6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:LABORATORY ABNORMALITIES > INCREASED ALKALINE PHOSPHATASE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003155>
+    
+    
+Individual: <http://model.geneontology.org/412980c1-8bee-42dd-b4ef-c5fdd8176c39>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/4be01207-591b-4760-8b4d-32df1c1887e7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL > BONE PAIN"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002653>
+    
+    
+Individual: <http://model.geneontology.org/7c713b5f-c81a-43cd-83ac-0193093fbb46>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:HEAD AND NECK_EARS > DEAFNESS (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000365>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/1157dd27-2c9b-4242-8cc0-15abf692598a>
+    
+    
+Individual: <http://model.geneontology.org/87f54d12-c595-44e2-9c52-38bcaa7e6f2f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606263>
+    
+    
+Individual: <http://model.geneontology.org/8cd7456c-7354-46ec-a6e4-cd460d6866cd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_606263>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37775cc8-9794-497b-906b-0e01b794e8b6>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f270eaec-1753-49a9-9f92-becf8a14fe1b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37775cc8-9794-497b-906b-0e01b794e8b6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37775cc8-9794-497b-906b-0e01b794e8b6>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/37775cc8-9794-497b-906b-0e01b794e8b6>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be01207-591b-4760-8b4d-32df1c1887e7>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/87f54d12-c595-44e2-9c52-38bcaa7e6f2f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be01207-591b-4760-8b4d-32df1c1887e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be01207-591b-4760-8b4d-32df1c1887e7>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4be01207-591b-4760-8b4d-32df1c1887e7>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/412980c1-8bee-42dd-b4ef-c5fdd8176c39>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/de43588f-e345-4fed-b073-bf60a950dc17>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/412980c1-8bee-42dd-b4ef-c5fdd8176c39>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/412980c1-8bee-42dd-b4ef-c5fdd8176c39>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/412980c1-8bee-42dd-b4ef-c5fdd8176c39>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c713b5f-c81a-43cd-83ac-0193093fbb46>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/166c4bc9-b972-41c8-aa56-30e856426b79>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c713b5f-c81a-43cd-83ac-0193093fbb46>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c713b5f-c81a-43cd-83ac-0193093fbb46>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-08-16"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/7c713b5f-c81a-43cd-83ac-0193093fbb46>
+    
+    
+Individual: <http://model.geneontology.org/de43588f-e345-4fed-b073-bf60a950dc17>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/f270eaec-1753-49a9-9f92-becf8a14fe1b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_606263>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_606263>
+
+    Annotations: 
+        rdfs:label "%606263 PAGET DISEASE OF BONE 4; PDB4"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

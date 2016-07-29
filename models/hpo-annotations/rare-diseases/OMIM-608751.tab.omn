@@ -1,0 +1,252 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/875770d2-6d12-4ee2-af86-ea8e23507b05>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-608751.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000007>
+
+    Annotations: 
+        rdfs:label "Autosomal recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001639>
+
+    Annotations: 
+        rdfs:label "Hypertrophic cardiomyopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001723>
+
+    Annotations: 
+        rdfs:label "Restrictive cardiomyopathy"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006685>
+
+    Annotations: 
+        rdfs:label "Endocardial fibrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_608751>
+
+    Annotations: 
+        rdfs:label "#608751 CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 8; CMH8;;CARDIOMYOPATHY, HYPERTROPHIC, MID-LEFT VENTRICULAR CHAMBER TYPE, 1"^^xsd:string
+    
+    
+Class: <urn:local:PCS>
+
+    Annotations: 
+        rdfs:label "PCS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/01e85049-49db-4b44-aac7-f3a832339c24>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608751>
+    
+    
+Individual: <http://model.geneontology.org/09bb3e87-573d-4e44-a925-94be155ebc21>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:12021217>
+    
+    
+Individual: <http://model.geneontology.org/141af0b4-f97c-45d0-897f-1dc65b21b720>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_608751>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e96903b-85fc-4755-89fa-1d24b28f3a14>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/01e85049-49db-4b44-aac7-f3a832339c24>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e96903b-85fc-4755-89fa-1d24b28f3a14>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e96903b-85fc-4755-89fa-1d24b28f3a14>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-09"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2e96903b-85fc-4755-89fa-1d24b28f3a14>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f362065-59a2-4d92-aed9-f9fc9e965d6d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/33a467ab-dc20-467e-a7cd-b85ee87a1f5a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f362065-59a2-4d92-aed9-f9fc9e965d6d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f362065-59a2-4d92-aed9-f9fc9e965d6d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5f362065-59a2-4d92-aed9-f9fc9e965d6d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc44e13-2841-4e30-86b6-e845fe920bc3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/bcec6297-90c4-4411-b991-9489ea6ba944>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc44e13-2841-4e30-86b6-e845fe920bc3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc44e13-2841-4e30-86b6-e845fe920bc3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/5fc44e13-2841-4e30-86b6-e845fe920bc3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ce6aa2-3a8c-4498-82db-f4482ea292b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/09bb3e87-573d-4e44-a925-94be155ebc21>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ce6aa2-3a8c-4498-82db-f4482ea292b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ce6aa2-3a8c-4498-82db-f4482ea292b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/70ce6aa2-3a8c-4498-82db-f4482ea292b4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/738519f3-04e9-4e1f-ab7e-acc24865922b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1b6aa346-897a-438b-8c5f-9a83f26bc2ee>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/738519f3-04e9-4e1f-ab7e-acc24865922b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/738519f3-04e9-4e1f-ab7e-acc24865922b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-02-05"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/738519f3-04e9-4e1f-ab7e-acc24865922b>
+    
+    
+Individual: <http://model.geneontology.org/1b6aa346-897a-438b-8c5f-9a83f26bc2ee>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:12021217>
+    
+    
+Individual: <http://model.geneontology.org/2e96903b-85fc-4755-89fa-1d24b28f3a14>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000007>
+    
+    
+Individual: <http://model.geneontology.org/33a467ab-dc20-467e-a7cd-b85ee87a1f5a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_608751>
+    
+    
+Individual: <http://model.geneontology.org/5f362065-59a2-4d92-aed9-f9fc9e965d6d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/5fc44e13-2841-4e30-86b6-e845fe920bc3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001723>
+    
+    
+Individual: <http://model.geneontology.org/70ce6aa2-3a8c-4498-82db-f4482ea292b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001639>
+    
+    
+Individual: <http://model.geneontology.org/738519f3-04e9-4e1f-ab7e-acc24865922b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006685>
+    
+    
+Individual: <http://model.geneontology.org/bcec6297-90c4-4411-b991-9489ea6ba944>
+
+    Types: 
+        <urn:local:PCS>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <pmid:12021217>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_608751>
+
+    Annotations: 
+        rdfs:label "#608751 CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 8; CMH8;;CARDIOMYOPATHY, HYPERTROPHIC, MID-LEFT VENTRICULAR CHAMBER TYPE, 1"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
+Individual: <pmid:12021217>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/056c1a58-912e-47db-bb13-65e4abbeea1e>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-146400.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0040221>
+
+    Annotations: 
+        rdfs:label "Hypoplasia of the dental root"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_146400>
+
+    Annotations: 
+        rdfs:label "HYPOPLASIA OF TEETH ROOTS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1d3ffb63-75d5-4810-abae-0c4064e37d74>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_146400>
+    
+    
+Individual: <http://model.geneontology.org/630e1bd5-629a-4bd9-859f-6549fa7e7618>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/984a67db-c3ff-4007-8c88-c7b9dc668377>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0040221>
+    
+    
+Individual: <http://model.geneontology.org/9a5a0e4a-abcd-4e6f-911a-4584fd9ec0dd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_146400>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/630e1bd5-629a-4bd9-859f-6549fa7e7618>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1d3ffb63-75d5-4810-abae-0c4064e37d74>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/630e1bd5-629a-4bd9-859f-6549fa7e7618>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/630e1bd5-629a-4bd9-859f-6549fa7e7618>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/630e1bd5-629a-4bd9-859f-6549fa7e7618>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/984a67db-c3ff-4007-8c88-c7b9dc668377>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e9d1d4f4-8754-452d-a3d0-cf2051d944ed>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/984a67db-c3ff-4007-8c88-c7b9dc668377>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/984a67db-c3ff-4007-8c88-c7b9dc668377>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-01-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/984a67db-c3ff-4007-8c88-c7b9dc668377>
+    
+    
+Individual: <http://model.geneontology.org/e9d1d4f4-8754-452d-a3d0-cf2051d944ed>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_146400>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_146400>
+
+    Annotations: 
+        rdfs:label "HYPOPLASIA OF TEETH ROOTS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

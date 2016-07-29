@@ -1,0 +1,178 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/4410a532-5e94-4f8c-8b66-247134393d57>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-164750.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000023>
+
+    Annotations: 
+        rdfs:label "Inguinal hernia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001539>
+
+    Annotations: 
+        rdfs:label "Omphalocele"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_164750>
+
+    Annotations: 
+        rdfs:label "OMPHALOCELE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/009faadf-3232-4d65-81b9-17fcc6e28197>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_164750>
+    
+    
+Individual: <http://model.geneontology.org/24db22a5-36cd-4e00-8989-eb332625b5b4>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001539>
+    
+    
+Individual: <http://model.geneontology.org/340ef037-5637-4f94-b32a-72afbd095450>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000023>
+    
+    
+Individual: <http://model.geneontology.org/3d44eea7-5c75-479d-af57-15530587a2b3>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT FORM"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/62faa1d0-3798-4d75-870b-99643fa64a3d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_164750>
+    
+    
+Individual: <http://model.geneontology.org/9f1da8d7-bc5d-472f-bbb2-8c73d085d78f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_164750>
+    
+    
+Individual: <http://model.geneontology.org/c7b1cc38-9981-47f9-a6de-e9a665ff9045>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_164750>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24db22a5-36cd-4e00-8989-eb332625b5b4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/62faa1d0-3798-4d75-870b-99643fa64a3d>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24db22a5-36cd-4e00-8989-eb332625b5b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24db22a5-36cd-4e00-8989-eb332625b5b4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/24db22a5-36cd-4e00-8989-eb332625b5b4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d44eea7-5c75-479d-af57-15530587a2b3>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9f1da8d7-bc5d-472f-bbb2-8c73d085d78f>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d44eea7-5c75-479d-af57-15530587a2b3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d44eea7-5c75-479d-af57-15530587a2b3>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-05-29"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/3d44eea7-5c75-479d-af57-15530587a2b3>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/340ef037-5637-4f94-b32a-72afbd095450>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/009faadf-3232-4d65-81b9-17fcc6e28197>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/340ef037-5637-4f94-b32a-72afbd095450>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/340ef037-5637-4f94-b32a-72afbd095450>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/340ef037-5637-4f94-b32a-72afbd095450>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_164750>
+
+    Annotations: 
+        rdfs:label "OMPHALOCELE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

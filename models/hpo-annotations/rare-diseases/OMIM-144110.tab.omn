@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/f471ca96-8244-47b1-b8dd-0b7c7caec677>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-144110.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0007410>
+
+    Annotations: 
+        rdfs:label "Palmoplantar hyperhidrosis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_144110>
+
+    Annotations: 
+        rdfs:label "HYPERHIDROSIS PALMARIS ET PLANTARIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1a923ce1-947d-4f89-8bd9-13e71d9ca81d>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/4c1c9db2-2847-4997-8d97-0b88f2d65326>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0007410>
+    
+    
+Individual: <http://model.geneontology.org/56e55be7-074b-41be-91b5-15852b512eaa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144110>
+    
+    
+Individual: <http://model.geneontology.org/7544d7ea-13a0-4404-94bc-9859eb63f99e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_144110>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a923ce1-947d-4f89-8bd9-13e71d9ca81d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/56e55be7-074b-41be-91b5-15852b512eaa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a923ce1-947d-4f89-8bd9-13e71d9ca81d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a923ce1-947d-4f89-8bd9-13e71d9ca81d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1a923ce1-947d-4f89-8bd9-13e71d9ca81d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c1c9db2-2847-4997-8d97-0b88f2d65326>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/9ded7f0f-ef55-449a-a08a-dd7568978920>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c1c9db2-2847-4997-8d97-0b88f2d65326>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c1c9db2-2847-4997-8d97-0b88f2d65326>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/4c1c9db2-2847-4997-8d97-0b88f2d65326>
+    
+    
+Individual: <http://model.geneontology.org/9ded7f0f-ef55-449a-a08a-dd7568978920>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_144110>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_144110>
+
+    Annotations: 
+        rdfs:label "HYPERHIDROSIS PALMARIS ET PLANTARIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

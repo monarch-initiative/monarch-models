@@ -1,0 +1,110 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/ed4ecf8f-ad3b-4bb0-9835-292a8003b911>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-207600.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0012089>
+
+    Annotations: 
+        rdfs:label "Arteritis"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_207600>
+
+    Annotations: 
+        rdfs:label "TAKAYASU ARTERITIS"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/2850ef86-f3ac-4ca6-8771-823d833a78cf>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Arteritis of major aortic branches"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0012089>
+    
+    
+Individual: <http://model.geneontology.org/e50e62b4-9b62-4df3-99c6-43540874fb36>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_207600>
+    
+    
+Individual: <http://model.geneontology.org/f9561399-6ee2-42ba-82ce-b61487fb6740>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_207600>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2850ef86-f3ac-4ca6-8771-823d833a78cf>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/e50e62b4-9b62-4df3-99c6-43540874fb36>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2850ef86-f3ac-4ca6-8771-823d833a78cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2850ef86-f3ac-4ca6-8771-823d833a78cf>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2013-00-07"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2850ef86-f3ac-4ca6-8771-823d833a78cf>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_207600>
+
+    Annotations: 
+        rdfs:label "TAKAYASU ARTERITIS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

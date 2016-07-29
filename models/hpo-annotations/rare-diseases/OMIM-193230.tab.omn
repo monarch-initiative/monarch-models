@@ -1,0 +1,227 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d7ec95ac-db84-43b4-b377-4d81216991d3>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-193230.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000518>
+
+    Annotations: 
+        rdfs:label "Cataract"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000655>
+
+    Annotations: 
+        rdfs:label "Vitreoretinal degeneration"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0030663>
+
+    Annotations: 
+        rdfs:label "Optically empty vitreous"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_193230>
+
+    Annotations: 
+        rdfs:label "VITREORETINAL DEGENERATION, SNOWFLAKE TYPE"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1daf80b5-5f77-41e5-b9bf-19f519869c7c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/201bffbf-a364-435f-be31-9b914c650850>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0030663>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/a62bfdfe-2424-4781-80c6-f282164f720e>
+    
+    
+Individual: <http://model.geneontology.org/35f359b7-aec4-474a-b680-c249956c8528>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_193230>
+    
+    
+Individual: <http://model.geneontology.org/45de3542-152f-4e82-9d70-f89b4e0601bb>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_193230>
+    
+    
+Individual: <http://model.geneontology.org/47e25049-a31c-46e7-817c-e00426df4546>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:vitreoretinal degeneration, snowflake type"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000655>
+    
+    
+Individual: <http://model.geneontology.org/623594cc-fb14-4339-9a3b-2578b53c2a83>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000518>
+    
+    
+Individual: <http://model.geneontology.org/6e92cd72-01de-4202-aa9c-027a9745b176>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_193230>
+    
+    
+Individual: <http://model.geneontology.org/a10fc5e1-40c1-49eb-a279-6a82e0851ba0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    
+Individual: <http://model.geneontology.org/a62bfdfe-2424-4781-80c6-f282164f720e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Occasional"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/e4b843ca-a93e-4787-8879-cd3764e5b364>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_193230>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1daf80b5-5f77-41e5-b9bf-19f519869c7c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/6e92cd72-01de-4202-aa9c-027a9745b176>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1daf80b5-5f77-41e5-b9bf-19f519869c7c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1daf80b5-5f77-41e5-b9bf-19f519869c7c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1daf80b5-5f77-41e5-b9bf-19f519869c7c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/201bffbf-a364-435f-be31-9b914c650850>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/a10fc5e1-40c1-49eb-a279-6a82e0851ba0>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/201bffbf-a364-435f-be31-9b914c650850>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/201bffbf-a364-435f-be31-9b914c650850>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2016-02-01"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/201bffbf-a364-435f-be31-9b914c650850>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47e25049-a31c-46e7-817c-e00426df4546>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/45de3542-152f-4e82-9d70-f89b4e0601bb>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47e25049-a31c-46e7-817c-e00426df4546>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47e25049-a31c-46e7-817c-e00426df4546>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-27"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47e25049-a31c-46e7-817c-e00426df4546>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/623594cc-fb14-4339-9a3b-2578b53c2a83>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/35f359b7-aec4-474a-b680-c249956c8528>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/623594cc-fb14-4339-9a3b-2578b53c2a83>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/623594cc-fb14-4339-9a3b-2578b53c2a83>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/623594cc-fb14-4339-9a3b-2578b53c2a83>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_193230>
+
+    Annotations: 
+        rdfs:label "VITREORETINAL DEGENERATION, SNOWFLAKE TYPE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

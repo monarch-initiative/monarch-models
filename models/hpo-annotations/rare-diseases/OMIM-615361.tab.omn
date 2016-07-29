@@ -1,0 +1,316 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/e5b3b9c5-5fa9-4ec4-af2e-23383de5712b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-615361.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://example.org/condition_to_frequency>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002135>
+
+    Annotations: 
+        rdfs:label "Basal ganglia calcification"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002901>
+
+    Annotations: 
+        rdfs:label "Hypocalcemia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003394>
+
+    Annotations: 
+        rdfs:label "Muscle cramps"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003401>
+
+    Annotations: 
+        rdfs:label "Paresthesia"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0008897>
+
+    Annotations: 
+        rdfs:label "Postnatal growth retardation"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_615361>
+
+    Annotations: 
+        rdfs:label "#615361 HYPOCALCEMIA, AUTOSOMAL DOMINANT 2; HYPOC2"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/031d0dff-d61d-476a-ae46-7a2be112927d>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:ENDOCRINE FEATURES > HYPOCALCEMIA"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002901>
+    
+    
+Individual: <http://model.geneontology.org/21199016-f5c0-43c8-a104-75f65c403dbc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:GROWTH_HEIGHT > POSTNATAL GROWTH FAILURE (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0008897>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/be1def5a-f65a-4df2-b151-2e6ddf75ee94>
+    
+    
+Individual: <http://model.geneontology.org/36cdabe9-eea4-45de-bc9e-13337d68e03b>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MUSCLE, SOFT TISSUE > MUSCLE CRAMPS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003394>
+    
+    
+Individual: <http://model.geneontology.org/3de8017c-2f6b-40c4-921d-d5e4116a353b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615361>
+    
+    
+Individual: <http://model.geneontology.org/4de505ec-b0cc-4a51-af81-93ab11181ba0>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_615361>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfbd30d4-713b-47a9-a717-e63a0d813a71>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d9977249-bfa7-44eb-91be-2c433ffc1a20>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfbd30d4-713b-47a9-a717-e63a0d813a71>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfbd30d4-713b-47a9-a717-e63a0d813a71>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/cfbd30d4-713b-47a9-a717-e63a0d813a71>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e91a820a-82e4-4d2a-890a-70e987080613>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/90da753e-eaf9-41bf-bd77-9bf8643231bf>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e91a820a-82e4-4d2a-890a-70e987080613>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e91a820a-82e4-4d2a-890a-70e987080613>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e91a820a-82e4-4d2a-890a-70e987080613>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/031d0dff-d61d-476a-ae46-7a2be112927d>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fce04d8a-4e2a-4509-bb4a-bc7c595fe2f3>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/031d0dff-d61d-476a-ae46-7a2be112927d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/031d0dff-d61d-476a-ae46-7a2be112927d>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/031d0dff-d61d-476a-ae46-7a2be112927d>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21199016-f5c0-43c8-a104-75f65c403dbc>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f712dc80-fc2f-4c03-b47a-c78557f799cd>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21199016-f5c0-43c8-a104-75f65c403dbc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21199016-f5c0-43c8-a104-75f65c403dbc>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-01-04"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/21199016-f5c0-43c8-a104-75f65c403dbc>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36cdabe9-eea4-45de-bc9e-13337d68e03b>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/daf6dc4b-6185-4dd2-bff2-a18b862a16af>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36cdabe9-eea4-45de-bc9e-13337d68e03b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36cdabe9-eea4-45de-bc9e-13337d68e03b>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/36cdabe9-eea4-45de-bc9e-13337d68e03b>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77c02c27-2566-485a-82e1-dc999bc09b8f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/3de8017c-2f6b-40c4-921d-d5e4116a353b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77c02c27-2566-485a-82e1-dc999bc09b8f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77c02c27-2566-485a-82e1-dc999bc09b8f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2014-01-28"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/77c02c27-2566-485a-82e1-dc999bc09b8f>
+    
+    
+Individual: <http://model.geneontology.org/77c02c27-2566-485a-82e1-dc999bc09b8f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > AUTOSOMAL DOMINANT"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/90da753e-eaf9-41bf-bd77-9bf8643231bf>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615361>
+    
+    
+Individual: <http://model.geneontology.org/be1def5a-f65a-4df2-b151-2e6ddf75ee94>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/cfbd30d4-713b-47a9-a717-e63a0d813a71>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > BASAL GANGLIA CALCIFICATIONS (IN SOME PATIENTS)"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002135>
+    
+    Facts:  
+     <http://example.org/condition_to_frequency>  <http://model.geneontology.org/f30e81a0-8256-42e2-a1f7-25bd4f3851e7>
+    
+    
+Individual: <http://model.geneontology.org/d9977249-bfa7-44eb-91be-2c433ffc1a20>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615361>
+    
+    
+Individual: <http://model.geneontology.org/daf6dc4b-6185-4dd2-bff2-a18b862a16af>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615361>
+    
+    
+Individual: <http://model.geneontology.org/e91a820a-82e4-4d2a-890a-70e987080613>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > PARESTHESIAS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003401>
+    
+    
+Individual: <http://model.geneontology.org/f30e81a0-8256-42e2-a1f7-25bd4f3851e7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "rare"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/f712dc80-fc2f-4c03-b47a-c78557f799cd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615361>
+    
+    
+Individual: <http://model.geneontology.org/fce04d8a-4e2a-4509-bb4a-bc7c595fe2f3>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_615361>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_615361>
+
+    Annotations: 
+        rdfs:label "#615361 HYPOCALCEMIA, AUTOSOMAL DOMINANT 2; HYPOC2"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

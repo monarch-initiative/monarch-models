@@ -1,0 +1,144 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/381cae02-21c1-4df1-927a-d98a2ec7ac2b>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-128700.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000304>
+
+    Annotations: 
+        rdfs:label "TAS"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0004467>
+
+    Annotations: 
+        rdfs:label "Preauricular pit"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_128700>
+
+    Annotations: 
+        rdfs:label "PREAURICULAR FISTULAE, CONGENITAL"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/143f35d9-caa2-4fbf-9a19-b3dfaa435b7a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128700>
+    
+    
+Individual: <http://model.geneontology.org/22ce4c24-c38b-4941-9017-e8c9aa57085f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/47f6a762-1045-45a1-af3d-59bb9a39ac13>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0004467>
+    
+    
+Individual: <http://model.geneontology.org/ad34f1da-ed87-424f-9818-40914bedad85>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000304>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_128700>
+    
+    
+Individual: <http://model.geneontology.org/b01c5aba-739b-46f0-aef0-890a3525aad9>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_128700>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ce4c24-c38b-4941-9017-e8c9aa57085f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/143f35d9-caa2-4fbf-9a19-b3dfaa435b7a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ce4c24-c38b-4941-9017-e8c9aa57085f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ce4c24-c38b-4941-9017-e8c9aa57085f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/22ce4c24-c38b-4941-9017-e8c9aa57085f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47f6a762-1045-45a1-af3d-59bb9a39ac13>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ad34f1da-ed87-424f-9818-40914bedad85>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47f6a762-1045-45a1-af3d-59bb9a39ac13>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-0736-9199"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47f6a762-1045-45a1-af3d-59bb9a39ac13>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/47f6a762-1045-45a1-af3d-59bb9a39ac13>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_128700>
+
+    Annotations: 
+        rdfs:label "PREAURICULAR FISTULAE, CONGENITAL"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

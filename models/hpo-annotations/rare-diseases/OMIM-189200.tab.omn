@@ -1,0 +1,138 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/d62df464-b879-4770-b434-7f7622fd5cad>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-189200.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000006>
+
+    Annotations: 
+        rdfs:label "Autosomal dominant inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0000924>
+
+    Annotations: 
+        rdfs:label "Abnormality of the musculoskeletal system"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_189200>
+
+    Annotations: 
+        rdfs:label "TOES, RELATIVE LENGTH OF FIRST AND SECOND"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/1d2f07b5-699d-4078-abd9-517442d62c77>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189200>
+    
+    
+Individual: <http://model.geneontology.org/2d1ef2e4-4062-4969-b32e-bcacb57de786>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000006>
+    
+    
+Individual: <http://model.geneontology.org/87b452a1-cd87-4cc3-befb-5c2345fd684e>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_189200>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd4ef769-9f08-4df3-a24b-63d53d61dc6f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/1d2f07b5-699d-4078-abd9-517442d62c77>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd4ef769-9f08-4df3-a24b-63d53d61dc6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd4ef769-9f08-4df3-a24b-63d53d61dc6f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/fd4ef769-9f08-4df3-a24b-63d53d61dc6f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d1ef2e4-4062-4969-b32e-bcacb57de786>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/f59d4c32-7169-4b63-b294-46f5de87bb97>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d1ef2e4-4062-4969-b32e-bcacb57de786>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "HPO"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d1ef2e4-4062-4969-b32e-bcacb57de786>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2009-02-17"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2d1ef2e4-4062-4969-b32e-bcacb57de786>
+    
+    
+Individual: <http://model.geneontology.org/f59d4c32-7169-4b63-b294-46f5de87bb97>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_189200>
+    
+    
+Individual: <http://model.geneontology.org/fd4ef769-9f08-4df3-a24b-63d53d61dc6f>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0000924>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_189200>
+
+    Annotations: 
+        rdfs:label "TOES, RELATIVE LENGTH OF FIRST AND SECOND"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    

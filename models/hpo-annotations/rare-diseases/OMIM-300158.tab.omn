@@ -1,0 +1,406 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://model.geneontology.org/8da13e23-f56d-4fe6-b5ae-768529c28ff3>
+
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/title> "OMIM-300158.tab"^^xsd:string
+
+AnnotationProperty: <http://purl.obolibrary.org/obo/RO_0002612>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/contributor>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/date>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/title>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/BFO_0000051>
+
+    
+ObjectProperty: <http://purl.obolibrary.org/obo/SEPIO_0000124>
+
+    
+Class: <http://purl.obolibrary.org/obo/ECO_0000501>
+
+    Annotations: 
+        rdfs:label "IEA"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001288>
+
+    Annotations: 
+        rdfs:label "Gait disturbance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001417>
+
+    Annotations: 
+        rdfs:label "X-linked inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001419>
+
+    Annotations: 
+        rdfs:label "X-linked recessive inheritance"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0001763>
+
+    Annotations: 
+        rdfs:label "Pes planus"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0002804>
+
+    Annotations: 
+        rdfs:label "Arthrogryposis multiplex congenita"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003273>
+
+    Annotations: 
+        rdfs:label "Hip contracture"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0003680>
+
+    Annotations: 
+        rdfs:label "Nonprogressive disorder"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006380>
+
+    Annotations: 
+        rdfs:label "Knee flexion contracture"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/HP_0006466>
+
+    Annotations: 
+        rdfs:label "Ankle contracture"^^xsd:string
+    
+    
+Class: <http://purl.obolibrary.org/obo/IAO_0000311>
+
+    
+Class: <http://purl.obolibrary.org/obo/OMIM_300158>
+
+    Annotations: 
+        rdfs:label "%300158 ARTHROGRYPOSIS, CONGENITAL, LOWER LIMB, X-LINKED; ACLLX;;ARTHROGRYPOSIS, X-LINKED, TYPE V, FORMERLY; AMCX5, FORMERLY"^^xsd:string
+    
+    
+Individual: <http://model.geneontology.org/0409af2b-cb0f-4e27-a643-d1898c13e1d4>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_FEET > FLAT FEET"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001763>
+    
+    
+Individual: <http://model.geneontology.org/10743b3f-ae1a-4b5c-8e13-bdc36f8c37fa>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/1bb423e0-1efb-4052-b33a-c9cdc1a5f920>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001419>
+    
+    
+Individual: <http://model.geneontology.org/240fdc50-b46d-4e68-a9bc-2451adfceedd>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd2c8e65-a245-4671-87b7-d23f1e6e6156>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/b026d4f6-43db-4f72-aa45-10f2d4d37a9a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd2c8e65-a245-4671-87b7-d23f1e6e6156>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd2c8e65-a245-4671-87b7-d23f1e6e6156>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/bd2c8e65-a245-4671-87b7-d23f1e6e6156>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4b8997b-5c04-4e5e-8762-1215ca118f7e>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/10743b3f-ae1a-4b5c-8e13-bdc36f8c37fa>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4b8997b-5c04-4e5e-8762-1215ca118f7e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4b8997b-5c04-4e5e-8762-1215ca118f7e>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e4b8997b-5c04-4e5e-8762-1215ca118f7e>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e5463773-aa6b-41b9-b13a-707cd728292c>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/dfeeed06-9a25-4fbe-aa94-ae5e2a3dd0ef>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e5463773-aa6b-41b9-b13a-707cd728292c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e5463773-aa6b-41b9-b13a-707cd728292c>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2015-00-19"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/e5463773-aa6b-41b9-b13a-707cd728292c>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0409af2b-cb0f-4e27-a643-d1898c13e1d4>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/d9943207-eb92-44a4-a115-3413a56ee61c>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0409af2b-cb0f-4e27-a643-d1898c13e1d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0409af2b-cb0f-4e27-a643-d1898c13e1d4>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/0409af2b-cb0f-4e27-a643-d1898c13e1d4>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1bb423e0-1efb-4052-b33a-c9cdc1a5f920>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/ee4879bc-425b-4f01-b551-c4247cec3da2>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1bb423e0-1efb-4052-b33a-c9cdc1a5f920>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1bb423e0-1efb-4052-b33a-c9cdc1a5f920>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-10-20"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/1bb423e0-1efb-4052-b33a-c9cdc1a5f920>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c63e733-39ef-47e4-9b79-8576e70f657a>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/fdc24859-337d-46e5-bf5a-37985c8cf25b>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c63e733-39ef-47e4-9b79-8576e70f657a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c63e733-39ef-47e4-9b79-8576e70f657a>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/2c63e733-39ef-47e4-9b79-8576e70f657a>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/369a1eed-40d3-45d3-82a7-149272ef6a11>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/4bad5556-ac25-4e2e-9bf9-0c355f19d163>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/369a1eed-40d3-45d3-82a7-149272ef6a11>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/369a1eed-40d3-45d3-82a7-149272ef6a11>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/369a1eed-40d3-45d3-82a7-149272ef6a11>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554705d4-5006-4122-9416-22807a79cd2f>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/5174defd-0757-43ba-bf35-45ae9270bb2a>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554705d4-5006-4122-9416-22807a79cd2f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554705d4-5006-4122-9416-22807a79cd2f>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/554705d4-5006-4122-9416-22807a79cd2f>,
+     <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c6726c2-c065-4485-b523-e82717acf8b0>,
+     
+     Annotations: <http://purl.obolibrary.org/obo/RO_0002612> <http://model.geneontology.org/baaf46bf-ca5b-4be6-8473-3aaec65379b5>
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c6726c2-c065-4485-b523-e82717acf8b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/contributor> "http://orcid.org/0000-0002-5316-1399"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c6726c2-c065-4485-b523-e82717acf8b0>,
+     
+     Annotations: <http://purl.org/dc/elements/1.1/date> "2012-09-14"^^xsd:string
+                 
+                 <http://purl.obolibrary.org/obo/BFO_0000051>  <http://model.geneontology.org/9c6726c2-c065-4485-b523-e82717acf8b0>
+    
+    
+Individual: <http://model.geneontology.org/2c63e733-39ef-47e4-9b79-8576e70f657a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_LIMBS > KNEE CONTRACTURES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006380>
+    
+    
+Individual: <http://model.geneontology.org/369a1eed-40d3-45d3-82a7-149272ef6a11>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:INHERITANCE > X-LINKED RECESSIVE"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001417>
+    
+    
+Individual: <http://model.geneontology.org/4bad5556-ac25-4e2e-9bf9-0c355f19d163>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/5174defd-0757-43ba-bf35-45ae9270bb2a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/554705d4-5006-4122-9416-22807a79cd2f>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_PELVIS > HIP CONTRACTURES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003273>
+    
+    
+Individual: <http://model.geneontology.org/9c6726c2-c065-4485-b523-e82717acf8b0>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:MISCELLANEOUS > NONPROGRESSIVE DISORDER"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0003680>
+    
+    
+Individual: <http://model.geneontology.org/b026d4f6-43db-4f72-aa45-10f2d4d37a9a>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/baaf46bf-ca5b-4be6-8473-3aaec65379b5>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/bd2c8e65-a245-4671-87b7-d23f1e6e6156>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:NEUROLOGIC_CENTRAL NERVOUS SYSTEM > GAIT DIFFICULTIES DUE TO CONTRACTURES OF THE LOWER LIMBS"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0001288>
+    
+    
+Individual: <http://model.geneontology.org/d9943207-eb92-44a4-a115-3413a56ee61c>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/dfeeed06-9a25-4fbe-aa94-ae5e2a3dd0ef>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/e4b8997b-5c04-4e5e-8762-1215ca118f7e>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "OMIM-CS:SKELETAL_LIMBS > ANKLE CONTRACTURES"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0006466>
+    
+    
+Individual: <http://model.geneontology.org/e5463773-aa6b-41b9-b13a-707cd728292c>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Disease name contained:%300158 arthrogryposis, congenit"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/HP_0002804>
+    
+    
+Individual: <http://model.geneontology.org/ee4879bc-425b-4f01-b551-c4247cec3da2>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://model.geneontology.org/fdc24859-337d-46e5-bf5a-37985c8cf25b>
+
+    Types: 
+        <http://purl.obolibrary.org/obo/ECO_0000501>
+    
+    Facts:  
+     <http://purl.obolibrary.org/obo/SEPIO_0000124>  <http://purl.obolibrary.org/obo/OMIM_300158>
+    
+    
+Individual: <http://purl.obolibrary.org/obo/OMIM_300158>
+
+    Annotations: 
+        rdfs:label "%300158 ARTHROGRYPOSIS, CONGENITAL, LOWER LIMB, X-LINKED; ACLLX;;ARTHROGRYPOSIS, X-LINKED, TYPE V, FORMERLY; AMCX5, FORMERLY"^^xsd:string
+    
+    Types: 
+        <http://purl.obolibrary.org/obo/IAO_0000311>
+    
+    
