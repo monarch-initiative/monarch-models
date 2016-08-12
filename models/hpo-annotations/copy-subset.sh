@@ -37,7 +37,6 @@ declare -a RARE_DISEASES=(
 
 declare -a RARE_DISEASES_WITH_NEGATION=(
     "rare-diseases/OMIM-616507.tab.omn"
-    "rare-diseases/OMIM-616507.tab.omn"
     "rare-diseases/OMIM-616583.tab.omn"
     "rare-diseases/OMIM-616617.tab.omn")
 
